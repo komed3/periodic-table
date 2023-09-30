@@ -6,7 +6,7 @@
 /**
  * load required modules/files
  */
-const core = require( './../lib/core.min' );
+const html = require( './../lib/html.min' );
 
 /**
  * output page
@@ -16,6 +16,6 @@ const core = require( './../lib/core.min' );
  */
 module.exports.out = ( req, route ) => {
 
-    return '';
+    return html.getHeader( 'Periodic Table' );
 
 };

@@ -8,7 +8,7 @@
     "main": "server.min.js",
     "scripts": {
         "start": "nodemon server.min.js",
-        "compile": "node-sass app/styles/ -o public/styles/",
+        "compile": "node-sass app/styles/ -o public/styles/ --output-style compressed",
         "test": "exit 1"
     },
     "repository": {
