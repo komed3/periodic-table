@@ -1,6 +1,11 @@
 {
     "h": {
         "symbol": "H",
+        "names": {
+            "en": "Hydrogen",
+            "de": "Wasserstoff",
+            "la": "Hydrogenium"
+        },
         "number": 1,
         "group": 1,
         "period": 1,
@@ -8,6 +13,11 @@
     },
     "he": {
         "symbol": "He",
+        "names": {
+            "en": "Helium",
+            "de": "Helium",
+            "la": "Helium"
+        },
         "number": 2,
         "group": 18,
         "period": 1,
@@ -15,6 +25,11 @@
     },
     "li": {
         "symbol": "Li",
+        "names": {
+            "en": "Lithium",
+            "de": "Lithium",
+            "la": "Lithium"
+        },
         "number": 3,
         "group": 1,
         "period": 2,
@@ -22,6 +37,11 @@
     },
     "be": {
         "symbol": "Be",
+        "names": {
+            "en": "Beryllium",
+            "de": "Beryllium",
+            "la": "Beryllium"
+        },
         "number": 4,
         "group": 2,
         "period": 2,
@@ -29,6 +49,11 @@
     },
     "b": {
         "symbol": "B",
+        "names": {
+            "en": "Boron",
+            "de": "Bor",
+            "la": "Boron"
+        },
         "number": 5,
         "group": 13,
         "period": 2,
@@ -36,6 +61,11 @@
     },
     "c": {
         "symbol": "C",
+        "names": {
+            "en": "Carbon",
+            "de": "Kohlenstoff",
+            "la": "Carbo"
+        },
         "number": 6,
         "group": 14,
         "period": 2,
@@ -43,6 +73,11 @@
     },
     "n": {
         "symbol": "N",
+        "names": {
+            "en": "Nitrogen",
+            "de": "Stickstoff",
+            "la": "Nitrogenium"
+        },
         "number": 7,
         "group": 15,
         "period": 2,
@@ -50,6 +85,11 @@
     },
     "o": {
         "symbol": "O",
+        "names": {
+            "en": "Oxygen",
+            "de": "Sauerstoff",
+            "la": "Oxygenium"
+        },
         "number": 8,
         "group": 16,
         "period": 2,
@@ -57,6 +97,11 @@
     },
     "f": {
         "symbol": "F",
+        "names": {
+            "en": "Fluorine",
+            "de": "Fluor",
+            "la": "Fluor"
+        },
         "number": 9,
         "group": 17,
         "period": 2,
@@ -64,6 +109,11 @@
     },
     "ne": {
         "symbol": "Ne",
+        "names": {
+            "en": "Neon",
+            "de": "Neon",
+            "la": "Neon"
+        },
         "number": 10,
         "group": 18,
         "period": 2,
@@ -71,6 +121,11 @@
     },
     "na": {
         "symbol": "Na",
+        "names": {
+            "en": "Sodium",
+            "de": "Natrium",
+            "la": "Natrium"
+        },
         "number": 11,
         "group": 1,
         "period": 3,
@@ -78,6 +133,11 @@
     },
     "mg": {
         "symbol": "Mg",
+        "names": {
+            "en": "Magnesium",
+            "de": "Magnesium",
+            "la": "Magnesium"
+        },
         "number": 12,
         "group": 2,
         "period": 3,
@@ -85,6 +145,11 @@
     },
     "al": {
         "symbol": "Al",
+        "names": {
+            "en": "Aluminum",
+            "de": "Aluminium",
+            "la": "Aluminium"
+        },
         "number": 13,
         "group": 13,
         "period": 3,
@@ -92,6 +157,11 @@
     },
     "si": {
         "symbol": "Si",
+        "names": {
+            "en": "Silicon",
+            "de": "Silicium",
+            "la": "Silicium"
+        },
         "number": 14,
         "group": 14,
         "period": 3,
@@ -99,6 +169,11 @@
     },
     "P": {
         "symbol": "P",
+        "names": {
+            "en": "Phosphorus",
+            "de": "Phosphor",
+            "la": "Phosphor"
+        },
         "number": 15,
         "group": 15,
         "period": 3,
@@ -106,6 +181,11 @@
     },
     "s": {
         "symbol": "S",
+        "names": {
+            "en": "Sulfur",
+            "de": "Schwefel",
+            "la": "Sulfur"
+        },
         "number": 16,
         "group": 16,
         "period": 3,
@@ -113,6 +193,11 @@
     },
     "cl": {
         "symbol": "Cl",
+        "names": {
+            "en": "Chlorine",
+            "de": "Chlor",
+            "la": "Chlorum"
+        },
         "number": 17,
         "group": 17,
         "period": 3,
@@ -120,6 +205,11 @@
     },
     "ar": {
         "symbol": "Ar",
+        "names": {
+            "en": "Argon",
+            "de": "Argon",
+            "la": "Argon"
+        },
         "number": 18,
         "group": 18,
         "period": 3,
@@ -127,6 +217,11 @@
     },
     "k": {
         "symbol": "K",
+        "names": {
+            "en": "Potassium",
+            "de": "Kalium",
+            "la": "Kalium"
+        },
         "number": 19,
         "group": 1,
         "period": 4,
@@ -134,6 +229,11 @@
     },
     "ca": {
         "symbol": "Ca",
+        "names": {
+            "en": "Calcium",
+            "de": "Calcium",
+            "la": "Calcium"
+        },
         "number": 20,
         "group": 2,
         "period": 4,
@@ -141,6 +241,11 @@
     },
     "sc": {
         "symbol": "Sc",
+        "names": {
+            "en": "Scandium",
+            "de": "Scandium",
+            "la": "Scandium"
+        },
         "number": 21,
         "group": 3,
         "period": 4,
@@ -148,6 +253,11 @@
     },
     "ti": {
         "symbol": "Ti",
+        "names": {
+            "en": "Titanium",
+            "de": "Titan",
+            "la": "Titanum"
+        },
         "number": 22,
         "group": 4,
         "period": 4,
@@ -155,6 +265,11 @@
     },
     "v": {
         "symbol": "V",
+        "names": {
+            "en": "Vanadium",
+            "de": "Vanadium",
+            "la": "Vanadium"
+        },
         "number": 23,
         "group": 5,
         "period": 4,
@@ -162,6 +277,11 @@
     },
     "cr": {
         "symbol": "Cr",
+        "names": {
+            "en": "Chromium",
+            "de": "Chrom",
+            "la": "Chromium"
+        },
         "number": 24,
         "group": 6,
         "period": 4,
@@ -169,6 +289,11 @@
     },
     "mn": {
         "symbol": "Mn",
+        "names": {
+            "en": "Manganese",
+            "de": "Mangan",
+            "la": "Manganum"
+        },
         "number": 25,
         "group": 7,
         "period": 4,
@@ -176,6 +301,11 @@
     },
     "fe": {
         "symbol": "Fe",
+        "names": {
+            "en": "Iron",
+            "de": "Eisen",
+            "la": "Ferrum"
+        },
         "number": 26,
         "group": 8,
         "period": 4,
@@ -183,6 +313,11 @@
     },
     "co": {
         "symbol": "Co",
+        "names": {
+            "en": "Cobalt",
+            "de": "Cobalt",
+            "la": "Cobaltum"
+        },
         "number": 27,
         "group": 9,
         "period": 4,
@@ -190,6 +325,11 @@
     },
     "ni": {
         "symbol": "Ni",
+        "names": {
+            "en": "Nickel",
+            "de": "Nickel",
+            "la": "Niccolum"
+        },
         "number": 28,
         "group": 10,
         "period": 4,
@@ -197,6 +337,11 @@
     },
     "cu": {
         "symbol": "Cu",
+        "names": {
+            "en": "Copper",
+            "de": "Kupfer",
+            "la": "Cuprum"
+        },
         "number": 29,
         "group": 11,
         "period": 4,
@@ -204,6 +349,11 @@
     },
     "zn": {
         "symbol": "Zn",
+        "names": {
+            "en": "Zinc",
+            "de": "Zink",
+            "la": "Zincum"
+        },
         "number": 30,
         "group": 12,
         "period": 4,
@@ -211,6 +361,11 @@
     },
     "ga": {
         "symbol": "Ga",
+        "names": {
+            "en": "Gallium",
+            "de": "Gallium",
+            "la": "Gallium"
+        },
         "number": 31,
         "group": 13,
         "period": 4,
@@ -218,6 +373,11 @@
     },
     "ge": {
         "symbol": "Ge",
+        "names": {
+            "en": "Germanium",
+            "de": "Germanium",
+            "la": "Germanium"
+        },
         "number": 32,
         "group": 14,
         "period": 4,
@@ -225,6 +385,11 @@
     },
     "as": {
         "symbol": "As",
+        "names": {
+            "en": "Arsenic",
+            "de": "Arsen",
+            "la": "Arsenicum"
+        },
         "number": 33,
         "group": 15,
         "period": 4,
@@ -232,6 +397,11 @@
     },
     "se": {
         "symbol": "Se",
+        "names": {
+            "en": "Selenium",
+            "de": "Selen",
+            "la": "Selenum"
+        },
         "number": 34,
         "group": 16,
         "period": 4,
@@ -239,6 +409,11 @@
     },
     "rr": {
         "symbol": "Br",
+        "names": {
+            "en": "Bromine",
+            "de": "Brom",
+            "la": "Bromum"
+        },
         "number": 35,
         "group": 17,
         "period": 4,
@@ -246,6 +421,11 @@
     },
     "kr": {
         "symbol": "Kr",
+        "names": {
+            "en": "Krypton",
+            "de": "Krypton",
+            "la": "Krypton"
+        },
         "number": 36,
         "group": 18,
         "period": 4,
@@ -253,6 +433,11 @@
     },
     "rb": {
         "symbol": "Rb",
+        "names": {
+            "en": "Rubidium",
+            "de": "Rubidium",
+            "la": "Rubidium"
+        },
         "number": 37,
         "group": 1,
         "period": 5,
@@ -260,6 +445,11 @@
     },
     "sr": {
         "symbol": "Sr",
+        "names": {
+            "en": "Strontium",
+            "de": "Strontium",
+            "la": "Strontium"
+        },
         "number": 38,
         "group": 2,
         "period": 5,
@@ -267,6 +457,11 @@
     },
     "y": {
         "symbol": "Y",
+        "names": {
+            "en": "Yttrium",
+            "de": "Yttrium",
+            "la": "Yttrium"
+        },
         "number": 39,
         "group": 3,
         "period": 5,
@@ -274,6 +469,11 @@
     },
     "zr": {
         "symbol": "Zr",
+        "names": {
+            "en": "Zirconium",
+            "de": "Zirconium",
+            "la": "Zirconium"
+        },
         "number": 40,
         "group": 4,
         "period": 5,
@@ -281,6 +481,11 @@
     },
     "nb": {
         "symbol": "Nb",
+        "names": {
+            "en": "Niobium",
+            "de": "Niob",
+            "la": "Niobium"
+        },
         "number": 41,
         "group": 5,
         "period": 5,
@@ -288,6 +493,11 @@
     },
     "mo": {
         "symbol": "Mo",
+        "names": {
+            "en": "Molybdenum",
+            "de": "Molybdän",
+            "la": "Molybdenum"
+        },
         "number": 42,
         "group": 6,
         "period": 5,
@@ -295,6 +505,11 @@
     },
     "tc": {
         "symbol": "Tc",
+        "names": {
+            "en": "Technetium",
+            "de": "Technetium",
+            "la": "Technetium"
+        },
         "number": 43,
         "group": 7,
         "period": 5,
@@ -302,6 +517,11 @@
     },
     "ru": {
         "symbol": "Ru",
+        "names": {
+            "en": "Ruthenium",
+            "de": "Ruthenium",
+            "la": "Ruthenium"
+        },
         "number": 44,
         "group": 8,
         "period": 5,
@@ -309,6 +529,11 @@
     },
     "rh": {
         "symbol": "Rh",
+        "names": {
+            "en": "Rhodium",
+            "de": "Rhodium",
+            "la": "Rhodium"
+        },
         "number": 45,
         "group": 9,
         "period": 5,
@@ -316,6 +541,11 @@
     },
     "pd": {
         "symbol": "Pd",
+        "names": {
+            "en": "Palladium",
+            "de": "Palladium",
+            "la": "Palladium"
+        },
         "number": 46,
         "group": 10,
         "period": 5,
@@ -323,6 +553,11 @@
     },
     "ag": {
         "symbol": "Ag",
+        "names": {
+            "en": "Silver",
+            "de": "Silber",
+            "la": "Argentum"
+        },
         "number": 47,
         "group": 11,
         "period": 5,
@@ -330,6 +565,11 @@
     },
     "cd": {
         "symbol": "Cd",
+        "names": {
+            "en": "Cadmium",
+            "de": "Cadmium",
+            "la": "Cadmium"
+        },
         "number": 48,
         "group": 12,
         "period": 5,
@@ -337,6 +577,11 @@
     },
     "in": {
         "symbol": "In",
+        "names": {
+            "en": "Indium",
+            "de": "Indium",
+            "la": "Indium"
+        },
         "number": 49,
         "group": 13,
         "period": 5,
@@ -344,6 +589,11 @@
     },
     "sn": {
         "symbol": "Sn",
+        "names": {
+            "en": "Tin",
+            "de": "Zinn",
+            "la": "Stannum"
+        },
         "number": 50,
         "group": 14,
         "period": 5,
@@ -351,6 +601,11 @@
     },
     "sb": {
         "symbol": "Sb",
+        "names": {
+            "en": "Antimony",
+            "de": "Antimon",
+            "la": "Stibium"
+        },
         "number": 51,
         "group": 15,
         "period": 5,
@@ -358,6 +613,11 @@
     },
     "te": {
         "symbol": "Te",
+        "names": {
+            "en": "Tellurium",
+            "de": "Tellur",
+            "la": "Tellurium"
+        },
         "number": 52,
         "group": 16,
         "period": 5,
@@ -365,6 +625,11 @@
     },
     "i": {
         "symbol": "I",
+        "names": {
+            "en": "Iodine",
+            "de": "Iod",
+            "la": "Iodum"
+        },
         "number": 53,
         "group": 17,
         "period": 5,
@@ -372,6 +637,11 @@
     },
     "xe": {
         "symbol": "Xe",
+        "names": {
+            "en": "Xenon",
+            "de": "Xenon",
+            "la": "Xenon"
+        },
         "number": 54,
         "group": 18,
         "period": 5,
@@ -379,6 +649,11 @@
     },
     "cs": {
         "symbol": "Cs",
+        "names": {
+            "en": "Cesium",
+            "de": "Caesium",
+            "la": "Caesium"
+        },
         "number": 55,
         "group": 1,
         "period": 6,
@@ -386,6 +661,11 @@
     },
     "ba": {
         "symbol": "Ba",
+        "names": {
+            "en": "Barium",
+            "de": "Barium",
+            "la": "Barium"
+        },
         "number": 56,
         "group": 2,
         "period": 6,
@@ -393,6 +673,11 @@
     },
     "la": {
         "symbol": "La",
+        "names": {
+            "en": "Lanthanum",
+            "de": "Lanthan",
+            "la": "Lanthanum"
+        },
         "number": 57,
         "group": "La",
         "period": 6,
@@ -400,6 +685,11 @@
     },
     "ce": {
         "symbol": "Ce",
+        "names": {
+            "en": "Cerium",
+            "de": "Cer",
+            "la": "Cerium"
+        },
         "number": 58,
         "group": "La",
         "period": 6,
@@ -407,6 +697,11 @@
     },
     "pr": {
         "symbol": "Pr",
+        "names": {
+            "en": "Praseodymium",
+            "de": "Praseodym",
+            "la": "Praseodymium"
+        },
         "number": 59,
         "group": "La",
         "period": 6,
@@ -414,6 +709,11 @@
     },
     "nd": {
         "symbol": "Nd",
+        "names": {
+            "en": "Neodymium",
+            "de": "Neodym",
+            "la": "Neodymium"
+        },
         "number": 60,
         "group": "La",
         "period": 6,
@@ -421,6 +721,11 @@
     },
     "pm": {
         "symbol": "Pm",
+        "names": {
+            "en": "Promethium",
+            "de": "Promethium",
+            "la": "Promethium"
+        },
         "number": 61,
         "group": "La",
         "period": 6,
@@ -428,6 +733,11 @@
     },
     "sm": {
         "symbol": "Sm",
+        "names": {
+            "en": "Samarium",
+            "de": "Samarium",
+            "la": "Samarium"
+        },
         "number": 62,
         "group": "La",
         "period": 6,
@@ -435,6 +745,11 @@
     },
     "eu": {
         "symbol": "Eu",
+        "names": {
+            "en": "Europium",
+            "de": "Europium",
+            "la": "Europium"
+        },
         "number": 63,
         "group": "La",
         "period": 6,
@@ -442,6 +757,11 @@
     },
     "gd": {
         "symbol": "Gd",
+        "names": {
+            "en": "Gadolinium",
+            "de": "Gadolinium",
+            "la": "Gadolinium"
+        },
         "number": 64,
         "group": "La",
         "period": 6,
@@ -449,6 +769,11 @@
     },
     "tb": {
         "symbol": "Tb",
+        "names": {
+            "en": "Terbium",
+            "de": "Terbium",
+            "la": "Terbium"
+        },
         "number": 65,
         "group": "La",
         "period": 6,
@@ -456,6 +781,11 @@
     },
     "dy": {
         "symbol": "Dy",
+        "names": {
+            "en": "Dysprosium",
+            "de": "Dysprosium",
+            "la": "Dysprosium"
+        },
         "number": 66,
         "group": "La",
         "period": 6,
@@ -463,6 +793,11 @@
     },
     "ho": {
         "symbol": "Ho",
+        "names": {
+            "en": "Holmium",
+            "de": "Holmium",
+            "la": "Holmium"
+        },
         "number": 67,
         "group": "La",
         "period": 6,
@@ -470,6 +805,11 @@
     },
     "er": {
         "symbol": "Er",
+        "names": {
+            "en": "Erbium",
+            "de": "Erbium",
+            "la": "Erbium"
+        },
         "number": 68,
         "group": "La",
         "period": 6,
@@ -477,6 +817,11 @@
     },
     "tm": {
         "symbol": "Tm",
+        "names": {
+            "en": "Thulium",
+            "de": "Thulium",
+            "la": "Thulium"
+        },
         "number": 69,
         "group": "La",
         "period": 6,
@@ -484,6 +829,11 @@
     },
     "yb": {
         "symbol": "Yb",
+        "names": {
+            "en": "Ytterbium",
+            "de": "Ytterbium",
+            "la": "Ytterbium"
+        },
         "number": 70,
         "group": "La",
         "period": 6,
@@ -491,6 +841,11 @@
     },
     "lu": {
         "symbol": "Lu",
+        "names": {
+            "en": "Lutetium",
+            "de": "Lutetium",
+            "la": "Lutetium"
+        },
         "number": 71,
         "group": "La",
         "period": 6,
@@ -498,6 +853,11 @@
     },
     "hf": {
         "symbol": "Hf",
+        "names": {
+            "en": "Hafnium",
+            "de": "Hafnium",
+            "la": "Hafnium"
+        },
         "number": 72,
         "group": 4,
         "period": 6,
@@ -505,6 +865,11 @@
     },
     "ta": {
         "symbol": "Ta",
+        "names": {
+            "en": "Tantalum",
+            "de": "Tantal",
+            "la": "Tantalum"
+        },
         "number": 73,
         "group": 5,
         "period": 6,
@@ -512,6 +877,11 @@
     },
     "w": {
         "symbol": "W",
+        "names": {
+            "en": "Tungsten",
+            "de": "Wolfram",
+            "la": "Wolframium"
+        },
         "number": 74,
         "group": 6,
         "period": 6,
@@ -519,6 +889,11 @@
     },
     "re": {
         "symbol": "Re",
+        "names": {
+            "en": "Rhenium",
+            "de": "Rhenium",
+            "la": "Rhenium"
+        },
         "number": 75,
         "group": 7,
         "period": 6,
@@ -526,6 +901,11 @@
     },
     "os": {
         "symbol": "Os",
+        "names": {
+            "en": "Osmium",
+            "de": "Osmium",
+            "la": "Osmium"
+        },
         "number": 76,
         "group": 8,
         "period": 6,
@@ -533,6 +913,11 @@
     },
     "ir": {
         "symbol": "Ir",
+        "names": {
+            "en": "Iridium",
+            "de": "Iridium",
+            "la": "Iridium"
+        },
         "number": 77,
         "group": 9,
         "period": 6,
@@ -540,6 +925,11 @@
     },
     "pt": {
         "symbol": "Pt",
+        "names": {
+            "en": "Platinum",
+            "de": "Platin",
+            "la": "Platinum"
+        },
         "number": 78,
         "group": 10,
         "period": 6,
@@ -547,6 +937,11 @@
     },
     "au": {
         "symbol": "Au",
+        "names": {
+            "en": "Gold",
+            "de": "Gold",
+            "la": "Aurum"
+        },
         "number": 79,
         "group": 11,
         "period": 6,
@@ -554,6 +949,11 @@
     },
     "hg": {
         "symbol": "Hg",
+        "names": {
+            "en": "Mercury",
+            "de": "Quecksilber",
+            "la": "Hydrargyrion"
+        },
         "number": 80,
         "group": 12,
         "period": 6,
@@ -561,6 +961,11 @@
     },
     "tl": {
         "symbol": "Tl",
+        "names": {
+            "en": "Thallium",
+            "de": "Thallium",
+            "la": "Thallium"
+        },
         "number": 81,
         "group": 13,
         "period": 6,
@@ -568,6 +973,11 @@
     },
     "pb": {
         "symbol": "Pb",
+        "names": {
+            "en": "Lead",
+            "de": "Blei",
+            "la": "Plumbum"
+        },
         "number": 82,
         "group": 14,
         "period": 6,
@@ -575,6 +985,11 @@
     },
     "bi": {
         "symbol": "Bi",
+        "names": {
+            "en": "Bismuth",
+            "de": "Bismut",
+            "la": "Bismutum"
+        },
         "number": 83,
         "group": 15,
         "period": 6,
@@ -582,6 +997,11 @@
     },
     "po": {
         "symbol": "Po",
+        "names": {
+            "en": "Polonium",
+            "de": "Polonium",
+            "la": "Polonium"
+        },
         "number": 84,
         "group": 16,
         "period": 6,
@@ -589,6 +1009,11 @@
     },
     "at": {
         "symbol": "At",
+        "names": {
+            "en": "Astatine",
+            "de": "Astat",
+            "la": "Astaton"
+        },
         "number": 85,
         "group": 17,
         "period": 6,
@@ -596,6 +1021,11 @@
     },
     "rn": {
         "symbol": "Rn",
+        "names": {
+            "en": "Radon",
+            "de": "Radon",
+            "la": "Radon"
+        },
         "number": 86,
         "group": 18,
         "period": 6,
@@ -603,6 +1033,11 @@
     },
     "fr": {
         "symbol": "Fr",
+        "names": {
+            "en": "Francium",
+            "de": "Francium",
+            "la": "Francium"
+        },
         "number": 87,
         "group": 1,
         "period": 7,
@@ -610,6 +1045,11 @@
     },
     "ra": {
         "symbol": "Ra",
+        "names": {
+            "en": "Radium",
+            "de": "Radium",
+            "la": "Radium"
+        },
         "number": 88,
         "group": 2,
         "period": 7,
@@ -617,6 +1057,11 @@
     },
     "ac": {
         "symbol": "Ac",
+        "names": {
+            "en": "Actinium",
+            "de": "Actinium",
+            "la": "Actinium"
+        },
         "number": 89,
         "group": "Ac",
         "period": 7,
@@ -624,6 +1069,11 @@
     },
     "th": {
         "symbol": "Th",
+        "names": {
+            "en": "Thorium",
+            "de": "Thorium",
+            "la": "Thorium"
+        },
         "number": 90,
         "group": "Ac",
         "period": 7,
@@ -631,6 +1081,11 @@
     },
     "pa": {
         "symbol": "Pa",
+        "names": {
+            "en": "Protactinium",
+            "de": "Protactinium",
+            "la": "Protactinium"
+        },
         "number": 91,
         "group": "Ac",
         "period": 7,
@@ -638,6 +1093,11 @@
     },
     "u": {
         "symbol": "U",
+        "names": {
+            "en": "Uranium",
+            "de": "Uran",
+            "la": "Uranium"
+        },
         "number": 92,
         "group": "Ac",
         "period": 7,
@@ -645,6 +1105,11 @@
     },
     "np": {
         "symbol": "Np",
+        "names": {
+            "en": "Neptunium",
+            "de": "Neptunium",
+            "la": "Neptunium"
+        },
         "number": 93,
         "group": "Ac",
         "period": 7,
@@ -652,6 +1117,11 @@
     },
     "pu": {
         "symbol": "Pu",
+        "names": {
+            "en": "Plutonium",
+            "de": "Plutonium",
+            "la": "Plutonium"
+        },
         "number": 94,
         "group": "Ac",
         "period": 7,
@@ -659,6 +1129,11 @@
     },
     "am": {
         "symbol": "Am",
+        "names": {
+            "en": "Americium",
+            "de": "Americium",
+            "la": "Americium"
+        },
         "number": 95,
         "group": "Ac",
         "period": 7,
@@ -666,6 +1141,11 @@
     },
     "cm": {
         "symbol": "Cm",
+        "names": {
+            "en": "Curium",
+            "de": "Curium",
+            "la": "Curium"
+        },
         "number": 96,
         "group": "Ac",
         "period": 7,
@@ -673,6 +1153,11 @@
     },
     "bk": {
         "symbol": "Bk",
+        "names": {
+            "en": "Berkelium",
+            "de": "Berkelium",
+            "la": "Berkelium"
+        },
         "number": 97,
         "group": "Ac",
         "period": 7,
@@ -680,6 +1165,11 @@
     },
     "cf": {
         "symbol": "Cf",
+        "names": {
+            "en": "Californium",
+            "de": "Californium",
+            "la": "Californium"
+        },
         "number": 98,
         "group": "Ac",
         "period": 7,
@@ -687,6 +1177,11 @@
     },
     "es": {
         "symbol": "Es",
+        "names": {
+            "en": "Einsteinium",
+            "de": "Einsteinium",
+            "la": "Einsteinium"
+        },
         "number": 99,
         "group": "Ac",
         "period": 7,
@@ -694,6 +1189,11 @@
     },
     "fm": {
         "symbol": "Fm",
+        "names": {
+            "en": "Fermium",
+            "de": "Fermium",
+            "la": "Fermium"
+        },
         "number": 100,
         "group": "Ac",
         "period": 7,
@@ -701,6 +1201,11 @@
     },
     "md": {
         "symbol": "Md",
+        "names": {
+            "en": "Mendelevium",
+            "de": "Mendelevium",
+            "la": "Mendelevium"
+        },
         "number": 101,
         "group": "Ac",
         "period": 7,
@@ -708,6 +1213,11 @@
     },
     "no": {
         "symbol": "No",
+        "names": {
+            "en": "Nobelium",
+            "de": "Nobelium",
+            "la": "Nobelium"
+        },
         "number": 102,
         "group": "Ac",
         "period": 7,
@@ -715,6 +1225,11 @@
     },
     "lr": {
         "symbol": "Lr",
+        "names": {
+            "en": "Lawrencium",
+            "de": "Lawrencium",
+            "la": "Lawrencium"
+        },
         "number": 103,
         "group": "Ac",
         "period": 7,
@@ -722,6 +1237,11 @@
     },
     "rf": {
         "symbol": "Rf",
+        "names": {
+            "en": "Rutherfordium",
+            "de": "Rutherfordium",
+            "la": "Rutherfordium"
+        },
         "number": 104,
         "group": 4,
         "period": 7,
@@ -729,6 +1249,11 @@
     },
     "db": {
         "symbol": "Db",
+        "names": {
+            "en": "Dubnium",
+            "de": "Dubnium",
+            "la": "Dubnium"
+        },
         "number": 105,
         "group": 5,
         "period": 7,
@@ -736,6 +1261,11 @@
     },
     "sg": {
         "symbol": "Sg",
+        "names": {
+            "en": "Seaborgium",
+            "de": "Seaborgium",
+            "la": "Seaborgium"
+        },
         "number": 106,
         "group": 6,
         "period": 7,
@@ -743,6 +1273,11 @@
     },
     "bh": {
         "symbol": "Bh",
+        "names": {
+            "en": "Bohrium",
+            "de": "Bohrium",
+            "la": "Bohrium"
+        },
         "number": 107,
         "group": 7,
         "period": 7,
@@ -750,6 +1285,11 @@
     },
     "hs": {
         "symbol": "Hs",
+        "names": {
+            "en": "Hassium",
+            "de": "Hassium",
+            "la": "Hassium"
+        },
         "number": 108,
         "group": 8,
         "period": 7,
@@ -757,6 +1297,11 @@
     },
     "mt": {
         "symbol": "Mt",
+        "names": {
+            "en": "Meitnerium",
+            "de": "Meitnerium",
+            "la": "Meitnerium"
+        },
         "number": 109,
         "group": 9,
         "period": 7,
@@ -764,6 +1309,11 @@
     },
     "ds": {
         "symbol": "Ds",
+        "names": {
+            "en": "Darmstadtium",
+            "de": "Darmstadtium",
+            "la": "Darmstadtium"
+        },
         "number": 110,
         "group": 10,
         "period": 7,
@@ -771,6 +1321,11 @@
     },
     "rg": {
         "symbol": "Rg",
+        "names": {
+            "en": "Roentgenium",
+            "de": "Roentgenium",
+            "la": "Roentgenium"
+        },
         "number": 111,
         "group": 11,
         "period": 7,
@@ -778,6 +1333,11 @@
     },
     "cn": {
         "symbol": "Cn",
+        "names": {
+            "en": "Copernicium",
+            "de": "Copernicium",
+            "la": "Copernicium"
+        },
         "number": 112,
         "group": 12,
         "period": 7,
@@ -785,6 +1345,11 @@
     },
     "nh": {
         "symbol": "Nh",
+        "names": {
+            "en": "Nihonium",
+            "de": "Nihonium",
+            "la": "Nihonium"
+        },
         "number": 113,
         "group": 13,
         "period": 7,
@@ -792,6 +1357,11 @@
     },
     "fl": {
         "symbol": "Fl",
+        "names": {
+            "en": "Flerovium",
+            "de": "Flerovium",
+            "la": "Flerovium"
+        },
         "number": 114,
         "group": 14,
         "period": 7,
@@ -799,6 +1369,11 @@
     },
     "mc": {
         "symbol": "Mc",
+        "names": {
+            "en": "Moscovium",
+            "de": "Moscovium",
+            "la": "Moscovium"
+        },
         "number": 115,
         "group": 15,
         "period": 7,
@@ -806,6 +1381,11 @@
     },
     "lv": {
         "symbol": "Lv",
+        "names": {
+            "en": "Livermorium",
+            "de": "Livermorium",
+            "la": "Livermorium"
+        },
         "number": 116,
         "group": 16,
         "period": 7,
@@ -813,6 +1393,11 @@
     },
     "ts": {
         "symbol": "Ts",
+        "names": {
+            "en": "Tennessine",
+            "de": "Tenness",
+            "la": "Tennessum"
+        },
         "number": 117,
         "group": 17,
         "period": 7,
@@ -820,6 +1405,11 @@
     },
     "og": {
         "symbol": "Og",
+        "names": {
+            "en": "Oganesson",
+            "de": "Oganesson",
+            "la": "Oganesson"
+        },
         "number": 118,
         "group": 18,
         "period": 7,
