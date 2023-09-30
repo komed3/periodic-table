@@ -1,5 +1,5 @@
 /**
- * periodic-table
+ * periodic table
  * Node.js app entry point
  * 
  * @author      komed3 (Paul Köhler)
@@ -7,17 +7,45 @@
  */
 
 /**
- * load "dotenv" module
+ * load required modules
  */
-const dotenv = require( 'dotenv' ).config();
+const express = require( 'express' );
+
+/**
+ * load required files
+ */
+const core = require( './lib/core.min' );
+const routes = require( './config/routes.min' );
 
 /**
  * load "express" web framework
  */
-const express = require( 'express' );
 const app = express();
+
+/**
+ * server routing
+ */
+routes.routes.forEach( ( route ) => {
+
+    app.get( route[0], ( req, res ) => {
+
+        try {
+
+            var page = require( './app/' + route[1] + '.min' );
+
+            res.status( route[2] || 200 ).send( page.out( req, route ) );
+
+        } catch( err ) {
+
+            res.status( 500 ).send( 'ERROR: ' + err );
+
+        }
+
+    } );
+
+} );
 
 /**
  * start web server
  */
-const server = app.listen( process.env.SERVER_PORT, () => {} );
+const server = app.listen( 3000 );
