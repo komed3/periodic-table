@@ -3,19 +3,17 @@
  * start page
  */
 
-/**
- * load required modules/files
- */
-const html = require( './../lib/html.min' );
+module.exports.out = ( html, req, res, route ) => {
 
-/**
- * output page
- * @param {Object} req http request
- * @param {Object} route route
- * @returns {String} page
- */
-module.exports.out = ( req, route ) => {
+    let content = '';
 
-    return html.getHeader( 'Periodic Table' ) + html.getFooter();
+    content += html.getHeader(
+        res.__( 'Periodic Table' ),
+        res.getLocale()
+    );
+
+    content += html.getFooter();
+
+    return content;
 
 };

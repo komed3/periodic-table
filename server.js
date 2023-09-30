@@ -7,13 +7,13 @@
  */
 
 /**
- * load required modules/files
+ * load "express" web framework
  */
 const express = require( 'express' );
-const routes = require( './config/routes.min' );
+const cookieParser = require( 'cookie-parser' );
 
 /**
- * load "express" web framework
+ * start express
  */
 const app = express();
 
@@ -23,6 +23,31 @@ const app = express();
 app.use( '/css', express.static( 'public/styles' ) );
 app.use( '/js', express.static( 'public/scripts' ) );
 app.use( '/img', express.static( 'public/images' ) );
+
+/**
+ * enable cookies
+ */
+app.use( cookieParser() );
+
+/**
+ * i18n (multiple language support)
+ */
+const { I18n } = require( 'i18n' );
+
+const i18n = new I18n( {
+    locales: [ 'en', 'de' ],
+    cookie: 'locale',
+    directory: './i18n',
+    extension: '.min.json'
+} );
+
+app.use( i18n.init );
+
+/**
+ * load required modules
+ */
+const html = require( './lib/html.min' );
+const routes = require( './config/routes.min' );
 
 /**
  * server routing
@@ -35,11 +60,15 @@ routes.routes.forEach( ( route ) => {
 
             var page = require( './app/' + route[1] + '.min' );
 
-            res.status( route[2] || 200 ).send( page.out( req, route ) );
+            res.status( route[2] || 200 ).send(
+                page.out( html, req, res, route )
+            );
 
         } catch( err ) {
 
-            res.status( 500 ).send( 'ERROR: ' + err );
+            res.status( 500 ).send(
+                'ERROR: ' + err
+            );
 
         }
 
