@@ -30,6 +30,11 @@ app.use( '/img', express.static( 'public/images' ) );
 app.use( cookieParser() );
 
 /**
+ * load template engine
+ */
+const pug = require( 'pug' );
+
+/**
  * i18n (multiple language support)
  */
 const { I18n } = require( 'i18n' );
@@ -43,25 +48,31 @@ const i18n = new I18n( {
 
 app.use( i18n.init );
 
-/**
- * load required modules
- */
-const html = require( './lib/html.min' );
-const routes = require( './config/routes.min' );
+app.use( ( req, res, next ) => {
+
+    res.locals.__ = res.__ = function () {
+
+        return i18n.__.apply( req, arguments );
+
+    }
+
+    next();
+
+} );
 
 /**
  * server routing
  */
+const routes = require( './config/routes.min' );
+
 routes.routes.forEach( ( route ) => {
 
     app.get( route[0], ( req, res ) => {
 
         try {
 
-            var page = require( './app/' + route[1] + '.min' );
-
             res.status( route[2] || 200 ).send(
-                page.out( html, req, res, route )
+                pug.renderFile( './app/' + route[1] + '.pug', res )
             );
 
         } catch( err ) {
