@@ -20,9 +20,9 @@ const app = express();
 /**
  * define static folders/files
  */
-app.use( '/css', express.static( 'public/styles' ) );
-app.use( '/js', express.static( 'public/scripts' ) );
-app.use( '/img', express.static( 'public/images' ) );
+app.use( '/css', express.static( __dirname + '/public/styles' ) );
+app.use( '/js', express.static( __dirname + '/public/scripts' ) );
+app.use( '/img', express.static( __dirname + '/public/images' ) );
 
 /**
  * enable cookies
@@ -42,7 +42,7 @@ const { I18n } = require( 'i18n' );
 const i18n = new I18n( {
     locales: [ 'en', 'de' ],
     cookie: 'locale',
-    directory: './i18n',
+    directory: __dirname + '/i18n',
     extension: '.min.json'
 } );
 
@@ -72,7 +72,7 @@ routes.routes.forEach( ( route ) => {
         try {
 
             res.status( route[2] || 200 ).send(
-                pug.renderFile( './app/' + route[1] + '.pug', res )
+                pug.renderFile( __dirname + '/app/' + route[1] + '.pug', res )
             );
 
         } catch( err ) {
