@@ -1,5 +1,11 @@
-$bg-color: #f5f6f7;
+@import url( 'https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,900;1,700;1,900&family=Roboto:wght@100;400;700&display=swap' );
+
+$font-main: 'Roboto';
+
+$color-bg: #f5f6f7;
 
 body {
-  background: $bg-color;
+    margin: 0;
+    font-family: $font-main;
+    background: $color-bg;
 }
