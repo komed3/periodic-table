@@ -7,14 +7,9 @@
  */
 
 /**
- * load required modules
+ * load required modules/files
  */
 const express = require( 'express' );
-
-/**
- * load required files
- */
-const core = require( './lib/core.min' );
 const routes = require( './config/routes.min' );
 
 /**

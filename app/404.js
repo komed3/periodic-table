@@ -5,8 +5,8 @@
 
 /**
  * output page
- * @param {String} req http request
- * @param {String} route route
+ * @param {Object} req http request
+ * @param {Object} route route
  * @returns {String} page
  */
 module.exports.out = ( req, route ) => {
