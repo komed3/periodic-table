@@ -4,6 +4,6 @@
  */
 
 module.exports.routes = [
-    [ '/', 'site' ],
+    [ '/', 'start' ],
     [ '*', '404', 404 ]
 ];

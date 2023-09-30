@@ -69,10 +69,12 @@ routes.routes.forEach( ( route ) => {
 
     app.get( route[0], ( req, res ) => {
 
+        res.locals.site = route[1];
+
         try {
 
             res.status( route[2] || 200 ).send(
-                pug.renderFile( __dirname + '/app/' + route[1] + '.pug', res )
+                pug.renderFile( __dirname + '/app/' + route[1] + '.pug', res.locals )
             );
 
         } catch( err ) {
