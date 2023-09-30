@@ -18,6 +18,13 @@ const routes = require( './config/routes.min' );
 const app = express();
 
 /**
+ * define static folders/files
+ */
+app.use( '/css', express.static( 'public/styles' ) );
+app.use( '/js', express.static( 'public/scripts' ) );
+app.use( '/img', express.static( 'public/images' ) );
+
+/**
  * server routing
  */
 routes.routes.forEach( ( route ) => {
