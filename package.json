@@ -5,8 +5,9 @@
     "homepage": "https://github.com/komed3/periodic-table#periodic-table",
     "author": "komed3 (Paul Köhler)",
     "license": "MIT",
-    "main": "index.js",
+    "main": "server.js",
     "scripts": {
+        "start": "nodemon server.js",
         "test": "exit 1"
     },
     "repository": {
@@ -19,5 +20,6 @@
     ],
     "bugs": {
         "url": "https://github.com/komed3/periodic-table/issues"
-    }
+    },
+    "dependencies": {}
 }
