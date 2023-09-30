@@ -1,36 +1,828 @@
-[ {
-    "he": {
-        "symbol": "He",
+{
+    "h": {
+        "symbol": "H",
         "number": 1,
         "group": 1,
         "period": 1,
-        "block": "s",
-        "properties": {
-            "atomic": {
-                "mass": 1.008,
-                "radius": 25,
-                "covalent_radius": 31,
-                "vdw_radius": 120,
-                "electron_conf": "1s[1]",
-                "ionization": [
-                    13.59843449
-                ]
-            }
-        },
-        "classification": {
-            "cas": [ {
-                "_": "12385-13-6",
-                "label": "H"
-            }, {
-                "_": "1333-74-0",
-                "label": "H{2}"
-            } ],
-            "eg": [ {
-                "_": "215-605-7"
-            } ],
-            "echa": [ {
-                "_": "100.014.187"
-            } ]
-        }
+        "block": "s"
+    },
+    "he": {
+        "symbol": "He",
+        "number": 2,
+        "group": 18,
+        "period": 1,
+        "block": "s"
+    },
+    "li": {
+        "symbol": "Li",
+        "number": 3,
+        "group": 1,
+        "period": 2,
+        "block": "s"
+    },
+    "be": {
+        "symbol": "Be",
+        "number": 4,
+        "group": 2,
+        "period": 2,
+        "block": "s"
+    },
+    "b": {
+        "symbol": "B",
+        "number": 5,
+        "group": 13,
+        "period": 2,
+        "block": "p"
+    },
+    "c": {
+        "symbol": "C",
+        "number": 6,
+        "group": 14,
+        "period": 2,
+        "block": "p"
+    },
+    "n": {
+        "symbol": "N",
+        "number": 7,
+        "group": 15,
+        "period": 2,
+        "block": "p"
+    },
+    "o": {
+        "symbol": "O",
+        "number": 8,
+        "group": 16,
+        "period": 2,
+        "block": "p"
+    },
+    "f": {
+        "symbol": "F",
+        "number": 9,
+        "group": 17,
+        "period": 2,
+        "block": "p"
+    },
+    "ne": {
+        "symbol": "Ne",
+        "number": 10,
+        "group": 18,
+        "period": 2,
+        "block": "p"
+    },
+    "na": {
+        "symbol": "Na",
+        "number": 11,
+        "group": 1,
+        "period": 3,
+        "block": "s"
+    },
+    "mg": {
+        "symbol": "Mg",
+        "number": 12,
+        "group": 2,
+        "period": 3,
+        "block": "s"
+    },
+    "al": {
+        "symbol": "Al",
+        "number": 13,
+        "group": 13,
+        "period": 3,
+        "block": "p"
+    },
+    "si": {
+        "symbol": "Si",
+        "number": 14,
+        "group": 14,
+        "period": 3,
+        "block": "p"
+    },
+    "P": {
+        "symbol": "P",
+        "number": 15,
+        "group": 15,
+        "period": 3,
+        "block": "p"
+    },
+    "s": {
+        "symbol": "S",
+        "number": 16,
+        "group": 16,
+        "period": 3,
+        "block": "p"
+    },
+    "cl": {
+        "symbol": "Cl",
+        "number": 17,
+        "group": 17,
+        "period": 3,
+        "block": "p"
+    },
+    "ar": {
+        "symbol": "Ar",
+        "number": 18,
+        "group": 18,
+        "period": 3,
+        "block": "p"
+    },
+    "k": {
+        "symbol": "K",
+        "number": 19,
+        "group": 1,
+        "period": 4,
+        "block": "s"
+    },
+    "ca": {
+        "symbol": "Ca",
+        "number": 20,
+        "group": 2,
+        "period": 4,
+        "block": "s"
+    },
+    "sc": {
+        "symbol": "Sc",
+        "number": 21,
+        "group": 3,
+        "period": 4,
+        "block": "d"
+    },
+    "ti": {
+        "symbol": "Ti",
+        "number": 22,
+        "group": 4,
+        "period": 4,
+        "block": "d"
+    },
+    "v": {
+        "symbol": "V",
+        "number": 23,
+        "group": 5,
+        "period": 4,
+        "block": "d"
+    },
+    "cr": {
+        "symbol": "Cr",
+        "number": 24,
+        "group": 6,
+        "period": 4,
+        "block": "d"
+    },
+    "mn": {
+        "symbol": "Mn",
+        "number": 25,
+        "group": 7,
+        "period": 4,
+        "block": "d"
+    },
+    "fe": {
+        "symbol": "Fe",
+        "number": 26,
+        "group": 8,
+        "period": 4,
+        "block": "d"
+    },
+    "co": {
+        "symbol": "Co",
+        "number": 27,
+        "group": 9,
+        "period": 4,
+        "block": "d"
+    },
+    "ni": {
+        "symbol": "Ni",
+        "number": 28,
+        "group": 10,
+        "period": 4,
+        "block": "d"
+    },
+    "cu": {
+        "symbol": "Cu",
+        "number": 29,
+        "group": 11,
+        "period": 4,
+        "block": "d"
+    },
+    "zn": {
+        "symbol": "Zn",
+        "number": 30,
+        "group": 12,
+        "period": 4,
+        "block": "d"
+    },
+    "ga": {
+        "symbol": "Ga",
+        "number": 31,
+        "group": 13,
+        "period": 4,
+        "block": "p"
+    },
+    "ge": {
+        "symbol": "Ge",
+        "number": 32,
+        "group": 14,
+        "period": 4,
+        "block": "p"
+    },
+    "as": {
+        "symbol": "As",
+        "number": 33,
+        "group": 15,
+        "period": 4,
+        "block": "p"
+    },
+    "se": {
+        "symbol": "Se",
+        "number": 34,
+        "group": 16,
+        "period": 4,
+        "block": "p"
+    },
+    "rr": {
+        "symbol": "Br",
+        "number": 35,
+        "group": 17,
+        "period": 4,
+        "block": "p"
+    },
+    "kr": {
+        "symbol": "Kr",
+        "number": 36,
+        "group": 18,
+        "period": 4,
+        "block": "p"
+    },
+    "rb": {
+        "symbol": "Rb",
+        "number": 37,
+        "group": 1,
+        "period": 5,
+        "block": "s"
+    },
+    "sr": {
+        "symbol": "Sr",
+        "number": 38,
+        "group": 2,
+        "period": 5,
+        "block": "s"
+    },
+    "y": {
+        "symbol": "Y",
+        "number": 39,
+        "group": 3,
+        "period": 5,
+        "block": "d"
+    },
+    "zr": {
+        "symbol": "Zr",
+        "number": 40,
+        "group": 4,
+        "period": 5,
+        "block": "d"
+    },
+    "nb": {
+        "symbol": "Nb",
+        "number": 41,
+        "group": 5,
+        "period": 5,
+        "block": "d"
+    },
+    "mo": {
+        "symbol": "Mo",
+        "number": 42,
+        "group": 6,
+        "period": 5,
+        "block": "d"
+    },
+    "tc": {
+        "symbol": "Tc",
+        "number": 43,
+        "group": 7,
+        "period": 5,
+        "block": "d"
+    },
+    "ru": {
+        "symbol": "Ru",
+        "number": 44,
+        "group": 8,
+        "period": 5,
+        "block": "d"
+    },
+    "rh": {
+        "symbol": "Rh",
+        "number": 45,
+        "group": 9,
+        "period": 5,
+        "block": "d"
+    },
+    "pd": {
+        "symbol": "Pd",
+        "number": 46,
+        "group": 10,
+        "period": 5,
+        "block": "d"
+    },
+    "ag": {
+        "symbol": "Ag",
+        "number": 47,
+        "group": 11,
+        "period": 5,
+        "block": "d"
+    },
+    "cd": {
+        "symbol": "Cd",
+        "number": 48,
+        "group": 12,
+        "period": 5,
+        "block": "d"
+    },
+    "in": {
+        "symbol": "In",
+        "number": 49,
+        "group": 13,
+        "period": 5,
+        "block": "p"
+    },
+    "sn": {
+        "symbol": "Sn",
+        "number": 50,
+        "group": 14,
+        "period": 5,
+        "block": "p"
+    },
+    "sb": {
+        "symbol": "Sb",
+        "number": 51,
+        "group": 15,
+        "period": 5,
+        "block": "p"
+    },
+    "te": {
+        "symbol": "Te",
+        "number": 52,
+        "group": 16,
+        "period": 5,
+        "block": "p"
+    },
+    "i": {
+        "symbol": "I",
+        "number": 53,
+        "group": 17,
+        "period": 5,
+        "block": "p"
+    },
+    "xe": {
+        "symbol": "Xe",
+        "number": 54,
+        "group": 18,
+        "period": 5,
+        "block": "p"
+    },
+    "cs": {
+        "symbol": "Cs",
+        "number": 55,
+        "group": 1,
+        "period": 6,
+        "block": "s"
+    },
+    "ba": {
+        "symbol": "Ba",
+        "number": 56,
+        "group": 2,
+        "period": 6,
+        "block": "s"
+    },
+    "la": {
+        "symbol": "La",
+        "number": 57,
+        "group": "La",
+        "period": 6,
+        "block": "d"
+    },
+    "ce": {
+        "symbol": "Ce",
+        "number": 58,
+        "group": "La",
+        "period": 6,
+        "block": "f"
+    },
+    "pr": {
+        "symbol": "Pr",
+        "number": 59,
+        "group": "La",
+        "period": 6,
+        "block": "f"
+    },
+    "nd": {
+        "symbol": "Nd",
+        "number": 60,
+        "group": "La",
+        "period": 6,
+        "block": "f"
+    },
+    "pm": {
+        "symbol": "Pm",
+        "number": 61,
+        "group": "La",
+        "period": 6,
+        "block": "f"
+    },
+    "sm": {
+        "symbol": "Sm",
+        "number": 62,
+        "group": "La",
+        "period": 6,
+        "block": "f"
+    },
+    "eu": {
+        "symbol": "Eu",
+        "number": 63,
+        "group": "La",
+        "period": 6,
+        "block": "f"
+    },
+    "gd": {
+        "symbol": "Gd",
+        "number": 64,
+        "group": "La",
+        "period": 6,
+        "block": "f"
+    },
+    "tb": {
+        "symbol": "Tb",
+        "number": 65,
+        "group": "La",
+        "period": 6,
+        "block": "f"
+    },
+    "dy": {
+        "symbol": "Dy",
+        "number": 66,
+        "group": "La",
+        "period": 6,
+        "block": "f"
+    },
+    "ho": {
+        "symbol": "Ho",
+        "number": 67,
+        "group": "La",
+        "period": 6,
+        "block": "f"
+    },
+    "er": {
+        "symbol": "Er",
+        "number": 68,
+        "group": "La",
+        "period": 6,
+        "block": "f"
+    },
+    "tm": {
+        "symbol": "Tm",
+        "number": 69,
+        "group": "La",
+        "period": 6,
+        "block": "f"
+    },
+    "yb": {
+        "symbol": "Yb",
+        "number": 70,
+        "group": "La",
+        "period": 6,
+        "block": "f"
+    },
+    "lu": {
+        "symbol": "Lu",
+        "number": 71,
+        "group": "La",
+        "period": 6,
+        "block": "f"
+    },
+    "hf": {
+        "symbol": "Hf",
+        "number": 72,
+        "group": 4,
+        "period": 6,
+        "block": "d"
+    },
+    "ta": {
+        "symbol": "Ta",
+        "number": 73,
+        "group": 5,
+        "period": 6,
+        "block": "d"
+    },
+    "w": {
+        "symbol": "W",
+        "number": 74,
+        "group": 6,
+        "period": 6,
+        "block": "d"
+    },
+    "re": {
+        "symbol": "Re",
+        "number": 75,
+        "group": 7,
+        "period": 6,
+        "block": "d"
+    },
+    "os": {
+        "symbol": "Os",
+        "number": 76,
+        "group": 8,
+        "period": 6,
+        "block": "d"
+    },
+    "ir": {
+        "symbol": "Ir",
+        "number": 77,
+        "group": 9,
+        "period": 6,
+        "block": "d"
+    },
+    "pt": {
+        "symbol": "Pt",
+        "number": 78,
+        "group": 10,
+        "period": 6,
+        "block": "d"
+    },
+    "au": {
+        "symbol": "Au",
+        "number": 79,
+        "group": 11,
+        "period": 6,
+        "block": "d"
+    },
+    "hg": {
+        "symbol": "Hg",
+        "number": 80,
+        "group": 12,
+        "period": 6,
+        "block": "d"
+    },
+    "tl": {
+        "symbol": "Tl",
+        "number": 81,
+        "group": 13,
+        "period": 6,
+        "block": "p"
+    },
+    "pb": {
+        "symbol": "Pb",
+        "number": 82,
+        "group": 14,
+        "period": 6,
+        "block": "p"
+    },
+    "bi": {
+        "symbol": "Bi",
+        "number": 83,
+        "group": 15,
+        "period": 6,
+        "block": "p"
+    },
+    "po": {
+        "symbol": "Po",
+        "number": 84,
+        "group": 16,
+        "period": 6,
+        "block": "p"
+    },
+    "at": {
+        "symbol": "At",
+        "number": 85,
+        "group": 17,
+        "period": 6,
+        "block": "p"
+    },
+    "rn": {
+        "symbol": "Rn",
+        "number": 86,
+        "group": 18,
+        "period": 6,
+        "block": "p"
+    },
+    "fr": {
+        "symbol": "Fr",
+        "number": 87,
+        "group": 1,
+        "period": 7,
+        "block": "s"
+    },
+    "ra": {
+        "symbol": "Ra",
+        "number": 88,
+        "group": 2,
+        "period": 7,
+        "block": "s"
+    },
+    "ac": {
+        "symbol": "Ac",
+        "number": 89,
+        "group": "Ac",
+        "period": 7,
+        "block": "d"
+    },
+    "th": {
+        "symbol": "Th",
+        "number": 90,
+        "group": "Ac",
+        "period": 7,
+        "block": "f"
+    },
+    "pa": {
+        "symbol": "Pa",
+        "number": 91,
+        "group": "Ac",
+        "period": 7,
+        "block": "f"
+    },
+    "u": {
+        "symbol": "U",
+        "number": 92,
+        "group": "Ac",
+        "period": 7,
+        "block": "f"
+    },
+    "np": {
+        "symbol": "Np",
+        "number": 93,
+        "group": "Ac",
+        "period": 7,
+        "block": "f"
+    },
+    "pu": {
+        "symbol": "Pu",
+        "number": 94,
+        "group": "Ac",
+        "period": 7,
+        "block": "f"
+    },
+    "am": {
+        "symbol": "Am",
+        "number": 95,
+        "group": "Ac",
+        "period": 7,
+        "block": "f"
+    },
+    "cm": {
+        "symbol": "Cm",
+        "number": 96,
+        "group": "Ac",
+        "period": 7,
+        "block": "f"
+    },
+    "bk": {
+        "symbol": "Bk",
+        "number": 97,
+        "group": "Ac",
+        "period": 7,
+        "block": "f"
+    },
+    "cf": {
+        "symbol": "Cf",
+        "number": 98,
+        "group": "Ac",
+        "period": 7,
+        "block": "f"
+    },
+    "es": {
+        "symbol": "Es",
+        "number": 99,
+        "group": "Ac",
+        "period": 7,
+        "block": "f"
+    },
+    "fm": {
+        "symbol": "Fm",
+        "number": 100,
+        "group": "Ac",
+        "period": 7,
+        "block": "f"
+    },
+    "md": {
+        "symbol": "Md",
+        "number": 101,
+        "group": "Ac",
+        "period": 7,
+        "block": "f"
+    },
+    "no": {
+        "symbol": "No",
+        "number": 102,
+        "group": "Ac",
+        "period": 7,
+        "block": "f"
+    },
+    "lr": {
+        "symbol": "Lr",
+        "number": 103,
+        "group": "Ac",
+        "period": 7,
+        "block": "f"
+    },
+    "rf": {
+        "symbol": "Rf",
+        "number": 104,
+        "group": 4,
+        "period": 7,
+        "block": "d"
+    },
+    "db": {
+        "symbol": "Db",
+        "number": 105,
+        "group": 5,
+        "period": 7,
+        "block": "d"
+    },
+    "sg": {
+        "symbol": "Sg",
+        "number": 106,
+        "group": 6,
+        "period": 7,
+        "block": "d"
+    },
+    "bh": {
+        "symbol": "Bh",
+        "number": 107,
+        "group": 7,
+        "period": 7,
+        "block": "d"
+    },
+    "hs": {
+        "symbol": "Hs",
+        "number": 108,
+        "group": 8,
+        "period": 7,
+        "block": "d"
+    },
+    "mt": {
+        "symbol": "Mt",
+        "number": 109,
+        "group": 9,
+        "period": 7,
+        "block": "d"
+    },
+    "ds": {
+        "symbol": "Ds",
+        "number": 110,
+        "group": 10,
+        "period": 7,
+        "block": "d"
+    },
+    "rg": {
+        "symbol": "Rg",
+        "number": 111,
+        "group": 11,
+        "period": 7,
+        "block": "d"
+    },
+    "cn": {
+        "symbol": "Cn",
+        "number": 112,
+        "group": 12,
+        "period": 7,
+        "block": "d"
+    },
+    "nh": {
+        "symbol": "Nh",
+        "number": 113,
+        "group": 13,
+        "period": 7,
+        "block": "p"
+    },
+    "fl": {
+        "symbol": "Fl",
+        "number": 114,
+        "group": 14,
+        "period": 7,
+        "block": "p"
+    },
+    "mc": {
+        "symbol": "Mc",
+        "number": 115,
+        "group": 15,
+        "period": 7,
+        "block": "p"
+    },
+    "lv": {
+        "symbol": "Lv",
+        "number": 116,
+        "group": 16,
+        "period": 7,
+        "block": "p"
+    },
+    "ts": {
+        "symbol": "Ts",
+        "number": 117,
+        "group": 17,
+        "period": 7,
+        "block": "p"
+    },
+    "og": {
+        "symbol": "Og",
+        "number": 118,
+        "group": 18,
+        "period": 7,
+        "block": "p"
     }
-} ]
+}
