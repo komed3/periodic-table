@@ -16,6 +16,6 @@ const html = require( './../lib/html.min' );
  */
 module.exports.out = ( req, route ) => {
 
-    return html.getHeader( 'Periodic Table' );
+    return html.getHeader( 'Periodic Table' ) + html.getFooter();
 
 };

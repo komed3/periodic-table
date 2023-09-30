@@ -16,6 +16,6 @@ const html = require( './../lib/html.min' );
  */
 module.exports.out = ( req, route ) => {
 
-    return html.getHeader( '404: Periodic Table' );
+    return html.getHeader( '404: Periodic Table' ) + html.getFooter();
 
 };
