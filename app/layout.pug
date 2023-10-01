@@ -1,4 +1,4 @@
-//- site.pug
+//- layout.pug
 doctype html
 html( lang=locale )
   head
@@ -37,4 +37,13 @@ html( lang=locale )
     main#main.pt-wrapper( role="main" )
       block content
     footer#footer.pt-footer
-      p.pt-footer-credits !{__( 'credits', ( new Date() ).getFullYear() )}
+      a.pt-footer-logo( href="/", title=`${__( 'title' )}` )
+        svg.pt-atom( width="32", height="32" )
+          use( xlink:href="img/atom.svg#atom" )
+      div.pt-footer-inner
+        nav.pt-footer-nav( role="nav" )
+          a( href="/" ) #{__( 'start-title' )}
+          a( href="/data" ) #{__( 'data-title' )}
+          a( href="/privacy" ) #{__( 'privacy-title' )}
+          a( href="https://github.com/komed3/periodic-table", target="_blank" ) #{__( 'github' )}
+        p.pt-footer-credits !{__( 'credits', ( new Date() ).getFullYear() )}
