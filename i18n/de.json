@@ -13,5 +13,6 @@
 	"theme-dark": "Dunkler Modus",
 	"data-title": "Datenbank",
 	"privacy-title": "Datenschutz",
-	"github": "GitHub"
+	"github": "GitHub",
+	"404-title": "Seite nicht gefunden"
 }
