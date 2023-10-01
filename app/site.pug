@@ -27,13 +27,8 @@ html
       div.pt-header-search
         include templates/searchform.pug
       div.pt-header-settings
-        select.pt-language-selector( set="locale", title=`${__( 'language' )}` )
-          each lang in availableLanguages
-            option( value=lang ) #{__( 'lang-' + lang )}
-        div.pt-theme-selector
-          a( href="#", set="theme", theme="light", title=`${__( 'theme' )}` )
-            i( class="icon light" ) light_mode
-            i( class="icon dark" ) dark_mode
+        include templates/language-selector.pug
+        include templates/theme-selector.pug
       nav.pt-header-nav( role="nav" )
         include templates/nav.pug
     main#main.pt-wrapper( role="main" )

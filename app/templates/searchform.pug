@@ -1,5 +1,5 @@
 //- templates/searchform.pug
 div.pt-searchform
   form.pt-searchform-inner( action="/search", method="get" )
+    i( class="icon pt-searchform-icon" ) search
     input( type="text", name="q" value=search.query, placeholder=`${__( 'search-placeholder' )}`, class="pt-searchform-box" )
-    i( class="icon pt-searchform-label" ) search
