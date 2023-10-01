@@ -51,6 +51,14 @@ $header-height: 56px;
     align-items: center;
 }
 
+.pt-header-settings {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 12px;
+    padding: 0 12px;
+}
+
 .pt-header-nav {
     flex: none;
     position: absolute;
