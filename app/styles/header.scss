@@ -4,9 +4,11 @@
  */
 
 /**
- * import variables
+ * define variables
  */
 @import 'global';
+
+$header-height: 56px;
 
 /**
  * header styles
@@ -17,8 +19,31 @@
     top: 0;
     display: flex;
     flex-flow: row nowrap;
-    height: 56px;
+    height: $header-height;
     background: $color-gray-0;
+}
+
+.pt-header-logo,
+.pt-header-menu {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: $header-height;
+    height: $header-height;
+    font-size: 32px;
+}
+
+.pt-header-menu.active .open,
+.pt-header-menu:not(.active) .close {
+    display: none;
+}
+
+.pt-header-search {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .pt-header-nav {

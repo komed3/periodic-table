@@ -46,3 +46,8 @@ body {
     color: $color-main;
     background: $color-bg;
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
