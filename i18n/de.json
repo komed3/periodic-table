@@ -9,6 +9,6 @@
 	"theme": "Darstellung",
 	"title": "Periodensystem der Elemente",
 	"start-description": "start-description",
-	"theme-light": "theme-light",
-	"theme-dark": "theme-dark"
+	"theme-light": "Heller Modus",
+	"theme-dark": "Dunkler Modus"
 }

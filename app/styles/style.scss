@@ -91,7 +91,7 @@ select {
     padding: 0 14px 0 42px;
     font-size: 14px;
     color: $color-main;
-    border-radius: 22px;
+    border-radius: 18px;
 }
 
 /**
@@ -119,4 +119,19 @@ select {
 .pt-language-selector-select {
     background: $color-gray-1;
     border: 0;
+}
+
+/**
+ * template: theme selector
+ */
+
+.pt-theme-selector a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    font-size: 20px;
+    background: $color-gray-1;
+    border-radius: 18px;
 }

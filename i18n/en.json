@@ -9,6 +9,6 @@
 	"theme": "Theme",
 	"title": "Periodic Table",
 	"start-description": "start-description",
-	"theme-dark": "theme-dark",
-	"theme-light": "theme-light"
+	"theme-dark": "Dark theme",
+	"theme-light": "Light theme"
 }
