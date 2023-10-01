@@ -87,7 +87,7 @@ app.use( ( req, res, next ) => {
 /**
  * server routing
  */
-const routes = require( './config/routes.min' );
+const routes = require( './config/routes' );
 
 routes.routes.forEach( ( route ) => {
 
