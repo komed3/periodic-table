@@ -14,5 +14,8 @@
 	"data-title": "Database",
 	"privacy-title": "Privacy Policy",
 	"github": "GitHub",
-	"404-title": "Page not found"
+	"404-title": "Page not found",
+	"404-description": "404-description",
+	"element-title": "element-title",
+	"element-description": "element-description"
 }
