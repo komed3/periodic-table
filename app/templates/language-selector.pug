@@ -1,6 +1,7 @@
 //- templates/language-selector.pug
 div.pt-language-selector
-  i( class="icon pt-language-selector-icon" ) language
-  select( set="locale", class="pt-language-selector-select", title=`${__( 'language' )}` )
-    each lang in availableLanguages
-      option( value=lang ) #{__( 'lang-' + lang )}
+  div.pt-language-selector-inner
+    i( class="icon pt-language-selector-icon" ) language
+    select( set="locale", class="pt-language-selector-select", title=`${__( 'language' )}` )
+      each lang in availableLanguages
+        option( value=lang ) #{__( 'lang-' + lang )}

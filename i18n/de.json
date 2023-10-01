@@ -1,5 +1,11 @@
 {
     "credits": "Copyright © %s <a href=\"https://komed3.de\" target=\"_blank\">komed3</a>.",
-    "start-title": "PSE",
+    "lang-de": "Deutsch",
+    "lang-en": "Englisch",
+    "language": "Sprache",
+    "nav": "Menü",
+    "search-placeholder": "Suchen …",
+    "start-title": "Start",
+    "theme": "Darstellung",
     "title": "Periodensystem der Elemente"
 }

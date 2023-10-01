@@ -61,29 +61,62 @@ input, select {
     outline: 0 none;
 }
 
+select {
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+
 /**
- * template: searchform
+ * templates
  */
-.pt-searchform-inner {
+
+.pt-searchform-inner,
+.pt-language-selector-inner {
     position: relative;
 }
 
-.pt-searchform-icon {
+.pt-searchform-icon,
+.pt-language-selector-icon {
     pointer-events: none;
     position: absolute;
     top: 8px;
     left: 14px;
     font-size: 20px;
+}
+
+.pt-searchform-box,
+.pt-language-selector-select {
+    height: 36px;
+    padding: 0 14px 0 42px;
+    font-size: 14px;
+    color: $color-main;
+    border-radius: 22px;
+}
+
+/**
+ * template: searchform
+ */
+
+.pt-searchform-icon {
     color: $color-gray-3;
 }
 
 .pt-searchform-box {
     width: 360px;
-    height: 36px;
-    padding: 0 14px 0 42px;
-    font-size: 14px;
-    color: $color-main;
     background: $color-gray-0;
     border: 1px solid $color-gray-3;
-    border-radius: 22px;
+}
+
+/**
+ * template: language selector
+ */
+
+.pt-language-selector-icon {
+    color: $color-gray-5;
+}
+
+.pt-language-selector-select {
+    background: $color-gray-1;
+    border: 0;
 }
