@@ -34,6 +34,11 @@ $header-height: 56px;
     font-size: 32px;
 }
 
+.pt-header-menu.active {
+    color: $color-gray-0;
+    background: $color-accent-1;
+}
+
 .pt-header-menu.active .open,
 .pt-header-menu:not(.active) .close {
     display: none;
