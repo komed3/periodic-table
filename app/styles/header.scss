@@ -1,0 +1,30 @@
+/**
+ * periodic table
+ * site header
+ */
+
+/**
+ * import variables
+ */
+@import 'global';
+
+/**
+ * header styles
+ */
+
+.pt-header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 56px;
+    background: $color-gray-0;
+}
+
+.pt-header-nav {
+    flex: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+}

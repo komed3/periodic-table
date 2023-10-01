@@ -1,9 +1,17 @@
 /**
+ * periodic table
+ * global styles
+ */
+
+/**
+ * import variables
+ */
+@import 'global';
+
+/**
  * import fonts
  */
 @import url( 'https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap' );
-
-$font-main: 'Roboto';
 
 /**
  * icon support
@@ -29,16 +37,12 @@ $font-main: 'Roboto';
 }
 
 /**
- * define site colors
- */
-$color-bg: #f5f6f7;
-
-/**
  * global styles
  */
 
 body {
     margin: 0;
-    font-family: $font-main;
+    font-family: 'Roboto', sans-serif;
+    color: $color-main;
     background: $color-bg;
 }
