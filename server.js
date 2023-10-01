@@ -11,6 +11,7 @@
  */
 const express = require( 'express' );
 const cookieParser = require( 'cookie-parser' );
+const url = require( 'url' );
 
 /**
  * start express
@@ -26,9 +27,41 @@ app.use( '/img', express.static( __dirname + '/public/images' ) );
 app.use( '/font', express.static( __dirname + '/public/fonts' ) );
 
 /**
- * enable cookies
- */
+* parse/use cookies
+*/
 app.use( cookieParser() );
+
+/**
+ * passing settings and save them as cookie
+ * e.g. theme, locale ...
+ */
+app.use( ( req, res, next ) => {
+
+    let reload = false;
+
+    for( const [ key, val ] of Object.entries( req.query ) ) {
+
+        if( [ 'locale', 'theme' ].includes( key ) ) {
+
+            reload = true;
+
+            res.cookie( key, val, { maxAge: 900000, httpOnly: true } );
+
+        }
+
+    }
+
+    if( reload ) {
+
+        res.redirect( req.get( 'Referrer' ) );
+
+    } else {
+
+        next();
+
+    }
+
+} );
 
 /**
  * load template engine
@@ -44,8 +77,7 @@ const { I18n } = require( 'i18n' );
 const i18n = new I18n( {
     locales: availableLanguages,
     cookie: 'locale',
-    directory: __dirname + '/i18n',
-    extension: '.min.json'
+    directory: __dirname + '/i18n'
 } );
 
 app.use( i18n.init );
@@ -75,7 +107,9 @@ routes.routes.forEach( ( route ) => {
         res.locals.availableLanguages = availableLanguages;
         res.locals.locale = i18n.getLocale();
         res.locals.theme = req.cookies.theme || 'light';
-        res.locals.search = { query: '' };
+        res.locals.search = {
+            query: req.query.q || req.query.query || ''
+        };
 
         try {
 

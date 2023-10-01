@@ -2,6 +2,6 @@
 div.pt-language-selector
   div.pt-language-selector-inner
     i( class="icon pt-language-selector-icon" ) language
-    select( set="locale", class="pt-language-selector-select", title=`${__( 'language' )}` )
+    select( onchange="location.href=window.location.origin+'?locale='+this.value", class="pt-language-selector-select", title=`${__( 'language' )}` )
       each lang in availableLanguages
-        option( value=lang, selected=( lang == locale ? 'selected' : '' ) ) #{__( 'lang-' + lang )}
+        option( value=lang, selected=lang == locale ) #{__( 'lang-' + lang )}
