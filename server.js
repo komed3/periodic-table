@@ -37,10 +37,11 @@ const pug = require( 'pug' );
 /**
  * i18n (multiple language support)
  */
+const availableLanguages = [ 'en', 'de' ];
 const { I18n } = require( 'i18n' );
 
 const i18n = new I18n( {
-    locales: [ 'en', 'de' ],
+    locales: availableLanguages,
     cookie: 'locale',
     directory: __dirname + '/i18n',
     extension: '.min.json'
@@ -70,6 +71,10 @@ routes.routes.forEach( ( route ) => {
     app.get( route[0], ( req, res ) => {
 
         res.locals.site = route[1];
+        res.locals.availableLanguages = availableLanguages;
+        res.locals.search = {
+            query: ''
+        };
 
         try {
 
