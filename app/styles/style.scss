@@ -62,16 +62,11 @@ body[theme="dark"] {
  */
 
 @import url( 'https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap' );
+@import url( 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined' );
 
 /**
  * icon support
  */
-
-@font-face {
-    font-family: 'Material Symbols Outlined';
-    font-style: normal;
-    src: url( ./../font/MaterialSymbolsOutlined.woff2 ) format('woff');
-}
 
 .icon {
     display: inline-block;

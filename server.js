@@ -24,7 +24,6 @@ const app = express();
 app.use( '/css', express.static( __dirname + '/public/styles' ) );
 app.use( '/js', express.static( __dirname + '/public/scripts' ) );
 app.use( '/img', express.static( __dirname + '/public/images' ) );
-app.use( '/font', express.static( __dirname + '/public/fonts' ) );
 
 /**
 * parse/use cookies
