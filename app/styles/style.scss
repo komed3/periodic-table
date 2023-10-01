@@ -47,7 +47,43 @@ body {
     background: $color-bg;
 }
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 a {
     text-decoration: none;
     color: inherit;
+}
+
+input, select {
+    font-family: 'Roboto', sans-serif;
+    outline: 0 none;
+}
+
+/**
+ * template: searchform
+ */
+.pt-searchform-inner {
+    position: relative;
+}
+
+.pt-searchform-icon {
+    pointer-events: none;
+    position: absolute;
+    top: 8px;
+    left: 14px;
+    font-size: 20px;
+    color: $color-gray-3;
+}
+
+.pt-searchform-box {
+    width: 360px;
+    height: 36px;
+    padding: 0 14px 0 42px;
+    font-size: 14px;
+    color: $color-main;
+    background: $color-gray-0;
+    border: 1px solid $color-gray-3;
+    border-radius: 22px;
 }
