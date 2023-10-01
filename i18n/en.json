@@ -1,5 +1,11 @@
 {
     "credits": "Copyright © %s <a href=\"https://komed3.de\" target=\"_blank\">komed3</a>.",
+    "lang-de": "German",
+    "lang-en": "English",
+    "language": "Language",
+    "nav": "Navigation",
+    "search-placeholder": "Search …",
     "start-title": "Home",
+    "theme": "Theme",
     "title": "Periodic Table"
 }
