@@ -5,7 +5,8 @@ html( lang=locale )
     meta( charset="UTF-8" )/
     meta( name="viewport", content="width=device-width, initial-scale=1.0" )/
     link( rel="icon", sizes="16x16 32x32 48x48 64x64", href="img/favicon.ico" )/
-    title #{__( site + '-title' )} — #{__( 'title' )}
+    block title
+      title #{__( site + '-title' )} — #{__( 'title' )}
     meta( name="description", content=`${__( site + '-description' )}` )/
     meta( name="robots", content="all, max-image-preview:standard" )/
     meta( name="format-detection", content="telephone=no" )/
@@ -14,17 +15,17 @@ html( lang=locale )
     meta( property="og:title", content=`${__( site + '-title' )}` )/
     meta( property="og:description", content=`${__( site + '-description' )}` )/
     script( src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js" )
-    script( src="js/global.min.js" )
-    link( rel="stylesheet", href="css/style.css" )/
-    link( rel="stylesheet", href="css/header.css" )/
-    link( rel="stylesheet", href="css/footer.css" )/
-    block styles
+    script( src="/js/global.min.js" )
     block scripts
+    link( rel="stylesheet", href="/css/style.css" )/
+    link( rel="stylesheet", href="/css/header.css" )/
+    link( rel="stylesheet", href="/css/footer.css" )/
+    block styles
   body( theme=theme )
     header#header.pt-header( role="banner" )
       a.pt-header-logo( href="/", title=`${__( 'title' )}` )
         svg.pt-atom( width="32", height="32" )
-          use( xlink:href="img/atom.svg#atom" )
+          use( xlink:href="/img/atom.svg#atom" )
       a.pt-header-menu( href="#", title=`${__( 'nav' )}` )
         i( class="icon open" ) menu
         i( class="icon close" ) close
@@ -40,7 +41,7 @@ html( lang=locale )
     footer#footer.pt-footer
       a.pt-footer-logo( href="/", title=`${__( 'title' )}` )
         svg.pt-atom( width="32", height="32" )
-          use( xlink:href="img/atom.svg#atom" )
+          use( xlink:href="/img/atom.svg#atom" )
       div.pt-footer-inner
         nav.pt-footer-nav( role="nav" )
           a( href="/" ) #{__( 'start-title' )}
