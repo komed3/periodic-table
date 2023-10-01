@@ -35,7 +35,7 @@ app.use( cookieParser() );
  * passing settings and save them as cookie
  * e.g. theme, locale ...
  */
-app.use( '/set', ( req, res ) => {
+app.use( '/set', ( req, res, next ) => {
 
     for( const [ key, val ] of Object.entries( req.query ) ) {
 
@@ -43,7 +43,15 @@ app.use( '/set', ( req, res ) => {
 
     }
 
-    res.redirect( req.get( 'Referrer' ) );
+    if( req.get( 'referrer' ).includes( req.get( 'host' ) ) ) {
+
+        res.redirect( req.get( 'referrer' ) );
+
+    } else {
+
+        next();
+
+    }
 
 } );
 
