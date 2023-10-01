@@ -6,7 +6,6 @@
 /**
  * define variables
  */
-@import 'global';
 
 $header-height: 56px;
 
@@ -20,7 +19,7 @@ $header-height: 56px;
     display: flex;
     flex-flow: row nowrap;
     height: $header-height;
-    background: $color-gray-0;
+    background: var( --gray-0 );
 }
 
 .pt-header-logo,
@@ -35,8 +34,8 @@ $header-height: 56px;
 }
 
 .pt-header-menu.active {
-    color: $color-gray-0;
-    background: $color-accent-1;
+    color: var( --gray-0 );
+    background: var( --gray-1 );
 }
 
 .pt-header-menu.active .open,

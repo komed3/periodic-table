@@ -39,7 +39,7 @@ app.use( '/set', ( req, res ) => {
 
     for( const [ key, val ] of Object.entries( req.query ) ) {
 
-        res.cookie( key, val, { maxAge: 900000, httpOnly: true } );
+        res.cookie( key, val, { maxAge: 10e9, httpOnly: true } );
 
     }
 

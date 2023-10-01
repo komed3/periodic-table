@@ -4,18 +4,69 @@
  */
 
 /**
- * import variables
+ * define global colors
  */
-@import 'global';
+
+:root{
+
+    --accent-1: #2a80ad;
+    --accent-2: #55c1fa;
+    --accent-3: #f25949;
+
+}
+
+/**
+ * define themes
+ */
+
+body[theme="light"] {
+
+    --gray-0: #ffffff;
+    --gray-1: #f5f6f7;
+    --gray-2: #d3d4d5;
+    --gray-3: #b2b3b4;
+    --gray-4: #929393;
+    --gray-5: #737474;
+    --gray-6: #565657;
+    --gray-7: #3a3a3b;
+    --gray-8: #202121;
+    --gray-9: #010203;
+    --gray-10: #000000;
+
+    --color-main: var( --gray-9 );
+    --color-bg: var( --gray-1 );
+
+}
+
+body[theme="dark"] {
+
+    --gray-10: #ffffff;
+    --gray-9: #f5f6f7;
+    --gray-8: #d3d4d5;
+    --gray-7: #b2b3b4;
+    --gray-6: #929393;
+    --gray-5: #737474;
+    --gray-4: #737474;
+    --gray-3: #565657;
+    --gray-2: #3a3a3b;
+    --gray-1: #202121;
+    --gray-0: #000000;
+
+    --color-main: var( --gray-9 );
+    --color-bg: var( --gray-1 );
+
+}
 
 /**
  * import fonts
  */
+
 @import url( 'https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap' );
 
 /**
  * icon support
  */
+
 @font-face {
     font-family: 'Material Symbols Outlined';
     font-style: normal;
@@ -43,8 +94,8 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    color: $color-main;
-    background: $color-bg;
+    color: var( --color-main );
+    background: var( --color-bg );
 }
 
 *, *::before, *::after {
@@ -90,7 +141,7 @@ select {
     height: 36px;
     padding: 0 14px 0 42px;
     font-size: 14px;
-    color: $color-main;
+    color: var( --color-main );
     border-radius: 18px;
 }
 
@@ -99,13 +150,13 @@ select {
  */
 
 .pt-searchform-icon {
-    color: $color-gray-3;
+    color: var( --gray-3 );
 }
 
 .pt-searchform-box {
     width: 360px;
-    background: $color-gray-0;
-    border: 1px solid $color-gray-3;
+    background: var( --gray-0 );
+    border: 1px solid var( --gray-3 );
 }
 
 /**
@@ -113,11 +164,11 @@ select {
  */
 
 .pt-language-selector-icon {
-    color: $color-gray-5;
+    color: var( --gray-5 );
 }
 
 .pt-language-selector-select {
-    background: $color-gray-1;
+    background: var( --gray-1 );
     border: 0;
 }
 
@@ -132,6 +183,6 @@ select {
     width: 36px;
     height: 36px;
     font-size: 20px;
-    background: $color-gray-1;
+    background: var( --gray-1 );
     border-radius: 18px;
 }
