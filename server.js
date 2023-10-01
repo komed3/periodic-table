@@ -35,31 +35,15 @@ app.use( cookieParser() );
  * passing settings and save them as cookie
  * e.g. theme, locale ...
  */
-app.use( ( req, res, next ) => {
-
-    let reload = false;
+app.use( '/set', ( req, res ) => {
 
     for( const [ key, val ] of Object.entries( req.query ) ) {
 
-        if( [ 'locale', 'theme' ].includes( key ) ) {
-
-            reload = true;
-
-            res.cookie( key, val, { maxAge: 900000, httpOnly: true } );
-
-        }
+        res.cookie( key, val, { maxAge: 900000, httpOnly: true } );
 
     }
 
-    if( reload ) {
-
-        res.redirect( req.get( 'Referrer' ) );
-
-    } else {
-
-        next();
-
-    }
+    res.redirect( req.get( 'Referrer' ) );
 
 } );
 
@@ -105,7 +89,7 @@ routes.routes.forEach( ( route ) => {
 
         res.locals.site = route[1];
         res.locals.availableLanguages = availableLanguages;
-        res.locals.locale = i18n.getLocale();
+        res.locals.locale = req.getLocale();
         res.locals.theme = req.cookies.theme || 'light';
         res.locals.search = {
             query: req.query.q || req.query.query || ''
