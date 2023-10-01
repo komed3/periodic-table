@@ -73,6 +73,7 @@ routes.routes.forEach( ( route ) => {
 
         res.locals.site = route[1];
         res.locals.availableLanguages = availableLanguages;
+        res.locals.locale = i18n.getLocale();
         res.locals.search = {
             query: ''
         };
