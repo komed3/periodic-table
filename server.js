@@ -74,9 +74,8 @@ routes.routes.forEach( ( route ) => {
         res.locals.site = route[1];
         res.locals.availableLanguages = availableLanguages;
         res.locals.locale = i18n.getLocale();
-        res.locals.search = {
-            query: ''
-        };
+        res.locals.theme = req.cookies.theme || 'light';
+        res.locals.search = { query: '' };
 
         try {
 

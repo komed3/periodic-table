@@ -5,9 +5,9 @@
     "homepage": "https://github.com/komed3/periodic-table#periodic-table",
     "author": "komed3 (Paul Köhler)",
     "license": "MIT",
-    "main": "server.min.js",
+    "main": "server.js",
     "scripts": {
-        "start": "nodemon server.min.js",
+        "start": "nodemon server.js",
         "sass": "node-sass app/styles/ -o public/styles/ --output-style compressed",
         "compile": "uglifyjs-folder app/scripts/ -o public/scripts/ --each",
         "test": "exit 1"

@@ -1,5 +1,8 @@
 //- templates/theme-selector.pug
 div.pt-theme-selector
-  a( href="#", set="theme", theme="light", title=`${__( 'theme' )}` )
-    i( class="icon light" ) light_mode
-    i( class="icon dark" ) dark_mode
+  if theme == 'dark'
+    a( href="?theme=dark", title=`${__( 'theme-dark' )}` )
+      i( class="icon" ) dark_mode
+  else
+    a( href="?theme=light", title=`${__( 'theme-light' )}` )
+      i( class="icon" ) light_mode
