@@ -8,7 +8,8 @@
     "main": "server.min.js",
     "scripts": {
         "start": "nodemon server.min.js",
-        "compile": "node-sass app/styles/ -o public/styles/ --output-style compressed",
+        "sass": "node-sass app/styles/ -o public/styles/ --output-style compressed",
+        "compile": "uglifyjs-folder app/scripts/ -o public/scripts/ --each",
         "test": "exit 1"
     },
     "repository": {
