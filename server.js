@@ -11,7 +11,6 @@
  */
 const express = require( 'express' );
 const cookieParser = require( 'cookie-parser' );
-const url = require( 'url' );
 
 /**
  * start express
