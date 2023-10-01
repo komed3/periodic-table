@@ -1,0 +1,56 @@
+/**
+ * periodic table
+ * site footer
+ */
+
+/**
+ * define variables
+ */
+
+$footer-height: 56px;
+
+/**
+ * footer styles
+ */
+
+.pt-footer {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 12px;
+    margin: 64px;
+    padding: 12px;
+    background: var( --gray-0 );
+    border-radius: 12px;
+}
+
+.pt-footer-logo {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: $footer-height;
+    height: $footer-height;
+}
+
+.pt-footer-inner {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 8px;
+}
+
+.pt-footer-inner a:hover {
+    text-decoration: underline;
+}
+
+.pt-footer-nav {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 12px;
+    font-size: 15px;
+}
+
+.pt-footer-credits {
+    margin: 0;
+    font-size: 12px;
+}

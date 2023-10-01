@@ -1,5 +1,5 @@
 {
-	"credits": "Copyright © %s <a href=\"https://komed3.de\" target=\"_blank\">Paul Köhler (komed3)</a>.",
+	"credits": "Copyright © %s <a href=\"https://komed3.de\" target=\"_blank\">Paul Köhler (komed3)</a>",
 	"lang-de": "German",
 	"lang-en": "English",
 	"language": "Language",
@@ -13,5 +13,7 @@
 	"theme-light": "Light theme",
 	"data-title": "Database",
 	"privacy-title": "Privacy Policy",
-	"github": "GitHub"
+	"github": "GitHub",
+	"404-title": "404-title",
+	"404-description": "404-description"
 }

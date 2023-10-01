@@ -93,6 +93,7 @@ body[theme="dark"] {
 
 body {
     margin: 0;
+    text-underline-offset: 10%;
     font-family: 'Roboto', sans-serif;
     color: var( --color-main );
     background: var( --color-bg );
