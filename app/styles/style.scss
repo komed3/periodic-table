@@ -1,8 +1,41 @@
+/**
+ * import fonts
+ */
 @import url( 'https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap' );
 
 $font-main: 'Roboto';
 
+/**
+ * icon support
+ */
+@font-face {
+    font-family: 'Material Symbols Outlined';
+    font-style: normal;
+    src: url( ./../font/MaterialSymbolsOutlined.woff2 ) format('woff');
+}
+
+.icon {
+    display: inline-block;
+    text-transform: none;
+    line-height: 1;
+    white-space: nowrap;
+    word-wrap: normal;
+    font-family: 'Material Symbols Outlined';
+    font-size: 1em;
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    direction: ltr;
+}
+
+/**
+ * define site colors
+ */
 $color-bg: #f5f6f7;
+
+/**
+ * global styles
+ */
 
 body {
     margin: 0;
