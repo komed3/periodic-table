@@ -1043,7 +1043,13 @@
         "period": 6,
         "column": 1,
         "block": "s",
-        "set": "alkalimetal"
+        "set": "alkalimetal",
+        "hazardous": {
+            "h": [ "260", "314" ],
+            "p": [ "231+232", "260", "280", "305+351+338", "370+378" ],
+            "hazard": [ "F", "C" ],
+            "ghs": [ "02", "05" ]
+        }
     },
     "ba": {
         "symbol": "Ba",
@@ -1057,7 +1063,13 @@
         "period": 6,
         "column": 2,
         "block": "s",
-        "set": "alkalineearthmetal"
+        "set": "alkalineearthmetal",
+        "hazardous": {
+            "h": [ "228", "261" ],
+            "p": [ "210", "231+232", "280", "370+378", "402+404", "501" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02" ]
+        }
     },
     "la": {
         "symbol": "La",
@@ -1071,7 +1083,13 @@
         "period": 6,
         "column": 3,
         "block": "d",
-        "set": "lanthanoide"
+        "set": "lanthanoide",
+        "hazardous": {
+            "h": [ "228" ],
+            "p": [ "210" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02" ]
+        }
     },
     "ce": {
         "symbol": "Ce",
@@ -1085,7 +1103,13 @@
         "period": 6,
         "column": 4,
         "block": "f",
-        "set": "lanthanoide"
+        "set": "lanthanoide",
+        "hazardous": {
+            "h": [ "228" ],
+            "p": [ "231+232", "233", "280", "370+378", "402+404", "501" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02" ]
+        }
     },
     "pr": {
         "symbol": "Pr",
@@ -1099,7 +1123,13 @@
         "period": 6,
         "column": 5,
         "block": "f",
-        "set": "lanthanoide"
+        "set": "lanthanoide",
+        "hazardous": {
+            "h": [ "250" ],
+            "p": [ "222", "231" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02" ]
+        }
     },
     "nd": {
         "symbol": "Nd",
@@ -1113,7 +1143,13 @@
         "period": 6,
         "column": 6,
         "block": "f",
-        "set": "lanthanoide"
+        "set": "lanthanoide",
+        "hazardous": {
+            "h": [ "228", "260" ],
+            "p": [ "210", "231+232", "280", "370+378", "402+404", "501" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02" ]
+        }
     },
     "pm": {
         "symbol": "Pm",
@@ -1127,7 +1163,9 @@
         "period": 6,
         "column": 7,
         "block": "f",
-        "set": "lanthanoide"
+        "set": "lanthanoide",
+        "hazardous": null,
+        "radioactive": true
     },
     "sm": {
         "symbol": "Sm",
@@ -1141,7 +1179,13 @@
         "period": 6,
         "column": 8,
         "block": "f",
-        "set": "lanthanoide"
+        "set": "lanthanoide",
+        "hazardous": {
+            "h": [ "260" ],
+            "p": [ "402+404" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02" ]
+        }
     },
     "eu": {
         "symbol": "Eu",
@@ -1155,7 +1199,13 @@
         "period": 6,
         "column": 9,
         "block": "f",
-        "set": "lanthanoide"
+        "set": "lanthanoide",
+        "hazardous": {
+            "h": [ "250", "261" ],
+            "p": [ "210", "231+232", "280", "302+335+334" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02" ]
+        }
     },
     "gd": {
         "symbol": "Gd",
@@ -1169,7 +1219,13 @@
         "period": 6,
         "column": 10,
         "block": "f",
-        "set": "lanthanoide"
+        "set": "lanthanoide",
+        "hazardous": {
+            "h": [ "228", "260" ],
+            "p": [ "210", "231+232", "241", "280", "240", "501" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02" ]
+        }
     },
     "tb": {
         "symbol": "Tb",
@@ -1183,7 +1239,8 @@
         "period": 6,
         "column": 11,
         "block": "f",
-        "set": "lanthanoide"
+        "set": "lanthanoide",
+        "hazardous": null
     },
     "dy": {
         "symbol": "Dy",
@@ -1197,7 +1254,13 @@
         "period": 6,
         "column": 12,
         "block": "f",
-        "set": "lanthanoide"
+        "set": "lanthanoide",
+        "hazardous": {
+            "h": [ "228" ],
+            "p": [ "210" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02" ]
+        }
     },
     "ho": {
         "symbol": "Ho",
@@ -1211,7 +1274,13 @@
         "period": 6,
         "column": 13,
         "block": "f",
-        "set": "lanthanoide"
+        "set": "lanthanoide",
+        "hazardous": {
+            "h": [ "228" ],
+            "p": [ "210" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02" ]
+        }
     },
     "er": {
         "symbol": "Er",
@@ -1225,7 +1294,13 @@
         "period": 6,
         "column": 14,
         "block": "f",
-        "set": "lanthanoide"
+        "set": "lanthanoide",
+        "hazardous": {
+            "h": [ "228" ],
+            "p": [ "210" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02" ]
+        }
     },
     "tm": {
         "symbol": "Tm",
@@ -1239,7 +1314,13 @@
         "period": 6,
         "column": 15,
         "block": "f",
-        "set": "lanthanoide"
+        "set": "lanthanoide",
+        "hazardous": {
+            "h": [ "228", "319", "335" ],
+            "p": [ "210", "261", "305+351+338" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02", "07" ]
+        }
     },
     "yb": {
         "symbol": "Yb",
@@ -1253,7 +1334,13 @@
         "period": 6,
         "column": 16,
         "block": "f",
-        "set": "lanthanoide"
+        "set": "lanthanoide",
+        "hazardous": {
+            "h": [ "228", "302", "312", "315", "319", "332", "335" ],
+            "p": [ "210", "261", "280", "305+351+338" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02", "07" ]
+        }
     },
     "lu": {
         "symbol": "Lu",
@@ -1267,7 +1354,13 @@
         "period": 6,
         "column": 17,
         "block": "f",
-        "set": "lanthanoide"
+        "set": "lanthanoide",
+        "hazardous": {
+            "h": [ "228" ],
+            "p": [ "210" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02" ]
+        }
     },
     "hf": {
         "symbol": "Hf",
@@ -1281,7 +1374,13 @@
         "period": 6,
         "column": 18,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": {
+            "h": [ "250" ],
+            "p": [ "210" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02" ]
+        }
     },
     "ta": {
         "symbol": "Ta",
@@ -1295,7 +1394,13 @@
         "period": 6,
         "column": 19,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": {
+            "h": [ "228" ],
+            "p": [ "210", "240", "241", "280", "370+378" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02" ]
+        }
     },
     "w": {
         "symbol": "W",
@@ -1309,7 +1414,13 @@
         "period": 6,
         "column": 20,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": {
+            "h": [ "228" ],
+            "p": [ "210", "240", "241", "280", "370+378" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02" ]
+        }
     },
     "re": {
         "symbol": "Re",
@@ -1323,7 +1434,13 @@
         "period": 6,
         "column": 21,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": {
+            "h": [ "228" ],
+            "p": [ "210" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02" ]
+        }
     },
     "os": {
         "symbol": "Os",
@@ -1337,7 +1454,13 @@
         "period": 6,
         "column": 22,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": {
+            "h": [ "228", "315", "318", "335" ],
+            "p": [ "210", "261", "280", "302+352", "305+351+338" ],
+            "hazard": [ "F", "C" ],
+            "ghs": [ "02", "05", "07" ]
+        }
     },
     "ir": {
         "symbol": "Ir",
@@ -1351,7 +1474,13 @@
         "period": 6,
         "column": 23,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": {
+            "h": [ "228", "319" ],
+            "p": [ "210" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02", "07" ]
+        }
     },
     "pt": {
         "symbol": "Pt",
@@ -1365,7 +1494,8 @@
         "period": 6,
         "column": 24,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": null
     },
     "au": {
         "symbol": "Au",
@@ -1379,7 +1509,8 @@
         "period": 6,
         "column": 25,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": null
     },
     "hg": {
         "symbol": "Hg",
@@ -1393,7 +1524,13 @@
         "period": 6,
         "column": 26,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": {
+            "h": [ "330", "360D", "372", "410" ],
+            "p": [ "201", "273", "304+340", "308+310" ],
+            "hazard": [ "T", "X", "N" ],
+            "ghs": [ "06", "08", "09" ]
+        }
     },
     "tl": {
         "symbol": "Tl",
@@ -1407,7 +1544,13 @@
         "period": 6,
         "column": 27,
         "block": "p",
-        "set": "metal"
+        "set": "metal",
+        "hazardous": {
+            "h": [ "330", "300", "373", "413" ],
+            "p": [ "260", "264", "284", "301+310" ],
+            "hazard": [ "T", "X" ],
+            "ghs": [ "06", "08" ]
+        }
     },
     "pb": {
         "symbol": "Pb",
@@ -1421,7 +1564,13 @@
         "period": 6,
         "column": 28,
         "block": "p",
-        "set": "metal"
+        "set": "metal",
+        "hazardous": {
+            "h": [ "302+332", "360FD", "362", "373", "410" ],
+            "p": [ "201", "273", "314" ],
+            "hazard": [ "X", "N" ],
+            "ghs": [ "07", "08", "09" ]
+        }
     },
     "bi": {
         "symbol": "Bi",
@@ -1435,7 +1584,13 @@
         "period": 6,
         "column": 29,
         "block": "p",
-        "set": "metal"
+        "set": "metal",
+        "hazardous": {
+            "h": [ "228" ],
+            "p": [ "210", "370+378" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02" ]
+        }
     },
     "po": {
         "symbol": "Po",
@@ -1449,7 +1604,9 @@
         "period": 6,
         "column": 30,
         "block": "p",
-        "set": "metal"
+        "set": "metal",
+        "hazardous": null,
+        "radioactive": true
     },
     "at": {
         "symbol": "At",
@@ -1463,7 +1620,9 @@
         "period": 6,
         "column": 31,
         "block": "p",
-        "set": "halogen"
+        "set": "halogen",
+        "hazardous": null,
+        "radioactive": true
     },
     "rn": {
         "symbol": "Rn",
@@ -1477,7 +1636,9 @@
         "period": 6,
         "column": 32,
         "block": "p",
-        "set": "noblegas"
+        "set": "noblegas",
+        "hazardous": null,
+        "radioactive": true
     },
     "fr": {
         "symbol": "Fr",
@@ -1491,7 +1652,9 @@
         "period": 7,
         "column": 1,
         "block": "s",
-        "set": "alkalimetal"
+        "set": "alkalimetal",
+        "hazardous": null,
+        "radioactive": true
     },
     "ra": {
         "symbol": "Ra",
@@ -1505,7 +1668,9 @@
         "period": 7,
         "column": 2,
         "block": "s",
-        "set": "alkalineearthmetal"
+        "set": "alkalineearthmetal",
+        "hazardous": null,
+        "radioactive": true
     },
     "ac": {
         "symbol": "Ac",
@@ -1519,7 +1684,9 @@
         "period": 7,
         "column": 3,
         "block": "d",
-        "set": "actinoide"
+        "set": "actinoide",
+        "hazardous": null,
+        "radioactive": true
     },
     "th": {
         "symbol": "Th",
@@ -1533,7 +1700,9 @@
         "period": 7,
         "column": 4,
         "block": "f",
-        "set": "actinoide"
+        "set": "actinoide",
+        "hazardous": null,
+        "radioactive": true
     },
     "pa": {
         "symbol": "Pa",
@@ -1547,7 +1716,9 @@
         "period": 7,
         "column": 5,
         "block": "f",
-        "set": "actinoide"
+        "set": "actinoide",
+        "hazardous": null,
+        "radioactive": true
     },
     "u": {
         "symbol": "U",
@@ -1561,7 +1732,14 @@
         "period": 7,
         "column": 6,
         "block": "f",
-        "set": "actinoide"
+        "set": "actinoide",
+        "hazardous": {
+            "h": [ "330", "300", "373", "413" ],
+            "p": [ "?" ],
+            "hazard": [ "T", "X" ],
+            "ghs": [ "06", "08" ]
+        },
+        "radioactive": true
     },
     "np": {
         "symbol": "Np",
@@ -1575,7 +1753,9 @@
         "period": 7,
         "column": 7,
         "block": "f",
-        "set": "actinoide"
+        "set": "actinoide",
+        "hazardous": null,
+        "radioactive": true
     },
     "pu": {
         "symbol": "Pu",
@@ -1589,7 +1769,9 @@
         "period": 7,
         "column": 8,
         "block": "f",
-        "set": "actinoide"
+        "set": "actinoide",
+        "hazardous": null,
+        "radioactive": true
     },
     "am": {
         "symbol": "Am",
@@ -1603,7 +1785,9 @@
         "period": 7,
         "column": 9,
         "block": "f",
-        "set": "actinoide"
+        "set": "actinoide",
+        "hazardous": null,
+        "radioactive": true
     },
     "cm": {
         "symbol": "Cm",
@@ -1617,7 +1801,9 @@
         "period": 7,
         "column": 10,
         "block": "f",
-        "set": "actinoide"
+        "set": "actinoide",
+        "hazardous": null,
+        "radioactive": true
     },
     "bk": {
         "symbol": "Bk",
@@ -1631,7 +1817,9 @@
         "period": 7,
         "column": 11,
         "block": "f",
-        "set": "actinoide"
+        "set": "actinoide",
+        "hazardous": null,
+        "radioactive": true
     },
     "cf": {
         "symbol": "Cf",
@@ -1645,7 +1833,9 @@
         "period": 7,
         "column": 12,
         "block": "f",
-        "set": "actinoide"
+        "set": "actinoide",
+        "hazardous": null,
+        "radioactive": true
     },
     "es": {
         "symbol": "Es",
@@ -1659,7 +1849,9 @@
         "period": 7,
         "column": 13,
         "block": "f",
-        "set": "actinoide"
+        "set": "actinoide",
+        "hazardous": null,
+        "radioactive": true
     },
     "fm": {
         "symbol": "Fm",
@@ -1673,7 +1865,9 @@
         "period": 7,
         "column": 14,
         "block": "f",
-        "set": "actinoide"
+        "set": "actinoide",
+        "hazardous": null,
+        "radioactive": true
     },
     "md": {
         "symbol": "Md",
@@ -1687,7 +1881,9 @@
         "period": 7,
         "column": 15,
         "block": "f",
-        "set": "actinoide"
+        "set": "actinoide",
+        "hazardous": null,
+        "radioactive": true
     },
     "no": {
         "symbol": "No",
@@ -1701,7 +1897,9 @@
         "period": 7,
         "column": 16,
         "block": "f",
-        "set": "actinoide"
+        "set": "actinoide",
+        "hazardous": null,
+        "radioactive": true
     },
     "lr": {
         "symbol": "Lr",
@@ -1715,7 +1913,9 @@
         "period": 7,
         "column": 17,
         "block": "f",
-        "set": "actinoide"
+        "set": "actinoide",
+        "hazardous": null,
+        "radioactive": true
     },
     "rf": {
         "symbol": "Rf",
@@ -1729,7 +1929,9 @@
         "period": 7,
         "column": 18,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": null,
+        "radioactive": true
     },
     "db": {
         "symbol": "Db",
@@ -1743,7 +1945,9 @@
         "period": 7,
         "column": 19,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": null,
+        "radioactive": true
     },
     "sg": {
         "symbol": "Sg",
@@ -1757,7 +1961,9 @@
         "period": 7,
         "column": 20,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": null,
+        "radioactive": true
     },
     "bh": {
         "symbol": "Bh",
@@ -1771,7 +1977,9 @@
         "period": 7,
         "column": 21,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": null,
+        "radioactive": true
     },
     "hs": {
         "symbol": "Hs",
@@ -1785,7 +1993,9 @@
         "period": 7,
         "column": 22,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": null,
+        "radioactive": true
     },
     "mt": {
         "symbol": "Mt",
@@ -1799,7 +2009,9 @@
         "period": 7,
         "column": 23,
         "block": "d",
-        "set": null
+        "set": null,
+        "hazardous": null,
+        "radioactive": true
     },
     "ds": {
         "symbol": "Ds",
@@ -1813,7 +2025,9 @@
         "period": 7,
         "column": 24,
         "block": "d",
-        "set": null
+        "set": null,
+        "hazardous": null,
+        "radioactive": true
     },
     "rg": {
         "symbol": "Rg",
@@ -1827,7 +2041,9 @@
         "period": 7,
         "column": 25,
         "block": "d",
-        "set": null
+        "set": null,
+        "hazardous": null,
+        "radioactive": true
     },
     "cn": {
         "symbol": "Cn",
@@ -1841,7 +2057,9 @@
         "period": 7,
         "column": 26,
         "block": "d",
-        "set": null
+        "set": null,
+        "hazardous": null,
+        "radioactive": true
     },
     "nh": {
         "symbol": "Nh",
@@ -1855,7 +2073,9 @@
         "period": 7,
         "column": 27,
         "block": "p",
-        "set": null
+        "set": null,
+        "hazardous": null,
+        "radioactive": true
     },
     "fl": {
         "symbol": "Fl",
@@ -1869,7 +2089,9 @@
         "period": 7,
         "column": 28,
         "block": "p",
-        "set": null
+        "set": null,
+        "hazardous": null,
+        "radioactive": true
     },
     "mc": {
         "symbol": "Mc",
@@ -1883,7 +2105,9 @@
         "period": 7,
         "column": 29,
         "block": "p",
-        "set": null
+        "set": null,
+        "hazardous": null,
+        "radioactive": true
     },
     "lv": {
         "symbol": "Lv",
@@ -1897,7 +2121,9 @@
         "period": 7,
         "column": 30,
         "block": "p",
-        "set": null
+        "set": null,
+        "hazardous": null,
+        "radioactive": true
     },
     "ts": {
         "symbol": "Ts",
@@ -1911,7 +2137,9 @@
         "period": 7,
         "column": 31,
         "block": "p",
-        "set": null
+        "set": null,
+        "hazardous": null,
+        "radioactive": true
     },
     "og": {
         "symbol": "Og",
@@ -1924,6 +2152,9 @@
         "group": 18,
         "period": 7,
         "column": 32,
-        "block": "p"
+        "block": "p",
+        "set": null,
+        "hazardous": null,
+        "radioactive": true
     }
 }
