@@ -45,6 +45,14 @@
     gap: 12px;
 }
 
+.pt-element-hazard-statements {
+    margin-top: 24px;
+}
+
+.pt-element-hazard-statements .hazard--line b {
+    padding-right: 8px;
+}
+
 .pt-element-footer {
     grid-column: span 2;
 }
