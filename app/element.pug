@@ -27,7 +27,7 @@ block content
             div.pt-box-flex.pt-box-columns.pt-element-hazard-box
               each ghs in element.hazardous.ghs
                 div.pt-element-hazard-item
-                  img( src='/img/GHS' + ghs + '.png', class="pictogram" )
+                  img( src='/img/GHS' + ghs + '.png', class="pictogram", loading="lazy" )
                   span!= __( 'ghs-' + ghs )
           else
             i= __( 'ghs-undefined' )
@@ -46,5 +46,10 @@ block content
                   span!= element.hazardous.p.join( '-' )
                 else
                   i= __( 'hazard-precautionary-undefined' )
+          if element.hazardous.hazard && element.hazardous.hazard.length
+            h3= __( 'pictogram-title' )
+            div.pt-element-hazard-pictograms
+              each hazard in element.hazardous.hazard
+                img( src='/img/hazard-' + hazard + '.png', class="pictogram-small", loading="lazy" )
     div.pt-element-footer
       include templates/microtable.pug
