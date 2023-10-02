@@ -2,10 +2,11 @@
 div.pt-microtable( layer=( layer || 'set' ) )
   each el, k in elements
     a(
-      href='/e/' + el.symbol,
-      style='--g:' + el.column + ';--p:' + el.period,
-      layer=( el[ layer || 'set' ] )
-      class='pt-el' + (
+      href= '/e/' + el.symbol,
+      style= '--g:' + el.column + ';--p:' + el.period,
+      layer= ( el[ layer || 'set' ] ),
+      title= el.names[ locale ],
+      class= 'pt-el' + (
         el.symbol == element.symbol || ''
           ? ' current'
           : ''
