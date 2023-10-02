@@ -4,61 +4,14 @@
  */
 
 /**
- * define global colors
+ * import + define global vars
  */
+@import 'colors';
 
 :root{
 
     --padding: 64px;
     --content: 1200px;
-
-    --accent-1: #2a80ad;
-    --accent-2: #55c1fa;
-    --accent-3: #f25949;
-
-    --accent-contrast: #ffffff;
-
-}
-
-/**
- * define themes
- */
-
-body[theme="light"] {
-
-    --gray-0: #ffffff;
-    --gray-1: #f5f6f7;
-    --gray-2: #d3d4d5;
-    --gray-3: #b2b3b4;
-    --gray-4: #929393;
-    --gray-5: #737474;
-    --gray-6: #565657;
-    --gray-7: #3a3a3b;
-    --gray-8: #202121;
-    --gray-9: #010203;
-    --gray-10: #000000;
-
-    --color-main: var( --gray-9 );
-    --color-bg: var( --gray-1 );
-
-}
-
-body[theme="dark"] {
-
-    --gray-10: #ffffff;
-    --gray-9: #f5f6f7;
-    --gray-8: #d3d4d5;
-    --gray-7: #b2b3b4;
-    --gray-6: #929393;
-    --gray-5: #737474;
-    --gray-4: #737474;
-    --gray-3: #565657;
-    --gray-2: #3a3a3b;
-    --gray-1: #202121;
-    --gray-0: #000000;
-
-    --color-main: var( --gray-9 );
-    --color-bg: var( --gray-1 );
 
 }
 
@@ -180,7 +133,7 @@ select {
  */
 
 .pt-language-selector-icon {
-    color: var( --gray-5 );
+    color: var( --gray-4 );
 }
 
 .pt-language-selector-select {
