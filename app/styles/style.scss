@@ -9,9 +9,14 @@
 
 :root{
 
+    --padding: 64px;
+    --content: 1200px;
+
     --accent-1: #2a80ad;
     --accent-2: #55c1fa;
     --accent-3: #f25949;
+
+    --accent-contrast: #ffffff;
 
 }
 
@@ -75,7 +80,6 @@ body[theme="dark"] {
     white-space: nowrap;
     word-wrap: normal;
     font-family: 'Material Symbols Outlined';
-    font-size: 1em;
     font-weight: normal;
     font-style: normal;
     letter-spacing: normal;
@@ -98,6 +102,11 @@ body {
     box-sizing: border-box;
 }
 
+h1 {
+    margin: 0 0 32px 0;
+    font-size: 24px;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -112,6 +121,17 @@ select {
     -webkit-appearance: none;
     appearance: none;
     cursor: pointer;
+}
+
+/**
+ * global elements
+ */
+
+.pt-box {
+    margin-bottom: 24px;
+    padding: 24px;
+    background: var( --gray-0 );
+    border-radius: 12px;
 }
 
 /**

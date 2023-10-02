@@ -1,0 +1,39 @@
+/**
+ * periodic table
+ * single element page
+ */
+
+.pt-element {
+    display: grid;
+    grid-template-columns: 1fr 460px;
+    gap: 24px;
+    margin: var( --padding ) auto;
+    max-width: var( --content );
+}
+
+.pt-element-intro h1 {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 16px;
+}
+
+.pt-element-intro h1 .element--symbol {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    width: auto;
+    min-width: 36px;
+    height: 36px;
+    padding: 0 8px;
+    font-size: 20px;
+    color: var( --accent-contrast );
+    background: var( --accent-1 );
+}
+
+.pt-element-intro h1 .element--symbol .symbol--number {
+    padding-top: 6px;
+    font-size: 12px;
+}
