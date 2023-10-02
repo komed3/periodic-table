@@ -20,6 +20,7 @@ $header-height: 56px;
     flex-flow: row nowrap;
     height: $header-height;
     background: var( --gray-0 );
+    box-shadow: var( --box-shadow );
 }
 
 .pt-header-logo,
