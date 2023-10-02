@@ -23,26 +23,28 @@ block content
       if element.hazardous
         div.pt-box.pt-element-hazard
           h2= __( 'element-hazardous' )
-          if element.hazardous.ghs
+          if element.hazardous.ghs && element.hazardous.ghs.length
             div.pt-box-flex.pt-box-columns.pt-element-hazard-box
               each ghs in element.hazardous.ghs
                 div.pt-element-hazard-item
                   img( src='/img/GHS' + ghs + '.png', class="pictogram" )
                   span!= __( 'ghs-' + ghs )
+          else
+            i= __( 'ghs-undefined' )
           div.pt-element-hazard-statements
             h3= __( 'hazard-precautionary' )
             div.hazard--statements
               div.hazard--line
                 b H
-                if element.hazardous.h
+                if element.hazardous.h && element.hazardous.h.length
                   span!= element.hazardous.h.join( '-' )
                 else
-                  span= __( 'hazard-precautionary-undefined' )
+                  i= __( 'hazard-precautionary-undefined' )
               div.hazard--line
                 b P
-                if element.hazardous.p
+                if element.hazardous.p && element.hazardous.p.length
                   span!= element.hazardous.p.join( '-' )
                 else
-                  span= __( 'hazard-precautionary-undefined' )
+                  i= __( 'hazard-precautionary-undefined' )
     div.pt-element-footer
       include templates/microtable.pug

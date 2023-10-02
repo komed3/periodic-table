@@ -20,7 +20,12 @@
 	"element-description": "element-description",
 	"element-hazardous": "Hazard classification",
 	"ghs-02": "<b>GHS02</b> Flammable, self-reactive, self-heating, pyrophoric, combustible, organic peroxides",
+	"ghs-03": "<b>GHS03</b> Oxidizing",
 	"ghs-04": "<b>GHS04</b> Compressed gases, (refrigerated) liquefied, dissolved",
+	"ghs-05": "<b>GHS05</b> Corrosive to metals, skin corrosion, serious eye damage",
+	"ghs-06": "<b>GHS06</b> Acute toxicity",
+	"ghs-08": "<b>GHS08</b> Respiratory sensitization, cell mutagenicity, carcinogenicity",
+	"ghs-undefined": "no hazard classification",
 	"hazard-precautionary": "Hazard & precautionary statements",
 	"hazard-precautionary-undefined": "no statements"
 }

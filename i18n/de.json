@@ -20,7 +20,12 @@
 	"element-description": "element-description",
 	"element-hazardous": "Gefahrstoffkennzeichnung",
 	"ghs-02": "<b>GHS02</b> Entzündbar, selbsterhitzungsfähig, selbstzersetzlich, pyrophor, wasserreaktiv, Organische Peroxide",
+	"ghs-03": "<b>GHS03</b> Entzündend (oxidierend) wirkend",
 	"ghs-04": "<b>GHS04</b> Gase unter Druck, verdichtete, verflüssigte, tiefgekühlt verfl., gelöste Gase",
+	"ghs-05": "<b>GHS05</b> Auf Metalle korrosiv wirkend, hautätzend, schwere Augenschädigung",
+	"ghs-06": "<b>GHS06</b> Akute Toxizität",
+	"ghs-08": "<b>GHS08</b> div. Gesundheitsgefahren",
+	"ghs-undefined": "keine GHS-Piktogramme",
 	"hazard-precautionary": "H- und P-Sätze",
 	"hazard-precautionary-undefined": "keine Sätze angegeben"
 }
