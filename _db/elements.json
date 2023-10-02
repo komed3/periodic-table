@@ -236,6 +236,10 @@
             "de": "Natrium",
             "la": "Natrium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Na_%28Sodium%29.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Na_(Sodium).jpg\">The original uploader was Dnn87 at English Wikipedia.</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
+        },
         "number": 11,
         "group": 1,
         "period": 3,
@@ -255,6 +259,10 @@
             "en": "Magnesium",
             "de": "Magnesium",
             "la": "Magnesium"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/CSIRO_ScienceImage_2893_Crystalised_magnesium.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_2893_Crystalised_magnesium.jpg\">CSIRO</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
         "number": 12,
         "group": 2,
@@ -276,6 +284,10 @@
             "de": "Aluminium",
             "la": "Aluminium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Aluminium-4.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Aluminium-4.jpg\">http://images-of-elements.com/aluminium.php</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
+        },
         "number": 13,
         "group": 13,
         "period": 3,
@@ -296,6 +308,10 @@
             "de": "Silicium",
             "la": "Silicium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/SiliconCroda.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:SiliconCroda.jpg\">Enricoros at English Wikipedia</a>, Public domain, via Wikimedia Commons"
+        },
         "number": 14,
         "group": 14,
         "period": 3,
@@ -310,6 +326,10 @@
             "en": "Phosphorus",
             "de": "Phosphor",
             "la": "Phosphor"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/%C4%8Cerven%C3%BD_fosfor.png",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:%C4%8Cerven%C3%BD_fosfor.png\">Ondřej Mangl</a>, Public domain, via Wikimedia Commons"
         },
         "number": 15,
         "group": 15,
@@ -331,6 +351,10 @@
             "de": "Schwefel",
             "la": "Sulfur"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Sulfur_-_El_Desierto_mine%2C_San_Pablo_de_Napa%2C_Daniel_Campos_Province%2C_Potos%C3%AD%2C_Bolivia.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Sulfur_-_El_Desierto_mine,_San_Pablo_de_Napa,_Daniel_Campos_Province,_Potos%C3%AD,_Bolivia.jpg\">Ivar Leidus</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons"
+        },
         "number": 16,
         "group": 16,
         "period": 3,
@@ -350,6 +374,10 @@
             "en": "Chlorine",
             "de": "Chlor",
             "la": "Chlorum"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Die_chemischen_elemente_cl.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Die_chemischen_elemente_cl.jpg\">Alexander C. Wimmer</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0/at/deed.en\">CC BY-SA 3.0 AT</a>, via Wikimedia Commons"
         },
         "number": 17,
         "group": 17,
@@ -371,6 +399,10 @@
             "de": "Argon",
             "la": "Argon"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Argon_discharge_tube.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Argon_discharge_tube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>, via Wikimedia Commons"
+        },
         "number": 18,
         "group": 18,
         "period": 3,
@@ -390,6 +422,10 @@
             "en": "Potassium",
             "de": "Kalium",
             "la": "Kalium"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/KaliumunterTetrahydrofuran.JPG",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:KaliumunterTetrahydrofuran.JPG\">Schmid &amp; Rauch</a>, Public domain, via Wikimedia Commons"
         },
         "number": 19,
         "group": 1,
@@ -411,6 +447,10 @@
             "de": "Calcium",
             "la": "Calcium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Calcium_unter_Argon_Schutzgasatmosph%C3%A4re.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Calcium_unter_Argon_Schutzgasatmosph%C3%A4re.jpg\">Matthias Zepper</a>, Public domain, via Wikimedia Commons"
+        },
         "number": 20,
         "group": 2,
         "period": 4,
@@ -430,6 +470,10 @@
             "en": "Scandium",
             "de": "Scandium",
             "la": "Scandium"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Scandium_sublimed_dendritic_and_1cm3_cube.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Scandium_sublimed_dendritic_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
         "number": 21,
         "group": 3,
@@ -451,6 +495,10 @@
             "de": "Titan",
             "la": "Titanum"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Titan-crystal_bar.JPG",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Titan-crystal_bar.JPG\">Alchemist-hp (pse-mendelejew.de)</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
+        },
         "number": 22,
         "group": 4,
         "period": 4,
@@ -471,6 +519,10 @@
             "de": "Vanadium",
             "la": "Vanadium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Vanadium_crystal_bar_and_1cm3_cube.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Vanadium_crystal_bar_and_1cm3_cube.jpg\">Alchemist-hp (pse-mendelejew.de).</a>, FAL, via Wikimedia Commons"
+        },
         "number": 23,
         "group": 5,
         "period": 4,
@@ -486,6 +538,10 @@
             "de": "Chrom",
             "la": "Chromium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Chromium_crystals_and_1cm3_cube.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Chromium_crystals_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
+        },
         "number": 24,
         "group": 6,
         "period": 4,
@@ -500,6 +556,10 @@
             "en": "Manganese",
             "de": "Mangan",
             "la": "Manganum"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Manganese_electrolytic_and_1cm3_cube.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Manganese_electrolytic_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
         "number": 25,
         "group": 7,
@@ -521,6 +581,10 @@
             "de": "Eisen",
             "la": "Ferrum"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Iron_electrolytic_and_1cm3_cube.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Iron_electrolytic_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
+        },
         "number": 26,
         "group": 8,
         "period": 4,
@@ -535,6 +599,10 @@
             "en": "Cobalt",
             "de": "Cobalt",
             "la": "Cobaltum"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Kobalt_electrolytic_and_1cm3_cube.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Kobalt_electrolytic_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
         "number": 27,
         "group": 9,
@@ -556,6 +624,10 @@
             "de": "Nickel",
             "la": "Niccolum"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Nickel_chunk.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Nickel_chunk.jpg\">Materialscientist at English Wikipedia</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
+        },
         "number": 28,
         "group": 10,
         "period": 4,
@@ -575,6 +647,10 @@
             "en": "Copper",
             "de": "Kupfer",
             "la": "Cuprum"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/NatCopper.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:NatCopper.jpg\">Native_Copper_Macro_Digon3.jpg: “Jonathan Zander (Digon3)&quot;derivative work: Materialscientist</a>, <a href=\"https://creativecommons.org/licenses/by-sa/2.5\">CC BY-SA 2.5</a>, via Wikimedia Commons"
         },
         "number": 29,
         "group": 11,
@@ -596,6 +672,10 @@
             "de": "Zink",
             "la": "Zincum"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Zinc_fragment_sublimed_and_1cm3_cube.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Zinc_fragment_sublimed_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
+        },
         "number": 30,
         "group": 12,
         "period": 4,
@@ -615,6 +695,10 @@
             "en": "Gallium",
             "de": "Gallium",
             "la": "Gallium"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Gallium_crystals.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Gallium_crystals.jpg\">en:user:foobar</a>, <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\">CC BY-SA 3.0</a>, via Wikimedia Commons"
         },
         "number": 31,
         "group": 13,
@@ -636,6 +720,10 @@
             "de": "Germanium",
             "la": "Germanium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Polycrystalline-germanium.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Polycrystalline-germanium.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
+        },
         "number": 32,
         "group": 14,
         "period": 4,
@@ -655,6 +743,10 @@
             "en": "Arsenic",
             "de": "Arsen",
             "la": "Arsenicum"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Native_arsenic.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Native_arsenic.jpg\">Aram Dulyan (User:Aramgutang)</a>, Public domain, via Wikimedia Commons"
         },
         "number": 33,
         "group": 15,
@@ -677,6 +769,10 @@
             "la": "Selenum",
             "set": "metalloid"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Selenium_in_sandstone_Westwater_Canyon_Section_23_Mine_Grants%2C_New_Mexico.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Selenium_in_sandstone_Westwater_Canyon_Section_23_Mine_Grants,_New_Mexico.jpg\">James St. John</a>, <a href=\"https://creativecommons.org/licenses/by/2.0\">CC BY 2.0</a>, via Wikimedia Commons"
+        },
         "number": 34,
         "group": 16,
         "period": 4,
@@ -697,6 +793,10 @@
             "de": "Brom",
             "la": "Bromum"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Bromine-ampoule.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Bromine-ampoule.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
+        },
         "number": 35,
         "group": 17,
         "period": 4,
@@ -716,6 +816,10 @@
             "en": "Krypton",
             "de": "Krypton",
             "la": "Krypton"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Krypton_discharge_tube.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Krypton_discharge_tube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>, via Wikimedia Commons"
         },
         "number": 36,
         "group": 18,
