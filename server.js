@@ -10,6 +10,7 @@
  * load required modules/files
  */
 const core = require( './lib/core' );
+const elements = core.DB( 'elements' );
 
 /**
  * load "express" web framework
@@ -109,6 +110,7 @@ routes.routes.forEach( ( route ) => {
 
             res.locals.site = route[1];
             res.locals.availableLanguages = availableLanguages;
+            res.locals.DB = elements;
             res.locals.locale = req.getLocale();
             res.locals.theme = req.cookies.theme || 'light';
             res.locals.search = {
@@ -125,9 +127,9 @@ routes.routes.forEach( ( route ) => {
 
                     let element = ( url[1] || '' ).toString().toLowerCase();
 
-                    if( element in ( DB = core.DB( 'elements' ) ) ) {
+                    if( element in elements ) {
 
-                        res.locals.element = DB[ element ];
+                        res.locals.element = elements[ element ];
 
                     } else {
 
