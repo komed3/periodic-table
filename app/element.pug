@@ -2,7 +2,7 @@
 extends layout.pug
 
 block title
-  title #{__( 'element-title', element.names[ locale ] )} — #{__( 'title' )}
+  title #{ __( 'element-title', element.names[ locale ] ) } — #{ __( 'title' ) }
 
 block styles
   link( rel="stylesheet", href="/css/element.css" )/
@@ -10,7 +10,13 @@ block styles
 block content
   div.pt-element
     div.pt-element-container
-      div.pt-box.pt-element-intro
-      div.pt-box.pt-element-properties
+      section.pt-box.pt-element-intro
+        h1
+          span.element--symbol
+            sub #{ element.number }
+            span #{ element.symbol }
+          span.element--name #{ element.names[ locale ] }
+      section.pt-box.pt-element-properties
+    aside.pt-element-aside
       div.pt-box.pt-element-image
       div.pt-box.pt-element-hazard
