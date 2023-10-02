@@ -16,6 +16,6 @@
 	"github": "GitHub",
 	"404-title": "Seite nicht gefunden",
 	"404-description": "404-description",
-	"element-title": "element-title",
+	"element-title": "Element: %s",
 	"element-description": "element-description"
 }
