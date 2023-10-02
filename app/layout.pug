@@ -37,7 +37,7 @@ html( lang=locale )
       div.pt-header-settings
         include templates/language-selector.pug
         include templates/theme-selector.pug
-      nav.pt-header-nav( role="nav" )
+      nav.pt-header-nav
         include templates/nav.pug
     main#main.pt-wrapper( role="main" )
       block content
@@ -46,7 +46,7 @@ html( lang=locale )
         svg.pt-atom( width="32", height="32" )
           use( xlink:href="/img/atom.svg#atom" )
       div.pt-footer-inner
-        nav.pt-footer-nav( role="nav" )
+        nav.pt-footer-nav
           a( href="/" )= __( 'start-title' )
           a( href="/data" )= __( 'data-title' )
           a( href="/privacy" )= __( 'privacy-title' )
