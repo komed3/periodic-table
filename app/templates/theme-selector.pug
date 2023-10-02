@@ -1,8 +1,8 @@
 //- templates/theme-selector.pug
 div.pt-theme-selector
   if theme == 'dark'
-    a( href="/set?theme=light", title=`${ __( 'theme-light' ) }` )
+    a( href="/set?theme=light", title=__( 'theme-light' ) )
       i( class="icon" ) dark_mode
   else
-    a( href="/set?theme=dark", title=`${ __( 'theme-dark' ) }` )
+    a( href="/set?theme=dark", title=__( 'theme-dark' ) )
       i( class="icon" ) light_mode

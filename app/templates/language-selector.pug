@@ -5,7 +5,7 @@ div.pt-language-selector
     select(
       onchange="location.href='/set?locale='+this.value",
       class="pt-language-selector-select",
-      title=`${ __( 'language' ) }`
+      title=__( 'language' )
     )
       each lang in availableLanguages
-        option( value=lang, selected=lang == locale ) #{ __( 'lang-' + lang ) }
+        option( value=lang, selected=lang == locale )= __( 'lang-' + lang )

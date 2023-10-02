@@ -13,9 +13,9 @@ block content
       section.pt-box.pt-element-intro
         h1.element--title
           span.element--symbol
-            span.symbol--number #{ element.number }
-            span.symbol--label #{ element.symbol }
-          span.element--name #{ element.names[ locale ] }
+            span.symbol--number= element.number
+            span.symbol--label= element.symbol
+          span.element--name= element.names[ locale ]
       section.pt-box.pt-element-properties
     aside.pt-element-aside
       div.pt-box.pt-element-image
