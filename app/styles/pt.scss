@@ -18,6 +18,21 @@ body[theme="light"] {
 
 }
 
+body[theme="dark"] {
+
+    --pt-set-0: #997366;
+    --pt-set-1: #998166;
+    --pt-set-2: #8e8e70;
+    --pt-set-3: #818e97;
+    --pt-set-4: #878787;
+    --pt-set-5: #967f7f;
+    --pt-set-6: #8e8072;
+    --pt-set-7: #6f8e66;
+    --pt-set-8: #967f7f;
+    --pt-set-9: #918591;
+
+}
+
 [layer="set"] .pt-el[layer="alkalimetal"] {
     --bg: var( --pt-set-0 );
 }
