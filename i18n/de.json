@@ -19,7 +19,7 @@
 	"element-title": "Element: %s",
 	"element-description": "element-description",
 	"element-hazardous": "Gefahrstoffkennzeichnung",
-	"ghs-02": "<b>GHS02</b> Entzündbar, selbsterhitzungsfähig, selbstzersetzlich, pyrophor, wasserreaktiv",
+	"ghs-02": "<b>GHS02</b> Entzündbar, selbsterhitzungsfähig, selbstzersetzlich, pyrophor, wasserreaktiv, Organische Peroxide",
 	"ghs-04": "<b>GHS04</b> Gase unter Druck, verdichtete, verflüssigte, tiefgekühlt verfl., gelöste Gase",
 	"hazard-precautionary": "H- und P-Sätze",
 	"hazard-precautionary-undefined": "keine Sätze angegeben"

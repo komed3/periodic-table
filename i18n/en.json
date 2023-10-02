@@ -18,5 +18,9 @@
 	"404-description": "404-description",
 	"element-title": "Element: %s",
 	"element-description": "element-description",
-	"element-hazardous": "Hazard classification"
+	"element-hazardous": "Hazard classification",
+	"ghs-02": "<b>GHS02</b> Flammable, self-reactive, self-heating, pyrophoric, combustible, organic peroxides",
+	"ghs-04": "<b>GHS04</b> Compressed gases, (refrigerated) liquefied, dissolved",
+	"hazard-precautionary": "Hazard & precautionary statements",
+	"hazard-precautionary-undefined": "no statements"
 }
