@@ -16,3 +16,9 @@ block content
           img( src='/img/GHS' + ghs + '.png', class="pictogram", loading="lazy" )
           span!= __( 'ghs-' + ghs )
       - }
+    h2= __( 'pictogram-title' )
+    div.pt-box-flex.pt-box-columns
+      each hazard in [ 'E', 'F', 'O', 'C', 'T', 'X', 'N' ]
+        div.pt-glossary-flex-item
+          img( src='/img/hazard-' + hazard + '.png', class="pictogram", loading="lazy" )
+          span!= __( 'hazard-' + hazard )
