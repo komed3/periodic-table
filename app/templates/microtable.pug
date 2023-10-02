@@ -10,6 +10,10 @@ div.pt-microtable( layer=( layer || 'set' ) )
         el.symbol == element.symbol || ''
           ? ' current'
           : ''
+      ) + (
+        el.radioactive
+          ? ' radioactive'
+          : ''
       )
     )
       span= el.symbol
