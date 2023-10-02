@@ -19,7 +19,10 @@ block content
           span.element--name= element.names[ locale ]
       section.pt-box.pt-element-properties
     aside.pt-element-aside
-      div.pt-box.pt-element-image
+      if element.image
+        div.pt-box.pt-element-image
+          img( src=element.image.url, loading="lazy" )/
+          figcaption!= element.image.caption
       if element.radioactive
         div.pt-box.pt-box-flex.pt-element-radioactive
             img( src="/img/radioactive.png", class="pictogram-small", loading="lazy" )/

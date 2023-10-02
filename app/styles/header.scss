@@ -21,6 +21,7 @@ $header-height: 56px;
     height: $header-height;
     background: var( --gray-0 );
     box-shadow: var( --box-shadow );
+    z-index: 99;
 }
 
 .pt-header-logo,

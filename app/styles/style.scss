@@ -124,6 +124,7 @@ select {
     background: var( --gray-0 );
     border-radius: 12px;
     box-shadow: var( --box-shadow );
+    overflow: hidden;
 }
 
 .pt-box-flex {

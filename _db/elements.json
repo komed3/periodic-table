@@ -6,6 +6,10 @@
             "de": "Wasserstoff",
             "la": "Hydrogenium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Hydrogen_discharge_tube.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Hydrogen_discharge_tube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
+        },
         "number": 1,
         "group": 1,
         "period": 1,
@@ -25,6 +29,10 @@
             "en": "Helium",
             "de": "Helium",
             "la": "Helium"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Helium_discharge_tube.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Helium_discharge_tube.jpg\">Alchemist-hp (Diskussion) (www.pse-mendelejew.de)</a>, <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>, via Wikimedia Commons"
         },
         "number": 2,
         "group": 18,
@@ -46,6 +54,10 @@
             "de": "Lithium",
             "la": "Lithium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Limetal.JPG",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Limetal.JPG\">Dnn87</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
+        },
         "number": 3,
         "group": 1,
         "period": 2,
@@ -65,6 +77,10 @@
             "en": "Beryllium",
             "de": "Beryllium",
             "la": "Beryllium"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Be-140g.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Be-140g.jpg\">Alchemist-hp = Alchemist-hp (pse-mendelejew.de)</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
         },
         "number": 4,
         "group": 2,
@@ -86,6 +102,10 @@
             "de": "Bor",
             "la": "Boron"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Boron_R105.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Boron_R105.jpg\">James L Marshall</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
+        },
         "number": 5,
         "group": 13,
         "period": 2,
@@ -101,6 +121,10 @@
             "de": "Kohlenstoff",
             "la": "Carbo"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Glassy_carbon_and_a_1cm3_graphite_cube_HP68-79.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Glassy_carbon_and_a_1cm3_graphite_cube_HP68-79.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
+        },
         "number": 6,
         "group": 14,
         "period": 2,
@@ -115,6 +139,10 @@
             "en": "Nitrogen",
             "de": "Stickstoff",
             "la": "Nitrogenium"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Nitrogen_discharge_tube.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Nitrogen_discharge_tube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
         "number": 7,
         "group": 15,
@@ -136,6 +164,10 @@
             "de": "Sauerstoff",
             "la": "Oxygenium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Oxygen_discharge_tube.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Oxygen_discharge_tube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
+        },
         "number": 8,
         "group": 16,
         "period": 2,
@@ -156,6 +188,10 @@
             "de": "Fluor",
             "la": "Fluor"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Fluoro_liquido_a_-196%C2%B0C_1.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Fluoro_liquido_a_-196%C2%B0C_1.jpg\">Fulvio314</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
+        },
         "number": 9,
         "group": 17,
         "period": 2,
@@ -175,6 +211,10 @@
             "en": "Neon",
             "de": "Neon",
             "la": "Neon"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Neon_discharge_tube.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Neon_discharge_tube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>, via Wikimedia Commons"
         },
         "number": 10,
         "group": 18,
