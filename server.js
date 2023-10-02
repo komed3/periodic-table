@@ -7,6 +7,11 @@
  */
 
 /**
+ * load required modules/files
+ */
+const core = require( './lib/core' );
+
+/**
  * load "express" web framework
  */
 const express = require( 'express' );
@@ -93,15 +98,45 @@ routes.routes.forEach( ( route ) => {
 
     app.get( route[0], ( req, res ) => {
 
-        res.locals.site = route[1];
-        res.locals.availableLanguages = availableLanguages;
-        res.locals.locale = req.getLocale();
-        res.locals.theme = req.cookies.theme || 'light';
-        res.locals.search = {
-            query: req.query.q || req.query.query || ''
-        };
-
         try {
+
+            /* parse URL */
+
+            let url = core.parseURL( req.originalUrl );
+
+            /* set locals */
+
+            res.locals.site = route[1];
+            res.locals.availableLanguages = availableLanguages;
+            res.locals.locale = req.getLocale();
+            res.locals.theme = req.cookies.theme || 'light';
+            res.locals.search = {
+                query: req.query.q || req.query.query || ''
+            };
+
+            /* templates */
+
+            switch( route[1] ) {
+
+                case 'element':
+
+                    /* check if given element exists in DB */
+
+                    let element = ( url[1] || '' ).toString().toLowerCase();
+
+                    if( element in ( DB = core.DB( 'elements' ) ) ) {
+
+                        res.locals.element = DB[ element ];
+
+                    } else {
+
+                        res.redirect( '/' );
+
+                    }
+
+                    break;
+
+            }
 
             res.status( route[2] || 200 ).send(
                 pug.renderFile( __dirname + '/app/' + route[1] + '.pug', res.locals )

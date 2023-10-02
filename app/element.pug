@@ -1,5 +1,16 @@
 //- element.pug
 extends layout.pug
 
+block title
+  title #{__( 'element-title', element.names[ locale ] )} — #{__( 'title' )}
+
 block styles
   link( rel="stylesheet", href="/css/element.css" )/
+
+block content
+  div.pt-element
+    div.pt-element-container
+      div.pt-box.pt-element-intro
+      div.pt-box.pt-element-properties
+      div.pt-box.pt-element-image
+      div.pt-box.pt-element-hazard
