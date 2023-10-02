@@ -11,7 +11,13 @@
         "period": 1,
         "column": 1,
         "block": "s",
-        "set": "nonmetal"
+        "set": "nonmetal",
+        "hazardous": {
+            "h": [ "220", "280" ],
+            "p": [ "210", "377", "381", "403" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02", "04" ]
+        }
     },
     "he": {
         "symbol": "He",

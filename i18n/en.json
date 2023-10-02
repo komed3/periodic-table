@@ -17,5 +17,6 @@
 	"404-title": "Page not found",
 	"404-description": "404-description",
 	"element-title": "Element: %s",
-	"element-description": "element-description"
+	"element-description": "element-description",
+	"element-hazardous": "Hazard classification"
 }

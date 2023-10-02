@@ -20,6 +20,14 @@ block content
       section.pt-box.pt-element-properties
     aside.pt-element-aside
       div.pt-box.pt-element-image
-      div.pt-box.pt-element-hazard
+      if element.hazardous
+        div.pt-box.pt-element-hazard
+          h2= __( 'element-hazardous' )
+          if element.hazardous.ghs
+            div.pt-box-flex.pt-box-columns.pt-element-hazard-box
+              each ghs in element.hazardous.ghs
+                div.pt-element-hazard-item
+                  img( src='/img/GHS' + ghs + '.png', class="pictogram" )
+                  span!= __( 'ghs-' + ghs )
     div.pt-element-footer
       include templates/microtable.pug

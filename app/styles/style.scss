@@ -60,6 +60,11 @@ h1 {
     font-size: 24px;
 }
 
+h2 {
+    margin: 0 0 24px 0;
+    font-size: 18px;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -76,8 +81,13 @@ select {
     cursor: pointer;
 }
 
+.pictogram {
+    max-width: 56px;
+    max-height: 56px;
+}
+
 /**
- * global elements
+ * box
  */
 
 .pt-box {
@@ -85,6 +95,22 @@ select {
     padding: 24px;
     background: var( --gray-0 );
     border-radius: 12px;
+}
+
+.pt-box-flex {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 12px;
+}
+
+.pt-box-columns {
+    flex-flow: column nowrap;
+}
+
+.pt-box-center {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 /**

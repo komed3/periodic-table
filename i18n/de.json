@@ -17,5 +17,8 @@
 	"404-title": "Seite nicht gefunden",
 	"404-description": "404-description",
 	"element-title": "Element: %s",
-	"element-description": "element-description"
+	"element-description": "element-description",
+	"element-hazardous": "Gefahrstoffkennzeichnung",
+	"ghs-02": "<b>GHS02</b> Entzündbar, selbsterhitzungsfähig, selbstzersetzlich, pyrophor, wasserreaktiv",
+	"ghs-04": "<b>GHS04</b> Gase unter Druck, verdichtete, verflüssigte, tiefgekühlt verfl., gelöste Gase"
 }

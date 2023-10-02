@@ -38,6 +38,13 @@
     font-size: 12px;
 }
 
+.pt-element-hazard-item {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 12px;
+}
+
 .pt-element-footer {
     grid-column: span 2;
 }
