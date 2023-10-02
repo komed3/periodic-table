@@ -225,7 +225,7 @@
         "hazardous": {
             "h": [ "280" ],
             "p": [ "403" ],
-            "hazard": null,
+            "hazard": [ "O" ],
             "ghs": [ "03" ]
         }
     },
@@ -340,7 +340,7 @@
         "hazardous": {
             "h": [ "315" ],
             "p": null,
-            "hazard": [ "X" ],
+            "hazard": null,
             "ghs": [ "07" ]
         }
     },
