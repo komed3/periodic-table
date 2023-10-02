@@ -3,3 +3,57 @@
  * pt colors
  */
 
+body[theme="light"] {
+
+    --pt-set-0: #ffc1aa;
+    --pt-set-1: #ffd8aa;
+    --pt-set-2: #eeeebb;
+    --pt-set-3: #d7eefd;
+    --pt-set-4: #e2e2e2;
+    --pt-set-5: #fad4d4;
+    --pt-set-6: #eed6bf;
+    --pt-set-7: #baeeab;
+    --pt-set-8: #fad4d4;
+    --pt-set-9: #f3dff3;
+
+}
+
+[layer="set"] .pt-el[layer="alkalimetal"] {
+    --bg: var( --pt-set-0 );
+}
+
+[layer="set"] .pt-el[layer="alkalineearthmetal"] {
+    --bg: var( --pt-set-1 );
+}
+
+[layer="set"] .pt-el[layer="halogen"] {
+    --bg: var( --pt-set-2 );
+}
+
+[layer="set"] .pt-el[layer="noblegas"] {
+    --bg: var( --pt-set-3 );
+}
+
+[layer="set"] .pt-el[layer="metal"] {
+    --bg: var( --pt-set-4 );
+}
+
+[layer="set"] .pt-el[layer="transitionmetal"] {
+    --bg: var( --pt-set-5 );
+}
+
+[layer="set"] .pt-el[layer="metalloid"] {
+    --bg: var( --pt-set-6 );
+}
+
+[layer="set"] .pt-el[layer="nonmetal"] {
+    --bg: var( --pt-set-7 );
+}
+
+[layer="set"] .pt-el[layer="lanthanoide"] {
+    --bg: var( --pt-set-8 );
+}
+
+[layer="set"] .pt-el[layer="actinoide"] {
+    --bg: var( --pt-set-9 );
+}

@@ -23,3 +23,7 @@
     background: var( --color, var( --color-main ) );
     background: var( --bg, var( --gray-0 ) );
 }
+
+.pt-el.current {
+    outline: 1px solid var( --gray-5 );
+}

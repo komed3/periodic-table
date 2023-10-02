@@ -10,7 +10,8 @@
         "group": 1,
         "period": 1,
         "column": 1,
-        "block": "s"
+        "block": "s",
+        "set": "nonmetal"
     },
     "he": {
         "symbol": "He",
@@ -23,7 +24,8 @@
         "group": 18,
         "period": 1,
         "column": 32,
-        "block": "s"
+        "block": "s",
+        "set": "noblegas"
     },
     "li": {
         "symbol": "Li",
@@ -36,7 +38,8 @@
         "group": 1,
         "period": 2,
         "column": 1,
-        "block": "s"
+        "block": "s",
+        "set": "alkalimetal"
     },
     "be": {
         "symbol": "Be",
@@ -49,7 +52,8 @@
         "group": 2,
         "period": 2,
         "column": 2,
-        "block": "s"
+        "block": "s",
+        "set": "alkalineearthmetal"
     },
     "b": {
         "symbol": "B",
@@ -62,7 +66,8 @@
         "group": 13,
         "period": 2,
         "column": 27,
-        "block": "p"
+        "block": "p",
+        "set": "metalloid"
     },
     "c": {
         "symbol": "C",
@@ -75,7 +80,8 @@
         "group": 14,
         "period": 2,
         "column": 28,
-        "block": "p"
+        "block": "p",
+        "set": "nonmetal"
     },
     "n": {
         "symbol": "N",
@@ -88,7 +94,8 @@
         "group": 15,
         "period": 2,
         "column": 29,
-        "block": "p"
+        "block": "p",
+        "set": "nonmetal"
     },
     "o": {
         "symbol": "O",
@@ -101,7 +108,8 @@
         "group": 16,
         "period": 2,
         "column": 30,
-        "block": "p"
+        "block": "p",
+        "set": "nonmetal"
     },
     "f": {
         "symbol": "F",
@@ -114,7 +122,8 @@
         "group": 17,
         "period": 2,
         "column": 31,
-        "block": "p"
+        "block": "p",
+        "set": "halogen"
     },
     "ne": {
         "symbol": "Ne",
@@ -127,7 +136,8 @@
         "group": 18,
         "period": 2,
         "column": 32,
-        "block": "p"
+        "block": "p",
+        "set": "noblegas"
     },
     "na": {
         "symbol": "Na",
@@ -140,7 +150,8 @@
         "group": 1,
         "period": 3,
         "column": 1,
-        "block": "s"
+        "block": "s",
+        "set": "alkalimetal"
     },
     "mg": {
         "symbol": "Mg",
@@ -153,7 +164,8 @@
         "group": 2,
         "period": 3,
         "column": 2,
-        "block": "s"
+        "block": "s",
+        "set": "alkalineearthmetal"
     },
     "al": {
         "symbol": "Al",
@@ -166,7 +178,8 @@
         "group": 13,
         "period": 3,
         "column": 27,
-        "block": "p"
+        "block": "p",
+        "set": "metal"
     },
     "si": {
         "symbol": "Si",
@@ -179,7 +192,8 @@
         "group": 14,
         "period": 3,
         "column": 28,
-        "block": "p"
+        "block": "p",
+        "set": "metalloid"
     },
     "p": {
         "symbol": "P",
@@ -192,7 +206,8 @@
         "group": 15,
         "period": 3,
         "column": 29,
-        "block": "p"
+        "block": "p",
+        "set": "nonmetal"
     },
     "s": {
         "symbol": "S",
@@ -205,7 +220,8 @@
         "group": 16,
         "period": 3,
         "column": 30,
-        "block": "p"
+        "block": "p",
+        "set": "nonmetal"
     },
     "cl": {
         "symbol": "Cl",
@@ -218,7 +234,8 @@
         "group": 17,
         "period": 3,
         "column": 31,
-        "block": "p"
+        "block": "p",
+        "set": "halogen"
     },
     "ar": {
         "symbol": "Ar",
@@ -231,7 +248,8 @@
         "group": 18,
         "period": 3,
         "column": 32,
-        "block": "p"
+        "block": "p",
+        "set": "noblegas"
     },
     "k": {
         "symbol": "K",
@@ -244,7 +262,8 @@
         "group": 1,
         "period": 4,
         "column": 1,
-        "block": "s"
+        "block": "s",
+        "set": "alkalimetal"
     },
     "ca": {
         "symbol": "Ca",
@@ -257,7 +276,8 @@
         "group": 2,
         "period": 4,
         "column": 2,
-        "block": "s"
+        "block": "s",
+        "set": "alkalineearthmetal"
     },
     "sc": {
         "symbol": "Sc",
@@ -270,7 +290,8 @@
         "group": 3,
         "period": 4,
         "column": 3,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "ti": {
         "symbol": "Ti",
@@ -283,7 +304,8 @@
         "group": 4,
         "period": 4,
         "column": 18,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "v": {
         "symbol": "V",
@@ -296,7 +318,8 @@
         "group": 5,
         "period": 4,
         "column": 19,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "cr": {
         "symbol": "Cr",
@@ -309,7 +332,8 @@
         "group": 6,
         "period": 4,
         "column": 20,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "mn": {
         "symbol": "Mn",
@@ -322,7 +346,8 @@
         "group": 7,
         "period": 4,
         "column": 21,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "fe": {
         "symbol": "Fe",
@@ -335,7 +360,8 @@
         "group": 8,
         "period": 4,
         "column": 22,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "co": {
         "symbol": "Co",
@@ -348,7 +374,8 @@
         "group": 9,
         "period": 4,
         "column": 23,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "ni": {
         "symbol": "Ni",
@@ -361,7 +388,8 @@
         "group": 10,
         "period": 4,
         "column": 24,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "cu": {
         "symbol": "Cu",
@@ -374,7 +402,8 @@
         "group": 11,
         "period": 4,
         "column": 25,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "zn": {
         "symbol": "Zn",
@@ -387,7 +416,8 @@
         "group": 12,
         "period": 4,
         "column": 26,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "ga": {
         "symbol": "Ga",
@@ -400,7 +430,8 @@
         "group": 13,
         "period": 4,
         "column": 27,
-        "block": "p"
+        "block": "p",
+        "set": "metal"
     },
     "ge": {
         "symbol": "Ge",
@@ -413,7 +444,8 @@
         "group": 14,
         "period": 4,
         "column": 28,
-        "block": "p"
+        "block": "p",
+        "set": "metalloid"
     },
     "as": {
         "symbol": "As",
@@ -426,20 +458,23 @@
         "group": 15,
         "period": 4,
         "column": 29,
-        "block": "p"
+        "block": "p",
+        "set": "metalloid"
     },
     "se": {
         "symbol": "Se",
         "names": {
             "en": "Selenium",
             "de": "Selen",
-            "la": "Selenum"
+            "la": "Selenum",
+            "set": "metalloid"
         },
         "number": 34,
         "group": 16,
         "period": 4,
         "column": 30,
-        "block": "p"
+        "block": "p",
+        "set": "nonmetal"
     },
     "rr": {
         "symbol": "Br",
@@ -452,7 +487,8 @@
         "group": 17,
         "period": 4,
         "column": 31,
-        "block": "p"
+        "block": "p",
+        "set": "halogen"
     },
     "kr": {
         "symbol": "Kr",
@@ -465,7 +501,8 @@
         "group": 18,
         "period": 4,
         "column": 32,
-        "block": "p"
+        "block": "p",
+        "set": "noblegas"
     },
     "rb": {
         "symbol": "Rb",
@@ -478,7 +515,8 @@
         "group": 1,
         "period": 5,
         "column": 1,
-        "block": "s"
+        "block": "s",
+        "set": "alkalimetal"
     },
     "sr": {
         "symbol": "Sr",
@@ -491,7 +529,8 @@
         "group": 2,
         "period": 5,
         "column": 2,
-        "block": "s"
+        "block": "s",
+        "set": "alkalineearthmetal"
     },
     "y": {
         "symbol": "Y",
@@ -504,7 +543,8 @@
         "group": 3,
         "period": 5,
         "column": 3,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "zr": {
         "symbol": "Zr",
@@ -517,7 +557,8 @@
         "group": 4,
         "period": 5,
         "column": 18,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "nb": {
         "symbol": "Nb",
@@ -530,7 +571,8 @@
         "group": 5,
         "period": 5,
         "column": 19,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "mo": {
         "symbol": "Mo",
@@ -543,7 +585,8 @@
         "group": 6,
         "period": 5,
         "column": 20,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "tc": {
         "symbol": "Tc",
@@ -556,7 +599,8 @@
         "group": 7,
         "period": 5,
         "column": 21,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "ru": {
         "symbol": "Ru",
@@ -569,7 +613,8 @@
         "group": 8,
         "period": 5,
         "column": 22,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "rh": {
         "symbol": "Rh",
@@ -582,7 +627,8 @@
         "group": 9,
         "period": 5,
         "column": 23,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "pd": {
         "symbol": "Pd",
@@ -595,7 +641,8 @@
         "group": 10,
         "period": 5,
         "column": 24,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "ag": {
         "symbol": "Ag",
@@ -608,7 +655,8 @@
         "group": 11,
         "period": 5,
         "column": 25,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "cd": {
         "symbol": "Cd",
@@ -621,7 +669,8 @@
         "group": 12,
         "period": 5,
         "column": 26,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "in": {
         "symbol": "In",
@@ -634,7 +683,8 @@
         "group": 13,
         "period": 5,
         "column": 27,
-        "block": "p"
+        "block": "p",
+        "set": "metal"
     },
     "sn": {
         "symbol": "Sn",
@@ -647,7 +697,8 @@
         "group": 14,
         "period": 5,
         "column": 28,
-        "block": "p"
+        "block": "p",
+        "set": "metal"
     },
     "sb": {
         "symbol": "Sb",
@@ -660,7 +711,8 @@
         "group": 15,
         "period": 5,
         "column": 29,
-        "block": "p"
+        "block": "p",
+        "set": "metalloid"
     },
     "te": {
         "symbol": "Te",
@@ -673,7 +725,8 @@
         "group": 16,
         "period": 5,
         "column": 30,
-        "block": "p"
+        "block": "p",
+        "set": "metalloid"
     },
     "i": {
         "symbol": "I",
@@ -686,7 +739,8 @@
         "group": 17,
         "period": 5,
         "column": 31,
-        "block": "p"
+        "block": "p",
+        "set": "halogen"
     },
     "xe": {
         "symbol": "Xe",
@@ -699,7 +753,8 @@
         "group": 18,
         "period": 5,
         "column": 32,
-        "block": "p"
+        "block": "p",
+        "set": "noblegas"
     },
     "cs": {
         "symbol": "Cs",
@@ -712,7 +767,8 @@
         "group": 1,
         "period": 6,
         "column": 1,
-        "block": "s"
+        "block": "s",
+        "set": "alkalimetal"
     },
     "ba": {
         "symbol": "Ba",
@@ -725,7 +781,8 @@
         "group": 2,
         "period": 6,
         "column": 2,
-        "block": "s"
+        "block": "s",
+        "set": "alkalineearthmetal"
     },
     "la": {
         "symbol": "La",
@@ -738,7 +795,8 @@
         "group": "La",
         "period": 6,
         "column": 3,
-        "block": "d"
+        "block": "d",
+        "set": "lanthanoide"
     },
     "ce": {
         "symbol": "Ce",
@@ -751,7 +809,8 @@
         "group": "La",
         "period": 6,
         "column": 4,
-        "block": "f"
+        "block": "f",
+        "set": "lanthanoide"
     },
     "pr": {
         "symbol": "Pr",
@@ -764,7 +823,8 @@
         "group": "La",
         "period": 6,
         "column": 5,
-        "block": "f"
+        "block": "f",
+        "set": "lanthanoide"
     },
     "nd": {
         "symbol": "Nd",
@@ -777,7 +837,8 @@
         "group": "La",
         "period": 6,
         "column": 6,
-        "block": "f"
+        "block": "f",
+        "set": "lanthanoide"
     },
     "pm": {
         "symbol": "Pm",
@@ -790,7 +851,8 @@
         "group": "La",
         "period": 6,
         "column": 7,
-        "block": "f"
+        "block": "f",
+        "set": "lanthanoide"
     },
     "sm": {
         "symbol": "Sm",
@@ -803,7 +865,8 @@
         "group": "La",
         "period": 6,
         "column": 8,
-        "block": "f"
+        "block": "f",
+        "set": "lanthanoide"
     },
     "eu": {
         "symbol": "Eu",
@@ -816,7 +879,8 @@
         "group": "La",
         "period": 6,
         "column": 9,
-        "block": "f"
+        "block": "f",
+        "set": "lanthanoide"
     },
     "gd": {
         "symbol": "Gd",
@@ -829,7 +893,8 @@
         "group": "La",
         "period": 6,
         "column": 10,
-        "block": "f"
+        "block": "f",
+        "set": "lanthanoide"
     },
     "tb": {
         "symbol": "Tb",
@@ -842,7 +907,8 @@
         "group": "La",
         "period": 6,
         "column": 11,
-        "block": "f"
+        "block": "f",
+        "set": "lanthanoide"
     },
     "dy": {
         "symbol": "Dy",
@@ -855,7 +921,8 @@
         "group": "La",
         "period": 6,
         "column": 12,
-        "block": "f"
+        "block": "f",
+        "set": "lanthanoide"
     },
     "ho": {
         "symbol": "Ho",
@@ -868,7 +935,8 @@
         "group": "La",
         "period": 6,
         "column": 13,
-        "block": "f"
+        "block": "f",
+        "set": "lanthanoide"
     },
     "er": {
         "symbol": "Er",
@@ -881,7 +949,8 @@
         "group": "La",
         "period": 6,
         "column": 14,
-        "block": "f"
+        "block": "f",
+        "set": "lanthanoide"
     },
     "tm": {
         "symbol": "Tm",
@@ -894,7 +963,8 @@
         "group": "La",
         "period": 6,
         "column": 15,
-        "block": "f"
+        "block": "f",
+        "set": "lanthanoide"
     },
     "yb": {
         "symbol": "Yb",
@@ -907,7 +977,8 @@
         "group": "La",
         "period": 6,
         "column": 16,
-        "block": "f"
+        "block": "f",
+        "set": "lanthanoide"
     },
     "lu": {
         "symbol": "Lu",
@@ -920,7 +991,8 @@
         "group": "La",
         "period": 6,
         "column": 17,
-        "block": "f"
+        "block": "f",
+        "set": "lanthanoide"
     },
     "hf": {
         "symbol": "Hf",
@@ -933,7 +1005,8 @@
         "group": 4,
         "period": 6,
         "column": 18,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "ta": {
         "symbol": "Ta",
@@ -946,7 +1019,8 @@
         "group": 5,
         "period": 6,
         "column": 19,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "w": {
         "symbol": "W",
@@ -959,7 +1033,8 @@
         "group": 6,
         "period": 6,
         "column": 20,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "re": {
         "symbol": "Re",
@@ -972,7 +1047,8 @@
         "group": 7,
         "period": 6,
         "column": 21,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "os": {
         "symbol": "Os",
@@ -985,7 +1061,8 @@
         "group": 8,
         "period": 6,
         "column": 22,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "ir": {
         "symbol": "Ir",
@@ -998,7 +1075,8 @@
         "group": 9,
         "period": 6,
         "column": 23,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "pt": {
         "symbol": "Pt",
@@ -1011,7 +1089,8 @@
         "group": 10,
         "period": 6,
         "column": 24,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "au": {
         "symbol": "Au",
@@ -1024,7 +1103,8 @@
         "group": 11,
         "period": 6,
         "column": 25,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "hg": {
         "symbol": "Hg",
@@ -1037,7 +1117,8 @@
         "group": 12,
         "period": 6,
         "column": 26,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "tl": {
         "symbol": "Tl",
@@ -1050,7 +1131,8 @@
         "group": 13,
         "period": 6,
         "column": 27,
-        "block": "p"
+        "block": "p",
+        "set": "metal"
     },
     "pb": {
         "symbol": "Pb",
@@ -1063,7 +1145,8 @@
         "group": 14,
         "period": 6,
         "column": 28,
-        "block": "p"
+        "block": "p",
+        "set": "metal"
     },
     "bi": {
         "symbol": "Bi",
@@ -1076,7 +1159,8 @@
         "group": 15,
         "period": 6,
         "column": 29,
-        "block": "p"
+        "block": "p",
+        "set": "metal"
     },
     "po": {
         "symbol": "Po",
@@ -1089,7 +1173,8 @@
         "group": 16,
         "period": 6,
         "column": 30,
-        "block": "p"
+        "block": "p",
+        "set": "metal"
     },
     "at": {
         "symbol": "At",
@@ -1102,7 +1187,8 @@
         "group": 17,
         "period": 6,
         "column": 31,
-        "block": "p"
+        "block": "p",
+        "set": "halogen"
     },
     "rn": {
         "symbol": "Rn",
@@ -1115,7 +1201,8 @@
         "group": 18,
         "period": 6,
         "column": 32,
-        "block": "p"
+        "block": "p",
+        "set": "noblegas"
     },
     "fr": {
         "symbol": "Fr",
@@ -1128,7 +1215,8 @@
         "group": 1,
         "period": 7,
         "column": 1,
-        "block": "s"
+        "block": "s",
+        "set": "alkalimetal"
     },
     "ra": {
         "symbol": "Ra",
@@ -1141,7 +1229,8 @@
         "group": 2,
         "period": 7,
         "column": 2,
-        "block": "s"
+        "block": "s",
+        "set": "alkalineearthmetal"
     },
     "ac": {
         "symbol": "Ac",
@@ -1154,7 +1243,8 @@
         "group": "Ac",
         "period": 7,
         "column": 3,
-        "block": "d"
+        "block": "d",
+        "set": "actinoide"
     },
     "th": {
         "symbol": "Th",
@@ -1167,7 +1257,8 @@
         "group": "Ac",
         "period": 7,
         "column": 4,
-        "block": "f"
+        "block": "f",
+        "set": "actinoide"
     },
     "pa": {
         "symbol": "Pa",
@@ -1180,7 +1271,8 @@
         "group": "Ac",
         "period": 7,
         "column": 5,
-        "block": "f"
+        "block": "f",
+        "set": "actinoide"
     },
     "u": {
         "symbol": "U",
@@ -1193,7 +1285,8 @@
         "group": "Ac",
         "period": 7,
         "column": 6,
-        "block": "f"
+        "block": "f",
+        "set": "actinoide"
     },
     "np": {
         "symbol": "Np",
@@ -1206,7 +1299,8 @@
         "group": "Ac",
         "period": 7,
         "column": 7,
-        "block": "f"
+        "block": "f",
+        "set": "actinoide"
     },
     "pu": {
         "symbol": "Pu",
@@ -1219,7 +1313,8 @@
         "group": "Ac",
         "period": 7,
         "column": 8,
-        "block": "f"
+        "block": "f",
+        "set": "actinoide"
     },
     "am": {
         "symbol": "Am",
@@ -1232,7 +1327,8 @@
         "group": "Ac",
         "period": 7,
         "column": 9,
-        "block": "f"
+        "block": "f",
+        "set": "actinoide"
     },
     "cm": {
         "symbol": "Cm",
@@ -1245,7 +1341,8 @@
         "group": "Ac",
         "period": 7,
         "column": 10,
-        "block": "f"
+        "block": "f",
+        "set": "actinoide"
     },
     "bk": {
         "symbol": "Bk",
@@ -1258,7 +1355,8 @@
         "group": "Ac",
         "period": 7,
         "column": 11,
-        "block": "f"
+        "block": "f",
+        "set": "actinoide"
     },
     "cf": {
         "symbol": "Cf",
@@ -1271,7 +1369,8 @@
         "group": "Ac",
         "period": 7,
         "column": 12,
-        "block": "f"
+        "block": "f",
+        "set": "actinoide"
     },
     "es": {
         "symbol": "Es",
@@ -1284,7 +1383,8 @@
         "group": "Ac",
         "period": 7,
         "column": 13,
-        "block": "f"
+        "block": "f",
+        "set": "actinoide"
     },
     "fm": {
         "symbol": "Fm",
@@ -1297,7 +1397,8 @@
         "group": "Ac",
         "period": 7,
         "column": 14,
-        "block": "f"
+        "block": "f",
+        "set": "actinoide"
     },
     "md": {
         "symbol": "Md",
@@ -1310,7 +1411,8 @@
         "group": "Ac",
         "period": 7,
         "column": 15,
-        "block": "f"
+        "block": "f",
+        "set": "actinoide"
     },
     "no": {
         "symbol": "No",
@@ -1323,7 +1425,8 @@
         "group": "Ac",
         "period": 7,
         "column": 16,
-        "block": "f"
+        "block": "f",
+        "set": "actinoide"
     },
     "lr": {
         "symbol": "Lr",
@@ -1336,7 +1439,8 @@
         "group": "Ac",
         "period": 7,
         "column": 17,
-        "block": "f"
+        "block": "f",
+        "set": "actinoide"
     },
     "rf": {
         "symbol": "Rf",
@@ -1349,7 +1453,8 @@
         "group": 4,
         "period": 7,
         "column": 18,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "db": {
         "symbol": "Db",
@@ -1362,7 +1467,8 @@
         "group": 5,
         "period": 7,
         "column": 19,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "sg": {
         "symbol": "Sg",
@@ -1375,7 +1481,8 @@
         "group": 6,
         "period": 7,
         "column": 20,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "bh": {
         "symbol": "Bh",
@@ -1388,7 +1495,8 @@
         "group": 7,
         "period": 7,
         "column": 21,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "hs": {
         "symbol": "Hs",
@@ -1401,7 +1509,8 @@
         "group": 8,
         "period": 7,
         "column": 22,
-        "block": "d"
+        "block": "d",
+        "set": "transitionmetal"
     },
     "mt": {
         "symbol": "Mt",
@@ -1414,7 +1523,8 @@
         "group": 9,
         "period": 7,
         "column": 23,
-        "block": "d"
+        "block": "d",
+        "set": null
     },
     "ds": {
         "symbol": "Ds",
@@ -1427,7 +1537,8 @@
         "group": 10,
         "period": 7,
         "column": 24,
-        "block": "d"
+        "block": "d",
+        "set": null
     },
     "rg": {
         "symbol": "Rg",
@@ -1440,7 +1551,8 @@
         "group": 11,
         "period": 7,
         "column": 25,
-        "block": "d"
+        "block": "d",
+        "set": null
     },
     "cn": {
         "symbol": "Cn",
@@ -1453,7 +1565,8 @@
         "group": 12,
         "period": 7,
         "column": 26,
-        "block": "d"
+        "block": "d",
+        "set": null
     },
     "nh": {
         "symbol": "Nh",
@@ -1466,7 +1579,8 @@
         "group": 13,
         "period": 7,
         "column": 27,
-        "block": "p"
+        "block": "p",
+        "set": null
     },
     "fl": {
         "symbol": "Fl",
@@ -1479,7 +1593,8 @@
         "group": 14,
         "period": 7,
         "column": 28,
-        "block": "p"
+        "block": "p",
+        "set": null
     },
     "mc": {
         "symbol": "Mc",
@@ -1492,7 +1607,8 @@
         "group": 15,
         "period": 7,
         "column": 29,
-        "block": "p"
+        "block": "p",
+        "set": null
     },
     "lv": {
         "symbol": "Lv",
@@ -1505,7 +1621,8 @@
         "group": 16,
         "period": 7,
         "column": 30,
-        "block": "p"
+        "block": "p",
+        "set": null
     },
     "ts": {
         "symbol": "Ts",
@@ -1518,7 +1635,8 @@
         "group": 17,
         "period": 7,
         "column": 31,
-        "block": "p"
+        "block": "p",
+        "set": null
     },
     "og": {
         "symbol": "Og",
