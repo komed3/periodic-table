@@ -201,7 +201,13 @@
         "period": 3,
         "column": 1,
         "block": "s",
-        "set": "alkalimetal"
+        "set": "alkalimetal",
+        "hazardous": {
+            "h": [ "260", "314" ],
+            "p": [ "223", "231+232", "260", "280", "303+361+353", "305+351+338" ],
+            "hazard": [ "F", "C" ],
+            "ghs": [ "02", "05" ]
+        }
     },
     "mg": {
         "symbol": "Mg",
@@ -215,7 +221,13 @@
         "period": 3,
         "column": 2,
         "block": "s",
-        "set": "alkalineearthmetal"
+        "set": "alkalineearthmetal",
+        "hazardous": {
+            "h": [ "260", "250" ],
+            "p": [ "210", "222", "223", "231+232", "233", "280" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02" ]
+        }
     },
     "al": {
         "symbol": "Al",
@@ -229,7 +241,13 @@
         "period": 3,
         "column": 27,
         "block": "p",
-        "set": "metal"
+        "set": "metal",
+        "hazardous": {
+            "h": [ "250", "261" ],
+            "p": [ "222", "231+232" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02" ]
+        }
     },
     "si": {
         "symbol": "Si",
@@ -243,7 +261,8 @@
         "period": 3,
         "column": 28,
         "block": "p",
-        "set": "metalloid"
+        "set": "metalloid",
+        "hazardous": null
     },
     "p": {
         "symbol": "P",
@@ -257,7 +276,13 @@
         "period": 3,
         "column": 29,
         "block": "p",
-        "set": "nonmetal"
+        "set": "nonmetal",
+        "hazardous": {
+            "h": [ "250", "300+330", "314", "400" ],
+            "p": [ "233", "273", "280", "301+310+330", "303+361+353", "304+340+310", "305+351+338+310" ],
+            "hazard": [ "F", "C", "T", "N" ],
+            "ghs": [ "02", "05", "06", "09" ]
+        }
     },
     "s": {
         "symbol": "S",
@@ -271,7 +296,13 @@
         "period": 3,
         "column": 30,
         "block": "p",
-        "set": "nonmetal"
+        "set": "nonmetal",
+        "hazardous": {
+            "h": [ "315" ],
+            "p": null,
+            "hazard": [ "X" ],
+            "ghs": [ "07" ]
+        }
     },
     "cl": {
         "symbol": "Cl",
@@ -285,7 +316,13 @@
         "period": 3,
         "column": 31,
         "block": "p",
-        "set": "halogen"
+        "set": "halogen",
+        "hazardous": {
+            "h": [ "270", "280", "330", "315", "319", "335", "400" ],
+            "p": [ "260", "220", "280", "244", "273", "304+340", "305+351+338 332+313", "370+376", "302+352", "315", "405", "403" ],
+            "hazard": [ "O", "T", "N" ],
+            "ghs": [ "03", "04", "06", "09" ]
+        }
     },
     "ar": {
         "symbol": "Ar",
@@ -299,7 +336,13 @@
         "period": 3,
         "column": 32,
         "block": "p",
-        "set": "noblegas"
+        "set": "noblegas",
+        "hazardous": {
+            "h": [ "280" ],
+            "p": [ "403" ],
+            "hazard": null,
+            "ghs": [ "04" ]
+        }
     },
     "k": {
         "symbol": "K",
@@ -313,7 +356,13 @@
         "period": 4,
         "column": 1,
         "block": "s",
-        "set": "alkalimetal"
+        "set": "alkalimetal",
+        "hazardous": {
+            "h": [ "260", "314" ],
+            "p": [ "223", "231+232", "280", "305+351+338", "370+378" ],
+            "hazard": [ "F", "C" ],
+            "ghs": [ "02", "05" ]
+        }
     },
     "ca": {
         "symbol": "Ca",
@@ -327,7 +376,13 @@
         "period": 4,
         "column": 2,
         "block": "s",
-        "set": "alkalineearthmetal"
+        "set": "alkalineearthmetal",
+        "hazardous": {
+            "h": [ "261" ],
+            "p": [ "223", "232", "501", "402+404" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02" ]
+        }
     },
     "sc": {
         "symbol": "Sc",
@@ -341,7 +396,13 @@
         "period": 4,
         "column": 3,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": {
+            "h": [ "228" ],
+            "p": [ "210" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02" ]
+        }
     },
     "ti": {
         "symbol": "Ti",
@@ -355,7 +416,13 @@
         "period": 4,
         "column": 18,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": {
+            "h": [ "250", "252" ],
+            "p": [ "210", "222", "280", "420" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02" ]
+        }
     },
     "v": {
         "symbol": "V",
@@ -369,7 +436,8 @@
         "period": 4,
         "column": 19,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": null
     },
     "cr": {
         "symbol": "Cr",
@@ -383,7 +451,8 @@
         "period": 4,
         "column": 20,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": null
     },
     "mn": {
         "symbol": "Mn",
@@ -397,7 +466,13 @@
         "period": 4,
         "column": 21,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": {
+            "h": [ "228" ],
+            "p": [ "210", "240", "241", "280", "370+378" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02" ]
+        }
     },
     "fe": {
         "symbol": "Fe",
@@ -411,7 +486,8 @@
         "period": 4,
         "column": 22,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": null
     },
     "co": {
         "symbol": "Co",
@@ -425,7 +501,13 @@
         "period": 4,
         "column": 23,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": {
+            "h": [ "228", "302", "330", "319", "317", "334", "341", "350", "360F", "410" ],
+            "p": [ "201", "202", "210", "280", "308+313", "501" ],
+            "hazard": [ "F", "T", "X", "N" ],
+            "ghs": [ "02", "06", "08", "09" ]
+        }
     },
     "ni": {
         "symbol": "Ni",
@@ -439,7 +521,13 @@
         "period": 4,
         "column": 24,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": {
+            "h": [ "228", "351", "372", "317", "412" ],
+            "p": [ "210", "302+352", "201", "280", "308+313" ],
+            "hazard": [ "F", "X" ],
+            "ghs": [ "02", "07", "08" ]
+        }
     },
     "cu": {
         "symbol": "Cu",
@@ -453,7 +541,13 @@
         "period": 4,
         "column": 25,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": {
+            "h": [ "228", "410" ],
+            "p": [ "210", "273" ],
+            "hazard": [ "F", "N" ],
+            "ghs": [ "02", "09" ]
+        }
     },
     "zn": {
         "symbol": "Zn",
@@ -467,7 +561,13 @@
         "period": 4,
         "column": 26,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": {
+            "h": [ "250", "260", "410" ],
+            "p": [ "222", "210", "231+232", "280", "370+378", "273" ],
+            "hazard": [ "F", "N" ],
+            "ghs": [ "02", "09" ]
+        }
     },
     "ga": {
         "symbol": "Ga",
@@ -481,7 +581,13 @@
         "period": 4,
         "column": 27,
         "block": "p",
-        "set": "metal"
+        "set": "metal",
+        "hazardous": {
+            "h": [ "290", "302", "412" ],
+            "p": [ "234", "264", "270", "273", "301+312", "390" ],
+            "hazard": [ "C", "X" ],
+            "ghs": [ "05", "07" ]
+        }
     },
     "ge": {
         "symbol": "Ge",
@@ -495,7 +601,13 @@
         "period": 4,
         "column": 28,
         "block": "p",
-        "set": "metalloid"
+        "set": "metalloid",
+        "hazardous": {
+            "h": [ "228" ],
+            "p": [ "210" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02" ]
+        }
     },
     "as": {
         "symbol": "As",
@@ -509,7 +621,13 @@
         "period": 4,
         "column": 29,
         "block": "p",
-        "set": "metalloid"
+        "set": "metalloid",
+        "hazardous": {
+            "h": [ "301+331", "350", "410" ],
+            "p": [ "264", "280", "301+310", "304+340+311" ],
+            "hazard": [ "T", "N" ],
+            "ghs": [ "06", "09" ]
+        }
     },
     "se": {
         "symbol": "Se",
@@ -524,9 +642,15 @@
         "period": 4,
         "column": 30,
         "block": "p",
-        "set": "nonmetal"
+        "set": "nonmetal",
+        "hazardous": {
+            "h": [ "331", "301", "373", "413" ],
+            "p": [ "260", "273", "301+310", "304+340" ],
+            "hazard": [ "T", "X" ],
+            "ghs": [ "06", "08" ]
+        }
     },
-    "rr": {
+    "br": {
         "symbol": "Br",
         "names": {
             "en": "Bromine",
@@ -538,7 +662,13 @@
         "period": 4,
         "column": 31,
         "block": "p",
-        "set": "halogen"
+        "set": "halogen",
+        "hazardous": {
+            "h": [ "330", "314", "400" ],
+            "p": [ "260", "273", "280", "303+361+353", "304+340+310", "305+351+338" ],
+            "hazard": [ "C", "T", "N" ],
+            "ghs": [ "05", "06", "09" ]
+        }
     },
     "kr": {
         "symbol": "Kr",
@@ -552,7 +682,13 @@
         "period": 4,
         "column": 32,
         "block": "p",
-        "set": "noblegas"
+        "set": "noblegas",
+        "hazardous": {
+            "h": [ "280" ],
+            "p": [ "403" ],
+            "hazard": null,
+            "ghs": [ "04" ]
+        }
     },
     "rb": {
         "symbol": "Rb",
