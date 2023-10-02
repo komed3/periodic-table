@@ -1,0 +1,11 @@
+/**
+ * periodic table
+ * glossary page
+ */
+
+.pt-glossary-flex-item {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 12px;
+}

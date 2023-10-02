@@ -1,0 +1,18 @@
+//- glossary.pug
+extends layout.pug
+
+block styles
+  link( rel="stylesheet", href="/css/glossary.css" )/
+
+block content
+  div.pt-page.pt-box.pt-glossary
+    h1= __( 'glossary-title' )
+    p.pt-page-intro!= __( 'glossary-description' )
+    h2= __( 'ghs-title' )
+    div.pt-box-flex.pt-box-columns
+      - for( let i = 1; i <= 9; i++ ) {
+        - var ghs = i.toString().padStart( 2, '0' );
+        div.pt-glossary-flex-item
+          img( src='/img/GHS' + ghs + '.png', class="pictogram" )
+          span!= __( 'ghs-' + ghs )
+      - }

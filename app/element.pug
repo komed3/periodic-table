@@ -22,7 +22,7 @@ block content
       div.pt-box.pt-element-image
       if element.hazardous
         div.pt-box.pt-element-hazard
-          h2= __( 'element-hazardous' )
+          h2= __( 'ghs-title' )
           if element.hazardous.ghs && element.hazardous.ghs.length
             div.pt-box-flex.pt-box-columns.pt-element-hazard-box
               each ghs in element.hazardous.ghs
