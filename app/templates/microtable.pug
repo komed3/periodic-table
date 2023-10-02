@@ -3,24 +3,11 @@ div.pt-microtable
   each el, k in elements
     a(
       href='/e/' + el.symbol,
-      class='el' + (
+      style='--g:' + el.column + ';--p:' + el.period,
+      class='pt-el' + (
         el.symbol == element.symbol || ''
           ? ' current'
           : ''
       )
-      style='--g:' + (
-        el.group == 'La'
-          ? 9
-          : el.group == 'Ac'
-            ? 10
-            : el.group
-      ) + ';--p:' + (
-        el.group == 'La'
-          ? el.number - elements.la.number + 2
-          : el.group == 'Ac'
-            ? el.number - elements.ac.number + 2
-            : el.period
-      )
     )
-      span.el--number= el.number
-      span.el--symbol= el.symbol
+      span= el.symbol

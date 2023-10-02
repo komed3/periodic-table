@@ -9,6 +9,7 @@
         "number": 1,
         "group": 1,
         "period": 1,
+        "column": 1,
         "block": "s"
     },
     "he": {
@@ -21,6 +22,7 @@
         "number": 2,
         "group": 18,
         "period": 1,
+        "column": 32,
         "block": "s"
     },
     "li": {
@@ -33,6 +35,7 @@
         "number": 3,
         "group": 1,
         "period": 2,
+        "column": 1,
         "block": "s"
     },
     "be": {
@@ -45,6 +48,7 @@
         "number": 4,
         "group": 2,
         "period": 2,
+        "column": 2,
         "block": "s"
     },
     "b": {
@@ -57,6 +61,7 @@
         "number": 5,
         "group": 13,
         "period": 2,
+        "column": 27,
         "block": "p"
     },
     "c": {
@@ -69,6 +74,7 @@
         "number": 6,
         "group": 14,
         "period": 2,
+        "column": 28,
         "block": "p"
     },
     "n": {
@@ -81,6 +87,7 @@
         "number": 7,
         "group": 15,
         "period": 2,
+        "column": 29,
         "block": "p"
     },
     "o": {
@@ -93,6 +100,7 @@
         "number": 8,
         "group": 16,
         "period": 2,
+        "column": 30,
         "block": "p"
     },
     "f": {
@@ -105,6 +113,7 @@
         "number": 9,
         "group": 17,
         "period": 2,
+        "column": 31,
         "block": "p"
     },
     "ne": {
@@ -117,6 +126,7 @@
         "number": 10,
         "group": 18,
         "period": 2,
+        "column": 32,
         "block": "p"
     },
     "na": {
@@ -129,6 +139,7 @@
         "number": 11,
         "group": 1,
         "period": 3,
+        "column": 1,
         "block": "s"
     },
     "mg": {
@@ -141,6 +152,7 @@
         "number": 12,
         "group": 2,
         "period": 3,
+        "column": 2,
         "block": "s"
     },
     "al": {
@@ -153,6 +165,7 @@
         "number": 13,
         "group": 13,
         "period": 3,
+        "column": 27,
         "block": "p"
     },
     "si": {
@@ -165,9 +178,10 @@
         "number": 14,
         "group": 14,
         "period": 3,
+        "column": 28,
         "block": "p"
     },
-    "P": {
+    "p": {
         "symbol": "P",
         "names": {
             "en": "Phosphorus",
@@ -177,6 +191,7 @@
         "number": 15,
         "group": 15,
         "period": 3,
+        "column": 29,
         "block": "p"
     },
     "s": {
@@ -189,6 +204,7 @@
         "number": 16,
         "group": 16,
         "period": 3,
+        "column": 30,
         "block": "p"
     },
     "cl": {
@@ -201,6 +217,7 @@
         "number": 17,
         "group": 17,
         "period": 3,
+        "column": 31,
         "block": "p"
     },
     "ar": {
@@ -213,6 +230,7 @@
         "number": 18,
         "group": 18,
         "period": 3,
+        "column": 32,
         "block": "p"
     },
     "k": {
@@ -225,6 +243,7 @@
         "number": 19,
         "group": 1,
         "period": 4,
+        "column": 1,
         "block": "s"
     },
     "ca": {
@@ -237,6 +256,7 @@
         "number": 20,
         "group": 2,
         "period": 4,
+        "column": 2,
         "block": "s"
     },
     "sc": {
@@ -249,6 +269,7 @@
         "number": 21,
         "group": 3,
         "period": 4,
+        "column": 3,
         "block": "d"
     },
     "ti": {
@@ -261,6 +282,7 @@
         "number": 22,
         "group": 4,
         "period": 4,
+        "column": 18,
         "block": "d"
     },
     "v": {
@@ -273,6 +295,7 @@
         "number": 23,
         "group": 5,
         "period": 4,
+        "column": 19,
         "block": "d"
     },
     "cr": {
@@ -285,6 +308,7 @@
         "number": 24,
         "group": 6,
         "period": 4,
+        "column": 20,
         "block": "d"
     },
     "mn": {
@@ -297,6 +321,7 @@
         "number": 25,
         "group": 7,
         "period": 4,
+        "column": 21,
         "block": "d"
     },
     "fe": {
@@ -309,6 +334,7 @@
         "number": 26,
         "group": 8,
         "period": 4,
+        "column": 22,
         "block": "d"
     },
     "co": {
@@ -321,6 +347,7 @@
         "number": 27,
         "group": 9,
         "period": 4,
+        "column": 23,
         "block": "d"
     },
     "ni": {
@@ -333,6 +360,7 @@
         "number": 28,
         "group": 10,
         "period": 4,
+        "column": 24,
         "block": "d"
     },
     "cu": {
@@ -345,6 +373,7 @@
         "number": 29,
         "group": 11,
         "period": 4,
+        "column": 25,
         "block": "d"
     },
     "zn": {
@@ -357,6 +386,7 @@
         "number": 30,
         "group": 12,
         "period": 4,
+        "column": 26,
         "block": "d"
     },
     "ga": {
@@ -369,6 +399,7 @@
         "number": 31,
         "group": 13,
         "period": 4,
+        "column": 27,
         "block": "p"
     },
     "ge": {
@@ -381,6 +412,7 @@
         "number": 32,
         "group": 14,
         "period": 4,
+        "column": 28,
         "block": "p"
     },
     "as": {
@@ -393,6 +425,7 @@
         "number": 33,
         "group": 15,
         "period": 4,
+        "column": 29,
         "block": "p"
     },
     "se": {
@@ -405,6 +438,7 @@
         "number": 34,
         "group": 16,
         "period": 4,
+        "column": 30,
         "block": "p"
     },
     "rr": {
@@ -417,6 +451,7 @@
         "number": 35,
         "group": 17,
         "period": 4,
+        "column": 31,
         "block": "p"
     },
     "kr": {
@@ -429,6 +464,7 @@
         "number": 36,
         "group": 18,
         "period": 4,
+        "column": 32,
         "block": "p"
     },
     "rb": {
@@ -441,6 +477,7 @@
         "number": 37,
         "group": 1,
         "period": 5,
+        "column": 1,
         "block": "s"
     },
     "sr": {
@@ -453,6 +490,7 @@
         "number": 38,
         "group": 2,
         "period": 5,
+        "column": 2,
         "block": "s"
     },
     "y": {
@@ -465,6 +503,7 @@
         "number": 39,
         "group": 3,
         "period": 5,
+        "column": 3,
         "block": "d"
     },
     "zr": {
@@ -477,6 +516,7 @@
         "number": 40,
         "group": 4,
         "period": 5,
+        "column": 18,
         "block": "d"
     },
     "nb": {
@@ -489,6 +529,7 @@
         "number": 41,
         "group": 5,
         "period": 5,
+        "column": 19,
         "block": "d"
     },
     "mo": {
@@ -501,6 +542,7 @@
         "number": 42,
         "group": 6,
         "period": 5,
+        "column": 20,
         "block": "d"
     },
     "tc": {
@@ -513,6 +555,7 @@
         "number": 43,
         "group": 7,
         "period": 5,
+        "column": 21,
         "block": "d"
     },
     "ru": {
@@ -525,6 +568,7 @@
         "number": 44,
         "group": 8,
         "period": 5,
+        "column": 22,
         "block": "d"
     },
     "rh": {
@@ -537,6 +581,7 @@
         "number": 45,
         "group": 9,
         "period": 5,
+        "column": 23,
         "block": "d"
     },
     "pd": {
@@ -549,6 +594,7 @@
         "number": 46,
         "group": 10,
         "period": 5,
+        "column": 24,
         "block": "d"
     },
     "ag": {
@@ -561,6 +607,7 @@
         "number": 47,
         "group": 11,
         "period": 5,
+        "column": 25,
         "block": "d"
     },
     "cd": {
@@ -573,6 +620,7 @@
         "number": 48,
         "group": 12,
         "period": 5,
+        "column": 26,
         "block": "d"
     },
     "in": {
@@ -585,6 +633,7 @@
         "number": 49,
         "group": 13,
         "period": 5,
+        "column": 27,
         "block": "p"
     },
     "sn": {
@@ -597,6 +646,7 @@
         "number": 50,
         "group": 14,
         "period": 5,
+        "column": 28,
         "block": "p"
     },
     "sb": {
@@ -609,6 +659,7 @@
         "number": 51,
         "group": 15,
         "period": 5,
+        "column": 29,
         "block": "p"
     },
     "te": {
@@ -621,6 +672,7 @@
         "number": 52,
         "group": 16,
         "period": 5,
+        "column": 30,
         "block": "p"
     },
     "i": {
@@ -633,6 +685,7 @@
         "number": 53,
         "group": 17,
         "period": 5,
+        "column": 31,
         "block": "p"
     },
     "xe": {
@@ -645,6 +698,7 @@
         "number": 54,
         "group": 18,
         "period": 5,
+        "column": 32,
         "block": "p"
     },
     "cs": {
@@ -657,6 +711,7 @@
         "number": 55,
         "group": 1,
         "period": 6,
+        "column": 1,
         "block": "s"
     },
     "ba": {
@@ -669,6 +724,7 @@
         "number": 56,
         "group": 2,
         "period": 6,
+        "column": 2,
         "block": "s"
     },
     "la": {
@@ -681,6 +737,7 @@
         "number": 57,
         "group": "La",
         "period": 6,
+        "column": 3,
         "block": "d"
     },
     "ce": {
@@ -693,6 +750,7 @@
         "number": 58,
         "group": "La",
         "period": 6,
+        "column": 4,
         "block": "f"
     },
     "pr": {
@@ -705,6 +763,7 @@
         "number": 59,
         "group": "La",
         "period": 6,
+        "column": 5,
         "block": "f"
     },
     "nd": {
@@ -717,6 +776,7 @@
         "number": 60,
         "group": "La",
         "period": 6,
+        "column": 6,
         "block": "f"
     },
     "pm": {
@@ -729,6 +789,7 @@
         "number": 61,
         "group": "La",
         "period": 6,
+        "column": 7,
         "block": "f"
     },
     "sm": {
@@ -741,6 +802,7 @@
         "number": 62,
         "group": "La",
         "period": 6,
+        "column": 8,
         "block": "f"
     },
     "eu": {
@@ -753,6 +815,7 @@
         "number": 63,
         "group": "La",
         "period": 6,
+        "column": 9,
         "block": "f"
     },
     "gd": {
@@ -765,6 +828,7 @@
         "number": 64,
         "group": "La",
         "period": 6,
+        "column": 10,
         "block": "f"
     },
     "tb": {
@@ -777,6 +841,7 @@
         "number": 65,
         "group": "La",
         "period": 6,
+        "column": 11,
         "block": "f"
     },
     "dy": {
@@ -789,6 +854,7 @@
         "number": 66,
         "group": "La",
         "period": 6,
+        "column": 12,
         "block": "f"
     },
     "ho": {
@@ -801,6 +867,7 @@
         "number": 67,
         "group": "La",
         "period": 6,
+        "column": 13,
         "block": "f"
     },
     "er": {
@@ -813,6 +880,7 @@
         "number": 68,
         "group": "La",
         "period": 6,
+        "column": 14,
         "block": "f"
     },
     "tm": {
@@ -825,6 +893,7 @@
         "number": 69,
         "group": "La",
         "period": 6,
+        "column": 15,
         "block": "f"
     },
     "yb": {
@@ -837,6 +906,7 @@
         "number": 70,
         "group": "La",
         "period": 6,
+        "column": 16,
         "block": "f"
     },
     "lu": {
@@ -849,6 +919,7 @@
         "number": 71,
         "group": "La",
         "period": 6,
+        "column": 17,
         "block": "f"
     },
     "hf": {
@@ -861,6 +932,7 @@
         "number": 72,
         "group": 4,
         "period": 6,
+        "column": 18,
         "block": "d"
     },
     "ta": {
@@ -873,6 +945,7 @@
         "number": 73,
         "group": 5,
         "period": 6,
+        "column": 19,
         "block": "d"
     },
     "w": {
@@ -885,6 +958,7 @@
         "number": 74,
         "group": 6,
         "period": 6,
+        "column": 20,
         "block": "d"
     },
     "re": {
@@ -897,6 +971,7 @@
         "number": 75,
         "group": 7,
         "period": 6,
+        "column": 21,
         "block": "d"
     },
     "os": {
@@ -909,6 +984,7 @@
         "number": 76,
         "group": 8,
         "period": 6,
+        "column": 22,
         "block": "d"
     },
     "ir": {
@@ -921,6 +997,7 @@
         "number": 77,
         "group": 9,
         "period": 6,
+        "column": 23,
         "block": "d"
     },
     "pt": {
@@ -933,6 +1010,7 @@
         "number": 78,
         "group": 10,
         "period": 6,
+        "column": 24,
         "block": "d"
     },
     "au": {
@@ -945,6 +1023,7 @@
         "number": 79,
         "group": 11,
         "period": 6,
+        "column": 25,
         "block": "d"
     },
     "hg": {
@@ -957,6 +1036,7 @@
         "number": 80,
         "group": 12,
         "period": 6,
+        "column": 26,
         "block": "d"
     },
     "tl": {
@@ -969,6 +1049,7 @@
         "number": 81,
         "group": 13,
         "period": 6,
+        "column": 27,
         "block": "p"
     },
     "pb": {
@@ -981,6 +1062,7 @@
         "number": 82,
         "group": 14,
         "period": 6,
+        "column": 28,
         "block": "p"
     },
     "bi": {
@@ -993,6 +1075,7 @@
         "number": 83,
         "group": 15,
         "period": 6,
+        "column": 29,
         "block": "p"
     },
     "po": {
@@ -1005,6 +1088,7 @@
         "number": 84,
         "group": 16,
         "period": 6,
+        "column": 30,
         "block": "p"
     },
     "at": {
@@ -1017,6 +1101,7 @@
         "number": 85,
         "group": 17,
         "period": 6,
+        "column": 31,
         "block": "p"
     },
     "rn": {
@@ -1029,6 +1114,7 @@
         "number": 86,
         "group": 18,
         "period": 6,
+        "column": 32,
         "block": "p"
     },
     "fr": {
@@ -1041,6 +1127,7 @@
         "number": 87,
         "group": 1,
         "period": 7,
+        "column": 1,
         "block": "s"
     },
     "ra": {
@@ -1053,6 +1140,7 @@
         "number": 88,
         "group": 2,
         "period": 7,
+        "column": 2,
         "block": "s"
     },
     "ac": {
@@ -1065,6 +1153,7 @@
         "number": 89,
         "group": "Ac",
         "period": 7,
+        "column": 3,
         "block": "d"
     },
     "th": {
@@ -1077,6 +1166,7 @@
         "number": 90,
         "group": "Ac",
         "period": 7,
+        "column": 4,
         "block": "f"
     },
     "pa": {
@@ -1089,6 +1179,7 @@
         "number": 91,
         "group": "Ac",
         "period": 7,
+        "column": 5,
         "block": "f"
     },
     "u": {
@@ -1101,6 +1192,7 @@
         "number": 92,
         "group": "Ac",
         "period": 7,
+        "column": 6,
         "block": "f"
     },
     "np": {
@@ -1113,6 +1205,7 @@
         "number": 93,
         "group": "Ac",
         "period": 7,
+        "column": 7,
         "block": "f"
     },
     "pu": {
@@ -1125,6 +1218,7 @@
         "number": 94,
         "group": "Ac",
         "period": 7,
+        "column": 8,
         "block": "f"
     },
     "am": {
@@ -1137,6 +1231,7 @@
         "number": 95,
         "group": "Ac",
         "period": 7,
+        "column": 9,
         "block": "f"
     },
     "cm": {
@@ -1149,6 +1244,7 @@
         "number": 96,
         "group": "Ac",
         "period": 7,
+        "column": 10,
         "block": "f"
     },
     "bk": {
@@ -1161,6 +1257,7 @@
         "number": 97,
         "group": "Ac",
         "period": 7,
+        "column": 11,
         "block": "f"
     },
     "cf": {
@@ -1173,6 +1270,7 @@
         "number": 98,
         "group": "Ac",
         "period": 7,
+        "column": 12,
         "block": "f"
     },
     "es": {
@@ -1185,6 +1283,7 @@
         "number": 99,
         "group": "Ac",
         "period": 7,
+        "column": 13,
         "block": "f"
     },
     "fm": {
@@ -1197,6 +1296,7 @@
         "number": 100,
         "group": "Ac",
         "period": 7,
+        "column": 14,
         "block": "f"
     },
     "md": {
@@ -1209,6 +1309,7 @@
         "number": 101,
         "group": "Ac",
         "period": 7,
+        "column": 15,
         "block": "f"
     },
     "no": {
@@ -1221,6 +1322,7 @@
         "number": 102,
         "group": "Ac",
         "period": 7,
+        "column": 16,
         "block": "f"
     },
     "lr": {
@@ -1233,6 +1335,7 @@
         "number": 103,
         "group": "Ac",
         "period": 7,
+        "column": 17,
         "block": "f"
     },
     "rf": {
@@ -1245,6 +1348,7 @@
         "number": 104,
         "group": 4,
         "period": 7,
+        "column": 18,
         "block": "d"
     },
     "db": {
@@ -1257,6 +1361,7 @@
         "number": 105,
         "group": 5,
         "period": 7,
+        "column": 19,
         "block": "d"
     },
     "sg": {
@@ -1269,6 +1374,7 @@
         "number": 106,
         "group": 6,
         "period": 7,
+        "column": 20,
         "block": "d"
     },
     "bh": {
@@ -1281,6 +1387,7 @@
         "number": 107,
         "group": 7,
         "period": 7,
+        "column": 21,
         "block": "d"
     },
     "hs": {
@@ -1293,6 +1400,7 @@
         "number": 108,
         "group": 8,
         "period": 7,
+        "column": 22,
         "block": "d"
     },
     "mt": {
@@ -1305,6 +1413,7 @@
         "number": 109,
         "group": 9,
         "period": 7,
+        "column": 23,
         "block": "d"
     },
     "ds": {
@@ -1317,6 +1426,7 @@
         "number": 110,
         "group": 10,
         "period": 7,
+        "column": 24,
         "block": "d"
     },
     "rg": {
@@ -1329,6 +1439,7 @@
         "number": 111,
         "group": 11,
         "period": 7,
+        "column": 25,
         "block": "d"
     },
     "cn": {
@@ -1341,6 +1452,7 @@
         "number": 112,
         "group": 12,
         "period": 7,
+        "column": 26,
         "block": "d"
     },
     "nh": {
@@ -1353,6 +1465,7 @@
         "number": 113,
         "group": 13,
         "period": 7,
+        "column": 27,
         "block": "p"
     },
     "fl": {
@@ -1365,6 +1478,7 @@
         "number": 114,
         "group": 14,
         "period": 7,
+        "column": 28,
         "block": "p"
     },
     "mc": {
@@ -1377,6 +1491,7 @@
         "number": 115,
         "group": 15,
         "period": 7,
+        "column": 29,
         "block": "p"
     },
     "lv": {
@@ -1389,6 +1504,7 @@
         "number": 116,
         "group": 16,
         "period": 7,
+        "column": 30,
         "block": "p"
     },
     "ts": {
@@ -1401,6 +1517,7 @@
         "number": 117,
         "group": 17,
         "period": 7,
+        "column": 31,
         "block": "p"
     },
     "og": {
@@ -1413,6 +1530,7 @@
         "number": 118,
         "group": 18,
         "period": 7,
+        "column": 32,
         "block": "p"
     }
 }
