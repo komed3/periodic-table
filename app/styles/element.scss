@@ -11,14 +11,14 @@
     max-width: var( --content );
 }
 
-.pt-element-intro h1 {
+.pt-element-intro .element--title {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
     gap: 16px;
 }
 
-.pt-element-intro h1 .element--symbol {
+.pt-element-intro .element--title .element--symbol {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -33,7 +33,11 @@
     background: var( --accent-1 );
 }
 
-.pt-element-intro h1 .element--symbol .symbol--number {
+.pt-element-intro .element--title .element--symbol .symbol--number {
     padding-top: 6px;
     font-size: 12px;
+}
+
+.pt-element-footer {
+    grid-column: span 2;
 }

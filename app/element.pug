@@ -11,7 +11,7 @@ block content
   div.pt-element
     div.pt-element-container
       section.pt-box.pt-element-intro
-        h1
+        h1.element--title
           span.element--symbol
             span.symbol--number #{ element.number }
             span.symbol--label #{ element.symbol }
@@ -20,3 +20,5 @@ block content
     aside.pt-element-aside
       div.pt-box.pt-element-image
       div.pt-box.pt-element-hazard
+    div.pt-element-footer
+      include templates/microtable.pug
