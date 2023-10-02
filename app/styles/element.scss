@@ -38,6 +38,18 @@
     font-size: 12px;
 }
 
+.pt-element-radioactive {
+    align-items: center;
+    padding: 18px;
+    background: repeating-linear-gradient(
+        -45deg,
+        var( --gray-0 ),
+        var( --gray-0 ) 12px,
+        var( --warn ) 12px,
+        var( --warn ) 24px
+    );
+}
+
 .pt-element-hazard h3 {
     margin-top: 24px;
 }

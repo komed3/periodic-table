@@ -32,5 +32,15 @@
 	"hazard-precautionary": "Hazard & precautionary statements",
 	"hazard-precautionary-undefined": "no statements",
 	"glossary-title": "Glossary",
-	"glossary-description": "Explanation of used terms and units, definition of hazardous substance labeling, etc."
+	"glossary-description": "Explanation of used terms and units, definition of hazardous substance labeling, etc.",
+	"pictogram-title": "Pictograms",
+	"hazard-E": "Explosive",
+	"hazard-F": "(High) Flammable",
+	"hazard-O": "Oxidizing",
+	"hazard-C": "Corrosive",
+	"hazard-T": "(Very) Toxic",
+	"hazard-X": "Hazardous",
+	"hazard-N": "Environmentally hazardous",
+	"radioactive": "Radioactive",
+	"element-radioactive": "Radioactive element"
 }

@@ -20,6 +20,10 @@ block content
       section.pt-box.pt-element-properties
     aside.pt-element-aside
       div.pt-box.pt-element-image
+      if element.radioactive
+        div.pt-box.pt-box-flex.pt-element-radioactive
+            img( src="/img/radioactive.png", class="pictogram-small", loading="lazy" )/
+            b= __( 'element-radioactive' )
       if element.hazardous
         div.pt-box.pt-element-hazard
           h2= __( 'ghs-title' )
@@ -27,7 +31,7 @@ block content
             div.pt-box-flex.pt-box-columns.pt-element-hazard-box
               each ghs in element.hazardous.ghs
                 div.pt-element-hazard-item
-                  img( src='/img/GHS' + ghs + '.png', class="pictogram", loading="lazy" )
+                  img( src='/img/GHS' + ghs + '.png', class="pictogram", loading="lazy" )/
                   span!= __( 'ghs-' + ghs )
           else
             i= __( 'ghs-undefined' )
@@ -50,6 +54,6 @@ block content
             h3= __( 'pictogram-title' )
             div.pt-element-hazard-pictograms
               each hazard in element.hazardous.hazard
-                img( src='/img/hazard-' + hazard + '.png', class="pictogram-small", loading="lazy" )
+                img( src='/img/hazard-' + hazard + '.png', class="pictogram-small", loading="lazy" )/
     div.pt-element-footer
       include templates/microtable.pug

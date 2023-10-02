@@ -40,5 +40,7 @@
 	"hazard-C": "Ätzend",
 	"hazard-T": "(Sehr) Giftig",
 	"hazard-X": "Reizend / Gesundheitsschädlich",
-	"hazard-N": "Umweltgefährlich"
+	"hazard-N": "Umweltgefährlich",
+	"radioactive": "Radioaktiv",
+	"element-radioactive": "Radioaktives Element"
 }

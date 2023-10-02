@@ -7,7 +7,7 @@
  * accent colors
  */
 
-:root{
+:root {
 
     --accent-contrast: #ffffff;
 
@@ -34,6 +34,8 @@ body[theme="light"] {
     --color-main: var( --gray-5 );
     --color-bg: var( --gray-1 );
 
+    --warn: #fce0a5;
+
 }
 
 body[theme="dark"] {
@@ -48,5 +50,7 @@ body[theme="dark"] {
 
     --color-main: var( --gray-4 );
     --color-bg: var( --gray-1 );
+
+    --warn: #775000;
 
 }

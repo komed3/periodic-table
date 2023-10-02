@@ -13,12 +13,12 @@ block content
       - for( let i = 1; i <= 9; i++ ) {
         - var ghs = i.toString().padStart( 2, '0' );
         div.pt-glossary-flex-item
-          img( src='/img/GHS' + ghs + '.png', class="pictogram", loading="lazy" )
+          img( src='/img/GHS' + ghs + '.png', class="pictogram", loading="lazy" )/
           span!= __( 'ghs-' + ghs )
       - }
     h2= __( 'pictogram-title' )
     div.pt-box-flex.pt-box-columns
       each hazard in [ 'E', 'F', 'O', 'C', 'T', 'X', 'N' ]
         div.pt-glossary-flex-item
-          img( src='/img/hazard-' + hazard + '.png', class="pictogram", loading="lazy" )
+          img( src='/img/hazard-' + hazard + '.png', class="pictogram", loading="lazy" )/
           span!= __( 'hazard-' + hazard )
