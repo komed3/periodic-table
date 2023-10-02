@@ -110,7 +110,7 @@ routes.routes.forEach( ( route ) => {
 
             res.locals.site = route[1];
             res.locals.availableLanguages = availableLanguages;
-            res.locals.DB = elements;
+            res.locals.elements = elements;
             res.locals.locale = req.getLocale();
             res.locals.theme = req.cookies.theme || 'light';
             res.locals.search = {

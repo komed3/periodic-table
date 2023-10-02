@@ -1,2 +1,9 @@
 //- templates/microtable.pug
 div.pt-microtable
+  each el, k in elements
+    a(
+        href="/e/" + el.symbol, class="pt-microtable-element",
+        style="--group:" + el.group + "; --period:" + el.period + ";"
+    )
+      span.element--number= el.number
+      span.element--symbol= el.symbol
