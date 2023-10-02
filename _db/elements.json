@@ -702,7 +702,13 @@
         "period": 5,
         "column": 1,
         "block": "s",
-        "set": "alkalimetal"
+        "set": "alkalimetal",
+        "hazardous": {
+            "h": [ "260", "314" ],
+            "p": [ "223", "231+232", "280", "305+351+338", "370+378" ],
+            "hazard": [ "F", "C" ],
+            "ghs": [ "02", "05" ]
+        }
     },
     "sr": {
         "symbol": "Sr",
@@ -716,7 +722,13 @@
         "period": 5,
         "column": 2,
         "block": "s",
-        "set": "alkalineearthmetal"
+        "set": "alkalineearthmetal",
+        "hazardous": {
+            "h": [ "260", "315" ],
+            "p": [ "223", "231+232", "370+378" ],
+            "hazard": [ "F", "X" ],
+            "ghs": [ "02", "07" ]
+        }
     },
     "y": {
         "symbol": "Y",
@@ -730,7 +742,13 @@
         "period": 5,
         "column": 3,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": {
+            "h": [ "228" ],
+            "p": [ "210", "241", "280", "241", "370+378" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02" ]
+        }
     },
     "zr": {
         "symbol": "Zr",
@@ -744,7 +762,13 @@
         "period": 5,
         "column": 18,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": {
+            "h": [ "250", "260" ],
+            "p": [ "222", "223", "231+232", "370+378​" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02" ]
+        }
     },
     "nb": {
         "symbol": "Nb",
@@ -758,7 +782,13 @@
         "period": 5,
         "column": 19,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": {
+            "h": [ "228" ],
+            "p": [ "210" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02" ]
+        }
     },
     "mo": {
         "symbol": "Mo",
@@ -772,7 +802,8 @@
         "period": 5,
         "column": 20,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": null
     },
     "tc": {
         "symbol": "Tc",
@@ -786,7 +817,9 @@
         "period": 5,
         "column": 21,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": null,
+        "radioactive": true
     },
     "ru": {
         "symbol": "Ru",
@@ -800,7 +833,13 @@
         "period": 5,
         "column": 22,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": {
+            "h": [ "228" ],
+            "p": [ "210" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02" ]
+        }
     },
     "rh": {
         "symbol": "Rh",
@@ -814,7 +853,13 @@
         "period": 5,
         "column": 23,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": {
+            "h": [ "228" ],
+            "p": [ "20" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02" ]
+        }
     },
     "pd": {
         "symbol": "Pd",
@@ -828,7 +873,8 @@
         "period": 5,
         "column": 24,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": null
     },
     "ag": {
         "symbol": "Ag",
@@ -842,7 +888,13 @@
         "period": 5,
         "column": 25,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": {
+            "h": [ "410" ],
+            "p": [ "273" ],
+            "hazard": [ "N" ],
+            "ghs": [ "09" ]
+        }
     },
     "cd": {
         "symbol": "Cd",
@@ -856,7 +908,13 @@
         "period": 5,
         "column": 26,
         "block": "d",
-        "set": "transitionmetal"
+        "set": "transitionmetal",
+        "hazardous": {
+            "h": [ "250", "350", "330", "361fd", "341", "372", "410" ],
+            "p": [ "210", "260", "273", "280", "308+313", "391", "405", "501" ],
+            "hazard": [ "F", "T", "X", "N" ],
+            "ghs": [ "02", "06", "08", "09" ]
+        }
     },
     "in": {
         "symbol": "In",
@@ -870,7 +928,13 @@
         "period": 5,
         "column": 27,
         "block": "p",
-        "set": "metal"
+        "set": "metal",
+        "hazardous": {
+            "h": [ "228" ],
+            "p": [ "210", "241", "280", "240", "370+378" ],
+            "hazard": [ "F" ],
+            "ghs": [ "02" ]
+        }
     },
     "sn": {
         "symbol": "Sn",
@@ -884,7 +948,8 @@
         "period": 5,
         "column": 28,
         "block": "p",
-        "set": "metal"
+        "set": "metal",
+        "hazardous": null
     },
     "sb": {
         "symbol": "Sb",
@@ -898,7 +963,13 @@
         "period": 5,
         "column": 29,
         "block": "p",
-        "set": "metalloid"
+        "set": "metalloid",
+        "hazardous": {
+            "h": [ "351" ],
+            "p": [ "201", "202", "308+313" ],
+            "hazard": [ "X" ],
+            "ghs": [ "08" ]
+        }
     },
     "te": {
         "symbol": "Te",
@@ -912,7 +983,13 @@
         "period": 5,
         "column": 30,
         "block": "p",
-        "set": "metalloid"
+        "set": "metalloid",
+        "hazardous": {
+            "h": [ "332", "317", "360", "362", "413" ],
+            "p": [ "202", "273", "280", "302+352", "304+340+312", "308+313" ],
+            "hazard": [ "X" ],
+            "ghs": [ "07", "08" ]
+        }
     },
     "i": {
         "symbol": "I",
@@ -926,7 +1003,13 @@
         "period": 5,
         "column": 31,
         "block": "p",
-        "set": "halogen"
+        "set": "halogen",
+        "hazardous": {
+            "h": [ "312+332", "315", "319", "335", "372", "400" ],
+            "p": [ "273", "302+352", "305+351+338", "314" ],
+            "hazard": [ "X", "N" ],
+            "ghs": [ "07", "08", "09" ]
+        }
     },
     "xe": {
         "symbol": "Xe",
@@ -940,7 +1023,13 @@
         "period": 5,
         "column": 32,
         "block": "p",
-        "set": "noblegas"
+        "set": "noblegas",
+        "hazardous": {
+            "h": [ "280" ],
+            "p": [ "403" ],
+            "hazard": null,
+            "ghs": [ "04" ]
+        }
     },
     "cs": {
         "symbol": "Cs",
