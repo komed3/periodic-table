@@ -188,6 +188,63 @@ select {
 }
 
 /**
+ * NFPA704
+ */
+
+.pt-nfpa-diamond {
+    position: relative;
+    flex: 0 0 auto;
+    display: grid;
+    grid-template-columns: repeat( 2, 1fr );
+    grid-template-rows: repeat( 2, 1fr );
+    grid-template-areas:
+        'h f'
+        's i';
+    width: 96px;
+    height: 96px;
+    padding: 14px;
+    transform: rotate( -45deg );
+}
+
+.pt-nfpa-diamond::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url( '/img/NFPA704.png' );
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate( 45deg );
+}
+
+.pt-nfpa-diamond > div {
+    grid-area: var( --code );
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    transform: rotate( 45deg );
+}
+
+.pt-nfpa-info {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    min-width: 0;
+}
+
+.pt-nfpa-info > div {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 15px;
+    overflow: hidden;
+}
+
+/**
  * templates
  */
 

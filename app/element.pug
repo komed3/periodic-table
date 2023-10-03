@@ -20,19 +20,19 @@ block content
           div.pt-actions.element--actions
             if nav.prev
               a( href="/e/" + nav.prev, title= __( 'navigation-prev' ) )
-                i( class="icon" ) arrow_back
+                i.icon arrow_back
             a( href="/", title= __( 'title' ) )
-              i( class="icon" ) apps
+              i.icon apps
             if nav.next
               a( href="/e/" + nav.next, title= __( 'navigation-next' ) )
-                i( class="icon" ) arrow_forward
+                i.icon arrow_forward
             a(
               href="data:text/json;charset=utf-8," + encodeURIComponent( JSON.stringify( element ) ),
               download="data.json", title= __( 'download' )
             )
-              i( class="icon" ) download
+              i.icon download
             a( href="javascript:window.print();", title= __( 'print' ) )
-              i( class="icon" ) print
+              i.icon print
         if element.classification
           h3= __( 'classification' )
           div.pt-box-flex.pt-element-classification
@@ -41,12 +41,12 @@ block content
                 b= __( 'classification-cas' )
                 each cas in element.classification.cas
                   span
-                    a(
+                    a.external(
                       href="https://commonchemistry.cas.org/detail?ref=" + cas.value,
-                      class="external", target="_blank"
+                      target="_blank"
                     )= cas.value
                     if cas.label && cas.label.length
-                      span!= '&nbsp;(' + core.parseText( cas.label ) + ')'
+                      span!= "&nbsp;(" + core.parseText( cas.label ) + ")"
             if element.classification.eg
               div.pt-element-classification-item
                 b= __( 'classification-eg' )
@@ -55,17 +55,17 @@ block content
               div.pt-element-classification-item
                 b= __( 'classification-echa' )
                 span
-                  a(
+                  a.external(
                     href="https://echa.europa.eu/de/substance-information/-/substanceinfo/" + element.classification.echa,
-                    class="external", target="_blank"
+                    target="_blank"
                   )= element.classification.echa
             if element.classification.atc
               div.pt-element-classification-item
                 b= __( 'classification-atc' )
                 span
-                  a(
+                  a.external(
                     href="https://www.whocc.no/atc_ddd_index/?code=" + element.classification.atc,
-                    class="external", target="_blank"
+                    target="_blank"
                   )= element.classification.atc
       div.pt-box.pt-element-properties
         h2= __( 'prop-atomic' )
@@ -85,7 +85,7 @@ block content
           figcaption!= element.image.caption
       if element.radioactive
         div.pt-box.pt-box-flex.pt-element-radioactive
-            img( src="/img/radioactive.png", class="pictogram-small", loading="lazy" )/
+            img.pictogram-small( src="/img/radioactive.png", loading="lazy" )/
             b= __( 'element-radioactive' )
       if element.hazardous
         div.pt-box.pt-element-hazard
@@ -94,7 +94,7 @@ block content
             div.pt-box-flex.pt-box-columns.pt-element-hazard-box
               each ghs in element.hazardous.ghs
                 div.pt-element-hazard-item
-                  img( src='/img/GHS' + ghs + '.png', class="pictogram", loading="lazy" )/
+                  img.pictogram( src="/img/GHS" + ghs + ".png", loading="lazy" )/
                   span!= __( 'ghs-' + ghs )
           else
             i= __( 'ghs-undefined' )
@@ -113,15 +113,24 @@ block content
                   span!= element.hazardous.p.join( '-' )
                 else
                   i= __( 'hazard-precautionary-undefined' )
+          if element.hazardous.nfpa
+            h3= __( 'nfpa-title' )
+            div.pt-box-flex.pt-nfpa
+              div.pt-nfpa-diamond
+                each key in [ 'h', 'f', 'i', 's' ]
+                  div( style="--code:" + key )!= "<span>" + ( element.hazardous.nfpa[ key ] || '' ).replaceAll( '|', '</span><span>' ) + "</span>"
+              div.pt-nfpa-info
+                each key in [ 'h', 'f', 'i', 's' ]
+                  div!= __( 'nfpa-' + key + '-' + ( element.hazardous.nfpa[ key ] || 'undefined' ).split( '|' )[0] )
           if element.hazardous.hazard
             h3= __( 'pictogram-title' )
             div.pt-element-hazard-pictograms
               each hazard in element.hazardous.hazard
-                img( src='/img/hazard-' + hazard + '.png', class="pictogram-small", loading="lazy" )/
+                img.pictogram-small( src="/img/hazard-" + hazard + ".png", loading="lazy" )/
           if element.hazardous.adr
             h3= __( 'adr-title' )
             div.pt-element-hazard-pictograms
               each adr in element.hazardous.adr
-                img( src='/img/ADR-' + adr + '.png', class="pictogram", loading="lazy" )/
+                img.pictogram( src="/img/ADR-" + adr + ".png", loading="lazy" )/
     div.pt-element-footer
       include templates/microtable.pug
