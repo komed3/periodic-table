@@ -60,8 +60,7 @@
         },
         "classification": {
             "cas": [ {
-                "value": "7440-59-7",
-                "label": "He"
+                "value": "7440-59-7"
             } ],
             "eg": "231-168-5",
             "echa": "100.028.334",
@@ -93,8 +92,7 @@
         },
         "classification": {
             "cas": [ {
-                "value": "7439-93-2",
-                "label": "Li"
+                "value": "7439-93-2"
             } ],
             "eg": "231-102-5",
             "echa": "100.028.274",
@@ -126,8 +124,7 @@
         },
         "classification": {
             "cas": [ {
-                "value": "7440-41-7",
-                "label": "Be"
+                "value": "7440-41-7"
             } ],
             "eg": "231-150-7",
             "echa": "100.028.318",
@@ -151,7 +148,15 @@
         "column": 27,
         "block": "p",
         "set": "metalloid",
-        "hazardous": null
+        "hazardous": null,
+        "classification": {
+            "cas": [ {
+                "value": "7440-42-8"
+            } ],
+            "eg": "231-151-2",
+            "echa": "100.028.319",
+            "atc": null
+        }
     },
     "c": {
         "symbol": "C",
@@ -170,7 +175,22 @@
         "column": 28,
         "block": "p",
         "set": "nonmetal",
-        "hazardous": null
+        "hazardous": null,
+        "classification": {
+            "cas": [ {
+                "value": "7440-44-0",
+                "label": "C"
+            }, {
+                "value": "7782-42-5",
+                "label": "G"
+            }, {
+                "value": "7782-40-3",
+                "label": "D"
+            } ],
+            "eg": "231-153-3",
+            "echa": "100.028.321",
+            "atc": null
+        }
     },
     "n": {
         "symbol": "N",
@@ -194,6 +214,14 @@
             "p": [ "403" ],
             "hazard": null,
             "ghs": [ "04" ]
+        },
+        "classification": {
+            "cas": [ {
+                "value": "7727-37-9"
+            } ],
+            "eg": "231-783-9",
+            "echa": "100.028.895",
+            "atc": null
         }
     },
     "o": {
@@ -218,6 +246,15 @@
             "p": [ "244", "220", "370+376", "403" ],
             "hazard": [ "O" ],
             "ghs": [ "03", "04" ]
+        },
+        "classification": {
+            "cas": [ {
+                "value": "7782-44-7",
+                "label": "O{2}"
+            } ],
+            "eg": "231-956-9",
+            "echa": "100.029.051",
+            "atc": "V03AN01"
         }
     },
     "f": {
@@ -242,6 +279,14 @@
             "p": [ "260", "280", "244", "220", "304+340", "303+361+353", "305+351+338", "315", "370+376", "405", "403" ],
             "hazard": [ "O", "T", "X" ],
             "ghs": [ "03", "04", "05", "06" ]
+        },
+        "classification": {
+            "cas": [ {
+                "value": "7782-41-4"
+            } ],
+            "eg": "231-954-8",
+            "echa": "100.029.049",
+            "atc": null
         }
     },
     "ne": {
@@ -266,6 +311,14 @@
             "p": [ "403" ],
             "hazard": [ "O" ],
             "ghs": [ "03" ]
+        },
+        "classification": {
+            "cas": [ {
+                "value": "7440-01-9"
+            } ],
+            "eg": "231-110-9",
+            "echa": "100.028.282",
+            "atc": null
         }
     },
     "na": {

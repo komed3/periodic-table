@@ -29,7 +29,8 @@ block content
                       href="https://commonchemistry.cas.org/detail?ref=" + cas.value,
                       class="external", target="_blank"
                     )= cas.value
-                    span!= '&nbsp;(' + core.parseText( cas.label ) + ')'
+                    if cas.label && cas.label.length
+                      span!= '&nbsp;(' + core.parseText( cas.label ) + ')'
             if element.classification.eg
               div.pt-element-classification-item
                 b= __( 'classification-eg' )
