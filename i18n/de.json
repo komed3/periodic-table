@@ -41,6 +41,7 @@
 	"hazard-T": "(Sehr) Giftig",
 	"hazard-X": "Reizend / Gesundheitsschädlich",
 	"hazard-N": "Umweltgefährlich",
+	"adr-title": "ADR-Gefahrgutklassen",
 	"radioactive": "Radioaktiv",
 	"element-radioactive": "Radioaktives Element",
 	"classification": "Klassifikation",
@@ -55,5 +56,6 @@
 	"prop-atomic": "Atomare Eigenschaften",
 	"prop-physical": "Physikalische Eigenschaften",
 	"prop-chemical": "Chemische Eigenschaften",
-	"adr-title": "ADR-Gefahrgutklassen"
+	"prop-other": "Weitere Eigenschaften",
+	"prop-isotopes": "Isotope"
 }
