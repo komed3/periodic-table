@@ -36,7 +36,7 @@ block content
               i.icon download
             a( href="javascript:window.print();", title= __( 'print' ) )
               i.icon print
-        if locale in element.wiki
+        if element.wiki && locale in element.wiki
           div.pt-element-summary( locale=locale, page=element.wiki[ locale ] )
         if element.classification
           h3= __( 'classification' )
