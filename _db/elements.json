@@ -1975,6 +1975,10 @@
             "de": "Francium",
             "la": "Francium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Pichblende.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Pichblende.jpg\">Template:Farhan</a>, <a href=\"https://creativecommons.org/licenses/by-sa/2.5\">CC BY-SA 2.5</a>, via Wikimedia Commons"
+        },
         "number": 87,
         "group": 1,
         "period": 7,
@@ -1990,6 +1994,10 @@
             "en": "Radium",
             "de": "Radium",
             "la": "Radium"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Radium226.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Radium226.jpg\">grenadier</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
         "number": 88,
         "group": 2,
@@ -2007,6 +2015,10 @@
             "de": "Actinium",
             "la": "Actinium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Actinium_sample_%2831481701837%29.png",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Actinium_sample_(31481701837).png\">Oak Ridge National Laboratory</a>, <a href=\"https://creativecommons.org/licenses/by/2.0\">CC BY 2.0</a>, via Wikimedia Commons"
+        },
         "number": 89,
         "group": "Ac",
         "period": 7,
@@ -2022,6 +2034,10 @@
             "en": "Thorium",
             "de": "Thorium",
             "la": "Thorium"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Thorium_sample_0.1g.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Thorium_sample_0.1g.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
         "number": 90,
         "group": "Ac",
@@ -2039,6 +2055,10 @@
             "de": "Protactinium",
             "la": "Protactinium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Protactinium-233.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Protactinium-233.jpg\">ENERGY.GOV</a>, Public domain, via Wikimedia Commons"
+        },
         "number": 91,
         "group": "Ac",
         "period": 7,
@@ -2054,6 +2074,10 @@
             "en": "Uranium",
             "de": "Uran",
             "la": "Uranium"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Vacuum_capacitor_with_uranium_glass.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Vacuum_capacitor_with_uranium_glass.jpg\">Warut Roonguthai</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
         },
         "number": 92,
         "group": "Ac",
@@ -2076,6 +2100,10 @@
             "de": "Neptunium",
             "la": "Neptunium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Np_sphere.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Np_sphere.jpg\">Los Alamos National Lab.</a>, Public domain, via Wikimedia Commons"
+        },
         "number": 93,
         "group": "Ac",
         "period": 7,
@@ -2092,6 +2120,10 @@
             "de": "Plutonium",
             "la": "Plutonium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Plutonium_ring.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Plutonium_ring.jpg\">Los Alamos National Laboratory</a>, Attribution, via Wikimedia Commons"
+        },
         "number": 94,
         "group": "Ac",
         "period": 7,
@@ -2107,6 +2139,10 @@
             "en": "Americium",
             "de": "Americium",
             "la": "Americium"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Americium_microscope.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Americium_microscope.jpg\">Bionerd</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
         "number": 95,
         "group": "Ac",
@@ -2140,6 +2176,10 @@
             "de": "Berkelium",
             "la": "Berkelium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Berkelium_metal.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Berkelium_metal.jpg\">Oak Ridge National Laboratory, US Department of Energy</a>, Public domain, via Wikimedia Commons"
+        },
         "number": 97,
         "group": "Ac",
         "period": 7,
@@ -2156,6 +2196,10 @@
             "de": "Californium",
             "la": "Californium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Californium.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Californium.jpg\">United States Department of Energy (see File:Einsteinium.jpg)</a>, Public domain, via Wikimedia Commons"
+        },
         "number": 98,
         "group": "Ac",
         "period": 7,
@@ -2171,6 +2215,10 @@
             "en": "Einsteinium",
             "de": "Einsteinium",
             "la": "Einsteinium"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Einsteinium.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Einsteinium.jpg\">Haire, R. G., US Department of Energy.Touched up by Materialscientist at en.wikipedia.</a>, Public domain, via Wikimedia Commons"
         },
         "number": 99,
         "group": "Ac",
