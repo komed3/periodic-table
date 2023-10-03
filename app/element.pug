@@ -26,7 +26,10 @@ block content
             if nav.next
               a( href="/e/" + nav.next, title= __( 'navigation-next' ) )
                 i( class="icon" ) arrow_forward
-            a( href="#download", title= __( 'download' ) )
+            a(
+              href="data:text/json;charset=utf-8," + encodeURIComponent( JSON.stringify( element ) ),
+              download="data.json", title= __( 'download' )
+            )
               i( class="icon" ) download
             a( href="#print", title= __( 'print' ) )
               i( class="icon" ) print
