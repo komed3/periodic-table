@@ -1254,6 +1254,10 @@
             "de": "Caesium",
             "la": "Caesium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Cesium.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Cesium.jpg\">Dnn87 Contact email: Dnn87yahoo.dk</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
+        },
         "number": 55,
         "group": 1,
         "period": 6,
@@ -1273,6 +1277,10 @@
             "en": "Barium",
             "de": "Barium",
             "la": "Barium"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Barium_dendritic.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Barium_dendritic.jpg\">La2O3</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons"
         },
         "number": 56,
         "group": 2,
@@ -1294,6 +1302,10 @@
             "de": "Lanthan",
             "la": "Lanthanum"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Lanthanum-2.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Lanthanum-2.jpg\">Jurii (Lanthanum-138 at en.wikipedia</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
+        },
         "number": 57,
         "group": "La",
         "period": 6,
@@ -1313,6 +1325,10 @@
             "en": "Cerium",
             "de": "Cer",
             "la": "Cerium"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Cerium2.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Cerium2.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/1.0\">CC BY 1.0</a>, via Wikimedia Commons"
         },
         "number": 58,
         "group": "La",
@@ -1334,6 +1350,10 @@
             "de": "Praseodym",
             "la": "Praseodymium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Praseodymium.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Praseodymium.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
+        },
         "number": 59,
         "group": "La",
         "period": 6,
@@ -1353,6 +1373,10 @@
             "en": "Neodymium",
             "de": "Neodym",
             "la": "Neodymium"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Neodymium2.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Neodymium2.jpg\">http://images-of-elements.com/</a>, <a href=\"https://creativecommons.org/licenses/by/1.0\">CC BY 1.0</a>, via Wikimedia Commons"
         },
         "number": 60,
         "group": "La",
@@ -1390,6 +1414,10 @@
             "de": "Samarium",
             "la": "Samarium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Samarium-2.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Samarium-2.jpg\">http://images-of-elements.com/</a>, <a href=\"https://creativecommons.org/licenses/by/1.0\">CC BY 1.0</a>, via Wikimedia Commons"
+        },
         "number": 62,
         "group": "La",
         "period": 6,
@@ -1409,6 +1437,10 @@
             "en": "Europium",
             "de": "Europium",
             "la": "Europium"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Europium.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Europium.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
         "number": 63,
         "group": "La",
@@ -1430,6 +1462,10 @@
             "de": "Gadolinium",
             "la": "Gadolinium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Gadolinium-4.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Gadolinium-4.jpg\">http://images-of-elements.com/gadolinium.php</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
+        },
         "number": 64,
         "group": "La",
         "period": 6,
@@ -1450,6 +1486,10 @@
             "de": "Terbium",
             "la": "Terbium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Terbium-2.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Terbium-2.jpg\">http://images-of-elements.com/</a>, <a href=\"https://creativecommons.org/licenses/by/1.0\">CC BY 1.0</a>, via Wikimedia Commons"
+        },
         "number": 65,
         "group": "La",
         "period": 6,
@@ -1464,6 +1504,10 @@
             "en": "Dysprosium",
             "de": "Dysprosium",
             "la": "Dysprosium"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Dy_chips.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Dy_chips.jpg\">Materialscientist at en.wikipedia</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
         },
         "number": 66,
         "group": "La",
@@ -1485,6 +1529,10 @@
             "de": "Holmium",
             "la": "Holmium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Holmium2.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Holmium2.jpg\">http://images-of-elements.com/</a>, <a href=\"https://creativecommons.org/licenses/by/1.0\">CC BY 1.0</a>, via Wikimedia Commons"
+        },
         "number": 67,
         "group": "La",
         "period": 6,
@@ -1504,6 +1552,10 @@
             "en": "Erbium",
             "de": "Erbium",
             "la": "Erbium"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Erbium_%2868_Er%29.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Erbium_(68_Er).jpg\">Hi-Res Images of Chemical Elements</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
         "number": 68,
         "group": "La",
@@ -1525,6 +1577,10 @@
             "de": "Thulium",
             "la": "Thulium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Thulium_sublimed_dendritic_and_1cm3_cube.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Thulium_sublimed_dendritic_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
+        },
         "number": 69,
         "group": "La",
         "period": 6,
@@ -1544,6 +1600,10 @@
             "en": "Ytterbium",
             "de": "Ytterbium",
             "la": "Ytterbium"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Ytterbium-3.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Ytterbium-3.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/1.0\">CC BY 1.0</a>, via Wikimedia Commons"
         },
         "number": 70,
         "group": "La",
@@ -1565,6 +1625,10 @@
             "de": "Lutetium",
             "la": "Lutetium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Lutetium_sublimed_dendritic_and_1cm3_cube.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Lutetium_sublimed_dendritic_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
+        },
         "number": 71,
         "group": "La",
         "period": 6,
@@ -1584,6 +1648,10 @@
             "en": "Hafnium",
             "de": "Hafnium",
             "la": "Hafnium"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Hafnium_bits.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Hafnium_bits.jpg\">Deglr6328 at the English-language Wikipedia</a>, <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\">CC BY-SA 3.0</a>, via Wikimedia Commons"
         },
         "number": 72,
         "group": 4,
@@ -1605,6 +1673,10 @@
             "de": "Tantal",
             "la": "Tantalum"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Tantalum_single_crystal_and_1cm3_cube.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Tantalum_single_crystal_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
+        },
         "number": 73,
         "group": 5,
         "period": 6,
@@ -1624,6 +1696,10 @@
             "en": "Tungsten",
             "de": "Wolfram",
             "la": "Wolframium"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Wolfram_evaporated_crystals_and_1cm3_cube.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Wolfram_evaporated_crystals_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
         },
         "number": 74,
         "group": 6,
@@ -1645,6 +1721,10 @@
             "de": "Rhenium",
             "la": "Rhenium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Rhenium_single_crystal_bar_and_1cm3_cube.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Rhenium_single_crystal_bar_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
+        },
         "number": 75,
         "group": 7,
         "period": 6,
@@ -1664,6 +1744,10 @@
             "en": "Osmium",
             "de": "Osmium",
             "la": "Osmium"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Osmium_crystals.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Osmium_crystals.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
         },
         "number": 76,
         "group": 8,
@@ -1685,6 +1769,10 @@
             "de": "Iridium",
             "la": "Iridium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Iridium_foil.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Iridium_foil.jpg\">Dschwen</a>, <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\">CC BY-SA 3.0</a>, via Wikimedia Commons"
+        },
         "number": 77,
         "group": 9,
         "period": 6,
@@ -1705,6 +1793,10 @@
             "de": "Platin",
             "la": "Platinum"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Platinum_crystals.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Platinum_crystals.jpg\">Periodictableru</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
+        },
         "number": 78,
         "group": 10,
         "period": 6,
@@ -1720,6 +1812,10 @@
             "de": "Gold",
             "la": "Aurum"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Or_natif1.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Or_natif1.jpg\">Urban</a>, Public domain, via Wikimedia Commons"
+        },
         "number": 79,
         "group": 11,
         "period": 6,
@@ -1734,6 +1830,10 @@
             "en": "Mercury",
             "de": "Quecksilber",
             "la": "Hydrargyrion"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/HgKviks%C3%B8lv.JPG",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:HgKviks%C3%B8lv.JPG\">Dnn87</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
         "number": 80,
         "group": 12,
@@ -1755,6 +1855,10 @@
             "de": "Thallium",
             "la": "Thallium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Thallium_pieces_in_ampoule.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Thallium_pieces_in_ampoule.jpg\">W. Oelen</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
+        },
         "number": 81,
         "group": 13,
         "period": 6,
@@ -1775,6 +1879,10 @@
             "de": "Blei",
             "la": "Plumbum"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Lead-2.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Lead-2.jpg\">Chemical Elements</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
+        },
         "number": 82,
         "group": 14,
         "period": 6,
@@ -1794,6 +1902,10 @@
             "en": "Bismuth",
             "de": "Bismut",
             "la": "Bismutum"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Bismuth_crystals_and_1cm3_cube.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Bismuth_crystals_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
         "number": 83,
         "group": 15,
