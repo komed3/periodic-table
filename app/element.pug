@@ -19,12 +19,12 @@ block content
           span.element--name= element.names[ locale ]
           div.pt-actions.element--actions
             if nav.prev
-              a( href="/e/" + nav.prev, title= __( 'navigation-prev' ) )
+              a( href="/e/" + elements[ nav.prev ].symbol, title= __( 'navigation-prev' ) )
                 i.icon arrow_back
             a( href="/", title= __( 'title' ) )
               i.icon apps
             if nav.next
-              a( href="/e/" + nav.next, title= __( 'navigation-next' ) )
+              a( href="/e/" + elements[ nav.next ].symbol, title= __( 'navigation-next' ) )
                 i.icon arrow_forward
             a(
               href="data:text/json;charset=utf-8," + encodeURIComponent( JSON.stringify( element ) ),
@@ -104,13 +104,13 @@ block content
               div.hazard--line
                 b H
                 if element.hazardous.h
-                  span!= element.hazardous.h.join( '-' )
+                  span!= element.hazardous.h.join( ', ' )
                 else
                   i= __( 'hazard-precautionary-undefined' )
               div.hazard--line
                 b P
                 if element.hazardous.p
-                  span!= element.hazardous.p.join( '-' )
+                  span!= element.hazardous.p.join( ', ' )
                 else
                   i= __( 'hazard-precautionary-undefined' )
           if element.hazardous.nfpa
