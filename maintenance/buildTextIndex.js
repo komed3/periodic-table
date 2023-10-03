@@ -51,9 +51,16 @@ if( process.argv[2] == undefined ) {
             wiki( { apiUrl: url } )
                 .page( el.wiki[ locale ] )
                 .then( page => page.summary() )
-                .then( text => {
+                .then( plain => {
 
-                    fs.writeFile( dir + '/' + key + '.db', text, { flag: 'w' }, ( error ) => {
+                    let text = plain
+                        .replaceAll( /^(.+)$/g, '<p>$1</p>' )
+                        .replaceAll( /(?:\r\n|\r|\n)/g, '' );
+
+                    fs.writeFile( dir + '/' + key + '.json', JSON.stringify( {
+                        plain: plain,
+                        text: text
+                    } ), { flag: 'w' }, ( error ) => {
 
                         if( error ) {
 
