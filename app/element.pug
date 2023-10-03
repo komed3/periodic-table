@@ -27,8 +27,7 @@ block content
                   span
                     a(
                       href="https://commonchemistry.cas.org/detail?ref=" + cas.value,
-                      class="external",
-                      target="_blank"
+                      class="external", target="_blank"
                     )= cas.value
                     span!= '&nbsp;(' + core.parseText( cas.label ) + ')'
             if element.classification.eg
@@ -41,14 +40,22 @@ block content
                 span
                   a(
                     href="https://echa.europa.eu/de/substance-information/-/substanceinfo/" + element.classification.echa,
-                    class="external",
-                    target="_blank"
+                    class="external", target="_blank"
                   )= element.classification.echa
+            if element.classification.atc
+              div.pt-element-classification-item
+                b= __( 'classification-atc' )
+                span
+                  a(
+                    href="https://www.whocc.no/atc_ddd_index/?code=" + element.classification.atc,
+                    class="external", target="_blank"
+                  )= element.classification.atc
       div.pt-box.pt-element-properties
     aside.pt-element-aside
       if element.image
         div.pt-box.pt-element-image
-          img( src=element.image.url, loading="lazy" )/
+          a( href=element.image.url, target="_blank" )
+            img( src=element.image.url, loading="lazy" )/
           figcaption!= element.image.caption
       if element.radioactive
         div.pt-box.pt-box-flex.pt-element-radioactive

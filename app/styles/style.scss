@@ -83,6 +83,11 @@ a.external:hover {
     text-decoration: underline;
 }
 
+sup {
+    vertical-align: top;
+    font-size: 65%;
+}
+
 input, select {
     font-family: 'Roboto', sans-serif;
     outline: 0 none;
