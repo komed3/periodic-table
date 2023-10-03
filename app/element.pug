@@ -118,7 +118,7 @@ block content
             div.pt-box-flex.pt-nfpa
               div.pt-nfpa-diamond
                 each key in [ 'h', 'f', 'i', 's' ]
-                  div( style="--code:" + key )!= "<span>" + ( element.hazardous.nfpa[ key ] || '' ).replaceAll( '|', '</span><span>' ) + "</span>"
+                  div( class=key, style="--code:" + key )!= "<b>" + ( element.hazardous.nfpa[ key ] || '' ).replaceAll( '|', '</b><b>' ) + "</b>"
               div.pt-nfpa-info
                 each key in [ 'h', 'f', 'i', 's' ]
                   div!= __( 'nfpa-' + key + '-' + ( element.hazardous.nfpa[ key ] || 'undefined' ).split( '|' )[0] )

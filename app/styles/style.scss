@@ -230,6 +230,12 @@ select {
     transform: rotate( 45deg );
 }
 
+.pt-nfpa-diamond > div.s {
+    line-height: 0.9;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
 .pt-nfpa-info {
     display: flex;
     flex-flow: column nowrap;
