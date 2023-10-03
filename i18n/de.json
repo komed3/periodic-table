@@ -42,5 +42,9 @@
 	"hazard-X": "Reizend / Gesundheitsschädlich",
 	"hazard-N": "Umweltgefährlich",
 	"radioactive": "Radioaktiv",
-	"element-radioactive": "Radioaktives Element"
+	"element-radioactive": "Radioaktives Element",
+	"classification": "Klassifikation",
+	"classification-cas": "CAS-Nummer",
+	"classification-eg": "EG-Nummer",
+	"classification-echa": "ECHA-InfoCard"
 }

@@ -38,6 +38,18 @@
     font-size: 12px;
 }
 
+.pt-element-classification-item {
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 3px;
+    font-size: 13px;
+}
+
+.pt-element-classification-item:not(:last-child) {
+    border-right: 1px solid var( --gray-2 );
+}
+
 /**
  * aside
  */

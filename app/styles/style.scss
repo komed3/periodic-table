@@ -75,6 +75,14 @@ a {
     color: inherit;
 }
 
+a.external {
+    color: var( --accent-1 );
+}
+
+a.external:hover {
+    text-decoration: underline;
+}
+
 input, select {
     font-family: 'Roboto', sans-serif;
     outline: 0 none;

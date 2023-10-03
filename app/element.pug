@@ -11,13 +11,40 @@ block styles
 block content
   div.pt-element
     div.pt-element-container
-      section.pt-box.pt-element-intro
+      div.pt-box.pt-element-intro
         h1.element--title
           span.element--symbol
             span.symbol--number= element.number
             span.symbol--label= element.symbol
           span.element--name= element.names[ locale ]
-      section.pt-box.pt-element-properties
+        if element.classification
+          h3= __( 'classification' )
+          div.pt-box-flex.pt-element-classification
+            if element.classification.cas
+              div.pt-element-classification-item
+                b= __( 'classification-cas' )
+                each cas in element.classification.cas
+                  span
+                    a(
+                      href="https://commonchemistry.cas.org/detail?ref=" + cas.value,
+                      class="external",
+                      target="_blank"
+                    )= cas.value
+                    span!= '&nbsp;(' + cas.label + ')'
+            if element.classification.eg
+              div.pt-element-classification-item
+                b= __( 'classification-eg' )
+                span= element.classification.eg
+            if element.classification.echa
+              div.pt-element-classification-item
+                b= __( 'classification-echa' )
+                span
+                  a(
+                    href="https://echa.europa.eu/de/substance-information/-/substanceinfo/" + element.classification.echa,
+                    class="external",
+                    target="_blank"
+                  )= element.classification.echa
+      div.pt-box.pt-element-properties
     aside.pt-element-aside
       if element.image
         div.pt-box.pt-element-image
@@ -30,7 +57,7 @@ block content
       if element.hazardous
         div.pt-box.pt-element-hazard
           h2= __( 'ghs-title' )
-          if element.hazardous.ghs && element.hazardous.ghs.length
+          if element.hazardous.ghs
             div.pt-box-flex.pt-box-columns.pt-element-hazard-box
               each ghs in element.hazardous.ghs
                 div.pt-element-hazard-item
@@ -43,17 +70,17 @@ block content
             div.hazard--statements
               div.hazard--line
                 b H
-                if element.hazardous.h && element.hazardous.h.length
+                if element.hazardous.h
                   span!= element.hazardous.h.join( '-' )
                 else
                   i= __( 'hazard-precautionary-undefined' )
               div.hazard--line
                 b P
-                if element.hazardous.p && element.hazardous.p.length
+                if element.hazardous.p
                   span!= element.hazardous.p.join( '-' )
                 else
                   i= __( 'hazard-precautionary-undefined' )
-          if element.hazardous.hazard && element.hazardous.hazard.length
+          if element.hazardous.hazard
             h3= __( 'pictogram-title' )
             div.pt-element-hazard-pictograms
               each hazard in element.hazardous.hazard
