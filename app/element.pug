@@ -119,13 +119,14 @@ block content
               div.pt-nfpa-diamond
                 each key in [ 'h', 'f', 'i', 's' ]
                   div( class=key, style="--code:" + key )
-                    each code in ( element.hazardous.nfpa[ key ] || '' ).split( '|' )
+                    each code in ( element.hazardous.nfpa[ key ] || '—' ).split( '|' )
                       b( code=code )= code
               div.pt-nfpa-info
                 each key in [ 'h', 'f', 'i', 's' ]
                   div.pt-nfpa-info-line
                     b= __( 'nfpa-' + key )
-                    span!= __( 'nfpa-' + key + '-' + ( element.hazardous.nfpa[ key ] || 'undefined' ).split( '|' )[0] )
+                    each code in ( element.hazardous.nfpa[ key ] || 'undefined' ).split( '|' )
+                      span!= __( 'nfpa-' + key + '-' + code )
           if element.hazardous.hazard
             h3= __( 'pictogram-title' )
             div.pt-element-hazard-pictograms
