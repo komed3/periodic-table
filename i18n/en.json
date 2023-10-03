@@ -90,5 +90,6 @@
 	"nfpa-s-BIO": "biological hazard",
 	"nfpa-s-POI": "poisonous",
 	"nfpa-s-RAD": "radioactive",
-	"nfpa-s-undefined": "no remarks"
+	"nfpa-s-undefined": "no remarks",
+	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"https://%s.wikipedia.org/wiki/%s\" target=\"_blank\">Read more …</a>"
 }

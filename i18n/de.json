@@ -90,5 +90,6 @@
 	"nfpa-s-BIO": "das Material ist biologisch gefährlich (ansteckend)",
 	"nfpa-s-POI": "das Material ist giftig",
 	"nfpa-s-RAD": "bei Freiwerden des Stoffes Gefahr der ionisierenden Strahlung",
-	"nfpa-s-undefined": "Wasser als Löschmittel zulässig"
+	"nfpa-s-undefined": "Wasser als Löschmittel zulässig",
+	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"https://%s.wikipedia.org/wiki/%s\" target=\"_blank\">Weiterlesen …</a>"
 }

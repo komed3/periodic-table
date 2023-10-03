@@ -24,7 +24,9 @@ jQuery( document ).ready( function( $ ) {
 
                 if( Object.keys( response.query.pages ).length ) {
 
-                    el.html( Object.values( response.query.pages )[0].extract );
+                    el.find( '.pt-element-summary-text' ).html(
+                        Object.values( response.query.pages )[0].extract
+                    );
 
                 }
 
