@@ -51,5 +51,9 @@
 	"navigation-prev": "Voriges",
 	"navigation-next": "Nächstes",
 	"download": "Datensatz speichern",
-	"print": "Drucken"
+	"print": "Drucken",
+	"prop-atomic": "Atomare Eigenschaften",
+	"prop-physical": "Physikalische Eigenschaften",
+	"prop-chemical": "Chemische Eigenschaften",
+	"adr-title": "ADR-Gefahrgutklassen"
 }
