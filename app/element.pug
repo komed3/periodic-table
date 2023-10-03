@@ -18,12 +18,14 @@ block content
             span.symbol--label= element.symbol
           span.element--name= element.names[ locale ]
           div.pt-actions.element--actions
-            a( href="#", title= __( 'navigation-prev' ) )
-              i( class="icon" ) arrow_back
+            if nav.prev
+              a( href="/e/" + nav.prev, title= __( 'navigation-prev' ) )
+                i( class="icon" ) arrow_back
             a( href="/", title= __( 'title' ) )
               i( class="icon" ) apps
-            a( href="#", title= __( 'navigation-next' ) )
-              i( class="icon" ) arrow_forward
+            if nav.next
+              a( href="/e/" + nav.next, title= __( 'navigation-next' ) )
+                i( class="icon" ) arrow_forward
             a( href="#download", title= __( 'download' ) )
               i( class="icon" ) download
             a( href="#print", title= __( 'print' ) )

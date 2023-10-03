@@ -11,6 +11,7 @@
  */
 const core = require( './lib/core' );
 const elements = core.DB( 'elements' );
+const element_list = Object.keys( elements );
 
 /**
  * load "express" web framework
@@ -130,7 +131,13 @@ routes.routes.forEach( ( route ) => {
 
                     if( element in elements ) {
 
+                        let k = element_list.indexOf( element );
+
                         res.locals.element = elements[ element ];
+                        res.locals.nav = {
+                            prev: element_list[ k - 1 ] || null,
+                            next: element_list[ k + 1 ] || null
+                        };
 
                     } else {
 
