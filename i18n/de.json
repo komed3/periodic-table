@@ -84,6 +84,7 @@
 	"nfpa-s-ALK": "Das Material ist eine Alkalie",
 	"nfpa-s-COR": "Das Material wirkt ätzend",
 	"nfpa-s-BIO": "Das Material ist biologisch gefährlich (ansteckend)",
+	"nfpa-s-POI": "Das Material ist giftig",
 	"nfpa-s-RAD": "Bei Freiwerden des Stoffes Gefahr der ionisierenden Strahlung",
 	"nfpa-s-undefined": "Wasser als Löschmittel zulässig"
 }

@@ -236,6 +236,10 @@ select {
     font-size: 10px;
 }
 
+.pt-nfpa-diamond > div.s b[code="W"] {
+    text-decoration: line-through;
+}
+
 .pt-nfpa-info {
     display: flex;
     flex-flow: column nowrap;
