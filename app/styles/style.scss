@@ -244,14 +244,15 @@ select {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
-    min-width: 0;
+    gap: 4px;
 }
 
-.pt-nfpa-info > div {
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    font-size: 15px;
-    overflow: hidden;
+.pt-nfpa-info .pt-nfpa-info-line {
+    font-size: 14px;
+}
+
+.pt-nfpa-info .pt-nfpa-info-line b {
+    padding-right: 12px;
 }
 
 /**

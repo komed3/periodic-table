@@ -123,7 +123,9 @@ block content
                       b( code=code )= code
               div.pt-nfpa-info
                 each key in [ 'h', 'f', 'i', 's' ]
-                  div!= __( 'nfpa-' + key + '-' + ( element.hazardous.nfpa[ key ] || 'undefined' ).split( '|' )[0] )
+                  div.pt-nfpa-info-line
+                    b= __( 'nfpa-' + key )
+                    span!= __( 'nfpa-' + key + '-' + ( element.hazardous.nfpa[ key ] || 'undefined' ).split( '|' )[0] )
           if element.hazardous.hazard
             h3= __( 'pictogram-title' )
             div.pt-element-hazard-pictograms
