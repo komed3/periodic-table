@@ -47,5 +47,9 @@
 	"classification-cas": "CAS-Nummer",
 	"classification-eg": "EG-Nummer",
 	"classification-echa": "ECHA-InfoCard",
-	"classification-atc": "ATC-Code"
+	"classification-atc": "ATC-Code",
+	"navigation-prev": "Voriges",
+	"navigation-next": "Nächstes",
+	"download": "Speichern",
+	"print": "Drucken"
 }

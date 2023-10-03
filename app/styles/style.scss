@@ -162,6 +162,32 @@ select {
 }
 
 /**
+ * actions
+ */
+
+.pt-actions {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 6px;
+}
+
+.pt-actions a {
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
+    background: var( --gray-1 );
+    border-radius: 50%;
+}
+
+.pt-actions a:hover {
+    background: var( --gray-2 );
+}
+
+/**
  * templates
  */
 
