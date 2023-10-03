@@ -129,6 +129,9 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+# Text database
+_db/text/*
+
 # Compiled files
 public/scripts/*
 public/styles/*
