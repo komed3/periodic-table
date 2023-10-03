@@ -841,6 +841,10 @@
             "de": "Rubidium",
             "la": "Rubidium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Rb5.JPG",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Rb5.JPG\">Dnn87</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
+        },
         "number": 37,
         "group": 1,
         "period": 5,
@@ -860,6 +864,10 @@
             "en": "Strontium",
             "de": "Strontium",
             "la": "Strontium"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Strontium_destilled_crystals.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Strontium_destilled_crystals.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
         "number": 38,
         "group": 2,
@@ -881,6 +889,10 @@
             "de": "Yttrium",
             "la": "Yttrium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Yttrium_sublimed_dendritic_and_1cm3_cube.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Yttrium_sublimed_dendritic_and_1cm3_cube.jpg\">Alchemist-hp (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
+        },
         "number": 39,
         "group": 3,
         "period": 5,
@@ -900,6 +912,10 @@
             "en": "Zirconium",
             "de": "Zirconium",
             "la": "Zirconium"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Zirconium_crystal_bar_and_1cm3_cube.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Zirconium_crystal_bar_and_1cm3_cube.jpg\">Alchemist-hp (pse-mendelejew.de).</a>, FAL, via Wikimedia Commons"
         },
         "number": 40,
         "group": 4,
@@ -921,6 +937,10 @@
             "de": "Niob",
             "la": "Niobium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Niobium_crystals_and_1cm3_cube.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Niobium_crystals_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
+        },
         "number": 41,
         "group": 5,
         "period": 5,
@@ -941,6 +961,10 @@
             "de": "Molybdän",
             "la": "Molybdenum"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Molybdenum_crystaline_fragment_and_1cm3_cube.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Molybdenum_crystaline_fragment_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
+        },
         "number": 42,
         "group": 6,
         "period": 5,
@@ -955,6 +979,10 @@
             "en": "Technetium",
             "de": "Technetium",
             "la": "Technetium"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Technetium-sample-cropped.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Technetium-sample-cropped.jpg\">GFDL</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons"
         },
         "number": 43,
         "group": 7,
@@ -971,6 +999,10 @@
             "en": "Ruthenium",
             "de": "Ruthenium",
             "la": "Ruthenium"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Ruthenium_a_half_bar.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Ruthenium_a_half_bar.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
         },
         "number": 44,
         "group": 8,
@@ -992,6 +1024,10 @@
             "de": "Rhodium",
             "la": "Rhodium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Rhodium_powder_pressed_melted.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Rhodium_powder_pressed_melted.jpg\">Alchemist-hp (talk) www.pse-mendelejew.dederivative work: Purpy Pupple</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0/de/deed.en\">CC BY-SA 3.0 DE</a>, via Wikimedia Commons"
+        },
         "number": 45,
         "group": 9,
         "period": 5,
@@ -1012,6 +1048,10 @@
             "de": "Palladium",
             "la": "Palladium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Palladium_crystals.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Palladium_crystals.jpg\">Hi-Res Images ofChemical Elements</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
+        },
         "number": 46,
         "group": 10,
         "period": 5,
@@ -1026,6 +1066,10 @@
             "en": "Silver",
             "de": "Silber",
             "la": "Argentum"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Silver_crystal.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Silver_crystal.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0/de/deed.en\">CC BY-SA 3.0 DE</a>, via Wikimedia Commons"
         },
         "number": 47,
         "group": 11,
@@ -1047,6 +1091,10 @@
             "de": "Cadmium",
             "la": "Cadmium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Cadmium-crystal_bar.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Cadmium-crystal_bar.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
+        },
         "number": 48,
         "group": 12,
         "period": 5,
@@ -1066,6 +1114,10 @@
             "en": "Indium",
             "de": "Indium",
             "la": "Indium"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Indium_wetting_glass.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Indium_wetting_glass.jpg\">Schtone</a>, Public domain, via Wikimedia Commons"
         },
         "number": 49,
         "group": 13,
@@ -1087,6 +1139,10 @@
             "de": "Zinn",
             "la": "Stannum"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Tin-2.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Tin-2.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
+        },
         "number": 50,
         "group": 14,
         "period": 5,
@@ -1101,6 +1157,10 @@
             "en": "Antimony",
             "de": "Antimon",
             "la": "Stibium"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Antimony-4.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Antimony-4.jpg\">http://images-of-elements.com/</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
         "number": 51,
         "group": 15,
@@ -1122,6 +1182,10 @@
             "de": "Tellur",
             "la": "Tellurium"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Tellurium2.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Tellurium2.jpg\">http://images-of-elements.com/tellurium.php</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
+        },
         "number": 52,
         "group": 16,
         "period": 5,
@@ -1142,6 +1206,10 @@
             "de": "Iod",
             "la": "Iodum"
         },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Sample_of_iodine.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Sample_of_iodine.jpg\">LHcheM</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
+        },
         "number": 53,
         "group": 17,
         "period": 5,
@@ -1161,6 +1229,10 @@
             "en": "Xenon",
             "de": "Xenon",
             "la": "Xenon"
+        },
+        "image": {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Xenon_discharge_tube.jpg",
+            "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Xenon_discharge_tube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
         "number": 54,
         "group": 18,
