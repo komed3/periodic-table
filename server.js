@@ -108,6 +108,7 @@ routes.routes.forEach( ( route ) => {
 
             /* set locals */
 
+            res.locals.core = core;
             res.locals.site = route[1];
             res.locals.availableLanguages = availableLanguages;
             res.locals.elements = elements;

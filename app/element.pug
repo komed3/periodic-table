@@ -30,7 +30,7 @@ block content
                       class="external",
                       target="_blank"
                     )= cas.value
-                    span!= '&nbsp;(' + cas.label + ')'
+                    span!= '&nbsp;(' + core.parseText( cas.label ) + ')'
             if element.classification.eg
               div.pt-element-classification-item
                 b= __( 'classification-eg' )
