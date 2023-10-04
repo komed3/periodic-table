@@ -125,7 +125,7 @@ routes.routes.forEach( ( route ) => {
             res.locals.availableLanguages = config.get( 'i18n.languages' );
             res.locals.elements = elements;
             res.locals.locale = req.getLocale();
-            res.locals.theme = req.cookies.theme || 'light';
+            res.locals.theme = req.cookies.theme || config.get( 'appearance.theme' );
             res.locals.search = {
                 query: req.query.q || req.query.query || ''
             };

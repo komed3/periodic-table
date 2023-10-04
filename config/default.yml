@@ -7,3 +7,6 @@ server:
 i18n:
   languages: [ en, de ]
   default: en
+
+appearance:
+  theme: light
