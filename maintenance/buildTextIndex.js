@@ -2,7 +2,7 @@
  * periodic table
  * maintenance script: buildTextIndex
  * 
- * rebuild text index for all elements from wikipedia
+ * (re)build text index for all elements from wikipedia
  * 
  * @author      komed3 (Paul Köhler)
  * @version     2.0.0
@@ -11,14 +11,18 @@
 if( process.argv[2] == undefined ) {
 
     console.error( 'ERROR: no language code given' );
+
     process.exit( 1 );
 
 } else if( ![ 'en', 'de' ].includes( process.argv[2] ) ) {
 
     console.error( 'ERROR: wrong language code' );
+
     process.exit( 1 );
 
 } else {
+
+    const rebuild = ( process.argv[3] || '' ) == 'rebuild';
 
     const locale = process.argv[2];
     const url = 'https://' + locale + '.wikipedia.org/w/api.php';
@@ -42,40 +46,58 @@ if( process.argv[2] == undefined ) {
 
     console.log( 'loop through elements' );
 
+    let skipped = 0;
+
     for( const [ key, el ] of Object.entries( elements ) ) {
 
         if( el.wiki && locale in el.wiki ) {
 
-            console.log( 'update [' + el.number + ']' + el.symbol + ' ...' );
+            let file = dir + '/' + key + '.json';
 
-            wiki( { apiUrl: url } )
-                .page( el.wiki[ locale ] )
-                .then( page => page.summary() )
-                .then( plain => {
+            if( !fs.existsSync( file ) || rebuild ) {
 
-                    let text = plain.split( /\r?\n|\r|\n/g );
+                console.log( 'update [' + el.number + ']' + el.symbol + ' ...' );
 
-                    fs.writeFile( dir + '/' + key + '.json', JSON.stringify( {
-                        plain: text.join( ' ' ),
-                        text: '<p>' + text.join( '</p><p>' ) + '</p>',
-                        description: text[0]
-                    }, null, 4 ), { flag: 'w' }, ( error ) => {
+                wiki( { apiUrl: url } )
+                    .page( el.wiki[ locale ] )
+                    .then( page => page.summary() )
+                    .then( plain => {
 
-                        if( error ) {
+                        let text = plain.split( /\r?\n|\r|\n/g );
 
-                            return console.error( error );
+                        fs.writeFile( file, JSON.stringify( {
+                            plain: text.join( ' ' ),
+                            text: '<p>' + text.join( '</p><p>' ) + '</p>',
+                            description: text[0]
+                        }, null, 4 ), { flag: 'w' }, ( error ) => {
 
-                        } else {
+                            if( error ) {
 
-                            console.log( '... saved [' + el.number + ']' + el.symbol + ' into text database' );
+                                return console.error( error );
 
-                        }
+                            } else {
+
+                                console.log( '... saved [' + el.number + ']' + el.symbol + ' into text database' );
+
+                            }
+
+                        } );
 
                     } );
 
-                } );
+            } else {
+
+                skipped++;
+
+            }
 
         }
+
+    }
+
+    if( skipped > 0 ) {
+
+        console.log( skipped + ' elements skipped, to rebuild index use param "rebuild" after language code' );
 
     }
 
