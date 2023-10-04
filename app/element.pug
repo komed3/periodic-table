@@ -135,37 +135,21 @@ block content
         div.pt-box.pt-element-classification
           h2= __( 'classification' )
           div.pt-box-flex.pt-box-columns
-            if element.classification.cas
-              div.pt-element-classification-item
-                b= __( 'classification-cas' )
-                each cas in element.classification.cas
-                  span
-                    a.external(
-                      href="https://commonchemistry.cas.org/detail?ref=" + cas.value,
-                      target="_blank"
-                    )= cas.value
-                    if cas.label && cas.label.length
-                      span!= "&nbsp;(" + core.parseText( cas.label ) + ")"
-            if element.classification.eg
-              div.pt-element-classification-item
-                b= __( 'classification-eg' )
-                span= element.classification.eg
-            if element.classification.echa
-              div.pt-element-classification-item
-                b= __( 'classification-echa' )
-                span
-                  a.external(
-                    href="https://echa.europa.eu/de/substance-information/-/substanceinfo/" + element.classification.echa,
-                    target="_blank"
-                  )= element.classification.echa
-            if element.classification.atc
-              div.pt-element-classification-item
-                b= __( 'classification-atc' )
-                span
-                  a.external(
-                    href="https://www.whocc.no/atc_ddd_index/?code=" + element.classification.atc,
-                    target="_blank"
-                  )= element.classification.atc
+            each classif in [ 'cas', 'eg', 'echa', 'atc' ]
+              if element.classification[ classif ]
+                div.pt-element-classification-item
+                  b= __( 'classification-' + classif )
+                  each c in element.classification[ classif ]
+                    span.pt-element-classification-line
+                      if classif == 'eg'
+                        span= c.value
+                      else
+                        a.external(
+                          href!= core.classifLink( classif, c.value ),
+                          target="_blank"
+                        )= c.value
+                      if c.label && c.label.length
+                        span!= "&nbsp;(" + core.parseText( c.label ) + ")"
     //- footer
     div.pt-element-footer
       //- tpl:microtable
