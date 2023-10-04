@@ -19,7 +19,9 @@ block styles
 
 block content
   div.pt-element
+    //- main
     div.pt-element-container
+      //- element intro
       div.pt-box.pt-element-intro
         //- element title
         h1.element--title
@@ -47,27 +49,37 @@ block content
         if text.text
           div.pt-element-summary
             div.pt-element-summary-text!= text.text
-            div.pt-element-summary-credits!= __( 'wiki-credits', locale, element.wiki[ locale ] )
+            div.pt-element-summary-credits!= __( 'wiki-credits', 'https://wikipedia.org/wiki/' + locale + ':' + element.wiki[ locale ] )
+      //- element properties
+      //- atomic properties
       div.pt-box.pt-element-properties
         h2= __( 'prop-atomic' )
+      //- physical properties
       div.pt-box.pt-element-properties
         h2= __( 'prop-physical' )
+      //- chemical properties
       div.pt-box.pt-element-properties
         h2= __( 'prop-chemical' )
+      //- other properties
       div.pt-box.pt-element-properties
         h2= __( 'prop-other' )
+      //- isotopes
       div.pt-box.pt-element-properties
         h2= __( 'prop-isotopes' )
+    //- aside
     aside.pt-element-aside
+      //- element image
       if element.image
         div.pt-box.pt-element-image
           a( href=element.image.url, target="_blank" )
             img( src=element.image.url, loading="lazy" )/
           figcaption!= element.image.caption
+      //- radioactive warning
       if element.radioactive
         div.pt-box.pt-box-flex.pt-element-radioactive
             img.pictogram-small( src="/img/radioactive.png", loading="lazy" )/
             b= __( 'element-radioactive' )
+      //- hazard classification
       if element.hazardous
         div.pt-box.pt-element-hazard
           h2= __( 'ghs-title' )
@@ -118,6 +130,7 @@ block content
             div.pt-element-hazard-pictograms
               each adr in element.hazardous.adr
                 img.pictogram( src="/img/ADR-" + adr + ".png", loading="lazy" )/
+      //- element classification
       if element.classification
         div.pt-box.pt-element-classification
           h2= __( 'classification' )
@@ -153,5 +166,7 @@ block content
                     href="https://www.whocc.no/atc_ddd_index/?code=" + element.classification.atc,
                     target="_blank"
                   )= element.classification.atc
+    //- footer
     div.pt-element-footer
+      //- tpl:microtable
       include templates/microtable.pug
