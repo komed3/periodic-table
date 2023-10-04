@@ -19,7 +19,7 @@
  * import fonts
  */
 
-@import url( 'https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap' );
+@import url( 'https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400;700&family=Roboto:wght@100;400;700&display=swap' );
 @import url( 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined' );
 
 /**
@@ -159,6 +159,28 @@ select {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+/**
+ * prop table
+ */
+
+.pt-prop-table {
+    margin: 0 -6px;
+    border-collapse: separate;
+    border-spacing: 6px;
+}
+
+.pt-prop-table th,
+.pt-prop-table td {
+    padding: 6px 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+}
+
+.pt-prop-table th {
+    text-align: left;
+    background: var( --gray-1 );
 }
 
 /**

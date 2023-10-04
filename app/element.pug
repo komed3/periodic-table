@@ -74,6 +74,15 @@ block content
           a( href=element.image.url, target="_blank" )
             img( src=element.image.url, loading="lazy" )/
           figcaption!= element.image.caption
+      //- element info
+      div.pt-box.pt-element-quickinfo
+        h2= __( 'quickinfo' )
+        table.pt-prop-table.pt-element-table
+          tbody
+            each prop in [ 'group', 'period', 'set', 'block' ]
+              tr
+                th= __( prop + '-label' )
+                td= __( prop + '-' + element[ prop ] )
       //- radioactive warning
       if element.radioactive
         div.pt-box.pt-box-flex.pt-element-radioactive

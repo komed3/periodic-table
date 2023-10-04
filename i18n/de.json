@@ -18,6 +18,7 @@
 	"404-description": "404-description",
 	"element-title": "Element: %s",
 	"element-description": "element-description",
+	"quickinfo": "Allgemeine Informationen",
 	"ghs-title": "Gefahrstoffkennzeichnung",
 	"ghs-01": "<b>GHS01</b> Instabile explosive Stoffe, Gemische und Erzeugnisse mit Explosivstoff(en), selbstzersetzliche Stoffe und Gemische, Organische Peroxide",
 	"ghs-02": "<b>GHS02</b> Entzündbar, selbsterhitzungsfähig, selbstzersetzlich, pyrophor, wasserreaktiv, Organische Peroxide",
@@ -91,5 +92,13 @@
 	"nfpa-s-POI": "das Material ist giftig",
 	"nfpa-s-RAD": "bei Freiwerden des Stoffes Gefahr der ionisierenden Strahlung",
 	"nfpa-s-undefined": "Wasser als Löschmittel zulässig",
-	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" target=\"_blank\">Weiterlesen …</a>"
+	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" target=\"_blank\">Weiterlesen …</a>",
+	"group-label": "Gruppe",
+	"group-15": "Stickstoffgruppe",
+	"period-label": "Periode",
+	"period-6": "6",
+	"block-label": "Block",
+	"block-p": "p-Block",
+	"set-label": "Elementkategorie",
+	"set-metal": "Metalle"
 }
