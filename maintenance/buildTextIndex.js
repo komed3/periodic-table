@@ -63,7 +63,11 @@ if( process.argv[2] == undefined ) {
                     .then( page => page.summary() )
                     .then( plain => {
 
-                        let text = plain.split( /\r?\n|\r|\n/g );
+                        let text = plain
+                            .replaceAll( '()', '' )
+                            .replaceAll( '[]', '' )
+                            .replaceAll( '{}', '' )
+                            .split( /\r?\n|\r|\n/g );
 
                         fs.writeFile( file, JSON.stringify( {
                             plain: text.join( ' ' ),
