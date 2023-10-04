@@ -10,11 +10,19 @@
 
 if( process.argv[2] == undefined ) {
 
+    /**
+     * ERROR: no language code given
+     */
+
     console.error( 'ERROR: no language code given' );
 
     process.exit( 1 );
 
 } else if( ![ 'en', 'de' ].includes( process.argv[2] ) ) {
+
+    /**
+     * ERROR: wrong language code
+     */
 
     console.error( 'ERROR: wrong language code' );
 
@@ -22,11 +30,23 @@ if( process.argv[2] == undefined ) {
 
 } else {
 
+    /**
+     * force rebuilding text index
+     */
+
     const rebuild = ( process.argv[3] || '' ) == 'rebuild';
+
+    /**
+     * define constants
+     */
 
     const locale = process.argv[2];
     const url = 'https://' + locale + '.wikipedia.org/w/api.php';
     const dir = __dirname + '/../_db/text/' + locale;
+
+    /**
+     * load required modules
+     */
 
     console.log( 'load required modules' );
 
@@ -34,15 +54,31 @@ if( process.argv[2] == undefined ) {
     const wiki = require( 'wikijs' ).default;
     const core = require( './../lib/core' );
 
+    /**
+     * check if language directory exists
+     */
+
     if( !fs.existsSync( dir ) ) {
+
+        /**
+         * create language directory
+         */
 
         fs.mkdirSync( dir );
 
     }
 
+    /**
+     * load elements database
+     */
+
     console.log( 'load elements database' );
 
     const elements = core.DB( 'elements' );
+
+    /**
+     * loop through elements
+     */
 
     console.log( 'loop through elements' );
 
@@ -50,24 +86,44 @@ if( process.argv[2] == undefined ) {
 
     for( const [ key, el ] of Object.entries( elements ) ) {
 
+        /**
+         * fetch wiki page title from database
+         */
+
         if( el.wiki && locale in el.wiki ) {
 
             let file = dir + '/' + key + '.json';
 
+            /**
+             * fetch if not exists or on forced rebuilding
+             */
+
             if( !fs.existsSync( file ) || rebuild ) {
 
                 console.log( 'update [' + el.number + ']' + el.symbol + ' ...' );
+
+                /**
+                 * wiki api request for element page summary text
+                 */
 
                 wiki( { apiUrl: url } )
                     .page( el.wiki[ locale ] )
                     .then( page => page.summary() )
                     .then( plain => {
 
+                        /**
+                         * prepare text
+                         */
+
                         let text = plain
                             .replaceAll( '()', '' )
                             .replaceAll( '[]', '' )
                             .replaceAll( '{}', '' )
                             .split( /\r?\n|\r|\n/g );
+
+                        /**
+                         * (over)write text file
+                         */
 
                         fs.writeFile( file, JSON.stringify( {
                             plain: text.join( ' ' ),
@@ -76,6 +132,10 @@ if( process.argv[2] == undefined ) {
                         }, null, 4 ), { flag: 'w' }, ( error ) => {
 
                             if( error ) {
+
+                                /**
+                                 * fetch error
+                                 */
 
                                 return console.error( error );
 
@@ -91,6 +151,10 @@ if( process.argv[2] == undefined ) {
 
             } else {
 
+                /**
+                 * skip element
+                 */
+
                 skipped++;
 
             }
@@ -98,6 +162,10 @@ if( process.argv[2] == undefined ) {
         }
 
     }
+
+    /**
+     * skipped elements? output rebuild notice
+     */
 
     if( skipped > 0 ) {
 
