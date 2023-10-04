@@ -41,11 +41,13 @@ body[theme="dark"] {
     --bg: var( --pt-set-1 );
 }
 
-[layer="set"] .pt-el[layer="halogen"] {
+[layer="set"] .pt-el[layer="halogen"],
+[layer="block"] .pt-el[layer="d"] {
     --bg: var( --pt-set-2 );
 }
 
-[layer="set"] .pt-el[layer="noblegas"] {
+[layer="set"] .pt-el[layer="noblegas"],
+[layer="block"] .pt-el[layer="s"] {
     --bg: var( --pt-set-3 );
 }
 
@@ -53,7 +55,8 @@ body[theme="dark"] {
     --bg: var( --pt-set-4 );
 }
 
-[layer="set"] .pt-el[layer="transitionmetal"] {
+[layer="set"] .pt-el[layer="transitionmetal"],
+[layer="block"] .pt-el[layer="f"] {
     --bg: var( --pt-set-5 );
 }
 
@@ -61,7 +64,8 @@ body[theme="dark"] {
     --bg: var( --pt-set-6 );
 }
 
-[layer="set"] .pt-el[layer="nonmetal"] {
+[layer="set"] .pt-el[layer="nonmetal"],
+[layer="block"] .pt-el[layer="p"] {
     --bg: var( --pt-set-7 );
 }
 
