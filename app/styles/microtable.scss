@@ -11,7 +11,7 @@
     gap: 4px;
 }
 
-.pt-el {
+.pt-microtable-item {
     grid-column: var( --g );
     grid-row: var( --p );
     display: flex;
@@ -24,7 +24,7 @@
     background: var( --bg, var( --gray-0 ) );
 }
 
-.pt-el.radioactive {
+.pt-microtable-item.radioactive {
     background: repeating-linear-gradient(
         -45deg,
         var( --bg, var( --gray-0 ) ),
@@ -34,6 +34,6 @@
     );
 }
 
-.pt-el.current {
+.pt-microtable-item.current {
     outline: 1px solid var( --gray-5 );
 }

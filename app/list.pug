@@ -7,8 +7,11 @@ block title
 
 block styles
   link( rel="stylesheet", href="/css/list.css" )/
+  link( rel="stylesheet", href="/css/microtable.css" )/
 
 block content
   div.pt-page.pt-box.pt-list
     h1= title
     include templates/element-list.pug
+  div.pt-page
+    include templates/microtable.pug

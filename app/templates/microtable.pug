@@ -6,8 +6,8 @@ div.pt-microtable( layer=( layer || 'set' ) )
       style= '--g:' + el.column + ';--p:' + el.period,
       layer= ( el[ layer || 'set' ] ),
       title= el.names[ locale ],
-      class= 'pt-el' + (
-        el.symbol == element.symbol || ''
+      class= 'pt-el pt-microtable-item' + (
+        element && el.symbol == element.symbol || ''
           ? ' current'
           : ''
       ) + (
