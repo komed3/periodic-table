@@ -3061,6 +3061,10 @@
             } ],
             "eg": null,
             "echa": null
+        },
+        "wiki": {
+            "en": "Francium",
+            "de": "Francium"
         }
     },
     "ra": {
@@ -3088,6 +3092,10 @@
             } ],
             "eg": "231-122-4",
             "echa": "100.028.293"
+        },
+        "wiki": {
+            "en": "Radium",
+            "de": "Radium"
         }
     },
     "ac": {
@@ -3115,6 +3123,10 @@
             } ],
             "eg": null,
             "echa": null
+        },
+        "wiki": {
+            "en": "Actinium",
+            "de": "Actinium"
         }
     },
     "th": {
@@ -3142,6 +3154,10 @@
             } ],
             "eg": "231-139-7",
             "echa": "100.028.308"
+        },
+        "wiki": {
+            "en": "Thorium",
+            "de": "Thorium"
         }
     },
     "pa": {
@@ -3169,6 +3185,10 @@
             } ],
             "eg": "616-087-9",
             "echa": "100.122.906"
+        },
+        "wiki": {
+            "en": "Protactinium",
+            "de": "Protactinium"
         }
     },
     "u": {
@@ -3203,6 +3223,10 @@
             } ],
             "eg": "231-170-6",
             "echa": "100.028.336"
+        },
+        "wiki": {
+            "en": "Uranium",
+            "de": "Uran"
         }
     },
     "np": {
@@ -3230,6 +3254,10 @@
             } ],
             "eg": "231-108-8",
             "echa": "100.028.280"
+        },
+        "wiki": {
+            "en": "Neptunium",
+            "de": "Neptunium"
         }
     },
     "pu": {
@@ -3257,6 +3285,10 @@
             } ],
             "eg": "231-117-7",
             "echa": "100.028.288"
+        },
+        "wiki": {
+            "en": "Plutonium",
+            "de": "Plutonium"
         }
     },
     "am": {
@@ -3284,6 +3316,10 @@
             } ],
             "eg": "231-144-4",
             "echa": "100.028.313"
+        },
+        "wiki": {
+            "en": "Americium",
+            "de": "Americium"
         }
     },
     "cm": {
@@ -3307,6 +3343,10 @@
             } ],
             "eg": null,
             "echa": null
+        },
+        "wiki": {
+            "en": "Curium",
+            "de": "Curium"
         }
     },
     "bk": {
@@ -3334,6 +3374,10 @@
             } ],
             "eg": null,
             "echa": null
+        },
+        "wiki": {
+            "en": "Berkelium",
+            "de": "Berkelium"
         }
     },
     "cf": {
@@ -3361,6 +3405,10 @@
             } ],
             "eg": null,
             "echa": null
+        },
+        "wiki": {
+            "en": "Californium",
+            "de": "Californium"
         }
     },
     "es": {
@@ -3388,6 +3436,10 @@
             } ],
             "eg": null,
             "echa": null
+        },
+        "wiki": {
+            "en": "Einsteinium",
+            "de": "Einsteinium"
         }
     },
     "fm": {
@@ -3411,6 +3463,10 @@
             } ],
             "eg": null,
             "echa": null
+        },
+        "wiki": {
+            "en": "Fermium",
+            "de": "Fermium"
         }
     },
     "md": {
@@ -3434,6 +3490,10 @@
             } ],
             "eg": null,
             "echa": null
+        },
+        "wiki": {
+            "en": "Mendelevium",
+            "de": "Mendelevium"
         }
     },
     "no": {
@@ -3457,6 +3517,10 @@
             } ],
             "eg": null,
             "echa": null
+        },
+        "wiki": {
+            "en": "Nobelium",
+            "de": "Nobelium"
         }
     },
     "lr": {
@@ -3480,6 +3544,10 @@
             } ],
             "eg": null,
             "echa": null
+        },
+        "wiki": {
+            "en": "Lawrencium",
+            "de": "Lawrencium"
         }
     },
     "rf": {
@@ -3503,6 +3571,10 @@
             } ],
             "eg": null,
             "echa": null
+        },
+        "wiki": {
+            "en": "Rutherfordium",
+            "de": "Rutherfordium"
         }
     },
     "db": {
@@ -3526,6 +3598,10 @@
             } ],
             "eg": "611-058-7",
             "echa": "100.126.367"
+        },
+        "wiki": {
+            "en": "Dubnium",
+            "de": "Dubnium"
         }
     },
     "sg": {
@@ -3549,6 +3625,10 @@
             } ],
             "eg": null,
             "echa": null
+        },
+        "wiki": {
+            "en": "Seaborgium",
+            "de": "Seaborgium"
         }
     },
     "bh": {
@@ -3572,6 +3652,10 @@
             } ],
             "eg": null,
             "echa": null
+        },
+        "wiki": {
+            "en": "Bohrium",
+            "de": "Bohrium"
         }
     },
     "hs": {
@@ -3595,6 +3679,10 @@
             } ],
             "eg": null,
             "echa": null
+        },
+        "wiki": {
+            "en": "Hassium",
+            "de": "Hassium"
         }
     },
     "mt": {
@@ -3618,6 +3706,10 @@
             } ],
             "eg": null,
             "echa": null
+        },
+        "wiki": {
+            "en": "Meitnerium",
+            "de": "Meitnerium"
         }
     },
     "ds": {
@@ -3641,6 +3733,10 @@
             } ],
             "eg": null,
             "echa": null
+        },
+        "wiki": {
+            "en": "Darmstadtium",
+            "de": "Darmstadtium"
         }
     },
     "rg": {
@@ -3664,6 +3760,10 @@
             } ],
             "eg": null,
             "echa": null
+        },
+        "wiki": {
+            "en": "Roentgenium",
+            "de": "Roentgenium"
         }
     },
     "cn": {
@@ -3687,6 +3787,10 @@
             } ],
             "eg": null,
             "echa": null
+        },
+        "wiki": {
+            "en": "Copernicium",
+            "de": "Copernicium"
         }
     },
     "nh": {
@@ -3710,6 +3814,10 @@
             } ],
             "eg": null,
             "echa": null
+        },
+        "wiki": {
+            "en": "Nihonium",
+            "de": "Nihonium"
         }
     },
     "fl": {
@@ -3733,6 +3841,10 @@
             } ],
             "eg": null,
             "echa": null
+        },
+        "wiki": {
+            "en": "Flerovium",
+            "de": "Flerovium"
         }
     },
     "mc": {
@@ -3756,6 +3868,10 @@
             } ],
             "eg": null,
             "echa": null
+        },
+        "wiki": {
+            "en": "Moscovium",
+            "de": "Moscovium"
         }
     },
     "lv": {
@@ -3779,6 +3895,10 @@
             } ],
             "eg": null,
             "echa": null
+        },
+        "wiki": {
+            "en": "Livermorium",
+            "de": "Livermorium"
         }
     },
     "ts": {
@@ -3802,6 +3922,10 @@
             } ],
             "eg": null,
             "echa": null
+        },
+        "wiki": {
+            "en": "Tennessine",
+            "de": "Tenness"
         }
     },
     "og": {
@@ -3825,6 +3949,10 @@
             } ],
             "eg": null,
             "echa": null
+        },
+        "wiki": {
+            "en": "Oganesson",
+            "de": "Oganesson"
         }
     }
 }
