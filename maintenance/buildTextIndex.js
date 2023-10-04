@@ -15,6 +15,11 @@ const yaml = require( 'js-yaml' );
 const config = require( 'config' );
 
 /**
+ * load required modules
+ */
+require( 'log-timestamp' );
+
+/**
  * proceed maintenance script
  */
 
