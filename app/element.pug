@@ -47,41 +47,7 @@ block content
         if text.text
           div.pt-element-summary
             div.pt-element-summary-text!= text.text
-            p.pt-element-summary-credits!= __( 'wiki-credits', locale, element.wiki[ locale ] )
-        if element.classification
-          h3= __( 'classification' )
-          div.pt-box-flex.pt-element-classification
-            if element.classification.cas
-              div.pt-element-classification-item
-                b= __( 'classification-cas' )
-                each cas in element.classification.cas
-                  span
-                    a.external(
-                      href="https://commonchemistry.cas.org/detail?ref=" + cas.value,
-                      target="_blank"
-                    )= cas.value
-                    if cas.label && cas.label.length
-                      span!= "&nbsp;(" + core.parseText( cas.label ) + ")"
-            if element.classification.eg
-              div.pt-element-classification-item
-                b= __( 'classification-eg' )
-                span= element.classification.eg
-            if element.classification.echa
-              div.pt-element-classification-item
-                b= __( 'classification-echa' )
-                span
-                  a.external(
-                    href="https://echa.europa.eu/de/substance-information/-/substanceinfo/" + element.classification.echa,
-                    target="_blank"
-                  )= element.classification.echa
-            if element.classification.atc
-              div.pt-element-classification-item
-                b= __( 'classification-atc' )
-                span
-                  a.external(
-                    href="https://www.whocc.no/atc_ddd_index/?code=" + element.classification.atc,
-                    target="_blank"
-                  )= element.classification.atc
+            div.pt-element-summary-credits!= __( 'wiki-credits', locale, element.wiki[ locale ] )
       div.pt-box.pt-element-properties
         h2= __( 'prop-atomic' )
       div.pt-box.pt-element-properties
@@ -152,5 +118,40 @@ block content
             div.pt-element-hazard-pictograms
               each adr in element.hazardous.adr
                 img.pictogram( src="/img/ADR-" + adr + ".png", loading="lazy" )/
+      if element.classification
+        div.pt-box.pt-element-classification
+          h2= __( 'classification' )
+          div.pt-box-flex.pt-box-columns
+            if element.classification.cas
+              div.pt-element-classification-item
+                b= __( 'classification-cas' )
+                each cas in element.classification.cas
+                  span
+                    a.external(
+                      href="https://commonchemistry.cas.org/detail?ref=" + cas.value,
+                      target="_blank"
+                    )= cas.value
+                    if cas.label && cas.label.length
+                      span!= "&nbsp;(" + core.parseText( cas.label ) + ")"
+            if element.classification.eg
+              div.pt-element-classification-item
+                b= __( 'classification-eg' )
+                span= element.classification.eg
+            if element.classification.echa
+              div.pt-element-classification-item
+                b= __( 'classification-echa' )
+                span
+                  a.external(
+                    href="https://echa.europa.eu/de/substance-information/-/substanceinfo/" + element.classification.echa,
+                    target="_blank"
+                  )= element.classification.echa
+            if element.classification.atc
+              div.pt-element-classification-item
+                b= __( 'classification-atc' )
+                span
+                  a.external(
+                    href="https://www.whocc.no/atc_ddd_index/?code=" + element.classification.atc,
+                    target="_blank"
+                  )= element.classification.atc
     div.pt-element-footer
       include templates/microtable.pug

@@ -43,30 +43,12 @@
     justify-content: flex-end;
 }
 
-.pt-element-summary {
-    margin-bottom: 24px;
-}
-
 .pt-element-summary-text {
     line-height: 1.4;
-    font-size: 15px;
 }
 
 .pt-element-summary-credits {
-    font-size: 11px;
-}
-
-.pt-element-classification-item {
-    flex: 1;
-    display: flex;
-    flex-flow: column nowrap;
-    gap: 3px;
-    font-size: 13px;
-}
-
-.pt-element-classification-item:not(:last-child) {
-    padding-right: 12px;
-    border-right: 1px solid var( --gray-2 );
+    font-size: 12px;
 }
 
 /**
@@ -132,6 +114,18 @@
 .pt-element-hazard i {
     color: var( --gray-3 );
 }
+
+.pt-element-classification-item {
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 3px;
+    font-size: 13px;
+}
+
+/**
+ * footer
+ */
 
 .pt-element-footer {
     grid-column: span 2;
