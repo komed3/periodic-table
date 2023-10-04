@@ -400,6 +400,10 @@
             } ],
             "eg": "231-132-9",
             "echa": "100.028.302"
+        },
+        "wiki": {
+            "en": "Sodium",
+            "de": "Natrium"
         }
     },
     "mg": {
@@ -434,6 +438,10 @@
             "eg": "231-104-6",
             "echa": "100.028.276",
             "atc": "A12CC"
+        },
+        "wiki": {
+            "en": "Magnesium",
+            "de": "Magnesium"
         }
     },
     "al": {
@@ -466,6 +474,10 @@
             } ],
             "eg": "231-072-3",
             "echa": "100.028.248"
+        },
+        "wiki": {
+            "en": "Aluminum",
+            "de": "Aluminium"
         }
     },
     "si": {
@@ -492,6 +504,10 @@
             } ],
             "eg": "231-130-8",
             "echa": "100.028.300"
+        },
+        "wiki": {
+            "en": "Silicon",
+            "de": "Silicium"
         }
     },
     "p": {
@@ -529,6 +545,10 @@
             } ],
             "eg": "231-115-6",
             "echa": "100.028.286"
+        },
+        "wiki": {
+            "en": "Phosphorus",
+            "de": "Phosphor"
         }
     },
     "s": {
@@ -562,6 +582,10 @@
             "eg": "231-722-6",
             "echa": "100.028.839",
             "atc": "D10AB02"
+        },
+        "wiki": {
+            "en": "Sulfur",
+            "de": "Schwefel"
         }
     },
     "cl": {
@@ -595,6 +619,10 @@
             } ],
             "eg": "231-959-5",
             "echa": "100.029.053"
+        },
+        "wiki": {
+            "en": "Chlorine",
+            "de": "Chlor"
         }
     },
     "ar": {
@@ -626,6 +654,10 @@
             } ],
             "eg": "231-147-0",
             "echa": "100.028.315"
+        },
+        "wiki": {
+            "en": "Argon",
+            "de": "Argon"
         }
     },
     "k": {
@@ -659,6 +691,10 @@
             } ],
             "eg": "231-119-8",
             "echa": "100.028.290"
+        },
+        "wiki": {
+            "en": "Potassium",
+            "de": "Kalium"
         }
     },
     "ca": {
@@ -693,6 +729,10 @@
             "eg": "231-179-5",
             "echa": "100.028.344",
             "atc": "A12AA"
+        },
+        "wiki": {
+            "en": "Calcium",
+            "de": "Calcium"
         }
     },
     "sc": {
@@ -724,6 +764,10 @@
             } ],
             "eg": "231-129-2",
             "echa": "100.028.299"
+        },
+        "wiki": {
+            "en": "Scandium",
+            "de": "Scandium"
         }
     },
     "ti": {
@@ -755,6 +799,10 @@
             } ],
             "eg": "231-142-3",
             "echa": "100.028.311"
+        },
+        "wiki": {
+            "en": "Titanium",
+            "de": "Titan (Element)"
         }
     },
     "v": {
@@ -781,6 +829,10 @@
             } ],
             "eg": "231-171-1",
             "echa": "100.028.337"
+        },
+        "wiki": {
+            "en": "Vanadium",
+            "de": "Vanadium"
         }
     },
     "cr": {
@@ -807,6 +859,10 @@
             } ],
             "eg": "231-157-5",
             "echa": "100.028.324"
+        },
+        "wiki": {
+            "en": "Chromium",
+            "de": "Chrom"
         }
     },
     "mn": {
@@ -840,6 +896,10 @@
             } ],
             "eg": "231-105-1",
             "echa": "100.028.277"
+        },
+        "wiki": {
+            "en": "Manganese",
+            "de": "Mangan"
         }
     },
     "fe": {
@@ -866,6 +926,10 @@
             } ],
             "eg": "231-096-4",
             "echa": "100.028.270"
+        },
+        "wiki": {
+            "en": "Iron",
+            "de": "Eisen"
         }
     },
     "co": {
@@ -899,6 +963,10 @@
             } ],
             "eg": "231-158-0",
             "echa": "100.028.325"
+        },
+        "wiki": {
+            "en": "Cobalt",
+            "de": "Cobalt"
         }
     },
     "ni": {
@@ -931,6 +999,10 @@
             } ],
             "eg": "231-111-4",
             "echa": "100.028.283"
+        },
+        "wiki": {
+            "en": "Nickel",
+            "de": "Nickel"
         }
     },
     "cu": {
@@ -962,6 +1034,10 @@
             } ],
             "eg": "231-159-6",
             "echa": "100.028.326"
+        },
+        "wiki": {
+            "en": "Copper",
+            "de": "Kupfer"
         }
     },
     "zn": {
@@ -995,6 +1071,10 @@
             "eg": "231-175-3",
             "echa": "100.028.341",
             "atc": "A12CB"
+        },
+        "wiki": {
+            "en": "Zinc",
+            "de": "Zink"
         }
     },
     "ga": {
@@ -1028,6 +1108,10 @@
             } ],
             "eg": "231-163-8",
             "echa": "100.028.330"
+        },
+        "wiki": {
+            "en": "Gallium",
+            "de": "Gallium"
         }
     },
     "ge": {
@@ -1060,6 +1144,10 @@
             } ],
             "eg": "231-164-3",
             "echa": "100.028.331"
+        },
+        "wiki": {
+            "en": "Germanium",
+            "de": "Germanium"
         }
     },
     "as": {
@@ -1092,6 +1180,10 @@
             } ],
             "eg": "231-148-6",
             "echa": "100.028.316"
+        },
+        "wiki": {
+            "en": "Arsenic",
+            "de": "Arsen"
         }
     },
     "se": {
@@ -1099,8 +1191,7 @@
         "names": {
             "en": "Selenium",
             "de": "Selen",
-            "la": "Selenum",
-            "set": "metalloid"
+            "la": "Selenum"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Selenium_in_sandstone_Westwater_Canyon_Section_23_Mine_Grants%2C_New_Mexico.jpg",
@@ -1126,6 +1217,10 @@
             } ],
             "eg": "231-957-4",
             "echa": "100.029.052"
+        },
+        "wiki": {
+            "en": "Selenium",
+            "de": "Selen"
         }
     },
     "br": {
@@ -1159,6 +1254,10 @@
             } ],
             "eg": "231-778-1",
             "echa": "100.028.890"
+        },
+        "wiki": {
+            "en": "Bromine",
+            "de": "Brom"
         }
     },
     "kr": {
@@ -1191,6 +1290,10 @@
             "eg": "231-098-5",
             "echa": "100.028.271",
             "atc": "V09EX01"
+        },
+        "wiki": {
+            "en": "Krypton",
+            "de": "Krypton"
         }
     },
     "rb": {
