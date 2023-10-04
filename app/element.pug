@@ -80,9 +80,11 @@ block content
         table.pt-prop-table.pt-element-table
           tbody
             each prop in [ 'group', 'period', 'set', 'block' ]
-              tr
-                th= __( prop + '-label' )
-                td= __( prop + '-' + element[ prop ] )
+              if element[ prop ]
+                tr.pt-prop-table-row
+                  th.pt-prop-table-label= __( prop + '-label' )
+                  td.pt-prop-table-value
+                    a( href="/" + prop + "/" + element[ prop ] )= __( prop + '-' + element[ prop ] )
       //- radioactive warning
       if element.radioactive
         div.pt-box.pt-box-flex.pt-element-radioactive
