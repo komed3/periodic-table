@@ -9,7 +9,11 @@
 /**
  * load required modules/files
  */
+const yaml = require( 'js-yaml' );
+const config = require( 'config' );
+
 const core = require( './lib/core' );
+
 const elements = core.DB( 'elements' );
 const element_list = Object.keys( elements );
 
@@ -69,11 +73,11 @@ const pug = require( 'pug' );
 /**
  * i18n (multiple language support)
  */
-const availableLanguages = [ 'en', 'de' ];
 const { I18n } = require( 'i18n' );
 
 const i18n = new I18n( {
-    locales: availableLanguages,
+    locales: config.get( 'i18n.languages' ),
+    defaultLocale: config.get( 'i18n.default' ),
     cookie: 'locale',
     directory: __dirname + '/i18n'
 } );
@@ -107,12 +111,16 @@ routes.routes.forEach( ( route ) => {
 
             let url = core.parseURL( req.originalUrl );
 
+            /* canonical URL */
+
+            res.locals.canonical = req.protocol + '://' + req.hostname + ( route[2] || url[0] ) + '/' +
+                url.slice( 1 ).filter( p => !p.includes( '?' ) ).join( '/' ) + '/';
+
             /* set locals */
 
             res.locals.core = core;
             res.locals.site = route[1];
-            res.locals.currentURL = req.protocol + '://' + req.hostname + req.url.split( '?' )[0];
-            res.locals.availableLanguages = availableLanguages;
+            res.locals.availableLanguages = config.get( 'i18n.languages' );
             res.locals.elements = elements;
             res.locals.locale = req.getLocale();
             res.locals.theme = req.cookies.theme || 'light';
@@ -151,8 +159,11 @@ routes.routes.forEach( ( route ) => {
 
             }
 
-            res.status( route[2] || 200 ).send(
-                pug.renderFile( __dirname + '/app/' + route[1] + '.pug', res.locals )
+            res.status( route[3] || 200 ).send(
+                pug.renderFile(
+                    __dirname + '/app/' + route[1] + '.pug',
+                    res.locals
+                )
             );
 
         } catch( err ) {
@@ -170,4 +181,4 @@ routes.routes.forEach( ( route ) => {
 /**
  * start web server
  */
-const server = app.listen( 3000 );
+const server = app.listen( config.get( 'server.port' ) );

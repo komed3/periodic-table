@@ -1,6 +1,7 @@
 //- layout.pug
 doctype html
 html( lang=locale )
+  //- html header
   head
     meta( charset="UTF-8" )/
     meta( name="viewport", content="width=device-width, initial-scale=1.0" )/
@@ -12,9 +13,11 @@ html( lang=locale )
       meta( name="description", content=__( site + '-description' ) )/
     meta( name="robots", content="all, max-image-preview:standard" )/
     meta( name="format-detection", content="telephone=no" )/
+    link( rel="canonical", href=canonical )/
+    //- social meta
     meta( property="og:type", content="website" )/
     meta( property="og:site_name", content=__( 'title' ) )/
-    meta( property="og:url", content=currentURL )/
+    meta( property="og:url", content=canonical )/
     block social
       meta( property="og:title", content=__( site + '-title' ) )/
       meta( property="og:description", content=__( site + '-description' ) )/
@@ -25,7 +28,9 @@ html( lang=locale )
     link( rel="stylesheet", href="/css/header.css" )/
     link( rel="stylesheet", href="/css/footer.css" )/
     block styles
+  //- html content
   body( theme=theme )
+    //- header
     header#header.pt-header( role="banner" )
       a.pt-header-logo( href="/", title=__( 'title' ) )
         svg.pt-atom( width="32", height="32" )
@@ -40,8 +45,10 @@ html( lang=locale )
         include templates/theme-selector.pug
       nav.pt-header-nav
         include templates/nav.pug
+    //- main
     main#main.pt-wrapper( role="main" )
       block content
+    //- footer
     footer#footer.pt-footer
       a.pt-footer-logo( href="/", title=__( 'title' ) )
         svg.pt-atom( width="32", height="32" )

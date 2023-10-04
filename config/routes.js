@@ -6,7 +6,7 @@
 module.exports.routes = [
     [ '/', 'start' ],
     [ '/glossary', 'glossary' ],
-    [ '/element/*', 'element' ],
+    [ '/element/*', 'element', '/e' ],
     [ '/e/*', 'element' ],
-    [ '*', '404', 404 ]
+    [ '*', '404', '/404', 404 ]
 ];

@@ -1,0 +1,9 @@
+# periodic table
+# default config file
+
+server:
+  port: 3000
+
+i18n:
+  languages: [ en, de ]
+  default: en
