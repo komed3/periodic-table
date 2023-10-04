@@ -1446,7 +1446,8 @@
                 "value": "100.028.271"
             } ],
             "atc": [ {
-                "value": "V09EX01"
+                "value": "V09EX01",
+                "label": "[81m]Kr"
             } ]
         },
         "wiki": {
@@ -2120,6 +2121,20 @@
             } ],
             "atc": [ {
                 "value": "D08AG03"
+            }, {
+                "value": "H03CA"
+            }, {
+                "value": "V09AB",
+                "label": "[123]I"
+            }, {
+                "value": "V09GB",
+                "label": "[125]I"
+            }, {
+                "value": "V09XA",
+                "label": "[131]I"
+            }, {
+                "value": "V10XA",
+                "label": "[131]I"
             } ]
         },
         "wiki": {
@@ -2163,6 +2178,12 @@
             } ],
             "atc": [ {
                 "value": "N01AX15"
+            }, {
+                "value": "V09EX02",
+                "label": "[127]Xe"
+            }, {
+                "value": "V09EX03",
+                "label": "[133]Xe"
             } ]
         },
         "wiki": {
