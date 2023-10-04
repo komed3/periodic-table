@@ -159,6 +159,21 @@ routes.routes.forEach( ( route ) => {
 
                     break;
 
+                case 'list':
+
+                    if( url.length == 3 ) {
+
+                        res.locals.prop = url[1];
+                        res.locals.value = url[2];
+
+                    } else {
+
+                        res.redirect( '/' );
+
+                    }
+
+                    break;
+
             }
 
             res.status( route[3] || 200 ).send(

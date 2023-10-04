@@ -2,7 +2,7 @@
 extends layout.pug
 
 block title
-  title #{ __( 'element-title', element.names[ locale ] ) } — #{ __( 'title' ) }
+  title= __( 'element-title', element.names[ locale ] ) + " — " + __( 'title' )
   if text.description
     meta( name="description", content=text.description )/
 
@@ -15,7 +15,7 @@ block social
 
 block styles
   link( rel="stylesheet", href="/css/element.css" )/
-  link( rel="stylesheet", href=" /css/microtable.css" )/
+  link( rel="stylesheet", href="/css/microtable.css" )/
 
 block content
   div.pt-element
@@ -84,7 +84,7 @@ block content
                 tr.pt-prop-table-row
                   th.pt-prop-table-label= __( prop + '-label' )
                   td.pt-prop-table-value
-                    a( href="/" + prop + "/" + element[ prop ] )= __( prop + '-' + element[ prop ] )
+                    a( href="/list/" + prop + "/" + element[ prop ] )= __( prop + '-' + element[ prop ] )
       //- radioactive warning
       if element.radioactive
         div.pt-box.pt-box-flex.pt-element-radioactive

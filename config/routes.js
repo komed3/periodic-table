@@ -8,5 +8,6 @@ module.exports.routes = [
     [ '/glossary', 'glossary' ],
     [ '/element/*', 'element', '/e' ],
     [ '/e/*', 'element' ],
+    [ '/list/*', 'list' ],
     [ '*', '404', '/404', 404 ]
 ];

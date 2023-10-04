@@ -1,0 +1,10 @@
+//- list.pug
+extends layout.pug
+
+block title
+  - var title = __( 'list-title', __( prop + '-label' ), __( prop + '-' + value ) )
+  title= title + " — " + __( 'title' )
+
+block content
+  div.pt-page.pt-box.pt-list
+    h1= title
