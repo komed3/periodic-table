@@ -9,5 +9,7 @@ module.exports.routes = [
     [ '/element/*', 'element', 'e' ],
     [ '/e/*', 'element' ],
     [ '/list/*', 'list' ],
-    [ '*', '404', '/404', 404 ]
+    [ '/search/?*', 'search', 's' ],
+    [ '/s/?*', 'search', 's' ],
+    [ '*', '404', '404', 404 ]
 ];

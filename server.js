@@ -199,6 +199,12 @@ routes.routes.forEach( ( route ) => {
 
                     break;
 
+                case 'search':
+
+                    //
+
+                    break;
+
             }
 
             res.status( route[3] || 200 ).send(

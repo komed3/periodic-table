@@ -139,5 +139,7 @@
 	"title": "Periodensystem der Elemente",
 	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" target=\"_blank\">Weiterlesen …</a>",
 	"list-title": "%s: %s",
-	"list-description": "list-description"
+	"list-description": "list-description",
+	"search-title": "search-title",
+	"search-description": "search-description"
 }
