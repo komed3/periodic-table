@@ -163,8 +163,16 @@ routes.routes.forEach( ( route ) => {
 
                     if( url.length == 3 ) {
 
-                        res.locals.prop = url[1];
-                        res.locals.value = url[2];
+                        res.locals.prop = list_prop = url[1];
+                        res.locals.value = list_value = url[2];
+
+                        res.locals.list = Object.fromEntries(
+                            Object.entries( elements ).filter(
+                                ( [ _k, el ] ) => list_prop in el && el[ list_prop ] == list_value
+                            )
+                        );
+
+                        res.locals.found = Object.keys( res.locals.list ).length;
 
                     } else {
 
