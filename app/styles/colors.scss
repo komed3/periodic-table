@@ -11,9 +11,6 @@
 
     --accent-main: #010203;
     --accent-contrast: #ffffff;
-
-    --accent-1: #2a80ad;
-    --accent-2: #55c1fa;
     --accent-3: #f25949;
 
 }
@@ -35,6 +32,9 @@ body[theme="light"] {
     --color-main: var( --gray-5 );
     --color-bg: var( --gray-1 );
 
+    --accent-1: #2a80ad;
+    --accent-2: #55c1fa;
+
     --box-shadow: 2px 2px 4px rgba( 230 230 230 / 0.25 );
 
     --warn: #fce0a5;
@@ -53,6 +53,9 @@ body[theme="dark"] {
 
     --color-main: var( --gray-4 );
     --color-bg: var( --gray-1 );
+
+    --accent-1: #55c1fa;
+    --accent-2: #2a80ad;
 
     --box-shadow: 2px 2px 4px rgba( 0 0 0 / 0.25 );
 
