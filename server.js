@@ -115,7 +115,7 @@ routes.routes.forEach( ( route ) => {
 
             /* canonical URL */
 
-            res.locals.canonical = req.protocol + '://' + req.hostname + ( route[2] || url[0] ) + '/' +
+            res.locals.canonical = req.protocol + '://' + req.hostname + '/' + ( route[2] || url[0] ) + '/' +
                 url.slice( 1 ).filter( p => !p.includes( '?' ) ).join( '/' ) + '/';
 
             /* set locals */
@@ -164,6 +164,7 @@ routes.routes.forEach( ( route ) => {
                     if( url.length == 3 ) {
 
                         res.locals.prop = list_prop = url[1];
+                        res.locals.layer = list_prop;
                         res.locals.value = list_value = url[2];
 
                         res.locals.list = Object.fromEntries(

@@ -6,6 +6,10 @@
             "de": "Wasserstoff",
             "la": "Hydrogenium"
         },
+        "appearance": {
+            "en": "colorless gas (H{2})",
+            "de": "farbloses Gas (H{2})"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Hydrogen_discharge_tube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Hydrogen_discharge_tube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
@@ -50,6 +54,10 @@
             "en": "Helium",
             "de": "Helium",
             "la": "Helium"
+        },
+        "appearance": {
+            "en": "colorless gas, exhibiting a gray, cloudy glow",
+            "de": "farbloses Gas"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Helium_discharge_tube.jpg",

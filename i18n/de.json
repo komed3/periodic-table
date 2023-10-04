@@ -138,6 +138,8 @@
 	"theme-light": "Heller Modus",
 	"title": "Periodensystem der Elemente",
 	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" target=\"_blank\">Weiterlesen …</a>",
-	"list-title": "%s: %s",
-	"list-description": "list-description"
+	"list-title": "Elemente in %s: %s",
+	"list-description": "list-description",
+	"props": "Eigenschaften",
+	"isotopes": "Isotope"
 }

@@ -1,1 +1,18 @@
 //- templates/element-list.pug
+div.pt-element-list( layer=( layer || 'set' ) )
+  each el in list
+    div(
+      layer= ( el[ layer || 'set' ] ),
+      class= 'pt-el pt-element-list-item' + (
+        el.radioactive
+          ? ' radioactive'
+          : ''
+      )
+    )
+      div.element--symbol
+        span.symbol--number= el.number
+        span.symbol--label= el.symbol
+      div.element--info
+        a( href='/e/' + el.symbol ).element--name= el.names[ locale ]
+        if el.appearance && locale in el.appearance
+          span.element--desc!= core.parseText( el.appearance[ locale ] )

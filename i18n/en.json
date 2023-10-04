@@ -138,6 +138,6 @@
 	"theme-light": "Light theme",
 	"title": "Periodic Table",
 	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" target=\"_blank\">Read more …</a>",
-	"list-title": "%s: %s",
+	"list-title": "Elements of %s: %s",
 	"list-description": "list-description"
 }
