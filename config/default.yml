@@ -8,5 +8,6 @@ i18n:
   languages: [ en, de ]
   default: en
 
-appearance:
+default:
   theme: light
+  lists: [ group, period, set, block ]

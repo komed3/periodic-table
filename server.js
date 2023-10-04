@@ -110,7 +110,8 @@ routes.routes.forEach( ( route ) => {
 
             /* parse URL */
 
-            let url = core.parseURL( req.originalUrl );
+            let url = core.parseURL( req.originalUrl ),
+                _url = url.map( p => p.toString().toLowerCase() );
 
             /* canonical URL */
 
@@ -124,7 +125,7 @@ routes.routes.forEach( ( route ) => {
             res.locals.availableLanguages = config.get( 'i18n.languages' );
             res.locals.elements = elements;
             res.locals.locale = req.getLocale();
-            res.locals.theme = req.cookies.theme || config.get( 'appearance.theme' );
+            res.locals.theme = req.cookies.theme || config.get( 'default.theme' );
             res.locals.search = {
                 query: req.query.q || req.query.query || ''
             };
@@ -137,7 +138,7 @@ routes.routes.forEach( ( route ) => {
 
                     /* check if given element exists in DB */
 
-                    let element = ( url[1] || '' ).toString().toLowerCase();
+                    let element = _url[1] || '';
 
                     if( element in elements ) {
 
@@ -153,6 +154,7 @@ routes.routes.forEach( ( route ) => {
                     } else {
 
                         res.redirect( '/' );
+                        return ;
 
                     }
 
@@ -160,23 +162,38 @@ routes.routes.forEach( ( route ) => {
 
                 case 'list':
 
-                    if( url.length == 3 ) {
+                    if( _url.length == 3 && config.get( 'default.lists' ).includes( _url[1] ) ) {
 
-                        res.locals.prop = list_prop = url[1];
-                        res.locals.layer = list_prop;
-                        res.locals.value = list_value = url[2];
+                        let list_prop = _url[1],
+                            list_value = _url[2];
 
-                        res.locals.list = Object.fromEntries(
+                        let list_res = Object.fromEntries(
                             Object.entries( elements ).filter(
                                 ( [ _k, el ] ) => list_prop in el && el[ list_prop ] == list_value
                             )
                         );
 
-                        res.locals.found = Object.keys( res.locals.list ).length;
+                        let list_found = Object.keys( list_res ).length;
+
+                        if( list_found ) {
+
+                            res.locals.prop = list_prop;
+                            res.locals.layer = list_prop;
+                            res.locals.value = list_value;
+                            res.locals.list = list_res;
+                            res.locals.found = list_found;
+
+                        } else {
+
+                            res.redirect( '/' );
+                            return ;
+
+                        }
 
                     } else {
 
                         res.redirect( '/' );
+                        return ;
 
                     }
 
