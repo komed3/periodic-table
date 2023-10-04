@@ -96,7 +96,7 @@
 	"group-label": "Gruppe",
 	"group-15": "Stickstoffgruppe",
 	"period-label": "Periode",
-	"period-6": "6",
+	"period-6": "6 (p-Schale)",
 	"block-label": "Block",
 	"block-p": "p-Block",
 	"set-label": "Kategorie",
@@ -135,7 +135,7 @@
 	"group-La": "Lanthanoide",
 	"set-lanthanoide": "Lanthanoide",
 	"block-f": "f-Block",
-	"period-7": "6 (p-Schale)",
+	"period-7": "7 (q-Schale)",
 	"group-Ac": "Actinoide",
 	"set-actinoide": "Actinoide"
 }
