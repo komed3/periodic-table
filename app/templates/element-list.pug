@@ -13,6 +13,6 @@ div.pt-element-list( layer=( layer || 'set' ) )
         span.symbol--number= el.number
         span.symbol--label= el.symbol
       div.element--info
-        a( href='/e/' + el.symbol ).element--name= el.names[ locale ]
+        a( href= '/e/' + el.symbol ).element--name= el.names[ locale ]
         if el.appearance && locale in el.appearance
           span.element--desc!= core.parseText( el.appearance[ locale ] )

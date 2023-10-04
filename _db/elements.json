@@ -102,6 +102,10 @@
             "de": "Lithium",
             "la": "Lithium"
         },
+        "appearance": {
+            "en": "silvery-white",
+            "de": "silbrig weiß/grau"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Limetal.JPG",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Limetal.JPG\">Dnn87</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -223,6 +227,10 @@
             "de": "Kohlenstoff",
             "la": "Carbo"
         },
+        "appearance": {
+            "en": "black, metallic-looking (graphite); clear (diamond)",
+            "de": "schwarz (Graphit); farblos (Diamant)"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Glassy_carbon_and_a_1cm3_graphite_cube_HP68-79.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Glassy_carbon_and_a_1cm3_graphite_cube_HP68-79.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
@@ -264,6 +272,10 @@
             "de": "Stickstoff",
             "la": "Nitrogenium"
         },
+        "appearance": {
+            "en": "colorless gas, liquid or solid",
+            "de": "farbloses Gas"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Nitrogen_discharge_tube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Nitrogen_discharge_tube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
@@ -302,6 +314,10 @@
             "en": "Oxygen",
             "de": "Sauerstoff",
             "la": "Oxygenium"
+        },
+        "appearance": {
+            "en": "colorless (gas); pale blue (liquid and solid)",
+            "de": "farbloses Gas"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Oxygen_discharge_tube.jpg",
@@ -427,6 +443,10 @@
             "en": "Sodium",
             "de": "Natrium",
             "la": "Natrium"
+        },
+        "appearance": {
+            "en": "silvery white metallic",
+            "de": "silbrig weiß"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Na_%28Sodium%29.jpg",
@@ -587,6 +607,10 @@
             "de": "Phosphor",
             "la": "Phosphor"
         },
+        "appearance": {
+            "en": "white, red and violet are waxy, black is metallic-looking",
+            "de": "weiß-beige (W); dunkelrot (R); schwarz (S)"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/%C4%8Cerven%C3%BD_fosfor.png",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:%C4%8Cerven%C3%BD_fosfor.png\">Ondřej Mangl</a>, Public domain, via Wikimedia Commons"
@@ -631,6 +655,10 @@
             "en": "Sulfur",
             "de": "Schwefel",
             "la": "Sulfur"
+        },
+        "appearance": {
+            "en": "yellow sintered microcrystals",
+            "de": "geld"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Sulfur_-_El_Desierto_mine%2C_San_Pablo_de_Napa%2C_Daniel_Campos_Province%2C_Potos%C3%AD%2C_Bolivia.jpg",
@@ -754,6 +782,10 @@
             "en": "Potassium",
             "de": "Kalium",
             "la": "Kalium"
+        },
+        "appearance": {
+            "en": "silvery white, faint bluish-purple hue when exposed to air",
+            "de": "silbrig weiß"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/KaliumunterTetrahydrofuran.JPG",
@@ -1354,7 +1386,7 @@
         "period": 4,
         "column": 30,
         "block": "p",
-        "set": "nonmetal",
+        "set": "metalloid",
         "hazardous": {
             "h": [ "331", "301", "373", "413" ],
             "p": [ "260", "273", "301+310", "304+340" ],
@@ -1469,6 +1501,10 @@
             "en": "Rubidium",
             "de": "Rubidium",
             "la": "Rubidium"
+        },
+        "appearance": {
+            "en": "grey white",
+            "de": "silbrig weiß"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Rb5.JPG",
@@ -2205,6 +2241,10 @@
             "en": "Caesium",
             "de": "Caesium",
             "la": "Caesium"
+        },
+        "appearance": {
+            "en": "pale gold",
+            "de": "goldgelb glänzend"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Cesium.jpg",
