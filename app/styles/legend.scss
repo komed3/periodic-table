@@ -1,0 +1,58 @@
+/**
+ * periodic table
+ * template: legend
+ */
+
+@import 'pt';
+
+.tp-legend {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.pt-legend-label {
+    text-transform: uppercase;
+    line-height: 22px;
+    font-size: 13px;
+}
+
+.pt-legend-inner {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat( 5, max-content );
+    gap: 8px 24px;
+}
+
+.pt-legend-item input {
+    flex: unset;
+    visibility: hidden;
+    float: right;
+    width: 0;
+    height: 0;
+}
+
+.pt-legend-item label {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.pt-legend-item input:not(:checked) + label {
+    opacity: 0.25;
+}
+
+.pt-legend-item label .pt-legend-item-box {
+    flex: 0 0 auto;
+    width: 22px;
+    height: 22px;
+    background: var( --bg, var( --gray-0 ) );
+    border: 1px solid var( --gray-2 );
+}
+
+.pt-legend-item label .pt-legend-item-label {
+    font-size: 14px;
+}

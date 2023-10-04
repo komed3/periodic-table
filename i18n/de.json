@@ -141,5 +141,7 @@
 	"list-title": "%s: %s",
 	"list-description": "list-description",
 	"search-title": "search-title",
-	"search-description": "search-description"
+	"search-description": "search-description",
+	"legend": "Legende",
+	"set-undefined": "Unbekannt"
 }

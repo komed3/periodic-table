@@ -1,10 +1,15 @@
 //- templates/microtable.pug
-div.pt-microtable( layer=( layer || 'set' ) )
+- var layer = layer || 'set'
+div.pt-microtable( layer=layer )
+  - var legend = []
   each el, k in elements
+    - if( !legend.includes( el[ layer ] ) ) {
+    -   legend.push( el[ layer ] )
+    - }
     a(
       href= '/e/' + el.symbol,
       style= '--g:' + el.column + ';--p:' + el.period,
-      layer= ( el[ layer || 'set' ] ),
+      layer= ( el[ layer ] ),
       title= el.names[ locale ],
       class= 'pt-el pt-microtable-item' + (
         element && el.symbol == element.symbol || ''

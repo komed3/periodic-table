@@ -1,8 +1,9 @@
 //- templates/element-list.pug
-div.pt-element-list( layer=( layer || 'set' ) )
+- var layer = layer || 'set'
+div.pt-element-list( layer=layer )
   each el in list
     div(
-      layer= ( el[ layer || 'set' ] ),
+      layer= ( el[ layer ] ),
       class= 'pt-el pt-element-list-item' + (
         el.radioactive
           ? ' radioactive'
