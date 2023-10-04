@@ -147,6 +147,10 @@
             "de": "Beryllium",
             "la": "Beryllium"
         },
+        "appearance": {
+            "en": "white-gray metallic",
+            "de": "weiß-grau metallisch"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Be-140g.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Be-140g.jpg\">Alchemist-hp = Alchemist-hp (pse-mendelejew.de)</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
@@ -187,6 +191,10 @@
             "en": "Boron",
             "de": "Bor",
             "la": "Boron"
+        },
+        "appearance": {
+            "en": "black-brown",
+            "de": "schwarz"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Boron_R105.jpg",
@@ -364,6 +372,10 @@
             "de": "Fluor",
             "la": "Fluor"
         },
+        "appearance": {
+            "en": "very pale yellow (gas); bright yellow (liquid); alpha is opaque, beta is transparent (solid)",
+            "de": "blasses, gelbliches Gas"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Fluoro_liquido_a_-196%C2%B0C_1.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Fluoro_liquido_a_-196%C2%B0C_1.jpg\">Fulvio314</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
@@ -404,6 +416,10 @@
             "en": "Neon",
             "de": "Neon",
             "la": "Neon"
+        },
+        "appearance": {
+            "en": "colorless gas exhibiting an orange-red glow when placed in an electric field",
+            "de": "farbloses Gas"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Neon_discharge_tube.jpg",
@@ -489,6 +505,10 @@
             "de": "Magnesium",
             "la": "Magnesium"
         },
+        "appearance": {
+            "en": "shiny grey solid",
+            "de": "silbrig weiß"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/CSIRO_ScienceImage_2893_Crystalised_magnesium.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_2893_Crystalised_magnesium.jpg\">CSIRO</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -533,6 +553,10 @@
             "de": "Aluminium",
             "la": "Aluminium"
         },
+        "appearance": {
+            "en": "silvery gray metallic",
+            "de": "silbrig"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Aluminium-4.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Aluminium-4.jpg\">http://images-of-elements.com/aluminium.php</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -572,6 +596,10 @@
             "en": "Silicon",
             "de": "Silicium",
             "la": "Silicium"
+        },
+        "appearance": {
+            "en": "crystalline, reflective with bluish-tinged faces",
+            "de": "dunkelgrau, bläulicher Farbton"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/SiliconCroda.jpg",
@@ -703,6 +731,10 @@
             "de": "Chlor",
             "la": "Chlorum"
         },
+        "appearance": {
+            "en": "pale yellow-green gas",
+            "de": "gelblich-grün"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Die_chemischen_elemente_cl.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Die_chemischen_elemente_cl.jpg\">Alexander C. Wimmer</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0/at/deed.en\">CC BY-SA 3.0 AT</a>, via Wikimedia Commons"
@@ -743,6 +775,10 @@
             "en": "Argon",
             "de": "Argon",
             "la": "Argon"
+        },
+        "appearance": {
+            "en": "colorless gas exhibiting a lilac/violet glow when placed in an electric field",
+            "de": "farbloses Gas"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Argon_discharge_tube.jpg",
@@ -827,6 +863,10 @@
             "en": "Calcium",
             "de": "Calcium",
             "la": "Calcium"
+        },
+        "appearance": {
+            "en": "dull gray, silver; with a pale yellow tint",
+            "de": "silbrig weiß"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Calcium_unter_Argon_Schutzgasatmosph%C3%A4re.jpg",
@@ -1256,6 +1296,10 @@
             "de": "Gallium",
             "la": "Gallium"
         },
+        "appearance": {
+            "en": "silvery blue",
+            "de": "silbrig weiß"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Gallium_crystals.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Gallium_crystals.jpg\">en:user:foobar</a>, <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\">CC BY-SA 3.0</a>, via Wikimedia Commons"
@@ -1297,6 +1341,10 @@
             "de": "Germanium",
             "la": "Germanium"
         },
+        "appearance": {
+            "en": "grayish-white",
+            "de": "gräulich weiß"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Polycrystalline-germanium.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Polycrystalline-germanium.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -1337,6 +1385,10 @@
             "de": "Arsen",
             "la": "Arsenicum"
         },
+        "appearance": {
+            "en": "metallic grey",
+            "de": "metallisch grau, gelb oder schwarz"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Native_arsenic.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Native_arsenic.jpg\">Aram Dulyan (User:Aramgutang)</a>, Public domain, via Wikimedia Commons"
@@ -1376,6 +1428,10 @@
             "en": "Selenium",
             "de": "Selen",
             "la": "Selenum"
+        },
+        "appearance": {
+            "en": "grey metallic-looking, red, and vitreous black allotropes",
+            "de": "grau, glänzend"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Selenium_in_sandstone_Westwater_Canyon_Section_23_Mine_Grants%2C_New_Mexico.jpg",
@@ -1418,6 +1474,10 @@
             "de": "Brom",
             "la": "Bromum"
         },
+        "appearance": {
+            "en": "reddish-brown",
+            "de": "rotbraun (gasförmig); rotbraun (flüssig); metallisch glänzend (fest)"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Bromine-ampoule.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Bromine-ampoule.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -1458,6 +1518,10 @@
             "en": "Krypton",
             "de": "Krypton",
             "la": "Krypton"
+        },
+        "appearance": {
+            "en": "colorless gas, exhibiting a whitish glow in an electric field",
+            "de": "farbloses Gas"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Krypton_discharge_tube.jpg",
@@ -1546,6 +1610,10 @@
             "en": "Strontium",
             "de": "Strontium",
             "la": "Strontium"
+        },
+        "appearance": {
+            "en": "silvery white metallic; with a pale yellow tint",
+            "de": "silbrig weiß metallisch"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Strontium_destilled_crystals.jpg",
@@ -1981,6 +2049,10 @@
             "de": "Indium",
             "la": "Indium"
         },
+        "appearance": {
+            "en": "silvery lustrous gray",
+            "de": "silbrig glänzend grau"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Indium_wetting_glass.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Indium_wetting_glass.jpg\">Schtone</a>, Public domain, via Wikimedia Commons"
@@ -2021,6 +2093,10 @@
             "de": "Zinn",
             "la": "Stannum"
         },
+        "appearance": {
+            "en": "silvery-white (beta); gray (alpha)",
+            "de": "silbrig glänzend (β-Zinn), grau (α-Zinn)"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Tin-2.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Tin-2.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -2054,6 +2130,10 @@
             "en": "Antimony",
             "de": "Antimon",
             "la": "Stibium"
+        },
+        "appearance": {
+            "en": "silvery lustrous gray",
+            "de": "silbrig glänzend grau"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Antimony-4.jpg",
@@ -2095,6 +2175,10 @@
             "de": "Tellur",
             "la": "Tellurium"
         },
+        "appearance": {
+            "en": "silvery lustrous gray (crystalline); brown-black powder (amorphous)",
+            "de": "silberweiß, metallisch glänzend"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Tellurium2.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Tellurium2.jpg\">http://images-of-elements.com/tellurium.php</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -2134,6 +2218,10 @@
             "en": "Iodine",
             "de": "Iod",
             "la": "Iodum"
+        },
+        "appearance": {
+            "en": "lustrous metallic gray (solid); black/violet (liquid); violet (gas)",
+            "de": "dunkel-violett (gasförmig); grauschwarz, glänzend (fest)"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Sample_of_iodine.jpg",
@@ -2192,6 +2280,10 @@
             "en": "Xenon",
             "de": "Xenon",
             "la": "Xenon"
+        },
+        "appearance": {
+            "en": "colorless gas, exhibiting a blue glow when placed in an electric field",
+            "de": "farbloses Gas"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Xenon_discharge_tube.jpg",
@@ -2286,6 +2378,10 @@
             "en": "Barium",
             "de": "Barium",
             "la": "Barium"
+        },
+        "appearance": {
+            "en": "silvery gray; with a pale yellow tint",
+            "de": "weiß-grau metallisch"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Barium_dendritic.jpg",
@@ -3264,6 +3360,10 @@
             "de": "Thallium",
             "la": "Thallium"
         },
+        "appearance": {
+            "en": "silvery white",
+            "de": "silbrig weiß"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Thallium_pieces_in_ampoule.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Thallium_pieces_in_ampoule.jpg\">W. Oelen</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
@@ -3304,6 +3404,10 @@
             "en": "Lead",
             "de": "Blei",
             "la": "Plumbum"
+        },
+        "appearance": {
+            "en": "metallic gray",
+            "de": "bläulich weiß"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Lead-2.jpg",
@@ -3346,6 +3450,10 @@
             "de": "Bismut",
             "la": "Bismutum"
         },
+        "appearance": {
+            "en": "lustrous brownish silver",
+            "de": "glänzend silberweiß"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Bismuth_crystals_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Bismuth_crystals_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
@@ -3386,6 +3494,10 @@
             "de": "Polonium",
             "la": "Polonium"
         },
+        "appearance": {
+            "en": "silvery",
+            "de": "silbrig"
+        },
         "number": 84,
         "group": 16,
         "period": 6,
@@ -3418,6 +3530,10 @@
             "de": "Astat",
             "la": "Astaton"
         },
+        "appearance": {
+            "en": "unknown, probably metallic",
+            "de": "metallisch"
+        },
         "number": 85,
         "group": 17,
         "period": 6,
@@ -3444,6 +3560,10 @@
             "en": "Radon",
             "de": "Radon",
             "la": "Radon"
+        },
+        "appearance": {
+            "en": "colorless gas",
+            "de": "farbloses Gas"
         },
         "number": 86,
         "group": 18,
@@ -3506,6 +3626,10 @@
             "en": "Radium",
             "de": "Radium",
             "la": "Radium"
+        },
+        "appearance": {
+            "en": "silvery white metallic",
+            "de": "silbrig-weiß-metallisch"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Radium226.jpg",
