@@ -7,13 +7,15 @@
  */
 
 /**
- * load required modules/files
+ * load config
  */
 const yaml = require( 'js-yaml' );
 const config = require( 'config' );
 
+/**
+ * load required modules/files
+ */
 const core = require( './lib/core' );
-
 const elements = core.DB( 'elements' );
 const element_list = Object.keys( elements );
 

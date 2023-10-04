@@ -8,6 +8,16 @@
  * @version     2.0.0
  */
 
+/**
+ * load config
+ */
+const yaml = require( 'js-yaml' );
+const config = require( 'config' );
+
+/**
+ * proceed maintenance script
+ */
+
 if( process.argv[2] == undefined ) {
 
     /**
@@ -18,7 +28,7 @@ if( process.argv[2] == undefined ) {
 
     process.exit( 1 );
 
-} else if( ![ 'en', 'de' ].includes( process.argv[2] ) ) {
+} else if( !config.get( 'i18n.languages' ).includes( process.argv[2] ) ) {
 
     /**
      * ERROR: wrong language code
