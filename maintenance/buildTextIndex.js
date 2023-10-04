@@ -53,14 +53,13 @@ if( process.argv[2] == undefined ) {
                 .then( page => page.summary() )
                 .then( plain => {
 
-                    let text = plain
-                        .replaceAll( /^(.+)$/g, '<p>$1</p>' )
-                        .replaceAll( /(?:\r\n|\r|\n)/g, '' );
+                    let text = plain.split( /\r?\n|\r|\n/g );
 
                     fs.writeFile( dir + '/' + key + '.json', JSON.stringify( {
-                        plain: plain,
-                        text: text
-                    } ), { flag: 'w' }, ( error ) => {
+                        plain: text.join( ' ' ),
+                        text: '<p>' + text.join( '</p><p>' ) + '</p>',
+                        description: text[0]
+                    }, null, 4 ), { flag: 'w' }, ( error ) => {
 
                         if( error ) {
 

@@ -111,6 +111,7 @@ routes.routes.forEach( ( route ) => {
 
             res.locals.core = core;
             res.locals.site = route[1];
+            res.locals.currentURL = req.protocol + '://' + req.hostname + req.url.split( '?' )[0];
             res.locals.availableLanguages = availableLanguages;
             res.locals.elements = elements;
             res.locals.locale = req.getLocale();
@@ -134,6 +135,7 @@ routes.routes.forEach( ( route ) => {
                         let k = element_list.indexOf( element );
 
                         res.locals.element = elements[ element ];
+                        res.locals.text = core.DB( 'text/' + req.getLocale() + '/' + element );
                         res.locals.nav = {
                             prev: element_list[ k - 1 ] || null,
                             next: element_list[ k + 1 ] || null

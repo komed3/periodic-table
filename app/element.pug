@@ -3,9 +3,15 @@ extends layout.pug
 
 block title
   title #{ __( 'element-title', element.names[ locale ] ) } — #{ __( 'title' ) }
+  if text.description
+    meta( name="description", content=text.description )/
 
-block scripts
-  script( src="/js/element.min.js" )
+block social
+  meta( property="og:title", content=element.names[ locale ] )/
+  if text.description
+    meta( property="og:description", content=text.description )/
+  if element.image
+    meta( property="og:image", content=element.image.url )/
 
 block styles
   link( rel="stylesheet", href="/css/element.css" )/
@@ -37,10 +43,10 @@ block content
               i.icon download
             a( href="javascript:window.print();", title= __( 'print' ) )
               i.icon print
-        //- element summary
-        if element.wiki && locale in element.wiki
-          div.pt-element-summary( locale=locale, page=element.wiki[ locale ] )
-            div.pt-element-summary-text
+        //- element (summary) text
+        if text.text
+          div.pt-element-summary
+            div.pt-element-summary-text!= text.text
             p.pt-element-summary-credits!= __( 'wiki-credits', locale, element.wiki[ locale ] )
         if element.classification
           h3= __( 'classification' )
