@@ -76,3 +76,7 @@ body[theme="dark"] {
 [layer="set"] .pt-el[layer="actinoide"] {
     --bg: var( --pt-set-9 );
 }
+
+[toggle] .pt-el.hidden {
+    opacity: 0.1;
+}

@@ -5,21 +5,14 @@
 
 @import 'pt';
 
-.tp-legend {
-    display: flex;
-    flex-flow: row nowrap;
-    gap: 24px;
-    margin-top: 24px;
-}
-
 .pt-legend-label {
+    margin: 24px 0 12px 0;
     text-transform: uppercase;
-    line-height: 22px;
     font-size: 13px;
+    font-weight: bold;
 }
 
 .pt-legend-inner {
-    flex: 1;
     display: grid;
     grid-template-columns: repeat( 5, max-content );
     gap: 8px 24px;
