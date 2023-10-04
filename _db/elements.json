@@ -912,6 +912,10 @@
             "de": "Scandium",
             "la": "Scandium"
         },
+        "appearance": {
+            "en": "silvery white",
+            "de": "silbrig weiß"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Scandium_sublimed_dendritic_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Scandium_sublimed_dendritic_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
@@ -950,6 +954,10 @@
             "en": "Titanium",
             "de": "Titan",
             "la": "Titanum"
+        },
+        "appearance": {
+            "en": "silvery grey-white metallic",
+            "de": "silbrig metallisch"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Titan-crystal_bar.JPG",
@@ -990,6 +998,10 @@
             "de": "Vanadium",
             "la": "Vanadium"
         },
+        "appearance": {
+            "en": "blue-silver-grey metal",
+            "de": "stahlgrau metallisch, bläulich schimmernd"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Vanadium_crystal_bar_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Vanadium_crystal_bar_and_1cm3_cube.jpg\">Alchemist-hp (pse-mendelejew.de).</a>, FAL, via Wikimedia Commons"
@@ -1024,6 +1036,10 @@
             "de": "Chrom",
             "la": "Chromium"
         },
+        "appearance": {
+            "en": "silvery metallic",
+            "de": "silbrig metallisch"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Chromium_crystals_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Chromium_crystals_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
@@ -1057,6 +1073,10 @@
             "en": "Manganese",
             "de": "Mangan",
             "la": "Manganum"
+        },
+        "appearance": {
+            "en": "silvery metallic",
+            "de": "silbrig metallisch (Stahlweiß)"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Manganese_electrolytic_and_1cm3_cube.jpg",
@@ -1099,6 +1119,10 @@
             "de": "Eisen",
             "la": "Ferrum"
         },
+        "appearance": {
+            "en": "lustrous metallic with a grayish tinge",
+            "de": "metallisch glänzend mit einem gräulichen Farbton"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Iron_electrolytic_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Iron_electrolytic_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
@@ -1132,6 +1156,10 @@
             "en": "Cobalt",
             "de": "Cobalt",
             "la": "Cobaltum"
+        },
+        "appearance": {
+            "en": "hard lustrous bluish gray metal",
+            "de": "stahlgrauer metallisch glänzender Feststoff"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Kobalt_electrolytic_and_1cm3_cube.jpg",
@@ -1174,6 +1202,10 @@
             "de": "Nickel",
             "la": "Niccolum"
         },
+        "appearance": {
+            "en": "glänzend, metallisch, silbrig",
+            "de": "lustrous, metallic, and silver with a gold tinge"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Nickel_chunk.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Nickel_chunk.jpg\">Materialscientist at English Wikipedia</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
@@ -1214,6 +1246,10 @@
             "de": "Kupfer",
             "la": "Cuprum"
         },
+        "appearance": {
+            "en": "red-orange metallic luster",
+            "de": "rotbraun, metallisch"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/NatCopper.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:NatCopper.jpg\">Native_Copper_Macro_Digon3.jpg: “Jonathan Zander (Digon3)&quot;derivative work: Materialscientist</a>, <a href=\"https://creativecommons.org/licenses/by-sa/2.5\">CC BY-SA 2.5</a>, via Wikimedia Commons"
@@ -1252,6 +1288,10 @@
             "en": "Zinc",
             "de": "Zink",
             "la": "Zincum"
+        },
+        "appearance": {
+            "en": "silver-gray",
+            "de": "bläulich blassgrau"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Zinc_fragment_sublimed_and_1cm3_cube.jpg",
@@ -1656,6 +1696,10 @@
             "de": "Yttrium",
             "la": "Yttrium"
         },
+        "appearance": {
+            "en": "silvery white",
+            "de": "silbrig weiß"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Yttrium_sublimed_dendritic_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Yttrium_sublimed_dendritic_and_1cm3_cube.jpg\">Alchemist-hp (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
@@ -1694,6 +1738,10 @@
             "en": "Zirconium",
             "de": "Zirconium",
             "la": "Zirconium"
+        },
+        "appearance": {
+            "en": "silvery white",
+            "de": "silbrig weiß"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Zirconium_crystal_bar_and_1cm3_cube.jpg",
@@ -1735,6 +1783,10 @@
             "de": "Niob",
             "la": "Niobium"
         },
+        "appearance": {
+            "en": "gray metallic, bluish when oxidized",
+            "de": "grau metallisch glänzend"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Niobium_crystals_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Niobium_crystals_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
@@ -1775,6 +1827,10 @@
             "de": "Molybdän",
             "la": "Molybdenum"
         },
+        "appearance": {
+            "en": "gray metallic",
+            "de": "grau metallisch"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Molybdenum_crystaline_fragment_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Molybdenum_crystaline_fragment_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
@@ -1808,6 +1864,10 @@
             "en": "Technetium",
             "de": "Technetium",
             "la": "Technetium"
+        },
+        "appearance": {
+            "en": "shiny gray metal",
+            "de": "silbrig grau metallisch"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Technetium-sample-cropped.jpg",
@@ -1843,6 +1903,10 @@
             "en": "Ruthenium",
             "de": "Ruthenium",
             "la": "Ruthenium"
+        },
+        "appearance": {
+            "en": "silvery white metallic",
+            "de": "silbrig weiß metallisch"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Ruthenium_a_half_bar.jpg",
@@ -1882,6 +1946,10 @@
             "en": "Rhodium",
             "de": "Rhodium",
             "la": "Rhodium"
+        },
+        "appearance": {
+            "en": "silvery white metallic",
+            "de": "silbrig weiß metallisch"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Rhodium_powder_pressed_melted.jpg",
@@ -1923,6 +1991,10 @@
             "de": "Palladium",
             "la": "Palladium"
         },
+        "appearance": {
+            "en": "silvery white",
+            "de": "silbrig, weiß, metallisch"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Palladium_crystals.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Palladium_crystals.jpg\">Hi-Res Images ofChemical Elements</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -1961,6 +2033,10 @@
             "en": "Silver",
             "de": "Silber",
             "la": "Argentum"
+        },
+        "appearance": {
+            "en": "lustrous white metal",
+            "de": "weißglänzend, metallisch"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Silver_crystal.jpg",
@@ -2004,6 +2080,10 @@
             "en": "Cadmium",
             "de": "Cadmium",
             "la": "Cadmium"
+        },
+        "appearance": {
+            "en": "silvery bluish-gray metallic",
+            "de": "silbrig grau metallisch"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Cadmium-crystal_bar.jpg",
@@ -2424,6 +2504,10 @@
             "de": "Lanthan",
             "la": "Lanthanum"
         },
+        "appearance": {
+            "en": "silvery white",
+            "de": "silbrig weiß"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Lanthanum-2.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Lanthanum-2.jpg\">Jurii (Lanthanum-138 at en.wikipedia</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -2463,6 +2547,10 @@
             "en": "Cerium",
             "de": "Cer",
             "la": "Cerium"
+        },
+        "appearance": {
+            "en": "silvery white",
+            "de": "silbrig weiß"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Cerium2.jpg",
@@ -2504,6 +2592,10 @@
             "de": "Praseodym",
             "la": "Praseodymium"
         },
+        "appearance": {
+            "en": "grayish white",
+            "de": "silbrig weiß, gelblicher Farbton"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Praseodymium.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Praseodymium.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -2543,6 +2635,10 @@
             "en": "Neodymium",
             "de": "Neodym",
             "la": "Neodymium"
+        },
+        "appearance": {
+            "en": "silvery white",
+            "de": "silbrigweiß, gelblicher Farbton"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Neodymium2.jpg",
@@ -2584,6 +2680,10 @@
             "de": "Promethium",
             "la": "Promethium"
         },
+        "appearance": {
+            "en": "metallic",
+            "de": "metallisch"
+        },
         "number": 61,
         "group": "La",
         "period": 6,
@@ -2614,6 +2714,10 @@
             "en": "Samarium",
             "de": "Samarium",
             "la": "Samarium"
+        },
+        "appearance": {
+            "en": "silvery white",
+            "de": "silbrig weiß"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Samarium-2.jpg",
@@ -2655,6 +2759,10 @@
             "de": "Europium",
             "la": "Europium"
         },
+        "appearance": {
+            "en": "silvery white, with a pale yellow tint; but rarely seen without oxide discoloration",
+            "de": "silbrig weiß"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Europium.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Europium.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -2694,6 +2802,10 @@
             "en": "Gadolinium",
             "de": "Gadolinium",
             "la": "Gadolinium"
+        },
+        "appearance": {
+            "en": "silvery white",
+            "de": "silbrig weiß"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Gadolinium-4.jpg",
@@ -2735,6 +2847,10 @@
             "de": "Terbium",
             "la": "Terbium"
         },
+        "appearance": {
+            "en": "silvery white",
+            "de": "silbrig weiß"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Terbium-2.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Terbium-2.jpg\">http://images-of-elements.com/</a>, <a href=\"https://creativecommons.org/licenses/by/1.0\">CC BY 1.0</a>, via Wikimedia Commons"
@@ -2768,6 +2884,10 @@
             "en": "Dysprosium",
             "de": "Dysprosium",
             "la": "Dysprosium"
+        },
+        "appearance": {
+            "en": "silbrig weiß",
+            "de": "silvery white"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Dy_chips.jpg",
@@ -2809,6 +2929,10 @@
             "de": "Holmium",
             "la": "Holmium"
         },
+        "appearance": {
+            "en": "silvery white",
+            "de": "silbrig weiß"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Holmium2.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Holmium2.jpg\">http://images-of-elements.com/</a>, <a href=\"https://creativecommons.org/licenses/by/1.0\">CC BY 1.0</a>, via Wikimedia Commons"
@@ -2848,6 +2972,10 @@
             "en": "Erbium",
             "de": "Erbium",
             "la": "Erbium"
+        },
+        "appearance": {
+            "en": "silvery white",
+            "de": "silbrig weiß"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Erbium_%2868_Er%29.jpg",
@@ -2889,6 +3017,10 @@
             "de": "Thulium",
             "la": "Thulium"
         },
+        "appearance": {
+            "en": "silvery gray",
+            "de": "silbrig grau"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Thulium_sublimed_dendritic_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Thulium_sublimed_dendritic_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
@@ -2928,6 +3060,10 @@
             "en": "Ytterbium",
             "de": "Ytterbium",
             "la": "Ytterbium"
+        },
+        "appearance": {
+            "en": "silvery white; with a pale yellow tint",
+            "de": "silbrig weiß"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Ytterbium-3.jpg",
@@ -2969,6 +3105,10 @@
             "de": "Lutetium",
             "la": "Lutetium"
         },
+        "appearance": {
+            "en": "silvery white",
+            "de": "silbrig weiß"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Lutetium_sublimed_dendritic_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Lutetium_sublimed_dendritic_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
@@ -3007,6 +3147,10 @@
             "en": "Hafnium",
             "de": "Hafnium",
             "la": "Hafnium"
+        },
+        "appearance": {
+            "en": "steel gray",
+            "de": "stahlgrau"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Hafnium_bits.jpg",
@@ -3048,6 +3192,10 @@
             "de": "Tantal",
             "la": "Tantalum"
         },
+        "appearance": {
+            "en": "gray blue",
+            "de": "grau"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Tantalum_single_crystal_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Tantalum_single_crystal_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
@@ -3087,6 +3235,10 @@
             "en": "Tungsten",
             "de": "Wolfram",
             "la": "Wolframium"
+        },
+        "appearance": {
+            "en": "grayish white, lustrous",
+            "de": "gräulich weiß, glänzend"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Wolfram_evaporated_crystals_and_1cm3_cube.jpg",
@@ -3128,6 +3280,10 @@
             "de": "Rhenium",
             "la": "Rhenium"
         },
+        "appearance": {
+            "en": "silvery-grayish",
+            "de": "gräulich weiß"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Rhenium_single_crystal_bar_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Rhenium_single_crystal_bar_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
@@ -3167,6 +3323,10 @@
             "en": "Osmium",
             "de": "Osmium",
             "la": "Osmium"
+        },
+        "appearance": {
+            "en": "silvery, blue cast",
+            "de": "bläulich grau"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Osmium_crystals.jpg",
@@ -3208,6 +3368,10 @@
             "de": "Iridium",
             "la": "Iridium"
         },
+        "appearance": {
+            "en": "silvery white",
+            "de": "silbrig weiß"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Iridium_foil.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Iridium_foil.jpg\">Dschwen</a>, <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\">CC BY-SA 3.0</a>, via Wikimedia Commons"
@@ -3248,6 +3412,10 @@
             "de": "Platin",
             "la": "Platinum"
         },
+        "appearance": {
+            "en": "silvery white",
+            "de": "grau-weiß"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Platinum_crystals.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Platinum_crystals.jpg\">Periodictableru</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -3282,6 +3450,10 @@
             "de": "Gold",
             "la": "Aurum"
         },
+        "appearance": {
+            "en": "metallic yellow",
+            "de": "metallisch gelb"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Or_natif1.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Or_natif1.jpg\">Urban</a>, Public domain, via Wikimedia Commons"
@@ -3315,6 +3487,10 @@
             "en": "Mercury",
             "de": "Quecksilber",
             "la": "Hydrargyrion"
+        },
+        "appearance": {
+            "en": "shiny, silvery liquid",
+            "de": "silbrig weiß"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/HgKviks%C3%B8lv.JPG",
@@ -3666,6 +3842,10 @@
             "de": "Actinium",
             "la": "Actinium"
         },
+        "appearance": {
+            "en": "silvery-white, glowing with an eerie blue light; sometimes with a golden cast",
+            "de": "silbrig"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Actinium_sample_%2831481701837%29.png",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Actinium_sample_(31481701837).png\">Oak Ridge National Laboratory</a>, <a href=\"https://creativecommons.org/licenses/by/2.0\">CC BY 2.0</a>, via Wikimedia Commons"
@@ -3696,6 +3876,10 @@
             "en": "Thorium",
             "de": "Thorium",
             "la": "Thorium"
+        },
+        "appearance": {
+            "en": "silvery",
+            "de": "silbrig weiß"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Thorium_sample_0.1g.jpg",
@@ -3732,6 +3916,10 @@
             "de": "Protactinium",
             "la": "Protactinium"
         },
+        "appearance": {
+            "en": "bright, silvery metallic luster",
+            "de": "hell, silbrig, metallisch glänzend"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Protactinium-233.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Protactinium-233.jpg\">ENERGY.GOV</a>, Public domain, via Wikimedia Commons"
@@ -3766,6 +3954,10 @@
             "en": "Uranium",
             "de": "Uran",
             "la": "Uranium"
+        },
+        "appearance": {
+            "en": "silvery gray metallic; corrodes to a spalling black oxide coat in air",
+            "de": "silberweiß"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Vacuum_capacitor_with_uranium_glass.jpg",
@@ -3809,6 +4001,10 @@
             "de": "Neptunium",
             "la": "Neptunium"
         },
+        "appearance": {
+            "en": "silvery metallic",
+            "de": "silbrig"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Np_sphere.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Np_sphere.jpg\">Los Alamos National Lab.</a>, Public domain, via Wikimedia Commons"
@@ -3843,6 +4039,10 @@
             "en": "Plutonium",
             "de": "Plutonium",
             "la": "Plutonium"
+        },
+        "appearance": {
+            "en": "silvery white, tarnishing to dark gray in air",
+            "de": "silbriges Metall"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Plutonium_ring.jpg",
@@ -3879,6 +4079,10 @@
             "de": "Americium",
             "la": "Americium"
         },
+        "appearance": {
+            "en": "silvery white",
+            "de": "silbrig-weißes Metall"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Americium_microscope.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Americium_microscope.jpg\">Bionerd</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -3914,6 +4118,10 @@
             "de": "Curium",
             "la": "Curium"
         },
+        "appearance": {
+            "en": "silvery metallic, glows purple in the dark",
+            "de": "silbrig-weißes Metall"
+        },
         "number": 96,
         "group": "Ac",
         "period": 7,
@@ -3940,6 +4148,10 @@
             "en": "Berkelium",
             "de": "Berkelium",
             "la": "Berkelium"
+        },
+        "appearance": {
+            "en": "silvery",
+            "de": "silberweiß"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Berkelium_metal.jpg",
@@ -3972,6 +4184,10 @@
             "de": "Californium",
             "la": "Californium"
         },
+        "appearance": {
+            "en": "silvery",
+            "de": "silbriges Metall"
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Californium.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Californium.jpg\">United States Department of Energy (see File:Einsteinium.jpg)</a>, Public domain, via Wikimedia Commons"
@@ -4002,6 +4218,9 @@
             "en": "Einsteinium",
             "de": "Einsteinium",
             "la": "Einsteinium"
+        },
+        "appearance": {
+            "en": "silvery; glows blue in the dark"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Einsteinium.jpg",
@@ -4141,6 +4360,9 @@
             "en": "Rutherfordium",
             "de": "Rutherfordium",
             "la": "Rutherfordium"
+        },
+        "appearance": {
+            "de": "unbekannt, vermutlich silber-weiß oder grau metallisch"
         },
         "number": 104,
         "group": 4,
@@ -4497,6 +4719,9 @@
             "de": "Tenness",
             "la": "Tennessum"
         },
+        "appearance": {
+            "en": "semimetallic (predicted)"
+        },
         "number": 117,
         "group": 17,
         "period": 7,
@@ -4523,6 +4748,9 @@
             "en": "Oganesson",
             "de": "Oganesson",
             "la": "Oganesson"
+        },
+        "appearance": {
+            "en": "metallic (predicted)"
         },
         "number": 118,
         "group": 18,
