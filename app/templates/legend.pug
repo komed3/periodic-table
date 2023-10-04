@@ -5,7 +5,7 @@ if legend && legend.length > 0
     div.pt-legend-label= __( 'legend' )
     div.pt-legend-inner
       each item in legend
-        div.pt-el.pt-legend-item( layer=item )
+        div.pt-el.pt-legend-item( prop=item )
           input( type="checkbox", id="pt-legend-item--" + item, prop=item, checked )/
           label( for="pt-legend-item--" + item )
             span.pt-legend-item-box

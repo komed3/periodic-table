@@ -33,47 +33,47 @@ body[theme="dark"] {
 
 }
 
-[layer="set"] .pt-el[layer="alkalimetal"] {
+[layer="set"] .pt-el[prop="alkalimetal"] {
     --bg: var( --pt-set-0 );
 }
 
-[layer="set"] .pt-el[layer="alkalineearthmetal"] {
+[layer="set"] .pt-el[prop="alkalineearthmetal"] {
     --bg: var( --pt-set-1 );
 }
 
-[layer="set"] .pt-el[layer="halogen"],
-[layer="block"] .pt-el[layer="d"] {
+[layer="set"] .pt-el[prop="halogen"],
+[layer="block"] .pt-el[prop="d"] {
     --bg: var( --pt-set-2 );
 }
 
-[layer="set"] .pt-el[layer="noblegas"],
-[layer="block"] .pt-el[layer="s"] {
+[layer="set"] .pt-el[prop="noblegas"],
+[layer="block"] .pt-el[prop="s"] {
     --bg: var( --pt-set-3 );
 }
 
-[layer="set"] .pt-el[layer="metal"] {
+[layer="set"] .pt-el[prop="metal"] {
     --bg: var( --pt-set-4 );
 }
 
-[layer="set"] .pt-el[layer="transitionmetal"],
-[layer="block"] .pt-el[layer="f"] {
+[layer="set"] .pt-el[prop="transitionmetal"],
+[layer="block"] .pt-el[prop="f"] {
     --bg: var( --pt-set-5 );
 }
 
-[layer="set"] .pt-el[layer="metalloid"] {
+[layer="set"] .pt-el[prop="metalloid"] {
     --bg: var( --pt-set-6 );
 }
 
-[layer="set"] .pt-el[layer="nonmetal"],
-[layer="block"] .pt-el[layer="p"] {
+[layer="set"] .pt-el[prop="nonmetal"],
+[layer="block"] .pt-el[prop="p"] {
     --bg: var( --pt-set-7 );
 }
 
-[layer="set"] .pt-el[layer="lanthanoide"] {
+[layer="set"] .pt-el[prop="lanthanoide"] {
     --bg: var( --pt-set-8 );
 }
 
-[layer="set"] .pt-el[layer="actinoide"] {
+[layer="set"] .pt-el[prop="actinoide"] {
     --bg: var( --pt-set-9 );
 }
 

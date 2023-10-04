@@ -9,7 +9,7 @@ div.pt-microtable( layer=layer, toggle=1 )
     a(
       href= '/e/' + el.symbol,
       style= '--g:' + el.column + ';--p:' + el.period,
-      layer= ( el[ layer ] || 'undefined' ),
+      prop= ( el[ layer ] || 'undefined' ),
       title= el.names[ locale ],
       class= 'pt-el pt-microtable-item' + (
         element && el.symbol == element.symbol || ''

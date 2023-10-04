@@ -8,11 +8,11 @@ jQuery( document ).ready( function ( $ ) {
 
             if( this.checked ) {
 
-                $( '[toggle] .pt-el[layer="' + prop + '"]' ).removeClass( 'hidden' );
+                $( '[toggle] .pt-el[prop="' + prop + '"]' ).removeClass( 'hidden' );
 
             } else {
 
-                $( '[toggle] .pt-el[layer="' + prop + '"]' ).addClass( 'hidden' );
+                $( '[toggle] .pt-el[prop="' + prop + '"]' ).addClass( 'hidden' );
 
             }
 

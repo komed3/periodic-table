@@ -3,7 +3,7 @@
 div.pt-element-list( layer=layer )
   each el in list
     div(
-      layer= ( el[ layer ] || 'undefined' ),
+      prop= ( el[ layer ] || 'undefined' ),
       class= 'pt-el pt-element-list-item' + (
         el.radioactive
           ? ' radioactive'
