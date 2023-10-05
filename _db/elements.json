@@ -45,6 +45,26 @@
             ],
             "unit": "eV"
         },
+        "density": {
+            "value": 8.988,
+            "gas": {
+                "value": 8.988,
+                "unit": "g·cm[−3]",
+                "condition": [ {
+                    "value": 273,
+                    "unit": "K"
+                } ]
+            },
+            "liquid": {
+                "value": 70.9,
+                "unit": "g·l[−1]",
+                "condition": [ {
+                    "value": 20.324,
+                    "unit": "K"
+                } ]
+            }
+        },
+        "phase": "gas",
         "melting": {
             "value": 13.99,
             "unit": "K"
@@ -72,6 +92,18 @@
                 "value": 1.2858,
                 "unit": "MPa"
             }
+        },
+        "enthalpy_fusion": {
+            "value": 0.558,
+            "unit": "kJ·mol[−1]"
+        },
+        "enthalpy_vaporisation": {
+            "value": 0.452,
+            "unit": "kJ·mol[−1]"
+        },
+        "enthalpy_atomisation": {
+            "value": 218,
+            "unit": "kJ·mol[−1]"
         },
         "oxidation": [ "+1", "0", "-1" ],
         "electrode_potential": {

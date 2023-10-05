@@ -162,5 +162,15 @@
 	"boiling-temp": "Siedepunkt",
 	"triple-temp": "Tripelpunkt",
 	"critical-temp": "Kritischer Punkt",
-	"liquid_range-temp": "Flüssigkeitsbereich"
+	"liquid_range-temp": "Flüssigkeitsbereich",
+	"enthalpies": "Enthalpien",
+	"enthalpy_fusion": "Schmelzenthalpie",
+	"enthalpy_vaporisation": "Verdampfungsenthalpie",
+	"enthalpy_atomisation": "Atomisierungsenthalpie",
+	"density": "Dichte",
+	"phase-gas": "gasförmig",
+	"phase-liquid": "flüssig",
+	"phase-solid": "fest",
+	"phase-label": "Aggregatzustand",
+	"phase-undefined": "Unbekannt"
 }

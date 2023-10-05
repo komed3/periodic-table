@@ -42,16 +42,19 @@ body[theme="dark"] {
 }
 
 [layer="set"] .pt-el[prop="halogen"],
-[layer="block"] .pt-el[prop="d"] {
+[layer="block"] .pt-el[prop="d"],
+[layer="phase"] .pt-el[prop="gas"] {
     --bg: var( --pt-set-2 );
 }
 
 [layer="set"] .pt-el[prop="noblegas"],
-[layer="block"] .pt-el[prop="s"] {
+[layer="block"] .pt-el[prop="s"],
+[layer="phase"] .pt-el[prop="liquid"] {
     --bg: var( --pt-set-3 );
 }
 
-[layer="set"] .pt-el[prop="metal"] {
+[layer="set"] .pt-el[prop="metal"],
+[layer="phase"] .pt-el[prop="solid"] {
     --bg: var( --pt-set-4 );
 }
 
