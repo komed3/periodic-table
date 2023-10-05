@@ -43,7 +43,7 @@ body[theme="dark"] {
 
 [layer="set"] .pt-el[prop="halogen"],
 [layer="block"] .pt-el[prop="d"],
-[layer="phase"] .pt-el[prop="gas"] {
+[layer="phase"] .pt-el[prop="solid"] {
     --bg: var( --pt-set-2 );
 }
 
@@ -53,8 +53,7 @@ body[theme="dark"] {
     --bg: var( --pt-set-3 );
 }
 
-[layer="set"] .pt-el[prop="metal"],
-[layer="phase"] .pt-el[prop="solid"] {
+[layer="set"] .pt-el[prop="metal"] {
     --bg: var( --pt-set-4 );
 }
 
@@ -68,7 +67,8 @@ body[theme="dark"] {
 }
 
 [layer="set"] .pt-el[prop="nonmetal"],
-[layer="block"] .pt-el[prop="p"] {
+[layer="block"] .pt-el[prop="p"],
+[layer="phase"] .pt-el[prop="gas"] {
     --bg: var( --pt-set-7 );
 }
 

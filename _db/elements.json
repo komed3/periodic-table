@@ -20,6 +20,7 @@
         "column": 1,
         "block": "s",
         "set": "nonmetal",
+        "phase": "gas",
         "electron_config": "1s[1]",
         "shell": [ 1 ],
         "atomic_mass": {
@@ -67,7 +68,6 @@
                 }
             }
         },
-        "phase": "gas",
         "melting": {
             "value": 13.99,
             "unit": "K"
@@ -169,6 +169,7 @@
         "column": 32,
         "block": "s",
         "set": "noblegas",
+        "phase": "gas",
         "electron_config": "1s[1]",
         "shell": [ 2 ],
         "atomic_mass": {
@@ -240,6 +241,7 @@
         "column": 1,
         "block": "s",
         "set": "alkalimetal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "260", "314" ],
             "p": [ "223", "280", "231+232", "305+351+338", "370+378" ],
@@ -285,6 +287,7 @@
         "column": 2,
         "block": "s",
         "set": "alkalineearthmetal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "301", "315", "317", "319", "330", "335", "350i", "372" ],
             "p": [ "201", "260", "280", "284", "301+310+330", "304+340+310" ],
@@ -330,6 +333,7 @@
         "column": 27,
         "block": "p",
         "set": "metalloid",
+        "phase": "solid",
         "hazardous": {
             "h": [ "302", "412" ],
             "p": [ "264", "270", "273", "301+312", "501" ],
@@ -373,6 +377,7 @@
         "column": 28,
         "block": "p",
         "set": "nonmetal",
+        "phase": "solid",
         "hazardous": null,
         "classification": {
             "cas": [ {
@@ -418,6 +423,7 @@
         "column": 29,
         "block": "p",
         "set": "nonmetal",
+        "phase": "gas",
         "hazardous": {
             "h": [ "280" ],
             "p": [ "403" ],
@@ -461,6 +467,7 @@
         "column": 30,
         "block": "p",
         "set": "nonmetal",
+        "phase": "gas",
         "hazardous": {
             "h": [ "270", "280" ],
             "p": [ "244", "220", "370+376", "403" ],
@@ -510,6 +517,7 @@
         "column": 31,
         "block": "p",
         "set": "halogen",
+        "phase": "gas",
         "hazardous": {
             "h": [ "270", "280", "330", "314" ],
             "p": [ "260", "280", "244", "220", "304+340", "303+361+353", "305+351+338", "315", "370+376", "405", "403" ],
@@ -555,6 +563,7 @@
         "column": 32,
         "block": "p",
         "set": "noblegas",
+        "phase": "gas",
         "hazardous": {
             "h": [ "280" ],
             "p": [ "403" ],
@@ -598,6 +607,7 @@
         "column": 1,
         "block": "s",
         "set": "alkalimetal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "260", "314" ],
             "p": [ "223", "231+232", "260", "280", "303+361+353", "305+351+338" ],
@@ -643,6 +653,7 @@
         "column": 2,
         "block": "s",
         "set": "alkalineearthmetal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "260", "250" ],
             "p": [ "210", "222", "223", "231+232", "233", "280" ],
@@ -691,6 +702,7 @@
         "column": 27,
         "block": "p",
         "set": "metal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "250", "261" ],
             "p": [ "222", "231+232" ],
@@ -735,6 +747,7 @@
         "column": 28,
         "block": "p",
         "set": "metalloid",
+        "phase": "solid",
         "hazardous": null,
         "classification": {
             "cas": [ {
@@ -773,6 +786,7 @@
         "column": 29,
         "block": "p",
         "set": "nonmetal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "250", "300+330", "314", "400" ],
             "p": [ "233", "273", "280", "301+310+330", "303+361+353", "304+340+310", "305+351+338+310" ],
@@ -822,6 +836,7 @@
         "column": 30,
         "block": "p",
         "set": "nonmetal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "315" ],
             "p": null,
@@ -869,6 +884,7 @@
         "column": 31,
         "block": "p",
         "set": "halogen",
+        "phase": "gas",
         "hazardous": {
             "h": [ "270", "280", "330", "315", "319", "335", "400" ],
             "p": [ "260", "220", "280", "244", "273", "304+340", "305+351+338 332+313", "370+376", "302+352", "315", "405", "403" ],
@@ -914,6 +930,7 @@
         "column": 32,
         "block": "p",
         "set": "noblegas",
+        "phase": "gas",
         "hazardous": {
             "h": [ "280" ],
             "p": [ "403" ],
@@ -957,6 +974,7 @@
         "column": 1,
         "block": "s",
         "set": "alkalimetal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "260", "314" ],
             "p": [ "223", "231+232", "280", "305+351+338", "370+378" ],
@@ -1002,6 +1020,7 @@
         "column": 2,
         "block": "s",
         "set": "alkalineearthmetal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "261" ],
             "p": [ "223", "232", "501", "402+404" ],
@@ -1050,6 +1069,7 @@
         "column": 3,
         "block": "d",
         "set": "transitionmetal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210" ],
@@ -1093,6 +1113,7 @@
         "column": 18,
         "block": "d",
         "set": "transitionmetal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "250", "252" ],
             "p": [ "210", "222", "280", "420" ],
@@ -1136,6 +1157,7 @@
         "column": 19,
         "block": "d",
         "set": "transitionmetal",
+        "phase": "solid",
         "hazardous": null,
         "classification": {
             "cas": [ {
@@ -1174,6 +1196,7 @@
         "column": 20,
         "block": "d",
         "set": "transitionmetal",
+        "phase": "solid",
         "hazardous": null,
         "classification": {
             "cas": [ {
@@ -1212,6 +1235,7 @@
         "column": 21,
         "block": "d",
         "set": "transitionmetal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210", "240", "241", "280", "370+378" ],
@@ -1257,6 +1281,7 @@
         "column": 22,
         "block": "d",
         "set": "transitionmetal",
+        "phase": "solid",
         "hazardous": null,
         "classification": {
             "cas": [ {
@@ -1295,6 +1320,7 @@
         "column": 23,
         "block": "d",
         "set": "transitionmetal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "228", "302", "330", "319", "317", "334", "341", "350", "360F", "410" ],
             "p": [ "201", "202", "210", "280", "308+313", "501" ],
@@ -1340,6 +1366,7 @@
         "column": 24,
         "block": "d",
         "set": "transitionmetal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "228", "351", "372", "317", "412" ],
             "p": [ "210", "302+352", "201", "280", "308+313" ],
@@ -1384,6 +1411,7 @@
         "column": 25,
         "block": "d",
         "set": "transitionmetal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "228", "410" ],
             "p": [ "210", "273" ],
@@ -1427,6 +1455,7 @@
         "column": 26,
         "block": "d",
         "set": "transitionmetal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "250", "260", "410" ],
             "p": [ "222", "210", "231+232", "280", "370+378", "273" ],
@@ -1474,6 +1503,7 @@
         "column": 27,
         "block": "p",
         "set": "metal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "290", "302", "412" ],
             "p": [ "234", "264", "270", "273", "301+312", "390" ],
@@ -1519,6 +1549,7 @@
         "column": 28,
         "block": "p",
         "set": "metalloid",
+        "phase": "solid",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210" ],
@@ -1563,6 +1594,7 @@
         "column": 29,
         "block": "p",
         "set": "metalloid",
+        "phase": "solid",
         "hazardous": {
             "h": [ "301+331", "350", "410" ],
             "p": [ "264", "280", "301+310", "304+340+311" ],
@@ -1607,6 +1639,7 @@
         "column": 30,
         "block": "p",
         "set": "metalloid",
+        "phase": "solid",
         "hazardous": {
             "h": [ "331", "301", "373", "413" ],
             "p": [ "260", "273", "301+310", "304+340" ],
@@ -1652,6 +1685,7 @@
         "column": 31,
         "block": "p",
         "set": "halogen",
+        "phase": "liquid",
         "hazardous": {
             "h": [ "330", "314", "400" ],
             "p": [ "260", "273", "280", "303+361+353", "304+340+310", "305+351+338" ],
@@ -1697,6 +1731,7 @@
         "column": 32,
         "block": "p",
         "set": "noblegas",
+        "phase": "gas",
         "hazardous": {
             "h": [ "280" ],
             "p": [ "403" ],
@@ -1744,6 +1779,7 @@
         "column": 1,
         "block": "s",
         "set": "alkalimetal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "260", "314" ],
             "p": [ "223", "231+232", "280", "305+351+338", "370+378" ],
@@ -1789,6 +1825,7 @@
         "column": 2,
         "block": "s",
         "set": "alkalineearthmetal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "260", "315" ],
             "p": [ "223", "231+232", "370+378" ],
@@ -1834,6 +1871,7 @@
         "column": 3,
         "block": "d",
         "set": "transitionmetal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210", "241", "280", "241", "370+378" ],
@@ -1877,6 +1915,7 @@
         "column": 18,
         "block": "d",
         "set": "transitionmetal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "250", "260" ],
             "p": [ "222", "223", "231+232", "370+378​" ],
@@ -1921,6 +1960,7 @@
         "column": 19,
         "block": "d",
         "set": "transitionmetal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210" ],
@@ -1965,6 +2005,7 @@
         "column": 20,
         "block": "d",
         "set": "transitionmetal",
+        "phase": "solid",
         "hazardous": null,
         "classification": {
             "cas": [ {
@@ -2003,6 +2044,7 @@
         "column": 21,
         "block": "d",
         "set": "transitionmetal",
+        "phase": "solid",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -2042,6 +2084,7 @@
         "column": 22,
         "block": "d",
         "set": "transitionmetal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210" ],
@@ -2085,6 +2128,7 @@
         "column": 23,
         "block": "d",
         "set": "transitionmetal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "20" ],
@@ -2129,6 +2173,7 @@
         "column": 24,
         "block": "d",
         "set": "transitionmetal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "317" ],
             "p": [ "261", "273", "280", "302+352", "321", "333+313", "363", "501" ],
@@ -2172,6 +2217,7 @@
         "column": 25,
         "block": "d",
         "set": "transitionmetal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "410" ],
             "p": [ "273", "391", "501" ],
@@ -2219,6 +2265,7 @@
         "column": 26,
         "block": "d",
         "set": "transitionmetal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "250", "350", "330", "361fd", "341", "372", "410" ],
             "p": [ "210", "260", "273", "280", "308+313", "391", "405", "501" ],
@@ -2267,6 +2314,7 @@
         "column": 27,
         "block": "p",
         "set": "metal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210", "241", "280", "240", "370+378" ],
@@ -2311,6 +2359,7 @@
         "column": 28,
         "block": "p",
         "set": "metal",
+        "phase": "solid",
         "hazardous": null,
         "classification": {
             "cas": [ {
@@ -2349,6 +2398,7 @@
         "column": 29,
         "block": "p",
         "set": "metalloid",
+        "phase": "solid",
         "hazardous": {
             "h": [ "351" ],
             "p": [ "201", "202", "308+313" ],
@@ -2393,6 +2443,7 @@
         "column": 30,
         "block": "p",
         "set": "metalloid",
+        "phase": "solid",
         "hazardous": {
             "h": [ "332", "317", "360", "362", "413" ],
             "p": [ "202", "273", "280", "302+352", "304+340+312", "308+313" ],
@@ -2437,6 +2488,7 @@
         "column": 31,
         "block": "p",
         "set": "halogen",
+        "phase": "solid",
         "hazardous": {
             "h": [ "312+332", "315", "319", "335", "372", "400" ],
             "p": [ "273", "302+352", "305+351+338", "314" ],
@@ -2499,6 +2551,7 @@
         "column": 32,
         "block": "p",
         "set": "noblegas",
+        "phase": "gas",
         "hazardous": {
             "h": [ "280" ],
             "p": [ "403" ],
@@ -2552,6 +2605,7 @@
         "column": 1,
         "block": "s",
         "set": "alkalimetal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "260", "314" ],
             "p": [ "231+232", "260", "280", "305+351+338", "370+378" ],
@@ -2597,6 +2651,7 @@
         "column": 2,
         "block": "s",
         "set": "alkalineearthmetal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "228", "260", "301", "314" ],
             "p": [ "210", "231+232", "260", "280", "303+361+353", "304+340+310", "305+351+338" ],
@@ -2642,6 +2697,7 @@
         "column": 3,
         "block": "d",
         "set": "lanthanoide",
+        "phase": "solid",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210" ],
@@ -2686,6 +2742,7 @@
         "column": 4,
         "block": "f",
         "set": "lanthanoide",
+        "phase": "solid",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "231+232", "233", "280", "370+378", "402+404", "501" ],
@@ -2730,6 +2787,7 @@
         "column": 5,
         "block": "f",
         "set": "lanthanoide",
+        "phase": "solid",
         "hazardous": {
             "h": [ "250" ],
             "p": [ "222", "231", "422" ],
@@ -2774,6 +2832,7 @@
         "column": 6,
         "block": "f",
         "set": "lanthanoide",
+        "phase": "solid",
         "hazardous": {
             "h": [ "315", "319", "335" ],
             "p": [ "261", "305+351+338" ],
@@ -2814,6 +2873,7 @@
         "column": 7,
         "block": "f",
         "set": "lanthanoide",
+        "phase": "solid",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -2853,6 +2913,7 @@
         "column": 8,
         "block": "f",
         "set": "lanthanoide",
+        "phase": "solid",
         "hazardous": {
             "h": [ "261" ],
             "p": [ "231+232", "280", "370+378", "501" ],
@@ -2897,6 +2958,7 @@
         "column": 9,
         "block": "f",
         "set": "lanthanoide",
+        "phase": "solid",
         "hazardous": {
             "h": [ "250" ],
             "p": [ "222", "231+232", "422" ],
@@ -2941,6 +3003,7 @@
         "column": 10,
         "block": "f",
         "set": "lanthanoide",
+        "phase": "solid",
         "hazardous": {
             "h": [ "261" ],
             "p": [ "231+232", "422" ],
@@ -2985,6 +3048,7 @@
         "column": 11,
         "block": "f",
         "set": "lanthanoide",
+        "phase": "solid",
         "hazardous": null,
         "classification": {
             "cas": [ {
@@ -3023,6 +3087,7 @@
         "column": 12,
         "block": "f",
         "set": "lanthanoide",
+        "phase": "solid",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210" ],
@@ -3067,6 +3132,7 @@
         "column": 13,
         "block": "f",
         "set": "lanthanoide",
+        "phase": "solid",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210" ],
@@ -3111,6 +3177,7 @@
         "column": 14,
         "block": "f",
         "set": "lanthanoide",
+        "phase": "solid",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210" ],
@@ -3155,6 +3222,7 @@
         "column": 15,
         "block": "f",
         "set": "lanthanoide",
+        "phase": "solid",
         "hazardous": {
             "h": [ "228", "319", "335" ],
             "p": [ "210", "261", "305+351+338" ],
@@ -3199,6 +3267,7 @@
         "column": 16,
         "block": "f",
         "set": "lanthanoide",
+        "phase": "solid",
         "hazardous": {
             "h": [ "228", "302", "312", "315", "319", "332", "335" ],
             "p": [ "210", "261", "280", "305+351+338" ],
@@ -3243,6 +3312,7 @@
         "column": 17,
         "block": "f",
         "set": "lanthanoide",
+        "phase": "solid",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210" ],
@@ -3286,6 +3356,7 @@
         "column": 18,
         "block": "d",
         "set": "transitionmetal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "250" ],
             "p": [ "210" ],
@@ -3330,6 +3401,7 @@
         "column": 19,
         "block": "d",
         "set": "transitionmetal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210", "240", "241", "280", "370+378" ],
@@ -3374,6 +3446,7 @@
         "column": 20,
         "block": "d",
         "set": "transitionmetal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210", "240", "241", "280", "370+378" ],
@@ -3418,6 +3491,7 @@
         "column": 21,
         "block": "d",
         "set": "transitionmetal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210" ],
@@ -3462,6 +3536,7 @@
         "column": 22,
         "block": "d",
         "set": "transitionmetal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "228", "315", "318", "335" ],
             "p": [ "210", "261", "280", "302+352", "305+351+338" ],
@@ -3506,6 +3581,7 @@
         "column": 23,
         "block": "d",
         "set": "transitionmetal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "228", "319" ],
             "p": [ "210" ],
@@ -3550,6 +3626,7 @@
         "column": 24,
         "block": "d",
         "set": "transitionmetal",
+        "phase": "solid",
         "hazardous": null,
         "classification": {
             "cas": [ {
@@ -3588,6 +3665,7 @@
         "column": 25,
         "block": "d",
         "set": "transitionmetal",
+        "phase": "solid",
         "hazardous": null,
         "classification": {
             "cas": [ {
@@ -3626,6 +3704,7 @@
         "column": 26,
         "block": "d",
         "set": "transitionmetal",
+        "phase": "liquid",
         "hazardous": {
             "h": [ "330", "360D", "372", "410" ],
             "p": [ "201", "233", "260", "273", "280", "304", "308", "310", "313", "340", "391", "403" ],
@@ -3674,6 +3753,7 @@
         "column": 27,
         "block": "p",
         "set": "metal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "300", "330", "373", "413" ],
             "p": [ "260", "264", "284", "301+310" ],
@@ -3719,6 +3799,7 @@
         "column": 28,
         "block": "p",
         "set": "metal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "302", "332", "351", "360Df", "373", "410" ],
             "p": [ "201", "261", "273", "304", "308", "312", "313", "340", "391" ],
@@ -3764,6 +3845,7 @@
         "column": 29,
         "block": "p",
         "set": "metal",
+        "phase": "solid",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210", "370+378" ],
@@ -3804,6 +3886,7 @@
         "column": 30,
         "block": "p",
         "set": "metal",
+        "phase": "solid",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -3840,6 +3923,7 @@
         "column": 31,
         "block": "p",
         "set": "halogen",
+        "phase": "solid",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -3871,6 +3955,7 @@
         "column": 32,
         "block": "p",
         "set": "noblegas",
+        "phase": "gas",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -3906,6 +3991,7 @@
         "column": 1,
         "block": "s",
         "set": "alkalimetal",
+        "phase": "solid",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -3941,6 +4027,7 @@
         "column": 2,
         "block": "s",
         "set": "alkalineearthmetal",
+        "phase": "solid",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -3980,6 +4067,7 @@
         "column": 3,
         "block": "d",
         "set": "actinoide",
+        "phase": "solid",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4015,6 +4103,7 @@
         "column": 4,
         "block": "f",
         "set": "actinoide",
+        "phase": "solid",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4054,6 +4143,7 @@
         "column": 5,
         "block": "f",
         "set": "actinoide",
+        "phase": "solid",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4093,6 +4183,7 @@
         "column": 6,
         "block": "f",
         "set": "actinoide",
+        "phase": "solid",
         "hazardous": {
             "h": [ "330", "300", "373", "413" ],
             "p": [ "?" ],
@@ -4139,6 +4230,7 @@
         "column": 7,
         "block": "f",
         "set": "actinoide",
+        "phase": "solid",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4178,6 +4270,7 @@
         "column": 8,
         "block": "f",
         "set": "actinoide",
+        "phase": "solid",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4217,6 +4310,7 @@
         "column": 9,
         "block": "f",
         "set": "actinoide",
+        "phase": "solid",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4252,6 +4346,7 @@
         "column": 10,
         "block": "f",
         "set": "actinoide",
+        "phase": "solid",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4287,6 +4382,7 @@
         "column": 11,
         "block": "f",
         "set": "actinoide",
+        "phase": "solid",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4322,6 +4418,7 @@
         "column": 12,
         "block": "f",
         "set": "actinoide",
+        "phase": "solid",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4356,6 +4453,7 @@
         "column": 13,
         "block": "f",
         "set": "actinoide",
+        "phase": "solid",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4383,6 +4481,7 @@
         "column": 14,
         "block": "f",
         "set": "actinoide",
+        "phase": "solid",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4410,6 +4509,7 @@
         "column": 15,
         "block": "f",
         "set": "actinoide",
+        "phase": "solid",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4437,6 +4537,7 @@
         "column": 16,
         "block": "f",
         "set": "actinoide",
+        "phase": "solid",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4464,6 +4565,7 @@
         "column": 17,
         "block": "f",
         "set": "actinoide",
+        "phase": "solid",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4882,6 +4984,7 @@
         "column": 32,
         "block": "p",
         "set": null,
+        "phase": "solid",
         "hazardous": null,
         "radioactive": true,
         "classification": {
