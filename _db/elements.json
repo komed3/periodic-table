@@ -94,6 +94,30 @@
         "column": 32,
         "block": "s",
         "set": "noblegas",
+        "electron_config": "1s[1]",
+        "shell": [ 2 ],
+        "atomic_mass": {
+            "value": 4.002602,
+            "deviation": 0.000002,
+            "unit": "u"
+        },
+        "radius": {
+            "covalent": {
+                "value": 28,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 140,
+                "unit": "pm"
+            }
+        },
+        "ionization": {
+            "values": [
+                24.5873888015,
+                54.41776503
+            ],
+            "unit": "eV"
+        },
         "hazardous": {
             "h": [ "280" ],
             "p": [ "403" ],

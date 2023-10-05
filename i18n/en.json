@@ -140,8 +140,9 @@
 	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" target=\"_blank\">Read more …</a>",
 	"list-title": "Elements of %s: %s",
 	"list-description": "list-description",
-	"atomic-mass": "atomic-mass",
-	"covalent-radius": "covalent-radius",
-	"vdw-radius": "vdw-radius",
-	"ionization-energy": "ionization-energy"
+	"atomic-mass": "Atomic mass",
+	"covalent-radius": "Covalent radius",
+	"vdw-radius": "Van der Waals radius",
+	"ionization-energy": "Ionization energy",
+	"electron-config": "Electron configuration"
 }
