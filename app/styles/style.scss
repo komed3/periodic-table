@@ -66,7 +66,7 @@ h2 {
 }
 
 h3 {
-    margin: 0 0 12px 0;
+    margin: 12px 0;
     font-size: 16px;
 }
 
@@ -166,6 +166,7 @@ select {
  */
 
 .pt-prop-table {
+    width: 100%;
     margin: 0 -6px;
     border-collapse: separate;
     border-spacing: 6px;

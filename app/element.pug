@@ -80,6 +80,12 @@ block content
       //- chemical properties
       div.pt-box.pt-element-properties
         h2= __( 'prop-chemical' )
+        table.pt-prop-table.pt-element-table
+          tbody
+            if element.oxidation
+              tr.pt-prop-table-row
+                th.pt-prop-table-label= __( 'oxidation-state' )
+                  td.pt-prop-table-value!= element.oxidation.join( ', ' )
         h3= __( 'electronegativity' )
         table.pt-prop-table.pt-element-table
           tbody

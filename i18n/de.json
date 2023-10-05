@@ -153,5 +153,7 @@
 	"pauling-negativity": "Pauling-Skala",
 	"mulliken-negativity": "Mulliken-Skala",
 	"allen-negativity": "Allen-Skala",
-	"electronegativity": "Elektronegativität"
+	"sanderson-negativity": "Sanderson-Skala",
+	"electronegativity": "Elektronegativität",
+	"oxidation-state": "Oxidationszustand"
 }

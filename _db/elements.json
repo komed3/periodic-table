@@ -45,8 +45,10 @@
             ],
             "unit": "eV"
         },
+        "oxidation": [ "+1", "0", "-1" ],
         "negativity": {
             "pauling": 2.2,
+            "sanderson": 2.59,
             "allred": 2.21,
             "mulliken": 2.25,
             "allen": 2.3
