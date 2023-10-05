@@ -161,5 +161,6 @@
 	"melting-temp": "Schmelzpunkt",
 	"boiling-temp": "Siedepunkt",
 	"triple-temp": "Tripelpunkt",
-	"critical-temp": "Kritischer Punkt"
+	"critical-temp": "Kritischer Punkt",
+	"liquid_range-temp": "Flüssigkeitsbereich"
 }

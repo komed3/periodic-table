@@ -64,7 +64,8 @@ block content
             if element.radius
               each prop, label in element.radius
                 tr.pt-prop-table-row
-                  th.pt-prop-table-label= __( label + '-radius' )
+                  th.pt-prop-table-label
+                    a( href="/scale/radius_" + label )= __( label + '-radius' )
                   td.pt-prop-table-value!= core.fNumber( prop, locale )
             if element.electron_config
               tr.pt-prop-table-row
@@ -81,7 +82,7 @@ block content
           tbody
             tr.pt-prop-table-row
               th( colspan="2" ).pt-prop-table-label= __( 'temperatures' )
-            each prop in [ 'melting', 'boiling', 'triple', 'critical' ]
+            each prop in [ 'melting', 'boiling', 'liquid_range', 'triple', 'critical' ]
               if element[ prop ]
                 tr.pt-prop-table-row
                   th.pt-prop-table-label

@@ -53,6 +53,10 @@
             "value": 20.271,
             "unit": "K"
         },
+        "liquid_range": {
+            "value": 6.281,
+            "unit": "K"
+        },
         "triple": {
             "value": 13.8033,
             "unit": "K",
