@@ -86,10 +86,9 @@ block content
               tr.pt-prop-table-row
                 th.pt-prop-table-label= __( 'oxidation-state' )
                   td.pt-prop-table-value!= element.oxidation.join( ', ' )
-        h3= __( 'electronegativity' )
-        table.pt-prop-table.pt-element-table
-          tbody
             if element.negativity
+              tr.pt-prop-table-row
+                th( colspan="2" ).pt-prop-table-label= __( 'electronegativity' )
               each prop, label in element.negativity
                 tr.pt-prop-table-row
                   th.pt-prop-table-label
