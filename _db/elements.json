@@ -14,6 +14,10 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Hydrogen_discharge_tube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Hydrogen_discharge_tube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
+        "discovery": {
+            "by": "Henry Cavendish",
+            "year": 1766
+        },
         "number": 1,
         "group": 1,
         "period": 1,
@@ -68,6 +72,10 @@
                 }
             }
         },
+        "molar_volume": {
+            "value": 11.42e-6,
+            "unit": "m[3]·mol[−1]"
+        },
         "melting": {
             "value": 13.99,
             "unit": "K"
@@ -108,6 +116,22 @@
             "value": 218,
             "unit": "kJ·mol[−1]"
         },
+        "sound_speed": {
+            "value": 1270,
+            "unit": "m·s[−1]",
+            "condition": [ {
+                "value": 298.15,
+                "unit": "K"
+            } ]
+        },
+        "heat_capacity": {
+            "value": 14304,
+            "unit": "J·kg[−1]·K[−1]"
+        },
+        "thermal_conductivity": {
+            "value": 0.1805,
+            "unit": "W·m[−1]·K[−1]"
+        },
         "oxidation": [ "+1", "0", "-1" ],
         "electrode_potential": {
             "value": 0,
@@ -131,6 +155,7 @@
                 "unit": "K"
             } ]
         },
+        "refractive_index": 1.000132,
         "hazardous": {
             "h": [ "220", "280" ],
             "p": [ "202", "210", "271", "377", "381", "403" ],

@@ -99,6 +99,15 @@ block content
                       div.pt-prop-table-line
                         span= __( 'phase-' + label ) + ': '
                         span!= core.fNumber( prop, locale )
+            each prop in [ 'molar_volume', 'sound_speed', 'heat_capacity', 'thermal_conductivity' ]
+              if element[ prop ]
+                tr.pt-prop-table-row
+                  th.pt-prop-table-label
+                    a( href="/scale/" + prop )= __( prop )
+                  td.pt-prop-table-value!= core.fNumber( element[ prop ], locale )
+            tr.pt-prop-table-row
+              th.pt-prop-table-label= __( 'vapor_pressure' )
+              td.pt-prop-table-value 
             tr.pt-prop-table-row
               th( colspan="2" ).pt-prop-table-label= __( 'temperatures' )
             each prop in [ 'melting', 'boiling', 'liquid_range', 'triple', 'critical' ]
@@ -149,8 +158,13 @@ block content
                     a( href="/list/" + prop + "/" + element[ prop ] )= __( prop + '-' + element[ prop ] )
             if element.magnetic_susceptibility
               tr.pt-prop-table-row
-                th.pt-prop-table-label= __( 'magnetic-susceptibility' )
+                th.pt-prop-table-label= __( 'magnetic_susceptibility' )
                 td.pt-prop-table-value!= core.fNumber( element.magnetic_susceptibility, locale )
+            if element.refractive_index
+              tr.pt-prop-table-row
+                th.pt-prop-table-label
+                  a( href="/scale/refractive_index" )= __( 'refractive_index' )
+                td.pt-prop-table-value!= core.fNumber( element.refractive_index, locale )
       //- isotopes
       div.pt-box.pt-element-properties
         h2= __( 'prop-isotopes' )
@@ -177,6 +191,10 @@ block content
               tr.pt-prop-table-row
                 th.pt-prop-table-label= __( 'appearance' )
                 td.pt-prop-table-value!= core.fText( element.appearance[ locale ] )
+            if element.discovery
+              tr.pt-prop-table-row
+                th.pt-prop-table-label= __( 'discovery' )
+                td.pt-prop-table-value= element.discovery.by + ' (' + element.discovery.year + ')'
             each prop in [ 'group', 'period', 'set', 'block' ]
               if element[ prop ]
                 tr.pt-prop-table-row

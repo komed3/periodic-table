@@ -180,10 +180,20 @@
 	"crystal_structure-hexagonal": "hexagonal",
 	"magnetic_ordering-label": "Magnetismus",
 	"magnetic_ordering-diamagnetic": "diamagnetisch",
-	"magnetic-susceptibility": "Magnetische Suszeptibilität",
+	"magnetic_susceptibility": "Magnetische Suszeptibilität",
 	"appearance": "Aussehen",
 	"name": "Name",
 	"symbol": "Symbol",
 	"number": "Ordnungszahl",
-	"latin": "Lateinisch"
+	"latin": "Lateinisch",
+	"natural_occurrence-undefined": "Unbekannt",
+	"crystal_structure-undefined": "Unbekannt",
+	"magnetic_ordering-undefined": "Unbekannt",
+	"molar_volume": "Molares Volumen",
+	"discovery": "Entdeckung",
+	"sound_speed": "Schallgeschwindigkeit",
+	"heat_capacity": "Spezifische Wärmekapazität",
+	"thermal_conductivity": "Wärmeleitfähigkeit",
+	"refractive_index": "Brechungsindex",
+	"vapor_pressure": "Dampfdruck"
 }
