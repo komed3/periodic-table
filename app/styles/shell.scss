@@ -15,6 +15,11 @@
     stroke-width: 0.25;
 }
 
+.pt-shell-model .electrons {
+    transform: rotate( -90deg );
+    transform-origin: center;
+}
+
 .pt-shell-model .electrons circle {
     fill: none;
     stroke: var( --accent-1 );

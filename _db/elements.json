@@ -278,6 +278,8 @@
         "block": "s",
         "set": "alkalimetal",
         "phase": "solid",
+        "electron_config": "<He> 2s[1]",
+        "shell": [ 2, 1 ],
         "hazardous": {
             "h": [ "260", "314" ],
             "p": [ "223", "280", "231+232", "305+351+338", "370+378" ],
@@ -324,6 +326,8 @@
         "block": "s",
         "set": "alkalineearthmetal",
         "phase": "solid",
+        "electron_config": "<He> 2s[2]",
+        "shell": [ 2, 2 ],
         "hazardous": {
             "h": [ "301", "315", "317", "319", "330", "335", "350i", "372" ],
             "p": [ "201", "260", "280", "284", "301+310+330", "304+340+310" ],
@@ -370,6 +374,8 @@
         "block": "p",
         "set": "metalloid",
         "phase": "solid",
+        "electron_config": "<He> 2s[2] 2p[1]",
+        "shell": [ 2, 3 ],
         "hazardous": {
             "h": [ "302", "412" ],
             "p": [ "264", "270", "273", "301+312", "501" ],
@@ -414,6 +420,8 @@
         "block": "p",
         "set": "nonmetal",
         "phase": "solid",
+        "electron_config": "<He> 2s[2] 2p[2]",
+        "shell": [ 2, 4 ],
         "hazardous": null,
         "classification": {
             "cas": [ {
@@ -460,6 +468,8 @@
         "block": "p",
         "set": "nonmetal",
         "phase": "gas",
+        "electron_config": "<He> 2s[2] 2p[3]",
+        "shell": [ 2, 5 ],
         "hazardous": {
             "h": [ "280" ],
             "p": [ "403" ],
@@ -504,6 +514,8 @@
         "block": "p",
         "set": "nonmetal",
         "phase": "gas",
+        "electron_config": "<He> 2s[2] 2p[4]",
+        "shell": [ 2, 6 ],
         "hazardous": {
             "h": [ "270", "280" ],
             "p": [ "244", "220", "370+376", "403" ],
@@ -554,6 +566,8 @@
         "block": "p",
         "set": "halogen",
         "phase": "gas",
+        "electron_config": "<He> 2s[2] 2p[5]",
+        "shell": [ 2, 7 ],
         "hazardous": {
             "h": [ "270", "280", "330", "314" ],
             "p": [ "260", "280", "244", "220", "304+340", "303+361+353", "305+351+338", "315", "370+376", "405", "403" ],
@@ -600,6 +614,8 @@
         "block": "p",
         "set": "noblegas",
         "phase": "gas",
+        "electron_config": "<He> 2s[2] 2p[6]",
+        "shell": [ 2, 8 ],
         "hazardous": {
             "h": [ "280" ],
             "p": [ "403" ],
@@ -644,6 +660,8 @@
         "block": "s",
         "set": "alkalimetal",
         "phase": "solid",
+        "electron_config": "<Ne> 3s[1]",
+        "shell": [ 2, 8, 1 ],
         "hazardous": {
             "h": [ "260", "314" ],
             "p": [ "223", "231+232", "260", "280", "303+361+353", "305+351+338" ],
@@ -690,6 +708,8 @@
         "block": "s",
         "set": "alkalineearthmetal",
         "phase": "solid",
+        "electron_config": "<Ne> 3s[2]",
+        "shell": [ 2, 8, 2 ],
         "hazardous": {
             "h": [ "260", "250" ],
             "p": [ "210", "222", "223", "231+232", "233", "280" ],
@@ -739,6 +759,8 @@
         "block": "p",
         "set": "metal",
         "phase": "solid",
+        "electron_config": "<Ne> 3s[2] 3p[1]",
+        "shell": [ 2, 8, 3 ],
         "hazardous": {
             "h": [ "250", "261" ],
             "p": [ "222", "231+232" ],
@@ -784,6 +806,8 @@
         "block": "p",
         "set": "metalloid",
         "phase": "solid",
+        "electron_config": "<Ne> 3s[2] 3p[2]",
+        "shell": [ 2, 8, 4 ],
         "hazardous": null,
         "classification": {
             "cas": [ {
@@ -823,6 +847,8 @@
         "block": "p",
         "set": "nonmetal",
         "phase": "solid",
+        "electron_config": "<Ne> 3s[2] 3p[3]",
+        "shell": [ 2, 8, 5 ],
         "hazardous": {
             "h": [ "250", "300+330", "314", "400" ],
             "p": [ "233", "273", "280", "301+310+330", "303+361+353", "304+340+310", "305+351+338+310" ],
@@ -873,6 +899,8 @@
         "block": "p",
         "set": "nonmetal",
         "phase": "solid",
+        "electron_config": "<Ne> 3s[2] 3p[4]",
+        "shell": [ 2, 8, 6 ],
         "hazardous": {
             "h": [ "315" ],
             "p": null,
@@ -921,6 +949,8 @@
         "block": "p",
         "set": "halogen",
         "phase": "gas",
+        "electron_config": "<Ne> 3s[2] 3p[5]",
+        "shell": [ 2, 8, 7 ],
         "hazardous": {
             "h": [ "270", "280", "330", "315", "319", "335", "400" ],
             "p": [ "260", "220", "280", "244", "273", "304+340", "305+351+338 332+313", "370+376", "302+352", "315", "405", "403" ],
@@ -967,6 +997,8 @@
         "block": "p",
         "set": "noblegas",
         "phase": "gas",
+        "electron_config": "<Ne> 3s[2] 3p[6]",
+        "shell": [ 2, 8, 8 ],
         "hazardous": {
             "h": [ "280" ],
             "p": [ "403" ],
@@ -1011,6 +1043,8 @@
         "block": "s",
         "set": "alkalimetal",
         "phase": "solid",
+        "electron_config": "<Ar> 4s[1]",
+        "shell": [ 2, 8, 8, 1 ],
         "hazardous": {
             "h": [ "260", "314" ],
             "p": [ "223", "231+232", "280", "305+351+338", "370+378" ],
@@ -1057,6 +1091,8 @@
         "block": "s",
         "set": "alkalineearthmetal",
         "phase": "solid",
+        "electron_config": "<Ar> 4s[2]",
+        "shell": [ 2, 8, 8, 2 ],
         "hazardous": {
             "h": [ "261" ],
             "p": [ "223", "232", "501", "402+404" ],
@@ -1106,6 +1142,8 @@
         "block": "d",
         "set": "transitionmetal",
         "phase": "solid",
+        "electron_config": "<Ar> 3d[1] 4s[2]",
+        "shell": [ 2, 8, 9, 2 ],
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210" ],
@@ -1150,6 +1188,8 @@
         "block": "d",
         "set": "transitionmetal",
         "phase": "solid",
+        "electron_config": "<Ar> 3d[2] 4s[2]",
+        "shell": [ 2, 8, 10, 2 ],
         "hazardous": {
             "h": [ "250", "252" ],
             "p": [ "210", "222", "280", "420" ],
@@ -1194,6 +1234,8 @@
         "block": "d",
         "set": "transitionmetal",
         "phase": "solid",
+        "electron_config": "<Ar> 3d[3] 4s[2]",
+        "shell": [ 2, 8, 11, 2 ],
         "hazardous": null,
         "classification": {
             "cas": [ {
@@ -1233,6 +1275,8 @@
         "block": "d",
         "set": "transitionmetal",
         "phase": "solid",
+        "electron_config": "<Ar> 3d[5] 4s[1]",
+        "shell": [ 2, 8, 13, 1 ],
         "hazardous": null,
         "classification": {
             "cas": [ {
@@ -1272,6 +1316,8 @@
         "block": "d",
         "set": "transitionmetal",
         "phase": "solid",
+        "electron_config": "<Ar> 3d[5] 4s[2]",
+        "shell": [ 2, 8, 13, 2 ],
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210", "240", "241", "280", "370+378" ],
@@ -1318,6 +1364,8 @@
         "block": "d",
         "set": "transitionmetal",
         "phase": "solid",
+        "electron_config": "<Ar> 3d[6] 4s[2]",
+        "shell": [ 2, 8, 14, 2 ],
         "hazardous": null,
         "classification": {
             "cas": [ {
@@ -1357,6 +1405,8 @@
         "block": "d",
         "set": "transitionmetal",
         "phase": "solid",
+        "electron_config": "<Ar> 3d[7] 4s[2]",
+        "shell": [ 2, 8, 15, 2 ],
         "hazardous": {
             "h": [ "228", "302", "330", "319", "317", "334", "341", "350", "360F", "410" ],
             "p": [ "201", "202", "210", "280", "308+313", "501" ],
@@ -1403,6 +1453,8 @@
         "block": "d",
         "set": "transitionmetal",
         "phase": "solid",
+        "electron_config": "<Ar> 3d[8] 4s[2]",
+        "shell": [ 2, 8, 16, 2 ],
         "hazardous": {
             "h": [ "228", "351", "372", "317", "412" ],
             "p": [ "210", "302+352", "201", "280", "308+313" ],
@@ -1448,6 +1500,8 @@
         "block": "d",
         "set": "transitionmetal",
         "phase": "solid",
+        "electron_config": "<Ar> 3d[10] 4s[1]",
+        "shell": [ 2, 8, 18, 1 ],
         "hazardous": {
             "h": [ "228", "410" ],
             "p": [ "210", "273" ],
@@ -1492,6 +1546,8 @@
         "block": "d",
         "set": "transitionmetal",
         "phase": "solid",
+        "electron_config": "<Ar> 3d[10] 4s[2]",
+        "shell": [ 2, 8, 18, 2 ],
         "hazardous": {
             "h": [ "250", "260", "410" ],
             "p": [ "222", "210", "231+232", "280", "370+378", "273" ],
@@ -1540,6 +1596,8 @@
         "block": "p",
         "set": "metal",
         "phase": "solid",
+        "electron_config": "<Ar> 3d[10] 4s[2] 4p[1]",
+        "shell": [ 2, 8, 18, 3 ],
         "hazardous": {
             "h": [ "290", "302", "412" ],
             "p": [ "234", "264", "270", "273", "301+312", "390" ],
@@ -1586,6 +1644,8 @@
         "block": "p",
         "set": "metalloid",
         "phase": "solid",
+        "electron_config": "<Ar> 3d[10] 4s[2] 4p[2]",
+        "shell": [ 2, 8, 18, 4 ],
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210" ],
@@ -1631,6 +1691,8 @@
         "block": "p",
         "set": "metalloid",
         "phase": "solid",
+        "electron_config": "<Ar> 3d[10] 4s[2] 4p[3]",
+        "shell": [ 2, 8, 18, 5 ],
         "hazardous": {
             "h": [ "301+331", "350", "410" ],
             "p": [ "264", "280", "301+310", "304+340+311" ],
@@ -1676,6 +1738,8 @@
         "block": "p",
         "set": "metalloid",
         "phase": "solid",
+        "electron_config": "<Ar> 3d[10] 4s[2] 4p[4]",
+        "shell": [ 2, 8, 18, 6 ],
         "hazardous": {
             "h": [ "331", "301", "373", "413" ],
             "p": [ "260", "273", "301+310", "304+340" ],
@@ -1722,6 +1786,8 @@
         "block": "p",
         "set": "halogen",
         "phase": "liquid",
+        "electron_config": "<Ar> 3d[10] 4s[2] 4p[5]",
+        "shell": [ 2, 8, 18, 7 ],
         "hazardous": {
             "h": [ "330", "314", "400" ],
             "p": [ "260", "273", "280", "303+361+353", "304+340+310", "305+351+338" ],
@@ -1768,6 +1834,8 @@
         "block": "p",
         "set": "noblegas",
         "phase": "gas",
+        "electron_config": "<Ar> 3d[10] 4s[2] 4p[6]",
+        "shell": [ 2, 8, 18, 8 ],
         "hazardous": {
             "h": [ "280" ],
             "p": [ "403" ],
