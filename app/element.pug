@@ -15,6 +15,7 @@ block social
 
 block styles
   link( rel="stylesheet", href="/css/element.css" )/
+  link( rel="stylesheet", href="/css/shell.css" )/
   link( rel="stylesheet", href="/css/microtable.css" )/
 
 block content
@@ -78,7 +79,8 @@ block content
             if element.shell
               tr.pt-prop-table-row
                 th.pt-prop-table-label= __( 'shell' )
-                td.pt-prop-table-value 
+                td.pt-prop-table-value
+                  include templates/shell.pug
       //- physical properties
       div.pt-box.pt-element-properties
         h2= __( 'prop-physical' )

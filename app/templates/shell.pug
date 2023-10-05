@@ -1,0 +1,19 @@
+//- templates/shell.pug
+div.pt-shell
+  div.pt-shell-info
+    div.pt-shell-line
+      b= __( 'electrons' )
+    each shell, index in element.shell
+      div.pt-shell-line
+        span= __( 'shell-' + ( index + 1 ) ) + ':'
+        b= shell
+  svg( viewbox="0 0 150 150" ).pt-shell-model
+    g.shells
+      circle( cx="75" cy="75" r="10" ).shell/
+      circle( cx="75" cy="75" r="20" ).shell/
+      circle( cx="75" cy="75" r="30" ).shell/
+      circle( cx="75" cy="75" r="40" ).shell/
+      circle( cx="75" cy="75" r="50" ).shell/
+      circle( cx="75" cy="75" r="60" ).shell/
+      circle( cx="75" cy="75" r="70" ).shell/
+    circle( cx="75" cy="75" r="2" ).nucleus/

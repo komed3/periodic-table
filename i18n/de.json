@@ -194,5 +194,13 @@
 	"sound_speed": "Schallgeschwindigkeit",
 	"heat_capacity": "Spezifische Wärmekapazität",
 	"thermal_conductivity": "Wärmeleitfähigkeit",
-	"refractive_index": "Brechungsindex"
+	"refractive_index": "Brechungsindex",
+	"electrons": "Elektronen",
+	"shell-1": "k-Schale",
+	"shell-2": "l-Schale",
+	"shell-3": "m-Schale",
+	"shell-4": "n-Schale",
+	"shell-5": "o-Schale",
+	"shell-6": "p-Schale",
+	"shell-7": "q-Schale"
 }

@@ -3483,6 +3483,7 @@
         "block": "d",
         "set": "transitionmetal",
         "phase": "solid",
+        "shell": [ 2, 8, 18, 32, 12, 2 ],
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210", "240", "241", "280", "370+378" ],
