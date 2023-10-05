@@ -9,10 +9,17 @@
     gap: 24px;
 }
 
-.pt-shell-model .shell {
+.pt-shell-model .shells circle {
     fill: none;
     stroke: var( --gray-4 );
     stroke-width: 0.25;
+}
+
+.pt-shell-model .electrons circle {
+    fill: none;
+    stroke: var( --accent-1 );
+    stroke-width: 4;
+    stroke-linecap: round;
 }
 
 .pt-shell-model .nucleus {

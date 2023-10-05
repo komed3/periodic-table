@@ -3,17 +3,26 @@ div.pt-shell
   div.pt-shell-info
     div.pt-shell-line
       b= __( 'electrons' )
-    each shell, index in element.shell
+    each electrons, shell in element.shell
       div.pt-shell-line
-        span= __( 'shell-' + ( index + 1 ) ) + ':'
-        b= shell
+        span= __( 'shell-' + ( shell + 1 ) ) + ':'
+        b= electrons
   svg( viewbox="0 0 150 150" ).pt-shell-model
     g.shells
-      circle( cx="75" cy="75" r="10" ).shell/
-      circle( cx="75" cy="75" r="20" ).shell/
-      circle( cx="75" cy="75" r="30" ).shell/
-      circle( cx="75" cy="75" r="40" ).shell/
-      circle( cx="75" cy="75" r="50" ).shell/
-      circle( cx="75" cy="75" r="60" ).shell/
-      circle( cx="75" cy="75" r="70" ).shell/
-    circle( cx="75" cy="75" r="2" ).nucleus/
+      circle( cx="75", cy="75", r="10" )/
+      circle( cx="75", cy="75", r="20" )/
+      circle( cx="75", cy="75", r="30" )/
+      circle( cx="75", cy="75", r="40" )/
+      circle( cx="75", cy="75", r="50" )/
+      circle( cx="75", cy="75", r="60" )/
+      circle( cx="75", cy="75", r="70" )/
+    g.electrons
+      each electrons, shell in element.shell
+        circle(
+          cx="75", cy="75",
+          r= ( rad = ( shell + 1 ) * 10 ),
+          stroke-dasharray="1," + (
+            ( ( 2 * Math.PI * rad ) - electrons ) / electrons
+          )
+        )/
+    circle( cx="75", cy="75", r="3" ).nucleus/
