@@ -155,5 +155,6 @@
 	"allen-negativity": "Allen-Skala",
 	"sanderson-negativity": "Sanderson-Skala",
 	"electronegativity": "Elektronegativität",
-	"oxidation-state": "Oxidationszustand"
+	"oxidation-state": "Oxidationszustand",
+	"electrode-potential": "Normalpotential"
 }

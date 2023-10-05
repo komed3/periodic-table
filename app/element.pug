@@ -86,6 +86,10 @@ block content
               tr.pt-prop-table-row
                 th.pt-prop-table-label= __( 'oxidation-state' )
                   td.pt-prop-table-value!= element.oxidation.join( ', ' )
+            if element.electrode_potential
+              tr.pt-prop-table-row
+                th.pt-prop-table-label= __( 'electrode-potential' )
+                  td.pt-prop-table-value!= core.fNumber( element.electrode_potential, locale )
             if element.negativity
               tr.pt-prop-table-row
                 th( colspan="2" ).pt-prop-table-label= __( 'electronegativity' )

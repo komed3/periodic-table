@@ -46,6 +46,10 @@
             "unit": "eV"
         },
         "oxidation": [ "+1", "0", "-1" ],
+        "electrode_potential": {
+            "value": 0,
+            "unit": "V"
+        },
         "negativity": {
             "pauling": 2.2,
             "sanderson": 2.59,
