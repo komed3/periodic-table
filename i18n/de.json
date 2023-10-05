@@ -156,5 +156,10 @@
 	"sanderson-negativity": "Sanderson-Skala",
 	"electronegativity": "Elektronegativität",
 	"oxidation-state": "Oxidationszustand",
-	"electrode-potential": "Normalpotential"
+	"electrode-potential": "Normalpotential",
+	"temperatures": "Temperaturen",
+	"melting-temp": "Schmelzpunkt",
+	"boiling-temp": "Siedepunkt",
+	"triple-temp": "Tripelpunkt",
+	"critical-temp": "Kritischer Punkt"
 }

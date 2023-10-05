@@ -45,6 +45,30 @@
             ],
             "unit": "eV"
         },
+        "melting": {
+            "value": 13.99,
+            "unit": "K"
+        },
+        "boiling": {
+            "value": 20.271,
+            "unit": "K"
+        },
+        "triple": {
+            "value": 13.8033,
+            "unit": "K",
+            "@": {
+                "value": 7.041,
+                "unit": "kPa"
+            }
+        },
+        "critical": {
+            "value": 32.938,
+            "unit": "K",
+            "@": {
+                "value": 1.2858,
+                "unit": "MPa"
+            }
+        },
         "oxidation": [ "+1", "0", "-1" ],
         "electrode_potential": {
             "value": 0,

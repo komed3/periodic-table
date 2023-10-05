@@ -77,6 +77,16 @@ block content
       //- physical properties
       div.pt-box.pt-element-properties
         h2= __( 'prop-physical' )
+        table.pt-prop-table.pt-element-table
+          tbody
+            tr.pt-prop-table-row
+              th( colspan="2" ).pt-prop-table-label= __( 'temperatures' )
+            each prop in [ 'melting', 'boiling', 'triple', 'critical' ]
+              if element[ prop ]
+                tr.pt-prop-table-row
+                  th.pt-prop-table-label
+                    a( href="/scale/" + prop )= __( prop + '-temp' )
+                  td.pt-prop-table-value!= core.fNumber( element[ prop ], locale )
       //- chemical properties
       div.pt-box.pt-element-properties
         h2= __( 'prop-chemical' )
@@ -85,11 +95,11 @@ block content
             if element.oxidation
               tr.pt-prop-table-row
                 th.pt-prop-table-label= __( 'oxidation-state' )
-                  td.pt-prop-table-value!= element.oxidation.join( ', ' )
+                td.pt-prop-table-value!= element.oxidation.join( ', ' )
             if element.electrode_potential
               tr.pt-prop-table-row
                 th.pt-prop-table-label= __( 'electrode-potential' )
-                  td.pt-prop-table-value!= core.fNumber( element.electrode_potential, locale )
+                td.pt-prop-table-value!= core.fNumber( element.electrode_potential, locale )
             if element.negativity
               tr.pt-prop-table-row
                 th( colspan="2" ).pt-prop-table-label= __( 'electronegativity' )
