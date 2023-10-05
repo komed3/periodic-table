@@ -194,6 +194,5 @@
 	"sound_speed": "Schallgeschwindigkeit",
 	"heat_capacity": "Spezifische Wärmekapazität",
 	"thermal_conductivity": "Wärmeleitfähigkeit",
-	"refractive_index": "Brechungsindex",
-	"vapor_pressure": "Dampfdruck"
+	"refractive_index": "Brechungsindex"
 }

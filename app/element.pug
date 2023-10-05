@@ -106,9 +106,6 @@ block content
                     a( href="/scale/" + prop )= __( prop )
                   td.pt-prop-table-value!= core.fNumber( element[ prop ], locale )
             tr.pt-prop-table-row
-              th.pt-prop-table-label= __( 'vapor_pressure' )
-              td.pt-prop-table-value 
-            tr.pt-prop-table-row
               th( colspan="2" ).pt-prop-table-label= __( 'temperatures' )
             each prop in [ 'melting', 'boiling', 'liquid_range', 'triple', 'critical' ]
               if element[ prop ]
