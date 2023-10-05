@@ -144,5 +144,11 @@
 	"covalent-radius": "Covalent radius",
 	"vdw-radius": "Van der Waals radius",
 	"ionization-energy": "Ionization energy",
-	"electron-config": "Electron configuration"
+	"electron-config": "Electron configuration",
+	"phase-label": "phase-label",
+	"phase-solid": "phase-solid",
+	"legend": "legend",
+	"phase-gas": "phase-gas",
+	"phase-liquid": "phase-liquid",
+	"phase-undefined": "phase-undefined"
 }
