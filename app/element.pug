@@ -75,6 +75,10 @@ block content
               tr.pt-prop-table-row
                 th.pt-prop-table-label= __( 'ionization-energy' )
                 td.pt-prop-table-value!= core.fNumber( element.ionization, locale )
+            if element.shell
+              tr.pt-prop-table-row
+                th.pt-prop-table-label= __( 'shell' )
+                td.pt-prop-table-value 
       //- physical properties
       div.pt-box.pt-element-properties
         h2= __( 'prop-physical' )
@@ -135,6 +139,18 @@ block content
       //- other properties
       div.pt-box.pt-element-properties
         h2= __( 'prop-other' )
+        table.pt-prop-table.pt-element-table
+          tbody
+            each prop in [ 'natural_occurrence', 'crystal_structure', 'magnetic_ordering' ]
+              if element[ prop ]
+                tr.pt-prop-table-row
+                  th.pt-prop-table-label= __( prop + '-label' )
+                  td.pt-prop-table-value
+                    a( href="/list/" + prop + "/" + element[ prop ] )= __( prop + '-' + element[ prop ] )
+            if element.magnetic_susceptibility
+              tr.pt-prop-table-row
+                th.pt-prop-table-label= __( 'magnetic-susceptibility' )
+                td.pt-prop-table-value!= core.fNumber( element.magnetic_susceptibility, locale )
       //- isotopes
       div.pt-box.pt-element-properties
         h2= __( 'prop-isotopes' )

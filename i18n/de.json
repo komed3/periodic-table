@@ -172,5 +172,13 @@
 	"phase-liquid": "flüssig",
 	"phase-solid": "fest",
 	"phase-label": "Aggregatzustand",
-	"phase-undefined": "Unbekannt"
+	"phase-undefined": "Unbekannt",
+	"shell": "Schalenmodel",
+	"natural_occurrence-label": "Natürliches Vorkommen",
+	"natural_occurrence-primordial": "primordial",
+	"crystal_structure-label": "Kristallstruktur",
+	"crystal_structure-hexagonal": "hexagonal",
+	"magnetic_ordering-label": "Magnetismus",
+	"magnetic_ordering-diamagnetic": "diamagnetisch",
+	"magnetic-susceptibility": "Magnetische Suszeptibilität"
 }

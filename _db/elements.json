@@ -120,6 +120,17 @@
             "mulliken": 2.25,
             "allen": 2.3
         },
+        "natural_occurrence": "primordial",
+        "crystal_structure": "hexagonal",
+        "magnetic_ordering": "diamagnetic",
+        "magnetic_susceptibility": {
+            "value": -0.00000398,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [ {
+                "value": 298,
+                "unit": "K"
+            } ]
+        },
         "hazardous": {
             "h": [ "220", "280" ],
             "p": [ "202", "210", "271", "377", "381", "403" ],
