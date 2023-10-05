@@ -79,7 +79,7 @@ if( process.argv[2] == undefined ) {
          * create language directory
          */
 
-        fs.mkdirSync( dir );
+        fs.mkdirSync( dir, { recursive: true } );
 
     }
 
