@@ -134,6 +134,7 @@ if( process.argv[2] == undefined ) {
                             .replaceAll( '()', '' )
                             .replaceAll( '[]', '' )
                             .replaceAll( '{}', '' )
+                            .replaceAll( /\.(\S)/g, '. $1' )
                             .split( /\r?\n|\r|\n/g );
 
                         /**
