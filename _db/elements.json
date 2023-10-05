@@ -47,21 +47,24 @@
         },
         "density": {
             "value": 8.988,
-            "gas": {
-                "value": 8.988,
-                "unit": "g·cm[−3]",
-                "condition": [ {
-                    "value": 273,
-                    "unit": "K"
-                } ]
-            },
-            "liquid": {
-                "value": 70.9,
-                "unit": "g·l[−1]",
-                "condition": [ {
-                    "value": 20.324,
-                    "unit": "K"
-                } ]
+            "unit": "g·cm[−3]",
+            "phases": {
+                "gas": {
+                    "value": 8.988,
+                    "unit": "g·cm[−3]",
+                    "condition": [ {
+                        "value": 273,
+                        "unit": "K"
+                    } ]
+                },
+                "liquid": {
+                    "value": 70.9,
+                    "unit": "g·l[−1]",
+                    "condition": [ {
+                        "value": 20.324,
+                        "unit": "K"
+                    } ]
+                }
             }
         },
         "phase": "gas",
