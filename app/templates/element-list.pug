@@ -16,4 +16,4 @@ div.pt-element-list( layer=layer )
       div.element--info
         a( href= '/e/' + el.symbol ).element--name= el.names[ locale ]
         if el.appearance && locale in el.appearance
-          span.element--desc!= core.parseText( el.appearance[ locale ] )
+          span.element--desc!= core.fText( el.appearance[ locale ] )

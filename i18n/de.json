@@ -147,5 +147,6 @@
 	"atomic-mass": "Atommasse",
 	"covalent-radius": "Kovalenter Radius",
 	"vdw-radius": "Van-der-Waals-Radius",
-	"ionization-energy": "Ionisierungsenergie"
+	"ionization-energy": "Ionisierungsenergie",
+	"electron-config": "Elektronenkonfiguration"
 }

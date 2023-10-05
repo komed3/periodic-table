@@ -21,8 +21,10 @@
         "block": "s",
         "set": "nonmetal",
         "electron_config": "1s[1]",
+        "shell": [ 1 ],
         "atomic_mass": {
             "value": 1.008,
+            "deviation": 0.0002,
             "range": [ 1.00784, 1.00811 ],
             "unit": "u"
         },

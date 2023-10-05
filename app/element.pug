@@ -66,6 +66,10 @@ block content
                 tr.pt-prop-table-row
                   th.pt-prop-table-label= __( label + '-radius' )
                   td.pt-prop-table-value!= core.fNumber( prop, locale )
+            if element.electron_config
+              tr.pt-prop-table-row
+                th.pt-prop-table-label= __( 'electron-config' )
+                td.pt-prop-table-value!= core.fText( element.electron_config )
             if element.ionization
               tr.pt-prop-table-row
                 th.pt-prop-table-label= __( 'ionization-energy' )
@@ -176,7 +180,7 @@ block content
                           target="_blank"
                         )= c.value
                       if c.label && c.label.length
-                        span!= "&nbsp;(" + core.parseText( c.label ) + ")"
+                        span!= "&nbsp;(" + core.fText( c.label ) + ")"
     //- footer
     div.pt-element-footer
       //- tpl:microtable
