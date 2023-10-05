@@ -143,5 +143,9 @@
 	"search-title": "search-title",
 	"search-description": "search-description",
 	"legend": "Legende",
-	"set-undefined": "Unbekannt"
+	"set-undefined": "Unbekannt",
+	"atomic-mass": "Atommasse",
+	"covalent-radius": "Kovalenter Radius",
+	"vdw-radius": "Van-der-Waals-Radius",
+	"ionization-energy": "Ionisierungsenergie"
 }

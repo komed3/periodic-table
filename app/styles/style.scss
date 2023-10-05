@@ -171,10 +171,19 @@ select {
     border-spacing: 6px;
 }
 
+.pt-prop-table a {
+    color: var( --accent-1 );
+}
+
+.pt-prop-table a:hover {
+    text-decoration: underline;
+}
+
 .pt-prop-table-label,
 .pt-prop-table-value {
-    padding: 6px 10px;
+    padding: 5px 10px;
     vertical-align: top;
+    line-height: 1.5;
     font-family: 'Roboto Mono', monospace;
     font-size: 14px;
 }
@@ -182,14 +191,6 @@ select {
 .pt-prop-table-label {
     text-align: left;
     background: var( --gray-1 );
-}
-
-.pt-prop-table-value a {
-    color: var( --accent-1 );
-}
-
-.pt-prop-table-value a:hover {
-    text-decoration: underline;
 }
 
 /**

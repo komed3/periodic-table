@@ -20,6 +20,29 @@
         "column": 1,
         "block": "s",
         "set": "nonmetal",
+        "electron_config": "1s[1]",
+        "atomic_mass": {
+            "value": 1.008,
+            "range": [ 1.00784, 1.00811 ],
+            "unit": "u"
+        },
+        "radius": {
+            "covalent": {
+                "value": 31,
+                "deviation": 5,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 120,
+                "unit": "pm"
+            }
+        },
+        "ionization": {
+            "values": [
+                13.598434498
+            ],
+            "unit": "eV"
+        },
         "hazardous": {
             "h": [ "220", "280" ],
             "p": [ "202", "210", "271", "377", "381", "403" ],
