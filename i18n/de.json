@@ -180,5 +180,10 @@
 	"crystal_structure-hexagonal": "hexagonal",
 	"magnetic_ordering-label": "Magnetismus",
 	"magnetic_ordering-diamagnetic": "diamagnetisch",
-	"magnetic-susceptibility": "Magnetische Suszeptibilität"
+	"magnetic-susceptibility": "Magnetische Suszeptibilität",
+	"appearance": "Aussehen",
+	"name": "Name",
+	"symbol": "Symbol",
+	"number": "Ordnungszahl",
+	"latin": "Lateinisch"
 }
