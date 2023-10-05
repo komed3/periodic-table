@@ -148,5 +148,10 @@
 	"covalent-radius": "Kovalenter Radius",
 	"vdw-radius": "Van-der-Waals-Radius",
 	"ionization-energy": "Ionisierungsenergie",
-	"electron-config": "Elektronenkonfiguration"
+	"electron-config": "Elektronenkonfiguration",
+	"allred-negativity": "Allred-Rochow-Skala",
+	"pauling-negativity": "Pauling-Skala",
+	"mulliken-negativity": "Mulliken-Skala",
+	"allen-negativity": "Allen-Skala",
+	"electronegativity": "Elektronegativität"
 }
