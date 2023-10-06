@@ -189,4 +189,11 @@ if( process.argv[2] == undefined ) {
 
     }
 
+    /**
+     * recommend to rebuild search index
+     */
+
+    console.log( 'to rebuild the search index, use the following command:' );
+    console.log( 'npm run buildSeachIndex -- ' + locale );
+
 }
