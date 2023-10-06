@@ -232,5 +232,11 @@
 	"earth_total": "gesamte Erde",
 	"earth_envelope": "Erdhülle",
 	"earth_crust": "kontinentale Erdkruste",
-	"earth_oceans": "Ozeane"
+	"earth_oceans": "Ozeane",
+	"goldschmidt-label": "Goldschmidt-Klassifikation",
+	"goldschmidt-atmophile": "atmophil",
+	"goldschmidt-chalcophile": "chalcophil",
+	"goldschmidt-siderophile": "siderophil",
+	"goldschmidt-synthetic": "synthetisch",
+	"goldschmidt-lithophile": "lithophil"
 }

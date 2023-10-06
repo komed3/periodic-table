@@ -145,6 +145,7 @@
             "allen": 2.3
         },
         "natural_occurrence": "primordial",
+        "goldschmidt": "atmophile",
         "crystal_structure": "hexagonal",
         "magnetic_ordering": "diamagnetic",
         "magnetic_susceptibility": {
@@ -327,6 +328,7 @@
             ],
             "unit": "eV"
         },
+        "goldschmidt": "atmophile",
         "hazardous": {
             "h": [ "280" ],
             "p": [ "403" ],
@@ -377,6 +379,7 @@
         "phase": "solid",
         "electron_config": "<e:He> 2s[1]",
         "shell": [ 2, 1 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "260", "314" ],
             "p": [ "223", "280", "231+232", "305+351+338", "370+378" ],
@@ -425,6 +428,7 @@
         "phase": "solid",
         "electron_config": "<e:He> 2s[2]",
         "shell": [ 2, 2 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "301", "315", "317", "319", "330", "335", "350i", "372" ],
             "p": [ "201", "260", "280", "284", "301+310+330", "304+340+310" ],
@@ -473,6 +477,7 @@
         "phase": "solid",
         "electron_config": "<e:He> 2s[2] 2p[1]",
         "shell": [ 2, 3 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "302", "412" ],
             "p": [ "264", "270", "273", "301+312", "501" ],
@@ -519,6 +524,7 @@
         "phase": "solid",
         "electron_config": "<e:He> 2s[2] 2p[2]",
         "shell": [ 2, 4 ],
+        "goldschmidt": "atmophile",
         "hazardous": null,
         "classification": {
             "cas": [ {
@@ -567,6 +573,7 @@
         "phase": "gas",
         "electron_config": "<e:He> 2s[2] 2p[3]",
         "shell": [ 2, 5 ],
+        "goldschmidt": "atmophile",
         "hazardous": {
             "h": [ "280" ],
             "p": [ "403" ],
@@ -613,6 +620,7 @@
         "phase": "gas",
         "electron_config": "<e:He> 2s[2] 2p[4]",
         "shell": [ 2, 6 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "270", "280" ],
             "p": [ "244", "220", "370+376", "403" ],
@@ -665,6 +673,7 @@
         "phase": "gas",
         "electron_config": "<e:He> 2s[2] 2p[5]",
         "shell": [ 2, 7 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "270", "280", "330", "314" ],
             "p": [ "260", "280", "244", "220", "304+340", "303+361+353", "305+351+338", "315", "370+376", "405", "403" ],
@@ -713,6 +722,7 @@
         "phase": "gas",
         "electron_config": "<e:He> 2s[2] 2p[6]",
         "shell": [ 2, 8 ],
+        "goldschmidt": "atmophile",
         "hazardous": {
             "h": [ "280" ],
             "p": [ "403" ],
@@ -759,6 +769,7 @@
         "phase": "solid",
         "electron_config": "<e:Ne> 3s[1]",
         "shell": [ 2, 8, 1 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "260", "314" ],
             "p": [ "223", "231+232", "260", "280", "303+361+353", "305+351+338" ],
@@ -807,6 +818,7 @@
         "phase": "solid",
         "electron_config": "<e:Ne> 3s[2]",
         "shell": [ 2, 8, 2 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "260", "250" ],
             "p": [ "210", "222", "223", "231+232", "233", "280" ],
@@ -858,6 +870,7 @@
         "phase": "solid",
         "electron_config": "<e:Ne> 3s[2] 3p[1]",
         "shell": [ 2, 8, 3 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "250", "261" ],
             "p": [ "222", "231+232" ],
@@ -905,6 +918,7 @@
         "phase": "solid",
         "electron_config": "<e:Ne> 3s[2] 3p[2]",
         "shell": [ 2, 8, 4 ],
+        "goldschmidt": "lithophile",
         "hazardous": null,
         "classification": {
             "cas": [ {
@@ -946,6 +960,7 @@
         "phase": "solid",
         "electron_config": "<e:Ne> 3s[2] 3p[3]",
         "shell": [ 2, 8, 5 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "250", "300+330", "314", "400" ],
             "p": [ "233", "273", "280", "301+310+330", "303+361+353", "304+340+310", "305+351+338+310" ],
@@ -998,6 +1013,7 @@
         "phase": "solid",
         "electron_config": "<e:Ne> 3s[2] 3p[4]",
         "shell": [ 2, 8, 6 ],
+        "goldschmidt": "chalcophile",
         "hazardous": {
             "h": [ "315" ],
             "p": null,
@@ -1048,6 +1064,7 @@
         "phase": "gas",
         "electron_config": "<e:Ne> 3s[2] 3p[5]",
         "shell": [ 2, 8, 7 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "270", "280", "330", "315", "319", "335", "400" ],
             "p": [ "260", "220", "280", "244", "273", "304+340", "305+351+338 332+313", "370+376", "302+352", "315", "405", "403" ],
@@ -1096,6 +1113,7 @@
         "phase": "gas",
         "electron_config": "<e:Ne> 3s[2] 3p[6]",
         "shell": [ 2, 8, 8 ],
+        "goldschmidt": "atmophile",
         "hazardous": {
             "h": [ "280" ],
             "p": [ "403" ],
@@ -1142,6 +1160,7 @@
         "phase": "solid",
         "electron_config": "<e:Ar> 4s[1]",
         "shell": [ 2, 8, 8, 1 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "260", "314" ],
             "p": [ "223", "231+232", "280", "305+351+338", "370+378" ],
@@ -1190,6 +1209,7 @@
         "phase": "solid",
         "electron_config": "<e:Ar> 4s[2]",
         "shell": [ 2, 8, 8, 2 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "261" ],
             "p": [ "223", "232", "501", "402+404" ],
@@ -1241,6 +1261,7 @@
         "phase": "solid",
         "electron_config": "<e:Ar> 3d[1] 4s[2]",
         "shell": [ 2, 8, 9, 2 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210" ],
@@ -1287,6 +1308,7 @@
         "phase": "solid",
         "electron_config": "<e:Ar> 3d[2] 4s[2]",
         "shell": [ 2, 8, 10, 2 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "250", "252" ],
             "p": [ "210", "222", "280", "420" ],
@@ -1333,6 +1355,7 @@
         "phase": "solid",
         "electron_config": "<e:Ar> 3d[3] 4s[2]",
         "shell": [ 2, 8, 11, 2 ],
+        "goldschmidt": "lithophile",
         "hazardous": null,
         "classification": {
             "cas": [ {
@@ -1374,6 +1397,7 @@
         "phase": "solid",
         "electron_config": "<e:Ar> 3d[5] 4s[1]",
         "shell": [ 2, 8, 13, 1 ],
+        "goldschmidt": "lithophile",
         "hazardous": null,
         "classification": {
             "cas": [ {
@@ -1415,6 +1439,7 @@
         "phase": "solid",
         "electron_config": "<e:Ar> 3d[5] 4s[2]",
         "shell": [ 2, 8, 13, 2 ],
+        "goldschmidt": "siderophile",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210", "240", "241", "280", "370+378" ],
@@ -1463,6 +1488,7 @@
         "phase": "solid",
         "electron_config": "<e:Ar> 3d[6] 4s[2]",
         "shell": [ 2, 8, 14, 2 ],
+        "goldschmidt": "siderophile",
         "hazardous": null,
         "classification": {
             "cas": [ {
@@ -1504,6 +1530,7 @@
         "phase": "solid",
         "electron_config": "<e:Ar> 3d[7] 4s[2]",
         "shell": [ 2, 8, 15, 2 ],
+        "goldschmidt": "siderophile",
         "hazardous": {
             "h": [ "228", "302", "330", "319", "317", "334", "341", "350", "360F", "410" ],
             "p": [ "201", "202", "210", "280", "308+313", "501" ],
@@ -1552,6 +1579,7 @@
         "phase": "solid",
         "electron_config": "<e:Ar> 3d[8] 4s[2]",
         "shell": [ 2, 8, 16, 2 ],
+        "goldschmidt": "siderophile",
         "hazardous": {
             "h": [ "228", "351", "372", "317", "412" ],
             "p": [ "210", "302+352", "201", "280", "308+313" ],
@@ -1599,6 +1627,7 @@
         "phase": "solid",
         "electron_config": "<e:Ar> 3d[10] 4s[1]",
         "shell": [ 2, 8, 18, 1 ],
+        "goldschmidt": "chalcophile",
         "hazardous": {
             "h": [ "228", "410" ],
             "p": [ "210", "273" ],
@@ -1645,6 +1674,7 @@
         "phase": "solid",
         "electron_config": "<e:Ar> 3d[10] 4s[2]",
         "shell": [ 2, 8, 18, 2 ],
+        "goldschmidt": "chalcophile",
         "hazardous": {
             "h": [ "250", "260", "410" ],
             "p": [ "222", "210", "231+232", "280", "370+378", "273" ],
@@ -1695,6 +1725,7 @@
         "phase": "solid",
         "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[1]",
         "shell": [ 2, 8, 18, 3 ],
+        "goldschmidt": "chalcophile",
         "hazardous": {
             "h": [ "290", "302", "412" ],
             "p": [ "234", "264", "270", "273", "301+312", "390" ],
@@ -1743,6 +1774,7 @@
         "phase": "solid",
         "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[2]",
         "shell": [ 2, 8, 18, 4 ],
+        "goldschmidt": "chalcophile",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210" ],
@@ -1790,6 +1822,7 @@
         "phase": "solid",
         "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[3]",
         "shell": [ 2, 8, 18, 5 ],
+        "goldschmidt": "chalcophile",
         "hazardous": {
             "h": [ "301+331", "350", "410" ],
             "p": [ "264", "280", "301+310", "304+340+311" ],
@@ -1837,6 +1870,7 @@
         "phase": "solid",
         "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[4]",
         "shell": [ 2, 8, 18, 6 ],
+        "goldschmidt": "chalcophile",
         "hazardous": {
             "h": [ "331", "301", "373", "413" ],
             "p": [ "260", "273", "301+310", "304+340" ],
@@ -1885,6 +1919,7 @@
         "phase": "liquid",
         "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[5]",
         "shell": [ 2, 8, 18, 7 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "330", "314", "400" ],
             "p": [ "260", "273", "280", "303+361+353", "304+340+310", "305+351+338" ],
@@ -1933,6 +1968,7 @@
         "phase": "gas",
         "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[6]",
         "shell": [ 2, 8, 18, 8 ],
+        "goldschmidt": "atmophile",
         "hazardous": {
             "h": [ "280" ],
             "p": [ "403" ],
@@ -1983,6 +2019,7 @@
         "phase": "solid",
         "electron_config": "<e:Kr> 5s[1]",
         "shell": [ 2, 8, 18, 8, 1 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "260", "314" ],
             "p": [ "223", "231+232", "280", "305+351+338", "370+378" ],
@@ -2031,6 +2068,7 @@
         "phase": "solid",
         "electron_config": "<e:Kr> 5s[2]",
         "shell": [ 2, 8, 18, 8, 2 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "260", "315" ],
             "p": [ "223", "231+232", "370+378" ],
@@ -2079,6 +2117,7 @@
         "phase": "solid",
         "electron_config": "<e:Kr> 4d[1] 5s[2]",
         "shell": [ 2, 8, 18, 9, 2 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210", "241", "280", "241", "370+378" ],
@@ -2125,6 +2164,7 @@
         "phase": "solid",
         "electron_config": "<e:Kr> 4d[2] 5s[2]",
         "shell": [ 2, 8, 18, 10, 2 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "250", "260" ],
             "p": [ "222", "223", "231+232", "370+378​" ],
@@ -2172,6 +2212,7 @@
         "phase": "solid",
         "electron_config": "<e:Kr> 4d[4] 5s[1]",
         "shell": [ 2, 8, 18, 12, 1 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210" ],
@@ -2219,6 +2260,7 @@
         "phase": "solid",
         "electron_config": "<e:Kr> 4d[5] 5s[1]",
         "shell": [ 2, 8, 18, 13, 1 ],
+        "goldschmidt": "siderophile",
         "hazardous": null,
         "classification": {
             "cas": [ {
@@ -2260,6 +2302,7 @@
         "phase": "solid",
         "electron_config": "<e:Kr> 4d[5] 5s[2]",
         "shell": [ 2, 8, 18, 13, 2 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -2302,6 +2345,7 @@
         "phase": "solid",
         "electron_config": "<e:Kr> 4d[7] 5s[1]",
         "shell": [ 2, 8, 18, 15, 1 ],
+        "goldschmidt": "siderophile",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210" ],
@@ -2348,6 +2392,7 @@
         "phase": "solid",
         "electron_config": "<e:Kr> 4d[8] 5s[1]",
         "shell": [ 2, 8, 18, 16, 1 ],
+        "goldschmidt": "siderophile",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "20" ],
@@ -2395,6 +2440,7 @@
         "phase": "solid",
         "electron_config": "<e:Kr> 4d[10]",
         "shell": [ 2, 8, 18, 18 ],
+        "goldschmidt": "siderophile",
         "hazardous": {
             "h": [ "317" ],
             "p": [ "261", "273", "280", "302+352", "321", "333+313", "363", "501" ],
@@ -2441,6 +2487,7 @@
         "phase": "solid",
         "electron_config": "<e:Kr> 4d[10] 5s[1]",
         "shell": [ 2, 8, 18, 18, 1 ],
+        "goldschmidt": "chalcophile",
         "hazardous": {
             "h": [ "410" ],
             "p": [ "273", "391", "501" ],
@@ -2491,6 +2538,7 @@
         "phase": "solid",
         "electron_config": "<e:Kr> 4d[10] 5s[2]",
         "shell": [ 2, 8, 18, 18, 2 ],
+        "goldschmidt": "chalcophile",
         "hazardous": {
             "h": [ "250", "350", "330", "361fd", "341", "372", "410" ],
             "p": [ "210", "260", "273", "280", "308+313", "391", "405", "501" ],
@@ -2542,6 +2590,7 @@
         "phase": "solid",
         "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[1]",
         "shell": [ 2, 8, 18, 18, 3 ],
+        "goldschmidt": "chalcophile",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210", "241", "280", "240", "370+378" ],
@@ -2589,6 +2638,7 @@
         "phase": "solid",
         "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[2]",
         "shell": [ 2, 8, 18, 18, 4 ],
+        "goldschmidt": "chalcophile",
         "hazardous": null,
         "classification": {
             "cas": [ {
@@ -2630,6 +2680,7 @@
         "phase": "solid",
         "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[3]",
         "shell": [ 2, 8, 18, 18, 5 ],
+        "goldschmidt": "chalcophile",
         "hazardous": {
             "h": [ "351" ],
             "p": [ "201", "202", "308+313" ],
@@ -2677,6 +2728,7 @@
         "phase": "solid",
         "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[4]",
         "shell": [ 2, 8, 18, 18, 6 ],
+        "goldschmidt": "chalcophile",
         "hazardous": {
             "h": [ "332", "317", "360", "362", "413" ],
             "p": [ "202", "273", "280", "302+352", "304+340+312", "308+313" ],
@@ -2724,6 +2776,7 @@
         "phase": "solid",
         "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[5]",
         "shell": [ 2, 8, 18, 18, 7 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "312+332", "315", "319", "335", "372", "400" ],
             "p": [ "273", "302+352", "305+351+338", "314" ],
@@ -2789,6 +2842,7 @@
         "phase": "gas",
         "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[6]",
         "shell": [ 2, 8, 18, 18, 8 ],
+        "goldschmidt": "atmophile",
         "hazardous": {
             "h": [ "280" ],
             "p": [ "403" ],
@@ -2845,6 +2899,7 @@
         "phase": "solid",
         "electron_config": "<e:Xe> 6s[1]",
         "shell": [ 2, 8, 18, 18, 8, 1 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "260", "314" ],
             "p": [ "231+232", "260", "280", "305+351+338", "370+378" ],
@@ -2893,6 +2948,7 @@
         "phase": "solid",
         "electron_config": "<e:Xe> 6s[2]",
         "shell": [ 2, 8, 18, 18, 8, 2 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "228", "260", "301", "314" ],
             "p": [ "210", "231+232", "260", "280", "303+361+353", "304+340+310", "305+351+338" ],
@@ -2941,6 +2997,7 @@
         "phase": "solid",
         "electron_config": "<e:Xe> 5d[1] 6s[2]",
         "shell": [ 2, 8, 18, 18, 9, 2 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210" ],
@@ -2988,6 +3045,7 @@
         "phase": "solid",
         "electron_config": "<e:Xe> 4f[1] 5d[1] 6s[2]",
         "shell": [ 2, 8, 18, 19, 9, 2 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "231+232", "233", "280", "370+378", "402+404", "501" ],
@@ -3035,6 +3093,7 @@
         "phase": "solid",
         "electron_config": "<e:Xe> 4f[3] 6s[2]",
         "shell": [ 2, 8, 18, 21, 8, 2 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "250" ],
             "p": [ "222", "231", "422" ],
@@ -3082,6 +3141,7 @@
         "phase": "solid",
         "electron_config": "<e:Xe> 4f[4] 6s[2]",
         "shell": [ 2, 8, 18, 22, 8, 2 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "315", "319", "335" ],
             "p": [ "261", "305+351+338" ],
@@ -3125,6 +3185,7 @@
         "phase": "solid",
         "electron_config": "<e:Xe> 4f[5] 6s[2]",
         "shell": [ 2, 8, 18, 23, 8, 2 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -3167,6 +3228,7 @@
         "phase": "solid",
         "electron_config": "<e:Xe> 4f[6] 6s[2]",
         "shell": [ 2, 8, 18, 24, 8, 2 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "261" ],
             "p": [ "231+232", "280", "370+378", "501" ],
@@ -3214,6 +3276,7 @@
         "phase": "solid",
         "electron_config": "<e:Xe> 4f[7] 6s[2]",
         "shell": [ 2, 8, 18, 25, 8, 2 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "250" ],
             "p": [ "222", "231+232", "422" ],
@@ -3261,6 +3324,7 @@
         "phase": "solid",
         "electron_config": "<e:Xe> 4f[7] 5d[1] 6s[2]",
         "shell": [ 2, 8, 18, 25, 9, 2 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "261" ],
             "p": [ "231+232", "422" ],
@@ -3308,6 +3372,7 @@
         "phase": "solid",
         "electron_config": "<e:Xe> 4f[9] 6s[2]",
         "shell": [ 2, 8, 18, 27, 8, 2 ],
+        "goldschmidt": "lithophile",
         "hazardous": null,
         "classification": {
             "cas": [ {
@@ -3349,6 +3414,7 @@
         "phase": "solid",
         "electron_config": "<e:Xe> 4f[10] 6s[2]",
         "shell": [ 2, 8, 18, 28, 8, 2 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210" ],
@@ -3396,6 +3462,7 @@
         "phase": "solid",
         "electron_config": "<e:Xe> 4f[11] 6s[2]",
         "shell": [ 2, 8, 18, 29, 8, 2 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210" ],
@@ -3443,6 +3510,7 @@
         "phase": "solid",
         "electron_config": "<e:Xe> 4f[12] 6s[2]",
         "shell": [ 2, 8, 18, 30, 8, 2 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210" ],
@@ -3490,6 +3558,7 @@
         "phase": "solid",
         "electron_config": "<e:Xe> 4f[13] 6s[2]",
         "shell": [ 2, 8, 18, 31, 8, 2 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "228", "319", "335" ],
             "p": [ "210", "261", "305+351+338" ],
@@ -3537,6 +3606,7 @@
         "phase": "solid",
         "electron_config": "<e:Xe> 4f[14] 6s[2]",
         "shell": [ 2, 8, 18, 32, 8, 2 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "228", "302", "312", "315", "319", "332", "335" ],
             "p": [ "210", "261", "280", "305+351+338" ],
@@ -3584,6 +3654,7 @@
         "phase": "solid",
         "electron_config": "<e:Xe> 4f[14] 5d[1] 6s[2]",
         "shell": [ 2, 8, 18, 32, 9, 2 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210" ],
@@ -3630,6 +3701,7 @@
         "phase": "solid",
         "electron_config": "<e:Xe> 4f[14] 5d[2] 6s[2]",
         "shell": [ 2, 8, 18, 32, 10, 2 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "250" ],
             "p": [ "210" ],
@@ -3677,6 +3749,7 @@
         "phase": "solid",
         "electron_config": "<e:Xe> 4f[14] 5d[3] 6s[2]",
         "shell": [ 2, 8, 18, 32, 11, 2 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210", "240", "241", "280", "370+378" ],
@@ -3724,6 +3797,7 @@
         "phase": "solid",
         "electron_config": "<e:Xe> 4f[14] 5d[4] 6s[2]",
         "shell": [ 2, 8, 18, 32, 12, 2 ],
+        "goldschmidt": "siderophile",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210", "240", "241", "280", "370+378" ],
@@ -3771,6 +3845,7 @@
         "phase": "solid",
         "electron_config": "<e:Xe> 4f[14] 5d[5] 6s[2]",
         "shell": [ 2, 8, 18, 32, 13, 2 ],
+        "goldschmidt": "siderophile",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210" ],
@@ -3818,6 +3893,7 @@
         "phase": "solid",
         "electron_config": "<e:Xe> 4f[14] 5d[6] 6s[2]",
         "shell": [ 2, 8, 18, 32, 14, 2 ],
+        "goldschmidt": "siderophile",
         "hazardous": {
             "h": [ "228", "315", "318", "335" ],
             "p": [ "210", "261", "280", "302+352", "305+351+338" ],
@@ -3865,6 +3941,7 @@
         "phase": "solid",
         "electron_config": "<e:Xe> 4f[14] 5d[7] 6s[2]",
         "shell": [ 2, 8, 18, 32, 15, 2 ],
+        "goldschmidt": "siderophile",
         "hazardous": {
             "h": [ "228", "319" ],
             "p": [ "210" ],
@@ -3912,6 +3989,7 @@
         "phase": "solid",
         "electron_config": "<e:Xe> 4f[14] 5d[9] 6s[1]",
         "shell": [ 2, 8, 18, 32, 17, 1 ],
+        "goldschmidt": "siderophile",
         "hazardous": null,
         "classification": {
             "cas": [ {
@@ -3953,6 +4031,7 @@
         "phase": "solid",
         "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[1]",
         "shell": [ 2, 8, 18, 32, 18, 1 ],
+        "goldschmidt": "siderophile",
         "hazardous": null,
         "classification": {
             "cas": [ {
@@ -3994,6 +4073,7 @@
         "phase": "liquid",
         "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2]",
         "shell": [ 2, 8, 18, 32, 18, 2 ],
+        "goldschmidt": "chalcophile",
         "hazardous": {
             "h": [ "330", "360D", "372", "410" ],
             "p": [ "201", "233", "260", "273", "280", "304", "308", "310", "313", "340", "391", "403" ],
@@ -4045,6 +4125,7 @@
         "phase": "solid",
         "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[1]",
         "shell": [ 2, 8, 18, 32, 18, 3 ],
+        "goldschmidt": "chalcophile",
         "hazardous": {
             "h": [ "300", "330", "373", "413" ],
             "p": [ "260", "264", "284", "301+310" ],
@@ -4093,6 +4174,7 @@
         "phase": "solid",
         "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[2]",
         "shell": [ 2, 8, 18, 32, 18, 4 ],
+        "goldschmidt": "chalcophile",
         "hazardous": {
             "h": [ "302", "332", "351", "360Df", "373", "410" ],
             "p": [ "201", "261", "273", "304", "308", "312", "313", "340", "391" ],
@@ -4141,6 +4223,7 @@
         "phase": "solid",
         "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[3]",
         "shell": [ 2, 8, 18, 32, 18, 5 ],
+        "goldschmidt": "chalcophile",
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210", "370+378" ],
@@ -4184,6 +4267,7 @@
         "phase": "solid",
         "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[4]",
         "shell": [ 2, 8, 18, 32, 18, 6 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4223,6 +4307,7 @@
         "phase": "solid",
         "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[5]",
         "shell": [ 2, 8, 18, 32, 18, 7 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4257,6 +4342,7 @@
         "phase": "gas",
         "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[6]",
         "shell": [ 2, 8, 18, 32, 18, 8 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4295,6 +4381,7 @@
         "phase": "solid",
         "electron_config": "<e:Rn> 7s[1]",
         "shell": [ 2, 8, 18, 32, 18, 8, 1 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4333,6 +4420,7 @@
         "phase": "solid",
         "electron_config": "<e:Rn> 7s[2]",
         "shell": [ 2, 8, 18, 32, 18, 8, 2 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4375,6 +4463,7 @@
         "phase": "solid",
         "electron_config": "<e:Rn> 6d[1] 7s[2]",
         "shell": [ 2, 8, 18, 32, 18, 9, 2 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4413,6 +4502,7 @@
         "phase": "solid",
         "electron_config": "<e:Rn> 6d[2] 7s[2]",
         "shell": [ 2, 8, 18, 32, 18, 10, 2 ],
+        "goldschmidt": "lithophile",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4455,6 +4545,7 @@
         "phase": "solid",
         "electron_config": "<e:Rn> 5f[2] 6d[1] 7s[2]",
         "shell": [ 2, 8, 18, 32, 20, 9, 2 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4497,6 +4588,7 @@
         "phase": "solid",
         "electron_config": "<e:Rn> 5f[3] 6d[1] 7s[2]",
         "shell": [ 2, 8, 18, 32, 21, 9, 2 ],
+        "goldschmidt": "lithophile",
         "hazardous": {
             "h": [ "330", "300", "373", "413" ],
             "p": [ "?" ],
@@ -4546,6 +4638,7 @@
         "phase": "solid",
         "electron_config": "<e:Rn> 5f[4] 6d[1] 7s[2]",
         "shell": [ 2, 8, 18, 32, 22, 9, 2 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4588,6 +4681,7 @@
         "phase": "solid",
         "electron_config": "<e:Rn> 5f[6] 7s[2]",
         "shell": [ 2, 8, 18, 32, 24, 8, 2 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4630,6 +4724,7 @@
         "phase": "solid",
         "electron_config": "<e:Rn> 5f[7] 7s[2]",
         "shell": [ 2, 8, 18, 32, 25, 8, 2 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4668,6 +4763,7 @@
         "phase": "solid",
         "electron_config": "<e:Rn> 5f[7] 6d[1] 7s[2]",
         "shell": [ 2, 8, 18, 32, 25, 9, 2 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4706,6 +4802,7 @@
         "phase": "solid",
         "electron_config": "<e:Rn> 5f[9] 7s[2]",
         "shell": [ 2, 8, 18, 32, 27, 8, 2 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4744,6 +4841,7 @@
         "phase": "solid",
         "electron_config": "<e:Rn> 5f[10] 7s[2]",
         "shell": [ 2, 8, 18, 32, 28, 8, 2 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4781,6 +4879,7 @@
         "phase": "solid",
         "electron_config": "<e:Rn> 5f[11] 7s[2]",
         "shell": [ 2, 8, 18, 32, 29, 8, 2 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4811,6 +4910,7 @@
         "phase": "solid",
         "electron_config": "<e:Rn> 5f[12] 7s[2]",
         "shell": [ 2, 8, 18, 32, 30, 8, 2 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4841,6 +4941,7 @@
         "phase": "solid",
         "electron_config": "<e:Rn> 5f[13] 7s[2]",
         "shell": [ 2, 8, 18, 32, 31, 8, 2 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4871,6 +4972,7 @@
         "phase": "solid",
         "electron_config": "<e:Rn> 5f[14] 7s[2]",
         "shell": [ 2, 8, 18, 32, 32, 8, 2 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4901,6 +5003,7 @@
         "phase": "solid",
         "electron_config": "<e:Rn> 5f[14] 7s[2] 7p[1]",
         "shell": [ 2, 8, 18, 32, 32, 8, 3 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4933,6 +5036,7 @@
         "set": "transitionmetal",
         "electron_config": "<e:Rn> 5f[14] 6d[2] 7s[2]",
         "shell": [ 2, 8, 18, 32, 32, 10, 2 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4962,6 +5066,7 @@
         "set": "transitionmetal",
         "electron_config": "<e:Rn> 5f[14] 6d[3] 7s[2]",
         "shell": [ 2, 8, 18, 32, 32, 11, 2 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4995,6 +5100,7 @@
         "set": "transitionmetal",
         "electron_config": "<e:Rn> 5f[14] 6d[4] 7s[2]",
         "shell": [ 2, 8, 18, 32, 32, 12, 2 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -5024,6 +5130,7 @@
         "set": "transitionmetal",
         "electron_config": "<e:Rn> 5f[14] 6d[5] 7s[2]",
         "shell": [ 2, 8, 18, 32, 32, 13, 2 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -5053,6 +5160,7 @@
         "set": "transitionmetal",
         "electron_config": "<e:Rn> 5f[14] 6d[6] 7s[2]",
         "shell": [ 2, 8, 18, 32, 32, 14, 2 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -5082,6 +5190,7 @@
         "set": null,
         "electron_config": "<e:Rn> 5f[14] 6d[7] 7s[2]",
         "shell": [ 2, 8, 18, 32, 32, 15, 2 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -5111,6 +5220,7 @@
         "set": null,
         "electron_config": "<e:Rn> 5f[14] 6d[8] 7s[2]",
         "shell": [ 2, 8, 18, 32, 32, 16, 2 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -5140,6 +5250,7 @@
         "set": null,
         "electron_config": "<e:Rn> 5f[14] 6d[9] 7s[2]",
         "shell": [ 2, 8, 18, 32, 32, 17, 2 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -5169,6 +5280,7 @@
         "set": null,
         "electron_config": "<e:Rn> 5f[14] 6d[10] 7s[2]",
         "shell": [ 2, 8, 18, 32, 32, 18, 2 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -5198,6 +5310,7 @@
         "set": null,
         "electron_config": "<e:Rn> 5f[14] 6d[10] 7s[2] 7p[1]",
         "shell": [ 2, 8, 18, 32, 32, 18, 3 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -5227,6 +5340,7 @@
         "set": null,
         "electron_config": "<e:Rn> 5f[14] 6d[10] 7s[2] 7p[2]",
         "shell": [ 2, 8, 18, 32, 32, 18, 4 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -5256,6 +5370,7 @@
         "set": null,
         "electron_config": "<e:Rn> 5f[14] 6d[10] 7s[2] 7p[3]",
         "shell": [ 2, 8, 18, 32, 32, 18, 5 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -5285,6 +5400,7 @@
         "set": null,
         "electron_config": "<e:Rn> 5f[14] 6d[10] 7s[2] 7p[4]",
         "shell": [ 2, 8, 18, 32, 32, 18, 6 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -5317,6 +5433,7 @@
         "set": null,
         "electron_config": "<e:Rn> 5f[14] 6d[10] 7s[2] 7p[5]",
         "shell": [ 2, 8, 18, 32, 32, 18, 7 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -5350,6 +5467,7 @@
         "phase": "solid",
         "electron_config": "<e:Rn> 5f[14] 6d[10] 7s[2] 7p[6]",
         "shell": [ 2, 8, 18, 32, 32, 18, 8 ],
+        "goldschmidt": "synthetic",
         "hazardous": null,
         "radioactive": true,
         "classification": {

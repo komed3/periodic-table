@@ -10,4 +10,4 @@ i18n:
 
 default:
   theme: light
-  lists: [ group, period, set, block, phase, natural_occurrence, crystal_structure, magnetic_ordering ]
+  lists: [ group, period, set, block, phase, natural_occurrence, goldschmidt, crystal_structure, magnetic_ordering ]
