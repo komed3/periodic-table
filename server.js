@@ -126,6 +126,7 @@ routes.routes.forEach( ( route ) => {
             res.locals.elements = elements;
             res.locals.locale = req.getLocale();
             res.locals.theme = req.cookies.theme || config.get( 'default.theme' );
+            res.locals.search = { query: '' };
 
             /* templates */
 

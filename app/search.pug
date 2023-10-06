@@ -10,10 +10,10 @@ block styles
   link( rel="stylesheet", href="/css/list.css" )/
 
 block content
-  div.pt-page.pt-box
+  div.pt-page.pt-box.pt-search
     h1!= title
     include templates/searchform.pug
-    p!= __( 'search-results', search.found, search.query )
+    p.pt-search-label!= __( 'search-results', search.found, search.query )
     div.pt-search-results
       - var list = search.results
       include templates/element-list.pug
