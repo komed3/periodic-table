@@ -131,4 +131,28 @@ if( process.argv[2] == undefined ) {
         }
     );
 
+    console.log( 'save changes to minified database ...' );
+
+    fs.writeFile(
+        './_db/' + process.argv[2] + '.min.json',
+        JSON.stringify( result ),
+        { flag: 'w' }, ( error ) => {
+
+            if( error ) {
+
+                /**
+                 * fetch error
+                 */
+
+                return console.error( error );
+
+            } else {
+
+                console.log( '... done' );
+
+            }
+
+        }
+    );
+
 }
