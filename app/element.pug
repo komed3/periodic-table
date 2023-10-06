@@ -2,7 +2,7 @@
 extends layout.pug
 
 block title
-  title!= __( 'element-title', element.names[ locale ] ) + " — " + __( 'title' )
+  title= __( 'element-title', element.names[ locale ] ) + ' — ' + __( 'title' )
   if text.description
     meta( name="description", content=text.description )/
 
@@ -32,15 +32,15 @@ block content
           span.element--name= element.names[ locale ]
           div.pt-actions.element--actions
             if nav.prev
-              a( href="/e/" + elements[ nav.prev ].symbol, title!= __( 'navigation-prev' ) )
+              a( href='/e/' + elements[ nav.prev ].symbol, title!= __( 'navigation-prev' ) )
                 i.icon arrow_back
             a( href="/", title!= __( 'title' ) )
               i.icon apps
             if nav.next
-              a( href="/e/" + elements[ nav.next ].symbol, title!= __( 'navigation-next' ) )
+              a( href='/e/' + elements[ nav.next ].symbol, title!= __( 'navigation-next' ) )
                 i.icon arrow_forward
             a(
-              href="data:text/json;charset=utf-8," + encodeURIComponent( JSON.stringify( element ) ),
+              href='data:text/json;charset=utf-8,' + encodeURIComponent( JSON.stringify( element ) ),
               download="data.json", title!= __( 'download' )
             )
               i.icon download
@@ -66,7 +66,7 @@ block content
               each prop, label in element.radius
                 tr.pt-prop-table-row
                   th.pt-prop-table-label
-                    a( href="/scale/radius_" + label )!= __( label + '-radius' )
+                    a( href='/scale/radius_' + label )!= __( label + '-radius' )
                   td.pt-prop-table-value!= core.fNumber( prop, locale )
             if element.electron_config
               tr.pt-prop-table-row
@@ -90,7 +90,7 @@ block content
               tr.pt-prop-table-row
                 th.pt-prop-table-label!= __( 'phase-label' )
                 td.pt-prop-table-value
-                  a( href="/list/phase/" + element.phase )!= __( 'phase-' + element.phase )
+                  a( href='/list/phase/' + element.phase )!= __( 'phase-' + element.phase )
             if element.density
               tr.pt-prop-table-row
                 th.pt-prop-table-label!= __( 'density' )
@@ -105,7 +105,7 @@ block content
               if element[ prop ]
                 tr.pt-prop-table-row
                   th.pt-prop-table-label
-                    a( href="/scale/" + prop )!= __( prop )
+                    a( href='/scale/' + prop )!= __( prop )
                   td.pt-prop-table-value!= core.fNumber( element[ prop ], locale )
             tr.pt-prop-table-row
               th( colspan="2" ).pt-prop-table-label!= __( 'temperatures' )
@@ -113,7 +113,7 @@ block content
               if element[ prop ]
                 tr.pt-prop-table-row
                   th.pt-prop-table-label
-                    a( href="/scale/" + prop )!= __( prop + '-temp' )
+                    a( href='/scale/' + prop )!= __( prop + '-temp' )
                   td.pt-prop-table-value!= core.fNumber( element[ prop ], locale )
             tr.pt-prop-table-row
               th( colspan="2" ).pt-prop-table-label!= __( 'enthalpies' )
@@ -121,7 +121,7 @@ block content
               if element[ prop ]
                 tr.pt-prop-table-row
                   th.pt-prop-table-label
-                    a( href="/scale/" + prop )!= __( prop )
+                    a( href='/scale/' + prop )!= __( prop )
                   td.pt-prop-table-value!= core.fNumber( element[ prop ], locale )
       //- chemical properties
       div.pt-box.pt-element-properties
@@ -142,7 +142,7 @@ block content
               each prop, label in element.negativity
                 tr.pt-prop-table-row
                   th.pt-prop-table-label
-                    a( href="/scale/negativity_" + label )!= __( label + '-negativity' )
+                    a( href='/scale/negativity_' + label )!= __( label + '-negativity' )
                   td.pt-prop-table-value!= core.fNumber( prop, locale )
       //- other properties
       div.pt-box.pt-element-properties
@@ -154,7 +154,7 @@ block content
                 tr.pt-prop-table-row
                   th.pt-prop-table-label!= __( prop + '-label' )
                   td.pt-prop-table-value
-                    a( href="/list/" + prop + "/" + element[ prop ] )!= __( prop + '-' + element[ prop ] )
+                    a( href='/list/' + prop + '/' + element[ prop ] )!= __( prop + '-' + element[ prop ] )
             if element.magnetic_susceptibility
               tr.pt-prop-table-row
                 th.pt-prop-table-label!= __( 'magnetic_susceptibility' )
@@ -173,7 +173,7 @@ block content
           h2!= __( 'prop-nmr' )
           each isotope in element.nmr
             h3
-              a( href="/isotope/" + isotope.isotope.replace( /^\[(.+)\](.+)$/g, '$2_$1' ) )!= core.fText( isotope.isotope )
+              a( href='/isotope/' + isotope.isotope.replace( /^\[(.+)\](.+)$/g, '$2_$1' ) )!= core.fText( isotope.isotope )
             table.pt-prop-table.pt-element-table
               tbody
                 tr.pt-prop-table-row
@@ -216,7 +216,7 @@ block content
                 tr.pt-prop-table-row
                   th.pt-prop-table-label!= __( prop + '-label' )
                   td.pt-prop-table-value
-                    a( href="/list/" + prop + "/" + element[ prop ] )!= __( prop + '-' + element[ prop ] )
+                    a( href='/list/' + prop + '/' + element[ prop ] )!= __( prop + '-' + element[ prop ] )
       //- radioactive warning
       if element.radioactive
         div.pt-box.pt-box-flex.pt-element-radioactive
@@ -230,7 +230,7 @@ block content
             div.pt-box-flex.pt-box-columns.pt-element-hazard-box
               each ghs in element.hazardous.ghs
                 div.pt-element-hazard-item
-                  img.pictogram( src="/img/GHS" + ghs + ".png", loading="lazy" )/
+                  img.pictogram( src='/img/GHS' + ghs + '.png', loading="lazy" )/
                   span!= __( 'ghs-' + ghs )
           else
             i!= __( 'ghs-undefined' )
@@ -254,7 +254,7 @@ block content
             div.pt-box-flex.pt-nfpa
               div.pt-nfpa-diamond
                 each key in [ 'h', 'f', 'i', 's' ]
-                  div( class=key, style="--code:" + key )
+                  div( class=key, style='--code:' + key )
                     each code in ( element.hazardous.nfpa[ key ] || '—' ).split( '|' )
                       b( code=code )= code
               div.pt-nfpa-info
@@ -267,12 +267,12 @@ block content
             h3!= __( 'pictogram-title' )
             div.pt-element-hazard-pictograms
               each hazard in element.hazardous.hazard
-                img.pictogram-small( src="/img/hazard-" + hazard + ".png", loading="lazy" )/
+                img.pictogram-small( src='/img/hazard-' + hazard + '.png', loading="lazy" )/
           if element.hazardous.adr
             h3!= __( 'adr-title' )
             div.pt-element-hazard-pictograms
               each adr in element.hazardous.adr
-                img.pictogram( src="/img/ADR-" + adr + ".png", loading="lazy" )/
+                img.pictogram( src='/img/ADR-' + adr + '.png', loading="lazy" )/
       //- element classification
       if element.classification
         div.pt-box.pt-element-classification
@@ -292,11 +292,11 @@ block content
                           target="_blank"
                         )= c.value
                       if c.label && c.label.length
-                        span!= "&nbsp;(" + core.fText( c.label ) + ")"
+                        span!= '&nbsp;(' + core.fText( c.label ) + ')'
       div.pt-box.pt-element-weblinks
         h2!= __( 'weblinks' )
         if element.wiki && element.wiki[ locale ]
-          a( href="https://wikipedia.org/wiki/" + locale + ':' + element.wiki[ locale ] ).weblink
+          a( href='https://wikipedia.org/wiki/' + locale + ':' + element.wiki[ locale ] ).weblink
             i.icon link
             span!= __( 'weblink-wiki', element.names[ locale ], locale )
         if element.weblinks

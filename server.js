@@ -115,8 +115,10 @@ routes.routes.forEach( ( route ) => {
 
             /* canonical URL */
 
-            res.locals.canonical = req.protocol + '://' + req.hostname + '/' + ( route[2] || url[0] ) + '/' +
-                url.slice( 1 ).filter( p => !p.includes( '?' ) ).join( '/' ) + '/';
+            res.locals.canonical = (
+                req.protocol + '://' + req.hostname + '/' + ( route[2] || url[0] ) + '/' +
+                url.slice( 1 ).filter( p => !p.includes( '?' ) ).join( '/' ) + '/'
+            ).replaceAll( '//', '/' );
 
             /* set locals */
 
