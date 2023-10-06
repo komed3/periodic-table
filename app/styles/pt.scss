@@ -102,6 +102,7 @@ body[theme="dark"] {
     --bg: var( --pt-ye-3 );
 }
 
+[layer="goldschmidt"] .pt-el[prop="chalcophile"],
 [layer="group"] .pt-el[prop="13"] {
     --bg: var( --pt-ye-5 );
 }
@@ -124,6 +125,7 @@ body[theme="dark"] {
     --bg: var( --pt-or-3 );
 }
 
+[layer="goldschmidt"] .pt-el[prop="lithophile"],
 [layer="group"] .pt-el[prop="8"] {
     --bg: var( --pt-or-5 );
 }
@@ -147,6 +149,7 @@ body[theme="dark"] {
     --bg: var( --pt-re-3 );
 }
 
+[layer="goldschmidt"] .pt-el[prop="siderophile"],
 [layer="group"] .pt-el[prop="3"] {
     --bg: var( --pt-re-5 );
 }
@@ -175,6 +178,10 @@ body[theme="dark"] {
 
 [layer="period"] .pt-el[prop="1"] {
     --bg: var( --pt-tu-1 );
+}
+
+[layer="goldschmidt"] .pt-el[prop="atmophile"] {
+    --bg: var( --pt-tu-5 );
 }
 
 [layer="period"] .pt-el[prop="2"] {
