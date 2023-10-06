@@ -140,7 +140,7 @@
 	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" target=\"_blank\">Weiterlesen …</a>",
 	"list-title": "%s: %s",
 	"list-description": "list-description",
-	"search-title": "search-title",
+	"search-title": "Suche nach „%s“",
 	"search-description": "search-description",
 	"legend": "Legende",
 	"set-undefined": "Unbekannt",
@@ -212,5 +212,6 @@
 	"nmr-Dp": "Empfindl. (rel. zu <sup>1</sup>H)",
 	"nmr-Dc": "Empfindl. (rel. zu <sup>13</sup>C)",
 	"weblinks": "Weiterführende Links",
-	"weblink-wiki": "%s in der Wikipedia (%s)"
+	"weblink-wiki": "%s in der Wikipedia (%s)",
+	"search-results": "<b>%s</b> Ergebnisse für <q>%s</q>"
 }

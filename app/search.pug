@@ -1,3 +1,19 @@
 //- search.pug
 extends layout.pug
 
+block title
+  - var title = __( 'search-title', search.query )
+  title!= title + " — " + __( 'title' )
+
+block styles
+  link( rel="stylesheet", href="/css/search.css" )/
+  link( rel="stylesheet", href="/css/list.css" )/
+
+block content
+  div.pt-page.pt-box
+    h1!= title
+    include templates/searchform.pug
+    p!= __( 'search-results', search.found, search.query )
+    div.pt-search-results
+      - var list = search.results
+      include templates/element-list.pug

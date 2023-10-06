@@ -93,7 +93,7 @@ if( process.argv[2] == undefined ) {
         if( 'plain' in text ) {
 
             index[ key ] = text.plain
-                .toString().toLowerCase().trim()
+                .toString().toLocaleLowerCase( locale ).trim()
                 .replaceAll( /[^a-zA-Z ]/g, '' )
                 .replaceAll( /[\s+]/g, ' ' );
 

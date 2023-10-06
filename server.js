@@ -111,7 +111,7 @@ routes.routes.forEach( ( route ) => {
             /* parse URL */
 
             let url = core.parseURL( req.originalUrl ),
-                _url = url.map( p => p.toString().toLowerCase() );
+                _url = url.map( p => p.toString().toLocaleLowerCase( req.getLocale() ) );
 
             /* canonical URL */
 
@@ -126,9 +126,6 @@ routes.routes.forEach( ( route ) => {
             res.locals.elements = elements;
             res.locals.locale = req.getLocale();
             res.locals.theme = req.cookies.theme || config.get( 'default.theme' );
-            res.locals.search = {
-                query: req.query.q || req.query.query || ''
-            };
 
             /* templates */
 
@@ -201,7 +198,35 @@ routes.routes.forEach( ( route ) => {
 
                 case 'search':
 
-                    //
+                    let query = req.query.q || req.query.query || '',
+                        _query = query.toLocaleLowerCase( req.getLocale() );
+
+                    if( query.length ) {
+
+                        let results = [];
+
+                        for( const [ el, index ] of Object.entries( core.DB( 'search_' + req.getLocale() ) ) ) {
+
+                            if( index.includes( _query ) ) {
+
+                                results.push( elements[ el ] );
+
+                            }
+
+                        }
+
+                        res.locals.search = {
+                            query: query,
+                            results: results,
+                            found: results.length
+                        };
+
+                    } else {
+
+                        res.redirect( '/' );
+                        return ;
+
+                    }
 
                     break;
 

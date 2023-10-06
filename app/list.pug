@@ -3,7 +3,7 @@ extends layout.pug
 
 block title
   - var title = __( 'list-title', __( prop + '-label' ), __( prop + '-' + value ) )
-  title= title + " — " + __( 'title' )
+  title!= title + " — " + __( 'title' )
 
 block scripts
   script( src="/js/pt.min.js" )
@@ -15,7 +15,7 @@ block styles
 
 block content
   div.pt-page.pt-box.pt-list
-    h1= title
+    h1!= title
     include templates/element-list.pug
   div.pt-page
     include templates/microtable.pug
