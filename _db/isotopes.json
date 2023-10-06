@@ -1,0 +1,63 @@
+{
+    "h": [ {
+        "nuclide": "[1]H",
+        "z": 1,
+        "n": 0,
+        "mass": {
+            "value": 1.00782503189814,
+            "unit": "u"
+        },
+        "decay": "stable",
+        "spin": "[1]/{2}+",
+        "natural_abundance": {
+            "value": 99.9885,
+            "unit": "%"
+        },
+        "names": {
+            "en": "Protium",
+            "de": "Protium"
+        }
+    }, {
+        "nuclide": "[2]H",
+        "alias": "D",
+        "z": 1,
+        "n": 1,
+        "mass": {
+            "value": 2.01410177784415,
+            "unit": "u"
+        },
+        "decay": "stable",
+        "spin": "1+",
+        "natural_abundance": {
+            "value": 0.0115,
+            "unit": "%"
+        },
+        "names": {
+            "en": "Deuterium",
+            "de": "Deuterium"
+        }
+    }, {
+        "nuclide": "[3]H",
+        "alias": "T",
+        "z": 1,
+        "n": 2,
+        "mass": {
+            "value": 3.01604928132081,
+            "unit": "u"
+        },
+        "decay": [ {
+            "half_life": 388586592,
+            "mode": "β[-]",
+            "product": "[3]He"
+        } ],
+        "spin": "[1]/{2}+",
+        "natural_abundance": {
+            "value": 1e-15,
+            "unit": "%"
+        },
+        "names": {
+            "en": "Tritium",
+            "de": "Tritium"
+        }
+    } ]
+}
