@@ -1,0 +1,28 @@
+//- templates/isotopes.pug
+table.pt-isotopes
+  thead
+    tr.pt-isotopes-header
+      each label in [ 'nuclide', 'mass', 'half-life', 'mode', 'product', 'natural-abundance' ]
+        th.pt-isotopes-label!= __( 'isotope-' + label )
+  tbody
+    each isotope in isotopes
+      tr.pt-isotopes-item
+        td.pt-isotopes-value
+          a( href="/isotope/" + isotope.nuclide.replace( /^\[(.+)\](.+)$/g, '$2_$1' ) )
+            span!= core.fText( isotope.nuclide )
+            if isotope.alias
+              span!= '&nbsp;(' + core.fText( isotope.alias ) + ')'
+        td.pt-isotopes-value
+          if isotope.mass
+            span!= core.fNumber( isotope.mass, locale, 5 )
+          else
+            span —
+        if isotope.decay == 'stable'
+          td( colspan="3" ).pt-isotopes-value!= __( 'stable' )
+        else
+          td.pt-isotopes-value!= core.fTime( isotope.decay.half_time, locale )[0]
+          td.pt-isotopes-value
+          td.pt-isotopes-value
+        td.pt-isotopes-value
+          if isotope.natural_abundance
+            span!= core.fNumber( isotope.natural_abundance, locale, 5 )

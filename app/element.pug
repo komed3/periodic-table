@@ -165,8 +165,10 @@ block content
                   a( href="/scale/refractive_index" )!= __( 'refractive_index' )
                 td.pt-prop-table-value!= core.fNumber( element.refractive_index, locale )
       //- isotopes
-      div.pt-box.pt-element-properties
-        h2!= __( 'prop-isotopes' )
+      if isotopes.length > 0
+        div.pt-box.pt-element-properties
+          h2!= __( 'prop-isotopes' )
+          include templates/isotopes.pug
       //- NMR
       if element.nmr
         div.pt-box.pt-element-properties
