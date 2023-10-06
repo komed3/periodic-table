@@ -129,6 +129,11 @@ block content
         h2!= __( 'prop-chemical' )
         table.pt-prop-table.pt-element-table
           tbody
+            if element.basicity
+              tr.pt-prop-table-row
+                th.pt-prop-table-label!= __( 'basicity-label' )
+                td.pt-prop-table-value
+                  a( href='/list/basicity/' + element.basicity )!= __( 'basicity-' + element.basicity )
             if element.oxidation
               tr.pt-prop-table-row
                 th.pt-prop-table-label!= __( 'oxidation-state' )

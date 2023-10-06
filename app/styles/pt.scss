@@ -87,7 +87,8 @@ body[theme="dark"] {
     --bg: var( --pt-ye-1 );
 }
 
-[layer="group"] .pt-el[prop="12"] {
+[layer="group"] .pt-el[prop="12"],
+[layer="basicity"] .pt-el[prop="amphoterism"] {
     --bg: var( --pt-ye-3 );
 }
 
@@ -134,23 +135,27 @@ body[theme="dark"] {
 [layer="group"] .pt-el[prop="1"],
 [layer="set"] .pt-el[prop="transitionmetal"],
 [layer="block"] .pt-el[prop="f"],
-[layer="crystal_structure"] .pt-el[prop="hcp"] {
+[layer="crystal_structure"] .pt-el[prop="hcp"],
+[layer="basicity"] .pt-el[prop="slightly-acidic"] {
     --bg: var( --pt-re-1 );
 }
 
 [layer="group"] .pt-el[prop="2"],
 [layer="set"] .pt-el[prop="alkalimetal"],
-[layer="superconductivity"] .pt-el[prop="none"] {
+[layer="superconductivity"] .pt-el[prop="none"],
+[layer="basicity"] .pt-el[prop="moderately-acidic"] {
     --bg: var( --pt-re-3 );
 }
 
 [layer="goldschmidt"] .pt-el[prop="siderophile"],
 [layer="group"] .pt-el[prop="3"],
-[layer="crystal_structure"] .pt-el[prop="dhcp"] {
+[layer="crystal_structure"] .pt-el[prop="dhcp"],
+[layer="basicity"] .pt-el[prop="acidic"] {
     --bg: var( --pt-re-5 );
 }
 
-[layer="group"] .pt-el[prop="4"] {
+[layer="group"] .pt-el[prop="4"],
+[layer="basicity"] .pt-el[prop="strongly-acidic"] {
     --bg: var( --pt-re-7 );
 }
 
@@ -169,12 +174,22 @@ body[theme="dark"] {
 
 [layer="set"] .pt-el[prop="noblegas"],
 [layer="block"] .pt-el[prop="s"],
-[layer="phase"] .pt-el[prop="liquid"] {
+[layer="phase"] .pt-el[prop="liquid"],
+[layer="basicity"] .pt-el[prop="slightly-alkaline"] {
     --bg: var( --pt-bl-1 );
 }
 
-[layer="crystal_structure"] .pt-el[prop="rho"] {
+[layer="crystal_structure"] .pt-el[prop="rho"],
+[layer="basicity"] .pt-el[prop="moderately-alkaline"] {
     --bg: var( --pt-bl-3 );
+}
+
+[layer="basicity"] .pt-el[prop="alkaline"] {
+    --bg: var( --pt-bl-5 );
+}
+
+[layer="basicity"] .pt-el[prop="strongly-alkaline"] {
+    --bg: var( --pt-bl-7 );
 }
 
 [layer="period"] .pt-el[prop="1"],
@@ -217,7 +232,8 @@ body[theme="dark"] {
 }
 
 [layer="superconductivity"] .pt-el[prop="normal"],
-[layer="crystal_structure"] .pt-el[prop="orth"] {
+[layer="crystal_structure"] .pt-el[prop="orth"],
+[layer="basicity"] .pt-el[prop="neutral"] {
     --bg: var( --pt-gr-3 );
 }
 
@@ -256,7 +272,7 @@ body[theme="dark"] {
     z-index: 1;
 }
 
-.pt-el[prop="undefined"] {
+.pt-el.radioactive[prop="undefined"] {
     --bg: transparent;
 }
 

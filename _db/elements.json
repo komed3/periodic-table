@@ -57,11 +57,11 @@
         },
         "density": {
             "value": 8.988,
-            "unit": "g·cm[−3]",
+            "unit": "g·cm[-3]",
             "phases": {
                 "gas": {
                     "value": 8.988,
-                    "unit": "g·cm[−3]",
+                    "unit": "g·cm[-3]",
                     "condition": [
                         {
                             "value": 273,
@@ -71,7 +71,7 @@
                 },
                 "liquid": {
                     "value": 70.9,
-                    "unit": "g·l[−1]",
+                    "unit": "g·l[-1]",
                     "condition": [
                         {
                             "value": 20.324,
@@ -83,7 +83,7 @@
         },
         "molar_volume": {
             "value": 0.00001142,
-            "unit": "m[3]·mol[−1]"
+            "unit": "m[3]·mol[-1]"
         },
         "melting": {
             "value": 13.99,
@@ -115,19 +115,19 @@
         },
         "enthalpy_fusion": {
             "value": 0.558,
-            "unit": "kJ·mol[−1]"
+            "unit": "kJ·mol[-1]"
         },
         "enthalpy_vaporisation": {
             "value": 0.452,
-            "unit": "kJ·mol[−1]"
+            "unit": "kJ·mol[-1]"
         },
         "enthalpy_atomisation": {
             "value": 218,
-            "unit": "kJ·mol[−1]"
+            "unit": "kJ·mol[-1]"
         },
         "sound_speed": {
             "value": 1270,
-            "unit": "m·s[−1]",
+            "unit": "m·s[-1]",
             "condition": [
                 {
                     "value": 298.15,
@@ -137,11 +137,11 @@
         },
         "heat_capacity": {
             "value": 14304,
-            "unit": "J·kg[−1]·K[−1]"
+            "unit": "J·kg[-1]·K[-1]"
         },
         "thermal_conductivity": {
             "value": 0.1805,
-            "unit": "W·m[−1]·K[−1]"
+            "unit": "W·m[-1]·K[-1]"
         },
         "oxidation": [
             "+1",
@@ -165,7 +165,7 @@
         "magnetic_ordering": "diamagnetic",
         "magnetic_susceptibility": {
             "value": -0.00000398,
-            "unit": "cm[3]·mol[−1]",
+            "unit": "cm[3]·mol[-1]",
             "condition": [
                 {
                     "value": 298,
@@ -184,7 +184,7 @@
                 },
                 "y": {
                     "value": 267522128,
-                    "unit": "rad·T[−1]·s[−1]"
+                    "unit": "rad·T[-1]·s[-1]"
                 },
                 "u": 4.83735357,
                 "Dp": 1,
@@ -207,7 +207,7 @@
                 },
                 "y": {
                     "value": 41066279.1,
-                    "unit": "rad·T[−1]·s[−1]"
+                    "unit": "rad·T[-1]·s[-1]"
                 },
                 "u": 1.21260077,
                 "Dp": 0.00000111,
@@ -230,7 +230,7 @@
                 },
                 "y": {
                     "value": 285349779,
-                    "unit": "rad·T[−1]·s[−1]"
+                    "unit": "rad·T[-1]·s[-1]"
                 },
                 "u": 5.159714367,
                 "Dp": null,
@@ -335,7 +335,8 @@
                 "text": "The Periodic Table of Videos"
             }
         ],
-        "superconductivity": "none"
+        "superconductivity": "none",
+        "basicity": "amphoterism"
     },
     "he": {
         "symbol": "He",
@@ -562,7 +563,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "bcc"
+        "crystal_structure": "bcc",
+        "basicity": "strongly-alkaline"
     },
     "be": {
         "symbol": "Be",
@@ -678,7 +680,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "hcp"
+        "crystal_structure": "hcp",
+        "basicity": "amphoterism"
     },
     "b": {
         "symbol": "B",
@@ -779,7 +782,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "rho"
+        "crystal_structure": "rho",
+        "basicity": "slightly-acidic"
     },
     "c": {
         "symbol": "C",
@@ -868,7 +872,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "hex"
+        "crystal_structure": "hex",
+        "basicity": "slightly-acidic"
     },
     "n": {
         "symbol": "N",
@@ -957,7 +962,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "hex"
+        "crystal_structure": "hex",
+        "basicity": "strongly-acidic"
     },
     "o": {
         "symbol": "O",
@@ -1190,7 +1196,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "sc"
+        "crystal_structure": "sc",
+        "basicity": "strongly-acidic"
     },
     "ne": {
         "symbol": "Ne",
@@ -1382,7 +1389,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "bcc"
+        "crystal_structure": "bcc",
+        "basicity": "strongly-alkaline"
     },
     "mg": {
         "symbol": "Mg",
@@ -1492,7 +1500,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "hcp"
+        "crystal_structure": "hcp",
+        "basicity": "moderately-alkaline"
     },
     "al": {
         "symbol": "Al",
@@ -1591,7 +1600,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "fcc"
+        "crystal_structure": "fcc",
+        "basicity": "amphoterism"
     },
     "si": {
         "symbol": "Si",
@@ -1672,7 +1682,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "dc"
+        "crystal_structure": "dc",
+        "basicity": "amphoterism"
     },
     "p": {
         "symbol": "P",
@@ -1797,7 +1808,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "orth"
+        "crystal_structure": "orth",
+        "basicity": "slightly-acidic"
     },
     "s": {
         "symbol": "S",
@@ -1900,7 +1912,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "orth"
+        "crystal_structure": "orth",
+        "basicity": "strongly-acidic"
     },
     "cl": {
         "symbol": "Cl",
@@ -2023,7 +2036,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "orth"
+        "crystal_structure": "orth",
+        "basicity": "strongly-acidic"
     },
     "ar": {
         "symbol": "Ar",
@@ -2216,7 +2230,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "bcc"
+        "crystal_structure": "bcc",
+        "basicity": "strongly-alkaline"
     },
     "ca": {
         "symbol": "Ca",
@@ -2328,7 +2343,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "fcc"
+        "crystal_structure": "fcc",
+        "basicity": "strongly-alkaline"
     },
     "sc": {
         "symbol": "Sc",
@@ -2423,7 +2439,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "hcp"
+        "crystal_structure": "hcp",
+        "basicity": "slightly-alkaline"
     },
     "ti": {
         "symbol": "Ti",
@@ -2522,7 +2539,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "hcp"
+        "crystal_structure": "hcp",
+        "basicity": "amphoterism"
     },
     "v": {
         "symbol": "V",
@@ -2604,7 +2622,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "bcc"
+        "crystal_structure": "bcc",
+        "basicity": "amphoterism"
     },
     "cr": {
         "symbol": "Cr",
@@ -2686,7 +2705,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "bcc"
+        "crystal_structure": "bcc",
+        "basicity": "strongly-acidic"
     },
     "mn": {
         "symbol": "Mn",
@@ -2790,7 +2810,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "bcc"
+        "crystal_structure": "bcc",
+        "basicity": "strongly-acidic"
     },
     "fe": {
         "symbol": "Fe",
@@ -2872,7 +2893,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "bcc"
+        "crystal_structure": "bcc",
+        "basicity": "amphoterism"
     },
     "co": {
         "symbol": "Co",
@@ -2992,7 +3014,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "hcp"
+        "crystal_structure": "hcp",
+        "basicity": "neutral"
     },
     "ni": {
         "symbol": "Ni",
@@ -3100,7 +3123,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "fcc"
+        "crystal_structure": "fcc",
+        "basicity": "slightly-alkaline"
     },
     "cu": {
         "symbol": "Cu",
@@ -3195,7 +3219,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "fcc"
+        "crystal_structure": "fcc",
+        "basicity": "slightly-alkaline"
     },
     "zn": {
         "symbol": "Zn",
@@ -3308,7 +3333,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "hcp"
+        "crystal_structure": "hcp",
+        "basicity": "amphoterism"
     },
     "ga": {
         "symbol": "Ga",
@@ -3421,7 +3447,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "orth"
+        "crystal_structure": "orth",
+        "basicity": "amphoterism"
     },
     "ge": {
         "symbol": "Ge",
@@ -3519,7 +3546,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "dc"
+        "crystal_structure": "dc",
+        "basicity": "amphoterism"
     },
     "as": {
         "symbol": "As",
@@ -3624,7 +3652,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "rho"
+        "crystal_structure": "rho",
+        "basicity": "amphoterism"
     },
     "se": {
         "symbol": "Se",
@@ -3736,7 +3765,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "hex"
+        "crystal_structure": "hex",
+        "basicity": "strongly-acidic"
     },
     "br": {
         "symbol": "Br",
@@ -3853,7 +3883,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "orth"
+        "crystal_structure": "orth",
+        "basicity": "strongly-acidic"
     },
     "kr": {
         "symbol": "Kr",
@@ -4054,7 +4085,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "bcc"
+        "crystal_structure": "bcc",
+        "basicity": "strongly-alkaline"
     },
     "sr": {
         "symbol": "Sr",
@@ -4164,7 +4196,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "fcc"
+        "crystal_structure": "fcc",
+        "basicity": "strongly-alkaline"
     },
     "y": {
         "symbol": "Y",
@@ -4264,7 +4297,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "hcp"
+        "crystal_structure": "hcp",
+        "basicity": "slightly-alkaline"
     },
     "zr": {
         "symbol": "Zr",
@@ -4370,7 +4404,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "hcp"
+        "crystal_structure": "hcp",
+        "basicity": "amphoterism"
     },
     "nb": {
         "symbol": "Nb",
@@ -4472,7 +4507,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "bcc"
+        "crystal_structure": "bcc",
+        "basicity": "slightly-acidic"
     },
     "mo": {
         "symbol": "Mo",
@@ -4555,7 +4591,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "bcc"
+        "crystal_structure": "bcc",
+        "basicity": "strongly-acidic"
     },
     "tc": {
         "symbol": "Tc",
@@ -4626,7 +4663,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "hcp"
+        "crystal_structure": "hcp",
+        "basicity": "strongly-acidic"
     },
     "ru": {
         "symbol": "Ru",
@@ -4722,7 +4760,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "hcp"
+        "crystal_structure": "hcp",
+        "basicity": "slightly-acidic"
     },
     "rh": {
         "symbol": "Rh",
@@ -4820,7 +4859,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "fcc"
+        "crystal_structure": "fcc",
+        "basicity": "amphoterism"
     },
     "pd": {
         "symbol": "Pd",
@@ -4921,7 +4961,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "fcc"
+        "crystal_structure": "fcc",
+        "basicity": "slightly-alkaline"
     },
     "ag": {
         "symbol": "Ag",
@@ -5026,7 +5067,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "fcc"
+        "crystal_structure": "fcc",
+        "basicity": "amphoterism"
     },
     "cd": {
         "symbol": "Cd",
@@ -5156,7 +5198,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "hcp"
+        "crystal_structure": "hcp",
+        "basicity": "slightly-alkaline"
     },
     "in": {
         "symbol": "In",
@@ -5262,7 +5305,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "tetr"
+        "crystal_structure": "tetr",
+        "basicity": "amphoterism"
     },
     "sn": {
         "symbol": "Sn",
@@ -5345,7 +5389,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "tetr"
+        "crystal_structure": "tetr",
+        "basicity": "amphoterism"
     },
     "sb": {
         "symbol": "Sb",
@@ -5446,7 +5491,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "rho"
+        "crystal_structure": "rho",
+        "basicity": "slightly-acidic"
     },
     "te": {
         "symbol": "Te",
@@ -5554,7 +5600,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "hex"
+        "crystal_structure": "hex",
+        "basicity": "slightly-acidic"
     },
     "i": {
         "symbol": "I",
@@ -5695,7 +5742,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "orth"
+        "crystal_structure": "orth",
+        "basicity": "strongly-acidic"
     },
     "xe": {
         "symbol": "Xe",
@@ -5802,7 +5850,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "fcc"
+        "crystal_structure": "fcc",
+        "basicity": "slightly-acidic"
     },
     "cs": {
         "symbol": "Cs",
@@ -5915,7 +5964,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "bcc"
+        "crystal_structure": "bcc",
+        "basicity": "strongly-alkaline"
     },
     "ba": {
         "symbol": "Ba",
@@ -6034,7 +6084,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "bcc"
+        "crystal_structure": "bcc",
+        "basicity": "alkaline"
     },
     "la": {
         "symbol": "La",
@@ -6137,7 +6188,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "dhcp"
+        "crystal_structure": "dhcp",
+        "basicity": "slightly-alkaline"
     },
     "ce": {
         "symbol": "Ce",
@@ -6245,7 +6297,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "dhcp"
+        "crystal_structure": "dhcp",
+        "basicity": "slightly-alkaline"
     },
     "pr": {
         "symbol": "Pr",
@@ -6346,7 +6399,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "dhcp"
+        "crystal_structure": "dhcp",
+        "basicity": "slightly-alkaline"
     },
     "nd": {
         "symbol": "Nd",
@@ -6448,7 +6502,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "dhcp"
+        "crystal_structure": "dhcp",
+        "basicity": "slightly-alkaline"
     },
     "pm": {
         "symbol": "Pm",
@@ -6512,7 +6567,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "dhcp"
+        "crystal_structure": "dhcp",
+        "basicity": "slightly-alkaline"
     },
     "sm": {
         "symbol": "Sm",
@@ -6614,7 +6670,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "rho"
+        "crystal_structure": "rho",
+        "basicity": "slightly-alkaline"
     },
     "eu": {
         "symbol": "Eu",
@@ -6715,7 +6772,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "bcc"
+        "crystal_structure": "bcc",
+        "basicity": "slightly-alkaline"
     },
     "gd": {
         "symbol": "Gd",
@@ -6815,7 +6873,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "hcp"
+        "crystal_structure": "hcp",
+        "basicity": "slightly-alkaline"
     },
     "tb": {
         "symbol": "Tb",
@@ -6895,7 +6954,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "hcp"
+        "crystal_structure": "hcp",
+        "basicity": "slightly-alkaline"
     },
     "dy": {
         "symbol": "Dy",
@@ -6991,7 +7051,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "hcp"
+        "crystal_structure": "hcp",
+        "basicity": "slightly-alkaline"
     },
     "ho": {
         "symbol": "Ho",
@@ -7087,7 +7148,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "hcp"
+        "crystal_structure": "hcp",
+        "basicity": "slightly-alkaline"
     },
     "er": {
         "symbol": "Er",
@@ -7183,7 +7245,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "hcp"
+        "crystal_structure": "hcp",
+        "basicity": "alkaline"
     },
     "tm": {
         "symbol": "Tm",
@@ -7284,7 +7347,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "hcp"
+        "crystal_structure": "hcp",
+        "basicity": "slightly-alkaline"
     },
     "yb": {
         "symbol": "Yb",
@@ -7390,7 +7454,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "fcc"
+        "crystal_structure": "fcc",
+        "basicity": "slightly-alkaline"
     },
     "lu": {
         "symbol": "Lu",
@@ -7487,7 +7552,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "hcp"
+        "crystal_structure": "hcp",
+        "basicity": "slightly-alkaline"
     },
     "hf": {
         "symbol": "Hf",
@@ -7587,7 +7653,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "hcp"
+        "crystal_structure": "hcp",
+        "basicity": "amphoterism"
     },
     "ta": {
         "symbol": "Ta",
@@ -7691,7 +7758,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "bcc"
+        "crystal_structure": "bcc",
+        "basicity": "slightly-acidic"
     },
     "w": {
         "symbol": "W",
@@ -7795,7 +7863,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "bcc"
+        "crystal_structure": "bcc",
+        "basicity": "slightly-acidic"
     },
     "re": {
         "symbol": "Re",
@@ -7895,7 +7964,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "hcp"
+        "crystal_structure": "hcp",
+        "basicity": "slightly-acidic"
     },
     "os": {
         "symbol": "Os",
@@ -8001,7 +8071,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "hcp"
+        "crystal_structure": "hcp",
+        "basicity": "slightly-acidic"
     },
     "ir": {
         "symbol": "Ir",
@@ -8099,7 +8170,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "fcc"
+        "crystal_structure": "fcc",
+        "basicity": "slightly-alkaline"
     },
     "pt": {
         "symbol": "Pt",
@@ -8175,7 +8247,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "fcc"
+        "crystal_structure": "fcc",
+        "basicity": "slightly-alkaline"
     },
     "au": {
         "symbol": "Au",
@@ -8255,7 +8328,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "fcc"
+        "crystal_structure": "fcc",
+        "basicity": "amphoterism"
     },
     "hg": {
         "symbol": "Hg",
@@ -8385,7 +8459,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "rho"
+        "crystal_structure": "rho",
+        "basicity": "slightly-alkaline"
     },
     "tl": {
         "symbol": "Tl",
@@ -8499,7 +8574,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "hcp"
+        "crystal_structure": "hcp",
+        "basicity": "slightly-alkaline"
     },
     "pb": {
         "symbol": "Pb",
@@ -8622,7 +8698,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "fcc"
+        "crystal_structure": "fcc",
+        "basicity": "amphoterism"
     },
     "bi": {
         "symbol": "Bi",
@@ -8723,7 +8800,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "rho"
+        "crystal_structure": "rho",
+        "basicity": "slightly-acidic"
     },
     "po": {
         "symbol": "Po",
@@ -8796,7 +8874,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "sc"
+        "crystal_structure": "sc",
+        "basicity": "amphoterism"
     },
     "at": {
         "symbol": "At",
@@ -9123,7 +9202,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "fcc"
+        "crystal_structure": "fcc",
+        "basicity": "moderately-alkaline"
     },
     "th": {
         "symbol": "Th",
@@ -9209,7 +9289,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "fcc"
+        "crystal_structure": "fcc",
+        "basicity": "slightly-alkaline"
     },
     "pa": {
         "symbol": "Pa",
@@ -9290,7 +9371,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "tetr"
+        "crystal_structure": "tetr",
+        "basicity": "slightly-alkaline"
     },
     "u": {
         "symbol": "U",
@@ -9542,7 +9624,8 @@
                 "unit": "ppmw"
             }
         },
-        "crystal_structure": "mon"
+        "crystal_structure": "mon",
+        "basicity": "amphoterism"
     },
     "am": {
         "symbol": "Am",
@@ -9976,7 +10059,8 @@
             "de": "Lawrencium"
         },
         "superconductivity": "none",
-        "crystal_structure": "hcp"
+        "crystal_structure": "hcp",
+        "basicity": "slightly-alkaline"
     },
     "rf": {
         "symbol": "Rf",
