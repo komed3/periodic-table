@@ -9,7 +9,7 @@ table.pt-prop-table.pt-isotable
       tr.pt-prop-table-row.pt-isotable-item
         td.pt-prop-table-value.pt-isotable-value
           a( href="/isotope/" + isotope.nuclide.replace( /^\[(.+)\](.+)$/g, '$2_$1' ) )
-            span!= core.fText( isotope.nuclide ) + ( isotope.alias ? '&nbsp;(' + core.fText( isotope.alias ) + ')' : '' )
+            b!= core.fText( isotope.nuclide ) + ( isotope.alias ? '&nbsp;(' + core.fText( isotope.alias ) + ')' : '' )
         td.pt-prop-table-value.pt-isotable-value
           if isotope.mass
             span!= core.fNumber( isotope.mass, locale, 5 )
