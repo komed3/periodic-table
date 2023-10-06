@@ -5,81 +5,213 @@
 
 body[theme="light"] {
 
-    --pt-set-0: #ffc1aa;
-    --pt-set-1: #ffd8aa;
-    --pt-set-2: #eeeebb;
-    --pt-set-3: #d7eefd;
-    --pt-set-4: #e2e2e2;
-    --pt-set-5: #fad4d4;
-    --pt-set-6: #eed6bf;
-    --pt-set-7: #baeeab;
-    --pt-set-8: #f3dff3;
-    --pt-set-9: #ecccec;
+    --pt-ye-1: #eeeebb; --pt-ye-2: #eaeaac; --pt-ye-3: #e7e79d;
+    --pt-ye-4: #e3e38d; --pt-ye-5: #dFdf7e; --pt-ye-6: #dbdb6f;
+    --pt-ye-7: #d8d860; --pt-ye-8: #d4d450; --pt-ye-9: #d0d041;
+
+    --pt-or-1: #ffd8aa; --pt-or-2: #ffcf97; --pt-or-3: #ffc784;
+    --pt-or-4: #ffbe71; --pt-or-5: #ffb55e; --pt-or-6: #ffac4b;
+    --pt-or-7: #ffa438; --pt-or-8: #ff9b25; --pt-or-9: #ff9212;
+
+    --pt-re-1: #fad4d4; --pt-re-2: #f8c3c3; --pt-re-3: #f6b2b2;
+    --pt-re-4: #f4a0a0; --pt-re-5: #f28f8f; --pt-re-6: #f07e7e;
+    --pt-re-7: #ee6d6d; --pt-re-8: #ec5b5b; --pt-re-9: #ea4a4a;
+
+    --pt-pi-1: #f3dff3; --pt-pi-2: #eed1ee; --pt-pi-3: #e9c3e9;
+    --pt-pi-4: #e3b5e3; --pt-pi-5: #dea7de; --pt-pi-6: #d999d9;
+    --pt-pi-7: #d48bd4; --pt-pi-8: #ce7dce; --pt-pi-9: #c96fc9;
+
+    --pt-bl-1: #d7eefd; --pt-bl-2: #c5e6fc; --pt-bl-3: #b3dffb;
+    --pt-bl-4: #a0d7fa; --pt-bl-5: #8ecff9; --pt-bl-6: #7cc7f8;
+    --pt-bl-7: #6ac0f7; --pt-bl-8: #57b8f6; --pt-bl-9: #45b0f5;
+
+    --pt-tu-1: #cef2ec; --pt-tu-2: #bfeee6; --pt-tu-3: #b0eae1;
+    --pt-tu-4: #a1e6db; --pt-tu-5: #92e2d5; --pt-tu-6: #83decf;
+    --pt-tu-7: #74daca; --pt-tu-8: #65d6c4; --pt-tu-9: #56d2be;
+
+    --pt-gr-1: #baeeab; --pt-gy-2: #adeb9b; --pt-gr-3: #a0e88b;
+    --pt-gr-4: #93e47b; --pt-gy-5: #86e16b; --pt-gr-6: #79de5b;
+    --pt-gr-7: #6cdb4b; --pt-gy-8: #5fd73b; --pt-gr-9: #52d42b;
+
+    --pt-gy-1: #e2e2e2; --pt-gy-2: #d8d8d8; --pt-gy-3: #cfcfcf;
+    --pt-gy-4: #c5c5c5; --pt-gy-5: #bbbbbb; --pt-gy-6: #b1b1b1;
+    --pt-gy-7: #a8a8a8; --pt-gy-8: #9e9e9e; --pt-gy-9: #949494;
 
 }
 
 body[theme="dark"] {
 
-    --pt-set-0: #832300;
-    --pt-set-1: #834700;
-    --pt-set-2: #69691a;
-    --pt-set-3: #065080;
-    --pt-set-4: #3b3b3b;
-    --pt-set-5: #730d0d;
-    --pt-set-6: #6a431c;
-    --pt-set-7: #2b7017;
-    --pt-set-8: #642d63;
-    --pt-set-9: #431c43;
+    --pt-ye-1: #69691a; --pt-ye-2: #767620; --pt-ye-3: #838326;
+    --pt-ye-4: #90902c; --pt-ye-5: #9e9e32; --pt-ye-6: #abab37;
+    --pt-ye-7: #b8b83d; --pt-ye-8: #c5c543; --pt-ye-9: #d2d249;
+
+    --pt-or-1: #834700; --pt-or-2: #935104; --pt-or-3: #a25b08;
+    --pt-or-4: #b2650b; --pt-or-5: #c16f0f; --pt-or-6: #d17913;
+    --pt-or-7: #e08317; --pt-or-8: #f08d1a; --pt-or-9: #ff971e;
+
+    --pt-re-1: #730d0d; --pt-re-2: #821212; --pt-re-3: #901616;
+    --pt-re-4: #9f1b1b; --pt-re-5: #ae2020; --pt-re-6: #bc2424;
+    --pt-re-7: #cb2929; --pt-re-8: #d92d2d; --pt-re-9: #e83232;
+
+    --pt-pi-1: #642d63; --pt-pi-2: #6f356e; --pt-pi-3: #7a3d79;
+    --pt-pi-4: #854584; --pt-pi-5: #914d8f; --pt-pi-6: #9c559a;
+    --pt-pi-7: #a75da5; --pt-pi-8: #b265b0; --pt-pi-9: #bd6dbb;
+
+    --pt-bl-1: #065080; --pt-bl-2: #0a5b8f; --pt-bl-3: #0f669d;
+    --pt-bl-4: #1370ac; --pt-bl-5: #187bbb; --pt-bl-6: #1c86c9;
+    --pt-bl-7: #2091d8; --pt-bl-8: #259be6; --pt-bl-9: #29a6f5;
+
+    --pt-tu-1: #067570; --pt-tu-2: #09857f; --pt-tu-3: #0D958f;
+    --pt-tu-4: #10a49e; --pt-tu-5: #14b4ad; --pt-tu-6: #17c4bc;
+    --pt-tu-7: #1ad4cc; --pt-tu-8: #1ee3db; --pt-tu-9: #21f3ea;
+
+    --pt-gr-1: #2b7017; --pt-gr-2: #337d1d; --pt-gr-3: #3a8a23;
+    --pt-gr-4: #429729; --pt-gr-5: #49a52f; --pt-gr-6: #51b234;
+    --pt-gr-7: #58bf3a; --pt-gr-8: #60cc40; --pt-gr-9: #67d946;
+
+    --pt-gy-1: #3b3b3b; --pt-gy-2: #454545; --pt-gy-3: #4e4e4e;
+    --pt-gy-4: #585858; --pt-gy-5: #616161; --pt-gy-6: #6b6b6b;
+    --pt-gy-7: #747474; --pt-gy-8: #7e7e7e; --pt-gy-9: #878787;
 
 }
 
-[layer="set"] .pt-el[prop="alkalimetal"] {
-    --bg: var( --pt-set-0 );
+[layer="group"] [prop="11"],
+[layer="set"] [prop="halogen"],
+[layer="block"] [prop="d"],
+[layer="phase"] [prop="solid"] {
+    --bg: var( --pt-ye-1 );
 }
 
-[layer="set"] .pt-el[prop="alkalineearthmetal"] {
-    --bg: var( --pt-set-1 );
+[layer="group"] [prop="12"] {
+    --bg: var( --pt-ye-3 );
 }
 
-[layer="set"] .pt-el[prop="halogen"],
-[layer="block"] .pt-el[prop="d"],
-[layer="phase"] .pt-el[prop="solid"] {
-    --bg: var( --pt-set-2 );
+[layer="group"] [prop="13"] {
+    --bg: var( --pt-ye-5 );
 }
 
-[layer="set"] .pt-el[prop="noblegas"],
-[layer="block"] .pt-el[prop="s"],
-[layer="phase"] .pt-el[prop="liquid"] {
-    --bg: var( --pt-set-3 );
+[layer="group"] [prop="14"] {
+    --bg: var( --pt-ye-7 );
 }
 
-[layer="set"] .pt-el[prop="metal"] {
-    --bg: var( --pt-set-4 );
+[layer="group"] [prop="15"] {
+    --bg: var( --pt-ye-9 );
 }
 
-[layer="set"] .pt-el[prop="transitionmetal"],
-[layer="block"] .pt-el[prop="f"] {
-    --bg: var( --pt-set-5 );
+[layer="group"] [prop="6"],
+[layer="set"] [prop="metalloid"] {
+    --bg: var( --pt-or-1 );
 }
 
-[layer="set"] .pt-el[prop="metalloid"] {
-    --bg: var( --pt-set-6 );
+[layer="group"] [prop="7"],
+[layer="set"] [prop="alkalineearthmetal"] {
+    --bg: var( --pt-or-3 );
 }
 
-[layer="set"] .pt-el[prop="nonmetal"],
-[layer="block"] .pt-el[prop="p"],
-[layer="phase"] .pt-el[prop="gas"] {
-    --bg: var( --pt-set-7 );
+[layer="group"] [prop="8"] {
+    --bg: var( --pt-or-5 );
 }
 
-[layer="set"] .pt-el[prop="lanthanoide"] {
-    --bg: var( --pt-set-8 );
+[layer="group"] [prop="9"] {
+    --bg: var( --pt-or-7 );
 }
 
-[layer="set"] .pt-el[prop="actinoide"] {
-    --bg: var( --pt-set-9 );
+[layer="group"] [prop="10"] {
+    --bg: var( --pt-or-9 );
 }
 
-[toggle] .pt-el.hidden {
+[layer="group"] [prop="1"],
+[layer="set"] [prop="transitionmetal"],
+[layer="block"] [prop="f"] {
+    --bg: var( --pt-re-1 );
+}
+
+[layer="group"] [prop="2"],
+[layer="set"] [prop="alkalimetal"] {
+    --bg: var( --pt-re-3 );
+}
+
+[layer="group"] [prop="3"] {
+    --bg: var( --pt-re-5 );
+}
+
+[layer="group"] [prop="4"] {
+    --bg: var( --pt-re-7 );
+}
+
+[layer="group"] [prop="5"] {
+    --bg: var( --pt-re-9 );
+}
+
+[layer="set"] [prop="actinoide"] {
+    --bg: var( --pt-pi-1 );
+}
+
+[layer="set"] [prop="lanthanoide"] {
+    --bg: var( --pt-pi-3 );
+}
+
+[layer="set"] [prop="noblegas"],
+[layer="block"] [prop="s"],
+[layer="phase"] [prop="liquid"] {
+    --bg: var( --pt-bl-1 );
+}
+
+[layer="period"] [prop="1"] {
+    --bg: var( --pt-tu-1 );
+}
+
+[layer="period"] [prop="2"] {
+    --bg: var( --pt-tu-2 );
+}
+
+[layer="period"] [prop="3"] {
+    --bg: var( --pt-tu-3 );
+}
+
+[layer="period"] [prop="4"] {
+    --bg: var( --pt-tu-4 );
+}
+
+[layer="period"] [prop="5"] {
+    --bg: var( --pt-tu-5 );
+}
+
+[layer="period"] [prop="6"] {
+    --bg: var( --pt-tu-6 );
+}
+
+[layer="period"] [prop="7"] {
+    --bg: var( --pt-tu-7 );
+}
+
+[layer="set"] [prop="nonmetal"],
+[layer="block"] [prop="p"],
+[layer="phase"] [prop="gas"] {
+    --bg: var( --pt-gr-1 );
+}
+
+[layer="group"] [prop="16"],
+[layer="set"] [prop="metal"] {
+    --bg: var( --pt-gy-1 );
+}
+
+[layer="group"] [prop="17"] {
+    --bg: var( --pt-gy-3 );
+}
+
+[layer="group"] [prop="18"] {
+    --bg: var( --pt-gy-5 );
+}
+
+[layer="group"] [prop="19"] {
+    --bg: var( --pt-gy-7 );
+}
+
+[layer="group"] [prop="20"] {
+    --bg: var( --pt-gy-9 );
+}
+
+[toggle] .hidden {
     opacity: 0.1;
 }
