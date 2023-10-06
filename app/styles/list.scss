@@ -29,16 +29,6 @@
     background: var( --bg, var( --gray-1 ) );
 }
 
-.pt-element-list-item.radioactive .element--symbol {
-    background: repeating-linear-gradient(
-        -45deg,
-        var( --bg, var( --gray-1 ) ),
-        var( --bg, var( --gray-1 ) ) 6px,
-        var( --gray-0 ) 6px,
-        var( --gray-0 ) 12px
-    );
-}
-
 .pt-element-list-item .element--symbol .symbol--number {
     padding-top: 6px;
     font-size: 12px;

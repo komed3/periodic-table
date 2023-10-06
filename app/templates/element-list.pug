@@ -2,15 +2,15 @@
 - var layer = layer || 'set'
 div.pt-element-list( layer=layer )
   each el in list
-    div(
-      prop= ( el[ layer ] || 'undefined' ),
-      class= 'pt-el pt-element-list-item' + (
-        el.radioactive
-          ? ' radioactive'
-          : ''
+    div.pt-element-list-item
+      div(
+        prop= ( el[ layer ] || 'undefined' ),
+        class= 'pt-el element--symbol' + (
+          el.radioactive
+            ? ' radioactive'
+            : ''
+        )
       )
-    )
-      div.element--symbol
         span.symbol--number= el.number
         span.symbol--label= el.symbol
       div.element--info

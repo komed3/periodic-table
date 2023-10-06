@@ -23,17 +23,3 @@
     color: var( --color, var( --color-main ) );
     background: var( --bg, var( --gray-0 ) );
 }
-
-.pt-microtable-item.radioactive {
-    background: repeating-linear-gradient(
-        -45deg,
-        var( --bg, var( --gray-0 ) ),
-        var( --bg, var( --gray-0 ) ) 6px,
-        var( --gray-0 ) 6px,
-        var( --gray-0 ) 12px
-    );
-}
-
-.pt-microtable-item.current {
-    outline: 1px solid var( --gray-5 );
-}
