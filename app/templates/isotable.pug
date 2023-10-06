@@ -16,7 +16,8 @@ table.pt-prop-table.pt-isotable
           else
             span —
         if isotope.decay == 'stable'
-          td( colspan="3" ).pt-prop-table-value.pt-isotable-value!= __( 'stable' )
+          td( colspan="3" ).pt-prop-table-value.pt-isotable-value
+            b!= __( 'stable' )
         else
           td.pt-prop-table-value.pt-isotable-value
             span!= core.fTime( isotope.decay.half_life, locale )[0]
