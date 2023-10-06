@@ -132,6 +132,7 @@ dist
 # Databases
 _db/search*
 _db/text/*
+_db/*.min.json
 
 # Compiled files
 public/scripts/*

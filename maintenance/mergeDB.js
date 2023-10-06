@@ -2,7 +2,7 @@
  * periodic table
  * maintenance script: buildTextIndex
  * 
- * (re)build text index for all elements from wikipedia
+ * merge database with a given json file
  * 
  * @author      komed3 (Paul Köhler)
  * @version     2.0.0

@@ -10,6 +10,7 @@
         "start": "nodemon server.js",
         "sass": "node-sass app/styles/ -o public/styles/ --output-style compressed",
         "compile": "uglifyjs-folder app/scripts/ -o public/scripts/ --each",
+        "buildDB": "node maintenance/buildDB.js",
         "buildSeachIndex": "node maintenance/buildSearchIndex.js",
         "buildSitemap": "node maintenance/buildSitemap.js",
         "buildTextIndex": "node maintenance/buildTextIndex.js",
