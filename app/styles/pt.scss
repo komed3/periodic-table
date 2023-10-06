@@ -109,7 +109,8 @@ body[theme="dark"] {
 }
 
 [layer="group"] .pt-el[prop="7"],
-[layer="set"] .pt-el[prop="alkalineearthmetal"] {
+[layer="set"] .pt-el[prop="alkalineearthmetal"],
+[layer="superconductivity"] .pt-el[prop="special"] {
     --bg: var( --pt-or-3 );
 }
 
@@ -133,7 +134,8 @@ body[theme="dark"] {
 }
 
 [layer="group"] .pt-el[prop="2"],
-[layer="set"] .pt-el[prop="alkalimetal"] {
+[layer="set"] .pt-el[prop="alkalimetal"],
+[layer="superconductivity"] .pt-el[prop="none"] {
     --bg: var( --pt-re-3 );
 }
 
@@ -200,6 +202,10 @@ body[theme="dark"] {
 [layer="block"] .pt-el[prop="p"],
 [layer="phase"] .pt-el[prop="gas"] {
     --bg: var( --pt-gr-1 );
+}
+
+[layer="superconductivity"] .pt-el[prop="normal"] {
+    --bg: var( --pt-gr-3 );
 }
 
 [layer="group"] .pt-el[prop="16"],

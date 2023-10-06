@@ -334,7 +334,8 @@
                 "url": "http://www.periodicvideos.com/videos/001.htm",
                 "text": "The Periodic Table of Videos"
             }
-        ]
+        ],
+        "superconductivity": "none"
     },
     "he": {
         "symbol": "He",
@@ -430,7 +431,8 @@
         "wiki": {
             "en": "Helium",
             "de": "Helium"
-        }
+        },
+        "superconductivity": "none"
     },
     "li": {
         "symbol": "Li",
@@ -511,6 +513,11 @@
         "wiki": {
             "en": "Lithium",
             "de": "Lithium"
+        },
+        "superconductivity": "special",
+        "sc_temp": {
+            "value": 20,
+            "unit": "K"
         }
     },
     "be": {
@@ -598,6 +605,11 @@
         "wiki": {
             "en": "Beryllium",
             "de": "Beryllium"
+        },
+        "superconductivity": "normal",
+        "sc_temp": {
+            "value": 26,
+            "unit": "K"
         }
     },
     "b": {
@@ -670,6 +682,11 @@
         "wiki": {
             "en": "Boron",
             "de": "Bor"
+        },
+        "superconductivity": "special",
+        "sc_temp": {
+            "value": 11.2,
+            "unit": "K"
         }
     },
     "c": {
@@ -730,6 +747,11 @@
         "wiki": {
             "en": "Carbon",
             "de": "Kohlenstoff"
+        },
+        "superconductivity": "special",
+        "sc_temp": {
+            "value": 15,
+            "unit": "K"
         }
     },
     "n": {
@@ -794,7 +816,8 @@
         "wiki": {
             "en": "Nitrogen",
             "de": "Stickstoff"
-        }
+        },
+        "superconductivity": "special"
     },
     "o": {
         "symbol": "O",
@@ -879,6 +902,11 @@
         "wiki": {
             "en": "Oxygen",
             "de": "Sauerstoff"
+        },
+        "superconductivity": "normal",
+        "sc_temp": {
+            "value": 0.6,
+            "unit": "K"
         }
     },
     "f": {
@@ -973,7 +1001,8 @@
         "wiki": {
             "en": "Fluorine",
             "de": "Fluor"
-        }
+        },
+        "superconductivity": "none"
     },
     "ne": {
         "symbol": "Ne",
@@ -1037,7 +1066,8 @@
         "wiki": {
             "en": "Neon",
             "de": "Neon"
-        }
+        },
+        "superconductivity": "none"
     },
     "na": {
         "symbol": "Na",
@@ -1119,7 +1149,8 @@
         "wiki": {
             "en": "Sodium",
             "de": "Natrium"
-        }
+        },
+        "superconductivity": "none"
     },
     "mg": {
         "symbol": "Mg",
@@ -1204,7 +1235,8 @@
         "wiki": {
             "en": "Magnesium",
             "de": "Magnesium"
-        }
+        },
+        "superconductivity": "none"
     },
     "al": {
         "symbol": "Al",
@@ -1274,6 +1306,11 @@
         "wiki": {
             "en": "Aluminum",
             "de": "Aluminium"
+        },
+        "superconductivity": "normal",
+        "sc_temp": {
+            "value": 1.18,
+            "unit": "K"
         }
     },
     "si": {
@@ -1326,6 +1363,11 @@
         "wiki": {
             "en": "Silicon",
             "de": "Silicium"
+        },
+        "superconductivity": "special",
+        "sc_temp": {
+            "value": 8.5,
+            "unit": "K"
         }
     },
     "p": {
@@ -1422,6 +1464,11 @@
         "wiki": {
             "en": "Phosphorus",
             "de": "Phosphor"
+        },
+        "superconductivity": "special",
+        "sc_temp": {
+            "value": 18,
+            "unit": "K"
         }
     },
     "s": {
@@ -1496,6 +1543,11 @@
         "wiki": {
             "en": "Sulfur",
             "de": "Schwefel"
+        },
+        "superconductivity": "special",
+        "sc_temp": {
+            "value": 17,
+            "unit": "K"
         }
     },
     "cl": {
@@ -1594,7 +1646,8 @@
         "wiki": {
             "en": "Chlorine",
             "de": "Chlor"
-        }
+        },
+        "superconductivity": "none"
     },
     "ar": {
         "symbol": "Ar",
@@ -1659,7 +1712,8 @@
         "wiki": {
             "en": "Argon",
             "de": "Argon"
-        }
+        },
+        "superconductivity": "none"
     },
     "k": {
         "symbol": "K",
@@ -1741,7 +1795,8 @@
         "wiki": {
             "en": "Potassium",
             "de": "Kalium"
-        }
+        },
+        "superconductivity": "none"
     },
     "ca": {
         "symbol": "Ca",
@@ -1824,6 +1879,11 @@
         "wiki": {
             "en": "Calcium",
             "de": "Calcium"
+        },
+        "superconductivity": "special",
+        "sc_temp": {
+            "value": 15,
+            "unit": "K"
         }
     },
     "sc": {
@@ -1890,6 +1950,11 @@
         "wiki": {
             "en": "Scandium",
             "de": "Scandium"
+        },
+        "superconductivity": "special",
+        "sc_temp": {
+            "value": 0.34,
+            "unit": "K"
         }
     },
     "ti": {
@@ -1960,6 +2025,11 @@
         "wiki": {
             "en": "Titanium",
             "de": "Titan (Element)"
+        },
+        "superconductivity": "normal",
+        "sc_temp": {
+            "value": 0.5,
+            "unit": "K"
         }
     },
     "v": {
@@ -2013,6 +2083,11 @@
         "wiki": {
             "en": "Vanadium",
             "de": "Vanadium"
+        },
+        "superconductivity": "normal",
+        "sc_temp": {
+            "value": 5.4,
+            "unit": "K"
         }
     },
     "cr": {
@@ -2066,6 +2141,11 @@
         "wiki": {
             "en": "Chromium",
             "de": "Chrom"
+        },
+        "superconductivity": "special",
+        "sc_temp": {
+            "value": 3,
+            "unit": "K"
         }
     },
     "mn": {
@@ -2145,7 +2225,8 @@
         "wiki": {
             "en": "Manganese",
             "de": "Mangan"
-        }
+        },
+        "superconductivity": "none"
     },
     "fe": {
         "symbol": "Fe",
@@ -2198,6 +2279,11 @@
         "wiki": {
             "en": "Iron",
             "de": "Eisen"
+        },
+        "superconductivity": "special",
+        "sc_temp": {
+            "value": 2,
+            "unit": "K"
         }
     },
     "co": {
@@ -2293,7 +2379,8 @@
         "wiki": {
             "en": "Cobalt",
             "de": "Cobalt"
-        }
+        },
+        "superconductivity": "none"
     },
     "ni": {
         "symbol": "Ni",
@@ -2376,7 +2463,8 @@
         "wiki": {
             "en": "Nickel",
             "de": "Nickel"
-        }
+        },
+        "superconductivity": "none"
     },
     "cu": {
         "symbol": "Cu",
@@ -2446,7 +2534,8 @@
         "wiki": {
             "en": "Copper",
             "de": "Kupfer"
-        }
+        },
+        "superconductivity": "none"
     },
     "zn": {
         "symbol": "Zn",
@@ -2530,6 +2619,11 @@
         "wiki": {
             "en": "Zinc",
             "de": "Zink"
+        },
+        "superconductivity": "normal",
+        "sc_temp": {
+            "value": 0.85,
+            "unit": "K"
         }
     },
     "ga": {
@@ -2614,6 +2708,11 @@
         "wiki": {
             "en": "Gallium",
             "de": "Gallium"
+        },
+        "superconductivity": "normal",
+        "sc_temp": {
+            "value": 1.08,
+            "unit": "K"
         }
     },
     "ge": {
@@ -2683,6 +2782,11 @@
         "wiki": {
             "en": "Germanium",
             "de": "Germanium"
+        },
+        "superconductivity": "special",
+        "sc_temp": {
+            "value": 5.4,
+            "unit": "K"
         }
     },
     "as": {
@@ -2759,6 +2863,11 @@
         "wiki": {
             "en": "Arsenic",
             "de": "Arsen"
+        },
+        "superconductivity": "special",
+        "sc_temp": {
+            "value": 2.7,
+            "unit": "K"
         }
     },
     "se": {
@@ -2842,6 +2951,11 @@
         "wiki": {
             "en": "Selenium",
             "de": "Selen"
+        },
+        "superconductivity": "special",
+        "sc_temp": {
+            "value": 7,
+            "unit": "K"
         }
     },
     "br": {
@@ -2930,6 +3044,11 @@
         "wiki": {
             "en": "Bromine",
             "de": "Brom"
+        },
+        "superconductivity": "special",
+        "sc_temp": {
+            "value": 1.4,
+            "unit": "K"
         }
     },
     "kr": {
@@ -3002,7 +3121,8 @@
         "wiki": {
             "en": "Krypton",
             "de": "Krypton"
-        }
+        },
+        "superconductivity": "none"
     },
     "rb": {
         "symbol": "Rb",
@@ -3085,7 +3205,8 @@
         "wiki": {
             "en": "Rubidium",
             "de": "Rubidium"
-        }
+        },
+        "superconductivity": "none"
     },
     "sr": {
         "symbol": "Sr",
@@ -3166,6 +3287,11 @@
         "wiki": {
             "en": "Strontium",
             "de": "Strontium"
+        },
+        "superconductivity": "special",
+        "sc_temp": {
+            "value": 4,
+            "unit": "K"
         }
     },
     "y": {
@@ -3237,6 +3363,11 @@
         "wiki": {
             "en": "Yttrium",
             "de": "Yttrium"
+        },
+        "superconductivity": "special",
+        "sc_temp": {
+            "value": 2.8,
+            "unit": "K"
         }
     },
     "zr": {
@@ -3314,6 +3445,11 @@
         "wiki": {
             "en": "Zirconium",
             "de": "Zirconium"
+        },
+        "superconductivity": "normal",
+        "sc_temp": {
+            "value": 0.6,
+            "unit": "K"
         }
     },
     "nb": {
@@ -3387,6 +3523,11 @@
         "wiki": {
             "en": "Niobium",
             "de": "Niob"
+        },
+        "superconductivity": "normal",
+        "sc_temp": {
+            "value": 9.25,
+            "unit": "K"
         }
     },
     "mo": {
@@ -3441,6 +3582,11 @@
         "wiki": {
             "en": "Molybdenum",
             "de": "Molybdän"
+        },
+        "superconductivity": "normal",
+        "sc_temp": {
+            "value": 0.92,
+            "unit": "K"
         }
     },
     "tc": {
@@ -3496,6 +3642,11 @@
         "wiki": {
             "en": "Technetium",
             "de": "Technetium"
+        },
+        "superconductivity": "normal",
+        "sc_temp": {
+            "value": 8.2,
+            "unit": "K"
         }
     },
     "ru": {
@@ -3563,6 +3714,11 @@
         "wiki": {
             "en": "Ruthenium",
             "de": "Ruthenium"
+        },
+        "superconductivity": "normal",
+        "sc_temp": {
+            "value": 0.5,
+            "unit": "K"
         }
     },
     "rh": {
@@ -3636,6 +3792,11 @@
         "wiki": {
             "en": "Rhodium",
             "de": "Rhodium"
+        },
+        "superconductivity": "normal",
+        "sc_temp": {
+            "value": 0.000035,
+            "unit": "K"
         }
     },
     "pd": {
@@ -3712,6 +3873,11 @@
         "wiki": {
             "en": "Palladium",
             "de": "Palladium"
+        },
+        "superconductivity": "special",
+        "sc_temp": {
+            "value": 3.2,
+            "unit": "K"
         }
     },
     "ag": {
@@ -3792,7 +3958,8 @@
         "wiki": {
             "en": "Silver",
             "de": "Silber"
-        }
+        },
+        "superconductivity": "none"
     },
     "cd": {
         "symbol": "Cd",
@@ -3893,6 +4060,11 @@
         "wiki": {
             "en": "Cadmium",
             "de": "Cadmium"
+        },
+        "superconductivity": "normal",
+        "sc_temp": {
+            "value": 0.52,
+            "unit": "K"
         }
     },
     "in": {
@@ -3970,6 +4142,11 @@
         "wiki": {
             "en": "Indium",
             "de": "Indium"
+        },
+        "superconductivity": "normal",
+        "sc_temp": {
+            "value": 3.4,
+            "unit": "K"
         }
     },
     "sn": {
@@ -4024,6 +4201,11 @@
         "wiki": {
             "en": "Tin",
             "de": "Zinn"
+        },
+        "superconductivity": "normal",
+        "sc_temp": {
+            "value": 3.7,
+            "unit": "K"
         }
     },
     "sb": {
@@ -4096,6 +4278,11 @@
         "wiki": {
             "en": "Antimony",
             "de": "Antimon"
+        },
+        "superconductivity": "special",
+        "sc_temp": {
+            "value": 3.6,
+            "unit": "K"
         }
     },
     "te": {
@@ -4179,6 +4366,11 @@
         "wiki": {
             "en": "Tellurium",
             "de": "Tellur"
+        },
+        "superconductivity": "special",
+        "sc_temp": {
+            "value": 7.4,
+            "unit": "K"
         }
     },
     "i": {
@@ -4291,6 +4483,11 @@
         "wiki": {
             "en": "Iodine",
             "de": "Iod"
+        },
+        "superconductivity": "special",
+        "sc_temp": {
+            "value": 1.2,
+            "unit": "K"
         }
     },
     "xe": {
@@ -4377,7 +4574,8 @@
         "wiki": {
             "en": "Xenon",
             "de": "Xenon"
-        }
+        },
+        "superconductivity": "none"
     },
     "cs": {
         "symbol": "Cs",
@@ -4461,6 +4659,11 @@
         "wiki": {
             "en": "Caesium",
             "de": "Caesium"
+        },
+        "superconductivity": "special",
+        "sc_temp": {
+            "value": 1.66,
+            "unit": "K"
         }
     },
     "ba": {
@@ -4551,6 +4754,11 @@
         "wiki": {
             "en": "Barium",
             "de": "Barium"
+        },
+        "superconductivity": "special",
+        "sc_temp": {
+            "value": 5,
+            "unit": "K"
         }
     },
     "la": {
@@ -4625,6 +4833,11 @@
         "wiki": {
             "en": "Lanthanum",
             "de": "Lanthan"
+        },
+        "superconductivity": "normal",
+        "sc_temp": {
+            "value": 6,
+            "unit": "K"
         }
     },
     "ce": {
@@ -4704,6 +4917,11 @@
         "wiki": {
             "en": "Cerium",
             "de": "Cer"
+        },
+        "superconductivity": "special",
+        "sc_temp": {
+            "value": 1.75,
+            "unit": "K"
         }
     },
     "pr": {
@@ -4780,7 +4998,8 @@
         "wiki": {
             "en": "Praseodymium",
             "de": "Praseodym"
-        }
+        },
+        "superconductivity": "none"
     },
     "nd": {
         "symbol": "Nd",
@@ -4857,7 +5076,8 @@
         "wiki": {
             "en": "Neodymium",
             "de": "Neodym"
-        }
+        },
+        "superconductivity": "none"
     },
     "pm": {
         "symbol": "Pm",
@@ -4909,7 +5129,8 @@
         "wiki": {
             "en": "Promethium",
             "de": "Promethium"
-        }
+        },
+        "superconductivity": "none"
     },
     "sm": {
         "symbol": "Sm",
@@ -4986,7 +5207,8 @@
         "wiki": {
             "en": "Samarium",
             "de": "Samarium"
-        }
+        },
+        "superconductivity": "none"
     },
     "eu": {
         "symbol": "Eu",
@@ -5062,7 +5284,8 @@
         "wiki": {
             "en": "Europium",
             "de": "Europium"
-        }
+        },
+        "superconductivity": "none"
     },
     "gd": {
         "symbol": "Gd",
@@ -5137,7 +5360,8 @@
         "wiki": {
             "en": "Gadolinium",
             "de": "Gadolinium"
-        }
+        },
+        "superconductivity": "none"
     },
     "tb": {
         "symbol": "Tb",
@@ -5192,7 +5416,8 @@
         "wiki": {
             "en": "Terbium",
             "de": "Terbium"
-        }
+        },
+        "superconductivity": "none"
     },
     "dy": {
         "symbol": "Dy",
@@ -5263,7 +5488,8 @@
         "wiki": {
             "en": "Dysprosium",
             "de": "Dysprosium"
-        }
+        },
+        "superconductivity": "none"
     },
     "ho": {
         "symbol": "Ho",
@@ -5334,7 +5560,8 @@
         "wiki": {
             "en": "Holmium",
             "de": "Holmium"
-        }
+        },
+        "superconductivity": "none"
     },
     "er": {
         "symbol": "Er",
@@ -5405,7 +5632,8 @@
         "wiki": {
             "en": "Erbium",
             "de": "Erbium"
-        }
+        },
+        "superconductivity": "none"
     },
     "tm": {
         "symbol": "Tm",
@@ -5481,7 +5709,8 @@
         "wiki": {
             "en": "Thulium",
             "de": "Thulium"
-        }
+        },
+        "superconductivity": "none"
     },
     "yb": {
         "symbol": "Yb",
@@ -5562,7 +5791,8 @@
         "wiki": {
             "en": "Ytterbium",
             "de": "Ytterbium"
-        }
+        },
+        "superconductivity": "none"
     },
     "lu": {
         "symbol": "Lu",
@@ -5630,6 +5860,11 @@
         "wiki": {
             "en": "Lutetium",
             "de": "Lutetium"
+        },
+        "superconductivity": "normal",
+        "sc_temp": {
+            "value": 0.1,
+            "unit": "K"
         }
     },
     "hf": {
@@ -5701,6 +5936,11 @@
         "wiki": {
             "en": "Hafnium",
             "de": "Hafnium"
+        },
+        "superconductivity": "normal",
+        "sc_temp": {
+            "value": 0.38,
+            "unit": "K"
         }
     },
     "ta": {
@@ -5776,6 +6016,11 @@
         "wiki": {
             "en": "Tantalum",
             "de": "Tantal"
+        },
+        "superconductivity": "normal",
+        "sc_temp": {
+            "value": 4.4,
+            "unit": "K"
         }
     },
     "w": {
@@ -5851,6 +6096,11 @@
         "wiki": {
             "en": "Tungsten",
             "de": "Wolfram"
+        },
+        "superconductivity": "normal",
+        "sc_temp": {
+            "value": 0.01,
+            "unit": "K"
         }
     },
     "re": {
@@ -5922,6 +6172,11 @@
         "wiki": {
             "en": "Rhenium",
             "de": "Rhenium"
+        },
+        "superconductivity": "normal",
+        "sc_temp": {
+            "value": 1.7,
+            "unit": "K"
         }
     },
     "os": {
@@ -6003,6 +6258,11 @@
         "wiki": {
             "en": "Osmium",
             "de": "Osmium"
+        },
+        "superconductivity": "normal",
+        "sc_temp": {
+            "value": 0.7,
+            "unit": "K"
         }
     },
     "ir": {
@@ -6076,6 +6336,11 @@
         "wiki": {
             "en": "Iridium",
             "de": "Iridium"
+        },
+        "superconductivity": "normal",
+        "sc_temp": {
+            "value": 0.1,
+            "unit": "K"
         }
     },
     "pt": {
@@ -6131,7 +6396,8 @@
         "wiki": {
             "en": "Platinum",
             "de": "Platin"
-        }
+        },
+        "superconductivity": "none"
     },
     "au": {
         "symbol": "Au",
@@ -6186,7 +6452,8 @@
         "wiki": {
             "en": "Gold",
             "de": "Gold"
-        }
+        },
+        "superconductivity": "none"
     },
     "hg": {
         "symbol": "Hg",
@@ -6287,6 +6554,11 @@
         "wiki": {
             "en": "Mercury (element)",
             "de": "Quecksilber"
+        },
+        "superconductivity": "normal",
+        "sc_temp": {
+            "value": 4.15,
+            "unit": "K"
         }
     },
     "tl": {
@@ -6372,6 +6644,11 @@
         "wiki": {
             "en": "Thallium",
             "de": "Thallium"
+        },
+        "superconductivity": "normal",
+        "sc_temp": {
+            "value": 2.4,
+            "unit": "K"
         }
     },
     "pb": {
@@ -6466,6 +6743,11 @@
         "wiki": {
             "en": "Lead",
             "de": "Blei"
+        },
+        "superconductivity": "normal",
+        "sc_temp": {
+            "value": 7.2,
+            "unit": "K"
         }
     },
     "bi": {
@@ -6538,6 +6820,11 @@
         "wiki": {
             "en": "Bismuth",
             "de": "Bismut"
+        },
+        "superconductivity": "special",
+        "sc_temp": {
+            "value": 8.7,
+            "unit": "K"
         }
     },
     "po": {
@@ -6591,7 +6878,8 @@
         "wiki": {
             "en": "Polonium",
             "de": "Polonium"
-        }
+        },
+        "superconductivity": "none"
     },
     "at": {
         "symbol": "At",
@@ -6635,7 +6923,8 @@
         "wiki": {
             "en": "Astatine",
             "de": "Astat"
-        }
+        },
+        "superconductivity": "none"
     },
     "rn": {
         "symbol": "Rn",
@@ -6687,7 +6976,8 @@
         "wiki": {
             "en": "Radon",
             "de": "Radon"
-        }
+        },
+        "superconductivity": "none"
     },
     "fr": {
         "symbol": "Fr",
@@ -6732,7 +7022,8 @@
         "wiki": {
             "en": "Francium",
             "de": "Francium"
-        }
+        },
+        "superconductivity": "none"
     },
     "ra": {
         "symbol": "Ra",
@@ -6789,7 +7080,8 @@
         "wiki": {
             "en": "Radium",
             "de": "Radium"
-        }
+        },
+        "superconductivity": "none"
     },
     "ac": {
         "symbol": "Ac",
@@ -6838,7 +7130,8 @@
         "wiki": {
             "en": "Actinium",
             "de": "Actinium"
-        }
+        },
+        "superconductivity": "none"
     },
     "th": {
         "symbol": "Th",
@@ -6895,6 +7188,11 @@
         "wiki": {
             "en": "Thorium",
             "de": "Thorium"
+        },
+        "superconductivity": "normal",
+        "sc_temp": {
+            "value": 1.4,
+            "unit": "K"
         }
     },
     "pa": {
@@ -6952,6 +7250,11 @@
         "wiki": {
             "en": "Protactinium",
             "de": "Protactinium"
+        },
+        "superconductivity": "normal",
+        "sc_temp": {
+            "value": 1.4,
+            "unit": "K"
         }
     },
     "u": {
@@ -7037,6 +7340,11 @@
         "wiki": {
             "en": "Uranium",
             "de": "Uran"
+        },
+        "superconductivity": "normal",
+        "sc_temp": {
+            "value": 1.3,
+            "unit": "K"
         }
     },
     "np": {
@@ -7094,7 +7402,8 @@
         "wiki": {
             "en": "Neptunium",
             "de": "Neptunium"
-        }
+        },
+        "superconductivity": "none"
     },
     "pu": {
         "symbol": "Pu",
@@ -7151,7 +7460,8 @@
         "wiki": {
             "en": "Plutonium",
             "de": "Plutonium"
-        }
+        },
+        "superconductivity": "none"
     },
     "am": {
         "symbol": "Am",
@@ -7208,6 +7518,11 @@
         "wiki": {
             "en": "Americium",
             "de": "Americium"
+        },
+        "superconductivity": "normal",
+        "sc_temp": {
+            "value": 1,
+            "unit": "K"
         }
     },
     "cm": {
@@ -7253,7 +7568,8 @@
         "wiki": {
             "en": "Curium",
             "de": "Curium"
-        }
+        },
+        "superconductivity": "none"
     },
     "bk": {
         "symbol": "Bk",
@@ -7302,7 +7618,8 @@
         "wiki": {
             "en": "Berkelium",
             "de": "Berkelium"
-        }
+        },
+        "superconductivity": "none"
     },
     "cf": {
         "symbol": "Cf",
@@ -7351,7 +7668,8 @@
         "wiki": {
             "en": "Californium",
             "de": "Californium"
-        }
+        },
+        "superconductivity": "none"
     },
     "es": {
         "symbol": "Es",
@@ -7399,7 +7717,8 @@
         "wiki": {
             "en": "Einsteinium",
             "de": "Einsteinium"
-        }
+        },
+        "superconductivity": "none"
     },
     "fm": {
         "symbol": "Fm",
@@ -7440,7 +7759,8 @@
         "wiki": {
             "en": "Fermium",
             "de": "Fermium"
-        }
+        },
+        "superconductivity": "none"
     },
     "md": {
         "symbol": "Md",
@@ -7481,7 +7801,8 @@
         "wiki": {
             "en": "Mendelevium",
             "de": "Mendelevium"
-        }
+        },
+        "superconductivity": "none"
     },
     "no": {
         "symbol": "No",
@@ -7522,7 +7843,8 @@
         "wiki": {
             "en": "Nobelium",
             "de": "Nobelium"
-        }
+        },
+        "superconductivity": "none"
     },
     "lr": {
         "symbol": "Lr",
@@ -7563,7 +7885,8 @@
         "wiki": {
             "en": "Lawrencium",
             "de": "Lawrencium"
-        }
+        },
+        "superconductivity": "none"
     },
     "rf": {
         "symbol": "Rf",

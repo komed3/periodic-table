@@ -165,6 +165,16 @@ block content
                 th.pt-prop-table-label
                   a( href="/scale/refractive_index" )!= __( 'refractive_index' )
                 td.pt-prop-table-value!= core.fNumber( element.refractive_index, locale )
+            if element.superconductivity
+              tr.pt-prop-table-row
+                th.pt-prop-table-label!= __( 'superconductivity-label' )
+                td.pt-prop-table-value
+                  a( href='/list/superconductivity/' + element.superconductivity )!= __( 'superconductivity-' + element.superconductivity )
+            if element.sc_temp
+              tr.pt-prop-table-row
+                th.pt-prop-table-label
+                  a( href="/scale/sc_temp" )!= __( 'sc_temp' )
+                td.pt-prop-table-value!= core.fNumber( element.sc_temp, locale )
       //- isotopes
       if isotopes.length > 0
         div.pt-box.pt-element-properties

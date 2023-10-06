@@ -238,5 +238,11 @@
 	"goldschmidt-chalcophile": "chalcophil",
 	"goldschmidt-siderophile": "siderophil",
 	"goldschmidt-synthetic": "synthetisch",
-	"goldschmidt-lithophile": "lithophil"
+	"goldschmidt-lithophile": "lithophil",
+	"superconductivity-none": "ohne Sprungtemperatur",
+	"superconductivity-label": "Supraleiter",
+	"superconductivity-normal": "mit Sprungtemperatur (Festkörper, Normaldruck)",
+	"sc_temp": "Sprungtemperatur",
+	"superconductivity-special": "mit Sprungtemperatur unter speziellen Bedingungen",
+	"superconductivity-undefined": "Unbekannt"
 }
