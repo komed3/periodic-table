@@ -1,5 +1,4 @@
 {
-	"404-description": "404-description",
 	"404-title": "Seite nicht gefunden",
 	"adr-title": "ADR-Gefahrgutklassen",
 	"allen-negativity": "Allen-Skala",
@@ -20,7 +19,7 @@
 	"covalent-radius": "Kovalenter Radius",
 	"credits": "Copyright © %s <a href=\"https://komed3.de\" target=\"_blank\">Paul Köhler (komed3)</a>",
 	"critical-temp": "Kritischer Punkt",
-	"crystal_structure-hexagonal": "hexagonal",
+	"crystal_structure-hex": "hexagonal",
 	"crystal_structure-label": "Kristallstruktur",
 	"crystal_structure-undefined": "Unbekannt",
 	"data-title": "Datenbank",
@@ -244,5 +243,15 @@
 	"superconductivity-normal": "mit Sprungtemperatur (Festkörper, Normaldruck)",
 	"sc_temp": "Sprungtemperatur",
 	"superconductivity-special": "mit Sprungtemperatur unter speziellen Bedingungen",
-	"superconductivity-undefined": "Unbekannt"
+	"superconductivity-undefined": "Unbekannt",
+	"crystal_structure-hcp": "hexagonal (dicht gepackt)",
+	"crystal_structure-bcc": "kubisch-körperzentriert",
+	"crystal_structure-rho": "rhomboedrisch",
+	"crystal_structure-sc": "einfach kubisch",
+	"crystal_structure-fcc": "kubisch-flächenzentriert",
+	"crystal_structure-dc": "Diamantstruktur",
+	"crystal_structure-orth": "orthorhombisch",
+	"crystal_structure-tetr": "tetragonal",
+	"crystal_structure-dhcp": "doppelt-hexagonal (dicht gepackt)",
+	"crystal_structure-mon": "monoklinisch"
 }

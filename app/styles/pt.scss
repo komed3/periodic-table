@@ -82,7 +82,8 @@ body[theme="dark"] {
 [layer="group"] .pt-el[prop="11"],
 [layer="set"] .pt-el[prop="halogen"],
 [layer="block"] .pt-el[prop="d"],
-[layer="phase"] .pt-el[prop="solid"] {
+[layer="phase"] .pt-el[prop="solid"],
+[layer="crystal_structure"] .pt-el[prop="tetr"] {
     --bg: var( --pt-ye-1 );
 }
 
@@ -95,7 +96,8 @@ body[theme="dark"] {
     --bg: var( --pt-ye-5 );
 }
 
-[layer="group"] .pt-el[prop="14"] {
+[layer="group"] .pt-el[prop="14"],
+[layer="crystal_structure"] .pt-el[prop="hex"] {
     --bg: var( --pt-ye-7 );
 }
 
@@ -104,7 +106,8 @@ body[theme="dark"] {
 }
 
 [layer="group"] .pt-el[prop="6"],
-[layer="set"] [prop="metalloid"] {
+[layer="set"] [prop="metalloid"],
+[layer="crystal_structure"] .pt-el[prop="bcc"] {
     --bg: var( --pt-or-1 );
 }
 
@@ -115,7 +118,8 @@ body[theme="dark"] {
 }
 
 [layer="goldschmidt"] .pt-el[prop="lithophile"],
-[layer="group"] .pt-el[prop="8"] {
+[layer="group"] .pt-el[prop="8"],
+[layer="crystal_structure"] .pt-el[prop="fcc"] {
     --bg: var( --pt-or-5 );
 }
 
@@ -129,7 +133,8 @@ body[theme="dark"] {
 
 [layer="group"] .pt-el[prop="1"],
 [layer="set"] .pt-el[prop="transitionmetal"],
-[layer="block"] .pt-el[prop="f"] {
+[layer="block"] .pt-el[prop="f"],
+[layer="crystal_structure"] .pt-el[prop="hcp"] {
     --bg: var( --pt-re-1 );
 }
 
@@ -140,7 +145,8 @@ body[theme="dark"] {
 }
 
 [layer="goldschmidt"] .pt-el[prop="siderophile"],
-[layer="group"] .pt-el[prop="3"] {
+[layer="group"] .pt-el[prop="3"],
+[layer="crystal_structure"] .pt-el[prop="dhcp"] {
     --bg: var( --pt-re-5 );
 }
 
@@ -156,7 +162,8 @@ body[theme="dark"] {
     --bg: var( --pt-pi-1 );
 }
 
-[layer="set"] .pt-el[prop="lanthanoide"] {
+[layer="set"] .pt-el[prop="lanthanoide"],
+[layer="crystal_structure"] .pt-el[prop="sc"] {
     --bg: var( --pt-pi-3 );
 }
 
@@ -166,7 +173,12 @@ body[theme="dark"] {
     --bg: var( --pt-bl-1 );
 }
 
-[layer="period"] .pt-el[prop="1"] {
+[layer="crystal_structure"] .pt-el[prop="rho"] {
+    --bg: var( --pt-bl-3 );
+}
+
+[layer="period"] .pt-el[prop="1"],
+[layer="crystal_structure"] .pt-el[prop="mon"] {
     --bg: var( --pt-tu-1 );
 }
 
@@ -204,12 +216,14 @@ body[theme="dark"] {
     --bg: var( --pt-gr-1 );
 }
 
-[layer="superconductivity"] .pt-el[prop="normal"] {
+[layer="superconductivity"] .pt-el[prop="normal"],
+[layer="crystal_structure"] .pt-el[prop="orth"] {
     --bg: var( --pt-gr-3 );
 }
 
 [layer="group"] .pt-el[prop="16"],
-[layer="set"] .pt-el[prop="metal"] {
+[layer="set"] .pt-el[prop="metal"],
+[layer="crystal_structure"] .pt-el[prop="dc"] {
     --bg: var( --pt-gy-1 );
 }
 
