@@ -1,0 +1,20 @@
+/**
+ * periodic table
+ * template: isotable
+ */
+
+.pt-isotable {
+    white-space: nowrap;
+}
+
+.pt-isotable-label {
+    width: auto !important;
+}
+
+.pt-isotable-value {
+    padding: 0 10px;
+}
+
+.pt-isotable-value span {
+    display: block;
+}

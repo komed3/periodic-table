@@ -16,6 +16,7 @@ block social
 block styles
   link( rel="stylesheet", href="/css/element.css" )/
   link( rel="stylesheet", href="/css/shell.css" )/
+  link( rel="stylesheet", href="/css/isotable.css" )/
   link( rel="stylesheet", href="/css/microtable.css" )/
 
 block content
@@ -168,7 +169,7 @@ block content
       if isotopes.length > 0
         div.pt-box.pt-element-properties
           h2!= __( 'prop-isotopes' )
-          include templates/isotopes.pug
+          include templates/isotable.pug
       //- NMR
       if element.nmr
         div.pt-box.pt-element-properties

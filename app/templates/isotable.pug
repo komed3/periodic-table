@@ -1,33 +1,31 @@
-//- templates/isotopes.pug
-table.pt-isotopes
+//- templates/isotable.pug
+table.pt-prop-table.pt-isotable
   thead
-    tr.pt-isotopes-header
+    tr.pt-prop-table-row.pt-isotable-header
       each label in [ 'nuclide', 'mass', 'half-life', 'mode', 'product', 'natural-abundance' ]
-        th.pt-isotopes-label!= __( 'isotope-' + label )
+        th.pt-prop-table-label.pt-isotable-label!= __( 'isotope-' + label )
   tbody
     each isotope in isotopes
-      tr.pt-isotopes-item
-        td.pt-isotopes-value
+      tr.pt-prop-table-row.pt-isotable-item
+        td.pt-prop-table-value.pt-isotable-value
           a( href="/isotope/" + isotope.nuclide.replace( /^\[(.+)\](.+)$/g, '$2_$1' ) )
-            span!= core.fText( isotope.nuclide )
-            if isotope.alias
-              span!= '&nbsp;(' + core.fText( isotope.alias ) + ')'
-        td.pt-isotopes-value
+            span!= core.fText( isotope.nuclide ) + ( isotope.alias ? '&nbsp;(' + core.fText( isotope.alias ) + ')' : '' )
+        td.pt-prop-table-value.pt-isotable-value
           if isotope.mass
             span!= core.fNumber( isotope.mass, locale, 5 )
           else
             span —
         if isotope.decay == 'stable'
-          td( colspan="3" ).pt-isotopes-value!= __( 'stable' )
+          td( colspan="3" ).pt-prop-table-value.pt-isotable-value!= __( 'stable' )
         else
-          td.pt-isotopes-value
+          td.pt-prop-table-value.pt-isotable-value
             span!= core.fTime( isotope.decay.half_life, locale )[0]
-          td.pt-isotopes-value
+          td.pt-prop-table-value.pt-isotable-value
             each p in isotope.decay.products
               span!= core.fText( p.mode )
-          td.pt-isotopes-value
+          td.pt-prop-table-value.pt-isotable-value
             each p in isotope.decay.products
               span!= core.fText( p.isotope )
-        td.pt-isotopes-value
+        td.pt-prop-table-value.pt-isotable-value
           if isotope.natural_abundance
             span!= core.fNumber( isotope.natural_abundance, locale, 5 )
