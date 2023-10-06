@@ -1,8 +1,11 @@
 jQuery( document ).ready( function ( $ ) {
 
-    $( 'a[target="_blank"]' ).each( function() {
+    $( 'a[target="_blank"], .external, .weblink' ).each( function() {
 
-        $( this ).attr( 'rel', 'noopener noreferrer' );
+        $( this ).attr( {
+            target: '_blank',
+            rel: 'noopener noreferrer'
+        } );
 
     } );
 

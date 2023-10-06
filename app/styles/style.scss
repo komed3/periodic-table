@@ -75,12 +75,24 @@ a {
     color: inherit;
 }
 
-a.external {
+a.external,
+a.weblink span {
     color: var( --accent-1 );
 }
 
-a.external:hover {
+a.external:hover,
+a.weblink:hover span {
     text-decoration: underline;
+}
+
+a.weblink {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    margin-top: 4px;
+    width: max-content;
 }
 
 sub {
