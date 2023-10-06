@@ -223,6 +223,29 @@
                 }
             }
         } ],
+        "abundance": {
+            "earth_fraction": {
+                "value": 0.15,
+                "unit": "%"
+            },
+            "solar_system": 3.2e10,
+            "earth_total": {
+                "value": 260,
+                "unit": "ppmw"
+            },
+            "earth_envelope": {
+                "value": 8800,
+                "unit": "ppmw"
+            },
+            "earth_crust": {
+                "value": 1400,
+                "unit": "ppmw"
+            },
+            "earth_oceans": {
+                "value": 180000,
+                "unit": "ppmw"
+            }
+        },
         "hazardous": {
             "h": [ "220", "280" ],
             "p": [ "202", "210", "271", "377", "381", "403" ],

@@ -296,6 +296,17 @@ block content
                         )= c.value
                       if c.label && c.label.length
                         span!= '&nbsp;(' + core.fText( c.label ) + ')'
+      //- abundance
+      if element.abundance
+        div.pt-box.pt-element-classification
+          h2!= __( 'natural-abundance' )
+          table.pt-prop-table.pt-element-table
+            tbody
+              each prop, label in element.abundance
+                tr.pt-prop-table-row
+                  th.pt-prop-table-label!= __( label )
+                  td.pt-prop-table-value!= core.fNumber( prop, locale )
+      //- weblinks
       div.pt-box.pt-element-weblinks
         h2!= __( 'weblinks' )
         if element.wiki && element.wiki[ locale ]

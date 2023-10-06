@@ -11,6 +11,10 @@
     max-width: var( --content );
 }
 
+.pt-element .pt-prop-table-label {
+    width: 35%;
+}
+
 .pt-element-intro .element--title {
     display: flex;
     flex-flow: row nowrap;
@@ -49,10 +53,6 @@
 
 .pt-element-summary-credits {
     font-size: 12px;
-}
-
-.pt-element-container .pt-prop-table-label {
-    width: 35%;
 }
 
 /**

@@ -225,5 +225,12 @@
 	"vdw-radius": "Van-der-Waals-Radius",
 	"weblink-wiki": "%s in der Wikipedia (%s)",
 	"weblinks": "Weiterführende Links",
-	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" target=\"_blank\">Weiterlesen …</a>"
+	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" target=\"_blank\">Weiterlesen …</a>",
+	"natural-abundance": "Natürliche Häufigkeit",
+	"earth_fraction": "Massenanteil Erdhülle",
+	"solar_system": "Sonnensystem",
+	"earth_total": "gesamte Erde",
+	"earth_envelope": "Erdhülle",
+	"earth_crust": "kontinentale Erdkruste",
+	"earth_oceans": "Ozeane"
 }
