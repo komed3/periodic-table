@@ -105,10 +105,10 @@
             "half_life": 2.94e-22,
             "products": [ {
                 "mode": "3n",
-                "isotope": "3[H]"
+                "isotope": "[3]H"
             }, {
                 "mode": "2n",
-                "isotope": "5[H]"
+                "isotope": "[5]H"
             } ]
         },
         "spin": "2-"

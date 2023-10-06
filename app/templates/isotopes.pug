@@ -20,9 +20,14 @@ table.pt-isotopes
         if isotope.decay == 'stable'
           td( colspan="3" ).pt-isotopes-value!= __( 'stable' )
         else
-          td.pt-isotopes-value!= core.fTime( isotope.decay.half_time, locale )[0]
           td.pt-isotopes-value
+            span!= core.fTime( isotope.decay.half_life, locale )[0]
           td.pt-isotopes-value
+            each p in isotope.decay.products
+              span!= core.fText( p.mode )
+          td.pt-isotopes-value
+            each p in isotope.decay.products
+              span!= core.fText( p.isotope )
         td.pt-isotopes-value
           if isotope.natural_abundance
             span!= core.fNumber( isotope.natural_abundance, locale, 5 )
