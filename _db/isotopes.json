@@ -45,11 +45,13 @@
             "value": 3.01604928132081,
             "unit": "u"
         },
-        "decay": [ {
+        "decay": {
             "half_life": 388586592,
-            "mode": "β[-]",
-            "product": "[3]He"
-        } ],
+            "products": [ {
+                "mode": "β[-]",
+                "isotope": "[3]He"
+            } ]
+        },
         "spin": "[1]/{2}+",
         "natural_abundance": {
             "value": 1e-15,
@@ -59,5 +61,72 @@
             "en": "Tritium",
             "de": "Tritium"
         }
+    }, {
+        "nuclide": "[4]H",
+        "z": 1,
+        "n": 3,
+        "mass": {
+            "value": 4.0264311,
+            "unit": "u"
+        },
+        "decay": {
+            "half_life": 1.39e-21,
+            "products": [ {
+                "mode": "n",
+                "isotope": "[3]H"
+            } ]
+        },
+        "spin": "2-"
+    }, {
+        "nuclide": "[5]H",
+        "z": 1,
+        "n": 4,
+        "mass": {
+            "value": 5.0353110,
+            "unit": "u"
+        },
+        "decay": {
+            "half_life": 8.61e-23,
+            "products": [ {
+                "mode": "2n",
+                "isotope": "[3]H"
+            } ]
+        },
+        "spin": "([1]/{2}+)"
+    }, {
+        "nuclide": "[6]H",
+        "z": 1,
+        "n": 5,
+        "mass": {
+            "value": 6.0449627,
+            "unit": "u"
+        },
+        "decay": {
+            "half_life": 2.94e-22,
+            "products": [ {
+                "mode": "3n",
+                "isotope": "3[H]"
+            }, {
+                "mode": "2n",
+                "isotope": "5[H]"
+            } ]
+        },
+        "spin": "2-"
+    }, {
+        "nuclide": "[7]H",
+        "z": 1,
+        "n": 6,
+        "mass": {
+            "value": 7.052750108,
+            "unit": "u"
+        },
+        "decay": {
+            "half_life": 5.07e-21,
+            "products": [ {
+                "mode": "2n",
+                "isotope": "[5]H"
+            } ]
+        },
+        "spin": "[1]/{2}+"
     } ]
 }
