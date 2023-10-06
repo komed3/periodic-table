@@ -298,7 +298,12 @@ block content
         if element.wiki && element.wiki[ locale ]
           a( href="https://wikipedia.org/wiki/" + locale + ':' + element.wiki[ locale ] ).weblink
             i.icon link
-            span!= __( 'weblink-wiki', element.names[ locale ] )
+            span!= __( 'weblink-wiki', element.names[ locale ], locale )
+        if element.weblinks
+          each link in element.weblinks
+            a( href=link.url ).weblink
+              i.icon link
+              span= link.text
     //- footer
     div.pt-element-footer
       //- tpl:microtable

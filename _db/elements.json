@@ -249,7 +249,14 @@
         "wiki": {
             "en": "Hydrogen",
             "de": "Wasserstoff"
-        }
+        },
+        "weblinks": [ {
+            "url": "https://www.webelements.com/hydrogen/",
+            "text": "WebElements"
+        }, {
+            "url": "http://www.periodicvideos.com/videos/001.htm",
+            "text": "The Periodic Table of Videos"
+        } ]
     },
     "he": {
         "symbol": "He",

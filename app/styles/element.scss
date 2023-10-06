@@ -119,12 +119,16 @@
     color: var( --gray-3 );
 }
 
+.pt-element-classification-item,
+.pt-element-weblinks .weblink {
+    font-size: 14px;
+}
+
 .pt-element-classification-item {
     flex: 1;
     display: flex;
     flex-flow: column nowrap;
     gap: 3px;
-    font-size: 13px;
 }
 
 /**
