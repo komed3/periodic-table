@@ -1884,6 +1884,8 @@
         "block": "s",
         "set": "alkalimetal",
         "phase": "solid",
+        "electron_config": "<Kr> 5s[1]",
+        "shell": [ 2, 8, 18, 8, 1 ],
         "hazardous": {
             "h": [ "260", "314" ],
             "p": [ "223", "231+232", "280", "305+351+338", "370+378" ],
@@ -1930,6 +1932,8 @@
         "block": "s",
         "set": "alkalineearthmetal",
         "phase": "solid",
+        "electron_config": "<Kr> 5s[2]",
+        "shell": [ 2, 8, 18, 8, 2 ],
         "hazardous": {
             "h": [ "260", "315" ],
             "p": [ "223", "231+232", "370+378" ],
@@ -1976,6 +1980,8 @@
         "block": "d",
         "set": "transitionmetal",
         "phase": "solid",
+        "electron_config": "<Kr> 4d[1] 5s[2]",
+        "shell": [ 2, 8, 18, 9, 2 ],
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210", "241", "280", "241", "370+378" ],
@@ -2020,6 +2026,8 @@
         "block": "d",
         "set": "transitionmetal",
         "phase": "solid",
+        "electron_config": "<Kr> 4d[2] 5s[2]",
+        "shell": [ 2, 8, 18, 10, 2 ],
         "hazardous": {
             "h": [ "250", "260" ],
             "p": [ "222", "223", "231+232", "370+378​" ],
@@ -2065,6 +2073,8 @@
         "block": "d",
         "set": "transitionmetal",
         "phase": "solid",
+        "electron_config": "<Kr> 4d[4] 5s[1]",
+        "shell": [ 2, 8, 18, 12, 1 ],
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210" ],
@@ -2110,6 +2120,8 @@
         "block": "d",
         "set": "transitionmetal",
         "phase": "solid",
+        "electron_config": "<Kr> 4d[5] 5s[1]",
+        "shell": [ 2, 8, 18, 13, 1 ],
         "hazardous": null,
         "classification": {
             "cas": [ {
@@ -2149,6 +2161,8 @@
         "block": "d",
         "set": "transitionmetal",
         "phase": "solid",
+        "electron_config": "<Kr> 4d[5] 5s[2]",
+        "shell": [ 2, 8, 18, 13, 2 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -2189,6 +2203,8 @@
         "block": "d",
         "set": "transitionmetal",
         "phase": "solid",
+        "electron_config": "<Kr> 4d[7] 5s[1]",
+        "shell": [ 2, 8, 18, 15, 1 ],
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210" ],
@@ -2233,6 +2249,8 @@
         "block": "d",
         "set": "transitionmetal",
         "phase": "solid",
+        "electron_config": "<Kr> 4d[8] 5s[1]",
+        "shell": [ 2, 8, 18, 16, 1 ],
         "hazardous": {
             "h": [ "228" ],
             "p": [ "20" ],
@@ -2278,6 +2296,8 @@
         "block": "d",
         "set": "transitionmetal",
         "phase": "solid",
+        "electron_config": "<Kr> 4d[10]",
+        "shell": [ 2, 8, 18, 18 ],
         "hazardous": {
             "h": [ "317" ],
             "p": [ "261", "273", "280", "302+352", "321", "333+313", "363", "501" ],
@@ -2322,6 +2342,8 @@
         "block": "d",
         "set": "transitionmetal",
         "phase": "solid",
+        "electron_config": "<Kr> 4d[10] 5s[1]",
+        "shell": [ 2, 8, 18, 18, 1 ],
         "hazardous": {
             "h": [ "410" ],
             "p": [ "273", "391", "501" ],
@@ -2370,6 +2392,8 @@
         "block": "d",
         "set": "transitionmetal",
         "phase": "solid",
+        "electron_config": "<Kr> 4d[10] 5s[2]",
+        "shell": [ 2, 8, 18, 18, 2 ],
         "hazardous": {
             "h": [ "250", "350", "330", "361fd", "341", "372", "410" ],
             "p": [ "210", "260", "273", "280", "308+313", "391", "405", "501" ],
@@ -2419,6 +2443,8 @@
         "block": "p",
         "set": "metal",
         "phase": "solid",
+        "electron_config": "<Kr> 4d[10] 5s[2] 5p[1]",
+        "shell": [ 2, 8, 18, 18, 3 ],
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210", "241", "280", "240", "370+378" ],
@@ -2464,6 +2490,8 @@
         "block": "p",
         "set": "metal",
         "phase": "solid",
+        "electron_config": "<Kr> 4d[10] 5s[2] 5p[2]",
+        "shell": [ 2, 8, 18, 18, 4 ],
         "hazardous": null,
         "classification": {
             "cas": [ {
@@ -2503,6 +2531,8 @@
         "block": "p",
         "set": "metalloid",
         "phase": "solid",
+        "electron_config": "<Kr> 4d[10] 5s[2] 5p[3]",
+        "shell": [ 2, 8, 18, 18, 5 ],
         "hazardous": {
             "h": [ "351" ],
             "p": [ "201", "202", "308+313" ],
@@ -2548,6 +2578,8 @@
         "block": "p",
         "set": "metalloid",
         "phase": "solid",
+        "electron_config": "<Kr> 4d[10] 5s[2] 5p[4]",
+        "shell": [ 2, 8, 18, 18, 6 ],
         "hazardous": {
             "h": [ "332", "317", "360", "362", "413" ],
             "p": [ "202", "273", "280", "302+352", "304+340+312", "308+313" ],
@@ -2593,6 +2625,8 @@
         "block": "p",
         "set": "halogen",
         "phase": "solid",
+        "electron_config": "<Kr> 4d[10] 5s[2] 5p[5]",
+        "shell": [ 2, 8, 18, 18, 7 ],
         "hazardous": {
             "h": [ "312+332", "315", "319", "335", "372", "400" ],
             "p": [ "273", "302+352", "305+351+338", "314" ],
@@ -2656,6 +2690,8 @@
         "block": "p",
         "set": "noblegas",
         "phase": "gas",
+        "electron_config": "<Kr> 4d[10] 5s[2] 5p[6]",
+        "shell": [ 2, 8, 18, 18, 8 ],
         "hazardous": {
             "h": [ "280" ],
             "p": [ "403" ],
@@ -2710,6 +2746,8 @@
         "block": "s",
         "set": "alkalimetal",
         "phase": "solid",
+        "electron_config": "<Xe> 6s[1]",
+        "shell": [ 2, 8, 18, 18, 8, 1 ],
         "hazardous": {
             "h": [ "260", "314" ],
             "p": [ "231+232", "260", "280", "305+351+338", "370+378" ],
@@ -2756,6 +2794,8 @@
         "block": "s",
         "set": "alkalineearthmetal",
         "phase": "solid",
+        "electron_config": "<Xe> 6s[2]",
+        "shell": [ 2, 8, 18, 18, 8, 2 ],
         "hazardous": {
             "h": [ "228", "260", "301", "314" ],
             "p": [ "210", "231+232", "260", "280", "303+361+353", "304+340+310", "305+351+338" ],
@@ -2802,6 +2842,8 @@
         "block": "d",
         "set": "lanthanoide",
         "phase": "solid",
+        "electron_config": "<Xe> 5d[1] 6s[2]",
+        "shell": [ 2, 8, 18, 18, 9, 2 ],
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210" ],
@@ -2847,6 +2889,8 @@
         "block": "f",
         "set": "lanthanoide",
         "phase": "solid",
+        "electron_config": "<Xe> 4f[1] 5d[1] 6s[2]",
+        "shell": [ 2, 8, 18, 19, 9, 2 ],
         "hazardous": {
             "h": [ "228" ],
             "p": [ "231+232", "233", "280", "370+378", "402+404", "501" ],
@@ -2892,6 +2936,8 @@
         "block": "f",
         "set": "lanthanoide",
         "phase": "solid",
+        "electron_config": "<Xe> 4f[3] 6s[2]",
+        "shell": [ 2, 8, 18, 21, 8, 2 ],
         "hazardous": {
             "h": [ "250" ],
             "p": [ "222", "231", "422" ],
@@ -2937,6 +2983,8 @@
         "block": "f",
         "set": "lanthanoide",
         "phase": "solid",
+        "electron_config": "<Xe> 4f[4] 6s[2]",
+        "shell": [ 2, 8, 18, 22, 8, 2 ],
         "hazardous": {
             "h": [ "315", "319", "335" ],
             "p": [ "261", "305+351+338" ],
@@ -2978,6 +3026,8 @@
         "block": "f",
         "set": "lanthanoide",
         "phase": "solid",
+        "electron_config": "<Xe> 4f[5] 6s[2]",
+        "shell": [ 2, 8, 18, 23, 8, 2 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -3018,6 +3068,8 @@
         "block": "f",
         "set": "lanthanoide",
         "phase": "solid",
+        "electron_config": "<Xe> 4f[6] 6s[2]",
+        "shell": [ 2, 8, 18, 24, 8, 2 ],
         "hazardous": {
             "h": [ "261" ],
             "p": [ "231+232", "280", "370+378", "501" ],
@@ -3063,6 +3115,8 @@
         "block": "f",
         "set": "lanthanoide",
         "phase": "solid",
+        "electron_config": "<Xe> 4f[7] 6s[2]",
+        "shell": [ 2, 8, 18, 25, 8, 2 ],
         "hazardous": {
             "h": [ "250" ],
             "p": [ "222", "231+232", "422" ],
@@ -3108,6 +3162,8 @@
         "block": "f",
         "set": "lanthanoide",
         "phase": "solid",
+        "electron_config": "<Xe> 4f[7] 5d[1] 6s[2]",
+        "shell": [ 2, 8, 18, 25, 9, 2 ],
         "hazardous": {
             "h": [ "261" ],
             "p": [ "231+232", "422" ],
@@ -3153,6 +3209,8 @@
         "block": "f",
         "set": "lanthanoide",
         "phase": "solid",
+        "electron_config": "<Xe> 4f[9] 6s[2]",
+        "shell": [ 2, 8, 18, 27, 8, 2 ],
         "hazardous": null,
         "classification": {
             "cas": [ {
@@ -3192,6 +3250,8 @@
         "block": "f",
         "set": "lanthanoide",
         "phase": "solid",
+        "electron_config": "<Xe> 4f[10] 6s[2]",
+        "shell": [ 2, 8, 18, 28, 8, 2 ],
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210" ],
@@ -3237,6 +3297,8 @@
         "block": "f",
         "set": "lanthanoide",
         "phase": "solid",
+        "electron_config": "<Xe> 4f[11] 6s[2]",
+        "shell": [ 2, 8, 18, 29, 8, 2 ],
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210" ],
@@ -3282,6 +3344,8 @@
         "block": "f",
         "set": "lanthanoide",
         "phase": "solid",
+        "electron_config": "<Xe> 4f[12] 6s[2]",
+        "shell": [ 2, 8, 18, 30, 8, 2 ],
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210" ],
@@ -3327,6 +3391,8 @@
         "block": "f",
         "set": "lanthanoide",
         "phase": "solid",
+        "electron_config": "<Xe> 4f[13] 6s[2]",
+        "shell": [ 2, 8, 18, 31, 8, 2 ],
         "hazardous": {
             "h": [ "228", "319", "335" ],
             "p": [ "210", "261", "305+351+338" ],
@@ -3372,6 +3438,8 @@
         "block": "f",
         "set": "lanthanoide",
         "phase": "solid",
+        "electron_config": "<Xe> 4f[14] 6s[2]",
+        "shell": [ 2, 8, 18, 32, 8, 2 ],
         "hazardous": {
             "h": [ "228", "302", "312", "315", "319", "332", "335" ],
             "p": [ "210", "261", "280", "305+351+338" ],
@@ -3417,6 +3485,8 @@
         "block": "f",
         "set": "lanthanoide",
         "phase": "solid",
+        "electron_config": "<Xe> 4f[14] 5d[1] 6s[2]",
+        "shell": [ 2, 8, 18, 32, 9, 2 ],
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210" ],
@@ -3461,6 +3531,8 @@
         "block": "d",
         "set": "transitionmetal",
         "phase": "solid",
+        "electron_config": "<Xe> 4f[14] 5d[2] 6s[2]",
+        "shell": [ 2, 8, 18, 32, 10, 2 ],
         "hazardous": {
             "h": [ "250" ],
             "p": [ "210" ],
@@ -3506,6 +3578,8 @@
         "block": "d",
         "set": "transitionmetal",
         "phase": "solid",
+        "electron_config": "<Xe> 4f[14] 5d[3] 6s[2]",
+        "shell": [ 2, 8, 18, 32, 11, 2 ],
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210", "240", "241", "280", "370+378" ],
@@ -3551,6 +3625,7 @@
         "block": "d",
         "set": "transitionmetal",
         "phase": "solid",
+        "electron_config": "<Xe> 4f[14] 5d[4] 6s[2]",
         "shell": [ 2, 8, 18, 32, 12, 2 ],
         "hazardous": {
             "h": [ "228" ],
@@ -3597,6 +3672,8 @@
         "block": "d",
         "set": "transitionmetal",
         "phase": "solid",
+        "electron_config": "<Xe> 4f[14] 5d[5] 6s[2]",
+        "shell": [ 2, 8, 18, 32, 13, 2 ],
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210" ],
@@ -3642,6 +3719,8 @@
         "block": "d",
         "set": "transitionmetal",
         "phase": "solid",
+        "electron_config": "<Xe> 4f[14] 5d[6] 6s[2]",
+        "shell": [ 2, 8, 18, 32, 14, 2 ],
         "hazardous": {
             "h": [ "228", "315", "318", "335" ],
             "p": [ "210", "261", "280", "302+352", "305+351+338" ],
@@ -3687,6 +3766,8 @@
         "block": "d",
         "set": "transitionmetal",
         "phase": "solid",
+        "electron_config": "<Xe> 4f[14] 5d[7] 6s[2]",
+        "shell": [ 2, 8, 18, 32, 15, 2 ],
         "hazardous": {
             "h": [ "228", "319" ],
             "p": [ "210" ],
@@ -3732,6 +3813,8 @@
         "block": "d",
         "set": "transitionmetal",
         "phase": "solid",
+        "electron_config": "<Xe> 4f[14] 5d[9] 6s[1]",
+        "shell": [ 2, 8, 18, 32, 17, 1 ],
         "hazardous": null,
         "classification": {
             "cas": [ {
@@ -3771,6 +3854,8 @@
         "block": "d",
         "set": "transitionmetal",
         "phase": "solid",
+        "electron_config": "<Xe> 4f[14] 5d[10] 6s[1]",
+        "shell": [ 2, 8, 18, 32, 18, 1 ],
         "hazardous": null,
         "classification": {
             "cas": [ {
@@ -3810,6 +3895,8 @@
         "block": "d",
         "set": "transitionmetal",
         "phase": "liquid",
+        "electron_config": "<Xe> 4f[14] 5d[10] 6s[2]",
+        "shell": [ 2, 8, 18, 32, 18, 2 ],
         "hazardous": {
             "h": [ "330", "360D", "372", "410" ],
             "p": [ "201", "233", "260", "273", "280", "304", "308", "310", "313", "340", "391", "403" ],
@@ -3859,6 +3946,8 @@
         "block": "p",
         "set": "metal",
         "phase": "solid",
+        "electron_config": "<Xe> 4f[14] 5d[10] 6s[2] 6p[1]",
+        "shell": [ 2, 8, 18, 32, 18, 3 ],
         "hazardous": {
             "h": [ "300", "330", "373", "413" ],
             "p": [ "260", "264", "284", "301+310" ],
@@ -3905,6 +3994,8 @@
         "block": "p",
         "set": "metal",
         "phase": "solid",
+        "electron_config": "<Xe> 4f[14] 5d[10] 6s[2] 6p[2]",
+        "shell": [ 2, 8, 18, 32, 18, 4 ],
         "hazardous": {
             "h": [ "302", "332", "351", "360Df", "373", "410" ],
             "p": [ "201", "261", "273", "304", "308", "312", "313", "340", "391" ],
@@ -3951,6 +4042,8 @@
         "block": "p",
         "set": "metal",
         "phase": "solid",
+        "electron_config": "<Xe> 4f[14] 5d[10] 6s[2] 6p[3]",
+        "shell": [ 2, 8, 18, 32, 18, 5 ],
         "hazardous": {
             "h": [ "228" ],
             "p": [ "210", "370+378" ],
@@ -3992,6 +4085,8 @@
         "block": "p",
         "set": "metal",
         "phase": "solid",
+        "electron_config": "<Xe> 4f[14] 5d[10] 6s[2] 6p[4]",
+        "shell": [ 2, 8, 18, 32, 18, 6 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4029,6 +4124,8 @@
         "block": "p",
         "set": "halogen",
         "phase": "solid",
+        "electron_config": "<Xe> 4f[14] 5d[10] 6s[2] 6p[5]",
+        "shell": [ 2, 8, 18, 32, 18, 7 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4061,6 +4158,8 @@
         "block": "p",
         "set": "noblegas",
         "phase": "gas",
+        "electron_config": "<Xe> 4f[14] 5d[10] 6s[2] 6p[6]",
+        "shell": [ 2, 8, 18, 32, 18, 8 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4097,6 +4196,8 @@
         "block": "s",
         "set": "alkalimetal",
         "phase": "solid",
+        "electron_config": "<Rn> 7s[1]",
+        "shell": [ 2, 8, 18, 32, 18, 8, 1 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4133,6 +4234,8 @@
         "block": "s",
         "set": "alkalineearthmetal",
         "phase": "solid",
+        "electron_config": "<Rn> 7s[2]",
+        "shell": [ 2, 8, 18, 32, 18, 8, 2 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4173,6 +4276,8 @@
         "block": "d",
         "set": "actinoide",
         "phase": "solid",
+        "electron_config": "<Rn> 6d[1] 7s[2]",
+        "shell": [ 2, 8, 18, 32, 18, 9, 2 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4209,6 +4314,8 @@
         "block": "f",
         "set": "actinoide",
         "phase": "solid",
+        "electron_config": "<Rn> 6d[2] 7s[2]",
+        "shell": [ 2, 8, 18, 32, 18, 10, 2 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4249,6 +4356,8 @@
         "block": "f",
         "set": "actinoide",
         "phase": "solid",
+        "electron_config": "<Rn> 5f[2] 6d[1] 7s[2]",
+        "shell": [ 2, 8, 18, 32, 20, 9, 2 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4289,6 +4398,8 @@
         "block": "f",
         "set": "actinoide",
         "phase": "solid",
+        "electron_config": "<Rn> 5f[3] 6d[1] 7s[2]",
+        "shell": [ 2, 8, 18, 32, 21, 9, 2 ],
         "hazardous": {
             "h": [ "330", "300", "373", "413" ],
             "p": [ "?" ],
@@ -4336,6 +4447,8 @@
         "block": "f",
         "set": "actinoide",
         "phase": "solid",
+        "electron_config": "<Rn> 5f[4] 6d[1] 7s[2]",
+        "shell": [ 2, 8, 18, 32, 22, 9, 2 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4376,6 +4489,8 @@
         "block": "f",
         "set": "actinoide",
         "phase": "solid",
+        "electron_config": "<Rn> 5f[6] 7s[2]",
+        "shell": [ 2, 8, 18, 32, 24, 8, 2 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4416,6 +4531,8 @@
         "block": "f",
         "set": "actinoide",
         "phase": "solid",
+        "electron_config": "<Rn> 5f[7] 7s[2]",
+        "shell": [ 2, 8, 18, 32, 25, 8, 2 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4452,6 +4569,8 @@
         "block": "f",
         "set": "actinoide",
         "phase": "solid",
+        "electron_config": "<Rn> 5f[7] 6d[1] 7s[2]",
+        "shell": [ 2, 8, 18, 32, 25, 9, 2 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4488,6 +4607,8 @@
         "block": "f",
         "set": "actinoide",
         "phase": "solid",
+        "electron_config": "<Rn> 5f[9] 7s[2]",
+        "shell": [ 2, 8, 18, 32, 27, 8, 2 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4524,6 +4645,8 @@
         "block": "f",
         "set": "actinoide",
         "phase": "solid",
+        "electron_config": "<Rn> 5f[10] 7s[2]",
+        "shell": [ 2, 8, 18, 32, 28, 8, 2 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4559,6 +4682,8 @@
         "block": "f",
         "set": "actinoide",
         "phase": "solid",
+        "electron_config": "<Rn> 5f[11] 7s[2]",
+        "shell": [ 2, 8, 18, 32, 29, 8, 2 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4587,6 +4712,8 @@
         "block": "f",
         "set": "actinoide",
         "phase": "solid",
+        "electron_config": "<Rn> 5f[12] 7s[2]",
+        "shell": [ 2, 8, 18, 32, 30, 8, 2 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4615,6 +4742,8 @@
         "block": "f",
         "set": "actinoide",
         "phase": "solid",
+        "electron_config": "<Rn> 5f[13] 7s[2]",
+        "shell": [ 2, 8, 18, 32, 31, 8, 2 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4643,6 +4772,8 @@
         "block": "f",
         "set": "actinoide",
         "phase": "solid",
+        "electron_config": "<Rn> 5f[14] 7s[2]",
+        "shell": [ 2, 8, 18, 32, 32, 8, 2 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4671,6 +4802,8 @@
         "block": "f",
         "set": "actinoide",
         "phase": "solid",
+        "electron_config": "<Rn> 5f[14] 7s[2] 7p[1]",
+        "shell": [ 2, 8, 18, 32, 32, 8, 3 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4701,6 +4834,8 @@
         "column": 18,
         "block": "d",
         "set": "transitionmetal",
+        "electron_config": "<Rn> 5f[14] 6d[2] 7s[2]",
+        "shell": [ 2, 8, 18, 32, 32, 10, 2 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4728,6 +4863,8 @@
         "column": 19,
         "block": "d",
         "set": "transitionmetal",
+        "electron_config": "<Rn> 5f[14] 6d[3] 7s[2]",
+        "shell": [ 2, 8, 18, 32, 32, 11, 2 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4759,6 +4896,8 @@
         "column": 20,
         "block": "d",
         "set": "transitionmetal",
+        "electron_config": "<Rn> 5f[14] 6d[4] 7s[2]",
+        "shell": [ 2, 8, 18, 32, 32, 12, 2 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4786,6 +4925,8 @@
         "column": 21,
         "block": "d",
         "set": "transitionmetal",
+        "electron_config": "<Rn> 5f[14] 6d[5] 7s[2]",
+        "shell": [ 2, 8, 18, 32, 32, 13, 2 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4813,6 +4954,8 @@
         "column": 22,
         "block": "d",
         "set": "transitionmetal",
+        "electron_config": "<Rn> 5f[14] 6d[6] 7s[2]",
+        "shell": [ 2, 8, 18, 32, 32, 14, 2 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4840,6 +4983,8 @@
         "column": 23,
         "block": "d",
         "set": null,
+        "electron_config": "<Rn> 5f[14] 6d[7] 7s[2]",
+        "shell": [ 2, 8, 18, 32, 32, 15, 2 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4867,6 +5012,8 @@
         "column": 24,
         "block": "d",
         "set": null,
+        "electron_config": "<Rn> 5f[14] 6d[8] 7s[2]",
+        "shell": [ 2, 8, 18, 32, 32, 16, 2 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4894,6 +5041,8 @@
         "column": 25,
         "block": "d",
         "set": null,
+        "electron_config": "<Rn> 5f[14] 6d[9] 7s[2]",
+        "shell": [ 2, 8, 18, 32, 32, 17, 2 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4921,6 +5070,8 @@
         "column": 26,
         "block": "d",
         "set": null,
+        "electron_config": "<Rn> 5f[14] 6d[10] 7s[2]",
+        "shell": [ 2, 8, 18, 32, 32, 18, 2 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4948,6 +5099,8 @@
         "column": 27,
         "block": "p",
         "set": null,
+        "electron_config": "<Rn> 5f[14] 6d[10] 7s[2] 7p[1]",
+        "shell": [ 2, 8, 18, 32, 32, 18, 3 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -4975,6 +5128,8 @@
         "column": 28,
         "block": "p",
         "set": null,
+        "electron_config": "<Rn> 5f[14] 6d[10] 7s[2] 7p[2]",
+        "shell": [ 2, 8, 18, 32, 32, 18, 4 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -5002,6 +5157,8 @@
         "column": 29,
         "block": "p",
         "set": null,
+        "electron_config": "<Rn> 5f[14] 6d[10] 7s[2] 7p[3]",
+        "shell": [ 2, 8, 18, 32, 32, 18, 5 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -5029,6 +5186,8 @@
         "column": 30,
         "block": "p",
         "set": null,
+        "electron_config": "<Rn> 5f[14] 6d[10] 7s[2] 7p[4]",
+        "shell": [ 2, 8, 18, 32, 32, 18, 6 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -5059,6 +5218,8 @@
         "column": 31,
         "block": "p",
         "set": null,
+        "electron_config": "<Rn> 5f[14] 6d[10] 7s[2] 7p[5]",
+        "shell": [ 2, 8, 18, 32, 32, 18, 7 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
@@ -5090,6 +5251,8 @@
         "block": "p",
         "set": null,
         "phase": "solid",
+        "electron_config": "<Rn> 5f[14] 6d[10] 7s[2] 7p[6]",
+        "shell": [ 2, 8, 18, 32, 32, 18, 8 ],
         "hazardous": null,
         "radioactive": true,
         "classification": {
