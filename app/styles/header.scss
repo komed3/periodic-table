@@ -79,7 +79,12 @@ $header-height: 56px;
 .pt-header-nav .pt-nav {
     display: flex;
     flex-flow: column nowrap;
-    gap: 4px;
+}
+
+.pt-header-nav .pt-nav .pt-nav-divider {
+    margin: 12px;
+    height: 2px;
+    background: var( --gray-2 );
 }
 
 .pt-header-nav .pt-nav .pt-nav-item {

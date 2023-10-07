@@ -188,7 +188,7 @@
 	"nmr-spin": "Spin-Quantenzahl",
 	"nmr-u": "Kernmag. Moment (μ)",
 	"nmr-y": "Gyromag. Verhältnis (γ)",
-	"nuclides-table": "Nuklidkarte",
+	"nuclides-title": "Nuklidkarte",
 	"number": "Ordnungszahl",
 	"oxidation-state": "Oxidationszustand",
 	"pauling-negativity": "Pauling-Skala",
@@ -279,5 +279,6 @@
 	"weblink-wiki": "%s in der Wikipedia (%s)",
 	"weblinks": "Weiterführende Links",
 	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" target=\"_blank\">Weiterlesen …</a>",
-	"start-title": "Start"
+	"start-title": "Start",
+	"mmc-title": "Molmassenrechner"
 }
