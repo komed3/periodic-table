@@ -91,7 +91,7 @@ $header-height: 56px;
     display: grid;
     grid-template-columns: $header-height auto;
     align-items: center;
-    height: $header-height;
+    height: 48px;
     font-size: 15px;
 }
 
@@ -101,5 +101,5 @@ $header-height: 56px;
 
 .pt-header-nav .pt-nav .pt-nav-item .icon {
     text-align: center;
-    font-size: 26px;
+    font-size: 20px;
 }
