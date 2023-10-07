@@ -1,9 +1,10 @@
 //- templates/searchform.pug
 div.pt-searchform
   form.pt-searchform-inner( action="/search/", method="get", autocomplete="off" )
-    i( class="icon pt-searchform-icon" ) search
-    input(
-      type="text", name="q", value=search.query,
-      spellcheck="false", class="pt-searchform-box",
-      placeholder=__( 'search-placeholder' )
+    i.icon.pt-searchform-icon search
+    input.pt-searchform-box(
+      type="text", name="q",
+      value= search.query,
+      placeholder= __( 'search-placeholder' ),
+      spellcheck="false"
     )
