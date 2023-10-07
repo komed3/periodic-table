@@ -1,6 +1,14 @@
 //- start.pug
 extends layout.pug
 
+block title
+  title= __( 'title' )
+  meta( name="description", content=__( 'description' ) )/
+
+block social
+  meta( property="og:title", content=__( 'title' ) )/
+  meta( property="og:description", content=__( 'description' ) )/
+
 block scripts
   script( src="/js/pt.min.js" )
 

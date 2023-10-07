@@ -20,7 +20,7 @@
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    gap: 2px;
+    gap: 1px;
 }
  
 .pt-periodic-table-item {
@@ -34,6 +34,10 @@
 .pt-periodic-table-item .element--number {
     padding-top: 6px;
     font-size: 12px;
+}
+
+.pt-periodic-table-group {
+    place-self: center flex-start;
 }
 
 .pt-periodic-table-gap {

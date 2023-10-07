@@ -260,8 +260,7 @@
 	"solar_system": "Sonnensystem",
 	"sound_speed": "Schallgeschwindigkeit",
 	"stable": "stabil",
-	"start-description": "start-description",
-	"start-title": "Start",
+	"description": "Interaktives Periodensystem der Elemente mit atomaren, chemischen, physikalischen Angaben, Isotopen und vielem mehr",
 	"superconductivity-label": "Supraleiter",
 	"superconductivity-none": "ohne Sprungtemperatur",
 	"superconductivity-normal": "mit Sprungtemperatur (Festkörper, Normaldruck)",
@@ -279,5 +278,6 @@
 	"vdw-radius": "Van-der-Waals-Radius",
 	"weblink-wiki": "%s in der Wikipedia (%s)",
 	"weblinks": "Weiterführende Links",
-	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" target=\"_blank\">Weiterlesen …</a>"
+	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" target=\"_blank\">Weiterlesen …</a>",
+	"start-title": "Start"
 }

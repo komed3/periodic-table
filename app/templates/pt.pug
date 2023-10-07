@@ -12,7 +12,7 @@ div.pt-periodic-table( layer=layer, toggle=1 )
       span.pt-periodic-table-label(
         style= '--g:' + el.column + ';--p:' + el.period
       )= el.symbol + '*'
-      span.pt-periodic-table-label(
+      span.pt-periodic-table-label.pt-periodic-table-group(
         style= '--g:1 / span ' + el.column + ';--p:' + ( el.period + offset )
       )= __( 'group-' + el.group )
     a(
