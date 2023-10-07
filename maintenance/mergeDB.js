@@ -11,6 +11,7 @@
 /**
  * load config
  */
+
 const yaml = require( 'js-yaml' );
 const config = require( 'config' );
 
@@ -19,6 +20,7 @@ const databases = config.get( 'maintenance.databases' );
 /**
  * load required modules
  */
+
 require( 'log-timestamp' );
 
 const fs = require( 'fs' );

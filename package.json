@@ -14,6 +14,7 @@
         "buildSeachIndex": "node maintenance/buildSearchIndex.js",
         "buildSitemap": "node maintenance/buildSitemap.js",
         "buildTextIndex": "node maintenance/buildTextIndex.js",
+        "getImages": "node maintenance/getImages.js",
         "mergeDB": "node maintenance/mergeDB.js"
     },
     "repository": {
@@ -34,6 +35,7 @@
         "express": "^4.18.2",
         "fs": "^0.0.1-security",
         "i18n": "^0.15.1",
+        "imagemagick": "^0.1.3",
         "js-yaml": "^4.1.0",
         "log-timestamp": "^0.3.0",
         "pug": "^3.0.2",

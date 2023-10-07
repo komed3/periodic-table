@@ -1,8 +1,8 @@
 /**
  * periodic table
- * maintenance script: buildSitemap
+ * maintenance script: getImages
  * 
- * build sitemap
+ * get images from wikimedia
  * 
  * @author      komed3 (Paul Köhler)
  * @version     2.0.0
@@ -20,6 +20,10 @@ const config = require( 'config' );
  */
 
 require( 'log-timestamp' );
+
+const im = require( 'imagemagick' );
+const fs = require( 'fs' );
+const core = require( './../lib/core' );
 
 /**
  * proceed maintenance script
