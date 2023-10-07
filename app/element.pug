@@ -244,7 +244,7 @@ block content
                     a( href='/list/' + prop + '/' + element[ prop ] )!= __( prop + '-' + element[ prop ] )
       //- radioactive warning
       if element.radioactive
-        div.pt-box.pt-box-flex.pt-element-radioactive
+        a( href="/prop/radioactive" ).pt-box.pt-box-flex.pt-element-radioactive
             img.pictogram-small( src="/img/radioactive.png", loading="lazy" )/
             b!= __( 'element-radioactive' )
       //- hazard classification
