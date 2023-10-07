@@ -114,14 +114,18 @@ routes.routes.forEach( ( route ) => {
             /* parse URL */
 
             let url = core.parseURL( req.originalUrl ),
-                _url = url.map( p => p.toString().toLocaleLowerCase( req.getLocale() ) );
+                _url = url.map( p => {
+                    return p.toString().toLocaleLowerCase( req.getLocale() );
+                } );
 
             /* canonical URL */
 
-            res.locals.canonical = (
-                req.protocol + '://' + req.hostname + '/' + ( route[2] || url[0] ) + '/' +
+            let canonical = ( '/' + ( route[2] || url[0] || '' ) + '/' +
                 url.slice( 1 ).filter( p => !p.includes( '?' ) ).join( '/' ) + '/'
-            ).replaceAll( '//', '/' );
+            ).replaceAll( '//', '/' ).slice( 0, -1 );
+
+            res.locals.url = canonical;
+            res.locals.canonical = req.protocol + '://' + req.hostname + canonical;
 
             /* set locals */
 

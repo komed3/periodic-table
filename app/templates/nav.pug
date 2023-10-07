@@ -38,6 +38,13 @@ div.pt-nav
     if link == null
       div.pt-nav-divider
     else
-      a( href=link[0] ).pt-nav-item
+      a(
+        href= link[0],
+        class= 'pt-nav-item' + (
+          link[0] == url
+            ? ' current'
+            : ''
+        )
+      )
         i.icon= link[1]
         span= link[2]

@@ -95,6 +95,7 @@ $header-height: 56px;
 }
 
 .pt-header-nav .pt-nav .pt-nav-item {
+    position: relative;
     display: grid;
     grid-template-columns: $header-height auto;
     align-items: center;
@@ -104,6 +105,27 @@ $header-height: 56px;
 
 .pt-header-nav .pt-nav .pt-nav-item:hover {
     background: var( --gray-1 );
+}
+
+.pt-header-nav .pt-nav .pt-nav-item.current {
+    color: var( --accent-1 );
+}
+
+.pt-header-nav .pt-nav .pt-nav-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 4px;
+}
+
+.pt-header-nav .pt-nav .pt-nav-item:hover::before {
+    background: var( --gray-2 );
+}
+
+.pt-header-nav .pt-nav .pt-nav-item.current::before {
+    background: var( --accent-1 );
 }
 
 .pt-header-nav .pt-nav .pt-nav-item .icon {
