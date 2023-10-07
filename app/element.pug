@@ -333,6 +333,9 @@ block content
             a( href=link.url ).weblink
               i.icon link
               span= link.text
+      //- @modified
+      if element[ '@modified' ]
+        p.pt-element-modified!= __( '@modified', core.fDate( element[ '@modified' ], locale ) )
     //- footer
     div.pt-element-footer
       //- tpl:microtable

@@ -21,8 +21,6 @@ const databases = config.get( 'maintenance.databases' );
  */
 require( 'log-timestamp' );
 
-console.log( 'load required modules' );
-
 const fs = require( 'fs' );
 const merge = require( 'deepmerge' );
 const core = require( './../lib/core' );
@@ -78,18 +76,39 @@ if( process.argv[2] == undefined ) {
      * define constants
      */
 
-    const database = core.DB( process.argv[2] );
+    const DB = process.argv[2];
     const file = process.argv[3];
 
     /**
-     * load merge file
+     * load database
      */
 
-    console.log( 'read file to merge ...' );
+    console.log( 'load database "' + DB + '" ...' );
 
-    const input = JSON.parse(
-        fs.readFileSync( file, 'utf8' )
-    );
+    var database = core.DB( DB );
+
+    console.log( '... done' );
+
+    /**
+     * load file to merge
+     */
+
+    console.log( 'read file "' + file + '" to merge ...' );
+
+    var input = JSON.parse( fs.readFileSync( file, 'utf8' ) );
+    var keys = Object.keys( input );
+
+    console.log( '... done; ' + keys.length + ' entries found' );
+
+    /**
+     * update timestamps
+     */
+
+    console.log( 'update timestamps ...' );
+
+    Object.keys( input ).forEach( ( k ) => {
+        input[ k ][ '@modified' ] = ( new Date() ).toJSON()
+    } );
 
     console.log( '... done' );
 
@@ -107,10 +126,10 @@ if( process.argv[2] == undefined ) {
      * save database changes
      */
 
-    console.log( 'save changes to database ...' );
+    console.log( 'save changes to "' + DB + '" database ...' );
 
     fs.writeFile(
-        './_db/' + process.argv[2] + '.json',
+        './_db/' + DB + '.json',
         JSON.stringify( result, null, 4 ),
         { flag: 'w' }, ( error ) => {
 
@@ -131,10 +150,10 @@ if( process.argv[2] == undefined ) {
         }
     );
 
-    console.log( 'save changes to minified database ...' );
+    console.log( 'save changes to minified "' + DB + '" database ...' );
 
     fs.writeFile(
-        './_db/' + process.argv[2] + '.min.json',
+        './_db/' + DB + '.min.json',
         JSON.stringify( result ),
         { flag: 'w' }, ( error ) => {
 

@@ -264,5 +264,6 @@
 	"basicity-slightly-alkaline": "leicht basisch",
 	"basicity-neutral": "neutral",
 	"basicity-alkaline": "basisch",
-	"404-description": "404-description"
+	"404-description": "404-description",
+	"@modified": "Zuletzt bearbeitet %s Uhr"
 }
