@@ -1,0 +1,41 @@
+/**
+ * periodic table
+ * template: microtable
+ */
+
+@import 'pt';
+
+.pt-periodic-table {
+    display: grid;
+    grid-template-columns: repeat( 18, 1fr );
+    gap: 4px;
+}
+ 
+.pt-periodic-table-item,
+.pt-periodic-table-gap,
+.pt-periodic-table-label {
+    grid-column: var( --g );
+    grid-row: var( --p );
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+ 
+.pt-periodic-table-item {
+    aspect-ratio: 1/1;
+    font-size: 20px;
+    font-weight: bold;
+    color: var( --color, var( --color-main ) );
+    background: var( --bg, var( --gray-0 ) );
+}
+
+.pt-periodic-table-item .element--number {
+    padding-top: 6px;
+    font-size: 12px;
+}
+
+.pt-periodic-table-gap {
+    height: 24px;
+}

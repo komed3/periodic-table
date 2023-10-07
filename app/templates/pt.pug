@@ -1,0 +1,34 @@
+//- templates/pt.pug
+- var layer = layer || 'set'
+- var offset = 3
+div.pt-periodic-table( layer=layer )
+  span.pt-periodic-table-gap( style= '--g:1 / span 18' )
+  each el, k in elements
+    if el.group > 18 && el.column == 3
+      span.pt-periodic-table-label(
+        style= '--g:' + el.column + ';--p:' + el.period
+      )= el.symbol + '*'
+      span.pt-periodic-table-label(
+        style= '--g:1 / span ' + el.column + ';--p:' + ( el.period + offset )
+      )= __( 'group-' + el.group )
+    a(
+      href= '/e/' + el.symbol,
+      style= '--g:' + (
+        el.group > 18
+          ? el.column + 1
+          : el.group
+      ) + ';--p:' + (
+        el.group > 18
+          ? el.period + offset
+          : el.period
+      ),
+      prop= ( el[ layer ] || 'undefined' ),
+      title= el.names[ locale ],
+      class= 'pt-el pt-periodic-table-item' + (
+        el.radioactive
+          ? ' radioactive'
+          : ''
+      )
+    )
+      span.element--number= el.number
+      span.element--symbol= el.symbol

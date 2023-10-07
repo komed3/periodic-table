@@ -1,2 +1,9 @@
 //- start.pug
 extends layout.pug
+
+block styles
+  link( rel="stylesheet", href="/css/table.css" )/
+
+block content
+  div.pt-page.pt-start
+    include templates/pt.pug
