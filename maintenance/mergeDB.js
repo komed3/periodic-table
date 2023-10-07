@@ -118,9 +118,33 @@ if( process.argv[2] == undefined ) {
 
     console.log( 'merge files ...' );
 
-    const result = merge.all( [ database, input ] );
+    var result = merge.all( [ database, input ] );
 
     console.log( '... done' );
+
+    /**
+     * sort keys in database
+     */
+
+    if( [ 'elements' ].includes( DB ) ) {
+
+        console.log( 'sort keys in database "' + DB + '" ...' );
+
+        for( const [ el, data ] of Object.entries( result ) ) {
+
+            result[ el ] = Object.keys( data ).sort().reduce( ( obj, key ) => {
+
+                obj[ key ] = data[ key ];
+
+                return obj;
+
+            }, {} );
+
+        }
+
+        console.log( '... done' );
+
+    }
 
     /**
      * save database changes
