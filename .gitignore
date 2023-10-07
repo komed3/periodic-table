@@ -135,5 +135,6 @@ _db/text/*
 _db/*.min.json
 
 # Compiled files
+public/images/*
 public/scripts/*
 public/styles/*

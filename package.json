@@ -29,6 +29,7 @@
         "url": "https://github.com/komed3/periodic-table/issues"
     },
     "dependencies": {
+        "axios": "^1.5.1",
         "config": "^3.3.9",
         "cookie-parser": "^1.4.6",
         "deepmerge": "^4.3.1",
