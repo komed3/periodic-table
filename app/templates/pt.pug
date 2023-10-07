@@ -1,9 +1,13 @@
 //- templates/pt.pug
 - var layer = layer || 'set'
+- var legend = []
 - var offset = 3
-div.pt-periodic-table( layer=layer )
+div.pt-periodic-table( layer=layer, toggle=1 )
   span.pt-periodic-table-gap( style= '--g:1 / span 18' )
   each el, k in elements
+    - if( !legend.includes( el[ layer ] ) ) {
+    -   legend.push( el[ layer ] )
+    - }
     if el.group > 18 && el.column == 3
       span.pt-periodic-table-label(
         style= '--g:' + el.column + ';--p:' + el.period

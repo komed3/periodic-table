@@ -1,7 +1,7 @@
 //- templates/microtable.pug
 - var layer = layer || 'set'
+- var legend = []
 div.pt-microtable( layer=layer, toggle=1 )
-  - var legend = []
   each el, k in elements
     - if( !legend.includes( el[ layer ] ) ) {
     -   legend.push( el[ layer ] )

@@ -1,9 +1,14 @@
 //- start.pug
 extends layout.pug
 
+block scripts
+  script( src="/js/pt.min.js" )
+
 block styles
   link( rel="stylesheet", href="/css/table.css" )/
+  link( rel="stylesheet", href="/css/legend.css" )/
 
 block content
   div.pt-page.pt-start
     include templates/pt.pug
+    include templates/legend.pug
