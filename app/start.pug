@@ -17,6 +17,10 @@ block styles
   link( rel="stylesheet", href="/css/legend.css" )/
 
 block content
+  //- periodic table
   div.pt-page.pt-start
     include templates/pt.pug
     include templates/legend.pug
+  //- welcome text
+  div.pt-page.pt-box.pt-start
+    h1= __( 'title' )

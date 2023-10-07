@@ -16,24 +16,34 @@
 .pt-periodic-table-label {
     grid-column: var( --g );
     grid-row: var( --p );
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-    gap: 1px;
 }
  
 .pt-periodic-table-item {
     aspect-ratio: 1/1;
-    font-size: 20px;
+    line-height: 1;
     font-weight: bold;
     color: var( --color, var( --color-main ) );
     background: var( --bg, var( --gray-0 ) );
 }
 
 .pt-periodic-table-item .element--number {
-    padding-top: 6px;
-    font-size: 12px;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    font-size: 13px;
+}
+
+.pt-periodic-table-item .element--symbol {
+    position: absolute;
+    right: 8px;
+    bottom: 6px;
+    font-size: 26px;
+}
+
+.pt-periodic-table-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pt-periodic-table-group {
