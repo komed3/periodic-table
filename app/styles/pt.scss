@@ -197,10 +197,6 @@ body[theme="dark"] {
     --bg: var( --pt-tu-1 );
 }
 
-[layer="goldschmidt"] .pt-el[prop="atmophile"] {
-    --bg: var( --pt-tu-5 );
-}
-
 [layer="period"] .pt-el[prop="2"] {
     --bg: var( --pt-tu-2 );
 }
@@ -213,7 +209,9 @@ body[theme="dark"] {
     --bg: var( --pt-tu-4 );
 }
 
-[layer="period"] .pt-el[prop="5"] {
+[layer="period"] .pt-el[prop="5"],
+[layer="goldschmidt"] .pt-el[prop="atmophile"],
+[layer="crystal_structure"] .pt-el[prop="dc"] {
     --bg: var( --pt-tu-5 );
 }
 
@@ -238,8 +236,7 @@ body[theme="dark"] {
 }
 
 [layer="group"] .pt-el[prop="16"],
-[layer="set"] .pt-el[prop="metal"],
-[layer="crystal_structure"] .pt-el[prop="dc"] {
+[layer="set"] .pt-el[prop="metal"] {
     --bg: var( --pt-gy-1 );
 }
 

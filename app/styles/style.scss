@@ -206,6 +206,10 @@ select {
     background: var( --gray-1 );
 }
 
+.pt-prop-table-list .pt-prop-table-list-item:not(:last-child)::after {
+    content: ', '
+}
+
 /**
  * actions
  */

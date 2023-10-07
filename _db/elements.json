@@ -1,6 +1,6 @@
 {
     "h": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.15,
@@ -345,7 +345,7 @@
         }
     },
     "he": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4e-7,
@@ -471,7 +471,7 @@
         }
     },
     "li": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.006,
@@ -592,7 +592,7 @@
         }
     },
     "be": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00053,
@@ -720,7 +720,7 @@
         }
     },
     "b": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0016,
@@ -831,7 +831,7 @@
         }
     },
     "c": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.087,
@@ -928,7 +928,7 @@
         }
     },
     "n": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.03,
@@ -1028,7 +1028,7 @@
         }
     },
     "o": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 49400,
@@ -1152,7 +1152,7 @@
         }
     },
     "f": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.028,
@@ -1283,7 +1283,7 @@
         }
     },
     "ne": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 5e-7,
@@ -1377,7 +1377,7 @@
         }
     },
     "na": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2.64,
@@ -1497,7 +1497,7 @@
         }
     },
     "mg": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.94,
@@ -1620,7 +1620,7 @@
         }
     },
     "al": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 7.57,
@@ -1731,7 +1731,7 @@
         }
     },
     "si": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 25800,
@@ -1823,7 +1823,7 @@
         }
     },
     "p": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.09,
@@ -1960,7 +1960,7 @@
         }
     },
     "s": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.048,
@@ -2071,7 +2071,7 @@
         }
     },
     "cl": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.19,
@@ -2205,7 +2205,7 @@
         }
     },
     "ar": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00036,
@@ -2300,7 +2300,7 @@
         }
     },
     "k": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2.41,
@@ -2419,7 +2419,7 @@
         }
     },
     "ca": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 3.39,
@@ -2543,7 +2543,7 @@
         }
     },
     "sc": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00051,
@@ -2651,7 +2651,7 @@
         }
     },
     "ti": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.41,
@@ -2763,7 +2763,7 @@
         }
     },
     "v": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.041,
@@ -2859,7 +2859,7 @@
         }
     },
     "cr": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.019,
@@ -2955,7 +2955,7 @@
         }
     },
     "mn": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.085,
@@ -3072,7 +3072,7 @@
         }
     },
     "fe": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4700,
@@ -3163,7 +3163,7 @@
         }
     },
     "co": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0037,
@@ -3296,7 +3296,7 @@
         }
     },
     "ni": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.015,
@@ -3417,7 +3417,7 @@
         }
     },
     "cu": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.01,
@@ -3521,7 +3521,7 @@
         }
     },
     "zn": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.012,
@@ -3643,7 +3643,7 @@
         }
     },
     "ga": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0014,
@@ -3767,7 +3767,7 @@
         }
     },
     "ge": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00056,
@@ -3876,7 +3876,7 @@
         }
     },
     "as": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00055,
@@ -3994,7 +3994,7 @@
         }
     },
     "se": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00008,
@@ -4118,7 +4118,7 @@
         }
     },
     "br": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0006,
@@ -4246,7 +4246,7 @@
         }
     },
     "kr": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00019,
@@ -4348,7 +4348,7 @@
         }
     },
     "rb": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0029,
@@ -4467,7 +4467,7 @@
         }
     },
     "sr": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.014,
@@ -4588,7 +4588,7 @@
         }
     },
     "y": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0026,
@@ -4701,7 +4701,7 @@
         }
     },
     "zr": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.021,
@@ -4819,7 +4819,7 @@
         }
     },
     "nb": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0019,
@@ -4934,7 +4934,7 @@
         }
     },
     "mo": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0014,
@@ -5031,7 +5031,7 @@
         }
     },
     "tc": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.2e-19,
@@ -5088,7 +5088,9 @@
         "period": 5,
         "phase": "solid",
         "properties": [
-            "heavy"
+            "heavy",
+            "radioactive",
+            "artificial"
         ],
         "radioactive": true,
         "sc_temp": {
@@ -5111,7 +5113,7 @@
         }
     },
     "ru": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000002,
@@ -5221,7 +5223,7 @@
         }
     },
     "rh": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1e-7,
@@ -5334,7 +5336,7 @@
         }
     },
     "pd": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000011,
@@ -5449,7 +5451,7 @@
         }
     },
     "ag": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000079,
@@ -5563,7 +5565,7 @@
         }
     },
     "cd": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00003,
@@ -5705,7 +5707,7 @@
         }
     },
     "in": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00001,
@@ -5823,7 +5825,7 @@
         }
     },
     "sn": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0035,
@@ -5914,7 +5916,7 @@
         }
     },
     "sb": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000065,
@@ -6023,7 +6025,7 @@
         }
     },
     "te": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000001,
@@ -6143,7 +6145,7 @@
         }
     },
     "i": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000006,
@@ -6296,7 +6298,7 @@
         }
     },
     "xe": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 9e-10,
@@ -6413,7 +6415,7 @@
         }
     },
     "cs": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00065,
@@ -6538,7 +6540,7 @@
         }
     },
     "ba": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.026,
@@ -6668,7 +6670,7 @@
         }
     },
     "la": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0017,
@@ -6783,7 +6785,7 @@
         }
     },
     "ce": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0043,
@@ -6903,7 +6905,7 @@
         }
     },
     "pr": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00052,
@@ -7017,7 +7019,7 @@
         }
     },
     "nd": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0022,
@@ -7131,7 +7133,7 @@
         }
     },
     "pm": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.5e-19,
@@ -7185,7 +7187,9 @@
         "phase": "solid",
         "properties": [
             "heavy",
-            "rare"
+            "rare",
+            "radioactive",
+            "artificial"
         ],
         "radioactive": true,
         "set": "lanthanoide",
@@ -7205,7 +7209,7 @@
         }
     },
     "sm": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0006,
@@ -7319,7 +7323,7 @@
         }
     },
     "eu": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000099,
@@ -7432,7 +7436,7 @@
         }
     },
     "gd": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00059,
@@ -7544,7 +7548,7 @@
         }
     },
     "tb": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000085,
@@ -7637,7 +7641,7 @@
         }
     },
     "dy": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00043,
@@ -7745,7 +7749,7 @@
         }
     },
     "ho": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00011,
@@ -7854,7 +7858,7 @@
         }
     },
     "er": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00023,
@@ -7962,7 +7966,7 @@
         }
     },
     "tm": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000019,
@@ -8076,7 +8080,7 @@
         }
     },
     "yb": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00025,
@@ -8194,7 +8198,7 @@
         }
     },
     "lu": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00007,
@@ -8303,7 +8307,7 @@
         }
     },
     "hf": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00042,
@@ -8415,7 +8419,7 @@
         }
     },
     "ta": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0008,
@@ -8531,7 +8535,7 @@
         }
     },
     "w": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0064,
@@ -8649,7 +8653,7 @@
         }
     },
     "re": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1e-7,
@@ -8760,7 +8764,7 @@
         }
     },
     "os": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000001,
@@ -8880,7 +8884,7 @@
         }
     },
     "ir": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1e-7,
@@ -8992,7 +8996,7 @@
         }
     },
     "pt": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 5e-7,
@@ -9082,7 +9086,7 @@
         }
     },
     "au": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4e-7,
@@ -9172,7 +9176,7 @@
         }
     },
     "hg": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00004,
@@ -9311,7 +9315,7 @@
         }
     },
     "tl": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000029,
@@ -9436,7 +9440,7 @@
         }
     },
     "pb": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0018,
@@ -9567,7 +9571,7 @@
         }
     },
     "bi": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00002,
@@ -9657,7 +9661,8 @@
             "natural",
             "native",
             "clean",
-            "heavy"
+            "heavy",
+            "artificial"
         ],
         "sc_temp": {
             "value": 8.7,
@@ -9680,7 +9685,7 @@
         }
     },
     "po": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2.1e-15,
@@ -9743,7 +9748,9 @@
         "phase": "solid",
         "properties": [
             "natural",
-            "heavy"
+            "heavy",
+            "radioactive",
+            "artificial"
         ],
         "radioactive": true,
         "set": "metal",
@@ -9763,7 +9770,7 @@
         }
     },
     "at": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 3e-25,
@@ -9808,7 +9815,9 @@
         "phase": "solid",
         "properties": [
             "natural",
-            "heavy"
+            "heavy",
+            "radioactive",
+            "artificial"
         ],
         "radioactive": true,
         "set": "halogen",
@@ -9828,7 +9837,7 @@
         }
     },
     "rn": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 6.1e-15,
@@ -9888,7 +9897,9 @@
         "period": 6,
         "phase": "gas",
         "properties": [
-            "natural"
+            "natural",
+            "radioactive",
+            "artificial"
         ],
         "radioactive": true,
         "set": "noblegas",
@@ -9908,7 +9919,7 @@
         }
     },
     "fr": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.3e-22,
@@ -9953,7 +9964,9 @@
         "phase": "solid",
         "properties": [
             "natural",
-            "light"
+            "light",
+            "radioactive",
+            "artificial"
         ],
         "radioactive": true,
         "set": "alkalimetal",
@@ -9974,7 +9987,7 @@
         }
     },
     "ra": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 9.5e-15,
@@ -10039,7 +10052,9 @@
         "phase": "solid",
         "properties": [
             "natural",
-            "heavy"
+            "heavy",
+            "radioactive",
+            "artificial"
         ],
         "radioactive": true,
         "set": "alkalineearthmetal",
@@ -10060,7 +10075,7 @@
         }
     },
     "ac": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 6e-18,
@@ -10114,7 +10129,9 @@
         "phase": "solid",
         "properties": [
             "natural",
-            "heavy"
+            "heavy",
+            "radioactive",
+            "artificial"
         ],
         "radioactive": true,
         "set": "actinoide",
@@ -10135,7 +10152,7 @@
         }
     },
     "th": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0011,
@@ -10207,7 +10224,9 @@
         "properties": [
             "natural",
             "clean",
-            "heavy"
+            "heavy",
+            "radioactive",
+            "artificial"
         ],
         "radioactive": true,
         "sc_temp": {
@@ -10232,7 +10251,7 @@
         }
     },
     "pa": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0009,
@@ -10298,7 +10317,9 @@
         "phase": "solid",
         "properties": [
             "natural",
-            "heavy"
+            "heavy",
+            "radioactive",
+            "artificial"
         ],
         "radioactive": true,
         "sc_temp": {
@@ -10323,7 +10344,7 @@
         }
     },
     "u": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00032,
@@ -10421,7 +10442,9 @@
         "phase": "solid",
         "properties": [
             "natural",
-            "heavy"
+            "heavy",
+            "radioactive",
+            "artificial"
         ],
         "radioactive": true,
         "sc_temp": {
@@ -10446,7 +10469,7 @@
         }
     },
     "np": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4e-18,
@@ -10502,7 +10525,9 @@
         "period": 7,
         "phase": "solid",
         "properties": [
-            "heavy"
+            "heavy",
+            "radioactive",
+            "artificial"
         ],
         "radioactive": true,
         "set": "actinoide",
@@ -10523,7 +10548,7 @@
         }
     },
     "pu": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2e-19,
@@ -10582,7 +10607,9 @@
         "properties": [
             "natural",
             "clean",
-            "heavy"
+            "heavy",
+            "radioactive",
+            "artificial"
         ],
         "radioactive": true,
         "set": "actinoide",
@@ -10603,7 +10630,7 @@
         }
     },
     "am": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "appearance": {
             "en": "silvery white",
             "de": "silbrig-weißes Metall"
@@ -10649,7 +10676,9 @@
         "period": 7,
         "phase": "solid",
         "properties": [
-            "heavy"
+            "heavy",
+            "radioactive",
+            "artificial"
         ],
         "radioactive": true,
         "sc_temp": {
@@ -10674,7 +10703,7 @@
         }
     },
     "cm": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "appearance": {
             "en": "silvery metallic, glows purple in the dark",
             "de": "silbrig-weißes Metall"
@@ -10708,7 +10737,9 @@
         "period": 7,
         "phase": "solid",
         "properties": [
-            "heavy"
+            "heavy",
+            "radioactive",
+            "artificial"
         ],
         "radioactive": true,
         "set": "actinoide",
@@ -10729,7 +10760,7 @@
         }
     },
     "bk": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "appearance": {
             "en": "silvery",
             "de": "silberweiß"
@@ -10767,7 +10798,9 @@
         "period": 7,
         "phase": "solid",
         "properties": [
-            "heavy"
+            "heavy",
+            "radioactive",
+            "artificial"
         ],
         "radioactive": true,
         "set": "actinoide",
@@ -10788,7 +10821,7 @@
         }
     },
     "cf": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "appearance": {
             "en": "silvery",
             "de": "silbriges Metall"
@@ -10826,7 +10859,9 @@
         "period": 7,
         "phase": "solid",
         "properties": [
-            "heavy"
+            "heavy",
+            "radioactive",
+            "artificial"
         ],
         "radioactive": true,
         "set": "actinoide",
@@ -10847,7 +10882,7 @@
         }
     },
     "es": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "appearance": {
             "en": "silvery; glows blue in the dark"
         },
@@ -10884,7 +10919,9 @@
         "period": 7,
         "phase": "solid",
         "properties": [
-            "heavy"
+            "heavy",
+            "radioactive",
+            "artificial"
         ],
         "radioactive": true,
         "set": "actinoide",
@@ -10905,7 +10942,7 @@
         }
     },
     "fm": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "block": "f",
         "classification": {
             "cas": [
@@ -10934,7 +10971,10 @@
         "number": 100,
         "period": 7,
         "phase": "solid",
-        "properties": [],
+        "properties": [
+            "radioactive",
+            "artificial"
+        ],
         "radioactive": true,
         "set": "actinoide",
         "shell": [
@@ -10954,7 +10994,7 @@
         }
     },
     "md": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "block": "f",
         "classification": {
             "cas": [
@@ -10983,7 +11023,10 @@
         "number": 101,
         "period": 7,
         "phase": "solid",
-        "properties": [],
+        "properties": [
+            "radioactive",
+            "artificial"
+        ],
         "radioactive": true,
         "set": "actinoide",
         "shell": [
@@ -11003,7 +11046,7 @@
         }
     },
     "no": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "block": "f",
         "classification": {
             "cas": [
@@ -11032,7 +11075,10 @@
         "number": 102,
         "period": 7,
         "phase": "solid",
-        "properties": [],
+        "properties": [
+            "radioactive",
+            "artificial"
+        ],
         "radioactive": true,
         "set": "actinoide",
         "shell": [
@@ -11052,7 +11098,7 @@
         }
     },
     "lr": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "basicity": "slightly-alkaline",
         "block": "f",
         "classification": {
@@ -11082,7 +11128,10 @@
         "number": 103,
         "period": 7,
         "phase": "solid",
-        "properties": [],
+        "properties": [
+            "radioactive",
+            "artificial"
+        ],
         "radioactive": true,
         "set": "actinoide",
         "shell": [
@@ -11102,7 +11151,7 @@
         }
     },
     "rf": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "appearance": {
             "de": "unbekannt, vermutlich silber-weiß oder grau metallisch"
         },
@@ -11134,7 +11183,9 @@
         "number": 104,
         "period": 7,
         "properties": [
-            "heavy"
+            "heavy",
+            "radioactive",
+            "artificial"
         ],
         "radioactive": true,
         "set": "transitionmetal",
@@ -11154,7 +11205,7 @@
         }
     },
     "db": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "block": "d",
         "classification": {
             "cas": [
@@ -11190,7 +11241,10 @@
         },
         "number": 105,
         "period": 7,
-        "properties": [],
+        "properties": [
+            "radioactive",
+            "artificial"
+        ],
         "radioactive": true,
         "set": "transitionmetal",
         "shell": [
@@ -11209,7 +11263,7 @@
         }
     },
     "sg": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "block": "d",
         "classification": {
             "cas": [
@@ -11237,7 +11291,10 @@
         },
         "number": 106,
         "period": 7,
-        "properties": [],
+        "properties": [
+            "radioactive",
+            "artificial"
+        ],
         "radioactive": true,
         "set": "transitionmetal",
         "shell": [
@@ -11256,7 +11313,7 @@
         }
     },
     "bh": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "block": "d",
         "classification": {
             "cas": [
@@ -11284,7 +11341,10 @@
         },
         "number": 107,
         "period": 7,
-        "properties": [],
+        "properties": [
+            "radioactive",
+            "artificial"
+        ],
         "radioactive": true,
         "set": "transitionmetal",
         "shell": [
@@ -11303,7 +11363,7 @@
         }
     },
     "hs": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "block": "d",
         "classification": {
             "cas": [
@@ -11331,7 +11391,10 @@
         },
         "number": 108,
         "period": 7,
-        "properties": [],
+        "properties": [
+            "radioactive",
+            "artificial"
+        ],
         "radioactive": true,
         "set": "transitionmetal",
         "shell": [
@@ -11350,7 +11413,7 @@
         }
     },
     "mt": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "block": "d",
         "classification": {
             "cas": [
@@ -11378,7 +11441,10 @@
         },
         "number": 109,
         "period": 7,
-        "properties": [],
+        "properties": [
+            "radioactive",
+            "artificial"
+        ],
         "radioactive": true,
         "set": null,
         "shell": [
@@ -11397,7 +11463,7 @@
         }
     },
     "ds": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "block": "d",
         "classification": {
             "cas": [
@@ -11425,7 +11491,10 @@
         },
         "number": 110,
         "period": 7,
-        "properties": [],
+        "properties": [
+            "radioactive",
+            "artificial"
+        ],
         "radioactive": true,
         "set": null,
         "shell": [
@@ -11444,7 +11513,7 @@
         }
     },
     "rg": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "block": "d",
         "classification": {
             "cas": [
@@ -11472,7 +11541,10 @@
         },
         "number": 111,
         "period": 7,
-        "properties": [],
+        "properties": [
+            "radioactive",
+            "artificial"
+        ],
         "radioactive": true,
         "set": null,
         "shell": [
@@ -11491,7 +11563,7 @@
         }
     },
     "cn": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "block": "d",
         "classification": {
             "cas": [
@@ -11519,7 +11591,10 @@
         },
         "number": 112,
         "period": 7,
-        "properties": [],
+        "properties": [
+            "radioactive",
+            "artificial"
+        ],
         "radioactive": true,
         "set": null,
         "shell": [
@@ -11538,7 +11613,7 @@
         }
     },
     "nh": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "block": "p",
         "classification": {
             "cas": [
@@ -11566,7 +11641,10 @@
         },
         "number": 113,
         "period": 7,
-        "properties": [],
+        "properties": [
+            "radioactive",
+            "artificial"
+        ],
         "radioactive": true,
         "set": null,
         "shell": [
@@ -11585,7 +11663,7 @@
         }
     },
     "fl": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "block": "p",
         "classification": {
             "cas": [
@@ -11613,7 +11691,10 @@
         },
         "number": 114,
         "period": 7,
-        "properties": [],
+        "properties": [
+            "radioactive",
+            "artificial"
+        ],
         "radioactive": true,
         "set": null,
         "shell": [
@@ -11632,7 +11713,7 @@
         }
     },
     "mc": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "block": "p",
         "classification": {
             "cas": [
@@ -11659,7 +11740,10 @@
         },
         "number": 115,
         "period": 7,
-        "properties": [],
+        "properties": [
+            "radioactive",
+            "artificial"
+        ],
         "radioactive": true,
         "set": null,
         "shell": [
@@ -11678,7 +11762,7 @@
         }
     },
     "lv": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "block": "p",
         "classification": {
             "cas": [
@@ -11705,7 +11789,10 @@
         },
         "number": 116,
         "period": 7,
-        "properties": [],
+        "properties": [
+            "radioactive",
+            "artificial"
+        ],
         "radioactive": true,
         "set": null,
         "shell": [
@@ -11724,7 +11811,7 @@
         }
     },
     "ts": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "appearance": {
             "en": "semimetallic (predicted)"
         },
@@ -11754,7 +11841,10 @@
         },
         "number": 117,
         "period": 7,
-        "properties": [],
+        "properties": [
+            "radioactive",
+            "artificial"
+        ],
         "radioactive": true,
         "set": null,
         "shell": [
@@ -11773,7 +11863,7 @@
         }
     },
     "og": {
-        "@modified": "2023-10-07T08:20:00.564Z",
+        "@modified": "2023-10-07T08:56:49.542Z",
         "appearance": {
             "en": "metallic (predicted)"
         },
@@ -11805,7 +11895,10 @@
         "number": 118,
         "period": 7,
         "phase": "solid",
-        "properties": [],
+        "properties": [
+            "radioactive",
+            "artificial"
+        ],
         "radioactive": true,
         "set": null,
         "shell": [

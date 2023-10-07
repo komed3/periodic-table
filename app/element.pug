@@ -180,6 +180,12 @@ block content
                 th.pt-prop-table-label
                   a( href="/scale/sc_temp" )!= __( 'sc_temp' )
                 td.pt-prop-table-value!= core.fNumber( element.sc_temp, locale )
+            tr.pt-prop-table-row
+              th.pt-prop-table-label!= __( 'properties' )
+              td.pt-prop-table-value.pt-prop-table-list
+                each prop in element.properties
+                  span.pt-prop-table-list-item
+                    a( href='/prop/' + prop )!= __( 'prop-' + prop )
       //- isotopes
       if isotopes.length > 0
         div.pt-box.pt-element-properties
@@ -227,7 +233,8 @@ block content
                 td.pt-prop-table-value!= core.fText( element.appearance[ locale ] )
             if element.discovery
               tr.pt-prop-table-row
-                th.pt-prop-table-label!= __( 'discovery' )
+                th.pt-prop-table-label
+                  a( href="/scale/discovery" )!= __( 'discovery' )
                 td.pt-prop-table-value= element.discovery.by + ' (' + element.discovery.year + ')'
             each prop in [ 'group', 'period', 'set', 'block' ]
               if element[ prop ]
