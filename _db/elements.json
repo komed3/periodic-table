@@ -77,11 +77,11 @@
         "crystal_structure": "hex",
         "density": {
             "value": 8.988,
-            "unit": "g·cm[−3]",
+            "unit": "g·cm[-3]",
             "phases": {
                 "gas": {
                     "value": 8.988,
-                    "unit": "g·cm[−3]",
+                    "unit": "g·cm[-3]",
                     "condition": [
                         {
                             "value": 273,
@@ -91,7 +91,7 @@
                 },
                 "liquid": {
                     "value": 70.9,
-                    "unit": "g·l[−1]",
+                    "unit": "g·l[-1]",
                     "condition": [
                         {
                             "value": 20.324,
@@ -112,15 +112,15 @@
         "electron_config": "1s[1]",
         "enthalpy_atomisation": {
             "value": 218,
-            "unit": "kJ·mol[−1]"
+            "unit": "kJ·mol[-1]"
         },
         "enthalpy_fusion": {
             "value": 0.558,
-            "unit": "kJ·mol[−1]"
+            "unit": "kJ·mol[-1]"
         },
         "enthalpy_vaporisation": {
             "value": 0.452,
-            "unit": "kJ·mol[−1]"
+            "unit": "kJ·mol[-1]"
         },
         "goldschmidt": "atmophile",
         "group": 1,
@@ -157,7 +157,7 @@
         },
         "heat_capacity": {
             "value": 14304,
-            "unit": "J·kg[−1]·K[−1]"
+            "unit": "J·kg[-1]·K[-1]"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Hydrogen_discharge_tube.jpg",
@@ -176,7 +176,7 @@
         "magnetic_ordering": "diamagnetic",
         "magnetic_susceptibility": {
             "value": -0.00000398,
-            "unit": "cm[3]·mol[−1]",
+            "unit": "cm[3]·mol[-1]",
             "condition": [
                 {
                     "value": 298,
@@ -190,7 +190,7 @@
         },
         "molar_volume": {
             "value": 0.00001142,
-            "unit": "m[3]·mol[−1]"
+            "unit": "m[3]·mol[-1]"
         },
         "names": {
             "en": "Hydrogen",
@@ -215,7 +215,7 @@
                 },
                 "y": {
                     "value": 267522128,
-                    "unit": "rad·T[−1]·s[−1]"
+                    "unit": "rad·T[-1]·s[-1]"
                 },
                 "u": 4.83735357,
                 "Dp": 1,
@@ -238,7 +238,7 @@
                 },
                 "y": {
                     "value": 41066279.1,
-                    "unit": "rad·T[−1]·s[−1]"
+                    "unit": "rad·T[-1]·s[-1]"
                 },
                 "u": 1.21260077,
                 "Dp": 0.00000111,
@@ -261,7 +261,7 @@
                 },
                 "y": {
                     "value": 285349779,
-                    "unit": "rad·T[−1]·s[−1]"
+                    "unit": "rad·T[-1]·s[-1]"
                 },
                 "u": 5.159714367,
                 "Dp": null,
@@ -302,7 +302,7 @@
         ],
         "sound_speed": {
             "value": 1270,
-            "unit": "m·s[−1]",
+            "unit": "m·s[-1]",
             "condition": [
                 {
                     "value": 298.15,
@@ -314,7 +314,7 @@
         "symbol": "H",
         "thermal_conductivity": {
             "value": 0.1805,
-            "unit": "W·m[−1]·K[−1]"
+            "unit": "W·m[-1]·K[-1]"
         },
         "triple": {
             "value": 13.8033,
