@@ -10,8 +10,8 @@ block social
   meta( property="og:title", content=element.names[ locale ] )/
   if text.description
     meta( property="og:description", content=text.description )/
-  if element.image
-    meta( property="og:image", content=element.image.url )/
+  if image
+    meta( property="og:image", content=image.url )/
 
 block styles
   link( rel="stylesheet", href="/css/element.css" )/
@@ -211,10 +211,10 @@ block content
     //- aside
     aside.pt-element-aside
       //- element image
-      if element.image
+      if image
         div.pt-box.pt-element-image
-          a( href=element.image.url, target="_blank" )
-            img( src=element.image.url, loading="lazy" )/
+          a( href=image.fullres, target="_blank" )
+            img( src=image.thumb, loading="lazy" )/
           figcaption!= element.image.caption
       //- element info
       div.pt-box.pt-element-quickinfo

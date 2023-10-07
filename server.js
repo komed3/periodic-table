@@ -15,6 +15,7 @@ const config = require( 'config' );
 /**
  * load required modules/files
  */
+const fs = require( 'fs' );
 const core = require( './lib/core' );
 const elements = core.DB( 'elements' );
 const element_list = Object.keys( elements );
@@ -149,6 +150,17 @@ routes.routes.forEach( ( route ) => {
                         res.locals.element = elements[ element ];
                         res.locals.text = core.DB( 'text/' + req.getLocale() + '/' + element );
                         res.locals.isotopes = isotopes[ element ] || [];
+
+                        if( fs.existsSync( './public/images/' + element + '.jpg' ) ) {
+
+                            res.locals.image = {
+                                url: req.protocol + '://' + req.hostname + '/img/' + element + '.jpg',
+                                fullres: '/img/' + element + '.jpg',
+                                thumb: '/img/' + element + '-thumb.jpg'
+                            };
+
+                        }
+
                         res.locals.nav = {
                             prev: element_list[ k - 1 ] || null,
                             next: element_list[ k + 1 ] || null
