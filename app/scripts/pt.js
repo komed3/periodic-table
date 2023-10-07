@@ -18,6 +18,20 @@ jQuery( document ).ready( function ( $ ) {
 
         } );
 
+        $( '.tp-legend input' ).each( function () {
+
+            if( this.checked ) {
+
+                $( '[toggle] .pt-el[prop="' + prop + '"]' ).removeClass( 'hidden' );
+
+            } else {
+
+                $( '[toggle] .pt-el[prop="' + prop + '"]' ).addClass( 'hidden' );
+
+            }
+
+        } );
+
     }
 
 } );

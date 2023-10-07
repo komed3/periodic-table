@@ -256,10 +256,6 @@ body[theme="dark"] {
     --bg: var( --pt-gy-9 );
 }
 
-[toggle] .pt-el.hidden {
-    opacity: 0.1;
-}
-
 .pt-el {
     position: relative;
 }
@@ -293,4 +289,9 @@ body[theme="dark"] {
         var( --pt-radioactive ) 12px
     );
     z-index: 0;
+}
+
+[toggle] .pt-el.hidden {
+    pointer-events: none;
+    opacity: 0.1;
 }
