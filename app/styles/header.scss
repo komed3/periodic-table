@@ -40,6 +40,12 @@ $header-height: 56px;
     display: none;
 }
 
+.pt-header-title {
+    align-self: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .pt-header-search {
     flex: 1;
     display: flex;
@@ -67,6 +73,7 @@ $header-height: 56px;
     bottom: 0;
     display: none;
     width: 380px;
+    padding: 24px 0;
     background: var( --gray-0 );
     box-shadow: var( --box-shadow );
     overflow-y: auto;
