@@ -1,12 +1,10 @@
 jQuery( document ).ready( function ( $ ) {
 
-    if( $( '.tp-legend' ).length ) {
+    var ptLegend = function ( el ) {
 
-        $( document ).on( 'click', '.tp-legend input', function () {
+        let prop = $( el ).attr( 'prop' );
 
-            let prop = $( this ).attr( 'prop' );
-
-            if( this.checked ) {
+            if( el.checked ) {
 
                 $( '[toggle] .pt-el[prop="' + prop + '"]' ).removeClass( 'hidden' );
 
@@ -15,20 +13,20 @@ jQuery( document ).ready( function ( $ ) {
                 $( '[toggle] .pt-el[prop="' + prop + '"]' ).addClass( 'hidden' );
 
             }
+
+    };
+
+    if( $( '.tp-legend' ).length ) {
+
+        $( document ).on( 'click', '.tp-legend input', function () {
+
+            ptLegend( this );
 
         } );
 
         $( '.tp-legend input' ).each( function () {
 
-            if( this.checked ) {
-
-                $( '[toggle] .pt-el[prop="' + prop + '"]' ).removeClass( 'hidden' );
-
-            } else {
-
-                $( '[toggle] .pt-el[prop="' + prop + '"]' ).addClass( 'hidden' );
-
-            }
+            ptLegend( this );
 
         } );
 
