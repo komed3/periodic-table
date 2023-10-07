@@ -31,7 +31,7 @@ html( lang=locale )
   //- html content
   body( theme=theme )
     //- header
-    header#header.pt-header( role="banner" )
+    header#header.pt-header.noselect( role="banner" )
       a.pt-header-menu( href="#", title=__( 'nav' ) )
         i( class="icon open" ) menu
         i( class="icon close" ) close
@@ -43,7 +43,7 @@ html( lang=locale )
       div.pt-header-settings
         include templates/language-selector.pug
         include templates/theme-selector.pug
-      nav.pt-header-nav
+      nav.pt-header-nav.noscrollbar
         include templates/nav.pug
     //- main
     main#main.pt-wrapper( role="main" )
