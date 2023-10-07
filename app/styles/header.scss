@@ -35,11 +35,6 @@ $header-height: 56px;
     font-size: 32px;
 }
 
-.pt-header-menu.active {
-    color: var( --accent-contrast );
-    background: var( --accent-1 );
-}
-
 .pt-header-menu.active .open,
 .pt-header-menu:not(.active) .close {
     display: none;
@@ -63,7 +58,40 @@ $header-height: 56px;
 .pt-header-nav {
     flex: none;
     position: absolute;
-    top: 100%;
+    top: $header-height;
     left: 0;
     right: 0;
+    display: none;
+    padding: 24px;
+    background: var( --gray-0 );
+    box-shadow: var( --box-shadow );
+}
+
+.pt-header-nav.active {
+    display: block;
+}
+
+.pt-header-nav .pt-nav {
+    display: grid;
+    grid-template-columns: repeat( 5, 1fr );
+    gap: 4px;
+}
+
+.pt-header-nav .pt-nav .pt-nav-item {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 12px;
+    padding: 0 12px;
+    height: 48px;
+    background: var( --gray-1 );
+}
+
+.pt-header-nav .pt-nav .pt-nav-item:hover {
+    filter: brightness( 0.9 );
+}
+
+.pt-header-nav .pt-nav .pt-nav-item .icon {
+    text-align: center;
+    font-size: 26px;
 }

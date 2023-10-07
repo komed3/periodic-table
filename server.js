@@ -125,12 +125,13 @@ routes.routes.forEach( ( route ) => {
 
             /* set locals */
 
+            res.locals.config = config.get( 'site' );
             res.locals.core = core;
             res.locals.site = route[1];
             res.locals.availableLanguages = config.get( 'i18n.languages' );
             res.locals.elements = elements;
             res.locals.locale = req.getLocale();
-            res.locals.theme = req.cookies.theme || config.get( 'default.theme' );
+            res.locals.theme = req.cookies.theme || config.get( 'site.theme' );
             res.locals.search = { query: '' };
 
             /* templates */
@@ -177,7 +178,7 @@ routes.routes.forEach( ( route ) => {
 
                 case 'list':
 
-                    if( _url.length == 3 && config.get( 'default.lists' ).includes( _url[1] ) ) {
+                    if( _url.length == 3 && config.get( 'site.lists' ).includes( _url[1] ) ) {
 
                         let list_prop = _url[1],
                             list_value = _url[2];
