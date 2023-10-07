@@ -7,7 +7,7 @@ html( lang=locale )
     meta( name="viewport", content="width=device-width, initial-scale=1.0" )/
     meta( name="msapplication-TileColor", content="#ffffff" )/
     meta( name="theme-color", content="#2a80ad" )/
-    link( rel="icon", sizes="16x16 32x32 48x48 64x64", href="/img/favicon.ico" )/
+    link( rel="icon", sizes="16x16 32x32 48x48 64x64", href="/res/favicon.ico" )/
     block title
       title= __( site + '-title' ) + " — " + __( 'title' )
       meta( name="description", content=__( site + '-description' ) )/
@@ -34,7 +34,7 @@ html( lang=locale )
     header#header.pt-header( role="banner" )
       a.pt-header-logo( href="/", title=__( 'title' ) )
         svg.pt-atom( width="32", height="32" )
-          use( xlink:href="/img/atom.svg#atom" )
+          use( xlink:href="/res/atom.svg#atom" )
       a.pt-header-menu( href="#", title=__( 'nav' ) )
         i( class="icon open" ) menu
         i( class="icon close" ) close
@@ -52,7 +52,7 @@ html( lang=locale )
     footer#footer.pt-footer
       a.pt-footer-logo( href="/", title=__( 'title' ) )
         svg.pt-atom( width="32", height="32" )
-          use( xlink:href="/img/atom.svg#atom" )
+          use( xlink:href="/res/atom.svg#atom" )
       div.pt-footer-inner
         nav.pt-footer-nav
           a( href="/" )!= __( 'start-title' )

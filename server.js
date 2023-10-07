@@ -36,6 +36,7 @@ const app = express();
  */
 app.use( '/css', express.static( __dirname + '/public/styles' ) );
 app.use( '/js', express.static( __dirname + '/public/scripts' ) );
+app.use( '/res', express.static( __dirname + '/public/resources' ) );
 app.use( '/img', express.static( __dirname + '/public/images' ) );
 
 /**

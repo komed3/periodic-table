@@ -245,7 +245,7 @@ block content
       //- radioactive warning
       if element.radioactive
         a( href="/prop/radioactive" ).pt-box.pt-box-flex.pt-element-radioactive
-            img.pictogram-small( src="/img/radioactive.png", loading="lazy" )/
+            img.pictogram-small( src="/res/radioactive.png", loading="lazy" )/
             b!= __( 'element-radioactive' )
       //- hazard classification
       if element.hazardous
@@ -255,7 +255,7 @@ block content
             div.pt-box-flex.pt-box-columns.pt-element-hazard-box
               each ghs in element.hazardous.ghs
                 div.pt-element-hazard-item
-                  img.pictogram( src='/img/GHS' + ghs + '.png', loading="lazy" )/
+                  img.pictogram( src='/res/GHS' + ghs + '.png', loading="lazy" )/
                   span!= __( 'ghs-' + ghs )
           else
             i!= __( 'ghs-undefined' )
@@ -292,12 +292,12 @@ block content
             h3!= __( 'pictogram-title' )
             div.pt-element-hazard-pictograms
               each hazard in element.hazardous.hazard
-                img.pictogram-small( src='/img/hazard-' + hazard + '.png', loading="lazy" )/
+                img.pictogram-small( src='/res/hazard-' + hazard + '.png', loading="lazy" )/
           if element.hazardous.adr
             h3!= __( 'adr-title' )
             div.pt-element-hazard-pictograms
               each adr in element.hazardous.adr
-                img.pictogram( src='/img/ADR-' + adr + '.png', loading="lazy" )/
+                img.pictogram( src='/res/ADR-' + adr + '.png', loading="lazy" )/
       //- element classification
       if element.classification
         div.pt-box.pt-element-classification
