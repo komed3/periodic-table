@@ -316,5 +316,21 @@
 	"crystal_structure-dhcp-description": "crystal_structure-dhcp-description",
 	"crystal_structure-mon-description": "crystal_structure-mon-description",
 	"magnetic_ordering-description": "magnetic_ordering-description",
-	"magnetic_ordering-diamagnetic-description": "magnetic_ordering-diamagnetic-description"
+	"magnetic_ordering-diamagnetic-description": "magnetic_ordering-diamagnetic-description",
+	"prop-radioactive-description": "Radioaktivität ist die Eigenschaft instabiler Atomkerne, spontan ionisierende Strahlung auszusenden. Der Atomkern wandelt sich dabei unter Aussendung von Teilchen in einen anderen Kern um oder ändert unter Energieabgabe seinen Zustand.",
+	"props-title": "Eigenschaften",
+	"props-description": "Liste möglicher Eigenschaften, die einem oder mehreren Elementen zugeschrieben werden. Dies kann Zustandsgrößen, besondere Eigenschaften oder Ähnliches umfassen.",
+	"prop-natural-description": "prop-natural-description",
+	"prop-native-description": "prop-native-description",
+	"prop-vital-description": "prop-vital-description",
+	"prop-clean-description": "prop-clean-description",
+	"prop-stable-description": "prop-stable-description",
+	"prop-noble-description": "prop-noble-description",
+	"prop-semiconductor-description": "prop-semiconductor-description",
+	"prop-light-description": "prop-light-description",
+	"prop-heavy-description": "prop-heavy-description",
+	"prop-rare-description": "prop-rare-description",
+	"prop-platinum-description": "prop-platinum-description",
+	"prop-refractory-description": "prop-refractory-description",
+	"prop-artificial-description": "prop-artificial-description"
 }

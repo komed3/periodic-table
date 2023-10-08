@@ -201,21 +201,17 @@ routes.routes.forEach( ( route ) => {
                     if( _url.length == 2 && config.get( 'site.lists' ).includes( _url[1] ) ) {
 
                         let list_prop = _url[1],
-                            lists = {};
+                            lists = [];
 
                         Object.values( elements ).forEach( ( el ) => {
 
-                            if( list_prop in el && el[ list_prop ] != null ) {
+                            if(
+                                list_prop in el &&
+                                el[ list_prop ] != null &&
+                                !lists.includes( el[ list_prop ] )
+                            ) {
 
-                                if( el[ list_prop ] in lists ) {
-
-                                    lists[ el[ list_prop ] ]++;
-
-                                } else {
-
-                                    lists[ el[ list_prop ] ] = 1;
-
-                                }
+                                lists.push( el[ list_prop ] );
 
                             }
 
@@ -278,6 +274,40 @@ routes.routes.forEach( ( route ) => {
                             return ;
 
                         }
+
+                    } else {
+
+                        res.redirect( '/' );
+                        return ;
+
+                    }
+
+                    break;
+
+                case 'props':
+
+                    res.locals.breadcrumbs.push( [
+                        '/props',
+                        req.__( 'props-title' )
+                    ] );
+
+                    break;
+
+                case 'prop':
+
+                    if( _url.length == 2 && config.get( 'site.props' ).includes( _url[1] ) ) {
+
+                        res.locals.prop = _url[1];
+
+                        res.locals.breadcrumbs.push( [
+                            '/props',
+                            req.__( 'props-title' )
+                        ] );
+
+                        res.locals.breadcrumbs.push( [
+                            '/prop/' + _url[1],
+                            req.__( 'prop-' + _url[1] )
+                        ] );
 
                     } else {
 

@@ -1,0 +1,17 @@
+//- props.pug
+extends layout.pug
+
+block styles
+  link( rel="stylesheet", href="/css/lists.css" )/
+
+block content
+  div.pt-page.pt-box.pt-list
+    include templates/breadcrumbs.pug
+    h1!= __( 'props-title' )
+    p.pt-page-intro!= __( 'props-description' )
+    div.pt-lists
+      each prop in config.props
+        div.pt-lists-item
+          h3.pt-lists-item-title
+            a( href='/prop/' + prop )!= __( 'prop-' + prop )
+          p.pt-lists-item-desc!= __( 'prop-' + prop + '-description' )

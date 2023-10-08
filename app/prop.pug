@@ -1,0 +1,30 @@
+//- prop.pug
+extends layout.pug
+
+block title
+  - var title = __( 'prop-' + prop )
+  - var description = __( 'prop-' + prop + '-description' )
+  title!= title + " — " + __( 'title' )
+  meta( name="description", content= description )/
+
+block social
+  meta( property="og:title", content= title )/
+  meta( property="og:description", content= description )/
+
+block scripts
+  script( src="/js/pt.min.js" )
+
+block styles
+  link( rel="stylesheet", href="/css/list.css" )/
+  link( rel="stylesheet", href="/css/microtable.css" )/
+  link( rel="stylesheet", href="/css/legend.css" )/
+
+block content
+  div.pt-page.pt-box.pt-prop
+    include templates/breadcrumbs.pug
+    h1!= title
+    p.pt-page-intro!= description
+    //include templates/element-list.pug
+  div.pt-page
+    include templates/microtable.pug
+    include templates/legend.pug

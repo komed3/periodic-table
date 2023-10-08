@@ -23,11 +23,10 @@ block content
     h1!= __( prop + '-label' )
     p.pt-page-intro!= __( prop + '-description' )
     div.pt-lists
-      each count, list in lists
+      each list in lists
         div.pt-lists-item
           h3.pt-lists-item-title
             a( href='/list/' + prop + '/' + list )!= __( prop + '-' + list )
-            span!= ' (' + count + ')'
           p.pt-lists-item-desc!= __( prop + '-' + list + '-description' )
   div.pt-page
     include templates/microtable.pug
