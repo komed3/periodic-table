@@ -314,7 +314,7 @@
 	"crystal_structure-orth-description": "Im orthorhombischen Gittersystem (ORTH) liegen Gitterachsen in Richtung der 3 senkrecht aufeinander stehenden Symmetrieachsen.",
 	"crystal_structure-tetr-description": "Das tetragonale Kristallsystem (TETR) umfasst alle Punktgruppen, die in genau einer Richtung eine vierzählige Dreh- oder Drehinversionsachse besitzen.",
 	"crystal_structure-dhcp-description": "Die doppelt-hexagonal dicht gepackte (DHCP) Kristallstruktur ähnelt zwei regulären HCP-Elementarzellen, die übereinander gestapelt sind. Diese Struktur ist in mehreren Lanthanoiden und Actiniden verbreitet.",
-	"crystal_structure-mon-description": "Die drei Achsen der Elementarzelle im monoklinischen Kristallsystem (a, b und c) sind ungleich. Die monokline Einheit hat eine rechteckige Form mit einem Parallelogramm als Basis.",
+	"crystal_structure-mon-description": "Die drei Achsen der Elementarzelle im monoklinischen (MON) Kristallsystem (a, b und c) sind ungleich. Die monokline Einheit hat eine rechteckige Form mit einem Parallelogramm als Basis.",
 	"magnetic_ordering-description": "magnetic_ordering-description",
 	"magnetic_ordering-diamagnetic-description": "magnetic_ordering-diamagnetic-description",
 	"prop-radioactive-description": "Radioaktivität ist die Eigenschaft instabiler Atomkerne, spontan ionisierende Strahlung auszusenden. Der Atomkern wandelt sich dabei unter Aussendung von Teilchen in einen anderen Kern um oder ändert unter Energieabgabe seinen Zustand.",
