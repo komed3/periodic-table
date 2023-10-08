@@ -5,9 +5,6 @@ if legend && legend.length > 0
     div.pt-legend-inner
       each item in legend
         if item != 'undefined'
-          a.pt-el.pt-legend-item(
-            href= '/list/' + table.layer + '/' + item,
-            prop= item
-          )
-            span.pt-legend-item-box
+          a.pt-legend-item( href= '/list/' + table.layer + '/' + item )
+            span.pt-el.pt-legend-item-box( prop= item )
             span.pt-legend-item-label= __( table.layer + '-' + ( item || 'undefined' ) )

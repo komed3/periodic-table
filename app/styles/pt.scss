@@ -295,8 +295,3 @@ body[theme="dark"] {
     );
     z-index: 0;
 }
-
-[toggle] .pt-el.hidden {
-    pointer-events: none;
-    opacity: 0.1;
-}
