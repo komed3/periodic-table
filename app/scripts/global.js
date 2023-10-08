@@ -1,27 +1,32 @@
-jQuery( document ).ready( function ( $ ) {
+window.addEventListener( 'load', function () {
 
-    $( 'a[target="_blank"], .external, .weblink' ).each( function() {
+    /**
+     * external links "_blank" + "noopener, noreferrer"
+     */
 
-        $( this ).attr( {
-            target: '_blank',
-            rel: 'noopener noreferrer'
-        } );
+    var ptExternalLinks = document.querySelectorAll( 'a[target="_blank"], .external, .weblink' );
 
-    } );
+    [].forEach.call( ptExternalLinks, function ( el ) {
 
-    $( document ).on( 'change', '.pt-language-selector-select', function () {
-
-        location.href = '/set?locale=' + $( this ).val();
+        el.setAttribute( 'target', '_blank' );
+        el.setAttribute( 'rel', 'noopener noreferrer' );
 
     } );
 
-    $( document ).on( 'click', '.pt-header-menu', function ( e ) {
+    /**
+     * header menu open/close
+     */
+
+    var ptHeaderNavOpener = document.querySelector( '.pt-header-menu' ),
+        ptHeaderNav = document.querySelector( '.pt-header-nav' );
+
+    ptHeaderNavOpener.addEventListener( 'click', function ( e ) {
 
         e.preventDefault();
 
-        $( this ).toggleClass( 'active' );
-        $( '.pt-header-nav' ).toggleClass( 'active' );
+        ptHeaderNavOpener.classList.toggle( 'active' );
+        ptHeaderNav.classList.toggle( 'active' );
 
-    } );
+    }, false );
 
-} );
+}, false );
