@@ -699,7 +699,7 @@
         "phase": "solid",
         "properties": [
             "natural",
-            "clean",
+            "mononuclidic",
             "stable",
             "light"
         ],
@@ -1269,7 +1269,7 @@
         "properties": [
             "natural",
             "vital",
-            "clean",
+            "mononuclidic",
             "stable"
         ],
         "set": "halogen",
@@ -1481,7 +1481,7 @@
         "properties": [
             "natural",
             "vital",
-            "clean",
+            "mononuclidic",
             "stable",
             "light"
         ],
@@ -1711,7 +1711,7 @@
         "phase": "solid",
         "properties": [
             "natural",
-            "clean",
+            "mononuclidic",
             "stable",
             "light"
         ],
@@ -1942,7 +1942,7 @@
         "properties": [
             "natural",
             "vital",
-            "clean",
+            "mononuclidic",
             "stable"
         ],
         "sc_temp": {
@@ -2630,7 +2630,7 @@
         "phase": "solid",
         "properties": [
             "natural",
-            "clean",
+            "mononuclidic",
             "stable",
             "light",
             "rare"
@@ -3056,7 +3056,7 @@
         "properties": [
             "natural",
             "vital",
-            "clean",
+            "mononuclidic",
             "stable",
             "heavy"
         ],
@@ -3280,7 +3280,7 @@
         "properties": [
             "natural",
             "vital",
-            "clean",
+            "mononuclidic",
             "stable",
             "heavy"
         ],
@@ -3975,7 +3975,7 @@
         "properties": [
             "natural",
             "native",
-            "clean",
+            "mononuclidic",
             "stable",
             "heavy"
         ],
@@ -4681,7 +4681,7 @@
         "phase": "solid",
         "properties": [
             "natural",
-            "clean",
+            "mononuclidic",
             "stable",
             "light",
             "rare"
@@ -4914,7 +4914,7 @@
         "phase": "solid",
         "properties": [
             "natural",
-            "clean",
+            "mononuclidic",
             "stable",
             "heavy",
             "refractory"
@@ -5095,7 +5095,8 @@
         "properties": [
             "heavy",
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "sc_temp": {
@@ -5315,7 +5316,7 @@
         "properties": [
             "natural",
             "native",
-            "clean",
+            "mononuclidic",
             "stable",
             "noble",
             "heavy",
@@ -6282,7 +6283,7 @@
         "properties": [
             "natural",
             "vital",
-            "clean",
+            "mononuclidic",
             "stable"
         ],
         "sc_temp": {
@@ -6522,7 +6523,7 @@
         "phase": "solid",
         "properties": [
             "natural",
-            "clean",
+            "mononuclidic",
             "stable",
             "light"
         ],
@@ -7004,7 +7005,7 @@
         "phase": "solid",
         "properties": [
             "natural",
-            "clean",
+            "mononuclidic",
             "stable",
             "heavy",
             "rare"
@@ -7196,7 +7197,8 @@
             "heavy",
             "rare",
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "set": "lanthanoide",
@@ -7626,7 +7628,7 @@
         "phase": "solid",
         "properties": [
             "natural",
-            "clean",
+            "mononuclidic",
             "stable",
             "heavy",
             "rare"
@@ -7843,7 +7845,7 @@
         "phase": "solid",
         "properties": [
             "natural",
-            "clean",
+            "mononuclidic",
             "stable",
             "heavy",
             "rare"
@@ -8065,7 +8067,7 @@
         "phase": "solid",
         "properties": [
             "natural",
-            "clean",
+            "mononuclidic",
             "stable",
             "heavy",
             "rare"
@@ -9161,7 +9163,7 @@
         "properties": [
             "natural",
             "native",
-            "clean",
+            "mononuclidic",
             "stable",
             "noble",
             "heavy"
@@ -9667,9 +9669,10 @@
         "properties": [
             "natural",
             "native",
-            "clean",
+            "mononuclidic",
             "heavy",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "sc_temp": {
             "value": 8.7,
@@ -9757,7 +9760,8 @@
             "natural",
             "heavy",
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "set": "metal",
@@ -9824,7 +9828,8 @@
             "natural",
             "heavy",
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "set": "halogen",
@@ -9906,7 +9911,8 @@
         "properties": [
             "natural",
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "set": "noblegas",
@@ -9973,7 +9979,8 @@
             "natural",
             "light",
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "set": "alkalimetal",
@@ -10061,7 +10068,8 @@
             "natural",
             "heavy",
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "set": "alkalineearthmetal",
@@ -10138,7 +10146,8 @@
             "natural",
             "heavy",
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "set": "actinoide",
@@ -10230,10 +10239,11 @@
         "phase": "solid",
         "properties": [
             "natural",
-            "clean",
+            "mononuclidic",
             "heavy",
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "sc_temp": {
@@ -10326,7 +10336,8 @@
             "natural",
             "heavy",
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "sc_temp": {
@@ -10451,7 +10462,8 @@
             "natural",
             "heavy",
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "sc_temp": {
@@ -10534,7 +10546,8 @@
         "properties": [
             "heavy",
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "set": "actinoide",
@@ -10613,10 +10626,11 @@
         "phase": "solid",
         "properties": [
             "natural",
-            "clean",
+            "mononuclidic",
             "heavy",
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "set": "actinoide",
@@ -10685,7 +10699,8 @@
         "properties": [
             "heavy",
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "sc_temp": {
@@ -10746,7 +10761,8 @@
         "properties": [
             "heavy",
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "set": "actinoide",
@@ -10807,7 +10823,8 @@
         "properties": [
             "heavy",
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "set": "actinoide",
@@ -10868,7 +10885,8 @@
         "properties": [
             "heavy",
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "set": "actinoide",
@@ -10928,7 +10946,8 @@
         "properties": [
             "heavy",
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "set": "actinoide",
@@ -10980,7 +10999,8 @@
         "phase": "solid",
         "properties": [
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "set": "actinoide",
@@ -11032,7 +11052,8 @@
         "phase": "solid",
         "properties": [
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "set": "actinoide",
@@ -11084,7 +11105,8 @@
         "phase": "solid",
         "properties": [
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "set": "actinoide",
@@ -11137,7 +11159,8 @@
         "phase": "solid",
         "properties": [
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "set": "actinoide",
@@ -11192,7 +11215,8 @@
         "properties": [
             "heavy",
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "set": "transitionmetal",
@@ -11250,7 +11274,8 @@
         "period": 7,
         "properties": [
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "set": "transitionmetal",
@@ -11300,7 +11325,8 @@
         "period": 7,
         "properties": [
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "set": "transitionmetal",
@@ -11350,7 +11376,8 @@
         "period": 7,
         "properties": [
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "set": "transitionmetal",
@@ -11400,7 +11427,8 @@
         "period": 7,
         "properties": [
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "set": "transitionmetal",
@@ -11450,7 +11478,8 @@
         "period": 7,
         "properties": [
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "set": null,
@@ -11500,7 +11529,8 @@
         "period": 7,
         "properties": [
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "set": null,
@@ -11550,7 +11580,8 @@
         "period": 7,
         "properties": [
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "set": null,
@@ -11600,7 +11631,8 @@
         "period": 7,
         "properties": [
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "set": null,
@@ -11650,7 +11682,8 @@
         "period": 7,
         "properties": [
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "set": null,
@@ -11700,7 +11733,8 @@
         "period": 7,
         "properties": [
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "set": null,
@@ -11749,7 +11783,8 @@
         "period": 7,
         "properties": [
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "set": null,
@@ -11798,7 +11833,8 @@
         "period": 7,
         "properties": [
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "set": null,
@@ -11850,7 +11886,8 @@
         "period": 7,
         "properties": [
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "set": null,
@@ -11904,7 +11941,8 @@
         "phase": "solid",
         "properties": [
             "radioactive",
-            "artificial"
+            "artificial",
+            "synthetic"
         ],
         "radioactive": true,
         "set": null,
