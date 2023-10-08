@@ -29,4 +29,16 @@ window.addEventListener( 'load', function () {
 
     }, false );
 
+    /**
+     * language selector
+     */
+
+    var ptLanguageSelector = document.querySelector( '.pt-language-selector-select' );
+
+    ptLanguageSelector.addEventListener( 'change', function ( e ) {
+
+        location.href = '/set?locale=' + e.target.value;
+
+    }, false );
+
 }, false );

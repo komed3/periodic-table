@@ -2,10 +2,7 @@
 div.pt-language-selector
   div.pt-language-selector-inner
     i.icon.pt-language-selector-icon language
-    select.pt-language-selector-select(
-      onchange= 'location.href="/set?locale="+this.value;',
-      title= __( 'language' )
-    )
+    select.pt-language-selector-select( title= __( 'language' ) )
       each lang in availableLanguages
         option(
           value= lang,
