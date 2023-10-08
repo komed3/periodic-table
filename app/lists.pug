@@ -2,12 +2,12 @@
 extends layout.pug
 
 block title
-  title!= __( prop + '-label' ) + " — " + __( 'title' )
-  meta( name="description", content= __( prop + '-description' ) )/
+  title!= __( lists.prop + '-label' ) + " — " + __( 'title' )
+  meta( name="description", content= __( lists.prop + '-description' ) )/
 
 block social
-  meta( property="og:title", content= __( prop + '-label' ) )/
-  meta( property="og:description", content= __( prop + '-description' ) )/
+  meta( property="og:title", content= __( lists.prop + '-label' ) )/
+  meta( property="og:description", content= __( lists.prop + '-description' ) )/
 
 block scripts
   script( src="/js/pt.min.js" )
@@ -20,14 +20,14 @@ block styles
 block content
   div.pt-page.pt-box.pt-list
     include templates/breadcrumbs.pug
-    h1!= __( prop + '-label' )
-    p.pt-page-intro!= __( prop + '-description' )
+    h1!= __( lists.prop + '-label' )
+    p.pt-page-intro!= __( lists.prop + '-description' )
     div.pt-lists
-      each list in lists
+      each list in lists.items
         div.pt-lists-item
           h3.pt-lists-item-title
-            a( href='/list/' + prop + '/' + list )!= __( prop + '-' + list )
-          p.pt-lists-item-desc!= __( prop + '-' + list + '-description' )
+            a( href='/list/' + lists.prop + '/' + list )!= __( lists.prop + '-' + list )
+          p.pt-lists-item-desc!= __( lists.prop + '-' + list + '-description' )
   div.pt-page
     include templates/microtable.pug
     include templates/legend.pug

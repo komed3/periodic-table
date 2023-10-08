@@ -148,6 +148,7 @@ routes.routes.forEach( ( route ) => {
             res.locals.elements = elements;
             res.locals.search = { query: '' };
             res.locals.table = { layer: 'set' };
+            res.locals.list = { layer: 'set' };
 
             /* breadcrumbs */
 
@@ -167,11 +168,11 @@ routes.routes.forEach( ( route ) => {
 
                     if( element in elements ) {
 
-                        let k = element_list.indexOf( element );
-
                         res.locals.element = elements[ element ];
                         res.locals.text = core.DB( 'text/' + req.getLocale() + '/' + element );
                         res.locals.isotopes = isotopes[ element ] || [];
+
+                        /* fetch image */
 
                         if( fs.existsSync( './public/images/' + element + '.jpg' ) ) {
 
@@ -183,10 +184,16 @@ routes.routes.forEach( ( route ) => {
 
                         }
 
+                        /* element navigation */
+
+                        let k = element_list.indexOf( element );
+
                         res.locals.nav = {
                             prev: element_list[ k - 1 ] || null,
                             next: element_list[ k + 1 ] || null
                         };
+
+                        /* periodic table */
 
                         res.locals.table.current = element;
 
@@ -201,36 +208,44 @@ routes.routes.forEach( ( route ) => {
 
                 case 'lists':
 
+                    /* check if given list exists */
+
                     if( _url.length == 2 && config.get( 'site.lists' ).includes( _url[1] ) ) {
 
-                        let list_prop = _url[1],
-                            lists = [];
+                        /* fetch list items */
+
+                        let lists = [];
 
                         Object.values( elements ).forEach( ( el ) => {
 
                             if(
-                                list_prop in el &&
-                                el[ list_prop ] != null &&
-                                !lists.includes( el[ list_prop ] )
+                                _url[1] in el &&
+                                el[ _url[1] ] != null &&
+                                !lists.includes( el[ _url[1] ] )
                             ) {
 
-                                lists.push( el[ list_prop ] );
+                                lists.push( el[ _url[1] ] );
 
                             }
 
                         } );
 
-                        res.locals.table = {
-                            layer: list_prop
+                        res.locals.lists = {
+                            prop: _url[1],
+                            items: lists
                         };
 
-                        res.locals.prop = list_prop;
-                        res.locals.layer = list_prop;
-                        res.locals.lists = lists;
+                        /* periodic table */
+
+                        res.locals.table = {
+                            layer: _url[1]
+                        };
+
+                        /* breadcrumbs */
 
                         res.locals.breadcrumbs.push( [
-                            '/lists/' + list_prop,
-                            req.__( list_prop + '-label' )
+                            '/lists/' + _url[1],
+                            req.__( _url[1] + '-label' )
                         ] );
 
                     } else {
@@ -244,42 +259,46 @@ routes.routes.forEach( ( route ) => {
 
                 case 'list':
 
+                    /* check if given list exists */
+
                     if( _url.length == 3 && config.get( 'site.lists' ).includes( _url[1] ) ) {
 
-                        let list_prop = _url[1],
-                            list_value = _url[2];
+                        /* fetch list items */
 
-                        let list_res = Object.fromEntries(
+                        let results = Object.fromEntries(
                             Object.entries( elements ).filter(
-                                ( [ _k, el ] ) => list_prop in el && el[ list_prop ] == list_value
+                                ( [ _k, el ] ) => _url[1] in el && el[ _url[1] ] == _url[2]
                             )
                         );
 
-                        let list_found = Object.keys( list_res ).length;
+                        /* if list has items */
 
-                        if( list_found ) {
+                        if( Object.keys( results ).length ) {
 
-                            res.locals.table = {
-                                layer: list_prop,
-                                value: list_value,
-                                hl: list_value
+                            res.locals.list = {
+                                layer: _url[1],
+                                value: _url[2],
+                                items: results
                             };
 
-                            res.locals.prop = list_prop;
-                            res.locals.layer = list_prop;
-                            res.locals.value = list_value;
-                            res.locals.highlight = list_value;
-                            res.locals.list = list_res;
-                            res.locals.found = list_found;
+                            /* periodic table */
+
+                            res.locals.table = {
+                                layer: _url[1],
+                                value: _url[2],
+                                hl: _url[2]
+                            };
+
+                            /* breadcrumbs */
 
                             res.locals.breadcrumbs.push( [
-                                '/lists/' + list_prop,
-                                req.__( list_prop + '-label' )
+                                '/lists/' + _url[1],
+                                req.__( _url[1] + '-label' )
                             ] );
 
                             res.locals.breadcrumbs.push( [
-                                '/lists/' + list_prop + '/' + list_value,
-                                req.__( list_prop + '-' + list_value )
+                                '/lists/' + _url[1] + '/' + _url[2],
+                                req.__( _url[1] + '-' + _url[2] )
                             ] );
 
                         } else {
@@ -300,6 +319,8 @@ routes.routes.forEach( ( route ) => {
 
                 case 'props':
 
+                    /* breadcrumbs */
+
                     res.locals.breadcrumbs.push( [
                         '/props',
                         req.__( 'props-title' )
@@ -309,40 +330,50 @@ routes.routes.forEach( ( route ) => {
 
                 case 'prop':
 
+                    /* check if given property exists */
+
                     if( _url.length == 2 && config.get( 'site.props' ).includes( _url[1] ) ) {
 
-                        let list_prop = _url[1];
+                        /* fetch list items */
 
-                        let list_res = Object.fromEntries(
+                        let results = Object.fromEntries(
                             Object.entries( elements ).filter(
-                                ( [ _k, el ] ) => ( el.properties || [] ).includes( list_prop )
+                                ( [ _k, el ] ) => ( el.properties || [] ).includes( _url[1] )
                             )
                         );
 
-                        let list_found = Object.keys( list_res ).length;
+                        /* if list has items */
 
-                        res.locals.table = {
-                            type: 'prop',
-                            layer: 'prop',
-                            value: list_prop
-                        };
+                        if( Object.keys( results ).length ) {
 
-                        res.locals.prop = list_prop;
-                        res.locals.value = list_prop;
-                        res.locals.layer = 'prop';
-                        res.locals.type = 'prop';
-                        res.locals.list = list_res;
-                        res.locals.found = list_found;
+                            res.locals.list = {
+                                type: 'prop',
+                                layer: 'prop',
+                                value: _url[1],
+                                items: results
+                            };
 
-                        res.locals.breadcrumbs.push( [
-                            '/props',
-                            req.__( 'props-title' )
-                        ] );
+                            /* periodic table */
 
-                        res.locals.breadcrumbs.push( [
-                            '/prop/' + list_prop,
-                            req.__( 'prop-' + list_prop )
-                        ] );
+                            res.locals.table = {
+                                type: 'prop',
+                                layer: 'prop',
+                                value: _url[1]
+                            };
+
+                            /* breadcrumbs */
+
+                            res.locals.breadcrumbs.push( [
+                                '/props',
+                                req.__( 'props-title' )
+                            ] );
+
+                            res.locals.breadcrumbs.push( [
+                                '/prop/' + _url[1],
+                                req.__( 'prop-' + _url[1] )
+                            ] );
+
+                        }
 
                     } else {
 
@@ -355,10 +386,14 @@ routes.routes.forEach( ( route ) => {
 
                 case 'search':
 
+                    /* get search query */
+
                     let query = req.query.q || req.query.query || '',
                         _query = query.toLocaleLowerCase( req.getLocale() );
 
                     if( query.length ) {
+
+                        /* fetch search results */
 
                         let results = [];
 

@@ -2,8 +2,8 @@
 extends layout.pug
 
 block title
-  - var title = __( 'list-title', __( prop + '-label' ), __( prop + '-' + value ) )
-  - var description = __( prop + '-' + value + '-description' )
+  - var title = __( 'list-title', __( list.layer + '-label' ), __( list.layer + '-' + list.value ) )
+  - var description = __( list.layer + '-' + list.value + '-description' )
   title!= title + " — " + __( 'title' )
   meta( name="description", content= description )/
 

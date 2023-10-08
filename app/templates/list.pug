@@ -1,10 +1,9 @@
 //- templates/list.pug
-- var layer = layer || 'set'
-div.pt-element-list( layer=layer )
-  each el in list
+div.pt-element-list( layer=list.layer )
+  each el in list.items
     div.pt-element-list-item
       div(
-        prop= core.getValue( el, layer, value || 'undefined', type || 'value' ),
+        prop= core.getValue( el, list.layer, list.value || 'undefined', list.type || 'value' ),
         class= 'pt-el element--symbol' + (
           el.radioactive
             ? ' radioactive'
