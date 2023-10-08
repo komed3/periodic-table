@@ -308,7 +308,9 @@ routes.routes.forEach( ( route ) => {
                         let list_found = Object.keys( list_res ).length;
 
                         res.locals.prop = list_prop;
+                        res.locals.value = list_prop;
                         res.locals.layer = 'prop';
+                        res.locals.type = 'prop';
                         res.locals.list = list_res;
                         res.locals.found = list_found;
 

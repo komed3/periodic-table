@@ -5,8 +5,9 @@
 div.pt-periodic-table.noselect( layer=layer, toggle=1 )
   span.pt-periodic-table-gap( style= '--g:1 / span 18' )
   each el, k in elements
-    - if( !legend.includes( el[ layer ] ) ) {
-    -   legend.push( el[ layer ] )
+    - _value = core.getValue( el, layer, value || 'undefined', type || 'value' )
+    - if( !legend.includes( _value ) ) {
+    -   legend.push( _value )
     - }
     if el.group > 18 && el.column == 3
       span.pt-periodic-table-label(
@@ -26,7 +27,7 @@ div.pt-periodic-table.noselect( layer=layer, toggle=1 )
           ? el.period + offset
           : el.period
       ),
-      prop= ( el[ layer ] || 'undefined' ),
+      prop= _value,
       title= el.names[ locale ],
       class= 'pt-el pt-periodic-table-item' + (
         el.radioactive

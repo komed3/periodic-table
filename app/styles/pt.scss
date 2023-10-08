@@ -120,7 +120,8 @@ body[theme="dark"] {
 
 [layer="goldschmidt"] .pt-el[prop="lithophile"],
 [layer="group"] .pt-el[prop="8"],
-[layer="crystal_structure"] .pt-el[prop="fcc"] {
+[layer="crystal_structure"] .pt-el[prop="fcc"],
+[layer="prop"] .pt-el[prop="1"] {
     --bg: var( --pt-or-5 );
 }
 

@@ -4,7 +4,7 @@ div.pt-element-list( layer=layer )
   each el in list
     div.pt-element-list-item
       div(
-        prop= ( el[ layer ] || 'undefined' ),
+        prop= core.getValue( el, layer, value || 'undefined', type || 'value' ),
         class= 'pt-el element--symbol' + (
           el.radioactive
             ? ' radioactive'
