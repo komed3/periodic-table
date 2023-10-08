@@ -239,6 +239,28 @@ select {
 }
 
 /**
+ * breadcrumbs
+ */
+
+.pt-breadcrumbs {
+    margin-bottom: 12px;
+    font-size: 13px;
+}
+
+.pt-breadcrumbs-item:not(:last-child)::after {
+    content: '/';
+    padding: 0 8px;
+}
+
+.pt-breadcrumbs-link {
+    color: var( --accent-1 );
+}
+
+.pt-breadcrumbs-link:hover {
+    text-decoration: underline;
+}
+
+/**
  * actions
  */
 

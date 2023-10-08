@@ -137,6 +137,12 @@ routes.routes.forEach( ( route ) => {
             res.locals.url = canonical;
             res.locals.canonical = req.protocol + '://' + req.hostname + canonical;
 
+            /* breadcrumbs */
+
+            res.locals.breadcrumbs = [ [
+                '/', req.__( 'start-title' )
+            ] ];
+
             /* set locals */
 
             res.locals.config = config.get( 'site' );
@@ -219,6 +225,11 @@ routes.routes.forEach( ( route ) => {
                         res.locals.layer = list_prop;
                         res.locals.lists = lists;
 
+                        res.locals.breadcrumbs.push( [
+                            '/lists/' + list_prop,
+                            req.__( list_prop + '-label' )
+                        ] );
+
                     } else {
 
                         res.redirect( '/' );
@@ -250,6 +261,16 @@ routes.routes.forEach( ( route ) => {
                             res.locals.value = list_value;
                             res.locals.list = list_res;
                             res.locals.found = list_found;
+
+                            res.locals.breadcrumbs.push( [
+                                '/lists/' + list_prop,
+                                req.__( list_prop + '-label' )
+                            ] );
+
+                            res.locals.breadcrumbs.push( [
+                                '/lists/' + list_prop + '/' + list_value,
+                                req.__( list_prop + '-' + list_value )
+                            ] );
 
                         } else {
 
