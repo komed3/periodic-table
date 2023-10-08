@@ -1,0 +1,34 @@
+//- lists.pug
+extends layout.pug
+
+block title
+  title!= __( prop + '-label' ) + " — " + __( 'title' )
+  meta( name="description", content= __( prop + '-description' ) )/
+
+block social
+  meta( property="og:title", content= __( prop + '-label' ) )/
+  meta( property="og:description", content= __( prop + '-description' ) )/
+
+block scripts
+  script( src="/js/pt.min.js" )
+
+block styles
+  link( rel="stylesheet", href="/css/lists.css" )/
+  link( rel="stylesheet", href="/css/microtable.css" )/
+  link( rel="stylesheet", href="/css/legend.css" )/
+
+block content
+  div.pt-page.pt-box.pt-list
+    h1!= __( prop + '-label' )
+    p.pt-page-intro!= __( prop + '-description' )
+    h2!= __( 'lists' )
+    div.pt-lists
+      each count, list in lists
+        div.pt-lists-item
+          h3.pt-lists-item-title
+            a( href='/list/' + prop + '/' + list )!= __( prop + '-' + list )
+            span!= ' (' + count + ')'
+          p.pt-lists-item-desc!= __( prop + '-' + list + '-description' )
+  div.pt-page
+    include templates/microtable.pug
+    include templates/legend.pug

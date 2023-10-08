@@ -180,6 +180,44 @@ routes.routes.forEach( ( route ) => {
 
                     break;
 
+                case 'lists':
+
+                    if( _url.length == 2 && config.get( 'site.lists' ).includes( _url[1] ) ) {
+
+                        let list_prop = _url[1],
+                            lists = {};
+
+                        Object.values( elements ).forEach( ( el ) => {
+
+                            if( list_prop in el && el[ list_prop ] != null ) {
+
+                                if( el[ list_prop ] in lists ) {
+
+                                    lists[ el[ list_prop ] ]++;
+
+                                } else {
+
+                                    lists[ el[ list_prop ] ] = 1;
+
+                                }
+
+                            }
+
+                        } );
+
+                        res.locals.prop = list_prop;
+                        res.locals.layer = list_prop;
+                        res.locals.lists = lists;
+
+                    } else {
+
+                        res.redirect( '/' );
+                        return ;
+
+                    }
+
+                    break;
+
                 case 'list':
 
                     if( _url.length == 3 && config.get( 'site.lists' ).includes( _url[1] ) ) {

@@ -3,7 +3,13 @@ extends layout.pug
 
 block title
   - var title = __( 'list-title', __( prop + '-label' ), __( prop + '-' + value ) )
+  - var description = __( prop + '-' + value + '-description' )
   title!= title + " — " + __( 'title' )
+  meta( name="description", content= description )/
+
+block social
+  meta( property="og:title", content= title )/
+  meta( property="og:description", content= description )/
 
 block scripts
   script( src="/js/pt.min.js" )
@@ -16,6 +22,7 @@ block styles
 block content
   div.pt-page.pt-box.pt-list
     h1!= title
+    p.pt-page-intro!= description
     include templates/element-list.pug
   div.pt-page
     include templates/microtable.pug
