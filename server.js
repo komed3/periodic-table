@@ -297,7 +297,20 @@ routes.routes.forEach( ( route ) => {
 
                     if( _url.length == 2 && config.get( 'site.props' ).includes( _url[1] ) ) {
 
-                        res.locals.prop = _url[1];
+                        let list_prop = _url[1];
+
+                        let list_res = Object.fromEntries(
+                            Object.entries( elements ).filter(
+                                ( [ _k, el ] ) => ( el.properties || [] ).includes( list_prop )
+                            )
+                        );
+
+                        let list_found = Object.keys( list_res ).length;
+
+                        res.locals.prop = list_prop;
+                        res.locals.layer = 'prop';
+                        res.locals.list = list_res;
+                        res.locals.found = list_found;
 
                         res.locals.breadcrumbs.push( [
                             '/props',
@@ -305,8 +318,8 @@ routes.routes.forEach( ( route ) => {
                         ] );
 
                         res.locals.breadcrumbs.push( [
-                            '/prop/' + _url[1],
-                            req.__( 'prop-' + _url[1] )
+                            '/prop/' + list_prop,
+                            req.__( 'prop-' + list_prop )
                         ] );
 
                     } else {
