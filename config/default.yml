@@ -16,8 +16,8 @@ site:
   ]
   scales: []
   props: [
-    radioactive, natural, native, vital, clean, stable, noble, light, heavy,
-    rare, platinum, refractory, artificial
+    radioactive, natural, native, vital, clean, stable, noble, semiconductor, light,
+    heavy, rare, platinum, refractory, artificial
   ]
 
 maintenance:

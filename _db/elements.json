@@ -812,7 +812,8 @@
         "phase": "solid",
         "properties": [
             "natural",
-            "stable"
+            "stable",
+            "semiconductor"
         ],
         "sc_temp": {
             "value": 11.2,
@@ -909,7 +910,8 @@
             "natural",
             "native",
             "vital",
-            "stable"
+            "stable",
+            "semiconductor"
         ],
         "sc_temp": {
             "value": 15,
@@ -1803,7 +1805,8 @@
         "properties": [
             "natural",
             "native",
-            "stable"
+            "stable",
+            "semiconductor"
         ],
         "sc_temp": {
             "value": 8.5,
@@ -3855,6 +3858,7 @@
         "properties": [
             "natural",
             "stable",
+            "semiconductor",
             "heavy"
         ],
         "sc_temp": {
@@ -4097,7 +4101,8 @@
             "natural",
             "native",
             "vital",
-            "stable"
+            "stable",
+            "semiconductor"
         ],
         "sc_temp": {
             "value": 7,
@@ -5894,6 +5899,7 @@
             "natural",
             "native",
             "stable",
+            "semiconductor",
             "heavy"
         ],
         "sc_temp": {
@@ -6123,6 +6129,7 @@
             "natural",
             "native",
             "stable",
+            "semiconductor",
             "heavy"
         ],
         "sc_temp": {
