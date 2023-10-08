@@ -22,7 +22,6 @@ block content
     include templates/breadcrumbs.pug
     h1!= __( prop + '-label' )
     p.pt-page-intro!= __( prop + '-description' )
-    h2!= __( 'lists' )
     div.pt-lists
       each count, list in lists
         div.pt-lists-item
