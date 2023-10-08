@@ -5,40 +5,30 @@
 
 @import 'pt';
 
-.pt-legend-label {
-    margin: 24px 0 12px 0;
-    text-transform: uppercase;
+.pt-legend {
     font-size: 13px;
+}
+
+.pt-legend-label {
+    margin: 24px 0;
+    text-transform: uppercase;
     font-weight: bold;
 }
 
 .pt-legend-inner {
     display: grid;
-    grid-template-columns: repeat( 5, max-content );
-    gap: 8px 24px;
+    grid-template-columns: repeat( 4, max-content );
+    gap: 12px 48px;
 }
 
-.pt-legend-item input {
-    flex: unset;
-    visibility: hidden;
-    float: right;
-    width: 0;
-    height: 0;
-}
-
-.pt-legend-item label {
+.pt-legend-item {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
     gap: 8px;
-    cursor: pointer;
 }
 
-.pt-legend-item input:not(:checked) + label {
-    opacity: 0.25;
-}
-
-.pt-legend-item label .pt-legend-item-box {
+.pt-legend-item-box {
     flex: 0 0 auto;
     width: 22px;
     height: 22px;
@@ -46,6 +36,6 @@
     border: 1px solid var( --gray-2 );
 }
 
-.pt-legend-item label .pt-legend-item-label {
-    font-size: 14px;
+.pt-legend-item:hover .pt-legend-item-label {
+    text-decoration: underline;
 }
