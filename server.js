@@ -9,12 +9,14 @@
 /**
  * load config
  */
+
 const yaml = require( 'js-yaml' );
 const config = require( 'config' );
 
 /**
  * load required modules/files
  */
+
 const fs = require( 'fs' );
 const core = require( './lib/core' );
 const elements = core.DB( 'elements' );
@@ -24,17 +26,20 @@ const isotopes = core.DB( 'isotopes' );
 /**
  * load "express" web framework
  */
+
 const express = require( 'express' );
 const cookieParser = require( 'cookie-parser' );
 
 /**
  * start express
  */
+
 const app = express();
 
 /**
  * define static folders/files
  */
+
 app.use( '/css', express.static( __dirname + '/public/styles' ) );
 app.use( '/js', express.static( __dirname + '/public/scripts' ) );
 app.use( '/res', express.static( __dirname + '/public/resources' ) );
@@ -43,12 +48,14 @@ app.use( '/img', express.static( __dirname + '/public/images' ) );
 /**
 * parse/use cookies
 */
+
 app.use( cookieParser() );
 
 /**
  * passing settings and save them as cookie
  * e.g. theme, locale ...
  */
+
 app.use( '/set', ( req, res, next ) => {
 
     for( const [ key, val ] of Object.entries( req.query ) ) {
@@ -72,11 +79,13 @@ app.use( '/set', ( req, res, next ) => {
 /**
  * load template engine
  */
+
 const pug = require( 'pug' );
 
 /**
  * i18n (multiple language support)
  */
+
 const { I18n } = require( 'i18n' );
 
 const i18n = new I18n( {
@@ -103,6 +112,7 @@ app.use( ( req, res, next ) => {
 /**
  * server routing
  */
+
 const routes = require( './config/routes' );
 
 routes.routes.forEach( ( route ) => {
@@ -315,4 +325,5 @@ routes.routes.forEach( ( route ) => {
 /**
  * start web server
  */
+
 const server = app.listen( config.get( 'server.port' ) );
