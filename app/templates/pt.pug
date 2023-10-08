@@ -1,11 +1,10 @@
 //- templates/pt.pug
-- var layer = layer || 'set'
 - var legend = []
 - var offset = 3
-div.pt-periodic-table.noselect( layer=layer, toggle=1 )
+div.pt-periodic-table.noselect( layer=table.layer )
   span.pt-periodic-table-gap( style= '--g:1 / span 18' )
   each el, k in elements
-    - _value = core.getValue( el, layer, value || 'undefined', type || 'value' )
+    - _value = core.getValue( el, table.layer, table.value || 'undefined', table.type || 'value' )
     - if( !legend.includes( _value ) ) {
     -   legend.push( _value )
     - }
@@ -32,6 +31,14 @@ div.pt-periodic-table.noselect( layer=layer, toggle=1 )
       class= 'pt-el pt-periodic-table-item' + (
         el.radioactive
           ? ' radioactive'
+          : ''
+      ) + (
+        k == table.current || ''
+          ? ' current'
+          : ''
+      ) + (
+        _value == table.hl
+          ? ' highlight'
           : ''
       )
     )

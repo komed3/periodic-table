@@ -274,6 +274,10 @@ body[theme="dark"] {
     outline: 1px solid var( --gray-5 );
 }
 
+.pt-el.highlight {
+    outline: 4px solid var( --gray-4 );
+}
+
 .pt-el.radioactive::before {
     content: '';
     flex: none;

@@ -137,22 +137,23 @@ routes.routes.forEach( ( route ) => {
             res.locals.url = canonical;
             res.locals.canonical = req.protocol + '://' + req.hostname + canonical;
 
-            /* breadcrumbs */
-
-            res.locals.breadcrumbs = [ [
-                '/', req.__( 'start-title' )
-            ] ];
-
-            /* set locals */
+            /* globally locals */
 
             res.locals.config = config.get( 'site' );
             res.locals.core = core;
             res.locals.site = route[1];
             res.locals.availableLanguages = config.get( 'i18n.languages' );
-            res.locals.elements = elements;
             res.locals.locale = req.getLocale();
             res.locals.theme = req.cookies.theme || config.get( 'site.theme' );
+            res.locals.elements = elements;
             res.locals.search = { query: '' };
+            res.locals.table = { layer: 'set' };
+
+            /* breadcrumbs */
+
+            res.locals.breadcrumbs = [ [
+                '/', req.__( 'start-title' )
+            ] ];
 
             /* templates */
 
@@ -187,6 +188,8 @@ routes.routes.forEach( ( route ) => {
                             next: element_list[ k + 1 ] || null
                         };
 
+                        res.locals.table.current = element;
+
                     } else {
 
                         res.redirect( '/' );
@@ -216,6 +219,10 @@ routes.routes.forEach( ( route ) => {
                             }
 
                         } );
+
+                        res.locals.table = {
+                            layer: list_prop
+                        };
 
                         res.locals.prop = list_prop;
                         res.locals.layer = list_prop;
@@ -252,9 +259,16 @@ routes.routes.forEach( ( route ) => {
 
                         if( list_found ) {
 
+                            res.locals.table = {
+                                layer: list_prop,
+                                value: list_value,
+                                hl: list_value
+                            };
+
                             res.locals.prop = list_prop;
                             res.locals.layer = list_prop;
                             res.locals.value = list_value;
+                            res.locals.highlight = list_value;
                             res.locals.list = list_res;
                             res.locals.found = list_found;
 
@@ -306,6 +320,12 @@ routes.routes.forEach( ( route ) => {
                         );
 
                         let list_found = Object.keys( list_res ).length;
+
+                        res.locals.table = {
+                            type: 'prop',
+                            layer: 'prop',
+                            value: list_prop
+                        };
 
                         res.locals.prop = list_prop;
                         res.locals.value = list_prop;
