@@ -233,16 +233,24 @@ body[theme="dark"] {
     z-index: 1;
 }
 
-.pt-el.radioactive[prop="undefined"] {
-    --bg: transparent;
-}
-
 .pt-el.current {
     outline: 1px solid var( --gray-5 );
 }
 
 .pt-el.highlight {
     outline: 4px solid var( --gray-4 );
+}
+
+[layer="set"] .pt-el.gas {
+    --accent: var( --accent-3 );
+}
+
+[layer="set"] .pt-el.liquid {
+    --accent: var( --accent-1 );
+}
+
+.pt-el.radioactive[prop="undefined"] {
+    --bg: transparent;
 }
 
 .pt-el.radioactive::before {

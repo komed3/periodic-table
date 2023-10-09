@@ -29,6 +29,10 @@ div.pt-periodic-table.noselect( layer=table.layer )
       prop= _value,
       title= el.names[ locale ],
       class= 'pt-el pt-periodic-table-item' + (
+        el.phase
+          ? ' ' + el.phase
+          : ''
+      ) + (
         el.radioactive
           ? ' radioactive'
           : ''
