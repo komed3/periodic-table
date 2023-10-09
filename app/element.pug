@@ -234,7 +234,13 @@ block content
             if element.discovery
               tr.pt-prop-table-row
                 th.pt-prop-table-label
-                  a( href="/scale/discovery" )!= __( 'discovery' )
+                  a(
+                    href= (
+                      element.era
+                        ? '/list/era/' + element.era
+                        : '/lists/era'
+                      )
+                    )!= __( 'discovery' )
                 td.pt-prop-table-value= element.discovery.by + ' (' + element.discovery.value + ')'
             each prop in [ 'group', 'period', 'set', 'block' ]
               if element[ prop ]

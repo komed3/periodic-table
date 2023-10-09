@@ -91,6 +91,7 @@
 	"enthalpy_atomisation": "Atomisierungsenthalpie",
 	"enthalpy_fusion": "Schmelzenthalpie",
 	"enthalpy_vaporisation": "Verdampfungsenthalpie",
+	"era-label": "Ära der Entdeckung",
 	"ghs-01": "<b>GHS01</b> Instabile explosive Stoffe, Gemische und Erzeugnisse mit Explosivstoff(en), selbstzersetzliche Stoffe und Gemische, Organische Peroxide",
 	"ghs-02": "<b>GHS02</b> Entzündbar, selbsterhitzungsfähig, selbstzersetzlich, pyrophor, wasserreaktiv, Organische Peroxide",
 	"ghs-03": "<b>GHS03</b> Entzündend (oxidierend) wirkend",

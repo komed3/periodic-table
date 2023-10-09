@@ -11,7 +11,7 @@ i18n:
 site:
   theme: light
   lists: [
-    group, period, set, block, phase, natural_occurrence, basicity, goldschmidt,
+    group, period, set, era, block, phase, natural_occurrence, basicity, goldschmidt,
     radioactivity, crystal_structure, magnetic_ordering, superconductivity
   ]
   scales: []
