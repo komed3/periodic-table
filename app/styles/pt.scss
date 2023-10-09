@@ -79,7 +79,7 @@ body[theme="dark"] {
 
 }
 
-[layer="group"] .pt-el[prop="11"],
+[layer="group"] .pt-el[prop="13"],
 [layer="set"] .pt-el[prop="halogen"],
 [layer="block"] .pt-el[prop="d"],
 [layer="phase"] .pt-el[prop="solid"],
@@ -87,53 +87,38 @@ body[theme="dark"] {
     --bg: var( --pt-ye-1 );
 }
 
-[layer="group"] .pt-el[prop="12"],
+[layer="group"] .pt-el[prop="14"],
 [layer="basicity"] .pt-el[prop="amphoterism"] {
     --bg: var( --pt-ye-3 );
 }
 
-[layer="goldschmidt"] .pt-el[prop="chalcophile"],
-[layer="group"] .pt-el[prop="13"] {
+[layer="group"] .pt-el[prop="15"],
+[layer="goldschmidt"] .pt-el[prop="chalcophile"] {
     --bg: var( --pt-ye-5 );
 }
 
-[layer="group"] .pt-el[prop="14"],
 [layer="crystal_structure"] .pt-el[prop="hex"] {
     --bg: var( --pt-ye-7 );
 }
 
-[layer="group"] .pt-el[prop="15"] {
-    --bg: var( --pt-ye-9 );
-}
-
-[layer="group"] .pt-el[prop="6"],
 [layer="set"] [prop="metalloid"],
 [layer="crystal_structure"] .pt-el[prop="bcc"] {
     --bg: var( --pt-or-1 );
 }
 
-[layer="group"] .pt-el[prop="7"],
+[layer="group"] .pt-el[prop="17"],
+[layer="period"] .pt-el[prop="5"],
 [layer="set"] .pt-el[prop="alkalineearthmetal"],
 [layer="superconductivity"] .pt-el[prop="special"] {
     --bg: var( --pt-or-3 );
 }
 
 [layer="goldschmidt"] .pt-el[prop="lithophile"],
-[layer="group"] .pt-el[prop="8"],
 [layer="crystal_structure"] .pt-el[prop="fcc"],
 [layer="prop"] .pt-el[prop="1"] {
     --bg: var( --pt-or-5 );
 }
 
-[layer="group"] .pt-el[prop="9"] {
-    --bg: var( --pt-or-7 );
-}
-
-[layer="group"] .pt-el[prop="10"] {
-    --bg: var( --pt-or-9 );
-}
-
-[layer="group"] .pt-el[prop="1"],
 [layer="set"] .pt-el[prop="transitionmetal"],
 [layer="block"] .pt-el[prop="f"],
 [layer="crystal_structure"] .pt-el[prop="hcp"],
@@ -141,7 +126,17 @@ body[theme="dark"] {
     --bg: var( --pt-re-1 );
 }
 
-[layer="group"] .pt-el[prop="2"],
+[layer="group"] .pt-el[prop="3"],
+[layer="group"] .pt-el[prop="4"],
+[layer="group"] .pt-el[prop="5"],
+[layer="group"] .pt-el[prop="6"],
+[layer="group"] .pt-el[prop="7"],
+[layer="group"] .pt-el[prop="8"],
+[layer="group"] .pt-el[prop="9"],
+[layer="group"] .pt-el[prop="10"],
+[layer="group"] .pt-el[prop="11"],
+[layer="group"] .pt-el[prop="12"],
+[layer="period"] .pt-el[prop="6"],
 [layer="set"] .pt-el[prop="alkalimetal"],
 [layer="superconductivity"] .pt-el[prop="none"],
 [layer="basicity"] .pt-el[prop="moderately-acidic"] {
@@ -149,26 +144,23 @@ body[theme="dark"] {
 }
 
 [layer="goldschmidt"] .pt-el[prop="siderophile"],
-[layer="group"] .pt-el[prop="3"],
 [layer="crystal_structure"] .pt-el[prop="dhcp"],
 [layer="basicity"] .pt-el[prop="acidic"] {
     --bg: var( --pt-re-5 );
 }
 
-[layer="group"] .pt-el[prop="4"],
 [layer="basicity"] .pt-el[prop="strongly-acidic"] {
     --bg: var( --pt-re-7 );
 }
 
-[layer="group"] .pt-el[prop="5"] {
-    --bg: var( --pt-re-9 );
-}
-
+[layer="group"] .pt-el[prop="19"],
 [layer="set"] .pt-el[prop="actinoide"] {
     --bg: var( --pt-pi-1 );
 }
 
+[layer="group"] .pt-el[prop="20"],
 [layer="set"] .pt-el[prop="lanthanoide"],
+[layer="period"] .pt-el[prop="1"],
 [layer="crystal_structure"] .pt-el[prop="sc"] {
     --bg: var( --pt-pi-3 );
 }
@@ -180,6 +172,8 @@ body[theme="dark"] {
     --bg: var( --pt-bl-1 );
 }
 
+[layer="group"] .pt-el[prop="18"],
+[layer="period"] .pt-el[prop="2"],
 [layer="crystal_structure"] .pt-el[prop="rho"],
 [layer="basicity"] .pt-el[prop="moderately-alkaline"] {
     --bg: var( --pt-bl-3 );
@@ -193,35 +187,17 @@ body[theme="dark"] {
     --bg: var( --pt-bl-7 );
 }
 
-[layer="period"] .pt-el[prop="1"],
 [layer="crystal_structure"] .pt-el[prop="mon"] {
     --bg: var( --pt-tu-1 );
-}
-
-[layer="period"] .pt-el[prop="2"] {
-    --bg: var( --pt-tu-2 );
 }
 
 [layer="period"] .pt-el[prop="3"] {
     --bg: var( --pt-tu-3 );
 }
 
-[layer="period"] .pt-el[prop="4"] {
-    --bg: var( --pt-tu-4 );
-}
-
-[layer="period"] .pt-el[prop="5"],
 [layer="goldschmidt"] .pt-el[prop="atmophile"],
 [layer="crystal_structure"] .pt-el[prop="dc"] {
     --bg: var( --pt-tu-5 );
-}
-
-[layer="period"] .pt-el[prop="6"] {
-    --bg: var( --pt-tu-6 );
-}
-
-[layer="period"] .pt-el[prop="7"] {
-    --bg: var( --pt-tu-7 );
 }
 
 [layer="set"] .pt-el[prop="nonmetal"],
@@ -230,31 +206,22 @@ body[theme="dark"] {
     --bg: var( --pt-gr-1 );
 }
 
+[layer="group"] .pt-el[prop="16"],
+[layer="period"] .pt-el[prop="4"],
 [layer="superconductivity"] .pt-el[prop="normal"],
 [layer="crystal_structure"] .pt-el[prop="orth"],
 [layer="basicity"] .pt-el[prop="neutral"] {
     --bg: var( --pt-gr-3 );
 }
 
-[layer="group"] .pt-el[prop="16"],
+[layer="group"] .pt-el[prop="1"],
 [layer="set"] .pt-el[prop="metal"] {
     --bg: var( --pt-gy-1 );
 }
 
-[layer="group"] .pt-el[prop="17"] {
+[layer="group"] .pt-el[prop="2"],
+[layer="period"] .pt-el[prop="7"] {
     --bg: var( --pt-gy-3 );
-}
-
-[layer="group"] .pt-el[prop="18"] {
-    --bg: var( --pt-gy-5 );
-}
-
-[layer="group"] .pt-el[prop="19"] {
-    --bg: var( --pt-gy-7 );
-}
-
-[layer="group"] .pt-el[prop="20"] {
-    --bg: var( --pt-gy-9 );
 }
 
 .pt-el {
