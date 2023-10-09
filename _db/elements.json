@@ -7260,7 +7260,7 @@
         }
     },
     "pm": {
-        "@modified": "2023-10-09T16:49:41.114Z",
+        "@modified": "2023-10-09T18:52:24.647Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.5e-19,
@@ -7321,7 +7321,7 @@
             "synthetic"
         ],
         "radioactive": true,
-        "radioactivity": "radioactive",
+        "radioactivity": "significantly-radioactive",
         "set": "lanthanoide",
         "shell": [
             2,
@@ -9861,7 +9861,7 @@
         }
     },
     "po": {
-        "@modified": "2023-10-09T16:49:41.114Z",
+        "@modified": "2023-10-09T18:52:24.647Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2.1e-15,
@@ -9931,7 +9931,7 @@
             "synthetic"
         ],
         "radioactive": true,
-        "radioactivity": "radioactive",
+        "radioactivity": "significantly-radioactive",
         "set": "metal",
         "shell": [
             2,
@@ -10019,7 +10019,7 @@
         }
     },
     "rn": {
-        "@modified": "2023-10-09T16:49:41.114Z",
+        "@modified": "2023-10-09T18:52:24.647Z",
         "abundance": {
             "earth_fraction": {
                 "value": 6.1e-15,
@@ -10087,7 +10087,7 @@
             "synthetic"
         ],
         "radioactive": true,
-        "radioactivity": "radioactive",
+        "radioactivity": "significantly-radioactive",
         "set": "noblegas",
         "shell": [
             2,
@@ -10176,7 +10176,7 @@
         }
     },
     "ra": {
-        "@modified": "2023-10-09T16:49:41.114Z",
+        "@modified": "2023-10-09T18:52:24.647Z",
         "abundance": {
             "earth_fraction": {
                 "value": 9.5e-15,
@@ -10248,7 +10248,7 @@
             "synthetic"
         ],
         "radioactive": true,
-        "radioactivity": "significantly-radioactive",
+        "radioactivity": "radioactive",
         "set": "alkalineearthmetal",
         "shell": [
             2,
@@ -10267,7 +10267,7 @@
         }
     },
     "ac": {
-        "@modified": "2023-10-09T16:49:41.114Z",
+        "@modified": "2023-10-09T18:52:24.647Z",
         "abundance": {
             "earth_fraction": {
                 "value": 6e-18,
@@ -10328,7 +10328,7 @@
             "synthetic"
         ],
         "radioactive": true,
-        "radioactivity": "radioactive",
+        "radioactivity": "significantly-radioactive",
         "set": "actinoide",
         "shell": [
             2,
@@ -10450,7 +10450,7 @@
         }
     },
     "pa": {
-        "@modified": "2023-10-09T16:49:41.114Z",
+        "@modified": "2023-10-09T18:52:24.647Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0009,
@@ -10523,7 +10523,7 @@
             "synthetic"
         ],
         "radioactive": true,
-        "radioactivity": "significantly-radioactive",
+        "radioactivity": "radioactive",
         "sc_temp": {
             "value": 1.4,
             "unit": "K"
@@ -10843,7 +10843,7 @@
         }
     },
     "am": {
-        "@modified": "2023-10-09T16:49:41.114Z",
+        "@modified": "2023-10-09T18:52:24.647Z",
         "appearance": {
             "en": "silvery white",
             "de": "silbrig-weißes Metall"
@@ -10897,7 +10897,7 @@
             "synthetic"
         ],
         "radioactive": true,
-        "radioactivity": "significantly-radioactive",
+        "radioactivity": "radioactive",
         "sc_temp": {
             "value": 1,
             "unit": "K"
@@ -10980,7 +10980,7 @@
         }
     },
     "bk": {
-        "@modified": "2023-10-09T16:49:41.114Z",
+        "@modified": "2023-10-09T18:52:24.647Z",
         "appearance": {
             "en": "silvery",
             "de": "silberweiß"
@@ -11026,7 +11026,7 @@
             "synthetic"
         ],
         "radioactive": true,
-        "radioactivity": "significantly-radioactive",
+        "radioactivity": "radioactive",
         "set": "actinoide",
         "shell": [
             2,
@@ -11045,7 +11045,7 @@
         }
     },
     "cf": {
-        "@modified": "2023-10-09T16:49:41.114Z",
+        "@modified": "2023-10-09T18:52:24.647Z",
         "appearance": {
             "en": "silvery",
             "de": "silbriges Metall"
@@ -11090,7 +11090,7 @@
             "synthetic"
         ],
         "radioactive": true,
-        "radioactivity": "significantly-radioactive",
+        "radioactivity": "radioactive",
         "set": "actinoide",
         "shell": [
             2,
@@ -11109,7 +11109,7 @@
         }
     },
     "es": {
-        "@modified": "2023-10-09T16:49:41.114Z",
+        "@modified": "2023-10-09T18:52:24.647Z",
         "appearance": {
             "en": "silvery; glows blue in the dark"
         },
@@ -11153,7 +11153,7 @@
             "synthetic"
         ],
         "radioactive": true,
-        "radioactivity": "radioactive",
+        "radioactivity": "significantly-radioactive",
         "set": "actinoide",
         "shell": [
             2,
@@ -11172,7 +11172,7 @@
         }
     },
     "fm": {
-        "@modified": "2023-10-09T16:49:41.114Z",
+        "@modified": "2023-10-09T18:52:24.647Z",
         "block": "f",
         "classification": {
             "cas": [
@@ -11208,7 +11208,7 @@
             "synthetic"
         ],
         "radioactive": true,
-        "radioactivity": "radioactive",
+        "radioactivity": "significantly-radioactive",
         "set": "actinoide",
         "shell": [
             2,
@@ -11227,7 +11227,7 @@
         }
     },
     "md": {
-        "@modified": "2023-10-09T16:49:41.114Z",
+        "@modified": "2023-10-09T18:52:24.647Z",
         "block": "f",
         "classification": {
             "cas": [
@@ -11263,7 +11263,7 @@
             "synthetic"
         ],
         "radioactive": true,
-        "radioactivity": "radioactive",
+        "radioactivity": "significantly-radioactive",
         "set": "actinoide",
         "shell": [
             2,
@@ -11450,7 +11450,7 @@
         }
     },
     "db": {
-        "@modified": "2023-10-09T16:49:41.114Z",
+        "@modified": "2023-10-09T18:52:24.647Z",
         "block": "d",
         "classification": {
             "cas": [
@@ -11493,7 +11493,7 @@
             "synthetic"
         ],
         "radioactive": true,
-        "radioactivity": "radioactive",
+        "radioactivity": "significantly-radioactive",
         "set": "transitionmetal",
         "shell": [
             2,
