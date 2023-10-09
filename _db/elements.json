@@ -9836,9 +9836,11 @@
             "native",
             "mononuclidic",
             "heavy",
+            "radioactive",
             "artificial",
             "synthetic"
         ],
+        "radioactive": true,
         "radioactivity": "slightly-radioactive",
         "sc_temp": {
             "value": 8.7,
