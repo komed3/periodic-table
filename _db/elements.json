@@ -291,6 +291,10 @@
             "stable"
         ],
         "radius": {
+            "empirical": {
+                "value": 25,
+                "unit": "pm"
+            },
             "covalent": {
                 "value": 31,
                 "deviation": 5,
