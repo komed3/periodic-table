@@ -161,6 +161,20 @@ async function getImage( el, url ) {
 }
 
 /**
+ * check if image folder exists
+ */
+
+if( !fs.existsSync( path ) ) {
+
+    /**
+     * create language directory
+     */
+
+    fs.mkdirSync( path, { recursive: true } );
+
+}
+
+/**
  * loop through elements database
  */
 
