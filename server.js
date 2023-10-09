@@ -123,18 +123,17 @@ routes.routes.forEach( ( route ) => {
 
             /* parse URL */
 
-            let url = core.parseURL( req.originalUrl ),
-                _url = url.map( p => {
-                    return p.toString().toLocaleLowerCase( req.getLocale() );
-                } );
+            let url = core.parseURL( req.originalUrl );
+            let _url = url.map( p => {
+                return p.toString().toLocaleLowerCase( req.getLocale() );
+            } );
 
             /* canonical URL */
 
-            let canonical = ( '/' + ( route[2] || url[0] || '' ) + '/' +
+            let canonical = ( '/' + ( route[2] || _url[0] || '' ) + '/' +
                 url.slice( 1 ).filter( p => !p.includes( '?' ) ).join( '/' ) + '/'
             ).replaceAll( '//', '/' ).slice( 0, -1 );
 
-            res.locals.url = canonical;
             res.locals.canonical = req.protocol + '://' + req.hostname + canonical;
 
             /* globally locals */
@@ -147,6 +146,7 @@ routes.routes.forEach( ( route ) => {
             res.locals.theme = req.cookies.theme || config.get( 'site.theme' );
             res.locals.elements = elements;
             res.locals.search = { query: '' };
+            res.locals.navURL = canonical;
             res.locals.table = { layer: 'set' };
             res.locals.list = { layer: 'set' };
 
@@ -288,6 +288,10 @@ routes.routes.forEach( ( route ) => {
                                 value: _url[2],
                                 hl: _url[2]
                             };
+
+                            /* nav URL */
+
+                            res.locals.navURL = '/lists/' + _url[1];
 
                             /* breadcrumbs */
 
