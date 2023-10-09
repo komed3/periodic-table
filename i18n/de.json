@@ -1,7 +1,7 @@
 {
 	"404-description": "404-description",
 	"404-title": "Seite nicht gefunden",
-	"@modified": "Zuletzt bearbeitet %s Uhr",
+	"@modified": "Zuletzt bearbeitet am %s",
 	"adr-title": "ADR-Gefahrgutklassen",
 	"allen-negativity": "Allen-Skala",
 	"allred-negativity": "Allred-Rochow-Skala",
