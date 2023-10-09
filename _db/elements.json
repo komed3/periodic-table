@@ -103,7 +103,7 @@
         },
         "discovery": {
             "by": "Cavendish",
-            "year": 1766
+            "value": 1766
         },
         "electrode_potential": {
             "value": 0,
@@ -401,7 +401,7 @@
         "crystal_structure": "hcp",
         "discovery": {
             "by": "Ramsay, Crookes",
-            "year": 1895
+            "value": 1895
         },
         "electron_config": "1s[1]",
         "goldschmidt": "atmophile",
@@ -524,7 +524,7 @@
         "crystal_structure": "bcc",
         "discovery": {
             "by": "Arfwedson",
-            "year": 1817
+            "value": 1817
         },
         "electron_config": "<e:He> 2s[1]",
         "goldschmidt": "lithophile",
@@ -647,7 +647,7 @@
         "crystal_structure": "hcp",
         "discovery": {
             "by": "Vauquelin",
-            "year": 1797
+            "value": 1797
         },
         "electron_config": "<e:He> 2s[2]",
         "goldschmidt": "lithophile",
@@ -777,7 +777,7 @@
         "crystal_structure": "rho",
         "discovery": {
             "by": "Davy, Gay-Lussac",
-            "year": 1808
+            "value": 1808
         },
         "electron_config": "<e:He> 2s[2] 2p[1]",
         "goldschmidt": "lithophile",
@@ -991,7 +991,7 @@
         "crystal_structure": "hex",
         "discovery": {
             "by": "Scheele",
-            "year": 1771
+            "value": 1771
         },
         "electron_config": "<e:He> 2s[2] 2p[3]",
         "goldschmidt": "atmophile",
@@ -1098,7 +1098,7 @@
         "crystal_structure": "sc",
         "discovery": {
             "by": "Priestley, Scheele",
-            "year": 1774
+            "value": 1774
         },
         "electron_config": "<e:He> 2s[2] 2p[4]",
         "goldschmidt": "lithophile",
@@ -1219,7 +1219,7 @@
         "crystal_structure": "sc",
         "discovery": {
             "by": "Moissan",
-            "year": 1886
+            "value": 1886
         },
         "electron_config": "<e:He> 2s[2] 2p[5]",
         "goldschmidt": "lithophile",
@@ -1347,7 +1347,7 @@
         "crystal_structure": "fcc",
         "discovery": {
             "by": "Ramsay, Travers",
-            "year": 1898
+            "value": 1898
         },
         "electron_config": "<e:He> 2s[2] 2p[6]",
         "goldschmidt": "atmophile",
@@ -1448,7 +1448,7 @@
         "crystal_structure": "bcc",
         "discovery": {
             "by": "Davy",
-            "year": 1807
+            "value": 1807
         },
         "electron_config": "<e:Ne> 3s[1]",
         "goldschmidt": "lithophile",
@@ -1575,7 +1575,7 @@
         "crystal_structure": "hcp",
         "discovery": {
             "by": "Bussy",
-            "year": 1828
+            "value": 1828
         },
         "electron_config": "<e:Ne> 3s[2]",
         "goldschmidt": "lithophile",
@@ -1695,7 +1695,7 @@
         "crystal_structure": "fcc",
         "discovery": {
             "by": "Ørsted",
-            "year": 1825
+            "value": 1825
         },
         "electron_config": "<e:Ne> 3s[2] 3p[1]",
         "goldschmidt": "lithophile",
@@ -1808,7 +1808,7 @@
         "crystal_structure": "dc",
         "discovery": {
             "by": "Berzelius",
-            "year": 1824
+            "value": 1824
         },
         "electron_config": "<e:Ne> 3s[2] 3p[2]",
         "goldschmidt": "lithophile",
@@ -1908,7 +1908,7 @@
         "crystal_structure": "orth",
         "discovery": {
             "by": "Brand",
-            "year": 1669
+            "value": 1669
         },
         "electron_config": "<e:Ne> 3s[2] 3p[3]",
         "goldschmidt": "lithophile",
@@ -2155,7 +2155,7 @@
         "crystal_structure": "orth",
         "discovery": {
             "by": "Scheele",
-            "year": 1774
+            "value": 1774
         },
         "electron_config": "<e:Ne> 3s[2] 3p[5]",
         "goldschmidt": "lithophile",
@@ -2286,7 +2286,7 @@
         "crystal_structure": "fcc",
         "discovery": {
             "by": "Ramsay, Strutt",
-            "year": 1894
+            "value": 1894
         },
         "electron_config": "<e:Ne> 3s[2] 3p[6]",
         "goldschmidt": "atmophile",
@@ -2388,7 +2388,7 @@
         "crystal_structure": "bcc",
         "discovery": {
             "by": "Davy",
-            "year": 1807
+            "value": 1807
         },
         "electron_config": "<e:Ar> 4s[1]",
         "goldschmidt": "lithophile",
@@ -2514,7 +2514,7 @@
         "crystal_structure": "fcc",
         "discovery": {
             "by": "Davy",
-            "year": 1808
+            "value": 1808
         },
         "electron_config": "<e:Ar> 4s[2]",
         "goldschmidt": "lithophile",
@@ -2635,7 +2635,7 @@
         "crystal_structure": "hcp",
         "discovery": {
             "by": "Nilson",
-            "year": 1879
+            "value": 1879
         },
         "electron_config": "<e:Ar> 3d[1] 4s[2]",
         "goldschmidt": "lithophile",
@@ -2745,7 +2745,7 @@
         "crystal_structure": "hcp",
         "discovery": {
             "by": "Gregor, Klaproth",
-            "year": 1791
+            "value": 1791
         },
         "electron_config": "<e:Ar> 3d[2] 4s[2]",
         "goldschmidt": "lithophile",
@@ -2859,7 +2859,7 @@
         "crystal_structure": "bcc",
         "discovery": {
             "by": "del Río",
-            "year": 1801
+            "value": 1801
         },
         "electron_config": "<e:Ar> 3d[3] 4s[2]",
         "goldschmidt": "lithophile",
@@ -2957,7 +2957,7 @@
         "crystal_structure": "bcc",
         "discovery": {
             "by": "Vauquelin",
-            "year": 1797
+            "value": 1797
         },
         "electron_config": "<e:Ar> 3d[5] 4s[1]",
         "goldschmidt": "lithophile",
@@ -3055,7 +3055,7 @@
         "crystal_structure": "bcc",
         "discovery": {
             "by": "Gahn",
-            "year": 1774
+            "value": 1774
         },
         "electron_config": "<e:Ar> 3d[5] 4s[2]",
         "goldschmidt": "siderophile",
@@ -3267,7 +3267,7 @@
         "crystal_structure": "hcp",
         "discovery": {
             "by": "Brandt",
-            "year": 1735
+            "value": 1735
         },
         "electron_config": "<e:Ar> 3d[7] 4s[2]",
         "goldschmidt": "siderophile",
@@ -3402,7 +3402,7 @@
         "crystal_structure": "fcc",
         "discovery": {
             "by": "Cronstedt",
-            "year": 1751
+            "value": 1751
         },
         "electron_config": "<e:Ar> 3d[8] 4s[2]",
         "goldschmidt": "siderophile",
@@ -3755,7 +3755,7 @@
         "crystal_structure": "orth",
         "discovery": {
             "by": "Lecoq de Boisbaudran",
-            "year": 1875
+            "value": 1875
         },
         "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[1]",
         "goldschmidt": "chalcophile",
@@ -3881,7 +3881,7 @@
         "crystal_structure": "dc",
         "discovery": {
             "by": "Winkler",
-            "year": 1886
+            "value": 1886
         },
         "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[2]",
         "goldschmidt": "chalcophile",
@@ -3993,7 +3993,7 @@
         "crystal_structure": "rho",
         "discovery": {
             "by": "Albertus Magnus",
-            "year": 1300
+            "value": 1300
         },
         "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[3]",
         "goldschmidt": "chalcophile",
@@ -4113,7 +4113,7 @@
         "crystal_structure": "hex",
         "discovery": {
             "by": "Berzelius",
-            "year": 1817
+            "value": 1817
         },
         "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[4]",
         "goldschmidt": "chalcophile",
@@ -4240,7 +4240,7 @@
         "crystal_structure": "orth",
         "discovery": {
             "by": "Balard",
-            "year": 1826
+            "value": 1826
         },
         "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[5]",
         "goldschmidt": "lithophile",
@@ -4371,7 +4371,7 @@
         "crystal_structure": "fcc",
         "discovery": {
             "by": "Ramsay, Travers",
-            "year": 1898
+            "value": 1898
         },
         "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[6]",
         "goldschmidt": "atmophile",
@@ -4474,7 +4474,7 @@
         "crystal_structure": "bcc",
         "discovery": {
             "by": "Bunsen, Kirchhoff",
-            "year": 1861
+            "value": 1861
         },
         "electron_config": "<e:Kr> 5s[1]",
         "goldschmidt": "lithophile",
@@ -4595,7 +4595,7 @@
         "crystal_structure": "fcc",
         "discovery": {
             "by": "Klaproth",
-            "year": 1798
+            "value": 1798
         },
         "electron_config": "<e:Kr> 5s[2]",
         "goldschmidt": "lithophile",
@@ -4718,7 +4718,7 @@
         "crystal_structure": "hcp",
         "discovery": {
             "by": "Gadolin",
-            "year": 1794
+            "value": 1794
         },
         "electron_config": "<e:Kr> 4d[1] 5s[2]",
         "goldschmidt": "lithophile",
@@ -4833,7 +4833,7 @@
         "crystal_structure": "hcp",
         "discovery": {
             "by": "Klaproth",
-            "year": 1789
+            "value": 1789
         },
         "electron_config": "<e:Kr> 4d[2] 5s[2]",
         "goldschmidt": "lithophile",
@@ -4953,7 +4953,7 @@
         "crystal_structure": "bcc",
         "discovery": {
             "by": "Hatchet",
-            "year": 1801
+            "value": 1801
         },
         "electron_config": "<e:Kr> 4d[4] 5s[1]",
         "goldschmidt": "lithophile",
@@ -5070,7 +5070,7 @@
         "crystal_structure": "bcc",
         "discovery": {
             "by": "Scheele",
-            "year": 1778
+            "value": 1778
         },
         "electron_config": "<e:Kr> 4d[5] 5s[1]",
         "goldschmidt": "siderophile",
@@ -5156,7 +5156,7 @@
         "crystal_structure": "hcp",
         "discovery": {
             "by": "Segrè",
-            "year": 1937
+            "value": 1937
         },
         "electron_config": "<e:Kr> 4d[5] 5s[2]",
         "goldschmidt": "synthetic",
@@ -5254,7 +5254,7 @@
         "crystal_structure": "hcp",
         "discovery": {
             "by": "Claus",
-            "year": 1844
+            "value": 1844
         },
         "electron_config": "<e:Kr> 4d[7] 5s[1]",
         "goldschmidt": "siderophile",
@@ -5362,7 +5362,7 @@
         "crystal_structure": "fcc",
         "discovery": {
             "by": "Wollaston",
-            "year": 1803
+            "value": 1803
         },
         "electron_config": "<e:Kr> 4d[8] 5s[1]",
         "goldschmidt": "siderophile",
@@ -5477,7 +5477,7 @@
         "crystal_structure": "fcc",
         "discovery": {
             "by": "Wollaston",
-            "year": 1803
+            "value": 1803
         },
         "electron_config": "<e:Kr> 4d[10]",
         "goldschmidt": "siderophile",
@@ -5719,7 +5719,7 @@
         "crystal_structure": "hcp",
         "discovery": {
             "by": "Stromeyer, Hermann",
-            "year": 1817
+            "value": 1817
         },
         "electron_config": "<e:Kr> 4d[10] 5s[2]",
         "goldschmidt": "chalcophile",
@@ -5858,7 +5858,7 @@
         "crystal_structure": "tetr",
         "discovery": {
             "by": "Reich, Richter",
-            "year": 1863
+            "value": 1863
         },
         "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[1]",
         "goldschmidt": "chalcophile",
@@ -6179,7 +6179,7 @@
         "crystal_structure": "hex",
         "discovery": {
             "by": "von Reichenstein",
-            "year": 1782
+            "value": 1782
         },
         "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[4]",
         "goldschmidt": "chalcophile",
@@ -6330,7 +6330,7 @@
         "crystal_structure": "orth",
         "discovery": {
             "by": "Courtois",
-            "year": 1811
+            "value": 1811
         },
         "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[5]",
         "goldschmidt": "lithophile",
@@ -6470,7 +6470,7 @@
         "crystal_structure": "fcc",
         "discovery": {
             "by": "Ramsay, Travers",
-            "year": 1898
+            "value": 1898
         },
         "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[6]",
         "goldschmidt": "atmophile",
@@ -6580,7 +6580,7 @@
         "crystal_structure": "bcc",
         "discovery": {
             "by": "Kirchhoff, Bunsen",
-            "year": 1860
+            "value": 1860
         },
         "electron_config": "<e:Xe> 6s[1]",
         "goldschmidt": "lithophile",
@@ -6707,7 +6707,7 @@
         "crystal_structure": "bcc",
         "discovery": {
             "by": "Davy",
-            "year": 1808
+            "value": 1808
         },
         "electron_config": "<e:Xe> 6s[2]",
         "goldschmidt": "lithophile",
@@ -6839,7 +6839,7 @@
         "crystal_structure": "dhcp",
         "discovery": {
             "by": "Mosander",
-            "year": 1839
+            "value": 1839
         },
         "electron_config": "<e:Xe> 5d[1] 6s[2]",
         "goldschmidt": "lithophile",
@@ -6956,7 +6956,7 @@
         "crystal_structure": "dhcp",
         "discovery": {
             "by": "von Hisinger, Berzelius, Klaproth",
-            "year": 1803
+            "value": 1803
         },
         "electron_config": "<e:Xe> 4f[1] 5d[1] 6s[2]",
         "goldschmidt": "lithophile",
@@ -7078,7 +7078,7 @@
         "crystal_structure": "dhcp",
         "discovery": {
             "by": "von Welsbach",
-            "year": 1895
+            "value": 1895
         },
         "electron_config": "<e:Xe> 4f[3] 6s[2]",
         "goldschmidt": "lithophile",
@@ -7194,7 +7194,7 @@
         "crystal_structure": "dhcp",
         "discovery": {
             "by": "von Welsbach",
-            "year": 1895
+            "value": 1895
         },
         "electron_config": "<e:Xe> 4f[4] 6s[2]",
         "goldschmidt": "lithophile",
@@ -7297,7 +7297,7 @@
         "crystal_structure": "dhcp",
         "discovery": {
             "by": "Marinsky",
-            "year": 1945
+            "value": 1945
         },
         "electron_config": "<e:Xe> 4f[5] 6s[2]",
         "goldschmidt": "synthetic",
@@ -7388,7 +7388,7 @@
         "crystal_structure": "rho",
         "discovery": {
             "by": "Lecoq de Boisbaudran",
-            "year": 1879
+            "value": 1879
         },
         "electron_config": "<e:Xe> 4f[6] 6s[2]",
         "goldschmidt": "lithophile",
@@ -7504,7 +7504,7 @@
         "crystal_structure": "bcc",
         "discovery": {
             "by": "Demarçay",
-            "year": 1901
+            "value": 1901
         },
         "electron_config": "<e:Xe> 4f[7] 6s[2]",
         "goldschmidt": "lithophile",
@@ -7619,7 +7619,7 @@
         "crystal_structure": "hcp",
         "discovery": {
             "by": "de Marignac",
-            "year": 1880
+            "value": 1880
         },
         "electron_config": "<e:Xe> 4f[7] 5d[1] 6s[2]",
         "goldschmidt": "lithophile",
@@ -7733,7 +7733,7 @@
         "crystal_structure": "hcp",
         "discovery": {
             "by": "Mosander",
-            "year": 1843
+            "value": 1843
         },
         "electron_config": "<e:Xe> 4f[9] 6s[2]",
         "goldschmidt": "lithophile",
@@ -7828,7 +7828,7 @@
         "crystal_structure": "hcp",
         "discovery": {
             "by": "Lecoq de Boisbaudran",
-            "year": 1886
+            "value": 1886
         },
         "electron_config": "<e:Xe> 4f[10] 6s[2]",
         "goldschmidt": "lithophile",
@@ -7938,7 +7938,7 @@
         "crystal_structure": "hcp",
         "discovery": {
             "by": "Soret",
-            "year": 1878
+            "value": 1878
         },
         "electron_config": "<e:Xe> 4f[11] 6s[2]",
         "goldschmidt": "lithophile",
@@ -8049,7 +8049,7 @@
         "crystal_structure": "hcp",
         "discovery": {
             "by": "Mosander",
-            "year": 1842
+            "value": 1842
         },
         "electron_config": "<e:Xe> 4f[12] 6s[2]",
         "goldschmidt": "lithophile",
@@ -8159,7 +8159,7 @@
         "crystal_structure": "hcp",
         "discovery": {
             "by": "Cleve",
-            "year": 1879
+            "value": 1879
         },
         "electron_config": "<e:Xe> 4f[13] 6s[2]",
         "goldschmidt": "lithophile",
@@ -8275,7 +8275,7 @@
         "crystal_structure": "fcc",
         "discovery": {
             "by": "de Marignac",
-            "year": 1878
+            "value": 1878
         },
         "electron_config": "<e:Xe> 4f[14] 6s[2]",
         "goldschmidt": "lithophile",
@@ -8395,7 +8395,7 @@
         "crystal_structure": "hcp",
         "discovery": {
             "by": "von Welsbach, Urbain",
-            "year": 1907
+            "value": 1907
         },
         "electron_config": "<e:Xe> 4f[14] 5d[1] 6s[2]",
         "goldschmidt": "lithophile",
@@ -8506,7 +8506,7 @@
         "crystal_structure": "hcp",
         "discovery": {
             "by": "Coster, de Hevesy",
-            "year": 1923
+            "value": 1923
         },
         "electron_config": "<e:Xe> 4f[14] 5d[2] 6s[2]",
         "goldschmidt": "lithophile",
@@ -8620,7 +8620,7 @@
         "crystal_structure": "bcc",
         "discovery": {
             "by": "Ekeberg",
-            "year": 1802
+            "value": 1802
         },
         "electron_config": "<e:Xe> 4f[14] 5d[3] 6s[2]",
         "goldschmidt": "lithophile",
@@ -8738,7 +8738,7 @@
         "crystal_structure": "bcc",
         "discovery": {
             "by": "Fausto und Juan de Elhuyar",
-            "year": 1783
+            "value": 1783
         },
         "electron_config": "<e:Xe> 4f[14] 5d[4] 6s[2]",
         "goldschmidt": "siderophile",
@@ -8858,7 +8858,7 @@
         "crystal_structure": "hcp",
         "discovery": {
             "by": "Noddack, Tacke, Berg",
-            "year": 1925
+            "value": 1925
         },
         "electron_config": "<e:Xe> 4f[14] 5d[5] 6s[2]",
         "goldschmidt": "siderophile",
@@ -8967,7 +8967,7 @@
         "crystal_structure": "hcp",
         "discovery": {
             "by": "Tennant",
-            "year": 1803
+            "value": 1803
         },
         "electron_config": "<e:Xe> 4f[14] 5d[6] 6s[2]",
         "goldschmidt": "siderophile",
@@ -9089,7 +9089,7 @@
         "crystal_structure": "fcc",
         "discovery": {
             "by": "Tennant",
-            "year": 1803
+            "value": 1803
         },
         "electron_config": "<e:Xe> 4f[14] 5d[7] 6s[2]",
         "goldschmidt": "siderophile",
@@ -9203,7 +9203,7 @@
         "crystal_structure": "fcc",
         "discovery": {
             "by": "Scaliger",
-            "year": 1557
+            "value": 1557
         },
         "electron_config": "<e:Xe> 4f[14] 5d[9] 6s[1]",
         "goldschmidt": "siderophile",
@@ -9532,7 +9532,7 @@
         "crystal_structure": "hcp",
         "discovery": {
             "by": "Crookes",
-            "year": 1861
+            "value": 1861
         },
         "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[1]",
         "goldschmidt": "chalcophile",
@@ -9792,7 +9792,7 @@
         "crystal_structure": "rho",
         "discovery": {
             "by": "Agricola",
-            "year": 1540
+            "value": 1540
         },
         "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[3]",
         "goldschmidt": "chalcophile",
@@ -9905,7 +9905,7 @@
         "crystal_structure": "sc",
         "discovery": {
             "by": "Marie und Pierre Curie",
-            "year": 1898
+            "value": 1898
         },
         "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[4]",
         "goldschmidt": "synthetic",
@@ -9974,7 +9974,7 @@
         "crystal_structure": "fcc",
         "discovery": {
             "by": "Segrè",
-            "year": 1940
+            "value": 1940
         },
         "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[5]",
         "goldschmidt": "synthetic",
@@ -10059,7 +10059,7 @@
         "crystal_structure": "fcc",
         "discovery": {
             "by": "Dorn",
-            "year": 1900
+            "value": 1900
         },
         "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[6]",
         "goldschmidt": "synthetic",
@@ -10124,7 +10124,7 @@
         "crystal_structure": "bcc",
         "discovery": {
             "by": "Perey",
-            "year": 1939
+            "value": 1939
         },
         "electron_config": "<e:Rn> 7s[1]",
         "goldschmidt": "synthetic",
@@ -10214,7 +10214,7 @@
         "crystal_structure": "bcc",
         "discovery": {
             "by": "Marie und Pierre Curie",
-            "year": 1898
+            "value": 1898
         },
         "electron_config": "<e:Rn> 7s[2]",
         "goldschmidt": "synthetic",
@@ -10293,7 +10293,7 @@
         "crystal_structure": "fcc",
         "discovery": {
             "by": "Debierne",
-            "year": 1899
+            "value": 1899
         },
         "electron_config": "<e:Rn> 6d[1] 7s[2]",
         "goldschmidt": "synthetic",
@@ -10389,7 +10389,7 @@
         "crystal_structure": "fcc",
         "discovery": {
             "by": "Berzelius",
-            "year": 1829
+            "value": 1829
         },
         "electron_config": "<e:Rn> 6d[2] 7s[2]",
         "goldschmidt": "lithophile",
@@ -10486,7 +10486,7 @@
         "crystal_structure": "tetr",
         "discovery": {
             "by": "Fajans, Hahn, Meitner",
-            "year": 1917
+            "value": 1917
         },
         "electron_config": "<e:Rn> 5f[2] 6d[1] 7s[2]",
         "goldschmidt": "synthetic",
@@ -10585,7 +10585,7 @@
         "crystal_structure": "orth",
         "discovery": {
             "by": "Klaproth",
-            "year": 1789
+            "value": 1789
         },
         "electron_config": "<e:Rn> 5f[3] 6d[1] 7s[2]",
         "goldschmidt": "lithophile",
@@ -10700,7 +10700,7 @@
         "crystal_structure": "orth",
         "discovery": {
             "by": "McMillan, Abelson",
-            "year": 1940
+            "value": 1940
         },
         "electron_config": "<e:Rn> 5f[4] 6d[1] 7s[2]",
         "goldschmidt": "synthetic",
@@ -10782,7 +10782,7 @@
         "crystal_structure": "mon",
         "discovery": {
             "by": "Seaborg",
-            "year": 1940
+            "value": 1940
         },
         "electron_config": "<e:Rn> 5f[6] 7s[2]",
         "goldschmidt": "synthetic",
@@ -10856,7 +10856,7 @@
         "crystal_structure": "dhcp",
         "discovery": {
             "by": "Seaborg",
-            "year": 1944
+            "value": 1944
         },
         "electron_config": "<e:Rn> 5f[7] 7s[2]",
         "goldschmidt": "synthetic",
@@ -10924,7 +10924,7 @@
         "crystal_structure": "dhcp",
         "discovery": {
             "by": "Seaborg",
-            "year": 1944
+            "value": 1944
         },
         "electron_config": "<e:Rn> 5f[7] 6d[1] 7s[2]",
         "goldschmidt": "synthetic",
@@ -10983,7 +10983,7 @@
         "crystal_structure": "dhcp",
         "discovery": {
             "by": "Seaborg",
-            "year": 1949
+            "value": 1949
         },
         "electron_config": "<e:Rn> 5f[9] 7s[2]",
         "goldschmidt": "synthetic",
@@ -11047,7 +11047,7 @@
         "crystal_structure": "dhcp",
         "discovery": {
             "by": "Seaborg",
-            "year": 1950
+            "value": 1950
         },
         "electron_config": "<e:Rn> 5f[10] 7s[2]",
         "goldschmidt": "synthetic",
@@ -11109,7 +11109,7 @@
         "crystal_structure": "fcc",
         "discovery": {
             "by": "Seaborg",
-            "year": 1952
+            "value": 1952
         },
         "electron_config": "<e:Rn> 5f[11] 7s[2]",
         "goldschmidt": "synthetic",
@@ -11168,7 +11168,7 @@
         "crystal_structure": "fcc",
         "discovery": {
             "by": "Seaborg",
-            "year": 1952
+            "value": 1952
         },
         "electron_config": "<e:Rn> 5f[12] 7s[2]",
         "goldschmidt": "synthetic",
@@ -11222,7 +11222,7 @@
         "crystal_structure": "fcc",
         "discovery": {
             "by": "Seaborg",
-            "year": 1955
+            "value": 1955
         },
         "electron_config": "<e:Rn> 5f[13] 7s[2]",
         "goldschmidt": "synthetic",
@@ -11276,7 +11276,7 @@
         "crystal_structure": "fcc",
         "discovery": {
             "by": "Seaborg",
-            "year": 1958
+            "value": 1958
         },
         "electron_config": "<e:Rn> 5f[14] 7s[2]",
         "goldschmidt": "synthetic",
@@ -11331,7 +11331,7 @@
         "crystal_structure": "hcp",
         "discovery": {
             "by": "Ghiorso",
-            "year": 1961
+            "value": 1961
         },
         "electron_config": "<e:Rn> 5f[14] 7s[2] 7p[1]",
         "goldschmidt": "synthetic",
@@ -11388,7 +11388,7 @@
         "crystal_structure": "hcp",
         "discovery": {
             "by": "Ghiorso",
-            "year": 1964
+            "value": 1964
         },
         "electron_config": "<e:Rn> 5f[14] 6d[2] 7s[2]",
         "goldschmidt": "synthetic",
@@ -11449,7 +11449,7 @@
         "crystal_structure": "bcc",
         "discovery": {
             "by": "Ghiorso",
-            "year": 1967
+            "value": 1967
         },
         "electron_config": "<e:Rn> 5f[14] 6d[3] 7s[2]",
         "goldschmidt": "synthetic",
@@ -11501,7 +11501,7 @@
         "crystal_structure": "bcc",
         "discovery": {
             "by": "Oganessian",
-            "year": 1974
+            "value": 1974
         },
         "electron_config": "<e:Rn> 5f[14] 6d[4] 7s[2]",
         "goldschmidt": "synthetic",
@@ -11553,7 +11553,7 @@
         "crystal_structure": "hcp",
         "discovery": {
             "by": "Oganessian",
-            "year": 1976
+            "value": 1976
         },
         "electron_config": "<e:Rn> 5f[14] 6d[5] 7s[2]",
         "goldschmidt": "synthetic",
@@ -11605,7 +11605,7 @@
         "crystal_structure": "hcp",
         "discovery": {
             "by": "GSI",
-            "year": 1984
+            "value": 1984
         },
         "electron_config": "<e:Rn> 5f[14] 6d[6] 7s[2]",
         "goldschmidt": "synthetic",
@@ -11657,7 +11657,7 @@
         "crystal_structure": "fcc",
         "discovery": {
             "by": "GSI",
-            "year": 1982
+            "value": 1982
         },
         "electron_config": "<e:Rn> 5f[14] 6d[7] 7s[2]",
         "goldschmidt": "synthetic",
@@ -11709,7 +11709,7 @@
         "crystal_structure": "bcc",
         "discovery": {
             "by": "GSI",
-            "year": 1994
+            "value": 1994
         },
         "electron_config": "<e:Rn> 5f[14] 6d[8] 7s[2]",
         "goldschmidt": "synthetic",
@@ -11761,7 +11761,7 @@
         "crystal_structure": "bcc",
         "discovery": {
             "by": "GSI",
-            "year": 1994
+            "value": 1994
         },
         "electron_config": "<e:Rn> 5f[14] 6d[9] 7s[2]",
         "goldschmidt": "synthetic",
@@ -11813,7 +11813,7 @@
         "crystal_structure": "bcc",
         "discovery": {
             "by": "GSI",
-            "year": 1996
+            "value": 1996
         },
         "electron_config": "<e:Rn> 5f[14] 6d[10] 7s[2]",
         "goldschmidt": "synthetic",
@@ -11865,7 +11865,7 @@
         "crystal_structure": "hcp",
         "discovery": {
             "by": "JINR",
-            "year": 2006
+            "value": 2006
         },
         "electron_config": "<e:Rn> 5f[14] 6d[10] 7s[2] 7p[1]",
         "goldschmidt": "synthetic",
@@ -11917,7 +11917,7 @@
         "crystal_structure": "fcc",
         "discovery": {
             "by": "JINR",
-            "year": 1999
+            "value": 1999
         },
         "electron_config": "<e:Rn> 5f[14] 6d[10] 7s[2] 7p[2]",
         "goldschmidt": "synthetic",
@@ -11968,7 +11968,7 @@
         "column": 29,
         "discovery": {
             "by": "JINR",
-            "year": 2006
+            "value": 2006
         },
         "electron_config": "<e:Rn> 5f[14] 6d[10] 7s[2] 7p[3]",
         "goldschmidt": "synthetic",
@@ -12019,7 +12019,7 @@
         "column": 30,
         "discovery": {
             "by": "JINR",
-            "year": 2000
+            "value": 2000
         },
         "electron_config": "<e:Rn> 5f[14] 6d[10] 7s[2] 7p[4]",
         "goldschmidt": "synthetic",
@@ -12073,7 +12073,7 @@
         "column": 31,
         "discovery": {
             "by": "JINR",
-            "year": 2010
+            "value": 2010
         },
         "electron_config": "<e:Rn> 5f[14] 6d[10] 7s[2] 7p[5]",
         "goldschmidt": "synthetic",
@@ -12128,7 +12128,7 @@
         "crystal_structure": "fcc",
         "discovery": {
             "by": "JINR",
-            "year": 2006
+            "value": 2006
         },
         "electron_config": "<e:Rn> 5f[14] 6d[10] 7s[2] 7p[6]",
         "goldschmidt": "synthetic",

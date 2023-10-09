@@ -235,7 +235,7 @@ block content
               tr.pt-prop-table-row
                 th.pt-prop-table-label
                   a( href="/scale/discovery" )!= __( 'discovery' )
-                td.pt-prop-table-value= element.discovery.by + ' (' + element.discovery.year + ')'
+                td.pt-prop-table-value= element.discovery.by + ' (' + element.discovery.value + ')'
             each prop in [ 'group', 'period', 'set', 'block' ]
               if element[ prop ]
                 tr.pt-prop-table-row
