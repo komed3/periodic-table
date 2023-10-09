@@ -395,7 +395,7 @@ routes.routes.forEach( ( route ) => {
                     let query = req.query.q || req.query.query || '',
                         _query = query.toLocaleLowerCase( req.getLocale() );
 
-                    if( query.length ) {
+                    if( _query.length ) {
 
                         /* fetch search results */
 
@@ -411,9 +411,10 @@ routes.routes.forEach( ( route ) => {
 
                         }
 
+                        res.locals.list.items = results;
+
                         res.locals.search = {
                             query: query,
-                            results: results,
                             found: results.length
                         };
 

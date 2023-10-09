@@ -18,5 +18,4 @@ block content
     include templates/searchform.pug
     p.pt-search-label!= __( 'search-results', search.found, search.query )
     div.pt-search-results
-      - var list = search.results
       include templates/list.pug
