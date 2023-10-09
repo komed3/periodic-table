@@ -90,7 +90,8 @@ body[theme="dark"] {
 [layer="group"] .pt-el[prop="14"],
 [layer="goldschmidt"] .pt-el[prop="chalcophile"],
 [layer="basicity"] .pt-el[prop="amphoterism"],
-[layer="radioactivity"] .pt-el[prop="slightly-radioactive"] {
+[layer="radioactivity"] .pt-el[prop="slightly-radioactive"],
+[layer="era"] .pt-el[prop="enlightenment"] {
     --bg: var( --pt-ye-3 );
 }
 
@@ -114,7 +115,8 @@ body[theme="dark"] {
 [layer="goldschmidt"] .pt-el[prop="lithophile"],
 [layer="magnetic_ordering"] .pt-el[prop="antiferromagnetic"],
 [layer="natural_occurrence"] .pt-el[prop="decay"],
-[layer="radioactivity"] .pt-el[prop="radioactive"] {
+[layer="radioactivity"] .pt-el[prop="radioactive"],
+[layer="era"] .pt-el[prop="revolution"] {
     --bg: var( --pt-or-3 );
 }
 
@@ -145,7 +147,8 @@ body[theme="dark"] {
 [layer="superconductivity"] .pt-el[prop="none"],
 [layer="goldschmidt"] .pt-el[prop="siderophile"],
 [layer="basicity"] .pt-el[prop="moderately-acidic"],
-[layer="radioactivity"] .pt-el[prop="highly-radioactive"] {
+[layer="radioactivity"] .pt-el[prop="highly-radioactive"],
+[layer="era"] .pt-el[prop="classifying"] {
     --bg: var( --pt-re-3 );
 }
 
@@ -168,7 +171,8 @@ body[theme="dark"] {
 [layer="period"] .pt-el[prop="1"],
 [layer="crystal_structure"] .pt-el[prop="sc"],
 [layer="magnetic_ordering"] .pt-el[prop="paramagnetic"],
-[layer="radioactivity"] .pt-el[prop="significantly-radioactive"] {
+[layer="radioactivity"] .pt-el[prop="significantly-radioactive"],
+[layer="era"] .pt-el[prop="quantum"] {
     --bg: var( --pt-pi-3 );
 }
 
@@ -183,7 +187,8 @@ body[theme="dark"] {
 [layer="period"] .pt-el[prop="2"],
 [layer="crystal_structure"] .pt-el[prop="rho"],
 [layer="basicity"] .pt-el[prop="moderately-alkaline"],
-[layer="magnetic_ordering"] .pt-el[prop="ferromagnetic"] {
+[layer="magnetic_ordering"] .pt-el[prop="ferromagnetic"],
+[layer="era"] .pt-el[prop="synthesis"] {
     --bg: var( --pt-bl-3 );
 }
 
@@ -203,7 +208,8 @@ body[theme="dark"] {
 [layer="goldschmidt"] .pt-el[prop="atmophile"],
 [layer="magnetic_ordering"] .pt-el[prop="diamagnetic"],
 [layer="natural_occurrence"] .pt-el[prop="synthetic"],
-[layer="radioactivity"] .pt-el[prop="extremely-radioactive"] {
+[layer="radioactivity"] .pt-el[prop="extremely-radioactive"],
+[layer="era"] .pt-el[prop="recent"] {
     --bg: var( --pt-tu-3 );
 }
 
@@ -232,7 +238,8 @@ body[theme="dark"] {
 }
 
 [layer="group"] .pt-el[prop="2"],
-[layer="period"] .pt-el[prop="7"] {
+[layer="period"] .pt-el[prop="7"],
+[layer="era"] .pt-el[prop="antiquity"] {
     --bg: var( --pt-gy-3 );
 }
 
