@@ -1,6 +1,6 @@
 {
     "h": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.15,
@@ -345,7 +345,7 @@
         }
     },
     "he": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4e-7,
@@ -437,6 +437,7 @@
             ],
             "unit": "eV"
         },
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Helium",
             "de": "Helium",
@@ -471,7 +472,7 @@
         }
     },
     "li": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.006,
@@ -562,6 +563,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Limetal.JPG",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Limetal.JPG\">Dnn87</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Lithium",
             "de": "Lithium",
@@ -592,7 +594,7 @@
         }
     },
     "be": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00053,
@@ -689,6 +691,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Be-140g.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Be-140g.jpg\">Alchemist-hp = Alchemist-hp (pse-mendelejew.de)</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Beryllium",
             "de": "Beryllium",
@@ -720,7 +723,7 @@
         }
     },
     "b": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0016,
@@ -802,6 +805,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Boron_R105.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Boron_R105.jpg\">James L Marshall</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Boron",
             "de": "Bor",
@@ -832,7 +836,7 @@
         }
     },
     "c": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.087,
@@ -898,6 +902,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Glassy_carbon_and_a_1cm3_graphite_cube_HP68-79.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Glassy_carbon_and_a_1cm3_graphite_cube_HP68-79.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Carbon",
             "de": "Kohlenstoff",
@@ -930,7 +935,7 @@
         }
     },
     "n": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.03,
@@ -1004,6 +1009,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Nitrogen_discharge_tube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Nitrogen_discharge_tube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Nitrogen",
             "de": "Stickstoff",
@@ -1030,7 +1036,7 @@
         }
     },
     "o": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 49400,
@@ -1124,6 +1130,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Oxygen_discharge_tube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Oxygen_discharge_tube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Oxygen",
             "de": "Sauerstoff",
@@ -1154,7 +1161,7 @@
         }
     },
     "f": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.028,
@@ -1258,6 +1265,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Fluoro_liquido_a_-196%C2%B0C_1.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Fluoro_liquido_a_-196%C2%B0C_1.jpg\">Fulvio314</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Fluorine",
             "de": "Fluor",
@@ -1285,7 +1293,7 @@
         }
     },
     "ne": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 5e-7,
@@ -1354,6 +1362,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Neon_discharge_tube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Neon_discharge_tube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Neon",
             "de": "Neon",
@@ -1379,7 +1388,7 @@
         }
     },
     "na": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2.64,
@@ -1470,6 +1479,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Na_%28Sodium%29.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Na_(Sodium).jpg\">The original uploader was Dnn87 at English Wikipedia.</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Sodium",
             "de": "Natrium",
@@ -1499,7 +1509,7 @@
         }
     },
     "mg": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.94,
@@ -1593,6 +1603,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/CSIRO_ScienceImage_2893_Crystalised_magnesium.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_2893_Crystalised_magnesium.jpg\">CSIRO</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Magnesium",
             "de": "Magnesium",
@@ -1622,7 +1633,7 @@
         }
     },
     "al": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 7.57,
@@ -1701,6 +1712,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Aluminium-4.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Aluminium-4.jpg\">http://images-of-elements.com/aluminium.php</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Aluminum",
             "de": "Aluminium",
@@ -1733,7 +1745,7 @@
         }
     },
     "si": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 25800,
@@ -1794,6 +1806,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/SiliconCroda.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:SiliconCroda.jpg\">Enricoros at English Wikipedia</a>, Public domain, via Wikimedia Commons"
         },
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Silicon",
             "de": "Silicium",
@@ -1826,7 +1839,7 @@
         }
     },
     "p": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.09,
@@ -1931,6 +1944,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/%C4%8Cerven%C3%BD_fosfor.png",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:%C4%8Cerven%C3%BD_fosfor.png\">Ondřej Mangl</a>, Public domain, via Wikimedia Commons"
         },
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Phosphorus",
             "de": "Phosphor",
@@ -1963,7 +1977,7 @@
         }
     },
     "s": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.048,
@@ -2042,6 +2056,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Sulfur_-_El_Desierto_mine%2C_San_Pablo_de_Napa%2C_Daniel_Campos_Province%2C_Potos%C3%AD%2C_Bolivia.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Sulfur_-_El_Desierto_mine,_San_Pablo_de_Napa,_Daniel_Campos_Province,_Potos%C3%AD,_Bolivia.jpg\">Ivar Leidus</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Sulfur",
             "de": "Schwefel",
@@ -2074,7 +2089,7 @@
         }
     },
     "cl": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.19,
@@ -2181,6 +2196,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Die_chemischen_elemente_cl.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Die_chemischen_elemente_cl.jpg\">Alexander C. Wimmer</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0/at/deed.en\">CC BY-SA 3.0 AT</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Chlorine",
             "de": "Chlor",
@@ -2208,7 +2224,7 @@
         }
     },
     "ar": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00036,
@@ -2277,6 +2293,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Argon_discharge_tube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Argon_discharge_tube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Argon",
             "de": "Argon",
@@ -2303,7 +2320,7 @@
         }
     },
     "k": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2.41,
@@ -2393,6 +2410,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/KaliumunterTetrahydrofuran.JPG",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:KaliumunterTetrahydrofuran.JPG\">Schmid &amp; Rauch</a>, Public domain, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Potassium",
             "de": "Kalium",
@@ -2422,7 +2440,7 @@
         }
     },
     "ca": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 3.39,
@@ -2513,6 +2531,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Calcium_unter_Argon_Schutzgasatmosph%C3%A4re.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Calcium_unter_Argon_Schutzgasatmosph%C3%A4re.jpg\">Matthias Zepper</a>, Public domain, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Calcium",
             "de": "Calcium",
@@ -2546,7 +2565,7 @@
         }
     },
     "sc": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00051,
@@ -2620,6 +2639,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Scandium_sublimed_dendritic_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Scandium_sublimed_dendritic_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Scandium",
             "de": "Scandium",
@@ -2654,7 +2674,7 @@
         }
     },
     "ti": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.41,
@@ -2732,6 +2752,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Titan-crystal_bar.JPG",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Titan-crystal_bar.JPG\">Alchemist-hp (pse-mendelejew.de)</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Titanium",
             "de": "Titan",
@@ -2766,7 +2787,7 @@
         }
     },
     "v": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.041,
@@ -2827,6 +2848,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Vanadium_crystal_bar_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Vanadium_crystal_bar_and_1cm3_cube.jpg\">Alchemist-hp (pse-mendelejew.de).</a>, FAL, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Vanadium",
             "de": "Vanadium",
@@ -2862,7 +2884,7 @@
         }
     },
     "cr": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.019,
@@ -2923,6 +2945,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Chromium_crystals_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Chromium_crystals_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
         },
+        "magnetic_ordering": "antiferromagnetic",
         "names": {
             "en": "Chromium",
             "de": "Chrom",
@@ -2958,7 +2981,7 @@
         }
     },
     "mn": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.085,
@@ -3045,6 +3068,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Manganese_electrolytic_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Manganese_electrolytic_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
+        "magnetic_ordering": "antiferromagnetic",
         "names": {
             "en": "Manganese",
             "de": "Mangan",
@@ -3075,7 +3099,7 @@
         }
     },
     "fe": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4700,
@@ -3132,6 +3156,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Iron_electrolytic_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Iron_electrolytic_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
         },
+        "magnetic_ordering": "ferromagnetic",
         "names": {
             "en": "Iron",
             "de": "Eisen",
@@ -3166,7 +3191,7 @@
         }
     },
     "co": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0037,
@@ -3269,6 +3294,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Kobalt_electrolytic_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Kobalt_electrolytic_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
+        "magnetic_ordering": "ferromagnetic",
         "names": {
             "en": "Cobalt",
             "de": "Cobalt",
@@ -3299,7 +3325,7 @@
         }
     },
     "ni": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.015,
@@ -3390,6 +3416,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Nickel_chunk.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Nickel_chunk.jpg\">Materialscientist at English Wikipedia</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "ferromagnetic",
         "names": {
             "en": "Nickel",
             "de": "Nickel",
@@ -3420,7 +3447,7 @@
         }
     },
     "cu": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.01,
@@ -3494,6 +3521,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/NatCopper.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:NatCopper.jpg\">Native_Copper_Macro_Digon3.jpg: “Jonathan Zander (Digon3)&quot;derivative work: Materialscientist</a>, <a href=\"https://creativecommons.org/licenses/by-sa/2.5\">CC BY-SA 2.5</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Copper",
             "de": "Kupfer",
@@ -3524,7 +3552,7 @@
         }
     },
     "zn": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.012,
@@ -3612,6 +3640,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Zinc_fragment_sublimed_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Zinc_fragment_sublimed_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Zinc",
             "de": "Zink",
@@ -3646,7 +3675,7 @@
         }
     },
     "ga": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0014,
@@ -3738,6 +3767,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Gallium_crystals.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Gallium_crystals.jpg\">en:user:foobar</a>, <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\">CC BY-SA 3.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Gallium",
             "de": "Gallium",
@@ -3770,7 +3800,7 @@
         }
     },
     "ge": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00056,
@@ -3847,6 +3877,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Polycrystalline-germanium.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Polycrystalline-germanium.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Germanium",
             "de": "Germanium",
@@ -3880,7 +3911,7 @@
         }
     },
     "as": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00055,
@@ -3964,6 +3995,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Native_arsenic.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Native_arsenic.jpg\">Aram Dulyan (User:Aramgutang)</a>, Public domain, via Wikimedia Commons"
         },
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Arsenic",
             "de": "Arsen",
@@ -3998,7 +4030,7 @@
         }
     },
     "se": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00008,
@@ -4089,6 +4121,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Selenium_in_sandstone_Westwater_Canyon_Section_23_Mine_Grants%2C_New_Mexico.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Selenium_in_sandstone_Westwater_Canyon_Section_23_Mine_Grants,_New_Mexico.jpg\">James St. John</a>, <a href=\"https://creativecommons.org/licenses/by/2.0\">CC BY 2.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Selenium",
             "de": "Selen",
@@ -4123,7 +4156,7 @@
         }
     },
     "br": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0006,
@@ -4219,6 +4252,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Bromine-ampoule.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Bromine-ampoule.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Bromine",
             "de": "Brom",
@@ -4251,7 +4285,7 @@
         }
     },
     "kr": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00019,
@@ -4326,6 +4360,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Krypton_discharge_tube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Krypton_discharge_tube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Krypton",
             "de": "Krypton",
@@ -4353,7 +4388,7 @@
         }
     },
     "rb": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0029,
@@ -4443,6 +4478,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Rb5.JPG",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Rb5.JPG\">Dnn87</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Rubidium",
             "de": "Rubidium",
@@ -4472,7 +4508,7 @@
         }
     },
     "sr": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.014,
@@ -4560,6 +4596,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Strontium_destilled_crystals.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Strontium_destilled_crystals.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Strontium",
             "de": "Strontium",
@@ -4593,7 +4630,7 @@
         }
     },
     "y": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0026,
@@ -4671,6 +4708,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Yttrium_sublimed_dendritic_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Yttrium_sublimed_dendritic_and_1cm3_cube.jpg\">Alchemist-hp (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Yttrium",
             "de": "Yttrium",
@@ -4706,7 +4744,7 @@
         }
     },
     "zr": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.021,
@@ -4790,6 +4828,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Zirconium_crystal_bar_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Zirconium_crystal_bar_and_1cm3_cube.jpg\">Alchemist-hp (pse-mendelejew.de).</a>, FAL, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Zirconium",
             "de": "Zirconium",
@@ -4824,7 +4863,7 @@
         }
     },
     "nb": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0019,
@@ -4904,6 +4943,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Niobium_crystals_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Niobium_crystals_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Niobium",
             "de": "Niob",
@@ -4939,7 +4979,7 @@
         }
     },
     "mo": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0014,
@@ -5000,6 +5040,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Molybdenum_crystaline_fragment_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Molybdenum_crystaline_fragment_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Molybdenum",
             "de": "Molybdän",
@@ -5036,7 +5077,7 @@
         }
     },
     "tc": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.2e-19,
@@ -5084,6 +5125,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Technetium-sample-cropped.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Technetium-sample-cropped.jpg\">GFDL</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Technetium",
             "de": "Technetium",
@@ -5119,7 +5161,7 @@
         }
     },
     "ru": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000002,
@@ -5193,6 +5235,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Ruthenium_a_half_bar.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Ruthenium_a_half_bar.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Ruthenium",
             "de": "Ruthenium",
@@ -5229,7 +5272,7 @@
         }
     },
     "rh": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1e-7,
@@ -5305,6 +5348,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Rhodium_powder_pressed_melted.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Rhodium_powder_pressed_melted.jpg\">Alchemist-hp (talk) www.pse-mendelejew.dederivative work: Purpy Pupple</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0/de/deed.en\">CC BY-SA 3.0 DE</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Rhodium",
             "de": "Rhodium",
@@ -5342,7 +5386,7 @@
         }
     },
     "pd": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000011,
@@ -5422,6 +5466,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Palladium_crystals.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Palladium_crystals.jpg\">Hi-Res Images ofChemical Elements</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Palladium",
             "de": "Palladium",
@@ -5457,7 +5502,7 @@
         }
     },
     "ag": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000079,
@@ -5540,6 +5585,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Silver_crystal.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Silver_crystal.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0/de/deed.en\">CC BY-SA 3.0 DE</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Silver",
             "de": "Silber",
@@ -5571,7 +5617,7 @@
         }
     },
     "cd": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00003,
@@ -5679,6 +5725,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Cadmium-crystal_bar.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Cadmium-crystal_bar.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
         },
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Cadmium",
             "de": "Cadmium",
@@ -5713,7 +5760,7 @@
         }
     },
     "in": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00001,
@@ -5797,6 +5844,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Indium_wetting_glass.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Indium_wetting_glass.jpg\">Schtone</a>, Public domain, via Wikimedia Commons"
         },
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Indium",
             "de": "Indium",
@@ -5831,7 +5879,7 @@
         }
     },
     "sn": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0035,
@@ -5888,6 +5936,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Tin-2.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Tin-2.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Tin",
             "de": "Zinn",
@@ -5923,7 +5972,7 @@
         }
     },
     "sb": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000065,
@@ -5998,6 +6047,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Antimony-4.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Antimony-4.jpg\">http://images-of-elements.com/</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Antimony",
             "de": "Antimon",
@@ -6032,7 +6082,7 @@
         }
     },
     "te": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000001,
@@ -6118,6 +6168,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Tellurium2.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Tellurium2.jpg\">http://images-of-elements.com/tellurium.php</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Tellurium",
             "de": "Tellur",
@@ -6153,7 +6204,7 @@
         }
     },
     "i": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000006,
@@ -6272,6 +6323,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Sample_of_iodine.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Sample_of_iodine.jpg\">LHcheM</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Iodine",
             "de": "Iod",
@@ -6306,7 +6358,7 @@
         }
     },
     "xe": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 9e-10,
@@ -6395,6 +6447,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Xenon_discharge_tube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Xenon_discharge_tube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Xenon",
             "de": "Xenon",
@@ -6423,7 +6476,7 @@
         }
     },
     "cs": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00065,
@@ -6513,6 +6566,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Cesium.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Cesium.jpg\">Dnn87 Contact email: Dnn87yahoo.dk</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Caesium",
             "de": "Caesium",
@@ -6548,7 +6602,7 @@
         }
     },
     "ba": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.026,
@@ -6644,6 +6698,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Barium_dendritic.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Barium_dendritic.jpg\">La2O3</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Barium",
             "de": "Barium",
@@ -6678,7 +6733,7 @@
         }
     },
     "la": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0017,
@@ -6758,6 +6813,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Lanthanum-2.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Lanthanum-2.jpg\">Jurii (Lanthanum-138 at en.wikipedia</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Lanthanum",
             "de": "Lanthan",
@@ -6793,7 +6849,7 @@
         }
     },
     "ce": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0043,
@@ -6878,6 +6934,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Cerium2.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Cerium2.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/1.0\">CC BY 1.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Cerium",
             "de": "Cer",
@@ -6913,7 +6970,7 @@
         }
     },
     "pr": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00052,
@@ -6995,6 +7052,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Praseodymium.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Praseodymium.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Praseodymium",
             "de": "Praseodym",
@@ -7027,7 +7085,7 @@
         }
     },
     "nd": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0022,
@@ -7110,6 +7168,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Neodymium2.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Neodymium2.jpg\">http://images-of-elements.com/</a>, <a href=\"https://creativecommons.org/licenses/by/1.0\">CC BY 1.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Neodymium",
             "de": "Neodym",
@@ -7218,7 +7277,7 @@
         }
     },
     "sm": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0006,
@@ -7301,6 +7360,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Samarium-2.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Samarium-2.jpg\">http://images-of-elements.com/</a>, <a href=\"https://creativecommons.org/licenses/by/1.0\">CC BY 1.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Samarium",
             "de": "Samarium",
@@ -7332,7 +7392,7 @@
         }
     },
     "eu": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000099,
@@ -7414,6 +7474,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Europium.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Europium.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Europium",
             "de": "Europium",
@@ -7445,7 +7506,7 @@
         }
     },
     "gd": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00059,
@@ -7526,6 +7587,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Gadolinium-4.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Gadolinium-4.jpg\">http://images-of-elements.com/gadolinium.php</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "ferromagnetic",
         "names": {
             "en": "Gadolinium",
             "de": "Gadolinium",
@@ -7557,7 +7619,7 @@
         }
     },
     "tb": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000085,
@@ -7618,6 +7680,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Terbium-2.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Terbium-2.jpg\">http://images-of-elements.com/</a>, <a href=\"https://creativecommons.org/licenses/by/1.0\">CC BY 1.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Terbium",
             "de": "Terbium",
@@ -7650,7 +7713,7 @@
         }
     },
     "dy": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00043,
@@ -7727,6 +7790,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Dy_chips.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Dy_chips.jpg\">Materialscientist at en.wikipedia</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Dysprosium",
             "de": "Dysprosium",
@@ -7758,7 +7822,7 @@
         }
     },
     "ho": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00011,
@@ -7835,6 +7899,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Holmium2.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Holmium2.jpg\">http://images-of-elements.com/</a>, <a href=\"https://creativecommons.org/licenses/by/1.0\">CC BY 1.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Holmium",
             "de": "Holmium",
@@ -7867,7 +7932,7 @@
         }
     },
     "er": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00023,
@@ -7944,6 +8009,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Erbium_%2868_Er%29.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Erbium_(68_Er).jpg\">Hi-Res Images of Chemical Elements</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Erbium",
             "de": "Erbium",
@@ -7975,7 +8041,7 @@
         }
     },
     "tm": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000019,
@@ -8057,6 +8123,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Thulium_sublimed_dendritic_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Thulium_sublimed_dendritic_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Thulium",
             "de": "Thulium",
@@ -8089,7 +8156,7 @@
         }
     },
     "yb": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00025,
@@ -8176,6 +8243,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Ytterbium-3.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Ytterbium-3.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/1.0\">CC BY 1.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Ytterbium",
             "de": "Ytterbium",
@@ -8207,7 +8275,7 @@
         }
     },
     "lu": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00007,
@@ -8281,6 +8349,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Lutetium_sublimed_dendritic_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Lutetium_sublimed_dendritic_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Lutetium",
             "de": "Lutetium",
@@ -8316,7 +8385,7 @@
         }
     },
     "hf": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00042,
@@ -8393,6 +8462,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Hafnium_bits.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Hafnium_bits.jpg\">Deglr6328 at the English-language Wikipedia</a>, <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\">CC BY-SA 3.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Hafnium",
             "de": "Hafnium",
@@ -8428,7 +8498,7 @@
         }
     },
     "ta": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0008,
@@ -8509,6 +8579,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Tantalum_single_crystal_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Tantalum_single_crystal_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Tantalum",
             "de": "Tantal",
@@ -8544,7 +8615,7 @@
         }
     },
     "w": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0064,
@@ -8625,6 +8696,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Wolfram_evaporated_crystals_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Wolfram_evaporated_crystals_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Tungsten",
             "de": "Wolfram",
@@ -8662,7 +8734,7 @@
         }
     },
     "re": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1e-7,
@@ -8739,6 +8811,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Rhenium_single_crystal_bar_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Rhenium_single_crystal_bar_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Rhenium",
             "de": "Rhenium",
@@ -8773,7 +8846,7 @@
         }
     },
     "os": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000001,
@@ -8856,6 +8929,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Osmium_crystals.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Osmium_crystals.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Osmium",
             "de": "Osmium",
@@ -8893,7 +8967,7 @@
         }
     },
     "ir": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1e-7,
@@ -8968,6 +9042,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Iridium_foil.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Iridium_foil.jpg\">Dschwen</a>, <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\">CC BY-SA 3.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Iridium",
             "de": "Iridium",
@@ -9005,7 +9080,7 @@
         }
     },
     "pt": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 5e-7,
@@ -9062,6 +9137,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Platinum_crystals.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Platinum_crystals.jpg\">Periodictableru</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Platinum",
             "de": "Platin",
@@ -9095,7 +9171,7 @@
         }
     },
     "au": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4e-7,
@@ -9152,6 +9228,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Or_natif1.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Or_natif1.jpg\">Urban</a>, Public domain, via Wikimedia Commons"
         },
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Gold",
             "de": "Gold",
@@ -9185,7 +9262,7 @@
         }
     },
     "hg": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00004,
@@ -9288,6 +9365,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/HgKviks%C3%B8lv.JPG",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:HgKviks%C3%B8lv.JPG\">Dnn87</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Mercury",
             "de": "Quecksilber",
@@ -9324,7 +9402,7 @@
         }
     },
     "tl": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000029,
@@ -9415,6 +9493,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Thallium_pieces_in_ampoule.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Thallium_pieces_in_ampoule.jpg\">W. Oelen</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Thallium",
             "de": "Thallium",
@@ -9449,7 +9528,7 @@
         }
     },
     "pb": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0018,
@@ -9545,6 +9624,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Lead-2.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Lead-2.jpg\">Chemical Elements</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Lead",
             "de": "Blei",
@@ -9580,7 +9660,7 @@
         }
     },
     "bi": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00002,
@@ -9658,6 +9738,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Bismuth_crystals_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Bismuth_crystals_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Bismuth",
             "de": "Bismut",
@@ -9849,7 +9930,7 @@
         }
     },
     "rn": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 6.1e-15,
@@ -9900,6 +9981,7 @@
         "goldschmidt": "synthetic",
         "group": 18,
         "hazardous": null,
+        "magnetic_ordering": "diamagnetic",
         "names": {
             "en": "Radon",
             "de": "Radon",
@@ -10168,7 +10250,7 @@
         }
     },
     "th": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0011,
@@ -10229,6 +10311,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Thorium_sample_0.1g.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Thorium_sample_0.1g.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Thorium",
             "de": "Thorium",
@@ -10362,7 +10445,7 @@
         }
     },
     "u": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00032,
@@ -10450,6 +10533,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Vacuum_capacitor_with_uranium_glass.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Vacuum_capacitor_with_uranium_glass.jpg\">Warut Roonguthai</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Uranium",
             "de": "Uran",
@@ -10568,7 +10652,7 @@
         }
     },
     "pu": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2e-19,
@@ -10616,6 +10700,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Plutonium_ring.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Plutonium_ring.jpg\">Los Alamos National Laboratory</a>, Attribution, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Plutonium",
             "de": "Plutonium",
@@ -10651,7 +10736,7 @@
         }
     },
     "am": {
-        "@modified": "2023-10-07T08:56:49.542Z",
+        "@modified": "2023-10-09T10:48:47.166Z",
         "appearance": {
             "en": "silvery white",
             "de": "silbrig-weißes Metall"
@@ -10688,6 +10773,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Americium_microscope.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Americium_microscope.jpg\">Bionerd</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
+        "magnetic_ordering": "paramagnetic",
         "names": {
             "en": "Americium",
             "de": "Americium",
@@ -10812,6 +10898,7 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Berkelium_metal.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Berkelium_metal.jpg\">Oak Ridge National Laboratory, US Department of Energy</a>, Public domain, via Wikimedia Commons"
         },
+        "magnetic_ordering": "antiferromagnetic",
         "names": {
             "en": "Berkelium",
             "de": "Berkelium",

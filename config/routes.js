@@ -12,6 +12,7 @@ module.exports.routes = [
     [ '/list/*', 'list' ],
     [ '/props/?', 'props' ],
     [ '/prop/*', 'prop' ],
+    [ '/scale/*', 'scale' ],
     [ '/search/?*', 'search' ],
     [ '*', '404', '404', 404 ]
 ];

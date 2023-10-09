@@ -109,7 +109,8 @@ body[theme="dark"] {
 [layer="group"] .pt-el[prop="17"],
 [layer="period"] .pt-el[prop="5"],
 [layer="set"] .pt-el[prop="alkalineearthmetal"],
-[layer="superconductivity"] .pt-el[prop="special"] {
+[layer="superconductivity"] .pt-el[prop="special"],
+[layer="magnetic_ordering"] .pt-el[prop="antiferromagnetic"] {
     --bg: var( --pt-or-3 );
 }
 
@@ -161,7 +162,8 @@ body[theme="dark"] {
 [layer="group"] .pt-el[prop="20"],
 [layer="set"] .pt-el[prop="lanthanoide"],
 [layer="period"] .pt-el[prop="1"],
-[layer="crystal_structure"] .pt-el[prop="sc"] {
+[layer="crystal_structure"] .pt-el[prop="sc"],
+[layer="magnetic_ordering"] .pt-el[prop="paramagnetic"] {
     --bg: var( --pt-pi-3 );
 }
 
@@ -175,7 +177,8 @@ body[theme="dark"] {
 [layer="group"] .pt-el[prop="18"],
 [layer="period"] .pt-el[prop="2"],
 [layer="crystal_structure"] .pt-el[prop="rho"],
-[layer="basicity"] .pt-el[prop="moderately-alkaline"] {
+[layer="basicity"] .pt-el[prop="moderately-alkaline"],
+[layer="magnetic_ordering"] .pt-el[prop="ferromagnetic"] {
     --bg: var( --pt-bl-3 );
 }
 
@@ -191,7 +194,8 @@ body[theme="dark"] {
     --bg: var( --pt-tu-1 );
 }
 
-[layer="period"] .pt-el[prop="3"] {
+[layer="period"] .pt-el[prop="3"],
+[layer="magnetic_ordering"] .pt-el[prop="diamagnetic"] {
     --bg: var( --pt-tu-3 );
 }
 
