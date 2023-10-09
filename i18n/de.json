@@ -393,5 +393,17 @@
 	"vdw-radius": "Van-der-Waals-Radius",
 	"weblink-wiki": "%s in der Wikipedia (%s)",
 	"weblinks": "Weiterführende Links",
-	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" target=\"_blank\">Weiterlesen …</a>"
+	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" target=\"_blank\">Weiterlesen …</a>",
+	"radioactivity-label": "Radioaktivität",
+	"radioactivity-highly-radioactive": "hoch radioaktiv",
+	"radioactivity-highly-radioactive-description": "",
+	"radioactivity-slightly-radioactive": "leicht radioaktiv",
+	"radioactivity-radioactive": "radioaktiv",
+	"radioactivity-significantly-radioactive": "signifikant radioaktiv",
+	"radioactivity-extremely-radioactive": "extrem radioaktiv",
+	"radioactivity-slightly-radioactive-description": "",
+	"radioactivity-description": "",
+	"radioactivity-radioactive-description": "",
+	"radioactivity-significantly-radioactive-description": "",
+	"radioactivity-extremely-radioactive-description": ""
 }

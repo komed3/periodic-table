@@ -12,7 +12,7 @@ site:
   theme: light
   lists: [
     group, period, set, block, phase, natural_occurrence, basicity, goldschmidt,
-    crystal_structure, magnetic_ordering, superconductivity
+    radioactivity, crystal_structure, magnetic_ordering, superconductivity
   ]
   scales: []
   props: [
