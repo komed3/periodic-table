@@ -389,15 +389,15 @@ routes.routes.forEach( ( route ) => {
                                 switch( scale.round ) {
 
                                     case 'floor':
-                                        results[ _k ].scale.y = Math.floor( val );
+                                        results[ _k ].scale.y = Math.max( 0, Math.floor( val ) );
                                         break;
 
                                     case 'ceil':
-                                        results[ _k ].scale.y = Math.ceil( val );
+                                        results[ _k ].scale.y = Math.min( 10, Math.ceil( val ) );
                                         break;
 
                                     default:
-                                        results[ _k ].scale.y = Math.round( val );
+                                        results[ _k ].scale.y = Math.max( 0, Math.min( 10, Math.round( val ) ) );
                                         break;
 
                                 }
