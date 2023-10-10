@@ -8,7 +8,7 @@
     "main": "server.js",
     "scripts": {
         "start": "nodemon server.js",
-        "sass": "node-sass app/styles/ -o public/styles/ --output-style compressed",
+        "compileSCSS": "node-sass app/styles/ -o public/styles/ --output-style compressed",
         "compileJS": "uglifyjs-folder app/scripts/ -o public/scripts/ --each",
         "buildDB": "node maintenance/buildDB.js",
         "buildSearchIndex": "node maintenance/buildSearchIndex.js",
