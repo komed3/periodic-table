@@ -37,6 +37,7 @@
 	"block-s": "s-Block",
 	"block-s-description": "Die s-Unterschale der jeweils aktuellen Hauptschale wird aufgefüllt. Der Block umfasst die 1. und 2. Gruppe sowie das Elemente Helium. Alle s-Elemente außer Helium sind hochreaktiv, Metalle des s-Blocks stark elektropositiv und weisen niedrige Schmelz- und Siedepunkte auf.",
 	"boiling-temp": "Siedepunkt",
+	"brinell-hardness": "Brinellhärte",
 	"classification": "Klassifikation",
 	"classification-atc": "ATC-Code",
 	"classification-cas": "CAS-Nummer",
@@ -176,6 +177,7 @@
 	"group-9-description": "In der Cobaltgruppe (8. Nebengruppe) werden die chemisch ähnlichen Elemente Cobalt, Rhodium, Iridium und Meitnerium geführt. Die Schwermetalle wurden in älteren Definitionen auch als Gruppe VIIIA oder VIIIB bezeichnet.",
 	"group-description": "Das Periodensystem der Elemente wird in Spalten eingeteilt, die als Gruppen bezeichnet werden. Als Untergliederung gelten Haupt- und Nebengruppen. Die Elemente gleicher Gruppen weisen ähnliche Eigenschaften und die gleiche Anzahl der Valenzelektronen auf.",
 	"group-label": "Gruppe",
+	"hardness": "Härte",
 	"hazard-C": "Ätzend",
 	"hazard-E": "Explosionsgefährlich",
 	"hazard-F": "(Hoch-) Entzündlich",
@@ -423,6 +425,7 @@
 	"title": "Periodensystem der Elemente",
 	"triple-temp": "Tripelpunkt",
 	"vdw-radius": "Van-der-Waals-Radius",
+	"vickers-hardness": "Vickershärte",
 	"weblink-wiki": "%s in der Wikipedia (%s)",
 	"weblinks": "Weiterführende Links",
 	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" target=\"_blank\">Weiterlesen …</a>"

@@ -125,6 +125,15 @@ block content
                   th.pt-prop-table-label
                     a( href='/scale/' + prop )!= __( prop )
                   td.pt-prop-table-value!= core.fNumber( element[ prop ], locale )
+            if element.hardness
+              tr.pt-prop-table-row
+                th( colspan="2" ).pt-prop-table-label!= __( 'hardness' )
+              each prop in [ 'mohs', 'brinell', 'vickers' ]
+                if prop in element.hardness
+                  tr.pt-prop-table-row
+                    th.pt-prop-table-label
+                      a( href='/scale/hardness_' + prop )!= __( prop + '-hardness' )
+                    td.pt-prop-table-value!= core.fNumber( element.hardness[ prop ], locale )
       //- chemical properties
       div.pt-box.pt-element-properties
         h2!= __( 'prop-chemical' )
