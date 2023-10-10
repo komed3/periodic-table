@@ -376,7 +376,7 @@ routes.routes.forEach( ( route ) => {
 
                             if( scale.step == undefined ) {
 
-                                scale.step = Math.abs( ( scale.max - scale.min ) / 12 );
+                                scale.step = Math.abs( ( scale.max - scale.min ) / 10 );
 
                             }
 
