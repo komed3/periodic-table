@@ -84,7 +84,7 @@ body[theme="dark"] {
 }
 
 /**
- * assign colors to layers and properties
+ * assign colors to schemes, layers and properties
  */
 
 [layer="group"] .pt-el[prop="13"],
@@ -184,6 +184,8 @@ body[theme="dark"] {
     --bg: var( --pt-pi-3 );
 }
 
+[layer="_ice"] .pt-el[prop="0"],
+[layer="_ice"] .pt-el[prop="1"],
 [layer="set"] .pt-el[prop="noblegas"],
 [layer="block"] .pt-el[prop="s"],
 [layer="phase"] .pt-el[prop="liquid"],
@@ -191,6 +193,11 @@ body[theme="dark"] {
     --bg: var( --pt-bl-1 );
 }
 
+[layer="_ice"] .pt-el[prop="2"] {
+    --bg: var( --pt-bl-2 );
+}
+
+[layer="_ice"] .pt-el[prop="3"],
 [layer="group"] .pt-el[prop="18"],
 [layer="period"] .pt-el[prop="2"],
 [layer="crystal_structure"] .pt-el[prop="rho"],
@@ -200,12 +207,31 @@ body[theme="dark"] {
     --bg: var( --pt-bl-3 );
 }
 
+[layer="_ice"] .pt-el[prop="4"] {
+    --bg: var( --pt-bl-4 );
+}
+
+[layer="_ice"] .pt-el[prop="5"],
 [layer="basicity"] .pt-el[prop="alkaline"] {
     --bg: var( --pt-bl-5 );
 }
 
+[layer="_ice"] .pt-el[prop="6"] {
+    --bg: var( --pt-bl-6 );
+}
+
+[layer="_ice"] .pt-el[prop="7"],
 [layer="basicity"] .pt-el[prop="strongly-alkaline"] {
     --bg: var( --pt-bl-7 );
+}
+
+[layer="_ice"] .pt-el[prop="8"] {
+    --bg: var( --pt-bl-8 );
+}
+
+[layer="_ice"] .pt-el[prop="9"],
+[layer="_ice"] .pt-el[prop="10"] {
+    --bg: var( --pt-bl-9 );
 }
 
 [layer="crystal_structure"] .pt-el[prop="mon"] {
@@ -239,29 +265,11 @@ body[theme="dark"] {
     --bg: var( --pt-gr-3 );
 }
 
+[layer="_grayscale"] .pt-el[prop="0"],
+[layer="_grayscale"] .pt-el[prop="1"],
 [layer="group"] .pt-el[prop="1"],
 [layer="set"] .pt-el[prop="metal"],
 [layer="natural_occurrence"] .pt-el[prop="primordial"] {
-    --bg: var( --pt-gy-1 );
-}
-
-[layer="group"] .pt-el[prop="2"],
-[layer="period"] .pt-el[prop="7"],
-[layer="era"] .pt-el[prop="antiquity"] {
-    --bg: var( --pt-gy-3 );
-}
-
-/**
- * define color schemes
- */
-
-[type="scale"] .pt-el[prop="undefined"] {
-    --bg: transparent;
-    opacity: 0.25;
-}
-
-[layer="_grayscale"] .pt-el[prop="0"],
-[layer="_grayscale"] .pt-el[prop="1"] {
     --bg: var( --pt-gy-1 );
 }
 
@@ -269,7 +277,10 @@ body[theme="dark"] {
     --bg: var( --pt-gy-2 );
 }
 
-[layer="_grayscale"] .pt-el[prop="3"] {
+[layer="_grayscale"] .pt-el[prop="3"],
+[layer="group"] .pt-el[prop="2"],
+[layer="period"] .pt-el[prop="7"],
+[layer="era"] .pt-el[prop="antiquity"] {
     --bg: var( --pt-gy-3 );
 }
 
@@ -325,6 +336,11 @@ body[theme="dark"] {
 
 [layer="set"] .pt-el.liquid {
     --accent: var( --accent-1 );
+}
+
+[type="scale"] .pt-el[prop="undefined"] {
+    --bg: transparent;
+    opacity: 0.25;
 }
 
 .pt-el.radioactive[prop="undefined"] {
