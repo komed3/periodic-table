@@ -14,7 +14,7 @@ window.addEventListener( 'load', function () {
     } );
 
     /**
-     * header menu open/close
+     * header menu toggle (open / close )
      */
 
     var ptHeaderNavOpener = document.querySelector( '.pt-header-menu' ),
@@ -40,5 +40,25 @@ window.addEventListener( 'load', function () {
         location.href = '/set?locale=' + e.target.value;
 
     }, false );
+
+    /**
+     * prop box toggle (expand / close)
+     */
+
+    var ptPropBoxOpener = document.querySelectorAll( '.pt-prop-box-toggle' );
+
+    [].forEach.call( ptPropBoxOpener, function ( el ) {
+
+        let box = el.closest( '.pt-prop-box' );
+
+        el.addEventListener( 'click', function ( e ) {
+
+            e.preventDefault();
+
+            box.classList.toggle( 'open' );
+
+        } );
+
+    } );
 
 }, false );

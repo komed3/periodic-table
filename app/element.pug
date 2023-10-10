@@ -114,8 +114,8 @@ block content
           h3.pt-prop-box-label
             span!= __( 'temperatures' )
             a( href="#" ).pt-prop-box-toggle
-              i( title= __( 'expand' ) ).icon.open add
-              i( title= __( 'close' ) ).icon.close close
+              span.open!= __( 'expand' )
+              span.close!= __( 'close' )
           div.pt-prop-box-content
             table.pt-prop-table.pt-element-table
               tbody
@@ -133,8 +133,8 @@ block content
           h3.pt-prop-box-label
             span!= __( 'enthalpies' )
             a( href="#" ).pt-prop-box-toggle
-              i( title= __( 'expand' ) ).icon.open add
-              i( title= __( 'close' ) ).icon.close close
+              span.open!= __( 'expand' )
+              span.close!= __( 'close' )
           div.pt-prop-box-content
             table.pt-prop-table.pt-element-table
               tbody
@@ -153,8 +153,8 @@ block content
             h3.pt-prop-box-label
               span!= __( 'hardnesses' )
               a( href="#" ).pt-prop-box-toggle
-                i( title= __( 'expand' ) ).icon.open add
-                i( title= __( 'close' ) ).icon.close close
+                span.open!= __( 'expand' )
+                span.close!= __( 'close' )
           div.pt-prop-box-content
             table.pt-prop-table.pt-element-table
               tbody
@@ -169,8 +169,8 @@ block content
             h3.pt-prop-box-label
               span!= __( 'elastics' )
               a( href="#" ).pt-prop-box-toggle
-                i( title= __( 'expand' ) ).icon.open add
-                i( title= __( 'close' ) ).icon.close close
+                span.open!= __( 'expand' )
+                span.close!= __( 'close' )
           div.pt-prop-box-content
             table.pt-prop-table.pt-element-table
               tbody
@@ -203,16 +203,16 @@ block content
             h3.pt-prop-box-label
               span!= __( 'electronegativity' )
               a( href="#" ).pt-prop-box-toggle
-                i( title= __( 'expand' ) ).icon.open add
-                i( title= __( 'close' ) ).icon.close close
-          div.pt-prop-box-content
-            table.pt-prop-table.pt-element-table
-              tbody
-                each prop, label in element.negativity
-                  tr.pt-prop-table-row
-                    th.pt-prop-table-label
-                      a( href='/scale/negativity_' + label )!= __( label + '-negativity' )
-                    td.pt-prop-table-value!= core.fNumber( prop, locale )
+                span.open!= __( 'expand' )
+                span.close!= __( 'close' )
+            div.pt-prop-box-content
+              table.pt-prop-table.pt-element-table
+                tbody
+                  each prop, label in element.negativity
+                    tr.pt-prop-table-row
+                      th.pt-prop-table-label
+                        a( href='/scale/negativity_' + label )!= __( label + '-negativity' )
+                      td.pt-prop-table-value!= core.fNumber( prop, locale )
       //- other properties
       div.pt-box.pt-element-properties
         h2!= __( 'prop-other' )
