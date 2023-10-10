@@ -127,13 +127,22 @@ block content
                   td.pt-prop-table-value!= core.fNumber( element[ prop ], locale )
             if element.hardness
               tr.pt-prop-table-row
-                th( colspan="2" ).pt-prop-table-label!= __( 'hardness' )
+                th( colspan="2" ).pt-prop-table-label!= __( 'hardnesses' )
               each prop in [ 'mohs', 'brinell', 'vickers' ]
                 if prop in element.hardness
                   tr.pt-prop-table-row
                     th.pt-prop-table-label
                       a( href='/scale/hardness_' + prop )!= __( prop + '-hardness' )
                     td.pt-prop-table-value!= core.fNumber( element.hardness[ prop ], locale )
+            if element.elastic
+              tr.pt-prop-table-row
+                th( colspan="2" ).pt-prop-table-label!= __( 'elastics' )
+              each prop in [ 'young', 'rigidity', 'bulk', 'poisson' ]
+                if prop in element.elastic
+                  tr.pt-prop-table-row
+                    th.pt-prop-table-label
+                      a( href='/scale/elastic_' + prop )!= __( prop + '-elastic' )
+                    td.pt-prop-table-value!= core.fNumber( element.elastic[ prop ], locale )
       //- chemical properties
       div.pt-box.pt-element-properties
         h2!= __( 'prop-chemical' )
