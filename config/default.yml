@@ -14,7 +14,14 @@ site:
     group, period, set, era, block, phase, natural_occurrence, basicity, goldschmidt,
     radioactivity, crystal_structure, magnetic_ordering, superconductivity
   ]
-  scales: []
+  scales:
+    hardness_mohs:
+      key: hardness.mohs
+      label: mohs-hardness
+      round: floor
+      step: 1
+      min: 0
+      max: 10
   props: [
     radioactive, natural, native, vital, mononuclidic, stable, noble, semiconductor,
     light, heavy, rare, platinum, refractory, artificial, synthetic, antiquity

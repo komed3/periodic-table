@@ -1,2 +1,17 @@
 //- scale.pug
 extends layout.pug
+
+block title
+  - var title = __( 'scale-title', __( scale.label ) )
+  - var description = __( scale.label + '-description' )
+  title= title + " — " + __( 'title' )
+  meta( name="description", content= description )/
+
+block social
+  meta( property="og:title", content= title )/
+  meta( property="og:description", content= description )/
+
+block content
+  div.pt-page.pt-box
+    h1= title
+    p.pt-page-intro= description

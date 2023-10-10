@@ -4,7 +4,7 @@ extends layout.pug
 block title
   - var title = __( 'prop-' + list.value )
   - var description = __( 'prop-' + list.value + '-description' )
-  title!= title + " — " + __( 'title' )
+  title= title + " — " + __( 'title' )
   meta( name="description", content= description )/
 
 block social

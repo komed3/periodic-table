@@ -10,6 +10,8 @@
  * load config
  */
 
+process.env.ALLOW_CONFIG_MUTATIONS = true;
+
 const yaml = require( 'js-yaml' );
 const config = require( 'config' );
 
@@ -304,6 +306,106 @@ routes.routes.forEach( ( route ) => {
                                 '/lists/' + _url[1] + '/' + _url[2],
                                 req.__( _url[1] + '-' + _url[2] )
                             ] );
+
+                        } else {
+
+                            res.redirect( '/' );
+                            return ;
+
+                        }
+
+                    } else {
+
+                        res.redirect( '/' );
+                        return ;
+
+                    }
+
+                    break;
+
+                case 'scale':
+
+                    /* check if given scale exsits */
+
+                    if( _url.length == 2 && _url[1] in config.get( 'site.scales' ) ) {
+
+                        let scale = config.get( 'site.scales' )[ _url[1] ];
+
+                        /* fetch scale items */
+
+                        let results = {};
+
+                        for( const [ _k, el ] of Object.entries( elements ) ) {
+
+                            if( ( value = core.fromPath( el, scale.key ) ) ) {
+
+                                results[ _k ] = {
+                                    el: el,
+                                    value: value
+                                };
+
+                            }
+
+                        }
+
+                        /* if scale has items */
+
+                        if( Object.keys( results ).length ) {
+
+                            /* calculate min, max, step if undefined */
+
+                            let values = Object.values( results );
+
+                            if( scale.min == undefined || scale.max == undefined ) {
+
+                                scale.min = values.reduce( ( prev, curr ) => {
+                                    return prev.value < curr.value ? prev : curr;
+                                } ).value;
+
+                                scale.max = values.reduce( ( prev, curr ) => {
+                                    return prev.value > curr.value ? prev : curr;
+                                } ).value;
+
+                            }
+
+                            if( scale.step == undefined ) {
+
+                                scale.step = Math.abs( ( scale.max - scale.min ) / 12 );
+
+                            }
+
+                            /* calculate scale steps */
+
+                            for( const [ _k, res ] of Object.entries( results ) ) {
+
+                                let val = res.value / scale.step;
+
+                                switch( scale.round ) {
+
+                                    case 'floor':
+                                        results[ _k ].y = Math.floor( val );
+                                        break;
+
+                                    case 'ceil':
+                                        results[ _k ].y = Math.ceil( val );
+                                        break;
+
+                                    default:
+                                        results[ _k ].y = Math.round( val );
+                                        break;
+
+                                }
+
+                            }
+
+                            /* periodic table */
+
+                            res.locals.table = {
+                                type: 'scale',
+                                layer: _url[1]
+                            };
+
+                            res.locals.scale = scale;
 
                         } else {
 
