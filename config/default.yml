@@ -31,6 +31,22 @@ site:
       key: hardness.vickers
       label: vickers-hardness
       scheme: _grayscale
+    elastic_young:
+      key: elastic.young
+      label: young-elastic
+      scheme: _ice
+    elastic_rigidity:
+      key: elastic.rigidity
+      label: rigidity-elastic
+      scheme: _ice
+    elastic_bulk:
+      key: elastic.bulk
+      label: bulk-elastic
+      scheme: _ice
+    elastic_poisson:
+      key: elastic.poisson
+      label: poisson-elastic
+      scheme: _ice
   props: [
     radioactive, natural, native, vital, mononuclidic, stable, noble, semiconductor,
     light, heavy, rare, platinum, refractory, artificial, synthetic, antiquity

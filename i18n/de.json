@@ -439,6 +439,10 @@
 	"weblinks": "Weiterführende Links",
 	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" target=\"_blank\">Weiterlesen …</a>",
 	"young-elastic": "Youngscher Modul",
-	"brinell-hardness-description": "brinell-hardness-description",
-	"vickers-hardness-description": "vickers-hardness-description"
+	"brinell-hardness-description": "Die Härteprüfung des schwedischen Ingenieurs Johan August Brinell kommt bei weichen bis mittelharten Metallen und bei Werkstoffen mit ungleichmäßigem Gefüge zur Anwendung. Dabei wird eine Hartmetallkugel mit einer festgelegten Prüfkraft in die Oberfläche des zu prüfenden Werkstückes gedrückt.",
+	"vickers-hardness-description": "Die Vickers-Härteprüfung wird zur Prüfung homogener Werkstoffe, dünnwandiger oder oberflächengehärteter Werkstücke und Randzonen eingesetzt. Die Prüfung erfolgt durch das Eindrücken einer gleichseitige Diamantpyramide in das Werkstück.",
+	"young-elastic-description": "Ein nach Thomas Young benannter Materialkennwert aus der Werkstofftechnik, der bei linear-elastischem Verhalten den proportionalen Zusammenhang zwischen Spannung und Dehnung bei der Verformung eines festen Körpers beschreibt.",
+	"rigidity-elastic-description": "rigidity-elastic-description",
+	"bulk-elastic-description": "bulk-elastic-description",
+	"poisson-elastic-description": "poisson-elastic-description"
 }
