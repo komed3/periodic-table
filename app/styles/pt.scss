@@ -3,6 +3,10 @@
  * pt colors
  */
 
+/**
+ * define color schemes
+ */
+
 body[theme="light"] {
 
     --pt-ye-1: #eeeebb; --pt-ye-2: #eaeaac; --pt-ye-3: #e7e79d;
@@ -78,6 +82,10 @@ body[theme="dark"] {
     --pt-radioactive: rgba( 0 0 0 / 0.5 );
 
 }
+
+/**
+ * assign colors to layers and properties
+ */
 
 [layer="group"] .pt-el[prop="13"],
 [layer="set"] .pt-el[prop="halogen"],
@@ -242,6 +250,57 @@ body[theme="dark"] {
 [layer="era"] .pt-el[prop="antiquity"] {
     --bg: var( --pt-gy-3 );
 }
+
+/**
+ * define color scales
+ */
+
+[layer="hardness_mohs"] .pt-el[prop="undefined"] {
+    --bg: transparent;
+    opacity: 0.25;
+}
+
+[layer="hardness_mohs"] .pt-el[prop="0"],
+[layer="hardness_mohs"] .pt-el[prop="1"] {
+    --bg: var( --pt-gy-1 );
+}
+
+[layer="hardness_mohs"] .pt-el[prop="2"] {
+    --bg: var( --pt-gy-2 );
+}
+
+[layer="hardness_mohs"] .pt-el[prop="3"] {
+    --bg: var( --pt-gy-3 );
+}
+
+[layer="hardness_mohs"] .pt-el[prop="4"] {
+    --bg: var( --pt-gy-4 );
+}
+
+[layer="hardness_mohs"] .pt-el[prop="5"] {
+    --bg: var( --pt-gy-5 );
+}
+
+[layer="hardness_mohs"] .pt-el[prop="6"] {
+    --bg: var( --pt-gy-6 );
+}
+
+[layer="hardness_mohs"] .pt-el[prop="7"] {
+    --bg: var( --pt-gy-7 );
+}
+
+[layer="hardness_mohs"] .pt-el[prop="8"] {
+    --bg: var( --pt-gy-8 );
+}
+
+[layer="hardness_mohs"] .pt-el[prop="9"],
+[layer="hardness_mohs"] .pt-el[prop="10"] {
+    --bg: var( --pt-gy-9 );
+}
+
+/**
+ * globally css rules for table / list elements
+ */
 
 .pt-el {
     position: relative;
