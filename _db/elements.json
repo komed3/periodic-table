@@ -479,7 +479,7 @@
         }
     },
     "li": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.006,
@@ -531,6 +531,20 @@
         "discovery": {
             "by": "Arfwedson",
             "value": 1817
+        },
+        "elastic": {
+            "young": {
+                "value": 4.9,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 4.2,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 11,
+                "unit": "GPa"
+            }
         },
         "electron_config": "<e:He> 2s[1]",
         "era": "revolution",
@@ -606,7 +620,7 @@
         }
     },
     "be": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00053,
@@ -658,6 +672,21 @@
         "discovery": {
             "by": "Vauquelin",
             "value": 1797
+        },
+        "elastic": {
+            "young": {
+                "value": 287,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 132,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 130,
+                "unit": "GPa"
+            },
+            "poisson": 0.032
         },
         "electron_config": "<e:He> 2s[2]",
         "era": "enlightenment",
@@ -748,7 +777,7 @@
         }
     },
     "b": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0016,
@@ -800,6 +829,12 @@
         "discovery": {
             "by": "Davy, Gay-Lussac",
             "value": 1808
+        },
+        "elastic": {
+            "bulk": {
+                "value": 320,
+                "unit": "GPa"
+            }
         },
         "electron_config": "<e:He> 2s[2] 2p[1]",
         "era": "revolution",
@@ -870,7 +905,7 @@
         }
     },
     "c": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.087,
@@ -928,6 +963,12 @@
         },
         "column": 28,
         "crystal_structure": "hex",
+        "elastic": {
+            "bulk": {
+                "value": 33,
+                "unit": "GPa"
+            }
+        },
         "electron_config": "<e:He> 2s[2] 2p[2]",
         "era": "antiquity",
         "goldschmidt": "atmophile",
@@ -1436,7 +1477,7 @@
         }
     },
     "na": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2.64,
@@ -1488,6 +1529,20 @@
         "discovery": {
             "by": "Davy",
             "value": 1807
+        },
+        "elastic": {
+            "young": {
+                "value": 10,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 3.3,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 6.3,
+                "unit": "GPa"
+            }
         },
         "electron_config": "<e:Ne> 3s[1]",
         "era": "revolution",
@@ -1566,7 +1621,7 @@
         }
     },
     "mg": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.94,
@@ -1623,6 +1678,21 @@
         "discovery": {
             "by": "Bussy",
             "value": 1828
+        },
+        "elastic": {
+            "young": {
+                "value": 45,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 17,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 45,
+                "unit": "GPa"
+            },
+            "poisson": 0.29
         },
         "electron_config": "<e:Ne> 3s[2]",
         "era": "revolution",
@@ -1699,7 +1769,7 @@
         }
     },
     "al": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 7.57,
@@ -1751,6 +1821,21 @@
         "discovery": {
             "by": "Ørsted",
             "value": 1825
+        },
+        "elastic": {
+            "young": {
+                "value": 70,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 26,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 76,
+                "unit": "GPa"
+            },
+            "poisson": 0.35
         },
         "electron_config": "<e:Ne> 3s[2] 3p[1]",
         "era": "revolution",
@@ -1824,7 +1909,7 @@
         }
     },
     "si": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 25800,
@@ -1877,6 +1962,16 @@
             "by": "Berzelius",
             "value": 1824
         },
+        "elastic": {
+            "young": {
+                "value": 47,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 100,
+                "unit": "GPa"
+            }
+        },
         "electron_config": "<e:Ne> 3s[2] 3p[2]",
         "era": "revolution",
         "goldschmidt": "lithophile",
@@ -1923,7 +2018,7 @@
         }
     },
     "p": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.09,
@@ -1980,6 +2075,12 @@
         "discovery": {
             "by": "Brand",
             "value": 1669
+        },
+        "elastic": {
+            "bulk": {
+                "value": 11,
+                "unit": "GPa"
+            }
         },
         "electron_config": "<e:Ne> 3s[2] 3p[3]",
         "era": "enlightenment",
@@ -2063,7 +2164,7 @@
         }
     },
     "s": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.048,
@@ -2117,6 +2218,12 @@
         },
         "column": 30,
         "crystal_structure": "orth",
+        "elastic": {
+            "bulk": {
+                "value": 7.7,
+                "unit": "GPa"
+            }
+        },
         "electron_config": "<e:Ne> 3s[2] 3p[4]",
         "era": "antiquity",
         "goldschmidt": "chalcophile",
@@ -2181,7 +2288,7 @@
         }
     },
     "cl": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.19,
@@ -2233,6 +2340,12 @@
         "discovery": {
             "by": "Scheele",
             "value": 1774
+        },
+        "elastic": {
+            "bulk": {
+                "value": 1.1,
+                "unit": "GPa"
+            }
         },
         "electron_config": "<e:Ne> 3s[2] 3p[5]",
         "era": "enlightenment",
@@ -2416,7 +2529,7 @@
         }
     },
     "k": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2.41,
@@ -2468,6 +2581,16 @@
         "discovery": {
             "by": "Davy",
             "value": 1807
+        },
+        "elastic": {
+            "rigidity": {
+                "value": 1.3,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 3.1,
+                "unit": "GPa"
+            }
         },
         "electron_config": "<e:Ar> 4s[1]",
         "era": "revolution",
@@ -2545,7 +2668,7 @@
         }
     },
     "ca": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 3.39,
@@ -2602,6 +2725,21 @@
         "discovery": {
             "by": "Davy",
             "value": 1808
+        },
+        "elastic": {
+            "young": {
+                "value": 20,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 7.4,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 17,
+                "unit": "GPa"
+            },
+            "poisson": 0.31
         },
         "electron_config": "<e:Ar> 4s[2]",
         "era": "revolution",
@@ -2679,7 +2817,7 @@
         }
     },
     "sc": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00051,
@@ -2731,6 +2869,21 @@
         "discovery": {
             "by": "Nilson",
             "value": 1879
+        },
+        "elastic": {
+            "young": {
+                "value": 74,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 29,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 57,
+                "unit": "GPa"
+            },
+            "poisson": 0.28
         },
         "electron_config": "<e:Ar> 3d[1] 4s[2]",
         "era": "classifying",
@@ -2797,7 +2950,7 @@
         }
     },
     "ti": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.41,
@@ -2849,6 +3002,21 @@
         "discovery": {
             "by": "Gregor, Klaproth",
             "value": 1791
+        },
+        "elastic": {
+            "young": {
+                "value": 116,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 44,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 110,
+                "unit": "GPa"
+            },
+            "poisson": 0.32
         },
         "electron_config": "<e:Ar> 3d[2] 4s[2]",
         "era": "enlightenment",
@@ -2923,7 +3091,7 @@
         }
     },
     "v": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.041,
@@ -2975,6 +3143,21 @@
         "discovery": {
             "by": "del Río",
             "value": 1801
+        },
+        "elastic": {
+            "young": {
+                "value": 128,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 47,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 160,
+                "unit": "GPa"
+            },
+            "poisson": 0.37
         },
         "electron_config": "<e:Ar> 3d[3] 4s[2]",
         "era": "revolution",
@@ -3033,7 +3216,7 @@
         }
     },
     "cr": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.019,
@@ -3085,6 +3268,21 @@
         "discovery": {
             "by": "Vauquelin",
             "value": 1797
+        },
+        "elastic": {
+            "young": {
+                "value": 279,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 115,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 160,
+                "unit": "GPa"
+            },
+            "poisson": 0.21
         },
         "electron_config": "<e:Ar> 3d[5] 4s[1]",
         "era": "enlightenment",
@@ -3143,7 +3341,7 @@
         }
     },
     "mn": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.085,
@@ -3195,6 +3393,16 @@
         "discovery": {
             "by": "Gahn",
             "value": 1774
+        },
+        "elastic": {
+            "young": {
+                "value": 198,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 120,
+                "unit": "GPa"
+            }
         },
         "electron_config": "<e:Ar> 3d[5] 4s[2]",
         "era": "enlightenment",
@@ -3270,7 +3478,7 @@
         }
     },
     "fe": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4700,
@@ -3319,6 +3527,21 @@
         },
         "column": 22,
         "crystal_structure": "bcc",
+        "elastic": {
+            "young": {
+                "value": 211,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 82,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 170,
+                "unit": "GPa"
+            },
+            "poisson": 0.29
+        },
         "electron_config": "<e:Ar> 3d[6] 4s[2]",
         "era": "antiquity",
         "goldschmidt": "siderophile",
@@ -3376,7 +3599,7 @@
         }
     },
     "co": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0037,
@@ -3428,6 +3651,21 @@
         "discovery": {
             "by": "Brandt",
             "value": 1735
+        },
+        "elastic": {
+            "young": {
+                "value": 209,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 75,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 180,
+                "unit": "GPa"
+            },
+            "poisson": 0.31
         },
         "electron_config": "<e:Ar> 3d[7] 4s[2]",
         "era": "enlightenment",
@@ -3523,7 +3761,7 @@
         }
     },
     "ni": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.015,
@@ -3575,6 +3813,21 @@
         "discovery": {
             "by": "Cronstedt",
             "value": 1751
+        },
+        "elastic": {
+            "young": {
+                "value": 200,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 76,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 180,
+                "unit": "GPa"
+            },
+            "poisson": 0.31
         },
         "electron_config": "<e:Ar> 3d[8] 4s[2]",
         "era": "enlightenment",
@@ -3658,7 +3911,7 @@
         }
     },
     "cu": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.01,
@@ -3707,6 +3960,21 @@
         },
         "column": 25,
         "crystal_structure": "fcc",
+        "elastic": {
+            "young": {
+                "value": 130,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 48,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 140,
+                "unit": "GPa"
+            },
+            "poisson": 0.34
+        },
         "electron_config": "<e:Ar> 3d[10] 4s[1]",
         "era": "antiquity",
         "goldschmidt": "chalcophile",
@@ -3777,7 +4045,7 @@
         }
     },
     "zn": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.012,
@@ -3831,6 +4099,21 @@
         },
         "column": 26,
         "crystal_structure": "hcp",
+        "elastic": {
+            "young": {
+                "value": 108,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 43,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 70,
+                "unit": "GPa"
+            },
+            "poisson": 0.25
+        },
         "electron_config": "<e:Ar> 3d[10] 4s[2]",
         "era": "antiquity",
         "goldschmidt": "chalcophile",
@@ -4160,7 +4443,7 @@
         }
     },
     "as": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00055,
@@ -4212,6 +4495,16 @@
         "discovery": {
             "by": "Albertus Magnus",
             "value": 1300
+        },
+        "elastic": {
+            "young": {
+                "value": 8,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 22,
+                "unit": "GPa"
+            }
         },
         "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[3]",
         "era": "enlightenment",
@@ -4288,7 +4581,7 @@
         }
     },
     "se": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00008,
@@ -4340,6 +4633,21 @@
         "discovery": {
             "by": "Berzelius",
             "value": 1817
+        },
+        "elastic": {
+            "young": {
+                "value": 10,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 3.7,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 8.3,
+                "unit": "GPa"
+            },
+            "poisson": 0.33
         },
         "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[4]",
         "era": "revolution",
@@ -4423,7 +4731,7 @@
         }
     },
     "br": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0006,
@@ -4475,6 +4783,12 @@
         "discovery": {
             "by": "Balard",
             "value": 1826
+        },
+        "elastic": {
+            "bulk": {
+                "value": 1.9,
+                "unit": "GPa"
+            }
         },
         "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[5]",
         "era": "revolution",
@@ -4659,7 +4973,7 @@
         }
     },
     "rb": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0029,
@@ -4711,6 +5025,16 @@
         "discovery": {
             "by": "Bunsen, Kirchhoff",
             "value": 1861
+        },
+        "elastic": {
+            "young": {
+                "value": 2.4,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 2.5,
+                "unit": "GPa"
+            }
         },
         "electron_config": "<e:Kr> 5s[1]",
         "era": "classifying",
@@ -4788,7 +5112,7 @@
         }
     },
     "sr": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.014,
@@ -4840,6 +5164,13 @@
         "discovery": {
             "by": "Klaproth",
             "value": 1798
+        },
+        "elastic": {
+            "rigidity": {
+                "value": 6.1,
+                "unit": "GPa"
+            },
+            "poisson": 0.28
         },
         "electron_config": "<e:Kr> 5s[2]",
         "era": "enlightenment",
@@ -4915,7 +5246,7 @@
         }
     },
     "y": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0026,
@@ -4967,6 +5298,21 @@
         "discovery": {
             "by": "Gadolin",
             "value": 1794
+        },
+        "elastic": {
+            "young": {
+                "value": 64,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 26,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 41,
+                "unit": "GPa"
+            },
+            "poisson": 0.24
         },
         "electron_config": "<e:Kr> 4d[1] 5s[2]",
         "era": "enlightenment",
@@ -5037,7 +5383,7 @@
         }
     },
     "zr": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.021,
@@ -5089,6 +5435,17 @@
         "discovery": {
             "by": "Klaproth",
             "value": 1789
+        },
+        "elastic": {
+            "young": {
+                "value": 68,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 33,
+                "unit": "GPa"
+            },
+            "poisson": 0.34
         },
         "electron_config": "<e:Kr> 4d[2] 5s[2]",
         "era": "enlightenment",
@@ -5169,7 +5526,7 @@
         }
     },
     "nb": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0019,
@@ -5221,6 +5578,21 @@
         "discovery": {
             "by": "Hatchet",
             "value": 1801
+        },
+        "elastic": {
+            "young": {
+                "value": 105,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 38,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 170,
+                "unit": "GPa"
+            },
+            "poisson": 0.4
         },
         "electron_config": "<e:Kr> 4d[4] 5s[1]",
         "era": "revolution",
@@ -5298,7 +5670,7 @@
         }
     },
     "mo": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0014,
@@ -5350,6 +5722,21 @@
         "discovery": {
             "by": "Scheele",
             "value": 1778
+        },
+        "elastic": {
+            "young": {
+                "value": 329,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 20,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 230,
+                "unit": "GPa"
+            },
+            "poisson": 0.31
         },
         "electron_config": "<e:Kr> 4d[5] 5s[1]",
         "era": "enlightenment",
@@ -5496,7 +5883,7 @@
         }
     },
     "ru": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000002,
@@ -5548,6 +5935,21 @@
         "discovery": {
             "by": "Claus",
             "value": 1844
+        },
+        "elastic": {
+            "young": {
+                "value": 447,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 173,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 220,
+                "unit": "GPa"
+            },
+            "poisson": 0.3
         },
         "electron_config": "<e:Kr> 4d[7] 5s[1]",
         "era": "revolution",
@@ -5616,7 +6018,7 @@
         }
     },
     "rh": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1e-7,
@@ -5664,6 +6066,21 @@
         "discovery": {
             "by": "Wollaston",
             "value": 1803
+        },
+        "elastic": {
+            "young": {
+                "value": 275,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 150,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 380,
+                "unit": "GPa"
+            },
+            "poisson": 0.26
         },
         "electron_config": "<e:Kr> 4d[8] 5s[1]",
         "era": "revolution",
@@ -5743,7 +6160,7 @@
         }
     },
     "pd": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000011,
@@ -5791,6 +6208,21 @@
         "discovery": {
             "by": "Wollaston",
             "value": 1803
+        },
+        "elastic": {
+            "young": {
+                "value": 121,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 44,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 180,
+                "unit": "GPa"
+            },
+            "poisson": 0.39
         },
         "electron_config": "<e:Kr> 4d[10]",
         "era": "revolution",
@@ -5872,7 +6304,7 @@
         }
     },
     "ag": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000079,
@@ -5926,6 +6358,21 @@
         },
         "column": 25,
         "crystal_structure": "fcc",
+        "elastic": {
+            "young": {
+                "value": 83,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 30,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 100,
+                "unit": "GPa"
+            },
+            "poisson": 0.37
+        },
         "electron_config": "<e:Kr> 4d[10] 5s[1]",
         "era": "antiquity",
         "goldschmidt": "chalcophile",
@@ -6001,7 +6448,7 @@
         }
     },
     "cd": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00003,
@@ -6058,6 +6505,21 @@
         "discovery": {
             "by": "Stromeyer, Hermann",
             "value": 1817
+        },
+        "elastic": {
+            "young": {
+                "value": 50,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 19,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 42,
+                "unit": "GPa"
+            },
+            "poisson": 0.3
         },
         "electron_config": "<e:Kr> 4d[10] 5s[2]",
         "era": "revolution",
@@ -6153,7 +6615,7 @@
         }
     },
     "in": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00001,
@@ -6205,6 +6667,12 @@
         "discovery": {
             "by": "Reich, Richter",
             "value": 1863
+        },
+        "elastic": {
+            "young": {
+                "value": 11,
+                "unit": "GPa"
+            }
         },
         "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[1]",
         "era": "classifying",
@@ -6281,7 +6749,7 @@
         }
     },
     "sn": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0035,
@@ -6330,6 +6798,21 @@
         },
         "column": 28,
         "crystal_structure": "tetr",
+        "elastic": {
+            "young": {
+                "value": 50,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 18,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 58,
+                "unit": "GPa"
+            },
+            "poisson": 0.36
+        },
         "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[2]",
         "era": "antiquity",
         "goldschmidt": "chalcophile",
@@ -6384,7 +6867,7 @@
         }
     },
     "sb": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000065,
@@ -6433,6 +6916,20 @@
         },
         "column": 29,
         "crystal_structure": "rho",
+        "elastic": {
+            "young": {
+                "value": 55,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 20,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 42,
+                "unit": "GPa"
+            }
+        },
         "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[3]",
         "era": "antiquity",
         "goldschmidt": "chalcophile",
@@ -6503,7 +7000,7 @@
         }
     },
     "te": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000001,
@@ -6551,6 +7048,20 @@
         "discovery": {
             "by": "von Reichenstein",
             "value": 1782
+        },
+        "elastic": {
+            "young": {
+                "value": 43,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 16,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 65,
+                "unit": "GPa"
+            }
         },
         "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[4]",
         "era": "enlightenment",
@@ -6634,7 +7145,7 @@
         }
     },
     "i": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000006,
@@ -6710,6 +7221,12 @@
         "discovery": {
             "by": "Courtois",
             "value": 1811
+        },
+        "elastic": {
+            "bulk": {
+                "value": 7.7,
+                "unit": "GPa"
+            }
         },
         "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[5]",
         "era": "revolution",
@@ -6910,7 +7427,7 @@
         }
     },
     "cs": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00065,
@@ -6962,6 +7479,16 @@
         "discovery": {
             "by": "Kirchhoff, Bunsen",
             "value": 1860
+        },
+        "elastic": {
+            "young": {
+                "value": 1.7,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 1.6,
+                "unit": "GPa"
+            }
         },
         "electron_config": "<e:Xe> 6s[1]",
         "era": "classifying",
@@ -7045,7 +7572,7 @@
         }
     },
     "ba": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.026,
@@ -7097,6 +7624,20 @@
         "discovery": {
             "by": "Davy",
             "value": 1808
+        },
+        "elastic": {
+            "young": {
+                "value": 13,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 4.9,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 9.6,
+                "unit": "GPa"
+            }
         },
         "electron_config": "<e:Xe> 6s[2]",
         "era": "revolution",
@@ -7181,7 +7722,7 @@
         }
     },
     "la": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0017,
@@ -7233,6 +7774,21 @@
         "discovery": {
             "by": "Mosander",
             "value": 1839
+        },
+        "elastic": {
+            "young": {
+                "value": 37,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 14,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 28,
+                "unit": "GPa"
+            },
+            "poisson": 0.28
         },
         "electron_config": "<e:Xe> 5d[1] 6s[2]",
         "era": "revolution",
@@ -7310,7 +7866,7 @@
         }
     },
     "ce": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0043,
@@ -7362,6 +7918,21 @@
         "discovery": {
             "by": "von Hisinger, Berzelius, Klaproth",
             "value": 1803
+        },
+        "elastic": {
+            "young": {
+                "value": 34,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 14,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 22,
+                "unit": "GPa"
+            },
+            "poisson": 0.24
         },
         "electron_config": "<e:Xe> 4f[1] 5d[1] 6s[2]",
         "era": "revolution",
@@ -7444,7 +8015,7 @@
         }
     },
     "pr": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00052,
@@ -7496,6 +8067,21 @@
         "discovery": {
             "by": "von Welsbach",
             "value": 1895
+        },
+        "elastic": {
+            "young": {
+                "value": 37,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 15,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 29,
+                "unit": "GPa"
+            },
+            "poisson": 0.28
         },
         "electron_config": "<e:Xe> 4f[3] 6s[2]",
         "era": "classifying",
@@ -7571,7 +8157,7 @@
         }
     },
     "nd": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0022,
@@ -7623,6 +8209,21 @@
         "discovery": {
             "by": "von Welsbach",
             "value": 1895
+        },
+        "elastic": {
+            "young": {
+                "value": 41,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 16,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 32,
+                "unit": "GPa"
+            },
+            "poisson": 0.28
         },
         "electron_config": "<e:Xe> 4f[4] 6s[2]",
         "era": "classifying",
@@ -7698,7 +8299,7 @@
         }
     },
     "pm": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.5e-19,
@@ -7737,6 +8338,21 @@
         "discovery": {
             "by": "Marinsky",
             "value": 1945
+        },
+        "elastic": {
+            "young": {
+                "value": 46,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 18,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 33,
+                "unit": "GPa"
+            },
+            "poisson": 0.28
         },
         "electron_config": "<e:Xe> 4f[5] 6s[2]",
         "era": "quantum",
@@ -7778,7 +8394,7 @@
         }
     },
     "sm": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0006,
@@ -7830,6 +8446,21 @@
         "discovery": {
             "by": "Lecoq de Boisbaudran",
             "value": 1879
+        },
+        "elastic": {
+            "young": {
+                "value": 50,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 20,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 38,
+                "unit": "GPa"
+            },
+            "poisson": 0.27
         },
         "electron_config": "<e:Xe> 4f[6] 6s[2]",
         "era": "classifying",
@@ -7905,7 +8536,7 @@
         }
     },
     "eu": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000099,
@@ -7957,6 +8588,21 @@
         "discovery": {
             "by": "Demarçay",
             "value": 1901
+        },
+        "elastic": {
+            "young": {
+                "value": 18,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 7.8,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 8.3,
+                "unit": "GPa"
+            },
+            "poisson": 0.15
         },
         "electron_config": "<e:Xe> 4f[7] 6s[2]",
         "era": "quantum",
@@ -8027,7 +8673,7 @@
         }
     },
     "gd": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00059,
@@ -8079,6 +8725,21 @@
         "discovery": {
             "by": "de Marignac",
             "value": 1880
+        },
+        "elastic": {
+            "young": {
+                "value": 55,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 22,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 38,
+                "unit": "GPa"
+            },
+            "poisson": 0.26
         },
         "electron_config": "<e:Xe> 4f[7] 5d[1] 6s[2]",
         "era": "classifying",
@@ -8148,7 +8809,7 @@
         }
     },
     "tb": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000085,
@@ -8200,6 +8861,21 @@
         "discovery": {
             "by": "Mosander",
             "value": 1843
+        },
+        "elastic": {
+            "young": {
+                "value": 56,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 22,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 38.7,
+                "unit": "GPa"
+            },
+            "poisson": 0.26
         },
         "electron_config": "<e:Xe> 4f[9] 6s[2]",
         "era": "revolution",
@@ -8254,7 +8930,7 @@
         }
     },
     "dy": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00043,
@@ -8306,6 +8982,21 @@
         "discovery": {
             "by": "Lecoq de Boisbaudran",
             "value": 1886
+        },
+        "elastic": {
+            "young": {
+                "value": 61,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 25,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 41,
+                "unit": "GPa"
+            },
+            "poisson": 0.25
         },
         "electron_config": "<e:Xe> 4f[10] 6s[2]",
         "era": "classifying",
@@ -8375,7 +9066,7 @@
         }
     },
     "ho": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00011,
@@ -8427,6 +9118,21 @@
         "discovery": {
             "by": "Soret",
             "value": 1878
+        },
+        "elastic": {
+            "young": {
+                "value": 65,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 26,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 40,
+                "unit": "GPa"
+            },
+            "poisson": 0.23
         },
         "electron_config": "<e:Xe> 4f[11] 6s[2]",
         "era": "classifying",
@@ -8497,7 +9203,7 @@
         }
     },
     "er": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00023,
@@ -8549,6 +9255,21 @@
         "discovery": {
             "by": "Mosander",
             "value": 1842
+        },
+        "elastic": {
+            "young": {
+                "value": 70,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 28,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 44,
+                "unit": "GPa"
+            },
+            "poisson": 0.24
         },
         "electron_config": "<e:Xe> 4f[12] 6s[2]",
         "era": "revolution",
@@ -8618,7 +9339,7 @@
         }
     },
     "tm": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000019,
@@ -8670,6 +9391,21 @@
         "discovery": {
             "by": "Cleve",
             "value": 1879
+        },
+        "elastic": {
+            "young": {
+                "value": 74,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 31,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 45,
+                "unit": "GPa"
+            },
+            "poisson": 0.21
         },
         "electron_config": "<e:Xe> 4f[13] 6s[2]",
         "era": "classifying",
@@ -8745,7 +9481,7 @@
         }
     },
     "yb": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00025,
@@ -8797,6 +9533,21 @@
         "discovery": {
             "by": "de Marignac",
             "value": 1878
+        },
+        "elastic": {
+            "young": {
+                "value": 24,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 9.9,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 31,
+                "unit": "GPa"
+            },
+            "poisson": 0.21
         },
         "electron_config": "<e:Xe> 4f[14] 6s[2]",
         "era": "classifying",
@@ -8876,7 +9627,7 @@
         }
     },
     "lu": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00007,
@@ -8928,6 +9679,21 @@
         "discovery": {
             "by": "von Welsbach, Urbain",
             "value": 1907
+        },
+        "elastic": {
+            "young": {
+                "value": 69,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 27,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 48,
+                "unit": "GPa"
+            },
+            "poisson": 0.26
         },
         "electron_config": "<e:Xe> 4f[14] 5d[1] 6s[2]",
         "era": "quantum",
@@ -8998,7 +9764,7 @@
         }
     },
     "hf": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00042,
@@ -9050,6 +9816,21 @@
         "discovery": {
             "by": "Coster, de Hevesy",
             "value": 1923
+        },
+        "elastic": {
+            "young": {
+                "value": 78,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 30,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 110,
+                "unit": "GPa"
+            },
+            "poisson": 0.37
         },
         "electron_config": "<e:Xe> 4f[14] 5d[2] 6s[2]",
         "era": "quantum",
@@ -9124,7 +9905,7 @@
         }
     },
     "ta": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0008,
@@ -9176,6 +9957,21 @@
         "discovery": {
             "by": "Ekeberg",
             "value": 1802
+        },
+        "elastic": {
+            "young": {
+                "value": 186,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 69,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 200,
+                "unit": "GPa"
+            },
+            "poisson": 0.34
         },
         "electron_config": "<e:Xe> 4f[14] 5d[3] 6s[2]",
         "era": "revolution",
@@ -9254,7 +10050,7 @@
         }
     },
     "w": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0064,
@@ -9306,6 +10102,21 @@
         "discovery": {
             "by": "Fausto und Juan de Elhuyar",
             "value": 1783
+        },
+        "elastic": {
+            "young": {
+                "value": 411,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 161,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 310,
+                "unit": "GPa"
+            },
+            "poisson": 0.28
         },
         "electron_config": "<e:Xe> 4f[14] 5d[4] 6s[2]",
         "era": "enlightenment",
@@ -9386,7 +10197,7 @@
         }
     },
     "re": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1e-7,
@@ -9438,6 +10249,21 @@
         "discovery": {
             "by": "Noddack, Tacke, Berg",
             "value": 1925
+        },
+        "elastic": {
+            "young": {
+                "value": 463,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 178,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 370,
+                "unit": "GPa"
+            },
+            "poisson": 0.3
         },
         "electron_config": "<e:Xe> 4f[14] 5d[5] 6s[2]",
         "era": "quantum",
@@ -9511,7 +10337,7 @@
         }
     },
     "os": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000001,
@@ -9559,6 +10385,13 @@
         "discovery": {
             "by": "Tennant",
             "value": 1803
+        },
+        "elastic": {
+            "rigidity": {
+                "value": 222,
+                "unit": "GPa"
+            },
+            "poisson": 0.25
         },
         "electron_config": "<e:Xe> 4f[14] 5d[6] 6s[2]",
         "era": "revolution",
@@ -9641,7 +10474,7 @@
         }
     },
     "ir": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1e-7,
@@ -9689,6 +10522,21 @@
         "discovery": {
             "by": "Tennant",
             "value": 1803
+        },
+        "elastic": {
+            "young": {
+                "value": 528,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 210,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 320,
+                "unit": "GPa"
+            },
+            "poisson": 0.26
         },
         "electron_config": "<e:Xe> 4f[14] 5d[7] 6s[2]",
         "era": "revolution",
@@ -9767,7 +10615,7 @@
         }
     },
     "pt": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 5e-7,
@@ -9815,6 +10663,21 @@
         "discovery": {
             "by": "Scaliger",
             "value": 1557
+        },
+        "elastic": {
+            "young": {
+                "value": 168,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 61,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 230,
+                "unit": "GPa"
+            },
+            "poisson": 0.38
         },
         "electron_config": "<e:Xe> 4f[14] 5d[9] 6s[1]",
         "era": "enlightenment",
@@ -9871,7 +10734,7 @@
         }
     },
     "au": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4e-7,
@@ -9920,6 +10783,21 @@
         },
         "column": 25,
         "crystal_structure": "fcc",
+        "elastic": {
+            "young": {
+                "value": 78,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 27,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 220,
+                "unit": "GPa"
+            },
+            "poisson": 0.44
+        },
         "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[1]",
         "era": "antiquity",
         "goldschmidt": "siderophile",
@@ -9976,7 +10854,7 @@
         }
     },
     "hg": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00004,
@@ -10030,6 +10908,12 @@
         },
         "column": 26,
         "crystal_structure": "rho",
+        "elastic": {
+            "bulk": {
+                "value": 25,
+                "unit": "GPa"
+            }
+        },
         "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2]",
         "era": "antiquity",
         "goldschmidt": "chalcophile",
@@ -10122,7 +11006,7 @@
         }
     },
     "tl": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000029,
@@ -10174,6 +11058,21 @@
         "discovery": {
             "by": "Crookes",
             "value": 1861
+        },
+        "elastic": {
+            "young": {
+                "value": 8,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 2.8,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 43,
+                "unit": "GPa"
+            },
+            "poisson": 0.45
         },
         "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[1]",
         "era": "classifying",
@@ -10257,7 +11156,7 @@
         }
     },
     "pb": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0018,
@@ -10306,6 +11205,21 @@
         },
         "column": 28,
         "crystal_structure": "fcc",
+        "elastic": {
+            "young": {
+                "value": 16,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 5.6,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 46,
+                "unit": "GPa"
+            },
+            "poisson": 0.44
+        },
         "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[2]",
         "era": "antiquity",
         "goldschmidt": "chalcophile",
@@ -10399,7 +11313,7 @@
         }
     },
     "bi": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00002,
@@ -10451,6 +11365,21 @@
         "discovery": {
             "by": "Agricola",
             "value": 1540
+        },
+        "elastic": {
+            "young": {
+                "value": 32,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 12,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 31,
+                "unit": "GPa"
+            },
+            "poisson": 0.33
         },
         "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[3]",
         "era": "enlightenment",
@@ -11019,7 +11948,7 @@
         }
     },
     "th": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0011,
@@ -11071,6 +12000,21 @@
         "discovery": {
             "by": "Berzelius",
             "value": 1829
+        },
+        "elastic": {
+            "young": {
+                "value": 79,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 31,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 54,
+                "unit": "GPa"
+            },
+            "poisson": 0.27
         },
         "electron_config": "<e:Rn> 6d[2] 7s[2]",
         "era": "revolution",
@@ -11231,7 +12175,7 @@
         }
     },
     "u": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00032,
@@ -11282,6 +12226,21 @@
         "discovery": {
             "by": "Klaproth",
             "value": 1789
+        },
+        "elastic": {
+            "young": {
+                "value": 208,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 111,
+                "unit": "GPa"
+            },
+            "bulk": {
+                "value": 100,
+                "unit": "GPa"
+            },
+            "poisson": 0.23
         },
         "electron_config": "<e:Rn> 5f[3] 6d[1] 7s[2]",
         "era": "enlightenment",
@@ -11455,7 +12414,7 @@
         }
     },
     "pu": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-10T18:05:09.579Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2e-19,
@@ -11494,6 +12453,17 @@
         "discovery": {
             "by": "Seaborg",
             "value": 1940
+        },
+        "elastic": {
+            "young": {
+                "value": 96,
+                "unit": "GPa"
+            },
+            "rigidity": {
+                "value": 43,
+                "unit": "GPa"
+            },
+            "poisson": 0.21
         },
         "electron_config": "<e:Rn> 5f[6] 7s[2]",
         "era": "quantum",
