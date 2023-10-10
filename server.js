@@ -405,6 +405,7 @@ routes.routes.forEach( ( route ) => {
                             res.locals.list = {
                                 type: 'scale',
                                 layer: _url[1],
+                                value: results,
                                 items: results
                             };
 
@@ -412,7 +413,7 @@ routes.routes.forEach( ( route ) => {
 
                             res.locals.table = {
                                 type: 'scale',
-                                items: results,
+                                value: results,
                                 layer: _url[1]
                             };
 

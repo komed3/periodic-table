@@ -4,7 +4,7 @@
 div.pt-periodic-table.noselect( layer=table.layer )
   span.pt-periodic-table-gap( style= '--g:1 / span 18' )
   each el, k in elements
-    - _value = core.getValue( el, table.layer, table.value || 'undefined', table.type || 'value' )
+    - _value = core.getValue( k, el, table.layer, table.value || 'undefined', table.type || 'value' )
     - if( !legend.includes( _value ) ) {
     -   legend.push( _value )
     - }

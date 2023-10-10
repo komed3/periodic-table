@@ -3,7 +3,7 @@ div.pt-element-list( layer=list.layer )
   each el in list.items
     div.pt-element-list-item
       div(
-        prop= core.getValue( el, list.layer, list.value || 'undefined', list.type || 'value' ),
+        prop= core.getValue( k, el, list.layer, list.value || 'undefined', list.type || 'value' ),
         class= 'pt-el element--symbol' + (
           el.radioactive
             ? ' radioactive'

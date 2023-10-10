@@ -2,7 +2,7 @@
 - var legend = []
 div.pt-microtable.noselect( layer=table.layer )
   each el, k in elements
-    - _value = core.getValue( el, table.layer, table.value || 'undefined', table.type || 'value' )
+    - _value = core.getValue( k, el, table.layer, table.value || 'undefined', table.type || 'value' )
     - if( !legend.includes( _value ) ) {
     -   legend.push( _value )
     - }
