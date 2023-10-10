@@ -110,7 +110,7 @@ block content
                     a( href='/scale/' + prop )!= __( prop )
                   td.pt-prop-table-value!= core.fNumber( element[ prop ], locale )
         //- prop box: temperatures
-        div.pt-prop-box
+        div.pt-prop-box.open
           h3.pt-prop-box-label
             span!= __( 'temperatures' )
             a( href="#" ).pt-prop-box-toggle
@@ -155,14 +155,14 @@ block content
               a( href="#" ).pt-prop-box-toggle
                 span.open!= __( 'expand' )
                 span.close!= __( 'close' )
-          div.pt-prop-box-content
-            table.pt-prop-table.pt-element-table
-              tbody
-                each prop, label in element.hardness
-                  tr.pt-prop-table-row
-                    th.pt-prop-table-label
-                      a( href='/scale/hardness_' + label )!= __( label + '-hardness' )
-                    td.pt-prop-table-value!= core.fNumber( prop, locale )
+            div.pt-prop-box-content
+              table.pt-prop-table.pt-element-table
+                tbody
+                  each prop, label in element.hardness
+                    tr.pt-prop-table-row
+                      th.pt-prop-table-label
+                        a( href='/scale/hardness_' + label )!= __( label + '-hardness' )
+                      td.pt-prop-table-value!= core.fNumber( prop, locale )
         //- prop box: elastic
         if element.elastic
           div.pt-prop-box
@@ -171,14 +171,14 @@ block content
               a( href="#" ).pt-prop-box-toggle
                 span.open!= __( 'expand' )
                 span.close!= __( 'close' )
-          div.pt-prop-box-content
-            table.pt-prop-table.pt-element-table
-              tbody
-                each prop, label in element.elastic
-                  tr.pt-prop-table-row
-                    th.pt-prop-table-label
-                      a( href='/scale/elastic_' + label )!= __( label + '-elastic' )
-                    td.pt-prop-table-value!= core.fNumber( prop, locale )
+            div.pt-prop-box-content
+              table.pt-prop-table.pt-element-table
+                tbody
+                  each prop, label in element.elastic
+                    tr.pt-prop-table-row
+                      th.pt-prop-table-label
+                        a( href='/scale/elastic_' + label )!= __( label + '-elastic' )
+                      td.pt-prop-table-value!= core.fNumber( prop, locale )
       //- chemical properties
       div.pt-box.pt-element-properties
         h2!= __( 'prop-chemical' )
