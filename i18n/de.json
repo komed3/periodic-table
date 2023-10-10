@@ -368,7 +368,7 @@
 	"refractive_index": "Brechungsindex",
 	"sanderson-negativity": "Sanderson-Skala",
 	"sc_temp": "Sprungtemperatur",
-	"scale-title": "%s-Skala",
+	"scale-title": "Skala: %s",
 	"search-description": "search-description",
 	"search-placeholder": "Suchen …",
 	"search-results": "<b>%s</b> Ergebnisse für <q>%s</q>",

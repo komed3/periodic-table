@@ -340,8 +340,10 @@ routes.routes.forEach( ( route ) => {
                             if( ( value = core.fromPath( el, scale.key ) ) ) {
 
                                 results[ _k ] = {
-                                    el: el,
-                                    value: value
+                                    ...el,
+                                    scale: {
+                                        value: value
+                                    }
                                 };
 
                             }
@@ -358,13 +360,13 @@ routes.routes.forEach( ( route ) => {
 
                             if( scale.min == undefined || scale.max == undefined ) {
 
-                                scale.min = values.reduce( ( prev, curr ) => {
-                                    return prev.value < curr.value ? prev : curr;
-                                } ).value;
+                                scale.min = values.reduce( ( a, b ) => {
+                                    return a.scale.value < b.scale.value ? a : b;
+                                } ).scale.value;
 
-                                scale.max = values.reduce( ( prev, curr ) => {
-                                    return prev.value > curr.value ? prev : curr;
-                                } ).value;
+                                scale.max = values.reduce( ( a, b ) => {
+                                    return a.scale.value > b.scale.value ? a : b;
+                                } ).scale.value;
 
                             }
 
@@ -378,34 +380,50 @@ routes.routes.forEach( ( route ) => {
 
                             for( const [ _k, res ] of Object.entries( results ) ) {
 
-                                let val = res.value / scale.step;
+                                let val = res.scale.value / scale.step;
 
                                 switch( scale.round ) {
 
                                     case 'floor':
-                                        results[ _k ].y = Math.floor( val );
+                                        results[ _k ].scale.y = Math.floor( val );
                                         break;
 
                                     case 'ceil':
-                                        results[ _k ].y = Math.ceil( val );
+                                        results[ _k ].scale.y = Math.ceil( val );
                                         break;
 
                                     default:
-                                        results[ _k ].y = Math.round( val );
+                                        results[ _k ].scale.y = Math.round( val );
                                         break;
 
                                 }
 
                             }
 
+                            /* elements list */
+
+                            res.locals.list = {
+                                type: 'scale',
+                                layer: _url[1],
+                                items: results
+                            };
+
                             /* periodic table */
 
                             res.locals.table = {
                                 type: 'scale',
+                                items: results,
                                 layer: _url[1]
                             };
 
                             res.locals.scale = scale;
+
+                            /* breadcrumbs */
+
+                            res.locals.breadcrumbs.push( [
+                                '/scale/' + _url[1],
+                                req.__( scale.label )
+                            ] );
 
                         } else {
 
