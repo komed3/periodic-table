@@ -1,6 +1,6 @@
 //- templates/list.pug
 div.pt-element-list( layer=list.layer )
-  each el in list.items
+  each el, k in list.items
     div.pt-element-list-item
       div(
         prop= core.getValue( k, el, list.layer, list.value || 'undefined', list.type || 'value' ),

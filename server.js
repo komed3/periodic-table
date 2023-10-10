@@ -330,6 +330,7 @@ routes.routes.forEach( ( route ) => {
                     if( _url.length == 2 && _url[1] in config.get( 'site.scales' ) ) {
 
                         let scale = config.get( 'site.scales' )[ _url[1] ];
+                            scale.layer = _url[1];
 
                         /* fetch scale items */
 
@@ -342,7 +343,10 @@ routes.routes.forEach( ( route ) => {
                                 results[ _k ] = {
                                     ...el,
                                     scale: {
-                                        value: value
+                                        value: value,
+                                        x: isNaN( value )
+                                            ? value.value || 0
+                                            : value
                                     }
                                 };
 
@@ -361,12 +365,12 @@ routes.routes.forEach( ( route ) => {
                             if( scale.min == undefined || scale.max == undefined ) {
 
                                 scale.min = values.reduce( ( a, b ) => {
-                                    return a.scale.value < b.scale.value ? a : b;
-                                } ).scale.value;
+                                    return a.scale.x < b.scale.x ? a : b;
+                                } ).scale.x;
 
                                 scale.max = values.reduce( ( a, b ) => {
-                                    return a.scale.value > b.scale.value ? a : b;
-                                } ).scale.value;
+                                    return a.scale.x > b.scale.x ? a : b;
+                                } ).scale.x;
 
                             }
 
@@ -380,7 +384,7 @@ routes.routes.forEach( ( route ) => {
 
                             for( const [ _k, res ] of Object.entries( results ) ) {
 
-                                let val = res.scale.value / scale.step;
+                                let val = res.scale.x / scale.step;
 
                                 switch( scale.round ) {
 
@@ -400,14 +404,7 @@ routes.routes.forEach( ( route ) => {
 
                             }
 
-                            /* elements list */
-
-                            res.locals.list = {
-                                type: 'scale',
-                                layer: _url[1],
-                                value: results,
-                                items: results
-                            };
+                            res.locals.scale = scale;
 
                             /* periodic table */
 
@@ -417,7 +414,14 @@ routes.routes.forEach( ( route ) => {
                                 layer: _url[1]
                             };
 
-                            res.locals.scale = scale;
+                            /* elements list */
+
+                            res.locals.list = {
+                                type: 'scale',
+                                layer: _url[1],
+                                value: results,
+                                items: results
+                            };
 
                             /* breadcrumbs */
 
