@@ -109,40 +109,76 @@ block content
                   th.pt-prop-table-label
                     a( href='/scale/' + prop )!= __( prop )
                   td.pt-prop-table-value!= core.fNumber( element[ prop ], locale )
-            tr.pt-prop-table-row
-              th( colspan="2" ).pt-prop-table-label!= __( 'temperatures' )
-            each prop in [ 'melting', 'boiling', 'liquid_range', 'triple', 'critical' ]
-              if element[ prop ]
-                tr.pt-prop-table-row
-                  th.pt-prop-table-label
-                    a( href='/scale/' + prop )!= __( prop + '-temp' )
-                  td.pt-prop-table-value!= core.fNumber( element[ prop ], locale )
-            tr.pt-prop-table-row
-              th( colspan="2" ).pt-prop-table-label!= __( 'enthalpies' )
-            each prop in [ 'enthalpy_fusion', 'enthalpy_vaporisation', 'enthalpy_atomisation' ]
-              if element[ prop ]
-                tr.pt-prop-table-row
-                  th.pt-prop-table-label
-                    a( href='/scale/' + prop )!= __( prop )
-                  td.pt-prop-table-value!= core.fNumber( element[ prop ], locale )
-            if element.hardness
-              tr.pt-prop-table-row
-                th( colspan="2" ).pt-prop-table-label!= __( 'hardnesses' )
-              each prop in [ 'mohs', 'brinell', 'vickers' ]
-                if prop in element.hardness
+        //- prop box: temperatures
+        div.pt-prop-box
+          h3.pt-prop-box-label
+            span!= __( 'temperatures' )
+            a( href="#" ).pt-prop-box-toggle
+              i( title= __( 'expand' ) ).icon.open add
+              i( title= __( 'close' ) ).icon.close close
+          div.pt-prop-box-content
+            table.pt-prop-table.pt-element-table
+              tbody
+                each prop in [ 'melting', 'boiling', 'liquid_range', 'triple', 'critical' ]
                   tr.pt-prop-table-row
                     th.pt-prop-table-label
-                      a( href='/scale/hardness_' + prop )!= __( prop + '-hardness' )
-                    td.pt-prop-table-value!= core.fNumber( element.hardness[ prop ], locale )
-            if element.elastic
-              tr.pt-prop-table-row
-                th( colspan="2" ).pt-prop-table-label!= __( 'elastics' )
-              each prop in [ 'young', 'rigidity', 'bulk', 'poisson' ]
-                if prop in element.elastic
+                      a( href='/scale/' + prop )!= __( prop + '-temp' )
+                    td.pt-prop-table-value
+                      if prop in element
+                        span!= core.fNumber( element[ prop ], locale )
+                      else
+                        span!= __( 'undefined' )
+        //- prop box: enthalpies
+        div.pt-prop-box
+          h3.pt-prop-box-label
+            span!= __( 'enthalpies' )
+            a( href="#" ).pt-prop-box-toggle
+              i( title= __( 'expand' ) ).icon.open add
+              i( title= __( 'close' ) ).icon.close close
+          div.pt-prop-box-content
+            table.pt-prop-table.pt-element-table
+              tbody
+                each prop in [ 'enthalpy_fusion', 'enthalpy_vaporisation', 'enthalpy_atomisation' ]
                   tr.pt-prop-table-row
                     th.pt-prop-table-label
-                      a( href='/scale/elastic_' + prop )!= __( prop + '-elastic' )
-                    td.pt-prop-table-value!= core.fNumber( element.elastic[ prop ], locale )
+                      a( href='/scale/' + prop )!= __( prop )
+                    td.pt-prop-table-value
+                      if prop in element
+                        span!= core.fNumber( element[ prop ], locale )
+                      else
+                        span!= __( 'undefined' )
+        //- prop box: hardness
+        if element.hardness
+          div.pt-prop-box
+            h3.pt-prop-box-label
+              span!= __( 'hardnesses' )
+              a( href="#" ).pt-prop-box-toggle
+                i( title= __( 'expand' ) ).icon.open add
+                i( title= __( 'close' ) ).icon.close close
+          div.pt-prop-box-content
+            table.pt-prop-table.pt-element-table
+              tbody
+                each prop, label in element.hardness
+                  tr.pt-prop-table-row
+                    th.pt-prop-table-label
+                      a( href='/scale/hardness_' + label )!= __( label + '-hardness' )
+                    td.pt-prop-table-value!= core.fNumber( prop, locale )
+        //- prop box: elastic
+        if element.elastic
+          div.pt-prop-box
+            h3.pt-prop-box-label
+              span!= __( 'elastics' )
+              a( href="#" ).pt-prop-box-toggle
+                i( title= __( 'expand' ) ).icon.open add
+                i( title= __( 'close' ) ).icon.close close
+          div.pt-prop-box-content
+            table.pt-prop-table.pt-element-table
+              tbody
+                each prop, label in element.elastic
+                  tr.pt-prop-table-row
+                    th.pt-prop-table-label
+                      a( href='/scale/elastic_' + label )!= __( label + '-elastic' )
+                    td.pt-prop-table-value!= core.fNumber( prop, locale )
       //- chemical properties
       div.pt-box.pt-element-properties
         h2!= __( 'prop-chemical' )
@@ -161,14 +197,22 @@ block content
               tr.pt-prop-table-row
                 th.pt-prop-table-label!= __( 'electrode-potential' )
                 td.pt-prop-table-value!= core.fNumber( element.electrode_potential, locale )
-            if element.negativity
-              tr.pt-prop-table-row
-                th( colspan="2" ).pt-prop-table-label!= __( 'electronegativity' )
-              each prop, label in element.negativity
-                tr.pt-prop-table-row
-                  th.pt-prop-table-label
-                    a( href='/scale/negativity_' + label )!= __( label + '-negativity' )
-                  td.pt-prop-table-value!= core.fNumber( prop, locale )
+        //- prop box: electronegativity
+        if element.negativity
+          div.pt-prop-box
+            h3.pt-prop-box-label
+              span!= __( 'electronegativity' )
+              a( href="#" ).pt-prop-box-toggle
+                i( title= __( 'expand' ) ).icon.open add
+                i( title= __( 'close' ) ).icon.close close
+          div.pt-prop-box-content
+            table.pt-prop-table.pt-element-table
+              tbody
+                each prop, label in element.negativity
+                  tr.pt-prop-table-row
+                    th.pt-prop-table-label
+                      a( href='/scale/negativity_' + label )!= __( label + '-negativity' )
+                    td.pt-prop-table-value!= core.fNumber( prop, locale )
       //- other properties
       div.pt-box.pt-element-properties
         h2!= __( 'prop-other' )
