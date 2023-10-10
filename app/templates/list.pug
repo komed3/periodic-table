@@ -1,9 +1,10 @@
 //- templates/list.pug
-div.pt-element-list( layer=list.layer )
+- var _type = list.type || 'value'
+div.pt-element-list( layer=list.layer, type=_type )
   each el, k in list.items
     div.pt-element-list-item
       div(
-        prop= core.getValue( k, el, list.layer, list.value || 'undefined', list.type || 'value' ),
+        prop= core.getValue( k, el, list.layer, list.value || 'undefined', _type ),
         class= 'pt-el element--symbol' + (
           el.radioactive
             ? ' radioactive'

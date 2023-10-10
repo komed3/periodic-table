@@ -18,10 +18,19 @@ site:
     hardness_mohs:
       key: hardness.mohs
       label: mohs-hardness
+      scheme: _grayscale
       round: floor
       step: 1
       min: 0
       max: 10
+    hardness_brinell:
+      key: hardness.brinell
+      label: brinell-hardness
+      scheme: _grayscale
+    hardness_vickers:
+      key: hardness.vickers
+      label: vickers-hardness
+      scheme: _grayscale
   props: [
     radioactive, natural, native, vital, mononuclidic, stable, noble, semiconductor,
     light, heavy, rare, platinum, refractory, artificial, synthetic, antiquity

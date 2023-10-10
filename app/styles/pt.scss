@@ -252,49 +252,49 @@ body[theme="dark"] {
 }
 
 /**
- * define color scales
+ * define color schemes
  */
 
-[layer="hardness_mohs"] .pt-el[prop="undefined"] {
+[type="scale"] .pt-el[prop="undefined"] {
     --bg: transparent;
     opacity: 0.25;
 }
 
-[layer="hardness_mohs"] .pt-el[prop="0"],
-[layer="hardness_mohs"] .pt-el[prop="1"] {
+[layer="_grayscale"] .pt-el[prop="0"],
+[layer="_grayscale"] .pt-el[prop="1"] {
     --bg: var( --pt-gy-1 );
 }
 
-[layer="hardness_mohs"] .pt-el[prop="2"] {
+[layer="_grayscale"] .pt-el[prop="2"] {
     --bg: var( --pt-gy-2 );
 }
 
-[layer="hardness_mohs"] .pt-el[prop="3"] {
+[layer="_grayscale"] .pt-el[prop="3"] {
     --bg: var( --pt-gy-3 );
 }
 
-[layer="hardness_mohs"] .pt-el[prop="4"] {
+[layer="_grayscale"] .pt-el[prop="4"] {
     --bg: var( --pt-gy-4 );
 }
 
-[layer="hardness_mohs"] .pt-el[prop="5"] {
+[layer="_grayscale"] .pt-el[prop="5"] {
     --bg: var( --pt-gy-5 );
 }
 
-[layer="hardness_mohs"] .pt-el[prop="6"] {
+[layer="_grayscale"] .pt-el[prop="6"] {
     --bg: var( --pt-gy-6 );
 }
 
-[layer="hardness_mohs"] .pt-el[prop="7"] {
+[layer="_grayscale"] .pt-el[prop="7"] {
     --bg: var( --pt-gy-7 );
 }
 
-[layer="hardness_mohs"] .pt-el[prop="8"] {
+[layer="_grayscale"] .pt-el[prop="8"] {
     --bg: var( --pt-gy-8 );
 }
 
-[layer="hardness_mohs"] .pt-el[prop="9"],
-[layer="hardness_mohs"] .pt-el[prop="10"] {
+[layer="_grayscale"] .pt-el[prop="9"],
+[layer="_grayscale"] .pt-el[prop="10"] {
     --bg: var( --pt-gy-9 );
 }
 

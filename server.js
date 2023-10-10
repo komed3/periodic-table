@@ -411,14 +411,14 @@ routes.routes.forEach( ( route ) => {
                             res.locals.table = {
                                 type: 'scale',
                                 value: results,
-                                layer: _url[1]
+                                layer: scale.scheme
                             };
 
                             /* elements list */
 
                             res.locals.list = {
                                 type: 'scale',
-                                layer: _url[1],
+                                layer: scale.scheme,
                                 items: results
                             };
 

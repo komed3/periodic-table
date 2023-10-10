@@ -438,5 +438,7 @@
 	"weblink-wiki": "%s in der Wikipedia (%s)",
 	"weblinks": "Weiterführende Links",
 	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" target=\"_blank\">Weiterlesen …</a>",
-	"young-elastic": "Youngscher Modul"
+	"young-elastic": "Youngscher Modul",
+	"brinell-hardness-description": "brinell-hardness-description",
+	"vickers-hardness-description": "vickers-hardness-description"
 }
