@@ -14,5 +14,10 @@ div.pt-element-list( layer=list.layer )
         span.symbol--label= el.symbol
       div.element--info
         a( href= '/e/' + el.symbol ).element--name= el.names[ locale ]
-        if el.appearance && locale in el.appearance
+        if list.type == 'scale'
+          span.element--desc
+            if scale
+              b!= __( scale.label ) + ': '
+            span!= core.fNumber( el.scale.value, locale )
+        else if el.appearance && locale in el.appearance
           span.element--desc!= core.fText( el.appearance[ locale ] )
