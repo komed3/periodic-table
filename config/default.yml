@@ -17,7 +17,7 @@ site:
   scales: []
   props: [
     radioactive, natural, native, vital, mononuclidic, stable, noble, semiconductor,
-    light, heavy, rare, platinum, refractory, artificial, synthetic
+    light, heavy, rare, platinum, refractory, artificial, synthetic, antiquity
   ]
 
 maintenance:

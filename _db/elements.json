@@ -849,7 +849,7 @@
         }
     },
     "c": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-10T07:21:21.316Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.087,
@@ -931,7 +931,8 @@
             "native",
             "vital",
             "stable",
-            "semiconductor"
+            "semiconductor",
+            "antiquity"
         ],
         "sc_temp": {
             "value": 15,
@@ -2010,7 +2011,7 @@
         }
     },
     "s": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-10T07:21:21.316Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.048,
@@ -2104,7 +2105,8 @@
             "natural",
             "native",
             "vital",
-            "stable"
+            "stable",
+            "antiquity"
         ],
         "sc_temp": {
             "value": 17,
@@ -3152,7 +3154,7 @@
         }
     },
     "fe": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-10T07:21:21.316Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4700,
@@ -3225,7 +3227,8 @@
             "native",
             "vital",
             "stable",
-            "heavy"
+            "heavy",
+            "antiquity"
         ],
         "sc_temp": {
             "value": 2,
@@ -3506,7 +3509,7 @@
         }
     },
     "cu": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-10T07:21:21.316Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.01,
@@ -3596,7 +3599,8 @@
             "native",
             "vital",
             "stable",
-            "heavy"
+            "heavy",
+            "antiquity"
         ],
         "set": "transitionmetal",
         "shell": [
@@ -3613,7 +3617,7 @@
         }
     },
     "zn": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-10T07:21:21.316Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.012,
@@ -3717,7 +3721,8 @@
             "native",
             "vital",
             "stable",
-            "heavy"
+            "heavy",
+            "antiquity"
         ],
         "sc_temp": {
             "value": 0.85,
@@ -5598,7 +5603,7 @@
         }
     },
     "ag": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-10T07:21:21.316Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000079,
@@ -5697,7 +5702,8 @@
             "native",
             "stable",
             "noble",
-            "heavy"
+            "heavy",
+            "antiquity"
         ],
         "set": "transitionmetal",
         "shell": [
@@ -5981,7 +5987,7 @@
         }
     },
     "sn": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-10T07:21:21.316Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0035,
@@ -6054,7 +6060,8 @@
             "native",
             "stable",
             "semiconductor",
-            "heavy"
+            "heavy",
+            "antiquity"
         ],
         "sc_temp": {
             "value": 3.7,
@@ -9332,7 +9339,7 @@
         }
     },
     "au": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-10T07:21:21.316Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4e-7,
@@ -9406,7 +9413,8 @@
             "mononuclidic",
             "stable",
             "noble",
-            "heavy"
+            "heavy",
+            "antiquity"
         ],
         "set": "transitionmetal",
         "shell": [
@@ -9425,7 +9433,7 @@
         }
     },
     "hg": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-10T07:21:21.316Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00004,
@@ -9544,7 +9552,8 @@
             "native",
             "stable",
             "noble",
-            "heavy"
+            "heavy",
+            "antiquity"
         ],
         "sc_temp": {
             "value": 4.15,
@@ -9695,7 +9704,7 @@
         }
     },
     "pb": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-10T07:21:21.316Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0018,
@@ -9806,7 +9815,8 @@
             "natural",
             "native",
             "stable",
-            "heavy"
+            "heavy",
+            "antiquity"
         ],
         "sc_temp": {
             "value": 7.2,
