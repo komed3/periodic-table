@@ -13,7 +13,7 @@ block social
 
 block styles
   link( rel="stylesheet", href="/css/table.css" )/
-  link( rel="stylesheet", href="/css/list.css" )/
+  link( rel="stylesheet", href="/css/scale.css" )/
 
 block content
   div.pt-page.pt-scale
@@ -22,4 +22,18 @@ block content
     include templates/breadcrumbs.pug
     h1= title
     p.pt-page-intro= description
-    include templates/list.pug
+    table.pt-prop-table.zebra.pt-scale-table
+      thead
+        tr.pt-prop-table-row
+          th.pt-prop-table-label.pt-scale-table-color
+          th.pt-prop-table-label( colspan="2" )!= __( 'element' )
+          th.pt-prop-table-label.right!= __( scale.label )
+      tbody
+        each el, k in scale.results
+          tr.pt-prop-table-row
+            td.pt-prop-table-value.pt-scale-table-color
+            td.pt-prop-table-value.mini!= '<sup>' + el.number + '</sup>' + el.symbol
+            td.pt-prop-table-value
+              a( href='/e/' + el.symbol )!= el.names[ locale ]
+            td.pt-prop-table-value.right
+              span!= core.fNumber( el.scale.value, locale )

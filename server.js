@@ -334,13 +334,13 @@ routes.routes.forEach( ( route ) => {
 
                         /* fetch scale items */
 
-                        let results = {};
+                        scale.results = {};
 
                         for( const [ _k, el ] of Object.entries( elements ) ) {
 
                             if( ( value = core.fromPath( el, scale.key ) ) ) {
 
-                                results[ _k ] = {
+                                scale.results[ _k ] = {
                                     ...el,
                                     scale: {
                                         value: value,
@@ -356,11 +356,11 @@ routes.routes.forEach( ( route ) => {
 
                         /* if scale has items */
 
-                        if( Object.keys( results ).length ) {
+                        if( Object.keys( scale.results ).length ) {
 
                             /* calculate min, max, step if undefined */
 
-                            let values = Object.values( results );
+                            let values = Object.values( scale.results );
 
                             if( scale.min == undefined || scale.max == undefined ) {
 
@@ -382,22 +382,22 @@ routes.routes.forEach( ( route ) => {
 
                             /* calculate scale steps */
 
-                            for( const [ _k, res ] of Object.entries( results ) ) {
+                            for( const [ _k, res ] of Object.entries( scale.results ) ) {
 
                                 let val = res.scale.x / scale.step;
 
                                 switch( scale.round ) {
 
                                     case 'floor':
-                                        results[ _k ].scale.y = Math.max( 0, Math.floor( val ) );
+                                        scale.results[ _k ].scale.y = Math.max( 0, Math.floor( val ) );
                                         break;
 
                                     case 'ceil':
-                                        results[ _k ].scale.y = Math.min( 10, Math.ceil( val ) );
+                                        scale.results[ _k ].scale.y = Math.min( 10, Math.ceil( val ) );
                                         break;
 
                                     default:
-                                        results[ _k ].scale.y = Math.max( 0, Math.min( 10, Math.round( val ) ) );
+                                        scale.results[ _k ].scale.y = Math.max( 0, Math.min( 10, Math.round( val ) ) );
                                         break;
 
                                 }
@@ -410,16 +410,8 @@ routes.routes.forEach( ( route ) => {
 
                             res.locals.table = {
                                 type: 'scale',
-                                value: results,
+                                value: scale.results,
                                 layer: scale.scheme
-                            };
-
-                            /* elements list */
-
-                            res.locals.list = {
-                                type: 'scale',
-                                layer: scale.scheme,
-                                items: results
                             };
 
                             /* breadcrumbs */
