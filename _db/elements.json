@@ -1,6 +1,6 @@
 {
     "h": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.15,
@@ -197,7 +197,7 @@
         "negativity": {
             "pauling": 2.2,
             "sanderson": 2.59,
-            "allred": 2.21,
+            "allred": 2.2,
             "mulliken": 2.25,
             "allen": 2.3
         },
@@ -357,7 +357,7 @@
         }
     },
     "he": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4e-7,
@@ -456,6 +456,10 @@
             "la": "Helium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "allred": 5.5,
+            "mulliken": 3.49
+        },
         "number": 2,
         "period": 1,
         "phase": "gas",
@@ -493,7 +497,7 @@
         }
     },
     "li": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.006,
@@ -613,6 +617,13 @@
             "la": "Lithium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 0.98,
+            "sanderson": 0.98,
+            "allred": 0.97,
+            "mulliken": 0.97,
+            "allen": 0.912
+        },
         "number": 3,
         "period": 2,
         "phase": "solid",
@@ -665,7 +676,7 @@
         }
     },
     "be": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00053,
@@ -800,6 +811,13 @@
             "la": "Beryllium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.57,
+            "sanderson": 1.81,
+            "allred": 1.47,
+            "mulliken": 1.54,
+            "allen": 1.576
+        },
         "number": 4,
         "period": 2,
         "phase": "solid",
@@ -849,7 +867,7 @@
         }
     },
     "b": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0016,
@@ -956,6 +974,13 @@
             "la": "Boron"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 2.04,
+            "sanderson": 2.28,
+            "allred": 2.01,
+            "mulliken": 2.04,
+            "allen": 2.051
+        },
         "number": 5,
         "period": 2,
         "phase": "solid",
@@ -1008,7 +1033,7 @@
         }
     },
     "c": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.087,
@@ -1095,6 +1120,13 @@
             "la": "Carbo"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 2.55,
+            "sanderson": 2.75,
+            "allred": 2.5,
+            "mulliken": 2.48,
+            "allen": 2.544
+        },
         "number": 6,
         "period": 2,
         "phase": "solid",
@@ -1149,7 +1181,7 @@
         }
     },
     "n": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.03,
@@ -1235,6 +1267,13 @@
             "la": "Nitrogenium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 3.04,
+            "sanderson": 3.19,
+            "allred": 3.07,
+            "mulliken": 2.9,
+            "allen": 3.066
+        },
         "number": 7,
         "period": 2,
         "phase": "gas",
@@ -1283,7 +1322,7 @@
         }
     },
     "o": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 49400,
@@ -1389,6 +1428,13 @@
             "la": "Oxygenium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 3.44,
+            "sanderson": 3.65,
+            "allred": 3.5,
+            "mulliken": 3.41,
+            "allen": 3.61
+        },
         "number": 8,
         "period": 2,
         "phase": "gas",
@@ -1441,7 +1487,7 @@
         }
     },
     "f": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.028,
@@ -1557,6 +1603,13 @@
             "la": "Fluor"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 3.98,
+            "sanderson": 4,
+            "allred": 4.1,
+            "mulliken": 3.91,
+            "allen": 4.193
+        },
         "number": 9,
         "period": 2,
         "phase": "gas",
@@ -1601,7 +1654,7 @@
         }
     },
     "ne": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 5e-7,
@@ -1682,6 +1735,12 @@
             "la": "Neon"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "sanderson": 4.5,
+            "allred": 4.84,
+            "mulliken": 3.98,
+            "allen": 4.787
+        },
         "number": 10,
         "period": 2,
         "phase": "gas",
@@ -1720,7 +1779,7 @@
         }
     },
     "na": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2.64,
@@ -1844,6 +1903,13 @@
             "la": "Natrium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 0.93,
+            "sanderson": 0.56,
+            "allred": 1.01,
+            "mulliken": 0.91,
+            "allen": 0.869
+        },
         "number": 11,
         "period": 3,
         "phase": "solid",
@@ -1891,7 +1957,7 @@
         }
     },
     "mg": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.94,
@@ -2019,6 +2085,13 @@
             "la": "Magnesium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.31,
+            "sanderson": 1.32,
+            "allred": 1.23,
+            "mulliken": 1.37,
+            "allen": 1.293
+        },
         "number": 12,
         "period": 3,
         "phase": "solid",
@@ -2070,7 +2143,7 @@
         }
     },
     "al": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 7.57,
@@ -2187,6 +2260,13 @@
             "la": "Aluminium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.61,
+            "sanderson": 1.71,
+            "allred": 1.47,
+            "mulliken": 1.83,
+            "allen": 1.613
+        },
         "number": 13,
         "period": 3,
         "phase": "solid",
@@ -2237,7 +2317,7 @@
         }
     },
     "si": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 25800,
@@ -2323,6 +2403,13 @@
             "la": "Silicium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.9,
+            "sanderson": 2.14,
+            "allred": 1.74,
+            "mulliken": 2.28,
+            "allen": 1.916
+        },
         "number": 14,
         "period": 3,
         "phase": "solid",
@@ -2376,7 +2463,7 @@
         }
     },
     "p": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.09,
@@ -2499,6 +2586,13 @@
             "la": "Phosphor"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 2.19,
+            "sanderson": 2.52,
+            "allred": 2.06,
+            "mulliken": 2.3,
+            "allen": 2.253
+        },
         "number": 15,
         "period": 3,
         "phase": "solid",
@@ -2549,7 +2643,7 @@
         }
     },
     "s": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.048,
@@ -2649,6 +2743,13 @@
             "la": "Sulfur"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 2.58,
+            "sanderson": 2.96,
+            "allred": 2.44,
+            "mulliken": 2.69,
+            "allen": 2.589
+        },
         "number": 16,
         "period": 3,
         "phase": "solid",
@@ -2704,7 +2805,7 @@
         }
     },
     "cl": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.19,
@@ -2829,6 +2930,13 @@
             "la": "Chlorum"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 3.16,
+            "sanderson": 3.48,
+            "allred": 2.83,
+            "mulliken": 3.1,
+            "allen": 2.869
+        },
         "number": 17,
         "period": 3,
         "phase": "gas",
@@ -2878,7 +2986,7 @@
         }
     },
     "ar": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00036,
@@ -2959,6 +3067,12 @@
             "la": "Argon"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "sanderson": 3.31,
+            "allred": 3.2,
+            "mulliken": 3.19,
+            "allen": 3.242
+        },
         "number": 18,
         "period": 3,
         "phase": "gas",
@@ -3003,7 +3117,7 @@
         }
     },
     "k": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2.41,
@@ -3122,6 +3236,13 @@
             "la": "Kalium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 0.82,
+            "sanderson": 0.45,
+            "allred": 0.91,
+            "mulliken": 0.73,
+            "allen": 0.734
+        },
         "number": 19,
         "period": 4,
         "phase": "solid",
@@ -3169,7 +3290,7 @@
         }
     },
     "ca": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 3.39,
@@ -3294,6 +3415,13 @@
             "la": "Calcium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1,
+            "sanderson": 0.95,
+            "allred": 1.04,
+            "mulliken": 1.08,
+            "allen": 1.034
+        },
         "number": 20,
         "period": 4,
         "phase": "solid",
@@ -3345,7 +3473,7 @@
         }
     },
     "sc": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00051,
@@ -3453,6 +3581,11 @@
             "la": "Scandium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.36,
+            "sanderson": 1.02,
+            "allred": 1.2
+        },
         "number": 21,
         "period": 4,
         "phase": "solid",
@@ -3505,7 +3638,7 @@
         }
     },
     "ti": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.41,
@@ -3621,6 +3754,11 @@
             "la": "Titanum"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.54,
+            "sanderson": 1.09,
+            "allred": 1.32
+        },
         "number": 22,
         "period": 4,
         "phase": "solid",
@@ -3669,7 +3807,7 @@
         }
     },
     "v": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.041,
@@ -3768,6 +3906,11 @@
             "la": "Vanadium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.63,
+            "sanderson": 1.39,
+            "allred": 1.45
+        },
         "number": 23,
         "period": 4,
         "phase": "solid",
@@ -3817,7 +3960,7 @@
         }
     },
     "cr": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.019,
@@ -3916,6 +4059,11 @@
             "la": "Chromium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.66,
+            "sanderson": 1.66,
+            "allred": 1.56
+        },
         "number": 24,
         "period": 4,
         "phase": "solid",
@@ -3965,7 +4113,7 @@
         }
     },
     "mn": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.085,
@@ -4081,6 +4229,11 @@
             "la": "Manganum"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.55,
+            "sanderson": 2.2,
+            "allred": 1.6
+        },
         "number": 25,
         "period": 4,
         "phase": "solid",
@@ -4125,7 +4278,7 @@
         }
     },
     "fe": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4700,
@@ -4220,6 +4373,11 @@
             "la": "Ferrum"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.83,
+            "sanderson": 2.2,
+            "allred": 1.64
+        },
         "number": 26,
         "period": 4,
         "phase": "solid",
@@ -4273,7 +4431,7 @@
         }
     },
     "co": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0037,
@@ -4414,6 +4572,11 @@
             "la": "Cobaltum"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.88,
+            "sanderson": 2.56,
+            "allred": 1.7
+        },
         "number": 27,
         "period": 4,
         "phase": "solid",
@@ -4458,7 +4621,7 @@
         }
     },
     "ni": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.015,
@@ -4587,6 +4750,11 @@
             "la": "Niccolum"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.91,
+            "sanderson": 1.94,
+            "allred": 1.75
+        },
         "number": 28,
         "period": 4,
         "phase": "solid",
@@ -4635,7 +4803,7 @@
         }
     },
     "cu": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.01,
@@ -4747,6 +4915,12 @@
             "la": "Cuprum"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.9,
+            "sanderson": 1.98,
+            "allred": 1.75,
+            "mulliken": 1.49
+        },
         "number": 29,
         "period": 4,
         "phase": "solid",
@@ -4796,7 +4970,7 @@
         }
     },
     "zn": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.012,
@@ -4918,6 +5092,12 @@
             "la": "Zincum"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.65,
+            "sanderson": 2.23,
+            "allred": 1.66,
+            "mulliken": 1.65
+        },
         "number": 30,
         "period": 4,
         "phase": "solid",
@@ -4971,7 +5151,7 @@
         }
     },
     "ga": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0014,
@@ -5082,6 +5262,13 @@
             "la": "Gallium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.81,
+            "sanderson": 2.42,
+            "allred": 1.82,
+            "mulliken": 2.01,
+            "allen": 1.756
+        },
         "number": 31,
         "period": 4,
         "phase": "solid",
@@ -5132,7 +5319,7 @@
         }
     },
     "ge": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00056,
@@ -5224,6 +5411,13 @@
             "la": "Germanium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 2.01,
+            "sanderson": 2.62,
+            "allred": 2.02,
+            "mulliken": 2.33,
+            "allen": 1.994
+        },
         "number": 32,
         "period": 4,
         "phase": "solid",
@@ -5274,7 +5468,7 @@
         }
     },
     "as": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00055,
@@ -5387,6 +5581,13 @@
             "la": "Arsenicum"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 2.18,
+            "sanderson": 2.82,
+            "allred": 2.2,
+            "mulliken": 2.26,
+            "allen": 2.211
+        },
         "number": 33,
         "period": 4,
         "phase": "solid",
@@ -5439,7 +5640,7 @@
         }
     },
     "se": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00008,
@@ -5564,6 +5765,13 @@
             "la": "Selenum"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 2.55,
+            "sanderson": 3.01,
+            "allred": 2.48,
+            "mulliken": 2.6,
+            "allen": 2.424
+        },
         "number": 34,
         "period": 4,
         "phase": "solid",
@@ -5616,7 +5824,7 @@
         }
     },
     "br": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0006,
@@ -5730,6 +5938,13 @@
             "la": "Bromum"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 2.96,
+            "sanderson": 3.22,
+            "allred": 2.74,
+            "mulliken": 2.95,
+            "allen": 2.685
+        },
         "number": 35,
         "period": 4,
         "phase": "liquid",
@@ -5784,7 +5999,7 @@
         }
     },
     "kr": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00019,
@@ -5871,6 +6086,13 @@
             "la": "Krypton"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 3,
+            "sanderson": 2.91,
+            "allred": 2.94,
+            "mulliken": 3,
+            "allen": 2.966
+        },
         "number": 36,
         "period": 4,
         "phase": "gas",
@@ -5912,7 +6134,7 @@
         }
     },
     "rb": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0029,
@@ -6031,6 +6253,13 @@
             "la": "Rubidium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 0.82,
+            "sanderson": 0.31,
+            "allred": 0.89,
+            "mulliken": 0.69,
+            "allen": 0.706
+        },
         "number": 37,
         "period": 5,
         "phase": "solid",
@@ -6078,7 +6307,7 @@
         }
     },
     "sr": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.014,
@@ -6188,6 +6417,13 @@
             "la": "Strontium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 0.95,
+            "sanderson": 0.72,
+            "allred": 0.99,
+            "mulliken": 1,
+            "allen": 0.963
+        },
         "number": 38,
         "period": 5,
         "phase": "solid",
@@ -6239,7 +6475,7 @@
         }
     },
     "y": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0026,
@@ -6350,6 +6586,11 @@
             "la": "Yttrium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.22,
+            "sanderson": 0.65,
+            "allred": 1.11
+        },
         "number": 39,
         "period": 5,
         "phase": "solid",
@@ -6399,7 +6640,7 @@
         }
     },
     "zr": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.021,
@@ -6517,6 +6758,11 @@
             "la": "Zirconium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.33,
+            "sanderson": 0.9,
+            "allred": 1.22
+        },
         "number": 40,
         "period": 5,
         "phase": "solid",
@@ -6565,7 +6811,7 @@
         }
     },
     "nb": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0019,
@@ -6683,6 +6929,11 @@
             "la": "Niobium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.6,
+            "sanderson": 1.42,
+            "allred": 1.23
+        },
         "number": 41,
         "period": 5,
         "phase": "solid",
@@ -6732,7 +6983,7 @@
         }
     },
     "mo": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0014,
@@ -6831,6 +7082,11 @@
             "la": "Molybdenum"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 2.16,
+            "sanderson": 1.15,
+            "allred": 1.3
+        },
         "number": 42,
         "period": 5,
         "phase": "solid",
@@ -6881,7 +7137,7 @@
         }
     },
     "tc": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.2e-19,
@@ -6942,6 +7198,10 @@
             "la": "Technetium"
         },
         "natural_occurrence": "decay",
+        "negativity": {
+            "pauling": 1.9,
+            "allred": 1.36
+        },
         "number": 43,
         "period": 5,
         "phase": "solid",
@@ -6991,7 +7251,7 @@
         }
     },
     "ru": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000002,
@@ -7099,6 +7359,10 @@
             "la": "Ruthenium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 2.2,
+            "allred": 1.42
+        },
         "number": 44,
         "period": 5,
         "phase": "solid",
@@ -7149,7 +7413,7 @@
         }
     },
     "rh": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1e-7,
@@ -7263,6 +7527,10 @@
             "la": "Rhodium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 2.28,
+            "allred": 1.45
+        },
         "number": 45,
         "period": 5,
         "phase": "solid",
@@ -7314,7 +7582,7 @@
         }
     },
     "pd": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000011,
@@ -7432,6 +7700,10 @@
             "la": "Palladium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 2.2,
+            "allred": 1.35
+        },
         "number": 46,
         "period": 5,
         "phase": "solid",
@@ -7485,7 +7757,7 @@
         }
     },
     "ag": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000079,
@@ -7606,6 +7878,12 @@
             "la": "Argentum"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.93,
+            "sanderson": 1.83,
+            "allred": 1.42,
+            "mulliken": 1.47
+        },
         "number": 47,
         "period": 5,
         "phase": "solid",
@@ -7656,7 +7934,7 @@
         }
     },
     "cd": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00003,
@@ -7798,6 +8076,12 @@
             "la": "Cadmium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.69,
+            "sanderson": 1.98,
+            "allred": 1.46,
+            "mulliken": 1.53
+        },
         "number": 48,
         "period": 5,
         "phase": "solid",
@@ -7850,7 +8134,7 @@
         }
     },
     "in": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00001,
@@ -7959,6 +8243,13 @@
             "la": "Indium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.78,
+            "sanderson": 2.14,
+            "allred": 1.49,
+            "mulliken": 1.76,
+            "allen": 1.656
+        },
         "number": 49,
         "period": 5,
         "phase": "solid",
@@ -8011,7 +8302,7 @@
         }
     },
     "sn": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0035,
@@ -8102,6 +8393,13 @@
             "la": "Stannum"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.96,
+            "sanderson": 1.49,
+            "allred": 1.72,
+            "mulliken": 2.21,
+            "allen": 1.824
+        },
         "number": 50,
         "period": 5,
         "phase": "solid",
@@ -8156,7 +8454,7 @@
         }
     },
     "sb": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000065,
@@ -8264,6 +8562,13 @@
             "la": "Stibium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 2.05,
+            "sanderson": 2.46,
+            "allred": 1.82,
+            "mulliken": 2.12,
+            "allen": 1.984
+        },
         "number": 51,
         "period": 5,
         "phase": "solid",
@@ -8316,7 +8621,7 @@
         }
     },
     "te": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000001,
@@ -8435,6 +8740,13 @@
             "la": "Tellurium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 2.1,
+            "sanderson": 2.62,
+            "allred": 2.01,
+            "mulliken": 2.41,
+            "allen": 2.158
+        },
         "number": 52,
         "period": 5,
         "phase": "solid",
@@ -8488,7 +8800,7 @@
         }
     },
     "i": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000006,
@@ -8625,6 +8937,13 @@
             "la": "Iodum"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 2.66,
+            "sanderson": 2.78,
+            "allred": 2.21,
+            "mulliken": 2.74,
+            "allen": 2.359
+        },
         "number": 53,
         "period": 5,
         "phase": "solid",
@@ -8677,7 +8996,7 @@
         }
     },
     "xe": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 9e-10,
@@ -8778,6 +9097,13 @@
             "la": "Xenon"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 2.6,
+            "sanderson": 2.34,
+            "allred": 2.4,
+            "mulliken": 2.73,
+            "allen": 2.582
+        },
         "number": 54,
         "period": 5,
         "phase": "gas",
@@ -8820,7 +9146,7 @@
         }
     },
     "cs": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00065,
@@ -8939,6 +9265,12 @@
             "la": "Caesium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 0.79,
+            "sanderson": 0.22,
+            "allred": 0.86,
+            "mulliken": 0.62
+        },
         "number": 55,
         "period": 6,
         "phase": "solid",
@@ -8992,7 +9324,7 @@
         }
     },
     "ba": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.026,
@@ -9117,6 +9449,12 @@
             "la": "Barium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 0.89,
+            "sanderson": 0.68,
+            "allred": 0.97,
+            "mulliken": 0.88
+        },
         "number": 56,
         "period": 6,
         "phase": "solid",
@@ -9169,7 +9507,7 @@
         }
     },
     "la": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0017,
@@ -9287,6 +9625,10 @@
             "la": "Lanthanum"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.1,
+            "allred": 1.08
+        },
         "number": 57,
         "period": 6,
         "phase": "solid",
@@ -9332,7 +9674,7 @@
         }
     },
     "ce": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0043,
@@ -9455,6 +9797,10 @@
             "la": "Cerium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.12,
+            "allred": 1.08
+        },
         "number": 58,
         "period": 6,
         "phase": "solid",
@@ -9500,7 +9846,7 @@
         }
     },
     "pr": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00052,
@@ -9619,6 +9965,10 @@
             "la": "Praseodymium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.13,
+            "allred": 1.07
+        },
         "number": 59,
         "period": 6,
         "phase": "solid",
@@ -9665,7 +10015,7 @@
         }
     },
     "nd": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0022,
@@ -9785,6 +10135,10 @@
             "la": "Neodymium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.14,
+            "allred": 1.07
+        },
         "number": 60,
         "period": 6,
         "phase": "solid",
@@ -9830,7 +10184,7 @@
         }
     },
     "pm": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.5e-19,
@@ -9900,6 +10254,9 @@
             "la": "Promethium"
         },
         "natural_occurrence": "decay",
+        "negativity": {
+            "allred": 1.07
+        },
         "number": 61,
         "period": 6,
         "phase": "solid",
@@ -9942,7 +10299,7 @@
         }
     },
     "sm": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0006,
@@ -10062,6 +10419,10 @@
             "la": "Samarium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.17,
+            "allred": 1.07
+        },
         "number": 62,
         "period": 6,
         "phase": "solid",
@@ -10107,7 +10468,7 @@
         }
     },
     "eu": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000099,
@@ -10222,6 +10583,9 @@
             "la": "Europium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "allred": 1.01
+        },
         "number": 63,
         "period": 6,
         "phase": "solid",
@@ -10267,7 +10631,7 @@
         }
     },
     "gd": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00059,
@@ -10381,6 +10745,10 @@
             "la": "Gadolinium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.2,
+            "allred": 1.11
+        },
         "number": 64,
         "period": 6,
         "phase": "solid",
@@ -10426,7 +10794,7 @@
         }
     },
     "tb": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000085,
@@ -10524,6 +10892,9 @@
             "la": "Terbium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "allred": 1.1
+        },
         "number": 65,
         "period": 6,
         "phase": "solid",
@@ -10570,7 +10941,7 @@
         }
     },
     "dy": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00043,
@@ -10684,6 +11055,10 @@
             "la": "Dysprosium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.22,
+            "allred": 1.1
+        },
         "number": 66,
         "period": 6,
         "phase": "solid",
@@ -10729,7 +11104,7 @@
         }
     },
     "ho": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00011,
@@ -10843,6 +11218,10 @@
             "la": "Holmium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.23,
+            "allred": 1.1
+        },
         "number": 67,
         "period": 6,
         "phase": "solid",
@@ -10889,7 +11268,7 @@
         }
     },
     "er": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00023,
@@ -11003,6 +11382,10 @@
             "la": "Erbium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.24,
+            "allred": 1.11
+        },
         "number": 68,
         "period": 6,
         "phase": "solid",
@@ -11048,7 +11431,7 @@
         }
     },
     "tm": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000019,
@@ -11167,6 +11550,10 @@
             "la": "Thulium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.25,
+            "allred": 1.11
+        },
         "number": 69,
         "period": 6,
         "phase": "solid",
@@ -11213,7 +11600,7 @@
         }
     },
     "yb": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00025,
@@ -11337,6 +11724,9 @@
             "la": "Ytterbium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "allred": 1.06
+        },
         "number": 70,
         "period": 6,
         "phase": "solid",
@@ -11382,7 +11772,7 @@
         }
     },
     "lu": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00007,
@@ -11493,6 +11883,10 @@
             "la": "Lutetium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.27,
+            "allred": 1.14
+        },
         "number": 71,
         "period": 6,
         "phase": "solid",
@@ -11542,7 +11936,7 @@
         }
     },
     "hf": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00042,
@@ -11657,6 +12051,10 @@
             "la": "Hafnium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.3,
+            "allred": 1.23
+        },
         "number": 72,
         "period": 6,
         "phase": "solid",
@@ -11706,7 +12104,7 @@
         }
     },
     "ta": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0008,
@@ -11825,6 +12223,10 @@
             "la": "Tantalum"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.5,
+            "allred": 1.33
+        },
         "number": 73,
         "period": 6,
         "phase": "solid",
@@ -11874,7 +12276,7 @@
         }
     },
     "w": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0064,
@@ -11993,6 +12395,11 @@
             "la": "Wolframium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 2.36,
+            "sanderson": 0.98,
+            "allred": 1.4
+        },
         "number": 74,
         "period": 6,
         "phase": "solid",
@@ -12044,7 +12451,7 @@
         }
     },
     "re": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1e-7,
@@ -12159,6 +12566,10 @@
             "la": "Rhenium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.9,
+            "allred": 1.46
+        },
         "number": 75,
         "period": 6,
         "phase": "solid",
@@ -12207,7 +12618,7 @@
         }
     },
     "os": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000001,
@@ -12316,6 +12727,10 @@
             "la": "Osmium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 2.2,
+            "allred": 1.52
+        },
         "number": 76,
         "period": 6,
         "phase": "solid",
@@ -12367,7 +12782,7 @@
         }
     },
     "ir": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1e-7,
@@ -12480,6 +12895,10 @@
             "la": "Iridium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 2.2,
+            "allred": 1.55
+        },
         "number": 77,
         "period": 6,
         "phase": "solid",
@@ -12531,7 +12950,7 @@
         }
     },
     "pt": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 5e-7,
@@ -12626,6 +13045,10 @@
             "la": "Platinum"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 2.28,
+            "allred": 1.44
+        },
         "number": 78,
         "period": 6,
         "phase": "solid",
@@ -12677,7 +13100,7 @@
         }
     },
     "au": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4e-7,
@@ -12772,6 +13195,11 @@
             "la": "Aurum"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 2.54,
+            "allred": 1.42,
+            "mulliken": 1.87
+        },
         "number": 79,
         "period": 6,
         "phase": "solid",
@@ -12824,7 +13252,7 @@
         }
     },
     "hg": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00004,
@@ -12948,6 +13376,12 @@
             "la": "Hydrargyrion"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 2,
+            "sanderson": 2.2,
+            "allred": 1.44,
+            "mulliken": 1.81
+        },
         "number": 80,
         "period": 6,
         "phase": "liquid",
@@ -13003,7 +13437,7 @@
         }
     },
     "tl": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000029,
@@ -13128,6 +13562,12 @@
             "la": "Thallium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.62,
+            "sanderson": 2.25,
+            "allred": 1.44,
+            "mulliken": 1.96
+        },
         "number": 81,
         "period": 6,
         "phase": "solid",
@@ -13184,7 +13624,7 @@
         }
     },
     "pb": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0018,
@@ -13314,6 +13754,12 @@
             "la": "Plumbum"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 2.33,
+            "sanderson": 2.29,
+            "allred": 1.55,
+            "mulliken": 2.41
+        },
         "number": 82,
         "period": 6,
         "phase": "solid",
@@ -13372,7 +13818,7 @@
         }
     },
     "bi": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00002,
@@ -13484,6 +13930,12 @@
             "la": "Bismutum"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 2.02,
+            "sanderson": 2.34,
+            "allred": 1.67,
+            "mulliken": 2.15
+        },
         "number": 83,
         "period": 6,
         "phase": "solid",
@@ -13541,7 +13993,7 @@
         }
     },
     "po": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2.1e-15,
@@ -13606,6 +14058,11 @@
             "la": "Polonium"
         },
         "natural_occurrence": "decay",
+        "negativity": {
+            "pauling": 2,
+            "allred": 1.76,
+            "mulliken": 2.48
+        },
         "number": 84,
         "period": 6,
         "phase": "solid",
@@ -13653,7 +14110,7 @@
         }
     },
     "at": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 3e-25,
@@ -13700,6 +14157,11 @@
             "la": "Astaton"
         },
         "natural_occurrence": "decay",
+        "negativity": {
+            "pauling": 2.2,
+            "allred": 1.9,
+            "mulliken": 2.85
+        },
         "number": 85,
         "period": 6,
         "phase": "solid",
@@ -13734,7 +14196,7 @@
         }
     },
     "rn": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 6.1e-15,
@@ -13798,6 +14260,9 @@
             "la": "Radon"
         },
         "natural_occurrence": "decay",
+        "negativity": {
+            "mulliken": 2.59
+        },
         "number": 86,
         "period": 6,
         "phase": "gas",
@@ -13839,7 +14304,7 @@
         }
     },
     "fr": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.3e-22,
@@ -13886,6 +14351,11 @@
             "la": "Francium"
         },
         "natural_occurrence": "decay",
+        "negativity": {
+            "pauling": 0.7,
+            "allred": 0.86,
+            "mulliken": 0.68
+        },
         "number": 87,
         "period": 7,
         "phase": "solid",
@@ -13927,7 +14397,7 @@
         }
     },
     "ra": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 9.5e-15,
@@ -13994,6 +14464,11 @@
             "la": "Radium"
         },
         "natural_occurrence": "decay",
+        "negativity": {
+            "pauling": 0.9,
+            "allred": 0.97,
+            "mulliken": 0.92
+        },
         "number": 88,
         "period": 7,
         "phase": "solid",
@@ -14034,7 +14509,7 @@
         }
     },
     "ac": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 6e-18,
@@ -14090,6 +14565,10 @@
             "la": "Actinium"
         },
         "natural_occurrence": "decay",
+        "negativity": {
+            "pauling": 1.1,
+            "allred": 1
+        },
         "number": 89,
         "period": 7,
         "phase": "solid",
@@ -14125,7 +14604,7 @@
         }
     },
     "th": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0011,
@@ -14224,6 +14703,10 @@
             "la": "Thorium"
         },
         "natural_occurrence": "decay",
+        "negativity": {
+            "pauling": 1.3,
+            "allred": 1.11
+        },
         "number": 90,
         "period": 7,
         "phase": "solid",
@@ -14273,7 +14756,7 @@
         }
     },
     "pa": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0009,
@@ -14340,6 +14823,10 @@
             "la": "Protactinium"
         },
         "natural_occurrence": "decay",
+        "negativity": {
+            "pauling": 1.5,
+            "allred": 1.14
+        },
         "number": 91,
         "period": 7,
         "phase": "solid",
@@ -14387,7 +14874,7 @@
         }
     },
     "u": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00032,
@@ -14513,6 +15000,10 @@
             "la": "Uranium"
         },
         "natural_occurrence": "primordial",
+        "negativity": {
+            "pauling": 1.38,
+            "allred": 1.22
+        },
         "number": 92,
         "period": 7,
         "phase": "solid",
@@ -14565,7 +15056,7 @@
         }
     },
     "np": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4e-18,
@@ -14624,6 +15115,10 @@
             "la": "Neptunium"
         },
         "natural_occurrence": "decay",
+        "negativity": {
+            "pauling": 1.36,
+            "allred": 1.22
+        },
         "number": 93,
         "period": 7,
         "phase": "solid",
@@ -14663,7 +15158,7 @@
         }
     },
     "pu": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2e-19,
@@ -14735,6 +15230,10 @@
             "la": "Plutonium"
         },
         "natural_occurrence": "decay",
+        "negativity": {
+            "pauling": 1.28,
+            "allred": 1.22
+        },
         "number": 94,
         "period": 7,
         "phase": "solid",
@@ -14776,7 +15275,7 @@
         }
     },
     "am": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "appearance": {
             "en": "silvery white",
             "de": "silbrig-weißes Metall"
@@ -14826,6 +15325,10 @@
             "la": "Americium"
         },
         "natural_occurrence": "synthetic",
+        "negativity": {
+            "pauling": 1.3,
+            "allred": 1.2
+        },
         "number": 95,
         "period": 7,
         "phase": "solid",
@@ -14870,7 +15373,7 @@
         }
     },
     "cm": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "appearance": {
             "en": "silvery metallic, glows purple in the dark",
             "de": "silbrig-weißes Metall"
@@ -14907,6 +15410,10 @@
             "la": "Curium"
         },
         "natural_occurrence": "synthetic",
+        "negativity": {
+            "pauling": 1.3,
+            "allred": 1.2
+        },
         "number": 96,
         "period": 7,
         "phase": "solid",
@@ -14947,7 +15454,7 @@
         }
     },
     "bk": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "appearance": {
             "en": "silvery",
             "de": "silberweiß"
@@ -14989,6 +15496,10 @@
             "la": "Berkelium"
         },
         "natural_occurrence": "synthetic",
+        "negativity": {
+            "pauling": 1.3,
+            "allred": 1.2
+        },
         "number": 97,
         "period": 7,
         "phase": "solid",
@@ -15024,7 +15535,7 @@
         }
     },
     "cf": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "appearance": {
             "en": "silvery",
             "de": "silbriges Metall"
@@ -15065,6 +15576,10 @@
             "la": "Californium"
         },
         "natural_occurrence": "synthetic",
+        "negativity": {
+            "pauling": 1.3,
+            "allred": 1.2
+        },
         "number": 98,
         "period": 7,
         "phase": "solid",
@@ -15094,7 +15609,7 @@
         }
     },
     "es": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "appearance": {
             "en": "silvery; glows blue in the dark"
         },
@@ -15134,6 +15649,10 @@
             "la": "Einsteinium"
         },
         "natural_occurrence": "synthetic",
+        "negativity": {
+            "pauling": 1.3,
+            "allred": 1.2
+        },
         "number": 99,
         "period": 7,
         "phase": "solid",
@@ -15163,7 +15682,7 @@
         }
     },
     "fm": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "atomic_mass": {
             "value": 257.0951,
             "*": true,
@@ -15196,6 +15715,10 @@
             "la": "Fermium"
         },
         "natural_occurrence": "synthetic",
+        "negativity": {
+            "pauling": 1.3,
+            "allred": 1.2
+        },
         "number": 100,
         "period": 7,
         "phase": "solid",
@@ -15224,7 +15747,7 @@
         }
     },
     "md": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "atomic_mass": {
             "value": 258,
             "*": true,
@@ -15257,6 +15780,10 @@
             "la": "Mendelevium"
         },
         "natural_occurrence": "synthetic",
+        "negativity": {
+            "pauling": 1.3,
+            "allred": 1.2
+        },
         "number": 101,
         "period": 7,
         "phase": "solid",
@@ -15285,7 +15812,7 @@
         }
     },
     "no": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-11T23:38:25.362Z",
         "atomic_mass": {
             "value": 259,
             "*": true,
@@ -15318,6 +15845,10 @@
             "la": "Nobelium"
         },
         "natural_occurrence": "synthetic",
+        "negativity": {
+            "pauling": 1.3,
+            "allred": 1.2
+        },
         "number": 102,
         "period": 7,
         "phase": "solid",
