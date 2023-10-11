@@ -71,6 +71,10 @@ site:
       key: elastic.poisson
       label: poisson-elastic
       scheme: _ice
+    sc_temp:
+      key: sc_temp
+      label: sc_temp
+      scheme: _fire
   props: [
     radioactive, natural, native, vital, mononuclidic, stable, noble, semiconductor,
     light, heavy, rare, platinum, refractory, artificial, synthetic, antiquity

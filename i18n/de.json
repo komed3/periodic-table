@@ -383,6 +383,7 @@
 	"rigidity-elastic-description": "Der Schubmodul ist ein in GPa angegebener Indikator für die linear-elastische Verformung eines Bauteils infolge einer Scherkraft oder Schubspannung.",
 	"sanderson-negativity": "Sanderson-Skala",
 	"sc_temp": "Sprungtemperatur",
+	"sc_temp-description": "Unterhalb der Sprungtemperatur (auch als kritische Temperatur bezeichnet) wird der Stoff von quantenmechanischen Effekten dominiert und erhält supraleitende Eigenschaften.",
 	"scale-title": "Skala: %s",
 	"search-description": "search-description",
 	"search-placeholder": "Suchen …",
