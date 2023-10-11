@@ -24,6 +24,7 @@
     font-weight: bold;
     color: var( --color, var( --color-main ) );
     background: var( --bg, var( --gray-0 ) );
+    transform: scale( var( --sf, 1 ) );
 }
 
 .pt-periodic-table-item .element--number {

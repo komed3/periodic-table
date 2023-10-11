@@ -133,6 +133,8 @@ body[theme="dark"] {
     --bg: var( --pt-or-5 );
 }
 
+[layer="_fire"] .pt-el[prop="0"],
+[layer="_fire"] .pt-el[prop="1"],
 [layer="set"] .pt-el[prop="transitionmetal"],
 [layer="block"] .pt-el[prop="f"],
 [layer="crystal_structure"] .pt-el[prop="hcp"],
@@ -140,6 +142,11 @@ body[theme="dark"] {
     --bg: var( --pt-re-1 );
 }
 
+[layer="_fire"] .pt-el[prop="2"] {
+    --bg: var( --pt-re-2 );
+}
+
+[layer="_fire"] .pt-el[prop="3"],
 [layer="group"] .pt-el[prop="3"],
 [layer="group"] .pt-el[prop="4"],
 [layer="group"] .pt-el[prop="5"],
@@ -160,13 +167,32 @@ body[theme="dark"] {
     --bg: var( --pt-re-3 );
 }
 
+[layer="_fire"] .pt-el[prop="4"] {
+    --bg: var( --pt-re-4 );
+}
+
+[layer="_fire"] .pt-el[prop="5"],
 [layer="crystal_structure"] .pt-el[prop="dhcp"],
 [layer="basicity"] .pt-el[prop="acidic"] {
     --bg: var( --pt-re-5 );
 }
 
+[layer="_fire"] .pt-el[prop="6"] {
+    --bg: var( --pt-re-6 );
+}
+
+[layer="_fire"] .pt-el[prop="7"],
 [layer="basicity"] .pt-el[prop="strongly-acidic"] {
     --bg: var( --pt-re-7 );
+}
+
+[layer="_fire"] .pt-el[prop="8"] {
+    --bg: var( --pt-re-8 );
+}
+
+[layer="_fire"] .pt-el[prop="9"],
+[layer="_fire"] .pt-el[prop="10"] {
+    --bg: var( --pt-re-9 );
 }
 
 [layer="group"] .pt-el[prop="19"],
@@ -310,6 +336,18 @@ body[theme="dark"] {
 }
 
 /**
+ * scale factor
+ */
+
+@for $i from 0 through 10 {
+
+    [type="scale"] .pt-el[prop="#{$i}"] {
+        --sf: calc( ( #{$i} * 0.04 ) + 0.6 );
+    }
+
+}
+
+/**
  * globally css rules for table / list elements
  */
 
@@ -340,7 +378,9 @@ body[theme="dark"] {
 
 [type="scale"] .pt-el[prop="undefined"] {
     --bg: transparent;
-    opacity: 0.25;
+    pointer-events: none;
+    opacity: 0.1;
+    filter: blur( 2px );
 }
 
 .pt-el.radioactive[prop="undefined"] {

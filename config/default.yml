@@ -15,6 +15,22 @@ site:
     radioactivity, crystal_structure, magnetic_ordering, superconductivity
   ]
   scales:
+    radius_empirical:
+      key: radius.empirical
+      label: empirical-radius
+      scheme: _fire
+    radius_calculated:
+      key: radius.calculated
+      label: calculated-radius
+      scheme: _fire
+    radius_covalent:
+      key: radius.covalent
+      label: covalent-radius
+      scheme: _fire
+    radius_vdw:
+      key: radius.vdw
+      label: vdw-radius
+      scheme: _fire
     hardness_mohs:
       key: hardness.mohs
       label: mohs-hardness
