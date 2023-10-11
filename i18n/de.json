@@ -7,6 +7,7 @@
 	"allred-negativity": "Allred-Rochow-Skala",
 	"appearance": "Aussehen",
 	"atomic-mass": "Atommasse",
+	"atomic-mass-description": "Standardatomgewicht als dimensionsloses arithmetisches Mittel der relativen Massen aller Isotope eines Elements, gewichtet mit deren Häufigkeit auf der Erde.",
 	"basicity-alkaline": "basisch",
 	"basicity-alkaline-description": "Elemente reagieren basisch.",
 	"basicity-amphoterism": "amphoter",

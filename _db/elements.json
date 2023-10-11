@@ -34,8 +34,7 @@
             "range": [
                 1.00784,
                 1.00811
-            ],
-            "unit": "u"
+            ]
         },
         "basicity": "amphoterism",
         "block": "s",
@@ -380,8 +379,7 @@
         },
         "atomic_mass": {
             "value": 4.002602,
-            "deviation": 0.000002,
-            "unit": "u"
+            "deviation": 0.000002
         },
         "block": "s",
         "classification": {
@@ -521,8 +519,7 @@
             "range": [
                 6.938,
                 6.997
-            ],
-            "unit": "u"
+            ]
         },
         "basicity": "strongly-alkaline",
         "block": "s",
@@ -686,8 +683,7 @@
         },
         "atomic_mass": {
             "value": 9.0121831,
-            "deviation": 5e-7,
-            "unit": "u"
+            "deviation": 5e-7
         },
         "basicity": "amphoterism",
         "block": "s",
@@ -871,8 +867,7 @@
             "range": [
                 10.806,
                 10.821
-            ],
-            "unit": "u"
+            ]
         },
         "basicity": "slightly-acidic",
         "block": "p",
@@ -1027,8 +1022,7 @@
             "range": [
                 12.0096,
                 12.0116
-            ],
-            "unit": "u"
+            ]
         },
         "basicity": "slightly-acidic",
         "block": "p",
@@ -1165,8 +1159,7 @@
             "range": [
                 14.00643,
                 14.00728
-            ],
-            "unit": "u"
+            ]
         },
         "basicity": "strongly-acidic",
         "block": "p",
@@ -1296,8 +1289,7 @@
             "range": [
                 15.99903,
                 15.99977
-            ],
-            "unit": "u"
+            ]
         },
         "block": "p",
         "classification": {
@@ -1447,8 +1439,7 @@
         },
         "atomic_mass": {
             "value": 18.99840316,
-            "deviation": 5e-9,
-            "unit": "u"
+            "deviation": 5e-9
         },
         "basicity": "strongly-acidic",
         "block": "p",
@@ -1600,8 +1591,7 @@
         },
         "atomic_mass": {
             "value": 20.1797,
-            "deviation": 0.0006,
-            "unit": "u"
+            "deviation": 0.0006
         },
         "block": "p",
         "classification": {
@@ -1720,8 +1710,7 @@
         },
         "atomic_mass": {
             "value": 22.98976928,
-            "deviation": 2e-8,
-            "unit": "u"
+            "deviation": 2e-8
         },
         "basicity": "strongly-alkaline",
         "block": "s",
@@ -1892,8 +1881,7 @@
             "range": [
                 24.304,
                 24.307
-            ],
-            "unit": "u"
+            ]
         },
         "basicity": "moderately-alkaline",
         "block": "s",
@@ -2064,8 +2052,7 @@
         },
         "atomic_mass": {
             "value": 26.9815384,
-            "deviation": 3e-7,
-            "unit": "u"
+            "deviation": 3e-7
         },
         "basicity": "amphoterism",
         "block": "p",
@@ -2232,8 +2219,7 @@
             "range": [
                 28.084,
                 28.086
-            ],
-            "unit": "u"
+            ]
         },
         "basicity": "amphoterism",
         "block": "p",
@@ -2364,8 +2350,7 @@
         },
         "atomic_mass": {
             "value": 30.973762,
-            "deviation": 5e-9,
-            "unit": "u"
+            "deviation": 5e-9
         },
         "basicity": "slightly-acidic",
         "block": "p",
@@ -2538,8 +2523,7 @@
             "range": [
                 32.059,
                 32.076
-            ],
-            "unit": "u"
+            ]
         },
         "basicity": "strongly-acidic",
         "block": "p",
@@ -2690,8 +2674,7 @@
             "range": [
                 35.446,
                 35.457
-            ],
-            "unit": "u"
+            ]
         },
         "basicity": "strongly-acidic",
         "block": "p",
@@ -2857,8 +2840,7 @@
             "range": [
                 39.792,
                 39.963
-            ],
-            "unit": "u"
+            ]
         },
         "block": "p",
         "classification": {
@@ -2979,8 +2961,7 @@
         },
         "atomic_mass": {
             "value": 39.0983,
-            "deviation": 0.0001,
-            "unit": "u"
+            "deviation": 0.0001
         },
         "basicity": "strongly-alkaline",
         "block": "s",
@@ -3142,8 +3123,7 @@
         },
         "atomic_mass": {
             "value": 40.078,
-            "deviation": 0.004,
-            "unit": "u"
+            "deviation": 0.004
         },
         "basicity": "strongly-alkaline",
         "block": "s",
@@ -3315,8 +3295,7 @@
         },
         "atomic_mass": {
             "value": 44.955907,
-            "deviation": 0.000004,
-            "unit": "u"
+            "deviation": 0.000004
         },
         "basicity": "slightly-alkaline",
         "block": "d",
@@ -3472,8 +3451,7 @@
         },
         "atomic_mass": {
             "value": 47.867,
-            "deviation": 0.001,
-            "unit": "u"
+            "deviation": 0.001
         },
         "basicity": "amphoterism",
         "block": "d",
@@ -3633,8 +3611,7 @@
         },
         "atomic_mass": {
             "value": 50.9415,
-            "deviation": 0.0001,
-            "unit": "u"
+            "deviation": 0.0001
         },
         "basicity": "amphoterism",
         "block": "d",
@@ -3778,8 +3755,7 @@
         },
         "atomic_mass": {
             "value": 51.9961,
-            "deviation": 0.0006,
-            "unit": "u"
+            "deviation": 0.0006
         },
         "basicity": "strongly-acidic",
         "block": "d",
@@ -3923,8 +3899,7 @@
         },
         "atomic_mass": {
             "value": 54.938043,
-            "deviation": 0.000002,
-            "unit": "u"
+            "deviation": 0.000002
         },
         "basicity": "strongly-acidic",
         "block": "d",
@@ -4080,8 +4055,7 @@
         },
         "atomic_mass": {
             "value": 55.845,
-            "deviation": 0.002,
-            "unit": "u"
+            "deviation": 0.002
         },
         "basicity": "amphoterism",
         "block": "d",
@@ -4225,8 +4199,7 @@
         },
         "atomic_mass": {
             "value": 58.933194,
-            "deviation": 0.000003,
-            "unit": "u"
+            "deviation": 0.000003
         },
         "basicity": "neutral",
         "block": "d",
@@ -4407,8 +4380,7 @@
         },
         "atomic_mass": {
             "value": 58.6934,
-            "deviation": 0.0004,
-            "unit": "u"
+            "deviation": 0.0004
         },
         "basicity": "slightly-alkaline",
         "block": "d",
@@ -4581,8 +4553,7 @@
         },
         "atomic_mass": {
             "value": 63.546,
-            "deviation": 0.003,
-            "unit": "u"
+            "deviation": 0.003
         },
         "basicity": "slightly-alkaline",
         "block": "d",
@@ -4739,8 +4710,7 @@
         },
         "atomic_mass": {
             "value": 65.38,
-            "deviation": 0.02,
-            "unit": "u"
+            "deviation": 0.02
         },
         "basicity": "amphoterism",
         "block": "d",
@@ -4911,8 +4881,7 @@
         },
         "atomic_mass": {
             "value": 69.723,
-            "deviation": 0.001,
-            "unit": "u"
+            "deviation": 0.001
         },
         "basicity": "amphoterism",
         "block": "p",
@@ -5069,8 +5038,7 @@
         },
         "atomic_mass": {
             "value": 72.63,
-            "deviation": 0.008,
-            "unit": "u"
+            "deviation": 0.008
         },
         "basicity": "amphoterism",
         "block": "p",
@@ -5208,8 +5176,7 @@
         },
         "atomic_mass": {
             "value": 74.921595,
-            "deviation": 0.000006,
-            "unit": "u"
+            "deviation": 0.000006
         },
         "basicity": "amphoterism",
         "block": "p",
@@ -5370,8 +5337,7 @@
         },
         "atomic_mass": {
             "value": 78.971,
-            "deviation": 0.008,
-            "unit": "u"
+            "deviation": 0.008
         },
         "basicity": "strongly-acidic",
         "block": "p",
@@ -5548,8 +5514,7 @@
             "range": [
                 79.901,
                 79.907
-            ],
-            "unit": "u"
+            ]
         },
         "basicity": "strongly-acidic",
         "block": "p",
@@ -5705,8 +5670,7 @@
         },
         "atomic_mass": {
             "value": 83.798,
-            "deviation": 0.002,
-            "unit": "u"
+            "deviation": 0.002
         },
         "block": "p",
         "classification": {
@@ -5834,8 +5798,7 @@
         },
         "atomic_mass": {
             "value": 85.4678,
-            "deviation": 0.0003,
-            "unit": "u"
+            "deviation": 0.0003
         },
         "basicity": "strongly-alkaline",
         "block": "s",
@@ -5997,8 +5960,7 @@
         },
         "atomic_mass": {
             "value": 87.62,
-            "deviation": 0.01,
-            "unit": "u"
+            "deviation": 0.01
         },
         "basicity": "strongly-alkaline",
         "block": "s",
@@ -6155,8 +6117,7 @@
         },
         "atomic_mass": {
             "value": 88.905838,
-            "deviation": 0.000002,
-            "unit": "u"
+            "deviation": 0.000002
         },
         "basicity": "slightly-alkaline",
         "block": "d",
@@ -6312,8 +6273,7 @@
         },
         "atomic_mass": {
             "value": 91.224,
-            "deviation": 0.002,
-            "unit": "u"
+            "deviation": 0.002
         },
         "basicity": "amphoterism",
         "block": "d",
@@ -6475,8 +6435,7 @@
         },
         "atomic_mass": {
             "value": 92.90637,
-            "deviation": 0.00001,
-            "unit": "u"
+            "deviation": 0.00001
         },
         "basicity": "slightly-acidic",
         "block": "d",
@@ -6639,8 +6598,7 @@
         },
         "atomic_mass": {
             "value": 95.95,
-            "deviation": 0.01,
-            "unit": "u"
+            "deviation": 0.01
         },
         "basicity": "strongly-acidic",
         "block": "d",
@@ -6891,8 +6849,7 @@
         },
         "atomic_mass": {
             "value": 101.07,
-            "deviation": 0.02,
-            "unit": "u"
+            "deviation": 0.02
         },
         "basicity": "slightly-acidic",
         "block": "d",
@@ -7041,9 +6998,8 @@
             "de": "silbrig weiß metallisch"
         },
         "atomic_mass": {
-            "value": 10290549,
-            "deviation": 0.00002,
-            "unit": "u"
+            "value": 102.90549,
+            "deviation": 0.00002
         },
         "basicity": "amphoterism",
         "block": "d",
@@ -7204,8 +7160,7 @@
         },
         "atomic_mass": {
             "value": 106.42,
-            "deviation": 0.01,
-            "unit": "u"
+            "deviation": 0.01
         },
         "basicity": "slightly-alkaline",
         "block": "d",
@@ -7376,8 +7331,7 @@
         },
         "atomic_mass": {
             "value": 107.8682,
-            "deviation": 0.0002,
-            "unit": "u"
+            "deviation": 0.0002
         },
         "basicity": "amphoterism",
         "block": "d",
@@ -7544,8 +7498,7 @@
         },
         "atomic_mass": {
             "value": 112.414,
-            "deviation": 0.004,
-            "unit": "u"
+            "deviation": 0.004
         },
         "basicity": "slightly-alkaline",
         "block": "d",
@@ -7735,8 +7688,7 @@
         },
         "atomic_mass": {
             "value": 114.818,
-            "deviation": 0.001,
-            "unit": "u"
+            "deviation": 0.001
         },
         "basicity": "amphoterism",
         "block": "p",
@@ -7893,8 +7845,7 @@
         },
         "atomic_mass": {
             "value": 118.71,
-            "deviation": 0.007,
-            "unit": "u"
+            "deviation": 0.007
         },
         "basicity": "amphoterism",
         "block": "p",
@@ -8035,8 +7986,7 @@
         },
         "atomic_mass": {
             "value": 121.76,
-            "deviation": 0.001,
-            "unit": "u"
+            "deviation": 0.001
         },
         "basicity": "slightly-acidic",
         "block": "p",
@@ -8188,8 +8138,7 @@
         },
         "atomic_mass": {
             "value": 127.6,
-            "deviation": 0.03,
-            "unit": "u"
+            "deviation": 0.03
         },
         "basicity": "slightly-acidic",
         "block": "p",
@@ -8361,8 +8310,7 @@
         },
         "atomic_mass": {
             "value": 126.90447,
-            "deviation": 0.00003,
-            "unit": "u"
+            "deviation": 0.00003
         },
         "basicity": "strongly-acidic",
         "block": "p",
@@ -8543,8 +8491,7 @@
         },
         "atomic_mass": {
             "value": 131.293,
-            "deviation": 0.006,
-            "unit": "u"
+            "deviation": 0.006
         },
         "basicity": "slightly-acidic",
         "block": "p",
@@ -8687,8 +8634,7 @@
         },
         "atomic_mass": {
             "value": 132.905452,
-            "deviation": 6e-8,
-            "unit": "u"
+            "deviation": 6e-8
         },
         "basicity": "strongly-alkaline",
         "block": "s",
@@ -8856,8 +8802,7 @@
         },
         "atomic_mass": {
             "value": 137.327,
-            "deviation": 0.007,
-            "unit": "u"
+            "deviation": 0.007
         },
         "basicity": "alkaline",
         "block": "s",
@@ -9030,8 +8975,7 @@
         },
         "atomic_mass": {
             "value": 138.90547,
-            "deviation": 0.00007,
-            "unit": "u"
+            "deviation": 0.00007
         },
         "basicity": "slightly-alkaline",
         "block": "d",
@@ -9190,8 +9134,7 @@
         },
         "atomic_mass": {
             "value": 140.116,
-            "deviation": 0.001,
-            "unit": "u"
+            "deviation": 0.001
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -9355,8 +9298,7 @@
         },
         "atomic_mass": {
             "value": 140.90766,
-            "deviation": 0.00001,
-            "unit": "u"
+            "deviation": 0.00001
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -9517,8 +9459,7 @@
         },
         "atomic_mass": {
             "value": 144.242,
-            "deviation": 0.003,
-            "unit": "u"
+            "deviation": 0.003
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -9788,8 +9729,7 @@
         },
         "atomic_mass": {
             "value": 150.36,
-            "deviation": 0.02,
-            "unit": "u"
+            "deviation": 0.02
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -9950,8 +9890,7 @@
         },
         "atomic_mass": {
             "value": 151.964,
-            "deviation": 0.001,
-            "unit": "u"
+            "deviation": 0.001
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -10107,8 +10046,7 @@
         },
         "atomic_mass": {
             "value": 157.25,
-            "deviation": 0.03,
-            "unit": "u"
+            "deviation": 0.03
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -10263,8 +10201,7 @@
         },
         "atomic_mass": {
             "value": 158.925354,
-            "deviation": 0.000007,
-            "unit": "u"
+            "deviation": 0.000007
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -10404,8 +10341,7 @@
         },
         "atomic_mass": {
             "value": 162.5,
-            "deviation": 0.001,
-            "unit": "u"
+            "deviation": 0.001
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -10560,8 +10496,7 @@
         },
         "atomic_mass": {
             "value": 164.930329,
-            "deviation": 0.000005,
-            "unit": "u"
+            "deviation": 0.000005
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -10717,8 +10652,7 @@
         },
         "atomic_mass": {
             "value": 167.259,
-            "deviation": 0.003,
-            "unit": "u"
+            "deviation": 0.003
         },
         "basicity": "alkaline",
         "block": "f",
@@ -10873,8 +10807,7 @@
         },
         "atomic_mass": {
             "value": 168.934219,
-            "deviation": 0.000005,
-            "unit": "u"
+            "deviation": 0.000005
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -11035,8 +10968,7 @@
         },
         "atomic_mass": {
             "value": 173.045,
-            "deviation": 0.01,
-            "unit": "u"
+            "deviation": 0.01
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -11201,8 +11133,7 @@
         },
         "atomic_mass": {
             "value": 174.9668,
-            "deviation": 0.0001,
-            "unit": "u"
+            "deviation": 0.0001
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -11358,8 +11289,7 @@
         },
         "atomic_mass": {
             "value": 178.486,
-            "deviation": 0.006,
-            "unit": "u"
+            "deviation": 0.006
         },
         "basicity": "amphoterism",
         "block": "d",
@@ -11519,8 +11449,7 @@
         },
         "atomic_mass": {
             "value": 180.94788,
-            "deviation": 0.00002,
-            "unit": "u"
+            "deviation": 0.00002
         },
         "basicity": "slightly-acidic",
         "block": "d",
@@ -11684,8 +11613,7 @@
         },
         "atomic_mass": {
             "value": 183.84,
-            "deviation": 0.01,
-            "unit": "u"
+            "deviation": 0.01
         },
         "basicity": "slightly-acidic",
         "block": "d",
@@ -11851,8 +11779,7 @@
         },
         "atomic_mass": {
             "value": 186.207,
-            "deviation": 0.001,
-            "unit": "u"
+            "deviation": 0.001
         },
         "basicity": "slightly-acidic",
         "block": "d",
@@ -12007,8 +11934,7 @@
         },
         "atomic_mass": {
             "value": 190.23,
-            "deviation": 0.03,
-            "unit": "u"
+            "deviation": 0.03
         },
         "basicity": "slightly-acidic",
         "block": "d",
@@ -12164,8 +12090,7 @@
         },
         "atomic_mass": {
             "value": 192.217,
-            "deviation": 0.002,
-            "unit": "u"
+            "deviation": 0.002
         },
         "basicity": "slightly-alkaline",
         "block": "d",
@@ -12325,8 +12250,7 @@
         },
         "atomic_mass": {
             "value": 195.084,
-            "deviation": 0.009,
-            "unit": "u"
+            "deviation": 0.009
         },
         "basicity": "slightly-alkaline",
         "block": "d",
@@ -12472,8 +12396,7 @@
         },
         "atomic_mass": {
             "value": 196.96657,
-            "deviation": 0.000004,
-            "unit": "u"
+            "deviation": 0.000004
         },
         "basicity": "amphoterism",
         "block": "d",
@@ -12616,8 +12539,7 @@
         },
         "atomic_mass": {
             "value": 200.592,
-            "deviation": 0.003,
-            "unit": "u"
+            "deviation": 0.003
         },
         "basicity": "slightly-alkaline",
         "block": "d",
@@ -12796,8 +12718,7 @@
             "range": [
                 204.382,
                 204.385
-            ],
-            "unit": "u"
+            ]
         },
         "basicity": "slightly-alkaline",
         "block": "p",
@@ -12974,8 +12895,7 @@
             "range": [
                 206.14,
                 207.94
-            ],
-            "unit": "u"
+            ]
         },
         "basicity": "amphoterism",
         "block": "p",
@@ -13155,8 +13075,7 @@
         },
         "atomic_mass": {
             "value": 208.9804,
-            "deviation": 0.00001,
-            "unit": "u"
+            "deviation": 0.00001
         },
         "basicity": "slightly-acidic",
         "block": "p",
@@ -13882,8 +13801,7 @@
         },
         "atomic_mass": {
             "value": 232.0377,
-            "deviation": 0.0004,
-            "unit": "u"
+            "deviation": 0.0004
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -14023,8 +13941,7 @@
         },
         "atomic_mass": {
             "value": 231.03588,
-            "deviation": 0.00001,
-            "unit": "u"
+            "deviation": 0.00001
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -14140,8 +14057,7 @@
         },
         "atomic_mass": {
             "value": 238.02891,
-            "deviation": 0.00003,
-            "unit": "u"
+            "deviation": 0.00003
         },
         "block": "f",
         "classification": {

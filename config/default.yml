@@ -15,6 +15,10 @@ site:
     radioactivity, crystal_structure, magnetic_ordering, superconductivity
   ]
   scales:
+    atomic_mass:
+      key: atomic_mass
+      label: atomic-mass
+      scheme: _ice
     radius_empirical:
       key: radius.empirical
       label: empirical-radius
