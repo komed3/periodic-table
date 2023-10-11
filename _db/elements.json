@@ -354,7 +354,7 @@
         }
     },
     "he": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4e-7,
@@ -487,7 +487,7 @@
         }
     },
     "li": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.006,
@@ -514,6 +514,15 @@
         "appearance": {
             "en": "silvery-white",
             "de": "silbrig weiß/grau"
+        },
+        "atomic_mass": {
+            "value": 6.94,
+            "deviation": 0.06,
+            "range": [
+                6.938,
+                6.997
+            ],
+            "unit": "u"
         },
         "basicity": "strongly-alkaline",
         "block": "s",
@@ -647,7 +656,7 @@
         }
     },
     "be": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00053,
@@ -674,6 +683,11 @@
         "appearance": {
             "en": "white-gray metallic",
             "de": "weiß-grau metallisch"
+        },
+        "atomic_mass": {
+            "value": 9.0121831,
+            "deviation": 5e-7,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "s",
@@ -823,7 +837,7 @@
         }
     },
     "b": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0016,
@@ -850,6 +864,15 @@
         "appearance": {
             "en": "black-brown",
             "de": "schwarz"
+        },
+        "atomic_mass": {
+            "value": 10.81,
+            "deviation": 0.02,
+            "range": [
+                10.806,
+                10.821
+            ],
+            "unit": "u"
         },
         "basicity": "slightly-acidic",
         "block": "p",
@@ -970,7 +993,7 @@
         }
     },
     "c": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.087,
@@ -997,6 +1020,15 @@
         "appearance": {
             "en": "black, metallic-looking (graphite); clear (diamond)",
             "de": "schwarz (Graphit); farblos (Diamant)"
+        },
+        "atomic_mass": {
+            "value": 12.011,
+            "deviation": 0.002,
+            "range": [
+                12.0096,
+                12.0116
+            ],
+            "unit": "u"
         },
         "basicity": "slightly-acidic",
         "block": "p",
@@ -1099,7 +1131,7 @@
         }
     },
     "n": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.03,
@@ -1126,6 +1158,15 @@
         "appearance": {
             "en": "colorless gas, liquid or solid",
             "de": "farbloses Gas"
+        },
+        "atomic_mass": {
+            "value": 14.007,
+            "deviation": 0.001,
+            "range": [
+                14.00643,
+                14.00728
+            ],
+            "unit": "u"
         },
         "basicity": "strongly-acidic",
         "block": "p",
@@ -1221,7 +1262,7 @@
         }
     },
     "o": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 49400,
@@ -1248,6 +1289,15 @@
         "appearance": {
             "en": "colorless (gas); pale blue (liquid and solid)",
             "de": "farbloses Gas"
+        },
+        "atomic_mass": {
+            "value": 15.999,
+            "deviation": 0.001,
+            "range": [
+                15.99903,
+                15.99977
+            ],
+            "unit": "u"
         },
         "block": "p",
         "classification": {
@@ -1367,7 +1417,7 @@
         }
     },
     "f": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.028,
@@ -1394,6 +1444,11 @@
         "appearance": {
             "en": "very pale yellow (gas); bright yellow (liquid); alpha is opaque, beta is transparent (solid)",
             "de": "blasses, gelbliches Gas"
+        },
+        "atomic_mass": {
+            "value": 18.99840316,
+            "deviation": 5e-9,
+            "unit": "u"
         },
         "basicity": "strongly-acidic",
         "block": "p",
@@ -1519,7 +1574,7 @@
         }
     },
     "ne": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 5e-7,
@@ -1542,6 +1597,11 @@
         "appearance": {
             "en": "colorless gas exhibiting an orange-red glow when placed in an electric field",
             "de": "farbloses Gas"
+        },
+        "atomic_mass": {
+            "value": 20.1797,
+            "deviation": 0.0006,
+            "unit": "u"
         },
         "block": "p",
         "classification": {
@@ -1630,7 +1690,7 @@
         }
     },
     "na": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2.64,
@@ -1657,6 +1717,11 @@
         "appearance": {
             "en": "silvery white metallic",
             "de": "silbrig weiß"
+        },
+        "atomic_mass": {
+            "value": 22.98976928,
+            "deviation": 2e-8,
+            "unit": "u"
         },
         "basicity": "strongly-alkaline",
         "block": "s",
@@ -1793,7 +1858,7 @@
         }
     },
     "mg": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.94,
@@ -1820,6 +1885,15 @@
         "appearance": {
             "en": "shiny grey solid",
             "de": "silbrig weiß"
+        },
+        "atomic_mass": {
+            "value": 24.305,
+            "deviation": 0.002,
+            "range": [
+                24.304,
+                24.307
+            ],
+            "unit": "u"
         },
         "basicity": "moderately-alkaline",
         "block": "s",
@@ -1960,7 +2034,7 @@
         }
     },
     "al": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 7.57,
@@ -1987,6 +2061,11 @@
         "appearance": {
             "en": "silvery gray metallic",
             "de": "silbrig"
+        },
+        "atomic_mass": {
+            "value": 26.9815384,
+            "deviation": 3e-7,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "p",
@@ -2119,7 +2198,7 @@
         }
     },
     "si": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 25800,
@@ -2146,6 +2225,15 @@
         "appearance": {
             "en": "crystalline, reflective with bluish-tinged faces",
             "de": "dunkelgrau, bläulicher Farbton"
+        },
+        "atomic_mass": {
+            "value": 28.085,
+            "deviation": 0.001,
+            "range": [
+                28.084,
+                28.086
+            ],
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "p",
@@ -2246,7 +2334,7 @@
         }
     },
     "p": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.09,
@@ -2273,6 +2361,11 @@
         "appearance": {
             "en": "white, red and violet are waxy, black is metallic-looking",
             "de": "weiß-beige (W); dunkelrot (R); schwarz (S)"
+        },
+        "atomic_mass": {
+            "value": 30.973762,
+            "deviation": 5e-9,
+            "unit": "u"
         },
         "basicity": "slightly-acidic",
         "block": "p",
@@ -2411,7 +2504,7 @@
         }
     },
     "s": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.048,
@@ -2438,6 +2531,15 @@
         "appearance": {
             "en": "yellow sintered microcrystals",
             "de": "gelb"
+        },
+        "atomic_mass": {
+            "value": 32.06,
+            "deviation": 0.02,
+            "range": [
+                32.059,
+                32.076
+            ],
+            "unit": "u"
         },
         "basicity": "strongly-acidic",
         "block": "p",
@@ -2554,7 +2656,7 @@
         }
     },
     "cl": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.19,
@@ -2581,6 +2683,15 @@
         "appearance": {
             "en": "pale yellow-green gas",
             "de": "gelblich-grün"
+        },
+        "atomic_mass": {
+            "value": 35.45,
+            "deviation": 0.01,
+            "range": [
+                35.446,
+                35.457
+            ],
+            "unit": "u"
         },
         "basicity": "strongly-acidic",
         "block": "p",
@@ -2716,7 +2827,7 @@
         }
     },
     "ar": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00036,
@@ -2739,6 +2850,15 @@
         "appearance": {
             "en": "colorless gas exhibiting a lilac/violet glow when placed in an electric field",
             "de": "farbloses Gas"
+        },
+        "atomic_mass": {
+            "value": 39.95,
+            "deviation": 0.16,
+            "range": [
+                39.792,
+                39.963
+            ],
+            "unit": "u"
         },
         "block": "p",
         "classification": {
@@ -2829,7 +2949,7 @@
         }
     },
     "k": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2.41,
@@ -2856,6 +2976,11 @@
         "appearance": {
             "en": "silvery white, faint bluish-purple hue when exposed to air",
             "de": "silbrig weiß"
+        },
+        "atomic_mass": {
+            "value": 39.0983,
+            "deviation": 0.0001,
+            "unit": "u"
         },
         "basicity": "strongly-alkaline",
         "block": "s",
@@ -2987,7 +3112,7 @@
         }
     },
     "ca": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 3.39,
@@ -3014,6 +3139,11 @@
         "appearance": {
             "en": "dull gray, silver; with a pale yellow tint",
             "de": "silbrig weiß"
+        },
+        "atomic_mass": {
+            "value": 40.078,
+            "deviation": 0.004,
+            "unit": "u"
         },
         "basicity": "strongly-alkaline",
         "block": "s",
@@ -3155,7 +3285,7 @@
         }
     },
     "sc": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00051,
@@ -3182,6 +3312,11 @@
         "appearance": {
             "en": "silvery white",
             "de": "silbrig weiß"
+        },
+        "atomic_mass": {
+            "value": 44.955907,
+            "deviation": 0.000004,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "d",
@@ -3307,7 +3442,7 @@
         }
     },
     "ti": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.41,
@@ -3334,6 +3469,11 @@
         "appearance": {
             "en": "silvery grey-white metallic",
             "de": "silbrig metallisch"
+        },
+        "atomic_mass": {
+            "value": 47.867,
+            "deviation": 0.001,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "d",
@@ -3463,7 +3603,7 @@
         }
     },
     "v": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.041,
@@ -3490,6 +3630,11 @@
         "appearance": {
             "en": "blue-silver-grey metal",
             "de": "stahlgrau metallisch, bläulich schimmernd"
+        },
+        "atomic_mass": {
+            "value": 50.9415,
+            "deviation": 0.0001,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "d",
@@ -3603,7 +3748,7 @@
         }
     },
     "cr": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.019,
@@ -3630,6 +3775,11 @@
         "appearance": {
             "en": "silvery metallic",
             "de": "silbrig metallisch"
+        },
+        "atomic_mass": {
+            "value": 51.9961,
+            "deviation": 0.0006,
+            "unit": "u"
         },
         "basicity": "strongly-acidic",
         "block": "d",
@@ -3743,7 +3893,7 @@
         }
     },
     "mn": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.085,
@@ -3770,6 +3920,11 @@
         "appearance": {
             "en": "silvery metallic",
             "de": "silbrig metallisch (Stahlweiß)"
+        },
+        "atomic_mass": {
+            "value": 54.938043,
+            "deviation": 0.000002,
+            "unit": "u"
         },
         "basicity": "strongly-acidic",
         "block": "d",
@@ -3895,7 +4050,7 @@
         }
     },
     "fe": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4700,
@@ -3922,6 +4077,11 @@
         "appearance": {
             "en": "lustrous metallic with a grayish tinge",
             "de": "metallisch glänzend mit einem gräulichen Farbton"
+        },
+        "atomic_mass": {
+            "value": 55.845,
+            "deviation": 0.002,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "d",
@@ -4035,7 +4195,7 @@
         }
     },
     "co": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0037,
@@ -4062,6 +4222,11 @@
         "appearance": {
             "en": "hard lustrous bluish gray metal",
             "de": "stahlgrauer metallisch glänzender Feststoff"
+        },
+        "atomic_mass": {
+            "value": 58.933194,
+            "deviation": 0.000003,
+            "unit": "u"
         },
         "basicity": "neutral",
         "block": "d",
@@ -4212,7 +4377,7 @@
         }
     },
     "ni": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.015,
@@ -4239,6 +4404,11 @@
         "appearance": {
             "en": "glänzend, metallisch, silbrig",
             "de": "lustrous, metallic, and silver with a gold tinge"
+        },
+        "atomic_mass": {
+            "value": 58.6934,
+            "deviation": 0.0004,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "d",
@@ -4381,7 +4551,7 @@
         }
     },
     "cu": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.01,
@@ -4408,6 +4578,11 @@
         "appearance": {
             "en": "red-orange metallic luster",
             "de": "rotbraun, metallisch"
+        },
+        "atomic_mass": {
+            "value": 63.546,
+            "deviation": 0.003,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "d",
@@ -4534,7 +4709,7 @@
         }
     },
     "zn": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.012,
@@ -4561,6 +4736,11 @@
         "appearance": {
             "en": "silver-gray",
             "de": "bläulich blassgrau"
+        },
+        "atomic_mass": {
+            "value": 65.38,
+            "deviation": 0.02,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "d",
@@ -4701,7 +4881,7 @@
         }
     },
     "ga": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0014,
@@ -4728,6 +4908,11 @@
         "appearance": {
             "en": "silvery blue",
             "de": "silbrig weiß"
+        },
+        "atomic_mass": {
+            "value": 69.723,
+            "deviation": 0.001,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "p",
@@ -4854,7 +5039,7 @@
         }
     },
     "ge": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00056,
@@ -4881,6 +5066,11 @@
         "appearance": {
             "en": "grayish-white",
             "de": "gräulich weiß"
+        },
+        "atomic_mass": {
+            "value": 72.63,
+            "deviation": 0.008,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "p",
@@ -4988,7 +5178,7 @@
         }
     },
     "as": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00055,
@@ -5015,6 +5205,11 @@
         "appearance": {
             "en": "metallic grey",
             "de": "metallisch grau, gelb oder schwarz"
+        },
+        "atomic_mass": {
+            "value": 74.921595,
+            "deviation": 0.000006,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "p",
@@ -5145,7 +5340,7 @@
         }
     },
     "se": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00008,
@@ -5172,6 +5367,11 @@
         "appearance": {
             "en": "grey metallic-looking, red, and vitreous black allotropes",
             "de": "grau, glänzend"
+        },
+        "atomic_mass": {
+            "value": 78.971,
+            "deviation": 0.008,
+            "unit": "u"
         },
         "basicity": "strongly-acidic",
         "block": "p",
@@ -5314,7 +5514,7 @@
         }
     },
     "br": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0006,
@@ -5341,6 +5541,15 @@
         "appearance": {
             "en": "reddish-brown",
             "de": "rotbraun (gasförmig); rotbraun (flüssig); metallisch glänzend (fest)"
+        },
+        "atomic_mass": {
+            "value": 79.904,
+            "deviation": 0.003,
+            "range": [
+                79.901,
+                79.907
+            ],
+            "unit": "u"
         },
         "basicity": "strongly-acidic",
         "block": "p",
@@ -5470,7 +5679,7 @@
         }
     },
     "kr": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00019,
@@ -5493,6 +5702,11 @@
         "appearance": {
             "en": "colorless gas, exhibiting a whitish glow in an electric field",
             "de": "farbloses Gas"
+        },
+        "atomic_mass": {
+            "value": 83.798,
+            "deviation": 0.002,
+            "unit": "u"
         },
         "block": "p",
         "classification": {
@@ -5590,7 +5804,7 @@
         }
     },
     "rb": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0029,
@@ -5617,6 +5831,11 @@
         "appearance": {
             "en": "grey white",
             "de": "silbrig weiß"
+        },
+        "atomic_mass": {
+            "value": 85.4678,
+            "deviation": 0.0003,
+            "unit": "u"
         },
         "basicity": "strongly-alkaline",
         "block": "s",
@@ -5748,7 +5967,7 @@
         }
     },
     "sr": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.014,
@@ -5775,6 +5994,11 @@
         "appearance": {
             "en": "silvery white metallic; with a pale yellow tint",
             "de": "silbrig weiß metallisch"
+        },
+        "atomic_mass": {
+            "value": 87.62,
+            "deviation": 0.01,
+            "unit": "u"
         },
         "basicity": "strongly-alkaline",
         "block": "s",
@@ -5901,7 +6125,7 @@
         }
     },
     "y": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0026,
@@ -5928,6 +6152,11 @@
         "appearance": {
             "en": "silvery white",
             "de": "silbrig weiß"
+        },
+        "atomic_mass": {
+            "value": 88.905838,
+            "deviation": 0.000002,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "d",
@@ -6053,7 +6282,7 @@
         }
     },
     "zr": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.021,
@@ -6080,6 +6309,11 @@
         "appearance": {
             "en": "silvery white",
             "de": "silbrig weiß"
+        },
+        "atomic_mass": {
+            "value": 91.224,
+            "deviation": 0.002,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "d",
@@ -6211,7 +6445,7 @@
         }
     },
     "nb": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0019,
@@ -6238,6 +6472,11 @@
         "appearance": {
             "en": "gray metallic, bluish when oxidized",
             "de": "grau metallisch glänzend"
+        },
+        "atomic_mass": {
+            "value": 92.90637,
+            "deviation": 0.00001,
+            "unit": "u"
         },
         "basicity": "slightly-acidic",
         "block": "d",
@@ -6370,7 +6609,7 @@
         }
     },
     "mo": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0014,
@@ -6397,6 +6636,11 @@
         "appearance": {
             "en": "gray metallic",
             "de": "grau metallisch"
+        },
+        "atomic_mass": {
+            "value": 95.95,
+            "deviation": 0.01,
+            "unit": "u"
         },
         "basicity": "strongly-acidic",
         "block": "d",
@@ -6617,7 +6861,7 @@
         }
     },
     "ru": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000002,
@@ -6644,6 +6888,11 @@
         "appearance": {
             "en": "silvery white metallic",
             "de": "silbrig weiß metallisch"
+        },
+        "atomic_mass": {
+            "value": 101.07,
+            "deviation": 0.02,
+            "unit": "u"
         },
         "basicity": "slightly-acidic",
         "block": "d",
@@ -6767,7 +7016,7 @@
         }
     },
     "rh": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1e-7,
@@ -6790,6 +7039,11 @@
         "appearance": {
             "en": "silvery white metallic",
             "de": "silbrig weiß metallisch"
+        },
+        "atomic_mass": {
+            "value": 10290549,
+            "deviation": 0.00002,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "d",
@@ -6924,7 +7178,7 @@
         }
     },
     "pd": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000011,
@@ -6947,6 +7201,11 @@
         "appearance": {
             "en": "silvery white",
             "de": "silbrig, weiß, metallisch"
+        },
+        "atomic_mass": {
+            "value": 106.42,
+            "deviation": 0.01,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "d",
@@ -7087,7 +7346,7 @@
         }
     },
     "ag": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000079,
@@ -7114,6 +7373,11 @@
         "appearance": {
             "en": "lustrous white metal",
             "de": "weißglänzend, metallisch"
+        },
+        "atomic_mass": {
+            "value": 107.8682,
+            "deviation": 0.0002,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "d",
@@ -7250,7 +7514,7 @@
         }
     },
     "cd": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00003,
@@ -7277,6 +7541,11 @@
         "appearance": {
             "en": "silvery bluish-gray metallic",
             "de": "silbrig grau metallisch"
+        },
+        "atomic_mass": {
+            "value": 112.414,
+            "deviation": 0.004,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "d",
@@ -7436,7 +7705,7 @@
         }
     },
     "in": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00001,
@@ -7463,6 +7732,11 @@
         "appearance": {
             "en": "silvery lustrous gray",
             "de": "silbrig glänzend grau"
+        },
+        "atomic_mass": {
+            "value": 114.818,
+            "deviation": 0.001,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "p",
@@ -7589,7 +7863,7 @@
         }
     },
     "sn": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0035,
@@ -7616,6 +7890,11 @@
         "appearance": {
             "en": "silvery-white (beta); gray (alpha)",
             "de": "silbrig glänzend (β-Zinn), grau (α-Zinn)"
+        },
+        "atomic_mass": {
+            "value": 118.71,
+            "deviation": 0.007,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "p",
@@ -7726,7 +8005,7 @@
         }
     },
     "sb": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000065,
@@ -7753,6 +8032,11 @@
         "appearance": {
             "en": "silvery lustrous gray",
             "de": "silbrig glänzend grau"
+        },
+        "atomic_mass": {
+            "value": 121.76,
+            "deviation": 0.001,
+            "unit": "u"
         },
         "basicity": "slightly-acidic",
         "block": "p",
@@ -7878,7 +8162,7 @@
         }
     },
     "te": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000001,
@@ -7901,6 +8185,11 @@
         "appearance": {
             "en": "silvery lustrous gray (crystalline); brown-black powder (amorphous)",
             "de": "silberweiß, metallisch glänzend"
+        },
+        "atomic_mass": {
+            "value": 127.6,
+            "deviation": 0.03,
+            "unit": "u"
         },
         "basicity": "slightly-acidic",
         "block": "p",
@@ -8042,7 +8331,7 @@
         }
     },
     "i": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000006,
@@ -8069,6 +8358,11 @@
         "appearance": {
             "en": "lustrous metallic gray (solid); black/violet (liquid); violet (gas)",
             "de": "dunkel-violett (gasförmig); grauschwarz, glänzend (fest)"
+        },
+        "atomic_mass": {
+            "value": 126.90447,
+            "deviation": 0.00003,
+            "unit": "u"
         },
         "basicity": "strongly-acidic",
         "block": "p",
@@ -8223,7 +8517,7 @@
         }
     },
     "xe": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 9e-10,
@@ -8246,6 +8540,11 @@
         "appearance": {
             "en": "colorless gas, exhibiting a blue glow when placed in an electric field",
             "de": "farbloses Gas"
+        },
+        "atomic_mass": {
+            "value": 131.293,
+            "deviation": 0.006,
+            "unit": "u"
         },
         "basicity": "slightly-acidic",
         "block": "p",
@@ -8358,7 +8657,7 @@
         }
     },
     "cs": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00065,
@@ -8385,6 +8684,11 @@
         "appearance": {
             "en": "pale gold",
             "de": "goldgelb glänzend"
+        },
+        "atomic_mass": {
+            "value": 132.905452,
+            "deviation": 6e-8,
+            "unit": "u"
         },
         "basicity": "strongly-alkaline",
         "block": "s",
@@ -8522,7 +8826,7 @@
         }
     },
     "ba": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.026,
@@ -8549,6 +8853,11 @@
         "appearance": {
             "en": "silvery gray; with a pale yellow tint",
             "de": "weiß-grau metallisch"
+        },
+        "atomic_mass": {
+            "value": 137.327,
+            "deviation": 0.007,
+            "unit": "u"
         },
         "basicity": "alkaline",
         "block": "s",
@@ -8691,7 +9000,7 @@
         }
     },
     "la": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0017,
@@ -8718,6 +9027,11 @@
         "appearance": {
             "en": "silvery white",
             "de": "silbrig weiß"
+        },
+        "atomic_mass": {
+            "value": 138.90547,
+            "deviation": 0.00007,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "d",
@@ -8846,7 +9160,7 @@
         }
     },
     "ce": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0043,
@@ -8873,6 +9187,11 @@
         "appearance": {
             "en": "silvery white",
             "de": "silbrig weiß"
+        },
+        "atomic_mass": {
+            "value": 140.116,
+            "deviation": 0.001,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -9006,7 +9325,7 @@
         }
     },
     "pr": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00052,
@@ -9033,6 +9352,11 @@
         "appearance": {
             "en": "grayish white",
             "de": "silbrig weiß, gelblicher Farbton"
+        },
+        "atomic_mass": {
+            "value": 140.90766,
+            "deviation": 0.00001,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -9163,7 +9487,7 @@
         }
     },
     "nd": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0022,
@@ -9190,6 +9514,11 @@
         "appearance": {
             "en": "silvery white",
             "de": "silbrigweiß, gelblicher Farbton"
+        },
+        "atomic_mass": {
+            "value": 144.242,
+            "deviation": 0.003,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -9429,7 +9758,7 @@
         }
     },
     "sm": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0006,
@@ -9456,6 +9785,11 @@
         "appearance": {
             "en": "silvery white",
             "de": "silbrig weiß"
+        },
+        "atomic_mass": {
+            "value": 150.36,
+            "deviation": 0.02,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -9586,7 +9920,7 @@
         }
     },
     "eu": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000099,
@@ -9613,6 +9947,11 @@
         "appearance": {
             "en": "silvery white, with a pale yellow tint; but rarely seen without oxide discoloration",
             "de": "silbrig weiß"
+        },
+        "atomic_mass": {
+            "value": 151.964,
+            "deviation": 0.001,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -9738,7 +10077,7 @@
         }
     },
     "gd": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00059,
@@ -9765,6 +10104,11 @@
         "appearance": {
             "en": "silvery white",
             "de": "silbrig weiß"
+        },
+        "atomic_mass": {
+            "value": 157.25,
+            "deviation": 0.03,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -9889,7 +10233,7 @@
         }
     },
     "tb": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000085,
@@ -9916,6 +10260,11 @@
         "appearance": {
             "en": "silvery white",
             "de": "silbrig weiß"
+        },
+        "atomic_mass": {
+            "value": 158.925354,
+            "deviation": 0.000007,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -10025,7 +10374,7 @@
         }
     },
     "dy": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00043,
@@ -10052,6 +10401,11 @@
         "appearance": {
             "en": "silbrig weiß",
             "de": "silvery white"
+        },
+        "atomic_mass": {
+            "value": 162.5,
+            "deviation": 0.001,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -10176,7 +10530,7 @@
         }
     },
     "ho": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00011,
@@ -10203,6 +10557,11 @@
         "appearance": {
             "en": "silvery white",
             "de": "silbrig weiß"
+        },
+        "atomic_mass": {
+            "value": 164.930329,
+            "deviation": 0.000005,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -10328,7 +10687,7 @@
         }
     },
     "er": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00023,
@@ -10355,6 +10714,11 @@
         "appearance": {
             "en": "silvery white",
             "de": "silbrig weiß"
+        },
+        "atomic_mass": {
+            "value": 167.259,
+            "deviation": 0.003,
+            "unit": "u"
         },
         "basicity": "alkaline",
         "block": "f",
@@ -10479,7 +10843,7 @@
         }
     },
     "tm": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000019,
@@ -10506,6 +10870,11 @@
         "appearance": {
             "en": "silvery gray",
             "de": "silbrig grau"
+        },
+        "atomic_mass": {
+            "value": 168.934219,
+            "deviation": 0.000005,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -10636,7 +11005,7 @@
         }
     },
     "yb": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00025,
@@ -10663,6 +11032,11 @@
         "appearance": {
             "en": "silvery white; with a pale yellow tint",
             "de": "silbrig weiß"
+        },
+        "atomic_mass": {
+            "value": 173.045,
+            "deviation": 0.01,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -10797,7 +11171,7 @@
         }
     },
     "lu": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00007,
@@ -10824,6 +11198,11 @@
         "appearance": {
             "en": "silvery white",
             "de": "silbrig weiß"
+        },
+        "atomic_mass": {
+            "value": 174.9668,
+            "deviation": 0.0001,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -10949,7 +11328,7 @@
         }
     },
     "hf": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00042,
@@ -10976,6 +11355,11 @@
         "appearance": {
             "en": "steel gray",
             "de": "stahlgrau"
+        },
+        "atomic_mass": {
+            "value": 178.486,
+            "deviation": 0.006,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "d",
@@ -11105,7 +11489,7 @@
         }
     },
     "ta": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0008,
@@ -11132,6 +11516,11 @@
         "appearance": {
             "en": "gray blue",
             "de": "grau"
+        },
+        "atomic_mass": {
+            "value": 180.94788,
+            "deviation": 0.00002,
+            "unit": "u"
         },
         "basicity": "slightly-acidic",
         "block": "d",
@@ -11265,7 +11654,7 @@
         }
     },
     "w": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0064,
@@ -11292,6 +11681,11 @@
         "appearance": {
             "en": "grayish white, lustrous",
             "de": "gräulich weiß, glänzend"
+        },
+        "atomic_mass": {
+            "value": 183.84,
+            "deviation": 0.01,
+            "unit": "u"
         },
         "basicity": "slightly-acidic",
         "block": "d",
@@ -11427,7 +11821,7 @@
         }
     },
     "re": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1e-7,
@@ -11454,6 +11848,11 @@
         "appearance": {
             "en": "silvery-grayish",
             "de": "gräulich weiß"
+        },
+        "atomic_mass": {
+            "value": 186.207,
+            "deviation": 0.001,
+            "unit": "u"
         },
         "basicity": "slightly-acidic",
         "block": "d",
@@ -11582,7 +11981,7 @@
         }
     },
     "os": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000001,
@@ -11605,6 +12004,11 @@
         "appearance": {
             "en": "silvery, blue cast",
             "de": "bläulich grau"
+        },
+        "atomic_mass": {
+            "value": 190.23,
+            "deviation": 0.03,
+            "unit": "u"
         },
         "basicity": "slightly-acidic",
         "block": "d",
@@ -11734,7 +12138,7 @@
         }
     },
     "ir": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1e-7,
@@ -11757,6 +12161,11 @@
         "appearance": {
             "en": "silvery white",
             "de": "silbrig weiß"
+        },
+        "atomic_mass": {
+            "value": 192.217,
+            "deviation": 0.002,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "d",
@@ -11890,7 +12299,7 @@
         }
     },
     "pt": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 5e-7,
@@ -11913,6 +12322,11 @@
         "appearance": {
             "en": "silvery white",
             "de": "grau-weiß"
+        },
+        "atomic_mass": {
+            "value": 195.084,
+            "deviation": 0.009,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "d",
@@ -12028,7 +12442,7 @@
         }
     },
     "au": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4e-7,
@@ -12055,6 +12469,11 @@
         "appearance": {
             "en": "metallic yellow",
             "de": "metallisch gelb"
+        },
+        "atomic_mass": {
+            "value": 196.96657,
+            "deviation": 0.000004,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "d",
@@ -12167,7 +12586,7 @@
         }
     },
     "hg": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00004,
@@ -12194,6 +12613,11 @@
         "appearance": {
             "en": "shiny, silvery liquid",
             "de": "silbrig weiß"
+        },
+        "atomic_mass": {
+            "value": 200.592,
+            "deviation": 0.003,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "d",
@@ -12338,7 +12762,7 @@
         }
     },
     "tl": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000029,
@@ -12365,6 +12789,15 @@
         "appearance": {
             "en": "silvery white",
             "de": "silbrig weiß"
+        },
+        "atomic_mass": {
+            "value": 204.38,
+            "deviation": 0.01,
+            "range": [
+                204.382,
+                204.385
+            ],
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "p",
@@ -12507,7 +12940,7 @@
         }
     },
     "pb": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0018,
@@ -12534,6 +12967,15 @@
         "appearance": {
             "en": "metallic gray",
             "de": "bläulich weiß"
+        },
+        "atomic_mass": {
+            "value": 207.2,
+            "deviation": 1.1,
+            "range": [
+                206.14,
+                207.94
+            ],
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "p",
@@ -12683,7 +13125,7 @@
         }
     },
     "bi": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00002,
@@ -12710,6 +13152,11 @@
         "appearance": {
             "en": "lustrous brownish silver",
             "de": "glänzend silberweiß"
+        },
+        "atomic_mass": {
+            "value": 208.9804,
+            "deviation": 0.00001,
+            "unit": "u"
         },
         "basicity": "slightly-acidic",
         "block": "p",
@@ -13405,7 +13852,7 @@
         }
     },
     "th": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0011,
@@ -13432,6 +13879,11 @@
         "appearance": {
             "en": "silvery",
             "de": "silbrig weiß"
+        },
+        "atomic_mass": {
+            "value": 232.0377,
+            "deviation": 0.0004,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -13546,7 +13998,7 @@
         }
     },
     "pa": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0009,
@@ -13568,6 +14020,11 @@
         "appearance": {
             "en": "bright, silvery metallic luster",
             "de": "hell, silbrig, metallisch glänzend"
+        },
+        "atomic_mass": {
+            "value": 231.03588,
+            "deviation": 0.00001,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -13653,7 +14110,7 @@
         }
     },
     "u": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T10:54:43.305Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00032,
@@ -13680,6 +14137,11 @@
         "appearance": {
             "en": "silvery gray metallic; corrodes to a spalling black oxide coat in air",
             "de": "silberweiß"
+        },
+        "atomic_mass": {
+            "value": 238.02891,
+            "deviation": 0.00003,
+            "unit": "u"
         },
         "block": "f",
         "classification": {
