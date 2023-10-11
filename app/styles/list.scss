@@ -19,20 +19,25 @@
 }
 
 .pt-element-list-item .element--symbol {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-    gap: 2px;
-    font-size: 20px;
+    position: relative;
     font-weight: bold;
     color: var( --color, var( --color-main ) );
     background: var( --bg, var( --gray-1 ) );
 }
 
 .pt-element-list-item .element--symbol .symbol--number {
-    padding-top: 6px;
-    font-size: 12px;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    font-size: 13px;
+}
+
+.pt-element-list-item .element--symbol .symbol--label {
+    position: absolute;
+    right: 8px;
+    bottom: 6px;
+    font-size: 26px;
+    color: var( --accent, inherit );
 }
 
 .pt-element-list-item .element--info {
