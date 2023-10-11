@@ -1,6 +1,6 @@
 {
     "h": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T09:09:36.248Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.15,
@@ -295,6 +295,10 @@
                 "value": 25,
                 "unit": "pm"
             },
+            "calculated": {
+                "value": 53,
+                "unit": "pm"
+            },
             "covalent": {
                 "value": 31,
                 "deviation": 5,
@@ -350,7 +354,7 @@
         }
     },
     "he": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4e-7,
@@ -465,6 +469,10 @@
             "vdw": {
                 "value": 140,
                 "unit": "pm"
+            },
+            "calculated": {
+                "value": 31,
+                "unit": "pm"
             }
         },
         "set": "noblegas",
@@ -479,7 +487,7 @@
         }
     },
     "li": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.006,
@@ -603,6 +611,25 @@
             "stable",
             "light"
         ],
+        "radius": {
+            "empirical": {
+                "value": 152,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 167,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 128,
+                "deviation": 7,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 182,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 20,
             "unit": "K"
@@ -620,7 +647,7 @@
         }
     },
     "be": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00053,
@@ -760,6 +787,25 @@
             "stable",
             "light"
         ],
+        "radius": {
+            "empirical": {
+                "value": 112,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 112,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 96,
+                "deviation": 3,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 153,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 26,
             "unit": "K"
@@ -777,7 +823,7 @@
         }
     },
     "b": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0016,
@@ -888,6 +934,25 @@
             "stable",
             "semiconductor"
         ],
+        "radius": {
+            "empirical": {
+                "value": 90,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 87,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 84,
+                "deviation": 3,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 192,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 11.2,
             "unit": "K"
@@ -905,7 +970,7 @@
         }
     },
     "c": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.087,
@@ -999,6 +1064,24 @@
             "semiconductor",
             "antiquity"
         ],
+        "radius": {
+            "empirical": {
+                "value": 70,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 67,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 76,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 170,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 15,
             "unit": "K"
@@ -1016,7 +1099,7 @@
         }
     },
     "n": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.03,
@@ -1106,6 +1189,25 @@
             "vital",
             "stable"
         ],
+        "radius": {
+            "empirical": {
+                "value": 65,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 56,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 71,
+                "deviation": 1,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 155,
+                "unit": "pm"
+            }
+        },
         "set": "nonmetal",
         "shell": [
             2,
@@ -1119,7 +1221,7 @@
         }
     },
     "o": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 49400,
@@ -1229,6 +1331,25 @@
             "vital",
             "stable"
         ],
+        "radius": {
+            "empirical": {
+                "value": 60,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 48,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 66,
+                "deviation": 2,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 152,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 0.6,
             "unit": "K"
@@ -1246,7 +1367,7 @@
         }
     },
     "f": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.028,
@@ -1367,6 +1488,24 @@
             "mononuclidic",
             "stable"
         ],
+        "radius": {
+            "empirical": {
+                "value": 50,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 42,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 64,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 135,
+                "unit": "pm"
+            }
+        },
         "set": "halogen",
         "shell": [
             2,
@@ -1380,7 +1519,7 @@
         }
     },
     "ne": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 5e-7,
@@ -1464,6 +1603,20 @@
             "natural",
             "stable"
         ],
+        "radius": {
+            "calculated": {
+                "value": 38,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 58,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 154,
+                "unit": "pm"
+            }
+        },
         "set": "noblegas",
         "shell": [
             2,
@@ -1477,7 +1630,7 @@
         }
     },
     "na": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2.64,
@@ -1607,6 +1760,25 @@
             "stable",
             "light"
         ],
+        "radius": {
+            "empirical": {
+                "value": 180,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 190,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 166,
+                "deviation": 9,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 227,
+                "unit": "pm"
+            }
+        },
         "set": "alkalimetal",
         "shell": [
             2,
@@ -1621,7 +1793,7 @@
         }
     },
     "mg": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.94,
@@ -1755,6 +1927,25 @@
             "stable",
             "light"
         ],
+        "radius": {
+            "empirical": {
+                "value": 150,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 145,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 141,
+                "deviation": 7,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 173,
+                "unit": "pm"
+            }
+        },
         "set": "alkalineearthmetal",
         "shell": [
             2,
@@ -1769,7 +1960,7 @@
         }
     },
     "al": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 7.57,
@@ -1891,6 +2082,25 @@
             "stable",
             "light"
         ],
+        "radius": {
+            "empirical": {
+                "value": 143,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 118,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 121,
+                "deviation": 4,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 184,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 1.18,
             "unit": "K"
@@ -1909,7 +2119,7 @@
         }
     },
     "si": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 25800,
@@ -2000,6 +2210,24 @@
             "stable",
             "semiconductor"
         ],
+        "radius": {
+            "empirical": {
+                "value": 111,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 111,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 111,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 210,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 8.5,
             "unit": "K"
@@ -2018,7 +2246,7 @@
         }
     },
     "p": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.09,
@@ -2146,6 +2374,25 @@
             "mononuclidic",
             "stable"
         ],
+        "radius": {
+            "empirical": {
+                "value": 100,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 98,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 107,
+                "deviation": 3,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 180,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 18,
             "unit": "K"
@@ -2164,7 +2411,7 @@
         }
     },
     "s": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.048,
@@ -2270,6 +2517,25 @@
             "stable",
             "antiquity"
         ],
+        "radius": {
+            "empirical": {
+                "value": 100,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 88,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 105,
+                "deviation": 3,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 180,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 17,
             "unit": "K"
@@ -2288,7 +2554,7 @@
         }
     },
     "cl": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.19,
@@ -2417,6 +2683,25 @@
             "vital",
             "stable"
         ],
+        "radius": {
+            "empirical": {
+                "value": 100,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 79,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 102,
+                "deviation": 4,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 175,
+                "unit": "pm"
+            }
+        },
         "set": "halogen",
         "shell": [
             2,
@@ -2431,7 +2716,7 @@
         }
     },
     "ar": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00036,
@@ -2515,6 +2800,21 @@
             "natural",
             "stable"
         ],
+        "radius": {
+            "calculated": {
+                "value": 71,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 106,
+                "deviation": 10,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 188,
+                "unit": "pm"
+            }
+        },
         "set": "noblegas",
         "shell": [
             2,
@@ -2529,7 +2829,7 @@
         }
     },
     "k": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2.41,
@@ -2653,6 +2953,25 @@
             "stable",
             "light"
         ],
+        "radius": {
+            "empirical": {
+                "value": 227,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 243,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 203,
+                "deviation": 12,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 275,
+                "unit": "pm"
+            }
+        },
         "set": "alkalimetal",
         "shell": [
             2,
@@ -2668,7 +2987,7 @@
         }
     },
     "ca": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 3.39,
@@ -2798,6 +3117,25 @@
             "stable",
             "light"
         ],
+        "radius": {
+            "empirical": {
+                "value": 197,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 194,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 176,
+                "deviation": 10,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 231,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 15,
             "unit": "K"
@@ -2817,7 +3155,7 @@
         }
     },
     "sc": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00051,
@@ -2931,6 +3269,25 @@
             "light",
             "rare"
         ],
+        "radius": {
+            "empirical": {
+                "value": 162,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 184,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 170,
+                "deviation": 7,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 211,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 0.34,
             "unit": "K"
@@ -2950,7 +3307,7 @@
         }
     },
     "ti": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.41,
@@ -3072,6 +3429,21 @@
             "light",
             "refractory"
         ],
+        "radius": {
+            "empirical": {
+                "value": 147,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 176,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 160,
+                "deviation": 8,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 0.5,
             "unit": "K"
@@ -3091,7 +3463,7 @@
         }
     },
     "v": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.041,
@@ -3197,6 +3569,21 @@
             "heavy",
             "refractory"
         ],
+        "radius": {
+            "empirical": {
+                "value": 134,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 171,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 153,
+                "deviation": 8,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 5.4,
             "unit": "K"
@@ -3216,7 +3603,7 @@
         }
     },
     "cr": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.019,
@@ -3322,6 +3709,21 @@
             "heavy",
             "refractory"
         ],
+        "radius": {
+            "empirical": {
+                "value": 128,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 166,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 139,
+                "deviation": 5,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 3,
             "unit": "K"
@@ -3341,7 +3743,7 @@
         }
     },
     "mn": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.085,
@@ -3463,6 +3865,21 @@
             "stable",
             "heavy"
         ],
+        "radius": {
+            "empirical": {
+                "value": 127,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 161,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 139,
+                "deviation": 5,
+                "unit": "pm"
+            }
+        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -3478,7 +3895,7 @@
         }
     },
     "fe": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4700,
@@ -3580,6 +3997,25 @@
             "heavy",
             "antiquity"
         ],
+        "radius": {
+            "empirical": {
+                "value": 126,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 156,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 132,
+                "deviation": 3,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 194,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 2,
             "unit": "K"
@@ -3599,7 +4035,7 @@
         }
     },
     "co": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0037,
@@ -3746,6 +4182,21 @@
             "stable",
             "heavy"
         ],
+        "radius": {
+            "empirical": {
+                "value": 125,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 152,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 126,
+                "deviation": 3,
+                "unit": "pm"
+            }
+        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -3761,7 +4212,7 @@
         }
     },
     "ni": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.015,
@@ -3896,6 +4347,25 @@
             "stable",
             "heavy"
         ],
+        "radius": {
+            "empirical": {
+                "value": 124,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 149,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 124,
+                "deviation": 4,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 163,
+                "unit": "pm"
+            }
+        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -3911,7 +4381,7 @@
         }
     },
     "cu": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.01,
@@ -4030,6 +4500,25 @@
             "heavy",
             "antiquity"
         ],
+        "radius": {
+            "empirical": {
+                "value": 128,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 145,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 132,
+                "deviation": 4,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 140,
+                "unit": "pm"
+            }
+        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -4045,7 +4534,7 @@
         }
     },
     "zn": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.012,
@@ -4174,6 +4663,25 @@
             "heavy",
             "antiquity"
         ],
+        "radius": {
+            "empirical": {
+                "value": 134,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 142,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 122,
+                "deviation": 4,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 139,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 0.85,
             "unit": "K"
@@ -4193,7 +4701,7 @@
         }
     },
     "ga": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0014,
@@ -4308,6 +4816,25 @@
             "stable",
             "heavy"
         ],
+        "radius": {
+            "empirical": {
+                "value": 135,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 136,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 122,
+                "deviation": 3,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 187,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 1.08,
             "unit": "K"
@@ -4327,7 +4854,7 @@
         }
     },
     "ge": {
-        "@modified": "2023-10-10T08:07:31.723Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00056,
@@ -4424,6 +4951,24 @@
             "semiconductor",
             "heavy"
         ],
+        "radius": {
+            "empirical": {
+                "value": 122,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 125,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 122,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 211,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 5.4,
             "unit": "K"
@@ -4443,7 +4988,7 @@
         }
     },
     "as": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00055,
@@ -4562,6 +5107,25 @@
             "stable",
             "heavy"
         ],
+        "radius": {
+            "empirical": {
+                "value": 119,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 114,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 119,
+                "deviation": 4,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 185,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 2.7,
             "unit": "K"
@@ -4581,7 +5145,7 @@
         }
     },
     "se": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00008,
@@ -4712,6 +5276,25 @@
             "stable",
             "semiconductor"
         ],
+        "radius": {
+            "empirical": {
+                "value": 120,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 103,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 120,
+                "deviation": 4,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 190,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 7,
             "unit": "K"
@@ -4731,7 +5314,7 @@
         }
     },
     "br": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0006,
@@ -4849,6 +5432,25 @@
             "vital",
             "stable"
         ],
+        "radius": {
+            "empirical": {
+                "value": 120,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 94,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 120,
+                "deviation": 3,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 185,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 1.4,
             "unit": "K"
@@ -4868,7 +5470,7 @@
         }
     },
     "kr": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00019,
@@ -4958,6 +5560,21 @@
             "natural",
             "stable"
         ],
+        "radius": {
+            "calculated": {
+                "value": 88,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 116,
+                "deviation": 4,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 202,
+                "unit": "pm"
+            }
+        },
         "set": "noblegas",
         "shell": [
             2,
@@ -4973,7 +5590,7 @@
         }
     },
     "rb": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0029,
@@ -5096,6 +5713,25 @@
             "stable",
             "light"
         ],
+        "radius": {
+            "empirical": {
+                "value": 248,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 265,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 220,
+                "deviation": 9,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 303,
+                "unit": "pm"
+            }
+        },
         "set": "alkalimetal",
         "shell": [
             2,
@@ -5112,7 +5748,7 @@
         }
     },
     "sr": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.014,
@@ -5226,6 +5862,25 @@
             "stable",
             "light"
         ],
+        "radius": {
+            "empirical": {
+                "value": 215,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 219,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 195,
+                "deviation": 10,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 249,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 4,
             "unit": "K"
@@ -5246,7 +5901,7 @@
         }
     },
     "y": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0026,
@@ -5363,6 +6018,21 @@
             "light",
             "rare"
         ],
+        "radius": {
+            "empirical": {
+                "value": 180,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 212,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 190,
+                "deviation": 7,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 2.8,
             "unit": "K"
@@ -5383,7 +6053,7 @@
         }
     },
     "zr": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.021,
@@ -5506,6 +6176,21 @@
             "heavy",
             "refractory"
         ],
+        "radius": {
+            "empirical": {
+                "value": 160,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 206,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 175,
+                "deviation": 7,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 0.6,
             "unit": "K"
@@ -5526,7 +6211,7 @@
         }
     },
     "nb": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0019,
@@ -5650,6 +6335,21 @@
             "heavy",
             "refractory"
         ],
+        "radius": {
+            "empirical": {
+                "value": 146,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 198,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 164,
+                "deviation": 6,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 9.25,
             "unit": "K"
@@ -5670,7 +6370,7 @@
         }
     },
     "mo": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0014,
@@ -5776,6 +6476,21 @@
             "heavy",
             "refractory"
         ],
+        "radius": {
+            "empirical": {
+                "value": 139,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 190,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 154,
+                "deviation": 5,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 0.92,
             "unit": "K"
@@ -5796,7 +6511,7 @@
         }
     },
     "tc": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.2e-19,
@@ -5863,6 +6578,25 @@
         ],
         "radioactive": true,
         "radioactivity": "slightly-radioactive",
+        "radius": {
+            "empirical": {
+                "value": 136,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 183,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 147,
+                "deviation": 7,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 205,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 8.2,
             "unit": "K"
@@ -5883,7 +6617,7 @@
         }
     },
     "ru": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000002,
@@ -5998,6 +6732,21 @@
             "heavy",
             "platinum"
         ],
+        "radius": {
+            "empirical": {
+                "value": 134,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 178,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 146,
+                "deviation": 7,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 0.5,
             "unit": "K"
@@ -6018,7 +6767,7 @@
         }
     },
     "rh": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1e-7,
@@ -6140,6 +6889,21 @@
             "heavy",
             "platinum"
         ],
+        "radius": {
+            "empirical": {
+                "value": 134,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 173,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 142,
+                "deviation": 7,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 0.000035,
             "unit": "K"
@@ -6160,7 +6924,7 @@
         }
     },
     "pd": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000011,
@@ -6285,6 +7049,25 @@
             "heavy",
             "platinum"
         ],
+        "radius": {
+            "empirical": {
+                "value": 137,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 169,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 139,
+                "deviation": 6,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 163,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 3.2,
             "unit": "K"
@@ -6304,7 +7087,7 @@
         }
     },
     "ag": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000079,
@@ -6432,6 +7215,25 @@
             "heavy",
             "antiquity"
         ],
+        "radius": {
+            "empirical": {
+                "value": 144,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 165,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 145,
+                "deviation": 5,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 172,
+                "unit": "pm"
+            }
+        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -6448,7 +7250,7 @@
         }
     },
     "cd": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00003,
@@ -6595,6 +7397,25 @@
             "stable",
             "heavy"
         ],
+        "radius": {
+            "empirical": {
+                "value": 151,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 161,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 144,
+                "deviation": 9,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 158,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 0.52,
             "unit": "K"
@@ -6615,7 +7436,7 @@
         }
     },
     "in": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00001,
@@ -6729,6 +7550,25 @@
             "stable",
             "heavy"
         ],
+        "radius": {
+            "empirical": {
+                "value": 167,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 156,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 142,
+                "deviation": 5,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 193,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 3.4,
             "unit": "K"
@@ -6749,7 +7589,7 @@
         }
     },
     "sn": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0035,
@@ -6847,6 +7687,25 @@
             "heavy",
             "antiquity"
         ],
+        "radius": {
+            "empirical": {
+                "value": 140,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 145,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 139,
+                "deviation": 4,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 217,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 3.7,
             "unit": "K"
@@ -6867,7 +7726,7 @@
         }
     },
     "sb": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000065,
@@ -6980,6 +7839,25 @@
             "stable",
             "heavy"
         ],
+        "radius": {
+            "empirical": {
+                "value": 140,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 133,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 139,
+                "deviation": 5,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 206,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 3.6,
             "unit": "K"
@@ -7000,7 +7878,7 @@
         }
     },
     "te": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000001,
@@ -7125,6 +8003,25 @@
             "semiconductor",
             "heavy"
         ],
+        "radius": {
+            "empirical": {
+                "value": 140,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 123,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 138,
+                "deviation": 4,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 206,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 7.4,
             "unit": "K"
@@ -7145,7 +8042,7 @@
         }
     },
     "i": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000006,
@@ -7287,6 +8184,25 @@
             "mononuclidic",
             "stable"
         ],
+        "radius": {
+            "empirical": {
+                "value": 140,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 115,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 139,
+                "deviation": 3,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 198,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 1.2,
             "unit": "K"
@@ -7307,7 +8223,7 @@
         }
     },
     "xe": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 9e-10,
@@ -7411,6 +8327,21 @@
             "natural",
             "stable"
         ],
+        "radius": {
+            "calculated": {
+                "value": 108,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 140,
+                "deviation": 9,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 216,
+                "unit": "pm"
+            }
+        },
         "set": "noblegas",
         "shell": [
             2,
@@ -7427,7 +8358,7 @@
         }
     },
     "cs": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00065,
@@ -7551,6 +8482,25 @@
             "stable",
             "light"
         ],
+        "radius": {
+            "empirical": {
+                "value": 265,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 298,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 244,
+                "deviation": 11,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 343,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 1.66,
             "unit": "K"
@@ -7572,7 +8522,7 @@
         }
     },
     "ba": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.026,
@@ -7701,6 +8651,25 @@
             "stable",
             "light"
         ],
+        "radius": {
+            "empirical": {
+                "value": 222,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 253,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 215,
+                "deviation": 11,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 268,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 5,
             "unit": "K"
@@ -7722,7 +8691,7 @@
         }
     },
     "la": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0017,
@@ -7845,6 +8814,17 @@
             "heavy",
             "rare"
         ],
+        "radius": {
+            "empirical": {
+                "value": 187,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 207,
+                "deviation": 8,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 6,
             "unit": "K"
@@ -7866,7 +8846,7 @@
         }
     },
     "ce": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0043,
@@ -7994,6 +8974,17 @@
             "heavy",
             "rare"
         ],
+        "radius": {
+            "empirical": {
+                "value": 182,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 204,
+                "deviation": 9,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 1.75,
             "unit": "K"
@@ -8015,7 +9006,7 @@
         }
     },
     "pr": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00052,
@@ -8140,6 +9131,21 @@
             "heavy",
             "rare"
         ],
+        "radius": {
+            "empirical": {
+                "value": 182,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 247,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 203,
+                "deviation": 7,
+                "unit": "pm"
+            }
+        },
         "set": "lanthanoide",
         "shell": [
             2,
@@ -8157,7 +9163,7 @@
         }
     },
     "nd": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0022,
@@ -8282,6 +9288,21 @@
             "heavy",
             "rare"
         ],
+        "radius": {
+            "empirical": {
+                "value": 181,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 206,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 201,
+                "deviation": 6,
+                "unit": "pm"
+            }
+        },
         "set": "lanthanoide",
         "shell": [
             2,
@@ -8299,7 +9320,7 @@
         }
     },
     "pm": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.5e-19,
@@ -8377,6 +9398,20 @@
         ],
         "radioactive": true,
         "radioactivity": "significantly-radioactive",
+        "radius": {
+            "empirical": {
+                "value": 183,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 205,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 199,
+                "unit": "pm"
+            }
+        },
         "set": "lanthanoide",
         "shell": [
             2,
@@ -8394,7 +9429,7 @@
         }
     },
     "sm": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0006,
@@ -8519,6 +9554,21 @@
             "heavy",
             "rare"
         ],
+        "radius": {
+            "empirical": {
+                "value": 180,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 238,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 198,
+                "deviation": 8,
+                "unit": "pm"
+            }
+        },
         "set": "lanthanoide",
         "shell": [
             2,
@@ -8536,7 +9586,7 @@
         }
     },
     "eu": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000099,
@@ -8656,6 +9706,21 @@
             "heavy",
             "rare"
         ],
+        "radius": {
+            "empirical": {
+                "value": 180,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 231,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 198,
+                "deviation": 6,
+                "unit": "pm"
+            }
+        },
         "set": "lanthanoide",
         "shell": [
             2,
@@ -8673,7 +9738,7 @@
         }
     },
     "gd": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00059,
@@ -8792,6 +9857,21 @@
             "heavy",
             "rare"
         ],
+        "radius": {
+            "empirical": {
+                "value": 180,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 233,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 196,
+                "deviation": 6,
+                "unit": "pm"
+            }
+        },
         "set": "lanthanoide",
         "shell": [
             2,
@@ -8809,7 +9889,7 @@
         }
     },
     "tb": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000085,
@@ -8913,6 +9993,21 @@
             "heavy",
             "rare"
         ],
+        "radius": {
+            "empirical": {
+                "value": 177,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 225,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 194,
+                "deviation": 5,
+                "unit": "pm"
+            }
+        },
         "set": "lanthanoide",
         "shell": [
             2,
@@ -8930,7 +10025,7 @@
         }
     },
     "dy": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00043,
@@ -9049,6 +10144,21 @@
             "heavy",
             "rare"
         ],
+        "radius": {
+            "empirical": {
+                "value": 178,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 228,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 192,
+                "deviation": 7,
+                "unit": "pm"
+            }
+        },
         "set": "lanthanoide",
         "shell": [
             2,
@@ -9066,7 +10176,7 @@
         }
     },
     "ho": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00011,
@@ -9186,6 +10296,21 @@
             "heavy",
             "rare"
         ],
+        "radius": {
+            "empirical": {
+                "value": 176,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 226,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 192,
+                "deviation": 7,
+                "unit": "pm"
+            }
+        },
         "set": "lanthanoide",
         "shell": [
             2,
@@ -9203,7 +10328,7 @@
         }
     },
     "er": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00023,
@@ -9322,6 +10447,21 @@
             "heavy",
             "rare"
         ],
+        "radius": {
+            "empirical": {
+                "value": 176,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 226,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 189,
+                "deviation": 6,
+                "unit": "pm"
+            }
+        },
         "set": "lanthanoide",
         "shell": [
             2,
@@ -9339,7 +10479,7 @@
         }
     },
     "tm": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000019,
@@ -9464,6 +10604,21 @@
             "heavy",
             "rare"
         ],
+        "radius": {
+            "empirical": {
+                "value": 176,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 222,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 190,
+                "deviation": 10,
+                "unit": "pm"
+            }
+        },
         "set": "lanthanoide",
         "shell": [
             2,
@@ -9481,7 +10636,7 @@
         }
     },
     "yb": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00025,
@@ -9610,6 +10765,21 @@
             "heavy",
             "rare"
         ],
+        "radius": {
+            "empirical": {
+                "value": 176,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 222,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 187,
+                "deviation": 8,
+                "unit": "pm"
+            }
+        },
         "set": "lanthanoide",
         "shell": [
             2,
@@ -9627,7 +10797,7 @@
         }
     },
     "lu": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00007,
@@ -9743,6 +10913,21 @@
             "heavy",
             "rare"
         ],
+        "radius": {
+            "empirical": {
+                "value": 174,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 217,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 187,
+                "deviation": 8,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 0.1,
             "unit": "K"
@@ -9764,7 +10949,7 @@
         }
     },
     "hf": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00042,
@@ -9884,6 +11069,21 @@
             "heavy",
             "refractory"
         ],
+        "radius": {
+            "empirical": {
+                "value": 159,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 208,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 175,
+                "deviation": 10,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 0.38,
             "unit": "K"
@@ -9905,7 +11105,7 @@
         }
     },
     "ta": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0008,
@@ -10029,6 +11229,21 @@
             "heavy",
             "refractory"
         ],
+        "radius": {
+            "empirical": {
+                "value": 146,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 200,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 170,
+                "deviation": 8,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 4.4,
             "unit": "K"
@@ -10050,7 +11265,7 @@
         }
     },
     "w": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0064,
@@ -10176,6 +11391,21 @@
             "heavy",
             "refractory"
         ],
+        "radius": {
+            "empirical": {
+                "value": 139,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 193,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 162,
+                "deviation": 7,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 0.01,
             "unit": "K"
@@ -10197,7 +11427,7 @@
         }
     },
     "re": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1e-7,
@@ -10316,6 +11546,21 @@
             "stable",
             "heavy"
         ],
+        "radius": {
+            "empirical": {
+                "value": 137,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 188,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 151,
+                "deviation": 7,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 1.7,
             "unit": "K"
@@ -10337,7 +11582,7 @@
         }
     },
     "os": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000001,
@@ -10453,6 +11698,21 @@
             "heavy",
             "platinum"
         ],
+        "radius": {
+            "empirical": {
+                "value": 135,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 185,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 144,
+                "deviation": 4,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 0.7,
             "unit": "K"
@@ -10474,7 +11734,7 @@
         }
     },
     "ir": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1e-7,
@@ -10594,6 +11854,21 @@
             "heavy",
             "platinum"
         ],
+        "radius": {
+            "empirical": {
+                "value": 136,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 180,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 141,
+                "deviation": 6,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 0.1,
             "unit": "K"
@@ -10615,7 +11890,7 @@
         }
     },
     "pt": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 5e-7,
@@ -10717,6 +11992,25 @@
             "heavy",
             "platinum"
         ],
+        "radius": {
+            "empirical": {
+                "value": 139,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 177,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 136,
+                "deviation": 5,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 175,
+                "unit": "pm"
+            }
+        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -10734,7 +12028,7 @@
         }
     },
     "au": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4e-7,
@@ -10837,6 +12131,25 @@
             "heavy",
             "antiquity"
         ],
+        "radius": {
+            "empirical": {
+                "value": 144,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 174,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 136,
+                "deviation": 6,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 166,
+                "unit": "pm"
+            }
+        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -10854,7 +12167,7 @@
         }
     },
     "hg": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00004,
@@ -10985,6 +12298,25 @@
             "heavy",
             "antiquity"
         ],
+        "radius": {
+            "empirical": {
+                "value": 151,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 171,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 132,
+                "deviation": 5,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 155,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 4.15,
             "unit": "K"
@@ -11006,7 +12338,7 @@
         }
     },
     "tl": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000029,
@@ -11135,6 +12467,25 @@
             "stable",
             "heavy"
         ],
+        "radius": {
+            "empirical": {
+                "value": 170,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 156,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 145,
+                "deviation": 7,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 196,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 2.4,
             "unit": "K"
@@ -11156,7 +12507,7 @@
         }
     },
     "pb": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0018,
@@ -11292,6 +12643,25 @@
             "heavy",
             "antiquity"
         ],
+        "radius": {
+            "empirical": {
+                "value": 175,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 154,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 146,
+                "deviation": 5,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 202,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 7.2,
             "unit": "K"
@@ -11313,7 +12683,7 @@
         }
     },
     "bi": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00002,
@@ -11435,6 +12805,25 @@
         ],
         "radioactive": true,
         "radioactivity": "slightly-radioactive",
+        "radius": {
+            "empirical": {
+                "value": 156,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 143,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 148,
+                "deviation": 4,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 207,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 8.7,
             "unit": "K"
@@ -11456,7 +12845,7 @@
         }
     },
     "po": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2.1e-15,
@@ -11528,6 +12917,25 @@
         ],
         "radioactive": true,
         "radioactivity": "significantly-radioactive",
+        "radius": {
+            "empirical": {
+                "value": 168,
+                "unit": "pm"
+            },
+            "calculated": {
+                "value": 135,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 140,
+                "deviation": 4,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 197,
+                "unit": "pm"
+            }
+        },
         "set": "metal",
         "shell": [
             2,
@@ -11545,7 +12953,7 @@
         }
     },
     "at": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 3e-25,
@@ -11599,6 +13007,12 @@
         ],
         "radioactive": true,
         "radioactivity": "highly-radioactive",
+        "radius": {
+            "calculated": {
+                "value": 127,
+                "unit": "pm"
+            }
+        },
         "set": "halogen",
         "shell": [
             2,
@@ -11616,7 +13030,7 @@
         }
     },
     "rn": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 6.1e-15,
@@ -11686,6 +13100,20 @@
         ],
         "radioactive": true,
         "radioactivity": "significantly-radioactive",
+        "radius": {
+            "calculated": {
+                "value": 120,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 150,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 220,
+                "unit": "pm"
+            }
+        },
         "set": "noblegas",
         "shell": [
             2,
@@ -11703,7 +13131,7 @@
         }
     },
     "fr": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.3e-22,
@@ -11757,6 +13185,18 @@
         ],
         "radioactive": true,
         "radioactivity": "highly-radioactive",
+        "radius": {
+            "covalent": {
+                "value": 260,
+                "*": true,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 348,
+                "*": true,
+                "unit": "pm"
+            }
+        },
         "set": "alkalimetal",
         "shell": [
             2,
@@ -11775,7 +13215,7 @@
         }
     },
     "ra": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 9.5e-15,
@@ -11849,6 +13289,17 @@
         ],
         "radioactive": true,
         "radioactivity": "radioactive",
+        "radius": {
+            "covalent": {
+                "value": 221,
+                "deviation": 2,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 283,
+                "unit": "pm"
+            }
+        },
         "set": "alkalineearthmetal",
         "shell": [
             2,
@@ -11867,7 +13318,7 @@
         }
     },
     "ac": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 6e-18,
@@ -11930,6 +13381,12 @@
         ],
         "radioactive": true,
         "radioactivity": "significantly-radioactive",
+        "radius": {
+            "covalent": {
+                "value": 215,
+                "unit": "pm"
+            }
+        },
         "set": "actinoide",
         "shell": [
             2,
@@ -11948,7 +13405,7 @@
         }
     },
     "th": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0011,
@@ -12056,6 +13513,17 @@
         ],
         "radioactive": true,
         "radioactivity": "slightly-radioactive",
+        "radius": {
+            "empirical": {
+                "value": 180,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 206,
+                "deviation": 6,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 1.4,
             "unit": "K"
@@ -12078,7 +13546,7 @@
         }
     },
     "pa": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0009,
@@ -12153,6 +13621,16 @@
         ],
         "radioactive": true,
         "radioactivity": "radioactive",
+        "radius": {
+            "empirical": {
+                "value": 163,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 200,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 1.4,
             "unit": "K"
@@ -12175,7 +13653,7 @@
         }
     },
     "u": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00032,
@@ -12309,6 +13787,21 @@
         ],
         "radioactive": true,
         "radioactivity": "slightly-radioactive",
+        "radius": {
+            "empirical": {
+                "value": 156,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 196,
+                "deviation": 7,
+                "unit": "pm"
+            },
+            "vdw": {
+                "value": 186,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 1.3,
             "unit": "K"
@@ -12331,7 +13824,7 @@
         }
     },
     "np": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4e-18,
@@ -12396,6 +13889,17 @@
         ],
         "radioactive": true,
         "radioactivity": "slightly-radioactive",
+        "radius": {
+            "empirical": {
+                "value": 155,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 190,
+                "deviation": 1,
+                "unit": "pm"
+            }
+        },
         "set": "actinoide",
         "shell": [
             2,
@@ -12414,7 +13918,7 @@
         }
     },
     "pu": {
-        "@modified": "2023-10-10T18:05:09.579Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2e-19,
@@ -12494,6 +13998,17 @@
         ],
         "radioactive": true,
         "radioactivity": "slightly-radioactive",
+        "radius": {
+            "empirical": {
+                "value": 159,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 187,
+                "deviation": 1,
+                "unit": "pm"
+            }
+        },
         "set": "actinoide",
         "shell": [
             2,
@@ -12512,7 +14027,7 @@
         }
     },
     "am": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "appearance": {
             "en": "silvery white",
             "de": "silbrig-weißes Metall"
@@ -12568,6 +14083,17 @@
         ],
         "radioactive": true,
         "radioactivity": "radioactive",
+        "radius": {
+            "empirical": {
+                "value": 173,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 180,
+                "deviation": 6,
+                "unit": "pm"
+            }
+        },
         "sc_temp": {
             "value": 1,
             "unit": "K"
@@ -12590,7 +14116,7 @@
         }
     },
     "cm": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "appearance": {
             "en": "silvery metallic, glows purple in the dark",
             "de": "silbrig-weißes Metall"
@@ -12633,6 +14159,17 @@
         ],
         "radioactive": true,
         "radioactivity": "slightly-radioactive",
+        "radius": {
+            "empirical": {
+                "value": 174,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 169,
+                "deviation": 3,
+                "unit": "pm"
+            }
+        },
         "set": "actinoide",
         "shell": [
             2,
@@ -12651,7 +14188,7 @@
         }
     },
     "bk": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "appearance": {
             "en": "silvery",
             "de": "silberweiß"
@@ -12699,6 +14236,12 @@
         ],
         "radioactive": true,
         "radioactivity": "radioactive",
+        "radius": {
+            "empirical": {
+                "value": 170,
+                "unit": "pm"
+            }
+        },
         "set": "actinoide",
         "shell": [
             2,
@@ -13071,7 +14614,7 @@
         }
     },
     "rf": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "appearance": {
             "de": "unbekannt, vermutlich silber-weiß oder grau metallisch"
         },
@@ -13112,6 +14655,13 @@
         ],
         "radioactive": true,
         "radioactivity": "highly-radioactive",
+        "radius": {
+            "covalent": {
+                "value": 157,
+                "*": true,
+                "unit": "pm"
+            }
+        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -13129,7 +14679,7 @@
         }
     },
     "db": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "block": "d",
         "classification": {
             "cas": [
@@ -13174,6 +14724,18 @@
         ],
         "radioactive": true,
         "radioactivity": "significantly-radioactive",
+        "radius": {
+            "empirical": {
+                "value": 139,
+                "*": true,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 149,
+                "*": true,
+                "unit": "pm"
+            }
+        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -13191,7 +14753,7 @@
         }
     },
     "sg": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "block": "d",
         "classification": {
             "cas": [
@@ -13228,6 +14790,18 @@
         ],
         "radioactive": true,
         "radioactivity": "highly-radioactive",
+        "radius": {
+            "empirical": {
+                "value": 132,
+                "*": true,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 143,
+                "*": true,
+                "unit": "pm"
+            }
+        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -13245,7 +14819,7 @@
         }
     },
     "bh": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "block": "d",
         "classification": {
             "cas": [
@@ -13282,6 +14856,18 @@
         ],
         "radioactive": true,
         "radioactivity": "highly-radioactive",
+        "radius": {
+            "empirical": {
+                "value": 128,
+                "*": true,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 141,
+                "*": true,
+                "unit": "pm"
+            }
+        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -13299,7 +14885,7 @@
         }
     },
     "hs": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "block": "d",
         "classification": {
             "cas": [
@@ -13336,6 +14922,18 @@
         ],
         "radioactive": true,
         "radioactivity": "highly-radioactive",
+        "radius": {
+            "empirical": {
+                "value": 126,
+                "*": true,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 134,
+                "*": true,
+                "unit": "pm"
+            }
+        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -13353,7 +14951,7 @@
         }
     },
     "mt": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "block": "d",
         "classification": {
             "cas": [
@@ -13390,6 +14988,18 @@
         ],
         "radioactive": true,
         "radioactivity": "extremely-radioactive",
+        "radius": {
+            "empirical": {
+                "value": 128,
+                "*": true,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 129,
+                "*": true,
+                "unit": "pm"
+            }
+        },
         "set": null,
         "shell": [
             2,
@@ -13407,7 +15017,7 @@
         }
     },
     "ds": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "block": "d",
         "classification": {
             "cas": [
@@ -13444,6 +15054,18 @@
         ],
         "radioactive": true,
         "radioactivity": "extremely-radioactive",
+        "radius": {
+            "empirical": {
+                "value": 132,
+                "*": true,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 128,
+                "*": true,
+                "unit": "pm"
+            }
+        },
         "set": null,
         "shell": [
             2,
@@ -13461,7 +15083,7 @@
         }
     },
     "rg": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "block": "d",
         "classification": {
             "cas": [
@@ -13498,6 +15120,18 @@
         ],
         "radioactive": true,
         "radioactivity": "extremely-radioactive",
+        "radius": {
+            "empirical": {
+                "value": 138,
+                "*": true,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 121,
+                "*": true,
+                "unit": "pm"
+            }
+        },
         "set": null,
         "shell": [
             2,
@@ -13515,7 +15149,7 @@
         }
     },
     "cn": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "block": "d",
         "classification": {
             "cas": [
@@ -13552,6 +15186,18 @@
         ],
         "radioactive": true,
         "radioactivity": "extremely-radioactive",
+        "radius": {
+            "empirical": {
+                "value": 147,
+                "*": true,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 122,
+                "*": true,
+                "unit": "pm"
+            }
+        },
         "set": null,
         "shell": [
             2,
@@ -13569,7 +15215,7 @@
         }
     },
     "nh": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "block": "p",
         "classification": {
             "cas": [
@@ -13606,6 +15252,19 @@
         ],
         "radioactive": true,
         "radioactivity": "extremely-radioactive",
+        "radius": {
+            "empirical": {
+                "value": 170,
+                "*": true,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 176,
+                "deviation": 4,
+                "*": true,
+                "unit": "pm"
+            }
+        },
         "set": null,
         "shell": [
             2,
@@ -13623,7 +15282,7 @@
         }
     },
     "fl": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "block": "p",
         "classification": {
             "cas": [
@@ -13660,6 +15319,19 @@
         ],
         "radioactive": true,
         "radioactivity": "extremely-radioactive",
+        "radius": {
+            "empirical": {
+                "value": 180,
+                "*": true,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 174,
+                "deviation": 3,
+                "*": true,
+                "unit": "pm"
+            }
+        },
         "set": null,
         "shell": [
             2,
@@ -13677,7 +15349,7 @@
         }
     },
     "mc": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "block": "p",
         "classification": {
             "cas": [
@@ -13713,6 +15385,19 @@
         ],
         "radioactive": true,
         "radioactivity": "extremely-radioactive",
+        "radius": {
+            "empirical": {
+                "value": 187,
+                "*": true,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 157,
+                "deviation": 1,
+                "*": true,
+                "unit": "pm"
+            }
+        },
         "set": null,
         "shell": [
             2,
@@ -13730,7 +15415,7 @@
         }
     },
     "lv": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "block": "p",
         "classification": {
             "cas": [
@@ -13766,6 +15451,19 @@
         ],
         "radioactive": true,
         "radioactivity": "extremely-radioactive",
+        "radius": {
+            "empirical": {
+                "value": 183,
+                "*": true,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 164,
+                "deviation": 2,
+                "*": true,
+                "unit": "pm"
+            }
+        },
         "set": null,
         "shell": [
             2,
@@ -13783,7 +15481,7 @@
         }
     },
     "ts": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "appearance": {
             "en": "semimetallic (predicted)"
         },
@@ -13822,6 +15520,18 @@
         ],
         "radioactive": true,
         "radioactivity": "extremely-radioactive",
+        "radius": {
+            "empirical": {
+                "value": 138,
+                "*": true,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 156,
+                "*": true,
+                "unit": "pm"
+            }
+        },
         "set": null,
         "shell": [
             2,
@@ -13839,7 +15549,7 @@
         }
     },
     "og": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T07:22:44.650Z",
         "appearance": {
             "en": "metallic (predicted)"
         },
@@ -13880,6 +15590,18 @@
         ],
         "radioactive": true,
         "radioactivity": "extremely-radioactive",
+        "radius": {
+            "empirical": {
+                "value": 152,
+                "*": true,
+                "unit": "pm"
+            },
+            "covalent": {
+                "value": 157,
+                "*": true,
+                "unit": "pm"
+            }
+        },
         "set": null,
         "shell": [
             2,
