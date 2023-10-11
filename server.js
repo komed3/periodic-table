@@ -384,7 +384,7 @@ routes.routes.forEach( ( route ) => {
 
                             for( const [ _k, res ] of Object.entries( scale.results ) ) {
 
-                                let val = res.scale.x / scale.step;
+                                let val = ( res.scale.x - scale.min ) / scale.step;
 
                                 switch( scale.round ) {
 
