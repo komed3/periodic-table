@@ -889,7 +889,7 @@
         "hardness": {
             "mohs": 9.3,
             "vickers": {
-                "value": 49000,
+                "value": 4900,
                 "unit": "NM·m[-2]"
             }
         },
