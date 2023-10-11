@@ -15,6 +15,10 @@ site:
     radioactivity, crystal_structure, magnetic_ordering, superconductivity
   ]
   scales:
+    standard_atomic_weight:
+      key: standard_atomic_weight
+      label: standard-atomic-weight
+      scheme: _ice
     atomic_mass:
       key: atomic_mass
       label: atomic-mass

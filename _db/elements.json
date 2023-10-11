@@ -1,6 +1,6 @@
 {
     "h": {
-        "@modified": "2023-10-11T09:09:36.248Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.15,
@@ -29,12 +29,8 @@
             "de": "farbloses Gas (H{2})"
         },
         "atomic_mass": {
-            "value": 1.008,
-            "deviation": 0.0002,
-            "range": [
-                1.00784,
-                1.00811
-            ]
+            "value": 1.0081,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "s",
@@ -323,6 +319,14 @@
                 }
             ]
         },
+        "standard_atomic_weight": {
+            "value": 1.008,
+            "deviation": 0.0002,
+            "range": [
+                1.00784,
+                1.00811
+            ]
+        },
         "superconductivity": "none",
         "symbol": "H",
         "thermal_conductivity": {
@@ -353,7 +357,7 @@
         }
     },
     "he": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4e-7,
@@ -378,8 +382,8 @@
             "de": "farbloses Gas"
         },
         "atomic_mass": {
-            "value": 4.002602,
-            "deviation": 0.000002
+            "value": 4.0026022,
+            "unit": "u"
         },
         "block": "s",
         "classification": {
@@ -477,6 +481,10 @@
         "shell": [
             2
         ],
+        "standard_atomic_weight": {
+            "value": 4.002602,
+            "deviation": 0.000002
+        },
         "superconductivity": "none",
         "symbol": "He",
         "wiki": {
@@ -485,7 +493,7 @@
         }
     },
     "li": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.006,
@@ -514,12 +522,8 @@
             "de": "silbrig weiß/grau"
         },
         "atomic_mass": {
-            "value": 6.94,
-            "deviation": 0.06,
-            "range": [
-                6.938,
-                6.997
-            ]
+            "value": 6.946,
+            "unit": "u"
         },
         "basicity": "strongly-alkaline",
         "block": "s",
@@ -645,6 +649,14 @@
             2,
             1
         ],
+        "standard_atomic_weight": {
+            "value": 6.94,
+            "deviation": 0.06,
+            "range": [
+                6.938,
+                6.997
+            ]
+        },
         "superconductivity": "special",
         "symbol": "Li",
         "wiki": {
@@ -653,7 +665,7 @@
         }
     },
     "be": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00053,
@@ -682,8 +694,8 @@
             "de": "weiß-grau metallisch"
         },
         "atomic_mass": {
-            "value": 9.0121831,
-            "deviation": 5e-7
+            "value": 9.01218315,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "s",
@@ -825,6 +837,10 @@
             2,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 9.0121831,
+            "deviation": 5e-7
+        },
         "superconductivity": "normal",
         "symbol": "Be",
         "wiki": {
@@ -833,7 +849,7 @@
         }
     },
     "b": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0016,
@@ -862,12 +878,8 @@
             "de": "schwarz"
         },
         "atomic_mass": {
-            "value": 10.81,
-            "deviation": 0.02,
-            "range": [
-                10.806,
-                10.821
-            ]
+            "value": 10.811,
+            "unit": "u"
         },
         "basicity": "slightly-acidic",
         "block": "p",
@@ -980,6 +992,14 @@
             2,
             3
         ],
+        "standard_atomic_weight": {
+            "value": 10.81,
+            "deviation": 0.02,
+            "range": [
+                10.806,
+                10.821
+            ]
+        },
         "superconductivity": "special",
         "symbol": "B",
         "wiki": {
@@ -988,7 +1008,7 @@
         }
     },
     "c": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.087,
@@ -1017,12 +1037,8 @@
             "de": "schwarz (Graphit); farblos (Diamant)"
         },
         "atomic_mass": {
-            "value": 12.011,
-            "deviation": 0.002,
-            "range": [
-                12.0096,
-                12.0116
-            ]
+            "value": 12.01112,
+            "unit": "u"
         },
         "basicity": "slightly-acidic",
         "block": "p",
@@ -1117,6 +1133,14 @@
             2,
             4
         ],
+        "standard_atomic_weight": {
+            "value": 12.011,
+            "deviation": 0.002,
+            "range": [
+                12.0096,
+                12.0116
+            ]
+        },
         "superconductivity": "special",
         "symbol": "C",
         "wiki": {
@@ -1125,7 +1149,7 @@
         }
     },
     "n": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.03,
@@ -1154,12 +1178,8 @@
             "de": "farbloses Gas"
         },
         "atomic_mass": {
-            "value": 14.007,
-            "deviation": 0.001,
-            "range": [
-                14.00643,
-                14.00728
-            ]
+            "value": 14.006714,
+            "unit": "u"
         },
         "basicity": "strongly-acidic",
         "block": "p",
@@ -1247,6 +1267,14 @@
             2,
             5
         ],
+        "standard_atomic_weight": {
+            "value": 14.007,
+            "deviation": 0.001,
+            "range": [
+                14.00643,
+                14.00728
+            ]
+        },
         "superconductivity": "special",
         "symbol": "N",
         "wiki": {
@@ -1255,7 +1283,7 @@
         }
     },
     "o": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 49400,
@@ -1284,12 +1312,8 @@
             "de": "farbloses Gas"
         },
         "atomic_mass": {
-            "value": 15.999,
-            "deviation": 0.001,
-            "range": [
-                15.99903,
-                15.99977
-            ]
+            "value": 15.99915,
+            "unit": "u"
         },
         "block": "p",
         "classification": {
@@ -1401,6 +1425,14 @@
             2,
             6
         ],
+        "standard_atomic_weight": {
+            "value": 15.999,
+            "deviation": 0.001,
+            "range": [
+                15.99903,
+                15.99977
+            ]
+        },
         "superconductivity": "normal",
         "symbol": "O",
         "wiki": {
@@ -1409,7 +1441,7 @@
         }
     },
     "f": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.028,
@@ -1438,8 +1470,8 @@
             "de": "blasses, gelbliches Gas"
         },
         "atomic_mass": {
-            "value": 18.99840316,
-            "deviation": 5e-9
+            "value": 18.9984031636,
+            "unit": "u"
         },
         "basicity": "strongly-acidic",
         "block": "p",
@@ -1557,6 +1589,10 @@
             2,
             7
         ],
+        "standard_atomic_weight": {
+            "value": 18.99840316,
+            "deviation": 5e-9
+        },
         "superconductivity": "none",
         "symbol": "F",
         "wiki": {
@@ -1565,7 +1601,7 @@
         }
     },
     "ne": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 5e-7,
@@ -1590,8 +1626,8 @@
             "de": "farbloses Gas"
         },
         "atomic_mass": {
-            "value": 20.1797,
-            "deviation": 0.0006
+            "value": 20.17976,
+            "unit": "u"
         },
         "block": "p",
         "classification": {
@@ -1672,6 +1708,10 @@
             2,
             8
         ],
+        "standard_atomic_weight": {
+            "value": 20.1797,
+            "deviation": 0.0006
+        },
         "superconductivity": "none",
         "symbol": "Ne",
         "wiki": {
@@ -1680,7 +1720,7 @@
         }
     },
     "na": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2.64,
@@ -1709,8 +1749,8 @@
             "de": "silbrig weiß"
         },
         "atomic_mass": {
-            "value": 22.98976928,
-            "deviation": 2e-8
+            "value": 22.989769282,
+            "unit": "u"
         },
         "basicity": "strongly-alkaline",
         "block": "s",
@@ -1839,6 +1879,10 @@
             8,
             1
         ],
+        "standard_atomic_weight": {
+            "value": 22.98976928,
+            "deviation": 2e-8
+        },
         "superconductivity": "none",
         "symbol": "Na",
         "wiki": {
@@ -1847,7 +1891,7 @@
         }
     },
     "mg": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.94,
@@ -1876,12 +1920,8 @@
             "de": "silbrig weiß"
         },
         "atomic_mass": {
-            "value": 24.305,
-            "deviation": 0.002,
-            "range": [
-                24.304,
-                24.307
-            ]
+            "value": 24.30524,
+            "unit": "u"
         },
         "basicity": "moderately-alkaline",
         "block": "s",
@@ -2014,6 +2054,14 @@
             8,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 24.305,
+            "deviation": 0.002,
+            "range": [
+                24.304,
+                24.307
+            ]
+        },
         "superconductivity": "none",
         "symbol": "Mg",
         "wiki": {
@@ -2022,7 +2070,7 @@
         }
     },
     "al": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 7.57,
@@ -2051,8 +2099,8 @@
             "de": "silbrig"
         },
         "atomic_mass": {
-            "value": 26.9815384,
-            "deviation": 3e-7
+            "value": 26.98153857,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "p",
@@ -2177,6 +2225,10 @@
             8,
             3
         ],
+        "standard_atomic_weight": {
+            "value": 26.9815384,
+            "deviation": 3e-7
+        },
         "superconductivity": "normal",
         "symbol": "Al",
         "wiki": {
@@ -2185,7 +2237,7 @@
         }
     },
     "si": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 25800,
@@ -2214,12 +2266,8 @@
             "de": "dunkelgrau, bläulicher Farbton"
         },
         "atomic_mass": {
-            "value": 28.085,
-            "deviation": 0.001,
-            "range": [
-                28.084,
-                28.086
-            ]
+            "value": 28.08528,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "p",
@@ -2312,6 +2360,14 @@
             8,
             4
         ],
+        "standard_atomic_weight": {
+            "value": 28.085,
+            "deviation": 0.001,
+            "range": [
+                28.084,
+                28.086
+            ]
+        },
         "superconductivity": "special",
         "symbol": "Si",
         "wiki": {
@@ -2320,7 +2376,7 @@
         }
     },
     "p": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.09,
@@ -2349,8 +2405,8 @@
             "de": "weiß-beige (W); dunkelrot (R); schwarz (S)"
         },
         "atomic_mass": {
-            "value": 30.973762,
-            "deviation": 5e-9
+            "value": 30.9737619985,
+            "unit": "u"
         },
         "basicity": "slightly-acidic",
         "block": "p",
@@ -2481,6 +2537,10 @@
             8,
             5
         ],
+        "standard_atomic_weight": {
+            "value": 30.973762,
+            "deviation": 5e-9
+        },
         "superconductivity": "special",
         "symbol": "P",
         "wiki": {
@@ -2489,7 +2549,7 @@
         }
     },
     "s": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.048,
@@ -2518,12 +2578,8 @@
             "de": "gelb"
         },
         "atomic_mass": {
-            "value": 32.06,
-            "deviation": 0.02,
-            "range": [
-                32.059,
-                32.076
-            ]
+            "value": 32.0632,
+            "unit": "u"
         },
         "basicity": "strongly-acidic",
         "block": "p",
@@ -2632,6 +2688,14 @@
             8,
             6
         ],
+        "standard_atomic_weight": {
+            "value": 32.06,
+            "deviation": 0.02,
+            "range": [
+                32.059,
+                32.076
+            ]
+        },
         "superconductivity": "special",
         "symbol": "S",
         "wiki": {
@@ -2640,7 +2704,7 @@
         }
     },
     "cl": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.19,
@@ -2669,12 +2733,8 @@
             "de": "gelblich-grün"
         },
         "atomic_mass": {
-            "value": 35.45,
-            "deviation": 0.01,
-            "range": [
-                35.446,
-                35.457
-            ]
+            "value": 35.4535,
+            "unit": "u"
         },
         "basicity": "strongly-acidic",
         "block": "p",
@@ -2802,6 +2862,14 @@
             8,
             7
         ],
+        "standard_atomic_weight": {
+            "value": 35.45,
+            "deviation": 0.01,
+            "range": [
+                35.446,
+                35.457
+            ]
+        },
         "superconductivity": "none",
         "symbol": "Cl",
         "wiki": {
@@ -2810,7 +2878,7 @@
         }
     },
     "ar": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00036,
@@ -2835,12 +2903,8 @@
             "de": "farbloses Gas"
         },
         "atomic_mass": {
-            "value": 39.95,
-            "deviation": 0.16,
-            "range": [
-                39.792,
-                39.963
-            ]
+            "value": 39.9481,
+            "unit": "u"
         },
         "block": "p",
         "classification": {
@@ -2923,6 +2987,14 @@
             8,
             8
         ],
+        "standard_atomic_weight": {
+            "value": 39.95,
+            "deviation": 0.16,
+            "range": [
+                39.792,
+                39.963
+            ]
+        },
         "superconductivity": "none",
         "symbol": "Ar",
         "wiki": {
@@ -2931,7 +3003,7 @@
         }
     },
     "k": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2.41,
@@ -2960,8 +3032,8 @@
             "de": "silbrig weiß"
         },
         "atomic_mass": {
-            "value": 39.0983,
-            "deviation": 0.0001
+            "value": 39.09831,
+            "unit": "u"
         },
         "basicity": "strongly-alkaline",
         "block": "s",
@@ -3085,6 +3157,10 @@
             8,
             1
         ],
+        "standard_atomic_weight": {
+            "value": 39.0983,
+            "deviation": 0.0001
+        },
         "superconductivity": "none",
         "symbol": "K",
         "wiki": {
@@ -3093,7 +3169,7 @@
         }
     },
     "ca": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 3.39,
@@ -3122,8 +3198,8 @@
             "de": "silbrig weiß"
         },
         "atomic_mass": {
-            "value": 40.078,
-            "deviation": 0.004
+            "value": 40.0784,
+            "unit": "u"
         },
         "basicity": "strongly-alkaline",
         "block": "s",
@@ -3257,6 +3333,10 @@
             8,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 40.078,
+            "deviation": 0.004
+        },
         "superconductivity": "special",
         "symbol": "Ca",
         "wiki": {
@@ -3265,7 +3345,7 @@
         }
     },
     "sc": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00051,
@@ -3294,8 +3374,8 @@
             "de": "silbrig weiß"
         },
         "atomic_mass": {
-            "value": 44.955907,
-            "deviation": 0.000004
+            "value": 44.9559085,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "d",
@@ -3413,6 +3493,10 @@
             9,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 44.955907,
+            "deviation": 0.000004
+        },
         "superconductivity": "special",
         "symbol": "Sc",
         "wiki": {
@@ -3421,7 +3505,7 @@
         }
     },
     "ti": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.41,
@@ -3450,8 +3534,8 @@
             "de": "silbrig metallisch"
         },
         "atomic_mass": {
-            "value": 47.867,
-            "deviation": 0.001
+            "value": 47.8671,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "d",
@@ -3573,6 +3657,10 @@
             10,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 47.867,
+            "deviation": 0.001
+        },
         "superconductivity": "normal",
         "symbol": "Ti",
         "wiki": {
@@ -3581,7 +3669,7 @@
         }
     },
     "v": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.041,
@@ -3610,8 +3698,8 @@
             "de": "stahlgrau metallisch, bläulich schimmernd"
         },
         "atomic_mass": {
-            "value": 50.9415,
-            "deviation": 0.0001
+            "value": 50.94151,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "d",
@@ -3717,6 +3805,10 @@
             11,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 50.9415,
+            "deviation": 0.0001
+        },
         "superconductivity": "normal",
         "symbol": "V",
         "wiki": {
@@ -3725,7 +3817,7 @@
         }
     },
     "cr": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.019,
@@ -3754,8 +3846,8 @@
             "de": "silbrig metallisch"
         },
         "atomic_mass": {
-            "value": 51.9961,
-            "deviation": 0.0006
+            "value": 51.99616,
+            "unit": "u"
         },
         "basicity": "strongly-acidic",
         "block": "d",
@@ -3861,6 +3953,10 @@
             13,
             1
         ],
+        "standard_atomic_weight": {
+            "value": 51.9961,
+            "deviation": 0.0006
+        },
         "superconductivity": "special",
         "symbol": "Cr",
         "wiki": {
@@ -3869,7 +3965,7 @@
         }
     },
     "mn": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.085,
@@ -3898,8 +3994,8 @@
             "de": "silbrig metallisch (Stahlweiß)"
         },
         "atomic_mass": {
-            "value": 54.938043,
-            "deviation": 0.000002
+            "value": 54.9380443,
+            "unit": "u"
         },
         "basicity": "strongly-acidic",
         "block": "d",
@@ -4017,6 +4113,10 @@
             13,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 54.938043,
+            "deviation": 0.000002
+        },
         "superconductivity": "none",
         "symbol": "Mn",
         "wiki": {
@@ -4025,7 +4125,7 @@
         }
     },
     "fe": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4700,
@@ -4054,8 +4154,8 @@
             "de": "metallisch glänzend mit einem gräulichen Farbton"
         },
         "atomic_mass": {
-            "value": 55.845,
-            "deviation": 0.002
+            "value": 55.8452,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "d",
@@ -4161,6 +4261,10 @@
             14,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 55.845,
+            "deviation": 0.002
+        },
         "superconductivity": "special",
         "symbol": "Fe",
         "wiki": {
@@ -4169,7 +4273,7 @@
         }
     },
     "co": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0037,
@@ -4198,8 +4302,8 @@
             "de": "stahlgrauer metallisch glänzender Feststoff"
         },
         "atomic_mass": {
-            "value": 58.933194,
-            "deviation": 0.000003
+            "value": 58.9331944,
+            "unit": "u"
         },
         "basicity": "neutral",
         "block": "d",
@@ -4342,6 +4446,10 @@
             15,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 58.933194,
+            "deviation": 0.000003
+        },
         "superconductivity": "none",
         "symbol": "Co",
         "wiki": {
@@ -4350,7 +4458,7 @@
         }
     },
     "ni": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.015,
@@ -4379,8 +4487,8 @@
             "de": "lustrous, metallic, and silver with a gold tinge"
         },
         "atomic_mass": {
-            "value": 58.6934,
-            "deviation": 0.0004
+            "value": 58.69344,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "d",
@@ -4515,6 +4623,10 @@
             16,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 58.6934,
+            "deviation": 0.0004
+        },
         "superconductivity": "none",
         "symbol": "Ni",
         "wiki": {
@@ -4523,7 +4635,7 @@
         }
     },
     "cu": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.01,
@@ -4552,8 +4664,8 @@
             "de": "rotbraun, metallisch"
         },
         "atomic_mass": {
-            "value": 63.546,
-            "deviation": 0.003
+            "value": 63.5463,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "d",
@@ -4672,6 +4784,10 @@
             18,
             1
         ],
+        "standard_atomic_weight": {
+            "value": 63.546,
+            "deviation": 0.003
+        },
         "superconductivity": "none",
         "symbol": "Cu",
         "wiki": {
@@ -4680,7 +4796,7 @@
         }
     },
     "zn": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.012,
@@ -4709,8 +4825,8 @@
             "de": "bläulich blassgrau"
         },
         "atomic_mass": {
-            "value": 65.38,
-            "deviation": 0.02
+            "value": 65.382,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "d",
@@ -4843,6 +4959,10 @@
             18,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 65.38,
+            "deviation": 0.02
+        },
         "superconductivity": "normal",
         "symbol": "Zn",
         "wiki": {
@@ -4851,7 +4971,7 @@
         }
     },
     "ga": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0014,
@@ -4880,8 +5000,8 @@
             "de": "silbrig weiß"
         },
         "atomic_mass": {
-            "value": 69.723,
-            "deviation": 0.001
+            "value": 69.7231,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "p",
@@ -5000,6 +5120,10 @@
             18,
             3
         ],
+        "standard_atomic_weight": {
+            "value": 69.723,
+            "deviation": 0.001
+        },
         "superconductivity": "normal",
         "symbol": "Ga",
         "wiki": {
@@ -5008,7 +5132,7 @@
         }
     },
     "ge": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00056,
@@ -5037,8 +5161,8 @@
             "de": "gräulich weiß"
         },
         "atomic_mass": {
-            "value": 72.63,
-            "deviation": 0.008
+            "value": 72.6308,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "p",
@@ -5138,6 +5262,10 @@
             18,
             4
         ],
+        "standard_atomic_weight": {
+            "value": 72.63,
+            "deviation": 0.008
+        },
         "superconductivity": "special",
         "symbol": "Ge",
         "wiki": {
@@ -5146,7 +5274,7 @@
         }
     },
     "as": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00055,
@@ -5175,8 +5303,8 @@
             "de": "metallisch grau, gelb oder schwarz"
         },
         "atomic_mass": {
-            "value": 74.921595,
-            "deviation": 0.000006
+            "value": 74.9215956,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "p",
@@ -5299,6 +5427,10 @@
             18,
             5
         ],
+        "standard_atomic_weight": {
+            "value": 74.921595,
+            "deviation": 0.000006
+        },
         "superconductivity": "special",
         "symbol": "As",
         "wiki": {
@@ -5307,7 +5439,7 @@
         }
     },
     "se": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00008,
@@ -5336,8 +5468,8 @@
             "de": "grau, glänzend"
         },
         "atomic_mass": {
-            "value": 78.971,
-            "deviation": 0.008
+            "value": 78.9718,
+            "unit": "u"
         },
         "basicity": "strongly-acidic",
         "block": "p",
@@ -5472,6 +5604,10 @@
             18,
             6
         ],
+        "standard_atomic_weight": {
+            "value": 78.971,
+            "deviation": 0.008
+        },
         "superconductivity": "special",
         "symbol": "Se",
         "wiki": {
@@ -5480,7 +5616,7 @@
         }
     },
     "br": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0006,
@@ -5509,12 +5645,8 @@
             "de": "rotbraun (gasförmig); rotbraun (flüssig); metallisch glänzend (fest)"
         },
         "atomic_mass": {
-            "value": 79.904,
-            "deviation": 0.003,
-            "range": [
-                79.901,
-                79.907
-            ]
+            "value": 79.90479,
+            "unit": "u"
         },
         "basicity": "strongly-acidic",
         "block": "p",
@@ -5636,6 +5768,14 @@
             18,
             7
         ],
+        "standard_atomic_weight": {
+            "value": 79.904,
+            "deviation": 0.003,
+            "range": [
+                79.901,
+                79.907
+            ]
+        },
         "superconductivity": "special",
         "symbol": "Br",
         "wiki": {
@@ -5644,7 +5784,7 @@
         }
     },
     "kr": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00019,
@@ -5669,8 +5809,8 @@
             "de": "farbloses Gas"
         },
         "atomic_mass": {
-            "value": 83.798,
-            "deviation": 0.002
+            "value": 83.7982,
+            "unit": "u"
         },
         "block": "p",
         "classification": {
@@ -5760,6 +5900,10 @@
             18,
             8
         ],
+        "standard_atomic_weight": {
+            "value": 83.798,
+            "deviation": 0.002
+        },
         "superconductivity": "none",
         "symbol": "Kr",
         "wiki": {
@@ -5768,7 +5912,7 @@
         }
     },
     "rb": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0029,
@@ -5797,8 +5941,8 @@
             "de": "silbrig weiß"
         },
         "atomic_mass": {
-            "value": 85.4678,
-            "deviation": 0.0003
+            "value": 85.46783,
+            "unit": "u"
         },
         "basicity": "strongly-alkaline",
         "block": "s",
@@ -5922,6 +6066,10 @@
             8,
             1
         ],
+        "standard_atomic_weight": {
+            "value": 85.4678,
+            "deviation": 0.0003
+        },
         "superconductivity": "none",
         "symbol": "Rb",
         "wiki": {
@@ -5930,7 +6078,7 @@
         }
     },
     "sr": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.014,
@@ -5959,8 +6107,8 @@
             "de": "silbrig weiß metallisch"
         },
         "atomic_mass": {
-            "value": 87.62,
-            "deviation": 0.01
+            "value": 87.621,
+            "unit": "u"
         },
         "basicity": "strongly-alkaline",
         "block": "s",
@@ -6079,6 +6227,10 @@
             8,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 87.62,
+            "deviation": 0.01
+        },
         "superconductivity": "special",
         "symbol": "Sr",
         "wiki": {
@@ -6087,7 +6239,7 @@
         }
     },
     "y": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0026,
@@ -6116,8 +6268,8 @@
             "de": "silbrig weiß"
         },
         "atomic_mass": {
-            "value": 88.905838,
-            "deviation": 0.000002
+            "value": 88.905842,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "d",
@@ -6235,6 +6387,10 @@
             9,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 88.905838,
+            "deviation": 0.000002
+        },
         "superconductivity": "special",
         "symbol": "Y",
         "wiki": {
@@ -6243,7 +6399,7 @@
         }
     },
     "zr": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.021,
@@ -6272,8 +6428,8 @@
             "de": "silbrig weiß"
         },
         "atomic_mass": {
-            "value": 91.224,
-            "deviation": 0.002
+            "value": 91.2242,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "d",
@@ -6397,6 +6553,10 @@
             10,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 91.224,
+            "deviation": 0.002
+        },
         "superconductivity": "normal",
         "symbol": "Zr",
         "wiki": {
@@ -6405,7 +6565,7 @@
         }
     },
     "nb": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0019,
@@ -6434,8 +6594,8 @@
             "de": "grau metallisch glänzend"
         },
         "atomic_mass": {
-            "value": 92.90637,
-            "deviation": 0.00001
+            "value": 92.906372,
+            "unit": "u"
         },
         "basicity": "slightly-acidic",
         "block": "d",
@@ -6560,6 +6720,10 @@
             12,
             1
         ],
+        "standard_atomic_weight": {
+            "value": 92.90637,
+            "deviation": 0.00001
+        },
         "superconductivity": "normal",
         "symbol": "Nb",
         "wiki": {
@@ -6568,7 +6732,7 @@
         }
     },
     "mo": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0014,
@@ -6597,8 +6761,8 @@
             "de": "grau metallisch"
         },
         "atomic_mass": {
-            "value": 95.95,
-            "deviation": 0.01
+            "value": 95.951,
+            "unit": "u"
         },
         "basicity": "strongly-acidic",
         "block": "d",
@@ -6705,6 +6869,10 @@
             13,
             1
         ],
+        "standard_atomic_weight": {
+            "value": 95.95,
+            "deviation": 0.01
+        },
         "superconductivity": "normal",
         "symbol": "Mo",
         "wiki": {
@@ -6713,7 +6881,7 @@
         }
     },
     "tc": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.2e-19,
@@ -6727,6 +6895,11 @@
         "appearance": {
             "en": "shiny gray metal",
             "de": "silbrig grau metallisch"
+        },
+        "atomic_mass": {
+            "value": 98.9063,
+            "*": true,
+            "unit": "u"
         },
         "basicity": "strongly-acidic",
         "block": "d",
@@ -6819,7 +6992,7 @@
         }
     },
     "ru": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000002,
@@ -6848,8 +7021,8 @@
             "de": "silbrig weiß metallisch"
         },
         "atomic_mass": {
-            "value": 101.07,
-            "deviation": 0.02
+            "value": 101.072,
+            "unit": "u"
         },
         "basicity": "slightly-acidic",
         "block": "d",
@@ -6965,6 +7138,10 @@
             15,
             1
         ],
+        "standard_atomic_weight": {
+            "value": 101.07,
+            "deviation": 0.02
+        },
         "superconductivity": "normal",
         "symbol": "Ru",
         "wiki": {
@@ -6973,7 +7150,7 @@
         }
     },
     "rh": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1e-7,
@@ -6998,8 +7175,8 @@
             "de": "silbrig weiß metallisch"
         },
         "atomic_mass": {
-            "value": 102.90549,
-            "deviation": 0.00002
+            "value": 102.905502,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "d",
@@ -7126,6 +7303,10 @@
             16,
             1
         ],
+        "standard_atomic_weight": {
+            "value": 102.90549,
+            "deviation": 0.00002
+        },
         "superconductivity": "normal",
         "symbol": "Rh",
         "wiki": {
@@ -7134,7 +7315,7 @@
         }
     },
     "pd": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000011,
@@ -7159,8 +7340,8 @@
             "de": "silbrig, weiß, metallisch"
         },
         "atomic_mass": {
-            "value": 106.42,
-            "deviation": 0.01
+            "value": 106.421,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "d",
@@ -7293,6 +7474,10 @@
             18,
             18
         ],
+        "standard_atomic_weight": {
+            "value": 106.42,
+            "deviation": 0.01
+        },
         "superconductivity": "special",
         "symbol": "Pd",
         "wiki": {
@@ -7301,7 +7486,7 @@
         }
     },
     "ag": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000079,
@@ -7330,8 +7515,8 @@
             "de": "weißglänzend, metallisch"
         },
         "atomic_mass": {
-            "value": 107.8682,
-            "deviation": 0.0002
+            "value": 107.86822,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "d",
@@ -7460,6 +7645,10 @@
             18,
             1
         ],
+        "standard_atomic_weight": {
+            "value": 107.8682,
+            "deviation": 0.0002
+        },
         "superconductivity": "none",
         "symbol": "Ag",
         "wiki": {
@@ -7468,7 +7657,7 @@
         }
     },
     "cd": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00003,
@@ -7497,8 +7686,8 @@
             "de": "silbrig grau metallisch"
         },
         "atomic_mass": {
-            "value": 112.414,
-            "deviation": 0.004
+            "value": 112.4144,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "d",
@@ -7650,6 +7839,10 @@
             18,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 112.414,
+            "deviation": 0.004
+        },
         "superconductivity": "normal",
         "symbol": "Cd",
         "wiki": {
@@ -7658,7 +7851,7 @@
         }
     },
     "in": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00001,
@@ -7687,8 +7880,8 @@
             "de": "silbrig glänzend grau"
         },
         "atomic_mass": {
-            "value": 114.818,
-            "deviation": 0.001
+            "value": 114.8181,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "p",
@@ -7807,6 +8000,10 @@
             18,
             3
         ],
+        "standard_atomic_weight": {
+            "value": 114.818,
+            "deviation": 0.001
+        },
         "superconductivity": "normal",
         "symbol": "In",
         "wiki": {
@@ -7815,7 +8012,7 @@
         }
     },
     "sn": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0035,
@@ -7844,8 +8041,8 @@
             "de": "silbrig glänzend (β-Zinn), grau (α-Zinn)"
         },
         "atomic_mass": {
-            "value": 118.71,
-            "deviation": 0.007
+            "value": 118.7107,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "p",
@@ -7948,6 +8145,10 @@
             18,
             4
         ],
+        "standard_atomic_weight": {
+            "value": 118.71,
+            "deviation": 0.007
+        },
         "superconductivity": "normal",
         "symbol": "Sn",
         "wiki": {
@@ -7956,7 +8157,7 @@
         }
     },
     "sb": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000065,
@@ -7985,8 +8186,8 @@
             "de": "silbrig glänzend grau"
         },
         "atomic_mass": {
-            "value": 121.76,
-            "deviation": 0.001
+            "value": 121.7601,
+            "unit": "u"
         },
         "basicity": "slightly-acidic",
         "block": "p",
@@ -8104,6 +8305,10 @@
             18,
             5
         ],
+        "standard_atomic_weight": {
+            "value": 121.76,
+            "deviation": 0.001
+        },
         "superconductivity": "special",
         "symbol": "Sb",
         "wiki": {
@@ -8112,7 +8317,7 @@
         }
     },
     "te": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000001,
@@ -8137,8 +8342,8 @@
             "de": "silberweiß, metallisch glänzend"
         },
         "atomic_mass": {
-            "value": 127.6,
-            "deviation": 0.03
+            "value": 127.603,
+            "unit": "u"
         },
         "basicity": "slightly-acidic",
         "block": "p",
@@ -8272,6 +8477,10 @@
             18,
             6
         ],
+        "standard_atomic_weight": {
+            "value": 127.6,
+            "deviation": 0.03
+        },
         "superconductivity": "special",
         "symbol": "Te",
         "wiki": {
@@ -8280,7 +8489,7 @@
         }
     },
     "i": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000006,
@@ -8309,8 +8518,8 @@
             "de": "dunkel-violett (gasförmig); grauschwarz, glänzend (fest)"
         },
         "atomic_mass": {
-            "value": 126.90447,
-            "deviation": 0.00003
+            "value": 126.904473,
+            "unit": "u"
         },
         "basicity": "strongly-acidic",
         "block": "p",
@@ -8457,6 +8666,10 @@
             18,
             7
         ],
+        "standard_atomic_weight": {
+            "value": 126.90447,
+            "deviation": 0.00003
+        },
         "superconductivity": "special",
         "symbol": "I",
         "wiki": {
@@ -8465,7 +8678,7 @@
         }
     },
     "xe": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 9e-10,
@@ -8490,8 +8703,8 @@
             "de": "farbloses Gas"
         },
         "atomic_mass": {
-            "value": 131.293,
-            "deviation": 0.006
+            "value": 131.2936,
+            "unit": "u"
         },
         "basicity": "slightly-acidic",
         "block": "p",
@@ -8596,6 +8809,10 @@
             18,
             8
         ],
+        "standard_atomic_weight": {
+            "value": 131.293,
+            "deviation": 0.006
+        },
         "superconductivity": "none",
         "symbol": "Xe",
         "wiki": {
@@ -8604,7 +8821,7 @@
         }
     },
     "cs": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00065,
@@ -8633,8 +8850,8 @@
             "de": "goldgelb glänzend"
         },
         "atomic_mass": {
-            "value": 132.905452,
-            "deviation": 6e-8
+            "value": 132.905451966,
+            "unit": "u"
         },
         "basicity": "strongly-alkaline",
         "block": "s",
@@ -8764,6 +8981,10 @@
             8,
             1
         ],
+        "standard_atomic_weight": {
+            "value": 132.905452,
+            "deviation": 6e-8
+        },
         "superconductivity": "special",
         "symbol": "Cs",
         "wiki": {
@@ -8772,7 +8993,7 @@
         }
     },
     "ba": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.026,
@@ -8801,8 +9022,8 @@
             "de": "weiß-grau metallisch"
         },
         "atomic_mass": {
-            "value": 137.327,
-            "deviation": 0.007
+            "value": 137.3277,
+            "unit": "u"
         },
         "basicity": "alkaline",
         "block": "s",
@@ -8937,6 +9158,10 @@
             8,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 137.327,
+            "deviation": 0.007
+        },
         "superconductivity": "special",
         "symbol": "Ba",
         "wiki": {
@@ -8945,7 +9170,7 @@
         }
     },
     "la": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0017,
@@ -8974,8 +9199,8 @@
             "de": "silbrig weiß"
         },
         "atomic_mass": {
-            "value": 138.90547,
-            "deviation": 0.00007
+            "value": 138.905477,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "d",
@@ -9096,6 +9321,10 @@
             9,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 138.90547,
+            "deviation": 0.00007
+        },
         "superconductivity": "normal",
         "symbol": "La",
         "wiki": {
@@ -9104,7 +9333,7 @@
         }
     },
     "ce": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0043,
@@ -9133,8 +9362,8 @@
             "de": "silbrig weiß"
         },
         "atomic_mass": {
-            "value": 140.116,
-            "deviation": 0.001
+            "value": 140.1161,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -9260,6 +9489,10 @@
             9,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 140.116,
+            "deviation": 0.001
+        },
         "superconductivity": "special",
         "symbol": "Ce",
         "wiki": {
@@ -9268,7 +9501,7 @@
         }
     },
     "pr": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00052,
@@ -9297,8 +9530,8 @@
             "de": "silbrig weiß, gelblicher Farbton"
         },
         "atomic_mass": {
-            "value": 140.90766,
-            "deviation": 0.00001
+            "value": 140.907662,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -9421,6 +9654,10 @@
             8,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 140.90766,
+            "deviation": 0.00001
+        },
         "superconductivity": "none",
         "symbol": "Pr",
         "wiki": {
@@ -9429,7 +9666,7 @@
         }
     },
     "nd": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0022,
@@ -9458,8 +9695,8 @@
             "de": "silbrigweiß, gelblicher Farbton"
         },
         "atomic_mass": {
-            "value": 144.242,
-            "deviation": 0.003
+            "value": 144.2423,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -9582,6 +9819,10 @@
             8,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 144.242,
+            "deviation": 0.003
+        },
         "superconductivity": "none",
         "symbol": "Nd",
         "wiki": {
@@ -9590,7 +9831,7 @@
         }
     },
     "pm": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.5e-19,
@@ -9604,6 +9845,10 @@
         "appearance": {
             "en": "metallic",
             "de": "metallisch"
+        },
+        "atomic_mass": {
+            "value": 146.9151,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -9699,7 +9944,7 @@
         }
     },
     "sm": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0006,
@@ -9728,8 +9973,8 @@
             "de": "silbrig weiß"
         },
         "atomic_mass": {
-            "value": 150.36,
-            "deviation": 0.02
+            "value": 150.362,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -9852,6 +10097,10 @@
             8,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 150.36,
+            "deviation": 0.02
+        },
         "superconductivity": "none",
         "symbol": "Sm",
         "wiki": {
@@ -9860,7 +10109,7 @@
         }
     },
     "eu": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000099,
@@ -9889,8 +10138,8 @@
             "de": "silbrig weiß"
         },
         "atomic_mass": {
-            "value": 151.964,
-            "deviation": 0.001
+            "value": 151.9641,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -10008,6 +10257,10 @@
             8,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 151.964,
+            "deviation": 0.001
+        },
         "superconductivity": "none",
         "symbol": "Eu",
         "wiki": {
@@ -10016,7 +10269,7 @@
         }
     },
     "gd": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00059,
@@ -10045,8 +10298,8 @@
             "de": "silbrig weiß"
         },
         "atomic_mass": {
-            "value": 157.25,
-            "deviation": 0.03
+            "value": 157.253,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -10163,6 +10416,10 @@
             9,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 157.25,
+            "deviation": 0.03
+        },
         "superconductivity": "none",
         "symbol": "Gd",
         "wiki": {
@@ -10171,7 +10428,7 @@
         }
     },
     "tb": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000085,
@@ -10200,8 +10457,8 @@
             "de": "silbrig weiß"
         },
         "atomic_mass": {
-            "value": 158.925354,
-            "deviation": 0.000007
+            "value": 158.925352,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -10303,6 +10560,10 @@
             8,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 158.925354,
+            "deviation": 0.000007
+        },
         "superconductivity": "none",
         "symbol": "Tb",
         "wiki": {
@@ -10311,7 +10572,7 @@
         }
     },
     "dy": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00043,
@@ -10340,8 +10601,8 @@
             "de": "silvery white"
         },
         "atomic_mass": {
-            "value": 162.5,
-            "deviation": 0.001
+            "value": 162.5001,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -10458,6 +10719,10 @@
             8,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 162.5,
+            "deviation": 0.001
+        },
         "superconductivity": "none",
         "symbol": "Dy",
         "wiki": {
@@ -10466,7 +10731,7 @@
         }
     },
     "ho": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00011,
@@ -10495,8 +10760,8 @@
             "de": "silbrig weiß"
         },
         "atomic_mass": {
-            "value": 164.930329,
-            "deviation": 0.000005
+            "value": 164.930332,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -10614,6 +10879,10 @@
             8,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 164.930329,
+            "deviation": 0.000005
+        },
         "superconductivity": "none",
         "symbol": "Ho",
         "wiki": {
@@ -10622,7 +10891,7 @@
         }
     },
     "er": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00023,
@@ -10651,8 +10920,8 @@
             "de": "silbrig weiß"
         },
         "atomic_mass": {
-            "value": 167.259,
-            "deviation": 0.003
+            "value": 167.2593,
+            "unit": "u"
         },
         "basicity": "alkaline",
         "block": "f",
@@ -10769,6 +11038,10 @@
             8,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 167.259,
+            "deviation": 0.003
+        },
         "superconductivity": "none",
         "symbol": "Er",
         "wiki": {
@@ -10777,7 +11050,7 @@
         }
     },
     "tm": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000019,
@@ -10806,8 +11079,8 @@
             "de": "silbrig grau"
         },
         "atomic_mass": {
-            "value": 168.934219,
-            "deviation": 0.000005
+            "value": 168.934222,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -10930,6 +11203,10 @@
             8,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 168.934219,
+            "deviation": 0.000005
+        },
         "superconductivity": "none",
         "symbol": "Tm",
         "wiki": {
@@ -10938,7 +11215,7 @@
         }
     },
     "yb": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00025,
@@ -10967,8 +11244,8 @@
             "de": "silbrig weiß"
         },
         "atomic_mass": {
-            "value": 173.045,
-            "deviation": 0.01
+            "value": 173.0451,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -11095,6 +11372,10 @@
             8,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 173.045,
+            "deviation": 0.01
+        },
         "superconductivity": "none",
         "symbol": "Yb",
         "wiki": {
@@ -11103,7 +11384,7 @@
         }
     },
     "lu": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00007,
@@ -11132,8 +11413,8 @@
             "de": "silbrig weiß"
         },
         "atomic_mass": {
-            "value": 174.9668,
-            "deviation": 0.0001
+            "value": 174.96681,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -11251,6 +11532,10 @@
             9,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 174.9668,
+            "deviation": 0.0001
+        },
         "superconductivity": "normal",
         "symbol": "Lu",
         "wiki": {
@@ -11259,7 +11544,7 @@
         }
     },
     "hf": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00042,
@@ -11288,8 +11573,8 @@
             "de": "stahlgrau"
         },
         "atomic_mass": {
-            "value": 178.486,
-            "deviation": 0.006
+            "value": 178.492,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "d",
@@ -11411,6 +11696,10 @@
             10,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 178.486,
+            "deviation": 0.006
+        },
         "superconductivity": "normal",
         "symbol": "Hf",
         "wiki": {
@@ -11419,7 +11708,7 @@
         }
     },
     "ta": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0008,
@@ -11448,8 +11737,8 @@
             "de": "grau"
         },
         "atomic_mass": {
-            "value": 180.94788,
-            "deviation": 0.00002
+            "value": 180.947882,
+            "unit": "u"
         },
         "basicity": "slightly-acidic",
         "block": "d",
@@ -11575,6 +11864,10 @@
             11,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 180.94788,
+            "deviation": 0.00002
+        },
         "superconductivity": "normal",
         "symbol": "Ta",
         "wiki": {
@@ -11583,7 +11876,7 @@
         }
     },
     "w": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0064,
@@ -11612,8 +11905,8 @@
             "de": "gräulich weiß, glänzend"
         },
         "atomic_mass": {
-            "value": 183.84,
-            "deviation": 0.01
+            "value": 183.841,
+            "unit": "u"
         },
         "basicity": "slightly-acidic",
         "block": "d",
@@ -11741,6 +12034,10 @@
             12,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 183.84,
+            "deviation": 0.01
+        },
         "superconductivity": "normal",
         "symbol": "W",
         "wiki": {
@@ -11749,7 +12046,7 @@
         }
     },
     "re": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1e-7,
@@ -11778,8 +12075,8 @@
             "de": "gräulich weiß"
         },
         "atomic_mass": {
-            "value": 186.207,
-            "deviation": 0.001
+            "value": 186.2071,
+            "unit": "u"
         },
         "basicity": "slightly-acidic",
         "block": "d",
@@ -11900,6 +12197,10 @@
             13,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 186.207,
+            "deviation": 0.001
+        },
         "superconductivity": "normal",
         "symbol": "Re",
         "wiki": {
@@ -11908,7 +12209,7 @@
         }
     },
     "os": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000001,
@@ -11933,8 +12234,8 @@
             "de": "bläulich grau"
         },
         "atomic_mass": {
-            "value": 190.23,
-            "deviation": 0.03
+            "value": 190.233,
+            "unit": "u"
         },
         "basicity": "slightly-acidic",
         "block": "d",
@@ -12056,6 +12357,10 @@
             14,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 190.23,
+            "deviation": 0.03
+        },
         "superconductivity": "normal",
         "symbol": "Os",
         "wiki": {
@@ -12064,7 +12369,7 @@
         }
     },
     "ir": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1e-7,
@@ -12089,8 +12394,8 @@
             "de": "silbrig weiß"
         },
         "atomic_mass": {
-            "value": 192.217,
-            "deviation": 0.002
+            "value": 192.2173,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "d",
@@ -12216,6 +12521,10 @@
             15,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 192.217,
+            "deviation": 0.002
+        },
         "superconductivity": "normal",
         "symbol": "Ir",
         "wiki": {
@@ -12224,7 +12533,7 @@
         }
     },
     "pt": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 5e-7,
@@ -12249,8 +12558,8 @@
             "de": "grau-weiß"
         },
         "atomic_mass": {
-            "value": 195.084,
-            "deviation": 0.009
+            "value": 195.0849,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "d",
@@ -12358,6 +12667,10 @@
             17,
             1
         ],
+        "standard_atomic_weight": {
+            "value": 195.084,
+            "deviation": 0.009
+        },
         "superconductivity": "none",
         "symbol": "Pt",
         "wiki": {
@@ -12366,7 +12679,7 @@
         }
     },
     "au": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4e-7,
@@ -12395,8 +12708,8 @@
             "de": "metallisch gelb"
         },
         "atomic_mass": {
-            "value": 196.96657,
-            "deviation": 0.000004
+            "value": 196.9665695,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "d",
@@ -12501,6 +12814,10 @@
             18,
             1
         ],
+        "standard_atomic_weight": {
+            "value": 196.96657,
+            "deviation": 0.000004
+        },
         "superconductivity": "none",
         "symbol": "Au",
         "wiki": {
@@ -12509,7 +12826,7 @@
         }
     },
     "hg": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00004,
@@ -12538,8 +12855,8 @@
             "de": "silbrig weiß"
         },
         "atomic_mass": {
-            "value": 200.592,
-            "deviation": 0.003
+            "value": 200.5923,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "d",
@@ -12676,6 +12993,10 @@
             18,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 200.592,
+            "deviation": 0.003
+        },
         "superconductivity": "normal",
         "symbol": "Hg",
         "wiki": {
@@ -12684,7 +13005,7 @@
         }
     },
     "tl": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000029,
@@ -12713,12 +13034,8 @@
             "de": "silbrig weiß"
         },
         "atomic_mass": {
-            "value": 204.38,
-            "deviation": 0.01,
-            "range": [
-                204.382,
-                204.385
-            ]
+            "value": 204.38204,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "p",
@@ -12853,6 +13170,14 @@
             18,
             3
         ],
+        "standard_atomic_weight": {
+            "value": 204.38,
+            "deviation": 0.01,
+            "range": [
+                204.382,
+                204.385
+            ]
+        },
         "superconductivity": "normal",
         "symbol": "Tl",
         "wiki": {
@@ -12861,7 +13186,7 @@
         }
     },
     "pb": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0018,
@@ -12890,12 +13215,8 @@
             "de": "bläulich weiß"
         },
         "atomic_mass": {
-            "value": 207.2,
-            "deviation": 1.1,
-            "range": [
-                206.14,
-                207.94
-            ]
+            "value": 207.21,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "p",
@@ -13037,6 +13358,14 @@
             18,
             4
         ],
+        "standard_atomic_weight": {
+            "value": 207.2,
+            "deviation": 1.1,
+            "range": [
+                206.14,
+                207.94
+            ]
+        },
         "superconductivity": "normal",
         "symbol": "Pb",
         "wiki": {
@@ -13045,7 +13374,7 @@
         }
     },
     "bi": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00002,
@@ -13074,8 +13403,8 @@
             "de": "glänzend silberweiß"
         },
         "atomic_mass": {
-            "value": 208.9804,
-            "deviation": 0.00001
+            "value": 208.980401,
+            "unit": "u"
         },
         "basicity": "slightly-acidic",
         "block": "p",
@@ -13203,6 +13532,10 @@
             18,
             5
         ],
+        "standard_atomic_weight": {
+            "value": 208.9804,
+            "deviation": 0.00001
+        },
         "superconductivity": "special",
         "symbol": "Bi",
         "wiki": {
@@ -13211,7 +13544,7 @@
         }
     },
     "po": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2.1e-15,
@@ -13233,6 +13566,11 @@
         "appearance": {
             "en": "silvery",
             "de": "silbrig"
+        },
+        "atomic_mass": {
+            "value": 209.98,
+            "*": true,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "p",
@@ -13319,7 +13657,7 @@
         }
     },
     "at": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 3e-25,
@@ -13333,6 +13671,11 @@
         "appearance": {
             "en": "unknown, probably metallic",
             "de": "metallisch"
+        },
+        "atomic_mass": {
+            "value": 209.9871,
+            "*": true,
+            "unit": "u"
         },
         "block": "p",
         "classification": {
@@ -13396,7 +13739,7 @@
         }
     },
     "rn": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 6.1e-15,
@@ -13418,6 +13761,11 @@
         "appearance": {
             "en": "colorless gas",
             "de": "farbloses Gas"
+        },
+        "atomic_mass": {
+            "value": 222,
+            "*": true,
+            "unit": "u"
         },
         "block": "p",
         "classification": {
@@ -13497,7 +13845,7 @@
         }
     },
     "fr": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.3e-22,
@@ -13507,6 +13855,11 @@
                 "value": 1.3e-18,
                 "unit": "ppmw"
             }
+        },
+        "atomic_mass": {
+            "value": 223.0197,
+            "*": true,
+            "unit": "u"
         },
         "block": "s",
         "classification": {
@@ -13581,7 +13934,7 @@
         }
     },
     "ra": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 9.5e-15,
@@ -13603,6 +13956,11 @@
         "appearance": {
             "en": "silvery white metallic",
             "de": "silbrig-weiß-metallisch"
+        },
+        "atomic_mass": {
+            "value": 226.0254,
+            "*": true,
+            "unit": "u"
         },
         "block": "s",
         "classification": {
@@ -13684,7 +14042,7 @@
         }
     },
     "ac": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 6e-18,
@@ -13702,6 +14060,11 @@
         "appearance": {
             "en": "silvery-white, glowing with an eerie blue light; sometimes with a golden cast",
             "de": "silbrig"
+        },
+        "atomic_mass": {
+            "value": 227.0278,
+            "*": true,
+            "unit": "u"
         },
         "basicity": "moderately-alkaline",
         "block": "d",
@@ -13771,7 +14134,7 @@
         }
     },
     "th": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0011,
@@ -13800,8 +14163,8 @@
             "de": "silbrig weiß"
         },
         "atomic_mass": {
-            "value": 232.0377,
-            "deviation": 0.0004
+            "value": 232.03774,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -13908,6 +14271,10 @@
             10,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 232.0377,
+            "deviation": 0.0004
+        },
         "superconductivity": "normal",
         "symbol": "Th",
         "wiki": {
@@ -13916,7 +14283,7 @@
         }
     },
     "pa": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0009,
@@ -13940,8 +14307,8 @@
             "de": "hell, silbrig, metallisch glänzend"
         },
         "atomic_mass": {
-            "value": 231.03588,
-            "deviation": 0.00001
+            "value": 231.035882,
+            "unit": "u"
         },
         "basicity": "slightly-alkaline",
         "block": "f",
@@ -14019,6 +14386,10 @@
             9,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 231.03588,
+            "deviation": 0.00001
+        },
         "superconductivity": "normal",
         "symbol": "Pa",
         "wiki": {
@@ -14027,7 +14398,7 @@
         }
     },
     "u": {
-        "@modified": "2023-10-11T10:54:43.305Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00032,
@@ -14056,8 +14427,8 @@
             "de": "silberweiß"
         },
         "atomic_mass": {
-            "value": 238.02891,
-            "deviation": 0.00003
+            "value": 238.028913,
+            "unit": "u"
         },
         "block": "f",
         "classification": {
@@ -14194,6 +14565,10 @@
             9,
             2
         ],
+        "standard_atomic_weight": {
+            "value": 238.02891,
+            "deviation": 0.00003
+        },
         "superconductivity": "normal",
         "symbol": "U",
         "wiki": {
@@ -14202,7 +14577,7 @@
         }
     },
     "np": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4e-18,
@@ -14216,6 +14591,11 @@
         "appearance": {
             "en": "silvery metallic",
             "de": "silbrig"
+        },
+        "atomic_mass": {
+            "value": 237.0482,
+            "*": true,
+            "unit": "u"
         },
         "block": "f",
         "classification": {
@@ -14296,7 +14676,7 @@
         }
     },
     "pu": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2e-19,
@@ -14310,6 +14690,11 @@
         "appearance": {
             "en": "silvery white, tarnishing to dark gray in air",
             "de": "silbriges Metall"
+        },
+        "atomic_mass": {
+            "value": 244.0642,
+            "*": true,
+            "unit": "u"
         },
         "basicity": "amphoterism",
         "block": "f",
@@ -14405,10 +14790,15 @@
         }
     },
     "am": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "appearance": {
             "en": "silvery white",
             "de": "silbrig-weißes Metall"
+        },
+        "atomic_mass": {
+            "value": 243.061375,
+            "*": true,
+            "unit": "u"
         },
         "block": "f",
         "classification": {
@@ -14494,10 +14884,15 @@
         }
     },
     "cm": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "appearance": {
             "en": "silvery metallic, glows purple in the dark",
             "de": "silbrig-weißes Metall"
+        },
+        "atomic_mass": {
+            "value": 247.0703,
+            "*": true,
+            "unit": "u"
         },
         "block": "f",
         "classification": {
@@ -14566,10 +14961,15 @@
         }
     },
     "bk": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "appearance": {
             "en": "silvery",
             "de": "silberweiß"
+        },
+        "atomic_mass": {
+            "value": 247,
+            "*": true,
+            "unit": "u"
         },
         "block": "f",
         "classification": {
@@ -14638,10 +15038,15 @@
         }
     },
     "cf": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "appearance": {
             "en": "silvery",
             "de": "silbriges Metall"
+        },
+        "atomic_mass": {
+            "value": 251,
+            "*": true,
+            "unit": "u"
         },
         "block": "f",
         "classification": {
@@ -14703,9 +15108,14 @@
         }
     },
     "es": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "appearance": {
             "en": "silvery; glows blue in the dark"
+        },
+        "atomic_mass": {
+            "value": 252,
+            "*": true,
+            "unit": "u"
         },
         "block": "f",
         "classification": {
@@ -14767,7 +15177,12 @@
         }
     },
     "fm": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
+        "atomic_mass": {
+            "value": 257.0951,
+            "*": true,
+            "unit": "u"
+        },
         "block": "f",
         "classification": {
             "cas": [
@@ -14823,7 +15238,12 @@
         }
     },
     "md": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
+        "atomic_mass": {
+            "value": 258,
+            "*": true,
+            "unit": "u"
+        },
         "block": "f",
         "classification": {
             "cas": [
@@ -14879,7 +15299,12 @@
         }
     },
     "no": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
+        "atomic_mass": {
+            "value": 259,
+            "*": true,
+            "unit": "u"
+        },
         "block": "f",
         "classification": {
             "cas": [
@@ -14935,7 +15360,12 @@
         }
     },
     "lr": {
-        "@modified": "2023-10-09T20:54:32.922Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
+        "atomic_mass": {
+            "value": 266,
+            "*": true,
+            "unit": "u"
+        },
         "basicity": "slightly-alkaline",
         "block": "f",
         "classification": {
@@ -14992,9 +15422,14 @@
         }
     },
     "rf": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "appearance": {
             "de": "unbekannt, vermutlich silber-weiß oder grau metallisch"
+        },
+        "atomic_mass": {
+            "value": 261.1087,
+            "*": true,
+            "unit": "u"
         },
         "block": "d",
         "classification": {
@@ -15057,7 +15492,12 @@
         }
     },
     "db": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
+        "atomic_mass": {
+            "value": 262.1138,
+            "*": true,
+            "unit": "u"
+        },
         "block": "d",
         "classification": {
             "cas": [
@@ -15131,7 +15571,12 @@
         }
     },
     "sg": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
+        "atomic_mass": {
+            "value": 263.1182,
+            "*": true,
+            "unit": "u"
+        },
         "block": "d",
         "classification": {
             "cas": [
@@ -15197,7 +15642,12 @@
         }
     },
     "bh": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
+        "atomic_mass": {
+            "value": 262.1229,
+            "*": true,
+            "unit": "u"
+        },
         "block": "d",
         "classification": {
             "cas": [
@@ -15263,7 +15713,12 @@
         }
     },
     "hs": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
+        "atomic_mass": {
+            "value": 265.269,
+            "*": true,
+            "unit": "u"
+        },
         "block": "d",
         "classification": {
             "cas": [
@@ -15329,7 +15784,12 @@
         }
     },
     "mt": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
+        "atomic_mass": {
+            "value": 268,
+            "*": true,
+            "unit": "u"
+        },
         "block": "d",
         "classification": {
             "cas": [
@@ -15395,7 +15855,12 @@
         }
     },
     "ds": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
+        "atomic_mass": {
+            "value": 281,
+            "*": true,
+            "unit": "u"
+        },
         "block": "d",
         "classification": {
             "cas": [
@@ -15461,7 +15926,12 @@
         }
     },
     "rg": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
+        "atomic_mass": {
+            "value": 280,
+            "*": true,
+            "unit": "u"
+        },
         "block": "d",
         "classification": {
             "cas": [
@@ -15527,7 +15997,12 @@
         }
     },
     "cn": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
+        "atomic_mass": {
+            "value": 277,
+            "*": true,
+            "unit": "u"
+        },
         "block": "d",
         "classification": {
             "cas": [
@@ -15593,7 +16068,12 @@
         }
     },
     "nh": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
+        "atomic_mass": {
+            "value": 287,
+            "*": true,
+            "unit": "u"
+        },
         "block": "p",
         "classification": {
             "cas": [
@@ -15660,7 +16140,12 @@
         }
     },
     "fl": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
+        "atomic_mass": {
+            "value": 289,
+            "*": true,
+            "unit": "u"
+        },
         "block": "p",
         "classification": {
             "cas": [
@@ -15727,7 +16212,12 @@
         }
     },
     "mc": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
+        "atomic_mass": {
+            "value": 288,
+            "*": true,
+            "unit": "u"
+        },
         "block": "p",
         "classification": {
             "cas": [
@@ -15793,7 +16283,12 @@
         }
     },
     "lv": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
+        "atomic_mass": {
+            "value": 293,
+            "*": true,
+            "unit": "u"
+        },
         "block": "p",
         "classification": {
             "cas": [
@@ -15859,9 +16354,14 @@
         }
     },
     "ts": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "appearance": {
             "en": "semimetallic (predicted)"
+        },
+        "atomic_mass": {
+            "value": 292,
+            "*": true,
+            "unit": "u"
         },
         "block": "p",
         "classification": {
@@ -15927,9 +16427,14 @@
         }
     },
     "og": {
-        "@modified": "2023-10-11T07:22:44.650Z",
+        "@modified": "2023-10-11T11:47:53.714Z",
         "appearance": {
             "en": "metallic (predicted)"
+        },
+        "atomic_mass": {
+            "value": 294,
+            "*": true,
+            "unit": "u"
         },
         "block": "p",
         "classification": {

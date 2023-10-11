@@ -58,6 +58,11 @@ block content
         h2!= __( 'prop-atomic' )
         table.pt-prop-table.pt-element-table
           tbody
+            if element.standard_atomic_weight
+              tr.pt-prop-table-row
+                th.pt-prop-table-label
+                  a( href="/scale/standard_atomic_weight" )!= __( 'standard-atomic-weight' )
+                td.pt-prop-table-value!= core.fNumber( element.standard_atomic_weight, locale )
             if element.atomic_mass
               tr.pt-prop-table-row
                 th.pt-prop-table-label
