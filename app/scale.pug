@@ -22,7 +22,10 @@ block content
     include templates/breadcrumbs.pug
     h1= title
     p.pt-page-intro= description
-    table.pt-prop-table.zebra.pt-scale-table
+    table.pt-prop-table.zebra.pt-scale-table(
+      layer= scale.scheme
+      type="scale"
+    )
       thead
         tr.pt-prop-table-row
           th.pt-prop-table-label.pt-scale-table-color
@@ -30,9 +33,11 @@ block content
           th.pt-prop-table-label.right!= __( scale.label )
       tbody
         each el, k in scale.results
-          tr.pt-prop-table-row
+          tr.pt-prop-table-row.pt-el(
+            prop= el.scale.y
+          )
             td.pt-prop-table-value.pt-scale-table-color
-            td.pt-prop-table-value.mini!= '<sup>' + el.number + '</sup>' + el.symbol
+            td.pt-prop-table-value.mini!= '<sub>' + el.number + '</sub>' + el.symbol
             td.pt-prop-table-value
               a( href='/e/' + el.symbol )!= el.names[ locale ]
             td.pt-prop-table-value.right
