@@ -6948,8 +6948,7 @@
         "properties": [
             "heavy",
             "radioactive",
-            "artificial",
-            "synthetic"
+            "artificial"
         ],
         "radioactive": true,
         "radioactivity": "slightly-radioactive",
@@ -9908,8 +9907,7 @@
             "heavy",
             "rare",
             "radioactive",
-            "artificial",
-            "synthetic"
+            "artificial"
         ],
         "radioactive": true,
         "radioactivity": "significantly-radioactive",
@@ -13495,8 +13493,7 @@
             "mononuclidic",
             "heavy",
             "radioactive",
-            "artificial",
-            "synthetic"
+            "artificial"
         ],
         "radioactive": true,
         "radioactivity": "slightly-radioactive",
@@ -13616,8 +13613,7 @@
             "natural",
             "heavy",
             "radioactive",
-            "artificial",
-            "synthetic"
+            "artificial"
         ],
         "radioactive": true,
         "radioactivity": "significantly-radioactive",
@@ -13711,8 +13707,7 @@
             "natural",
             "heavy",
             "radioactive",
-            "artificial",
-            "synthetic"
+            "artificial"
         ],
         "radioactive": true,
         "radioactivity": "highly-radioactive",
@@ -13809,8 +13804,7 @@
         "properties": [
             "natural",
             "radioactive",
-            "artificial",
-            "synthetic"
+            "artificial"
         ],
         "radioactive": true,
         "radioactivity": "significantly-radioactive",
@@ -13899,8 +13893,7 @@
             "natural",
             "light",
             "radioactive",
-            "artificial",
-            "synthetic"
+            "artificial"
         ],
         "radioactive": true,
         "radioactivity": "highly-radioactive",
@@ -14008,8 +14001,7 @@
             "natural",
             "heavy",
             "radioactive",
-            "artificial",
-            "synthetic"
+            "artificial"
         ],
         "radioactive": true,
         "radioactivity": "radioactive",
@@ -14105,8 +14097,7 @@
             "natural",
             "heavy",
             "radioactive",
-            "artificial",
-            "synthetic"
+            "artificial"
         ],
         "radioactive": true,
         "radioactivity": "significantly-radioactive",
@@ -14241,8 +14232,7 @@
             "mononuclidic",
             "heavy",
             "radioactive",
-            "artificial",
-            "synthetic"
+            "artificial"
         ],
         "radioactive": true,
         "radioactivity": "slightly-radioactive",
@@ -14357,8 +14347,7 @@
             "natural",
             "heavy",
             "radioactive",
-            "artificial",
-            "synthetic"
+            "artificial"
         ],
         "radioactive": true,
         "radioactivity": "radioactive",
@@ -14531,8 +14520,7 @@
             "natural",
             "heavy",
             "radioactive",
-            "artificial",
-            "synthetic"
+            "artificial"
         ],
         "radioactive": true,
         "radioactivity": "slightly-radioactive",
@@ -14642,8 +14630,7 @@
         "properties": [
             "heavy",
             "radioactive",
-            "artificial",
-            "synthetic"
+            "artificial"
         ],
         "radioactive": true,
         "radioactivity": "slightly-radioactive",
@@ -14756,8 +14743,7 @@
             "mononuclidic",
             "heavy",
             "radioactive",
-            "artificial",
-            "synthetic"
+            "artificial"
         ],
         "radioactive": true,
         "radioactivity": "slightly-radioactive",
