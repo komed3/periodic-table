@@ -432,6 +432,7 @@
 	"standard-atomic-weight": "Relative Atommasse",
 	"standard-atomic-weight-description": "Standardatomgewicht als dimensionsloses arithmetisches Mittel der relativen Massen aller Isotope eines Elements, gewichtet mit deren Häufigkeit auf der Erde.",
 	"start-title": "Start",
+	"sublimation-temp": "Sublimationspunkt",
 	"superconductivity-description": "Supraleiter sind Elemente, deren elektrischer Widerstand beim Unterschreiten der sogenannten Sprungtemperatur praktisch Null wird. Technische Anwendungen der Supraleitung sind die Erzeugung starker Magnetfelder sowie Mess- und Energietechnik.",
 	"superconductivity-label": "Supraleiter",
 	"superconductivity-none": "ohne Sprungtemperatur",

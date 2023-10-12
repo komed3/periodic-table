@@ -1,6 +1,6 @@
 {
     "h": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.15,
@@ -34,10 +34,6 @@
         },
         "basicity": "amphoterism",
         "block": "s",
-        "boiling": {
-            "value": 20.271,
-            "unit": "K"
-        },
         "classification": {
             "cas": [
                 {
@@ -61,14 +57,6 @@
             ]
         },
         "column": 1,
-        "critical": {
-            "value": 32.938,
-            "unit": "K",
-            "@": {
-                "value": 1.2858,
-                "unit": "MPa"
-            }
-        },
         "crystal_structure": "hex",
         "density": {
             "value": 8.988,
@@ -165,10 +153,6 @@
             ],
             "unit": "eV"
         },
-        "liquid_range": {
-            "value": 6.281,
-            "unit": "K"
-        },
         "magnetic_ordering": "diamagnetic",
         "magnetic_susceptibility": {
             "value": -0.00000398,
@@ -179,10 +163,6 @@
                     "unit": "K"
                 }
             ]
-        },
-        "melting": {
-            "value": 13.99,
-            "unit": "K"
         },
         "molar_volume": {
             "value": 0.00001142,
@@ -329,17 +309,39 @@
         },
         "superconductivity": "none",
         "symbol": "H",
+        "temperature": {
+            "melting": {
+                "value": 13.99,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 20.271,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 6.281,
+                "unit": "K"
+            },
+            "triple": {
+                "value": 13.8033,
+                "unit": "K",
+                "@": {
+                    "value": 7.041,
+                    "unit": "kPa"
+                }
+            },
+            "critical": {
+                "value": 32.938,
+                "unit": "K",
+                "@": {
+                    "value": 1.2858,
+                    "unit": "MPa"
+                }
+            }
+        },
         "thermal_conductivity": {
             "value": 0.1805,
             "unit": "W·m[−1]·K[−1]"
-        },
-        "triple": {
-            "value": 13.8033,
-            "unit": "K",
-            "@": {
-                "value": 7.041,
-                "unit": "kPa"
-            }
         },
         "weblinks": [
             {
@@ -357,7 +359,7 @@
         }
     },
     "he": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4e-7,
@@ -491,13 +493,47 @@
         },
         "superconductivity": "none",
         "symbol": "He",
+        "temperature": {
+            "melting": {
+                "value": 0.95,
+                "unit": "K",
+                "@": {
+                    "value": 2.5,
+                    "unit": "MPa"
+                }
+            },
+            "boiling": {
+                "value": 4.222,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 3.272,
+                "unit": "K"
+            },
+            "triple": {
+                "value": 2.177,
+                "unit": "K",
+                "@": {
+                    "value": 5.043,
+                    "unit": "kPa"
+                }
+            },
+            "critical": {
+                "value": 5.1953,
+                "unit": "K",
+                "@": {
+                    "value": 0.22746,
+                    "unit": "MPa"
+                }
+            }
+        },
         "wiki": {
             "en": "Helium",
             "de": "Helium"
         }
     },
     "li": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.006,
@@ -670,13 +706,36 @@
         },
         "superconductivity": "special",
         "symbol": "Li",
+        "temperature": {
+            "melting": {
+                "value": 453.65,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 1603,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1149.35,
+                "unit": "K"
+            },
+            "critical": {
+                "value": 3220,
+                "*": true,
+                "unit": "K",
+                "@": {
+                    "value": 67,
+                    "unit": "MPa"
+                }
+            }
+        },
         "wiki": {
             "en": "Lithium",
             "de": "Lithium"
         }
     },
     "be": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00053,
@@ -861,13 +920,32 @@
         },
         "superconductivity": "normal",
         "symbol": "Be",
+        "temperature": {
+            "melting": {
+                "value": 1560,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 2742,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1182,
+                "unit": "K"
+            },
+            "critical": {
+                "value": 5205,
+                "*": true,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Beryllium",
             "de": "Beryllium"
         }
     },
     "b": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0016,
@@ -1027,13 +1105,27 @@
         },
         "superconductivity": "special",
         "symbol": "B",
+        "temperature": {
+            "melting": {
+                "value": 2349,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 4200,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1851,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Boron",
             "de": "Bor"
         }
     },
     "c": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.087,
@@ -1175,13 +1267,27 @@
         },
         "superconductivity": "special",
         "symbol": "C",
+        "temperature": {
+            "sublimation": {
+                "value": 3915,
+                "unit": "K"
+            },
+            "triple": {
+                "value": 4600,
+                "unit": "K",
+                "@": {
+                    "value": 10.8,
+                    "unit": "MPa"
+                }
+            }
+        },
         "wiki": {
             "en": "Carbon",
             "de": "Kohlenstoff"
         }
     },
     "n": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.03,
@@ -1316,13 +1422,43 @@
         },
         "superconductivity": "special",
         "symbol": "N",
+        "temperature": {
+            "melting": {
+                "value": 63.23,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 77.355,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 14.125,
+                "unit": "K"
+            },
+            "triple": {
+                "value": 63.151,
+                "unit": "K",
+                "@": {
+                    "value": 12.52,
+                    "unit": "kPa"
+                }
+            },
+            "critical": {
+                "value": 126.21,
+                "unit": "K",
+                "@": {
+                    "value": 3.39,
+                    "unit": "MPa"
+                }
+            }
+        },
         "wiki": {
             "en": "Nitrogen",
             "de": "Stickstoff"
         }
     },
     "o": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 49400,
@@ -1481,13 +1617,43 @@
         },
         "superconductivity": "normal",
         "symbol": "O",
+        "temperature": {
+            "melting": {
+                "value": 54.36,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 90.188,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 35.828,
+                "unit": "K"
+            },
+            "triple": {
+                "value": 54.361,
+                "unit": "K",
+                "@": {
+                    "value": 0.1463,
+                    "unit": "kPa"
+                }
+            },
+            "critical": {
+                "value": 154.581,
+                "unit": "K",
+                "@": {
+                    "value": 5.043,
+                    "unit": "MPa"
+                }
+            }
+        },
         "wiki": {
             "en": "Oxygen",
             "de": "Sauerstoff"
         }
     },
     "f": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.028,
@@ -1648,13 +1814,43 @@
         },
         "superconductivity": "none",
         "symbol": "F",
+        "temperature": {
+            "melting": {
+                "value": 53.48,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 85.03,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 31.55,
+                "unit": "K"
+            },
+            "triple": {
+                "value": 53.48,
+                "unit": "K",
+                "@": {
+                    "value": 0.252,
+                    "unit": "kPa"
+                }
+            },
+            "critical": {
+                "value": 144.41,
+                "unit": "K",
+                "@": {
+                    "value": 5.1724,
+                    "unit": "MPa"
+                }
+            }
+        },
         "wiki": {
             "en": "Fluorine",
             "de": "Fluor"
         }
     },
     "ne": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 5e-7,
@@ -1773,13 +1969,43 @@
         },
         "superconductivity": "none",
         "symbol": "Ne",
+        "temperature": {
+            "melting": {
+                "value": 24.56,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 27.104,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 2.544,
+                "unit": "K"
+            },
+            "triple": {
+                "value": 24.556,
+                "unit": "K",
+                "@": {
+                    "value": 43.37,
+                    "unit": "kPa"
+                }
+            },
+            "critical": {
+                "value": 44.4918,
+                "unit": "K",
+                "@": {
+                    "value": 2.7686,
+                    "unit": "MPa"
+                }
+            }
+        },
         "wiki": {
             "en": "Neon",
             "de": "Neon"
         }
     },
     "na": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2.64,
@@ -1951,13 +2177,36 @@
         },
         "superconductivity": "none",
         "symbol": "Na",
+        "temperature": {
+            "melting": {
+                "value": 370.944,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 1156.09,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 785.146,
+                "unit": "K"
+            },
+            "critical": {
+                "value": 2573,
+                "*": true,
+                "unit": "K",
+                "@": {
+                    "value": 35,
+                    "unit": "MPa"
+                }
+            }
+        },
         "wiki": {
             "en": "Sodium",
             "de": "Natrium"
         }
     },
     "mg": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.94,
@@ -2137,13 +2386,27 @@
         },
         "superconductivity": "none",
         "symbol": "Mg",
+        "temperature": {
+            "melting": {
+                "value": 923,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 1363,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 440,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Magnesium",
             "de": "Magnesium"
         }
     },
     "al": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 7.57,
@@ -2311,13 +2574,27 @@
         },
         "superconductivity": "normal",
         "symbol": "Al",
+        "temperature": {
+            "melting": {
+                "value": 933.47,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 2743,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1809.53,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Aluminum",
             "de": "Aluminium"
         }
     },
     "si": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 25800,
@@ -2457,13 +2734,27 @@
         },
         "superconductivity": "special",
         "symbol": "Si",
+        "temperature": {
+            "melting": {
+                "value": 1687,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 3538,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1851,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Silicon",
             "de": "Silicium"
         }
     },
     "p": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.09,
@@ -2637,13 +2928,35 @@
         },
         "superconductivity": "special",
         "symbol": "P",
+        "temperature": {
+            "melting": {
+                "value": 317.3,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 553.7,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 236.4,
+                "unit": "K"
+            },
+            "sublimation": {
+                "value": 689.2,
+                "unit": "K",
+                "range": [
+                    689.2,
+                    863
+                ]
+            }
+        },
         "wiki": {
             "en": "Phosphorus",
             "de": "Phosphor"
         }
     },
     "s": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.048,
@@ -2799,13 +3112,35 @@
         },
         "superconductivity": "special",
         "symbol": "S",
+        "temperature": {
+            "melting": {
+                "value": 388.36,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 717.8,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 329.44,
+                "unit": "K"
+            },
+            "critical": {
+                "value": 1314,
+                "unit": "K",
+                "@": {
+                    "value": 20.7,
+                    "unit": "MPa"
+                }
+            }
+        },
         "wiki": {
             "en": "Sulfur",
             "de": "Schwefel"
         }
     },
     "cl": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.19,
@@ -2980,13 +3315,35 @@
         },
         "superconductivity": "none",
         "symbol": "Cl",
+        "temperature": {
+            "melting": {
+                "value": 171.6,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 239.11,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 67.51,
+                "unit": "K"
+            },
+            "critical": {
+                "value": 416.9,
+                "unit": "K",
+                "@": {
+                    "value": 7.991,
+                    "unit": "MPa"
+                }
+            }
+        },
         "wiki": {
             "en": "Chlorine",
             "de": "Chlor"
         }
     },
     "ar": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00036,
@@ -3111,13 +3468,43 @@
         },
         "superconductivity": "none",
         "symbol": "Ar",
+        "temperature": {
+            "melting": {
+                "value": 83.81,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 87.302,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 3.492,
+                "unit": "K"
+            },
+            "triple": {
+                "value": 83.8058,
+                "unit": "K",
+                "@": {
+                    "value": 68.89,
+                    "unit": "kPa"
+                }
+            },
+            "critical": {
+                "value": 150.687,
+                "unit": "K",
+                "@": {
+                    "value": 4.863,
+                    "unit": "MPa"
+                }
+            }
+        },
         "wiki": {
             "en": "Argon",
             "de": "Argon"
         }
     },
     "k": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2.41,
@@ -3284,13 +3671,35 @@
         },
         "superconductivity": "none",
         "symbol": "K",
+        "temperature": {
+            "melting": {
+                "value": 336.7,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 1030.793,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 694.093,
+                "unit": "K"
+            },
+            "critical": {
+                "value": 2223,
+                "unit": "K",
+                "@": {
+                    "value": 16,
+                    "unit": "MPa"
+                }
+            }
+        },
         "wiki": {
             "en": "Potassium",
             "de": "Kalium"
         }
     },
     "ca": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 3.39,
@@ -3467,13 +3876,27 @@
         },
         "superconductivity": "special",
         "symbol": "Ca",
+        "temperature": {
+            "melting": {
+                "value": 1115,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 1757,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 642,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Calcium",
             "de": "Calcium"
         }
     },
     "sc": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00051,
@@ -3632,13 +4055,27 @@
         },
         "superconductivity": "special",
         "symbol": "Sc",
+        "temperature": {
+            "melting": {
+                "value": 1814,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 3109,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1295,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Scandium",
             "de": "Scandium"
         }
     },
     "ti": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.41,
@@ -3801,13 +4238,27 @@
         },
         "superconductivity": "normal",
         "symbol": "Ti",
+        "temperature": {
+            "melting": {
+                "value": 1941,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 3560,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1619,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Titanium",
             "de": "Titan (Element)"
         }
     },
     "v": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.041,
@@ -3954,13 +4405,27 @@
         },
         "superconductivity": "normal",
         "symbol": "V",
+        "temperature": {
+            "melting": {
+                "value": 2183,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 3680,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1497,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Vanadium",
             "de": "Vanadium"
         }
     },
     "cr": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.019,
@@ -4107,13 +4572,27 @@
         },
         "superconductivity": "special",
         "symbol": "Cr",
+        "temperature": {
+            "melting": {
+                "value": 2180,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 2944,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 764,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Chromium",
             "de": "Chrom"
         }
     },
     "mn": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.085,
@@ -4272,13 +4751,27 @@
         },
         "superconductivity": "none",
         "symbol": "Mn",
+        "temperature": {
+            "melting": {
+                "value": 1519,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 2334,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 815,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Manganese",
             "de": "Mangan"
         }
     },
     "fe": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4700,
@@ -4425,13 +4918,27 @@
         },
         "superconductivity": "special",
         "symbol": "Fe",
+        "temperature": {
+            "melting": {
+                "value": 1811,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 3134,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1323,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Iron",
             "de": "Eisen"
         }
     },
     "co": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0037,
@@ -4615,13 +5122,27 @@
         },
         "superconductivity": "none",
         "symbol": "Co",
+        "temperature": {
+            "melting": {
+                "value": 1768,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 3200,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1432,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Cobalt",
             "de": "Cobalt"
         }
     },
     "ni": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.015,
@@ -4797,13 +5318,27 @@
         },
         "superconductivity": "none",
         "symbol": "Ni",
+        "temperature": {
+            "melting": {
+                "value": 1728,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 3003,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1275,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Nickel",
             "de": "Nickel"
         }
     },
     "cu": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.01,
@@ -4964,13 +5499,27 @@
         },
         "superconductivity": "none",
         "symbol": "Cu",
+        "temperature": {
+            "melting": {
+                "value": 1357.77,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 2835,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1477.23,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Copper",
             "de": "Kupfer"
         }
     },
     "zn": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.012,
@@ -5145,13 +5694,27 @@
         },
         "superconductivity": "normal",
         "symbol": "Zn",
+        "temperature": {
+            "melting": {
+                "value": 692.68,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 1180,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 487.32,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Zinc",
             "de": "Zink"
         }
     },
     "ga": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0014,
@@ -5313,13 +5876,27 @@
         },
         "superconductivity": "normal",
         "symbol": "Ga",
+        "temperature": {
+            "melting": {
+                "value": 302.9146,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 2673,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 2370.0854,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Gallium",
             "de": "Gallium"
         }
     },
     "ge": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00056,
@@ -5462,13 +6039,27 @@
         },
         "superconductivity": "special",
         "symbol": "Ge",
+        "temperature": {
+            "melting": {
+                "value": 1211.4,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 3106,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1894.6,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Germanium",
             "de": "Germanium"
         }
     },
     "as": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00055,
@@ -5634,13 +6225,31 @@
         },
         "superconductivity": "special",
         "symbol": "As",
+        "temperature": {
+            "sublimation": {
+                "value": 887,
+                "unit": "K"
+            },
+            "triple": {
+                "value": 1090,
+                "unit": "K",
+                "@": {
+                    "value": 3628,
+                    "unit": "kPa"
+                }
+            },
+            "critical": {
+                "value": 1673,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Arsenic",
             "de": "Arsen"
         }
     },
     "se": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00008,
@@ -5818,13 +6427,35 @@
         },
         "superconductivity": "special",
         "symbol": "Se",
+        "temperature": {
+            "melting": {
+                "value": 494,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 958,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 464,
+                "unit": "K"
+            },
+            "critical": {
+                "value": 1766,
+                "unit": "K",
+                "@": {
+                    "value": 27.2,
+                    "unit": "MPa"
+                }
+            }
+        },
         "wiki": {
             "en": "Selenium",
             "de": "Selen"
         }
     },
     "br": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0006,
@@ -5993,13 +6624,43 @@
         },
         "superconductivity": "special",
         "symbol": "Br",
+        "temperature": {
+            "melting": {
+                "value": 265.8,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 332,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 66.2,
+                "unit": "K"
+            },
+            "triple": {
+                "value": 265.9,
+                "unit": "K",
+                "@": {
+                    "value": 5.8,
+                    "unit": "kPa"
+                }
+            },
+            "critical": {
+                "value": 588,
+                "unit": "K",
+                "@": {
+                    "value": 10.34,
+                    "unit": "MPa"
+                }
+            }
+        },
         "wiki": {
             "en": "Bromine",
             "de": "Brom"
         }
     },
     "kr": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00019,
@@ -6128,13 +6789,43 @@
         },
         "superconductivity": "none",
         "symbol": "Kr",
+        "temperature": {
+            "melting": {
+                "value": 115.78,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 119.93,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 4.15,
+                "unit": "K"
+            },
+            "triple": {
+                "value": 115.775,
+                "unit": "K",
+                "@": {
+                    "value": 73.53,
+                    "unit": "kPa"
+                }
+            },
+            "critical": {
+                "value": 209.48,
+                "unit": "K",
+                "@": {
+                    "value": 5.525,
+                    "unit": "MPa"
+                }
+            }
+        },
         "wiki": {
             "en": "Krypton",
             "de": "Krypton"
         }
     },
     "rb": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.235Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0029,
@@ -6301,13 +6992,40 @@
         },
         "superconductivity": "none",
         "symbol": "Rb",
+        "temperature": {
+            "melting": {
+                "value": 312.45,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 961,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 648.55,
+                "unit": "K"
+            },
+            "triple": {
+                "value": 312.41,
+                "unit": "K"
+            },
+            "critical": {
+                "value": 2093,
+                "*": true,
+                "unit": "K",
+                "@": {
+                    "value": 16,
+                    "unit": "MPa"
+                }
+            }
+        },
         "wiki": {
             "en": "Rubidium",
             "de": "Rubidium"
         }
     },
     "sr": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.014,
@@ -6469,13 +7187,27 @@
         },
         "superconductivity": "special",
         "symbol": "Sr",
+        "temperature": {
+            "melting": {
+                "value": 1050,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 1650,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 600,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Strontium",
             "de": "Strontium"
         }
     },
     "y": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0026,
@@ -6634,13 +7366,27 @@
         },
         "superconductivity": "special",
         "symbol": "Y",
+        "temperature": {
+            "melting": {
+                "value": 1799,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 3203,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1404,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Yttrium",
             "de": "Yttrium"
         }
     },
     "zr": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.021,
@@ -6805,13 +7551,27 @@
         },
         "superconductivity": "normal",
         "symbol": "Zr",
+        "temperature": {
+            "melting": {
+                "value": 2125,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 4650,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 2525,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Zirconium",
             "de": "Zirconium"
         }
     },
     "nb": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0019,
@@ -6977,13 +7737,27 @@
         },
         "superconductivity": "normal",
         "symbol": "Nb",
+        "temperature": {
+            "melting": {
+                "value": 2750,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 5017,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 2267,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Niobium",
             "de": "Niob"
         }
     },
     "mo": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0014,
@@ -7131,13 +7905,27 @@
         },
         "superconductivity": "normal",
         "symbol": "Mo",
+        "temperature": {
+            "melting": {
+                "value": 2896,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 4912,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 2016,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Molybdenum",
             "de": "Molybdän"
         }
     },
     "tc": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.2e-19,
@@ -7245,13 +8033,27 @@
         ],
         "superconductivity": "normal",
         "symbol": "Tc",
+        "temperature": {
+            "melting": {
+                "value": 2430,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 4538,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 2108,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Technetium",
             "de": "Technetium"
         }
     },
     "ru": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000002,
@@ -7407,13 +8209,27 @@
         },
         "superconductivity": "normal",
         "symbol": "Ru",
+        "temperature": {
+            "melting": {
+                "value": 2607,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 4423,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1816,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Ruthenium",
             "de": "Ruthenium"
         }
     },
     "rh": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1e-7,
@@ -7576,13 +8392,27 @@
         },
         "superconductivity": "normal",
         "symbol": "Rh",
+        "temperature": {
+            "melting": {
+                "value": 2237,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 3968,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1731,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Rhodium",
             "de": "Rhodium"
         }
     },
     "pd": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000011,
@@ -7751,13 +8581,27 @@
         },
         "superconductivity": "special",
         "symbol": "Pd",
+        "temperature": {
+            "melting": {
+                "value": 1828.05,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 3236,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1407.95,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Palladium",
             "de": "Palladium"
         }
     },
     "ag": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000079,
@@ -7928,13 +8772,27 @@
         },
         "superconductivity": "none",
         "symbol": "Ag",
+        "temperature": {
+            "melting": {
+                "value": 1234.93,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 2435,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1200.07,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Silver",
             "de": "Silber"
         }
     },
     "cd": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00003,
@@ -8128,13 +8986,27 @@
         },
         "superconductivity": "normal",
         "symbol": "Cd",
+        "temperature": {
+            "melting": {
+                "value": 594.22,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 1040,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 445.78,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Cadmium",
             "de": "Cadmium"
         }
     },
     "in": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00001,
@@ -8296,13 +9168,35 @@
         },
         "superconductivity": "normal",
         "symbol": "In",
+        "temperature": {
+            "melting": {
+                "value": 429.7485,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 2345,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1915.2515,
+                "unit": "K"
+            },
+            "triple": {
+                "value": 429.7445,
+                "unit": "K",
+                "@": {
+                    "value": 1,
+                    "unit": "kPa"
+                }
+            }
+        },
         "wiki": {
             "en": "Indium",
             "de": "Indium"
         }
     },
     "sn": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0035,
@@ -8448,13 +9342,27 @@
         },
         "superconductivity": "normal",
         "symbol": "Sn",
+        "temperature": {
+            "melting": {
+                "value": 505.08,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 2875,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 2369.92,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Tin",
             "de": "Zinn"
         }
     },
     "sb": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000065,
@@ -8615,13 +9523,27 @@
         },
         "superconductivity": "special",
         "symbol": "Sb",
+        "temperature": {
+            "melting": {
+                "value": 903.78,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 1908,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1004.22,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Antimony",
             "de": "Antimon"
         }
     },
     "te": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000001,
@@ -8794,13 +9716,27 @@
         },
         "superconductivity": "special",
         "symbol": "Te",
+        "temperature": {
+            "melting": {
+                "value": 722.66,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 1261,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 538.34,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Tellurium",
             "de": "Tellur"
         }
     },
     "i": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000006,
@@ -8990,13 +9926,43 @@
         },
         "superconductivity": "special",
         "symbol": "I",
+        "temperature": {
+            "melting": {
+                "value": 386.85,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 457.4,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 70.55,
+                "unit": "K"
+            },
+            "triple": {
+                "value": 386.65,
+                "unit": "K",
+                "@": {
+                    "value": 12.1,
+                    "unit": "kPa"
+                }
+            },
+            "critical": {
+                "value": 819,
+                "unit": "K",
+                "@": {
+                    "value": 11.7,
+                    "unit": "MPa"
+                }
+            }
+        },
         "wiki": {
             "en": "Iodine",
             "de": "Iod"
         }
     },
     "xe": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 9e-10,
@@ -9140,13 +10106,43 @@
         },
         "superconductivity": "none",
         "symbol": "Xe",
+        "temperature": {
+            "melting": {
+                "value": 161.4,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 165.051,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 3.651,
+                "unit": "K"
+            },
+            "triple": {
+                "value": 161.405,
+                "unit": "K",
+                "@": {
+                    "value": 81.77,
+                    "unit": "kPa"
+                }
+            },
+            "critical": {
+                "value": 289.733,
+                "unit": "K",
+                "@": {
+                    "value": 5.842,
+                    "unit": "MPa"
+                }
+            }
+        },
         "wiki": {
             "en": "Xenon",
             "de": "Xenon"
         }
     },
     "cs": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00065,
@@ -9318,13 +10314,35 @@
         },
         "superconductivity": "special",
         "symbol": "Cs",
+        "temperature": {
+            "melting": {
+                "value": 301.7,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 944,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 642.3,
+                "unit": "K"
+            },
+            "critical": {
+                "value": 1938,
+                "unit": "K",
+                "@": {
+                    "value": 9.4,
+                    "unit": "MPa"
+                }
+            }
+        },
         "wiki": {
             "en": "Caesium",
             "de": "Caesium"
         }
     },
     "ba": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.026,
@@ -9501,13 +10519,27 @@
         },
         "superconductivity": "special",
         "symbol": "Ba",
+        "temperature": {
+            "melting": {
+                "value": 1000,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 2118,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1118,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Barium",
             "de": "Barium"
         }
     },
     "la": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0017,
@@ -9668,13 +10700,27 @@
         },
         "superconductivity": "normal",
         "symbol": "La",
+        "temperature": {
+            "melting": {
+                "value": 1193,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 3737,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 2544,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Lanthanum",
             "de": "Lanthan"
         }
     },
     "ce": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0043,
@@ -9840,13 +10886,27 @@
         },
         "superconductivity": "special",
         "symbol": "Ce",
+        "temperature": {
+            "melting": {
+                "value": 1068,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 3716,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 2648,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Cerium",
             "de": "Cer"
         }
     },
     "pr": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00052,
@@ -10009,13 +11069,27 @@
         },
         "superconductivity": "none",
         "symbol": "Pr",
+        "temperature": {
+            "melting": {
+                "value": 1208,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 3403,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 2195,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Praseodymium",
             "de": "Praseodym"
         }
     },
     "nd": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0022,
@@ -10178,13 +11252,27 @@
         },
         "superconductivity": "none",
         "symbol": "Nd",
+        "temperature": {
+            "melting": {
+                "value": 1297,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 3347,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 2050,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Neodymium",
             "de": "Neodym"
         }
     },
     "pm": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.5e-19,
@@ -10293,13 +11381,27 @@
         ],
         "superconductivity": "none",
         "symbol": "Pm",
+        "temperature": {
+            "melting": {
+                "value": 1315,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 3273,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1958,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Promethium",
             "de": "Promethium"
         }
     },
     "sm": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0006,
@@ -10462,13 +11564,27 @@
         },
         "superconductivity": "none",
         "symbol": "Sm",
+        "temperature": {
+            "melting": {
+                "value": 1345,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 2173,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 828,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Samarium",
             "de": "Samarium"
         }
     },
     "eu": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000099,
@@ -10625,13 +11741,27 @@
         },
         "superconductivity": "none",
         "symbol": "Eu",
+        "temperature": {
+            "melting": {
+                "value": 1099,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 1802,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 703,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Europium",
             "de": "Europium"
         }
     },
     "gd": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00059,
@@ -10788,13 +11918,27 @@
         },
         "superconductivity": "none",
         "symbol": "Gd",
+        "temperature": {
+            "melting": {
+                "value": 1585,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 3273,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1688,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Gadolinium",
             "de": "Gadolinium"
         }
     },
     "tb": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000085,
@@ -10935,13 +12079,27 @@
         },
         "superconductivity": "none",
         "symbol": "Tb",
+        "temperature": {
+            "melting": {
+                "value": 1629,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 3396,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1767,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Terbium",
             "de": "Terbium"
         }
     },
     "dy": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00043,
@@ -11098,13 +12256,27 @@
         },
         "superconductivity": "none",
         "symbol": "Dy",
+        "temperature": {
+            "melting": {
+                "value": 1680,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 2840,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1160,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Dysprosium",
             "de": "Dysprosium"
         }
     },
     "ho": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00011,
@@ -11262,13 +12434,27 @@
         },
         "superconductivity": "none",
         "symbol": "Ho",
+        "temperature": {
+            "melting": {
+                "value": 1734,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 2873,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1139,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Holmium",
             "de": "Holmium"
         }
     },
     "er": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00023,
@@ -11425,13 +12611,27 @@
         },
         "superconductivity": "none",
         "symbol": "Er",
+        "temperature": {
+            "melting": {
+                "value": 1802,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 3141,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1339,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Erbium",
             "de": "Erbium"
         }
     },
     "tm": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000019,
@@ -11594,13 +12794,27 @@
         },
         "superconductivity": "none",
         "symbol": "Tm",
+        "temperature": {
+            "melting": {
+                "value": 1818,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 2223,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 405,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Thulium",
             "de": "Thulium"
         }
     },
     "yb": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00025,
@@ -11766,13 +12980,27 @@
         },
         "superconductivity": "none",
         "symbol": "Yb",
+        "temperature": {
+            "melting": {
+                "value": 1097,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 1469,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 372,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Ytterbium",
             "de": "Ytterbium"
         }
     },
     "lu": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00007,
@@ -11930,13 +13158,27 @@
         },
         "superconductivity": "normal",
         "symbol": "Lu",
+        "temperature": {
+            "melting": {
+                "value": 1925,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 3675,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1750,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Lutetium",
             "de": "Lutetium"
         }
     },
     "hf": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00042,
@@ -12098,13 +13340,27 @@
         },
         "superconductivity": "normal",
         "symbol": "Hf",
+        "temperature": {
+            "melting": {
+                "value": 2506,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 4876,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 2370,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Hafnium",
             "de": "Hafnium"
         }
     },
     "ta": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0008,
@@ -12270,13 +13526,27 @@
         },
         "superconductivity": "normal",
         "symbol": "Ta",
+        "temperature": {
+            "melting": {
+                "value": 3290,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 5731,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 2441,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Tantalum",
             "de": "Tantal"
         }
     },
     "w": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0064,
@@ -12445,13 +13715,27 @@
         },
         "superconductivity": "normal",
         "symbol": "W",
+        "temperature": {
+            "melting": {
+                "value": 3695,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 6203,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 2508,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Tungsten",
             "de": "Wolfram"
         }
     },
     "re": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1e-7,
@@ -12612,13 +13896,27 @@
         },
         "superconductivity": "normal",
         "symbol": "Re",
+        "temperature": {
+            "melting": {
+                "value": 3459,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 5903,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 2444,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Rhenium",
             "de": "Rhenium"
         }
     },
     "os": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000001,
@@ -12776,13 +14074,27 @@
         },
         "superconductivity": "normal",
         "symbol": "Os",
+        "temperature": {
+            "melting": {
+                "value": 3306,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 5285,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1979,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Osmium",
             "de": "Osmium"
         }
     },
     "ir": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1e-7,
@@ -12944,13 +14256,27 @@
         },
         "superconductivity": "normal",
         "symbol": "Ir",
+        "temperature": {
+            "melting": {
+                "value": 2719,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 4403,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1684,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Iridium",
             "de": "Iridium"
         }
     },
     "pt": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 5e-7,
@@ -13094,13 +14420,27 @@
         },
         "superconductivity": "none",
         "symbol": "Pt",
+        "temperature": {
+            "melting": {
+                "value": 2041.4,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 4098,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 2056.6,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Platinum",
             "de": "Platin"
         }
     },
     "au": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4e-7,
@@ -13246,13 +14586,27 @@
         },
         "superconductivity": "none",
         "symbol": "Au",
+        "temperature": {
+            "melting": {
+                "value": 1337.33,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 3243,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1905.67,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Gold",
             "de": "Gold"
         }
     },
     "hg": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00004,
@@ -13431,13 +14785,43 @@
         },
         "superconductivity": "normal",
         "symbol": "Hg",
+        "temperature": {
+            "melting": {
+                "value": 234.321,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 629.88,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 395.559,
+                "unit": "K"
+            },
+            "triple": {
+                "value": 234.3156,
+                "unit": "K",
+                "@": {
+                    "value": 0.000165,
+                    "unit": "Pa"
+                }
+            },
+            "critical": {
+                "value": 1750,
+                "unit": "K",
+                "@": {
+                    "value": 172,
+                    "unit": "MPa"
+                }
+            }
+        },
         "wiki": {
             "en": "Mercury (element)",
             "de": "Quecksilber"
         }
     },
     "tl": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000029,
@@ -13618,13 +15002,27 @@
         },
         "superconductivity": "normal",
         "symbol": "Tl",
+        "temperature": {
+            "melting": {
+                "value": 577,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 1746,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1169,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Thallium",
             "de": "Thallium"
         }
     },
     "pb": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0018,
@@ -13812,13 +15210,27 @@
         },
         "superconductivity": "normal",
         "symbol": "Pb",
+        "temperature": {
+            "melting": {
+                "value": 600.61,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 2022,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1421.39,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Lead",
             "de": "Blei"
         }
     },
     "bi": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00002,
@@ -13987,13 +15399,27 @@
         },
         "superconductivity": "special",
         "symbol": "Bi",
+        "temperature": {
+            "melting": {
+                "value": 544.7,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 1837,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1292.3,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Bismuth",
             "de": "Bismut"
         }
     },
     "po": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2.1e-15,
@@ -14104,6 +15530,20 @@
         ],
         "superconductivity": "none",
         "symbol": "Po",
+        "temperature": {
+            "melting": {
+                "value": 527,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 1235,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 708,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Polonium",
             "de": "Polonium"
@@ -14196,7 +15636,7 @@
         }
     },
     "rn": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 6.1e-15,
@@ -14298,13 +15738,35 @@
         ],
         "superconductivity": "none",
         "symbol": "Rn",
+        "temperature": {
+            "melting": {
+                "value": 202,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 211.5,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 9.5,
+                "unit": "K"
+            },
+            "critical": {
+                "value": 377,
+                "unit": "K",
+                "@": {
+                    "value": 6.28,
+                    "unit": "MPa"
+                }
+            }
+        },
         "wiki": {
             "en": "Radon",
             "de": "Radon"
         }
     },
     "fr": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.3e-22,
@@ -14391,13 +15853,27 @@
         ],
         "superconductivity": "none",
         "symbol": "Fr",
+        "temperature": {
+            "melting": {
+                "value": 300,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 950,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 650,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Francium",
             "de": "Francium"
         }
     },
     "ra": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 9.5e-15,
@@ -14503,13 +15979,28 @@
         ],
         "superconductivity": "none",
         "symbol": "Ra",
+        "temperature": {
+            "melting": {
+                "value": 973,
+                "*": true,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 2010,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1037,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Radium",
             "de": "Radium"
         }
     },
     "ac": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 6e-18,
@@ -14598,13 +16089,28 @@
         ],
         "superconductivity": "none",
         "symbol": "Ac",
+        "temperature": {
+            "melting": {
+                "value": 1500,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 3500,
+                "deviation": 300,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 2000,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Actinium",
             "de": "Actinium"
         }
     },
     "th": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0011,
@@ -14750,13 +16256,27 @@
         },
         "superconductivity": "normal",
         "symbol": "Th",
+        "temperature": {
+            "melting": {
+                "value": 2023,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 5061,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 3038,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Thorium",
             "de": "Thorium"
         }
     },
     "pa": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0009,
@@ -14868,13 +16388,27 @@
         },
         "superconductivity": "normal",
         "symbol": "Pa",
+        "temperature": {
+            "melting": {
+                "value": 1841,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 4300,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 2459,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Protactinium",
             "de": "Protactinium"
         }
     },
     "u": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00032,
@@ -15050,13 +16584,27 @@
         },
         "superconductivity": "normal",
         "symbol": "U",
+        "temperature": {
+            "melting": {
+                "value": 1405.3,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 4404,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 2998.7,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Uranium",
             "de": "Uran"
         }
     },
     "np": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4e-18,
@@ -15152,13 +16700,29 @@
         ],
         "superconductivity": "none",
         "symbol": "Np",
+        "temperature": {
+            "melting": {
+                "value": 912,
+                "deviation": 3,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 4447,
+                "*": true,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 3535,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Neptunium",
             "de": "Neptunium"
         }
     },
     "pu": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2e-19,
@@ -15269,13 +16833,27 @@
         ],
         "superconductivity": "none",
         "symbol": "Pu",
+        "temperature": {
+            "melting": {
+                "value": 912.5,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 3505,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 2592.5,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Plutonium",
             "de": "Plutonium"
         }
     },
     "am": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "appearance": {
             "en": "silvery white",
             "de": "silbrig-weißes Metall"
@@ -15367,13 +16945,28 @@
         ],
         "superconductivity": "normal",
         "symbol": "Am",
+        "temperature": {
+            "melting": {
+                "value": 1449,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 2880,
+                "*": true,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1431,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Americium",
             "de": "Americium"
         }
     },
     "cm": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "appearance": {
             "en": "silvery metallic, glows purple in the dark",
             "de": "silbrig-weißes Metall"
@@ -15448,13 +17041,27 @@
         ],
         "superconductivity": "none",
         "symbol": "Cm",
+        "temperature": {
+            "melting": {
+                "value": 1613,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 3383,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1770,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Curium",
             "de": "Curium"
         }
     },
     "bk": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "appearance": {
             "en": "silvery",
             "de": "silberweiß"
@@ -15529,13 +17136,27 @@
         ],
         "superconductivity": "none",
         "symbol": "Bk",
+        "temperature": {
+            "melting": {
+                "value": 1259,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 2900,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 1641,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Berkelium",
             "de": "Berkelium"
         }
     },
     "cf": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "appearance": {
             "en": "silvery",
             "de": "silbriges Metall"
@@ -15603,13 +17224,28 @@
         ],
         "superconductivity": "none",
         "symbol": "Cf",
+        "temperature": {
+            "melting": {
+                "value": 1173,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 1743,
+                "*": true,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 570,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Californium",
             "de": "Californium"
         }
     },
     "es": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "appearance": {
             "en": "silvery; glows blue in the dark"
         },
@@ -15676,13 +17312,28 @@
         ],
         "superconductivity": "none",
         "symbol": "Es",
+        "temperature": {
+            "melting": {
+                "value": 1133,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 1269,
+                "*": true,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 136,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Einsteinium",
             "de": "Einsteinium"
         }
     },
     "fm": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "atomic_mass": {
             "value": 257.0951,
             "*": true,
@@ -15741,13 +17392,20 @@
         ],
         "superconductivity": "none",
         "symbol": "Fm",
+        "temperature": {
+            "melting": {
+                "value": 1800,
+                "*": true,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Fermium",
             "de": "Fermium"
         }
     },
     "md": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "atomic_mass": {
             "value": 258,
             "*": true,
@@ -15806,13 +17464,20 @@
         ],
         "superconductivity": "none",
         "symbol": "Md",
+        "temperature": {
+            "melting": {
+                "value": 1100,
+                "*": true,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Mendelevium",
             "de": "Mendelevium"
         }
     },
     "no": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "atomic_mass": {
             "value": 259,
             "*": true,
@@ -15871,13 +17536,20 @@
         ],
         "superconductivity": "none",
         "symbol": "No",
+        "temperature": {
+            "melting": {
+                "value": 1100,
+                "*": true,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Nobelium",
             "de": "Nobelium"
         }
     },
     "lr": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "atomic_mass": {
             "value": 266,
             "*": true,
@@ -15936,13 +17608,20 @@
         ],
         "superconductivity": "none",
         "symbol": "Lr",
+        "temperature": {
+            "melting": {
+                "value": 1900,
+                "*": true,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Lawrencium",
             "de": "Lawrencium"
         }
     },
     "rf": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "appearance": {
             "de": "unbekannt, vermutlich silber-weiß oder grau metallisch"
         },
@@ -16006,6 +17685,22 @@
             2
         ],
         "symbol": "Rf",
+        "temperature": {
+            "melting": {
+                "value": 2400,
+                "*": true,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 5800,
+                "*": true,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 3400,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Rutherfordium",
             "de": "Rutherfordium"
@@ -16517,7 +18212,7 @@
         }
     },
     "cn": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "atomic_mass": {
             "value": 277,
             "*": true,
@@ -16582,13 +18277,40 @@
             2
         ],
         "symbol": "Cn",
+        "temperature": {
+            "melting": {
+                "value": 283,
+                "deviation": 11,
+                "*": true,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 340,
+                "deviation": 10,
+                "*": true,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 57,
+                "unit": "K"
+            },
+            "triple": {
+                "value": 283,
+                "*": true,
+                "unit": "K",
+                "@": {
+                    "value": 25,
+                    "unit": "kPa"
+                }
+            }
+        },
         "wiki": {
             "en": "Copernicium",
             "de": "Copernicium"
         }
     },
     "nh": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "atomic_mass": {
             "value": 287,
             "*": true,
@@ -16654,13 +18376,29 @@
             3
         ],
         "symbol": "Nh",
+        "temperature": {
+            "melting": {
+                "value": 700,
+                "*": true,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 1430,
+                "*": true,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 730,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Nihonium",
             "de": "Nihonium"
         }
     },
     "fl": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "atomic_mass": {
             "value": 289,
             "*": true,
@@ -16726,13 +18464,21 @@
             4
         ],
         "symbol": "Fl",
+        "temperature": {
+            "melting": {
+                "value": 284,
+                "deviation": 50,
+                "*": true,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Flerovium",
             "de": "Flerovium"
         }
     },
     "mc": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "atomic_mass": {
             "value": 288,
             "*": true,
@@ -16797,13 +18543,29 @@
             5
         ],
         "symbol": "Mc",
+        "temperature": {
+            "melting": {
+                "value": 670,
+                "*": true,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 1400,
+                "*": true,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 730,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Moscovium",
             "de": "Moscovium"
         }
     },
     "lv": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "atomic_mass": {
             "value": 293,
             "*": true,
@@ -16868,13 +18630,37 @@
             6
         ],
         "symbol": "Lv",
+        "temperature": {
+            "melting": {
+                "value": 708.5,
+                "*": true,
+                "unit": "K",
+                "range": [
+                    637,
+                    780
+                ]
+            },
+            "boiling": {
+                "value": 1085,
+                "*": true,
+                "unit": "K",
+                "range": [
+                    1035,
+                    1135
+                ]
+            },
+            "liquid_range": {
+                "value": 376.5,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Livermorium",
             "de": "Livermorium"
         }
     },
     "ts": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "appearance": {
             "en": "semimetallic (predicted)"
         },
@@ -16941,13 +18727,33 @@
             7
         ],
         "symbol": "Ts",
+        "temperature": {
+            "melting": {
+                "value": 723,
+                "*": true,
+                "unit": "K",
+                "range": [
+                    623,
+                    823
+                ]
+            },
+            "boiling": {
+                "value": 883,
+                "*": true,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 160,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Tennessine",
             "de": "Tenness"
         }
     },
     "og": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-12T23:10:57.236Z",
         "appearance": {
             "en": "metallic (predicted)"
         },
@@ -17016,6 +18822,24 @@
             8
         ],
         "symbol": "Og",
+        "temperature": {
+            "melting": {
+                "value": 325,
+                "deviation": 15,
+                "*": true,
+                "unit": "K"
+            },
+            "boiling": {
+                "value": 450,
+                "deviation": 10,
+                "*": true,
+                "unit": "K"
+            },
+            "liquid_range": {
+                "value": 125,
+                "unit": "K"
+            }
+        },
         "wiki": {
             "en": "Oganesson",
             "de": "Oganesson"

@@ -115,24 +115,21 @@ block content
                     a( href='/scale/' + prop )!= __( prop )
                   td.pt-prop-table-value!= core.fNumber( element[ prop ], locale )
         //- prop box: temperatures
-        div.pt-prop-box.open
-          h3.pt-prop-box-label
-            span!= __( 'temperatures' )
-            a( href="#" ).pt-prop-box-toggle
-              span.open!= __( 'expand' )
-              span.close!= __( 'close' )
-          div.pt-prop-box-content
-            table.pt-prop-table.pt-element-table
-              tbody
-                each prop in [ 'melting', 'boiling', 'liquid_range', 'triple', 'critical' ]
-                  tr.pt-prop-table-row
-                    th.pt-prop-table-label
-                      a( href='/scale/' + prop )!= __( prop + '-temp' )
-                    td.pt-prop-table-value
-                      if prop in element
-                        span!= core.fNumber( element[ prop ], locale )
-                      else
-                        span!= __( 'undefined' )
+        if element.temperature
+          div.pt-prop-box.open
+            h3.pt-prop-box-label
+              span!= __( 'temperatures' )
+              a( href="#" ).pt-prop-box-toggle
+                span.open!= __( 'expand' )
+                span.close!= __( 'close' )
+            div.pt-prop-box-content
+              table.pt-prop-table.pt-element-table
+                tbody
+                  each prop, label in element.temperature
+                    tr.pt-prop-table-row
+                      th.pt-prop-table-label
+                        a( href='/scale/temp_' + label )!= __( label + '-temp' )
+                      td.pt-prop-table-value!= core.fNumber( prop, locale )
         //- prop box: enthalpies
         div.pt-prop-box
           h3.pt-prop-box-label
