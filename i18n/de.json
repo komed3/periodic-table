@@ -216,7 +216,7 @@
 	"language": "Sprache",
 	"latin": "Lateinisch",
 	"legend": "Legende",
-	"liquid_range-temp": "Flüssigkeitsbereich",
+	"liquid-temp": "Flüssigkeitsbereich",
 	"list-description": "list-description",
 	"list-title": "%s: %s",
 	"magnetic_ordering-antiferromagnetic": "antiferromagnetisch",
@@ -460,5 +460,11 @@
 	"weblinks": "Weiterführende Links",
 	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" target=\"_blank\">Weiterlesen …</a>",
 	"young-elastic": "Youngscher Modul",
-	"young-elastic-description": "Der nach Thomas Young benannte Materialkennwert beschreibt bei linear-elastischem Verhalten den proportionalen Zusammenhang zwischen Spannung und Dehnung bei der Verformung eines festen Körpers."
+	"young-elastic-description": "Der nach Thomas Young benannte Materialkennwert beschreibt bei linear-elastischem Verhalten den proportionalen Zusammenhang zwischen Spannung und Dehnung bei der Verformung eines festen Körpers.",
+	"melting-temp-description": "melting-temp-description",
+	"boiling-temp-description": "boiling-temp-description",
+	"liquid-temp-description": "liquid-temp-description",
+	"triple-temp-description": "triple-temp-description",
+	"critical-temp-description": "critical-temp-description",
+	"sublimation-temp-description": "sublimation-temp-description"
 }

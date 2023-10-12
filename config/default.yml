@@ -39,6 +39,30 @@ site:
       key: radius.vdw
       label: vdw-radius
       scheme: _fire
+    temp_melting:
+      key: temperature.melting
+      label: melting-temp
+      scheme: _ice
+    temp_boiling:
+      key: temperature.boiling
+      label: boiling-temp
+      scheme: _fire
+    temp_liquid:
+      key: temperature.liquid
+      label: liquid-temp
+      scheme: _ice
+    temp_sublimation:
+      key: temperature.sublimation
+      label: sublimation-temp
+      scheme: _fire
+    temp_triple:
+      key: temperature.triple
+      label: triple-temp
+      scheme: _fire
+    temp_critical:
+      key: temperature.critical
+      label: critical-temp
+      scheme: _fire
     hardness_mohs:
       key: hardness.mohs
       label: mohs-hardness
