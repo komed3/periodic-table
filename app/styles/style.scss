@@ -255,6 +255,42 @@ select {
 }
 
 /**
+ * sortable table
+ */
+
+.pt-prop-table.sortable .pt-prop-table-label[sort-dir="asc"] {
+    --arrow: url( data:image/gif;base64,R0lGODlhCwALAJEAAAAAAP///xUVFf///yH5BAEAAAMALAAAAAALAAsAAAIRnC2nKLnT4or00Puy3rx7VQAAOw== );
+}
+
+.pt-prop-table.sortable .pt-prop-table-label[sort-dir="desc"] {
+    --arrow: url( data:image/gif;base64,R0lGODlhCwALAJEAAAAAAP///xUVFf///yH5BAEAAAMALAAAAAALAAsAAAIPnI+py+0/hJzz0IruwjsVADs= );
+}
+
+.pt-prop-table.sortable .pt-prop-table-label a {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pt-prop-table.sortable .pt-prop-table-label.right a {
+    flex-direction: row-reverse;
+}
+
+.pt-prop-table.sortable .pt-prop-table-label a i {
+    flex: 0 0 20px;
+    height: 20px;
+    background-image: var( --arrow, none );
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+}
+
+body[theme="dark"] .pt-prop-table.sortable .pt-prop-table-label a i {
+    filter: invert( 1 );
+}
+
+/**
  * prop box
  */
 

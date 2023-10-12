@@ -74,13 +74,7 @@ window.addEventListener( 'load', function () {
             let handler = document.createElement( 'a' );
 
             handler.href = '#';
-            handler.innerHTML = '<span>' +
-                th.innerHTML +
-            '</span>' +
-            '<div>' +
-                '<i class="asc"></i>' +
-                '<i class="desc"></i>' +
-            '</div>';
+            handler.innerHTML = '<span>' + th.innerHTML + '</span><i></i>';
 
             /**
              * sort handler event listener
