@@ -75,6 +75,26 @@ site:
       key: sc_temp
       label: sc_temp
       scheme: _fire
+    negativity_pauling:
+      key: negativity.pauling
+      label: pauling-negativity
+      scheme: _warm
+    negativity_sanderson:
+      key: negativity.sanderson
+      label: sanderson-negativity
+      scheme: _warm
+    negativity_allred:
+      key: negativity.allred
+      label: allred-negativity
+      scheme: _warm
+    negativity_mulliken:
+      key: negativity.mulliken
+      label: mulliken-negativity
+      scheme: _warm
+    negativity_allen:
+      key: negativity.allen
+      label: allen-negativity
+      scheme: _warm
   props: [
     radioactive, natural, native, vital, mononuclidic, stable, noble, semiconductor,
     light, heavy, rare, platinum, refractory, artificial, synthetic, antiquity

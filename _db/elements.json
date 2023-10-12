@@ -15911,6 +15911,9 @@
             "la": "Lawrencium"
         },
         "natural_occurrence": "synthetic",
+        "negativity": {
+            "pauling": 1.3
+        },
         "number": 103,
         "period": 7,
         "phase": "solid",

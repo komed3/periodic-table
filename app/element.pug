@@ -204,7 +204,7 @@ block content
                 td.pt-prop-table-value!= core.fNumber( element.electrode_potential, locale )
         //- prop box: electronegativity
         if element.negativity
-          div.pt-prop-box
+          div.pt-prop-box.open
             h3.pt-prop-box-label
               span!= __( 'electronegativity' )
               a( href="#" ).pt-prop-box-toggle

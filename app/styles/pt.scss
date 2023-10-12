@@ -111,11 +111,17 @@ body[theme="dark"] {
     --bg: var( --pt-ye-7 );
 }
 
+[layer="_warm"] [prop="0"],
 [layer="set"] [prop="metalloid"],
 [layer="crystal_structure"] .pt-el[prop="bcc"] {
     --bg: var( --pt-or-1 );
 }
 
+[layer="_warm"] [prop="1"] {
+    --bg: var( --pt-or-2 );
+}
+
+[layer="_warm"] [prop="2"],
 [layer="group"] .pt-el[prop="17"],
 [layer="period"] .pt-el[prop="5"],
 [layer="set"] .pt-el[prop="alkalineearthmetal"],
@@ -128,9 +134,30 @@ body[theme="dark"] {
     --bg: var( --pt-or-3 );
 }
 
+[layer="_warm"] [prop="3"] {
+    --bg: var( --pt-or-4 );
+}
+
+[layer="_warm"] [prop="4"],
 [layer="crystal_structure"] .pt-el[prop="fcc"],
 [layer="prop"] .pt-el[prop="1"] {
     --bg: var( --pt-or-5 );
+}
+
+[layer="_warm"] [prop="5"] {
+    --bg: var( --pt-or-6 );
+}
+
+[layer="_warm"] [prop="6"] {
+    --bg: var( --pt-or-7 );
+}
+
+[layer="_warm"] [prop="7"] {
+    --bg: var( --pt-or-8 );
+}
+
+[layer="_warm"] [prop="8"] {
+    --bg: var( --pt-or-9 );
 }
 
 [layer="_fire"] .pt-el[prop="0"],
@@ -182,16 +209,18 @@ body[theme="dark"] {
 }
 
 [layer="_fire"] .pt-el[prop="7"],
+[layer="_warm"] [prop="9"],
 [layer="basicity"] .pt-el[prop="strongly-acidic"] {
     --bg: var( --pt-re-7 );
 }
 
-[layer="_fire"] .pt-el[prop="8"] {
+[layer="_fire"] .pt-el[prop="8"],
+[layer="_fire"] .pt-el[prop="9"] {
     --bg: var( --pt-re-8 );
 }
 
-[layer="_fire"] .pt-el[prop="9"],
-[layer="_fire"] .pt-el[prop="10"] {
+[layer="_fire"] .pt-el[prop="10"],
+[layer="_warm"] [prop="10"] {
     --bg: var( --pt-re-9 );
 }
 
