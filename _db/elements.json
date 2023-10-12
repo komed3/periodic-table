@@ -318,7 +318,7 @@
                 "value": 20.271,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 6.281,
                 "unit": "K"
             },
@@ -506,7 +506,7 @@
                 "value": 4.222,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 3.272,
                 "unit": "K"
             },
@@ -715,7 +715,7 @@
                 "value": 1603,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1149.35,
                 "unit": "K"
             },
@@ -929,7 +929,7 @@
                 "value": 2742,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1182,
                 "unit": "K"
             },
@@ -1114,7 +1114,7 @@
                 "value": 4200,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1851,
                 "unit": "K"
             }
@@ -1431,7 +1431,7 @@
                 "value": 77.355,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 14.125,
                 "unit": "K"
             },
@@ -1626,7 +1626,7 @@
                 "value": 90.188,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 35.828,
                 "unit": "K"
             },
@@ -1823,7 +1823,7 @@
                 "value": 85.03,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 31.55,
                 "unit": "K"
             },
@@ -1978,7 +1978,7 @@
                 "value": 27.104,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 2.544,
                 "unit": "K"
             },
@@ -2186,7 +2186,7 @@
                 "value": 1156.09,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 785.146,
                 "unit": "K"
             },
@@ -2395,7 +2395,7 @@
                 "value": 1363,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 440,
                 "unit": "K"
             }
@@ -2583,7 +2583,7 @@
                 "value": 2743,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1809.53,
                 "unit": "K"
             }
@@ -2743,7 +2743,7 @@
                 "value": 3538,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1851,
                 "unit": "K"
             }
@@ -2937,7 +2937,7 @@
                 "value": 553.7,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 236.4,
                 "unit": "K"
             },
@@ -3121,7 +3121,7 @@
                 "value": 717.8,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 329.44,
                 "unit": "K"
             },
@@ -3324,7 +3324,7 @@
                 "value": 239.11,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 67.51,
                 "unit": "K"
             },
@@ -3477,7 +3477,7 @@
                 "value": 87.302,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 3.492,
                 "unit": "K"
             },
@@ -3680,7 +3680,7 @@
                 "value": 1030.793,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 694.093,
                 "unit": "K"
             },
@@ -3885,7 +3885,7 @@
                 "value": 1757,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 642,
                 "unit": "K"
             }
@@ -4064,7 +4064,7 @@
                 "value": 3109,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1295,
                 "unit": "K"
             }
@@ -4247,7 +4247,7 @@
                 "value": 3560,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1619,
                 "unit": "K"
             }
@@ -4414,7 +4414,7 @@
                 "value": 3680,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1497,
                 "unit": "K"
             }
@@ -4581,7 +4581,7 @@
                 "value": 2944,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 764,
                 "unit": "K"
             }
@@ -4760,7 +4760,7 @@
                 "value": 2334,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 815,
                 "unit": "K"
             }
@@ -4927,7 +4927,7 @@
                 "value": 3134,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1323,
                 "unit": "K"
             }
@@ -5131,7 +5131,7 @@
                 "value": 3200,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1432,
                 "unit": "K"
             }
@@ -5327,7 +5327,7 @@
                 "value": 3003,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1275,
                 "unit": "K"
             }
@@ -5508,7 +5508,7 @@
                 "value": 2835,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1477.23,
                 "unit": "K"
             }
@@ -5703,7 +5703,7 @@
                 "value": 1180,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 487.32,
                 "unit": "K"
             }
@@ -5885,7 +5885,7 @@
                 "value": 2673,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 2370.0854,
                 "unit": "K"
             }
@@ -6048,7 +6048,7 @@
                 "value": 3106,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1894.6,
                 "unit": "K"
             }
@@ -6436,7 +6436,7 @@
                 "value": 958,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 464,
                 "unit": "K"
             },
@@ -6633,7 +6633,7 @@
                 "value": 332,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 66.2,
                 "unit": "K"
             },
@@ -6798,7 +6798,7 @@
                 "value": 119.93,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 4.15,
                 "unit": "K"
             },
@@ -7001,7 +7001,7 @@
                 "value": 961,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 648.55,
                 "unit": "K"
             },
@@ -7196,7 +7196,7 @@
                 "value": 1650,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 600,
                 "unit": "K"
             }
@@ -7375,7 +7375,7 @@
                 "value": 3203,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1404,
                 "unit": "K"
             }
@@ -7560,7 +7560,7 @@
                 "value": 4650,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 2525,
                 "unit": "K"
             }
@@ -7746,7 +7746,7 @@
                 "value": 5017,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 2267,
                 "unit": "K"
             }
@@ -7914,7 +7914,7 @@
                 "value": 4912,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 2016,
                 "unit": "K"
             }
@@ -8042,7 +8042,7 @@
                 "value": 4538,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 2108,
                 "unit": "K"
             }
@@ -8218,7 +8218,7 @@
                 "value": 4423,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1816,
                 "unit": "K"
             }
@@ -8401,7 +8401,7 @@
                 "value": 3968,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1731,
                 "unit": "K"
             }
@@ -8590,7 +8590,7 @@
                 "value": 3236,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1407.95,
                 "unit": "K"
             }
@@ -8781,7 +8781,7 @@
                 "value": 2435,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1200.07,
                 "unit": "K"
             }
@@ -8995,7 +8995,7 @@
                 "value": 1040,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 445.78,
                 "unit": "K"
             }
@@ -9177,7 +9177,7 @@
                 "value": 2345,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1915.2515,
                 "unit": "K"
             },
@@ -9351,7 +9351,7 @@
                 "value": 2875,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 2369.92,
                 "unit": "K"
             }
@@ -9532,7 +9532,7 @@
                 "value": 1908,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1004.22,
                 "unit": "K"
             }
@@ -9725,7 +9725,7 @@
                 "value": 1261,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 538.34,
                 "unit": "K"
             }
@@ -9935,7 +9935,7 @@
                 "value": 457.4,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 70.55,
                 "unit": "K"
             },
@@ -10115,7 +10115,7 @@
                 "value": 165.051,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 3.651,
                 "unit": "K"
             },
@@ -10323,7 +10323,7 @@
                 "value": 944,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 642.3,
                 "unit": "K"
             },
@@ -10528,7 +10528,7 @@
                 "value": 2118,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1118,
                 "unit": "K"
             }
@@ -10709,7 +10709,7 @@
                 "value": 3737,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 2544,
                 "unit": "K"
             }
@@ -10895,7 +10895,7 @@
                 "value": 3716,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 2648,
                 "unit": "K"
             }
@@ -11078,7 +11078,7 @@
                 "value": 3403,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 2195,
                 "unit": "K"
             }
@@ -11261,7 +11261,7 @@
                 "value": 3347,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 2050,
                 "unit": "K"
             }
@@ -11390,7 +11390,7 @@
                 "value": 3273,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1958,
                 "unit": "K"
             }
@@ -11573,7 +11573,7 @@
                 "value": 2173,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 828,
                 "unit": "K"
             }
@@ -11750,7 +11750,7 @@
                 "value": 1802,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 703,
                 "unit": "K"
             }
@@ -11927,7 +11927,7 @@
                 "value": 3273,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1688,
                 "unit": "K"
             }
@@ -12088,7 +12088,7 @@
                 "value": 3396,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1767,
                 "unit": "K"
             }
@@ -12265,7 +12265,7 @@
                 "value": 2840,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1160,
                 "unit": "K"
             }
@@ -12443,7 +12443,7 @@
                 "value": 2873,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1139,
                 "unit": "K"
             }
@@ -12620,7 +12620,7 @@
                 "value": 3141,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1339,
                 "unit": "K"
             }
@@ -12803,7 +12803,7 @@
                 "value": 2223,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 405,
                 "unit": "K"
             }
@@ -12989,7 +12989,7 @@
                 "value": 1469,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 372,
                 "unit": "K"
             }
@@ -13167,7 +13167,7 @@
                 "value": 3675,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1750,
                 "unit": "K"
             }
@@ -13349,7 +13349,7 @@
                 "value": 4876,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 2370,
                 "unit": "K"
             }
@@ -13535,7 +13535,7 @@
                 "value": 5731,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 2441,
                 "unit": "K"
             }
@@ -13724,7 +13724,7 @@
                 "value": 6203,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 2508,
                 "unit": "K"
             }
@@ -13905,7 +13905,7 @@
                 "value": 5903,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 2444,
                 "unit": "K"
             }
@@ -14083,7 +14083,7 @@
                 "value": 5285,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1979,
                 "unit": "K"
             }
@@ -14265,7 +14265,7 @@
                 "value": 4403,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1684,
                 "unit": "K"
             }
@@ -14429,7 +14429,7 @@
                 "value": 4098,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 2056.6,
                 "unit": "K"
             }
@@ -14595,7 +14595,7 @@
                 "value": 3243,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1905.67,
                 "unit": "K"
             }
@@ -14794,7 +14794,7 @@
                 "value": 629.88,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 395.559,
                 "unit": "K"
             },
@@ -15011,7 +15011,7 @@
                 "value": 1746,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1169,
                 "unit": "K"
             }
@@ -15219,7 +15219,7 @@
                 "value": 2022,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1421.39,
                 "unit": "K"
             }
@@ -15408,7 +15408,7 @@
                 "value": 1837,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1292.3,
                 "unit": "K"
             }
@@ -15539,7 +15539,7 @@
                 "value": 1235,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 708,
                 "unit": "K"
             }
@@ -15747,7 +15747,7 @@
                 "value": 211.5,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 9.5,
                 "unit": "K"
             },
@@ -15862,7 +15862,7 @@
                 "value": 950,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 650,
                 "unit": "K"
             }
@@ -15989,7 +15989,7 @@
                 "value": 2010,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1037,
                 "unit": "K"
             }
@@ -16099,7 +16099,7 @@
                 "deviation": 300,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 2000,
                 "unit": "K"
             }
@@ -16265,7 +16265,7 @@
                 "value": 5061,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 3038,
                 "unit": "K"
             }
@@ -16397,7 +16397,7 @@
                 "value": 4300,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 2459,
                 "unit": "K"
             }
@@ -16593,7 +16593,7 @@
                 "value": 4404,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 2998.7,
                 "unit": "K"
             }
@@ -16711,7 +16711,7 @@
                 "*": true,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 3535,
                 "unit": "K"
             }
@@ -16842,7 +16842,7 @@
                 "value": 3505,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 2592.5,
                 "unit": "K"
             }
@@ -16955,7 +16955,7 @@
                 "*": true,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1431,
                 "unit": "K"
             }
@@ -17050,7 +17050,7 @@
                 "value": 3383,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1770,
                 "unit": "K"
             }
@@ -17145,7 +17145,7 @@
                 "value": 2900,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 1641,
                 "unit": "K"
             }
@@ -17234,7 +17234,7 @@
                 "*": true,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 570,
                 "unit": "K"
             }
@@ -17322,7 +17322,7 @@
                 "*": true,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 136,
                 "unit": "K"
             }
@@ -17696,7 +17696,7 @@
                 "*": true,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 3400,
                 "unit": "K"
             }
@@ -18290,7 +18290,7 @@
                 "*": true,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 57,
                 "unit": "K"
             },
@@ -18387,7 +18387,7 @@
                 "*": true,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 730,
                 "unit": "K"
             }
@@ -18554,7 +18554,7 @@
                 "*": true,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 730,
                 "unit": "K"
             }
@@ -18649,7 +18649,7 @@
                     1135
                 ]
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 376.5,
                 "unit": "K"
             }
@@ -18742,7 +18742,7 @@
                 "*": true,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 160,
                 "unit": "K"
             }
@@ -18835,7 +18835,7 @@
                 "*": true,
                 "unit": "K"
             },
-            "liquid_range": {
+            "liquid": {
                 "value": 125,
                 "unit": "K"
             }
