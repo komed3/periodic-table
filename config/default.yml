@@ -42,7 +42,7 @@ site:
     temp_melting:
       key: temperature.melting
       label: melting-temp
-      scheme: _ice
+      scheme: _ice_reverse
     temp_boiling:
       key: temperature.boiling
       label: boiling-temp

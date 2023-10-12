@@ -220,6 +220,8 @@ body[theme="dark"] {
 
 [layer="_ice"] .pt-el[prop="0"],
 [layer="_ice"] .pt-el[prop="1"],
+[layer="_ice_reverse"] .pt-el[prop="9"],
+[layer="_ice_reverse"] .pt-el[prop="10"],
 [layer="set"] .pt-el[prop="noblegas"],
 [layer="block"] .pt-el[prop="s"],
 [layer="phase"] .pt-el[prop="liquid"],
@@ -227,11 +229,13 @@ body[theme="dark"] {
     --bg: var( --pt-bl-1 );
 }
 
-[layer="_ice"] .pt-el[prop="2"] {
+[layer="_ice"] .pt-el[prop="2"],
+[layer="_ice_reverse"] .pt-el[prop="8"] {
     --bg: var( --pt-bl-2 );
 }
 
 [layer="_ice"] .pt-el[prop="3"],
+[layer="_ice_reverse"] .pt-el[prop="7"],
 [layer="group"] .pt-el[prop="18"],
 [layer="period"] .pt-el[prop="2"],
 [layer="crystal_structure"] .pt-el[prop="rho"],
@@ -241,30 +245,37 @@ body[theme="dark"] {
     --bg: var( --pt-bl-3 );
 }
 
-[layer="_ice"] .pt-el[prop="4"] {
+[layer="_ice"] .pt-el[prop="4"],
+[layer="_ice_reverse"] .pt-el[prop="6"] {
     --bg: var( --pt-bl-4 );
 }
 
 [layer="_ice"] .pt-el[prop="5"],
+[layer="_ice_reverse"] .pt-el[prop="5"],
 [layer="basicity"] .pt-el[prop="alkaline"] {
     --bg: var( --pt-bl-5 );
 }
 
-[layer="_ice"] .pt-el[prop="6"] {
+[layer="_ice"] .pt-el[prop="6"],
+[layer="_ice_reverse"] .pt-el[prop="4"] {
     --bg: var( --pt-bl-6 );
 }
 
 [layer="_ice"] .pt-el[prop="7"],
+[layer="_ice_reverse"] .pt-el[prop="3"],
 [layer="basicity"] .pt-el[prop="strongly-alkaline"] {
     --bg: var( --pt-bl-7 );
 }
 
-[layer="_ice"] .pt-el[prop="8"] {
+[layer="_ice"] .pt-el[prop="8"],
+[layer="_ice_reverse"] .pt-el[prop="2"] {
     --bg: var( --pt-bl-8 );
 }
 
 [layer="_ice"] .pt-el[prop="9"],
-[layer="_ice"] .pt-el[prop="10"] {
+[layer="_ice"] .pt-el[prop="10"],
+[layer="_ice_reverse"] .pt-el[prop="1"],
+[layer="_ice_reverse"] .pt-el[prop="0"] {
     --bg: var( --pt-bl-9 );
 }
 
