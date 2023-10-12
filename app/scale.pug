@@ -11,6 +11,9 @@ block social
   meta( property="og:title", content= title )/
   meta( property="og:description", content= description )/
 
+block scripts
+  script( src="/js/tablesort.min.js" )
+
 block styles
   link( rel="stylesheet", href="/css/table.css" )/
   link( rel="stylesheet", href="/css/scale.css" )/
@@ -22,19 +25,26 @@ block content
     include templates/breadcrumbs.pug
     h1= title
     p.pt-page-intro= description
-    table.pt-prop-table.zebra.pt-scale-table(
+    table.pt-prop-table.zebra.sortable.pt-scale-table(
       layer= scale.scheme
       type="scale"
     )
       thead
         tr.pt-prop-table-row
           th.pt-prop-table-label.pt-scale-table-color
-          th.pt-prop-table-label( colspan="2" )!= __( 'element' )
-          th.pt-prop-table-label.right!= __( scale.label )
+          th.pt-prop-table-label(
+            colspan="2",
+            sort-key="number"
+          )!= __( 'element' )
+          th.pt-prop-table-label.sort.right(
+            sort-key="x"
+          )!= __( scale.label )
       tbody
         each el, k in scale.results
           tr.pt-prop-table-row.pt-el(
-            prop= el.scale.y
+            prop= el.scale.y,
+            sort-value--number= el.number,
+            sort-value--x= el.scale.x
           )
             td.pt-prop-table-value.pt-scale-table-color
             td.pt-prop-table-value.mini!= '<sub>' + el.number + '</sub>' + el.symbol
