@@ -79,22 +79,27 @@ site:
       key: negativity.pauling
       label: pauling-negativity
       scheme: _warm
+      scaling: false
     negativity_sanderson:
       key: negativity.sanderson
       label: sanderson-negativity
       scheme: _warm
+      scaling: false
     negativity_allred:
       key: negativity.allred
       label: allred-negativity
       scheme: _warm
+      scaling: false
     negativity_mulliken:
       key: negativity.mulliken
       label: mulliken-negativity
       scheme: _warm
+      scaling: false
     negativity_allen:
       key: negativity.allen
       label: allen-negativity
       scheme: _warm
+      scaling: false
   props: [
     radioactive, natural, native, vital, mononuclidic, stable, noble, semiconductor,
     light, heavy, rare, platinum, refractory, artificial, synthetic, antiquity
