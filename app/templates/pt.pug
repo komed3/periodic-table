@@ -2,7 +2,15 @@
 - var _type = table.type || 'value'
 - var legend = []
 - var offset = 3
-div.pt-periodic-table.noselect( layer=table.layer, type=_type )
+div.pt-periodic-table.noselect(
+  layer= table.layer,
+  type= _type,
+  scaling= +(
+    _type == 'scale' && 'scaling' in scale
+      ? scale.scaling
+      : true
+  )
+)
   span.pt-periodic-table-gap( style= '--g:1 / span 18' )
   each el, k in elements
     - _value = core.getValue( k, el, table.layer, table.value || 'undefined', _type )

@@ -1,7 +1,11 @@
 //- templates/microtable.pug
 - var _type = table.type || 'value'
 - var legend = []
-div.pt-microtable.noselect( layer=table.layer, type=_type )
+div.pt-microtable.noselect(
+  layer= table.layer,
+  type= _type,
+  scaling= 0
+)
   each el, k in elements
     - _value = core.getValue( k, el, table.layer, table.value || 'undefined', _type )
     - if( !legend.includes( _value ) ) {
