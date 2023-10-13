@@ -178,6 +178,12 @@ routes.routes.forEach( ( route ) => {
 
                     break;
 
+                case 'spectrum':
+
+                    res.locals.spectrum = core.DB( 'spectrum' );
+
+                    break;
+
                 case 'element':
 
                     /* check if given element exists in DB */
@@ -204,9 +210,9 @@ routes.routes.forEach( ( route ) => {
 
                         /* spectral lines */
 
-                        if( element in ( spectral = core.DB( 'spectral' ) ) ) {
+                        if( element in ( spectrum = core.DB( 'spectrum' ) ) ) {
 
-                            res.locals.spectral = spectral[ element ];
+                            res.locals.spectrum = spectrum[ element ];
 
                         }
 

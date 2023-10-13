@@ -8,7 +8,7 @@ module.exports.routes = [
     [ '/sitemap/?', 'sitemap' ],
     [ '/glossary/?', 'glossary' ],
     [ '/tools/?', 'tools' ],
-    [ '/spectral/?', 'spectral' ],
+    [ '/spectrum/?', 'spectrum' ],
     [ '/element/*', 'element', 'e' ],
     [ '/e/*', 'element' ],
     [ '/lists/*', 'lists' ],
