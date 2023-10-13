@@ -1,6 +1,6 @@
 {
     "h": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.15,
@@ -93,6 +93,20 @@
             "unit": "V"
         },
         "electron_config": "1s[1]",
+        "enthalpy": {
+            "fusion": {
+                "value": 0.558,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 0.452,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 218,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "enthalpy_atomisation": {
             "value": 218,
             "unit": "kJ·mol[−1]"
@@ -359,7 +373,7 @@
         }
     },
     "he": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4e-7,
@@ -417,6 +431,20 @@
             "value": 1895
         },
         "electron_config": "1s[1]",
+        "enthalpy": {
+            "fusion": {
+                "value": 0.02,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 0.083,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 0,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "classifying",
         "goldschmidt": "atmophile",
         "group": 18,
@@ -533,7 +561,7 @@
         }
     },
     "li": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.006,
@@ -605,6 +633,20 @@
             }
         },
         "electron_config": "<e:He> 2s[1]",
+        "enthalpy": {
+            "fusion": {
+                "value": 3,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 147,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 159,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "revolution",
         "goldschmidt": "lithophile",
         "group": 1,
@@ -735,7 +777,7 @@
         }
     },
     "be": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00053,
@@ -808,6 +850,20 @@
             "poisson": 0.032
         },
         "electron_config": "<e:He> 2s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 7.95,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 297,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 324,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "enlightenment",
         "goldschmidt": "lithophile",
         "group": 2,
@@ -945,7 +1001,7 @@
         }
     },
     "b": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0016,
@@ -1009,6 +1065,20 @@
             }
         },
         "electron_config": "<e:He> 2s[2] 2p[1]",
+        "enthalpy": {
+            "fusion": {
+                "value": 50,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 507,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 563,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "revolution",
         "goldschmidt": "lithophile",
         "group": 13,
@@ -1125,7 +1195,7 @@
         }
     },
     "c": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.087,
@@ -1194,6 +1264,20 @@
             }
         },
         "electron_config": "<e:He> 2s[2] 2p[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 117,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 715,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 717,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "antiquity",
         "goldschmidt": "atmophile",
         "group": 14,
@@ -1287,7 +1371,7 @@
         }
     },
     "n": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.03,
@@ -1345,6 +1429,20 @@
             "value": 1771
         },
         "electron_config": "<e:He> 2s[2] 2p[3]",
+        "enthalpy": {
+            "fusion": {
+                "value": 0.36,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 2.79,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 473,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "enlightenment",
         "goldschmidt": "atmophile",
         "group": 15,
@@ -1458,7 +1556,7 @@
         }
     },
     "o": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 49400,
@@ -1521,6 +1619,20 @@
             "value": 1774
         },
         "electron_config": "<e:He> 2s[2] 2p[4]",
+        "enthalpy": {
+            "fusion": {
+                "value": 0.222,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 3.41,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 249,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "enlightenment",
         "goldschmidt": "lithophile",
         "group": 16,
@@ -1653,7 +1765,7 @@
         }
     },
     "f": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.028,
@@ -1711,6 +1823,20 @@
             "value": 1886
         },
         "electron_config": "<e:He> 2s[2] 2p[5]",
+        "enthalpy": {
+            "fusion": {
+                "value": 0.26,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 3.27,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 79,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "classifying",
         "goldschmidt": "lithophile",
         "group": 17,
@@ -1850,7 +1976,7 @@
         }
     },
     "ne": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 5e-7,
@@ -1903,6 +2029,20 @@
             "value": 1898
         },
         "electron_config": "<e:He> 2s[2] 2p[6]",
+        "enthalpy": {
+            "fusion": {
+                "value": 0.34,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 1.75,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 0,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "classifying",
         "goldschmidt": "atmophile",
         "group": 18,
@@ -2005,7 +2145,7 @@
         }
     },
     "na": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2.64,
@@ -2077,6 +2217,20 @@
             }
         },
         "electron_config": "<e:Ne> 3s[1]",
+        "enthalpy": {
+            "fusion": {
+                "value": 2.6,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 97.7,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 107,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "revolution",
         "goldschmidt": "lithophile",
         "group": 1,
@@ -2206,7 +2360,7 @@
         }
     },
     "mg": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.94,
@@ -2284,6 +2438,20 @@
             "poisson": 0.29
         },
         "electron_config": "<e:Ne> 3s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 8.7,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 128,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 146,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "revolution",
         "goldschmidt": "lithophile",
         "group": 2,
@@ -2406,7 +2574,7 @@
         }
     },
     "al": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 7.57,
@@ -2479,6 +2647,20 @@
             "poisson": 0.35
         },
         "electron_config": "<e:Ne> 3s[2] 3p[1]",
+        "enthalpy": {
+            "fusion": {
+                "value": 10.7,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 293,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 326,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "revolution",
         "goldschmidt": "lithophile",
         "group": 13,
@@ -2594,7 +2776,7 @@
         }
     },
     "si": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 25800,
@@ -2662,6 +2844,20 @@
             }
         },
         "electron_config": "<e:Ne> 3s[2] 3p[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 50.2,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 359,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 456,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "revolution",
         "goldschmidt": "lithophile",
         "group": 14,
@@ -2754,7 +2950,7 @@
         }
     },
     "p": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.09,
@@ -2823,6 +3019,20 @@
             }
         },
         "electron_config": "<e:Ne> 3s[2] 3p[3]",
+        "enthalpy": {
+            "fusion": {
+                "value": 0.64,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 12.4,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 315,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "enlightenment",
         "goldschmidt": "lithophile",
         "group": 15,
@@ -2956,7 +3166,7 @@
         }
     },
     "s": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.048,
@@ -3021,6 +3231,20 @@
             }
         },
         "electron_config": "<e:Ne> 3s[2] 3p[4]",
+        "enthalpy": {
+            "fusion": {
+                "value": 1.73,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 9.8,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 279,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "antiquity",
         "goldschmidt": "chalcophile",
         "group": 16,
@@ -3140,7 +3364,7 @@
         }
     },
     "cl": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.19,
@@ -3204,6 +3428,20 @@
             }
         },
         "electron_config": "<e:Ne> 3s[2] 3p[5]",
+        "enthalpy": {
+            "fusion": {
+                "value": 3.2,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 10.2,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 122,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "enlightenment",
         "goldschmidt": "lithophile",
         "group": 17,
@@ -3343,7 +3581,7 @@
         }
     },
     "ar": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00036,
@@ -3396,6 +3634,20 @@
             "value": 1894
         },
         "electron_config": "<e:Ne> 3s[2] 3p[6]",
+        "enthalpy": {
+            "fusion": {
+                "value": 1.18,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 6.5,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 0,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "classifying",
         "goldschmidt": "atmophile",
         "group": 18,
@@ -3504,7 +3756,7 @@
         }
     },
     "k": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2.41,
@@ -3572,6 +3824,20 @@
             }
         },
         "electron_config": "<e:Ar> 4s[1]",
+        "enthalpy": {
+            "fusion": {
+                "value": 2.33,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 76.9,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 89,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "revolution",
         "goldschmidt": "lithophile",
         "group": 1,
@@ -3699,7 +3965,7 @@
         }
     },
     "ca": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 3.39,
@@ -3777,6 +4043,20 @@
             "poisson": 0.31
         },
         "electron_config": "<e:Ar> 4s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 8.54,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 155,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 178,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "revolution",
         "goldschmidt": "lithophile",
         "group": 2,
@@ -3896,7 +4176,7 @@
         }
     },
     "sc": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00051,
@@ -3969,6 +4249,20 @@
             "poisson": 0.28
         },
         "electron_config": "<e:Ar> 3d[1] 4s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 16,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 318,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 378,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "classifying",
         "goldschmidt": "lithophile",
         "group": 3,
@@ -4075,7 +4369,7 @@
         }
     },
     "ti": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.41,
@@ -4148,6 +4442,20 @@
             "poisson": 0.32
         },
         "electron_config": "<e:Ar> 3d[2] 4s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 18.7,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 425,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 471,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "enlightenment",
         "goldschmidt": "lithophile",
         "group": 4,
@@ -4258,7 +4566,7 @@
         }
     },
     "v": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.041,
@@ -4331,6 +4639,20 @@
             "poisson": 0.37
         },
         "electron_config": "<e:Ar> 3d[3] 4s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 22.8,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 453,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 515,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "revolution",
         "goldschmidt": "lithophile",
         "group": 5,
@@ -4425,7 +4747,7 @@
         }
     },
     "cr": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.019,
@@ -4498,6 +4820,20 @@
             "poisson": 0.21
         },
         "electron_config": "<e:Ar> 3d[5] 4s[1]",
+        "enthalpy": {
+            "fusion": {
+                "value": 20.5,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 339,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 397,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "enlightenment",
         "goldschmidt": "lithophile",
         "group": 6,
@@ -4592,7 +4928,7 @@
         }
     },
     "mn": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.085,
@@ -4660,6 +4996,20 @@
             }
         },
         "electron_config": "<e:Ar> 3d[5] 4s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 13.2,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 220,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 281,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "enlightenment",
         "goldschmidt": "siderophile",
         "group": 7,
@@ -4771,7 +5121,7 @@
         }
     },
     "fe": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4700,
@@ -4840,6 +5190,20 @@
             "poisson": 0.29
         },
         "electron_config": "<e:Ar> 3d[6] 4s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 13.8,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 347,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 415,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "antiquity",
         "goldschmidt": "siderophile",
         "group": 8,
@@ -4938,7 +5302,7 @@
         }
     },
     "co": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0037,
@@ -5011,6 +5375,20 @@
             "poisson": 0.31
         },
         "electron_config": "<e:Ar> 3d[7] 4s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 16.2,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 375,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 426,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "enlightenment",
         "goldschmidt": "siderophile",
         "group": 9,
@@ -5142,7 +5520,7 @@
         }
     },
     "ni": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.015,
@@ -5215,6 +5593,20 @@
             "poisson": 0.31
         },
         "electron_config": "<e:Ar> 3d[8] 4s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 17.2,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 378,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 431,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "enlightenment",
         "goldschmidt": "siderophile",
         "group": 10,
@@ -5338,7 +5730,7 @@
         }
     },
     "cu": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.01,
@@ -5407,6 +5799,20 @@
             "poisson": 0.34
         },
         "electron_config": "<e:Ar> 3d[10] 4s[1]",
+        "enthalpy": {
+            "fusion": {
+                "value": 13.1,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 300,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 338,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "antiquity",
         "goldschmidt": "chalcophile",
         "group": 11,
@@ -5519,7 +5925,7 @@
         }
     },
     "zn": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.012,
@@ -5593,6 +5999,20 @@
             "poisson": 0.25
         },
         "electron_config": "<e:Ar> 3d[10] 4s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 7.35,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 119,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 131,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "antiquity",
         "goldschmidt": "chalcophile",
         "group": 12,
@@ -5714,7 +6134,7 @@
         }
     },
     "ga": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0014,
@@ -5772,6 +6192,20 @@
             "value": 1875
         },
         "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[1]",
+        "enthalpy": {
+            "fusion": {
+                "value": 5.59,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 256,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 277,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "classifying",
         "goldschmidt": "chalcophile",
         "group": 13,
@@ -5896,7 +6330,7 @@
         }
     },
     "ge": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00056,
@@ -5954,6 +6388,20 @@
             "value": 1886
         },
         "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 31.8,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 334,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 377,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "classifying",
         "goldschmidt": "chalcophile",
         "group": 14,
@@ -6059,7 +6507,7 @@
         }
     },
     "as": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00055,
@@ -6127,6 +6575,20 @@
             }
         },
         "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[3]",
+        "enthalpy": {
+            "fusion": {
+                "value": 27.7,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 32.4,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 302,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "enlightenment",
         "goldschmidt": "chalcophile",
         "group": 15,
@@ -6250,7 +6712,7 @@
         }
     },
     "se": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00008,
@@ -6323,6 +6785,20 @@
             "poisson": 0.33
         },
         "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[4]",
+        "enthalpy": {
+            "fusion": {
+                "value": 5.4,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 26,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 227,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "revolution",
         "goldschmidt": "chalcophile",
         "group": 16,
@@ -6456,7 +6932,7 @@
         }
     },
     "br": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0006,
@@ -6520,6 +6996,20 @@
             }
         },
         "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[5]",
+        "enthalpy": {
+            "fusion": {
+                "value": 5.8,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 14.8,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 112,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "revolution",
         "goldschmidt": "lithophile",
         "group": 17,
@@ -6661,7 +7151,7 @@
         }
     },
     "kr": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00019,
@@ -6720,6 +7210,20 @@
             "value": 1898
         },
         "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[6]",
+        "enthalpy": {
+            "fusion": {
+                "value": 1.64,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 9.02,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 0,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "classifying",
         "goldschmidt": "atmophile",
         "group": 18,
@@ -6826,7 +7330,7 @@
         }
     },
     "rb": {
-        "@modified": "2023-10-12T23:10:57.235Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0029,
@@ -6894,6 +7398,20 @@
             }
         },
         "electron_config": "<e:Kr> 5s[1]",
+        "enthalpy": {
+            "fusion": {
+                "value": 2.19,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 72,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 81,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "classifying",
         "goldschmidt": "lithophile",
         "group": 1,
@@ -7027,7 +7545,7 @@
         }
     },
     "sr": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.014,
@@ -7092,6 +7610,20 @@
             "poisson": 0.28
         },
         "electron_config": "<e:Kr> 5s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 8,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 137,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 164,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "enlightenment",
         "goldschmidt": "lithophile",
         "group": 2,
@@ -7209,7 +7741,7 @@
         }
     },
     "y": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0026,
@@ -7282,6 +7814,20 @@
             "poisson": 0.24
         },
         "electron_config": "<e:Kr> 4d[1] 5s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 11.4,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 380,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 425,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "enlightenment",
         "goldschmidt": "lithophile",
         "group": 3,
@@ -7388,7 +7934,7 @@
         }
     },
     "zr": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.021,
@@ -7457,6 +8003,20 @@
             "poisson": 0.34
         },
         "electron_config": "<e:Kr> 4d[2] 5s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 21,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 580,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 605,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "enlightenment",
         "goldschmidt": "lithophile",
         "group": 4,
@@ -7573,7 +8133,7 @@
         }
     },
     "nb": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0019,
@@ -7646,6 +8206,20 @@
             "poisson": 0.4
         },
         "electron_config": "<e:Kr> 4d[4] 5s[1]",
+        "enthalpy": {
+            "fusion": {
+                "value": 26.8,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 690,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 733,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "revolution",
         "goldschmidt": "lithophile",
         "group": 5,
@@ -7759,7 +8333,7 @@
         }
     },
     "mo": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0014,
@@ -7832,6 +8406,20 @@
             "poisson": 0.31
         },
         "electron_config": "<e:Kr> 4d[5] 5s[1]",
+        "enthalpy": {
+            "fusion": {
+                "value": 36,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 600,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 659,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "enlightenment",
         "goldschmidt": "siderophile",
         "group": 6,
@@ -7927,7 +8515,7 @@
         }
     },
     "tc": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.2e-19,
@@ -7973,6 +8561,20 @@
             "value": 1937
         },
         "electron_config": "<e:Kr> 4d[5] 5s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 23,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 550,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 661,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "quantum",
         "goldschmidt": "synthetic",
         "group": 7,
@@ -8055,7 +8657,7 @@
         }
     },
     "ru": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000002,
@@ -8128,6 +8730,20 @@
             "poisson": 0.3
         },
         "electron_config": "<e:Kr> 4d[7] 5s[1]",
+        "enthalpy": {
+            "fusion": {
+                "value": 25.7,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 580,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 652,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "revolution",
         "goldschmidt": "siderophile",
         "group": 8,
@@ -8231,7 +8847,7 @@
         }
     },
     "rh": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1e-7,
@@ -8300,6 +8916,20 @@
             "poisson": 0.26
         },
         "electron_config": "<e:Kr> 4d[8] 5s[1]",
+        "enthalpy": {
+            "fusion": {
+                "value": 21.7,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 495,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 556,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "revolution",
         "goldschmidt": "siderophile",
         "group": 9,
@@ -8414,7 +9044,7 @@
         }
     },
     "pd": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000011,
@@ -8483,6 +9113,20 @@
             "poisson": 0.39
         },
         "electron_config": "<e:Kr> 4d[10]",
+        "enthalpy": {
+            "fusion": {
+                "value": 16.7,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 380,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 377,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "revolution",
         "goldschmidt": "siderophile",
         "group": 10,
@@ -8603,7 +9247,7 @@
         }
     },
     "ag": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000079,
@@ -8677,6 +9321,20 @@
             "poisson": 0.37
         },
         "electron_config": "<e:Kr> 4d[10] 5s[1]",
+        "enthalpy": {
+            "fusion": {
+                "value": 11.3,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 255,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 285,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "antiquity",
         "goldschmidt": "chalcophile",
         "group": 11,
@@ -8794,7 +9452,7 @@
         }
     },
     "cd": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00003,
@@ -8872,6 +9530,20 @@
             "poisson": 0.3
         },
         "electron_config": "<e:Kr> 4d[10] 5s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 6.3,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 100,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 112,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "revolution",
         "goldschmidt": "chalcophile",
         "group": 12,
@@ -9008,7 +9680,7 @@
         }
     },
     "in": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00001,
@@ -9072,6 +9744,20 @@
             }
         },
         "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[1]",
+        "enthalpy": {
+            "fusion": {
+                "value": 3.26,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 230,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 243,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "classifying",
         "goldschmidt": "chalcophile",
         "group": 13,
@@ -9198,7 +9884,7 @@
         }
     },
     "sn": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0035,
@@ -9267,6 +9953,20 @@
             "poisson": 0.36
         },
         "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 7,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 290,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 302,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "antiquity",
         "goldschmidt": "chalcophile",
         "group": 14,
@@ -9364,7 +10064,7 @@
         }
     },
     "sb": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000065,
@@ -9432,6 +10132,20 @@
             }
         },
         "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[3]",
+        "enthalpy": {
+            "fusion": {
+                "value": 19.7,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 68,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 262,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "antiquity",
         "goldschmidt": "chalcophile",
         "group": 15,
@@ -9545,7 +10259,7 @@
         }
     },
     "te": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000001,
@@ -9613,6 +10327,20 @@
             }
         },
         "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[4]",
+        "enthalpy": {
+            "fusion": {
+                "value": 17.5,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 48,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 197,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "enlightenment",
         "goldschmidt": "chalcophile",
         "group": 16,
@@ -9738,7 +10466,7 @@
         }
     },
     "i": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000006,
@@ -9826,6 +10554,20 @@
             }
         },
         "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[5]",
+        "enthalpy": {
+            "fusion": {
+                "value": 7.76,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 20.9,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 107,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "revolution",
         "goldschmidt": "lithophile",
         "group": 17,
@@ -9964,7 +10706,7 @@
         }
     },
     "xe": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 9e-10,
@@ -10031,6 +10773,20 @@
             "value": 1898
         },
         "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[6]",
+        "enthalpy": {
+            "fusion": {
+                "value": 2.3,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 12.64,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 0,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "classifying",
         "goldschmidt": "atmophile",
         "group": 18,
@@ -10144,7 +10900,7 @@
         }
     },
     "cs": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00065,
@@ -10212,6 +10968,20 @@
             }
         },
         "electron_config": "<e:Xe> 6s[1]",
+        "enthalpy": {
+            "fusion": {
+                "value": 2.09,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 65,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 76,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "classifying",
         "goldschmidt": "lithophile",
         "group": 1,
@@ -10344,7 +11114,7 @@
         }
     },
     "ba": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.026,
@@ -10416,6 +11186,20 @@
             }
         },
         "electron_config": "<e:Xe> 6s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 8,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 140,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 182,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "revolution",
         "goldschmidt": "lithophile",
         "group": 2,
@@ -10541,7 +11325,7 @@
         }
     },
     "la": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0017,
@@ -10614,6 +11398,20 @@
             "poisson": 0.28
         },
         "electron_config": "<e:Xe> 5d[1] 6s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 6.2,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 400,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 431,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "revolution",
         "goldschmidt": "lithophile",
         "group": 19,
@@ -10722,7 +11520,7 @@
         }
     },
     "ce": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0043,
@@ -10795,6 +11593,20 @@
             "poisson": 0.24
         },
         "electron_config": "<e:Xe> 4f[1] 5d[1] 6s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 5.5,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 350,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 423,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "revolution",
         "goldschmidt": "lithophile",
         "group": 19,
@@ -10908,7 +11720,7 @@
         }
     },
     "pr": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00052,
@@ -10981,6 +11793,20 @@
             "poisson": 0.28
         },
         "electron_config": "<e:Xe> 4f[3] 6s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 6.9,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 330,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 356,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "classifying",
         "goldschmidt": "lithophile",
         "group": 19,
@@ -11091,7 +11917,7 @@
         }
     },
     "nd": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0022,
@@ -11164,6 +11990,20 @@
             "poisson": 0.28
         },
         "electron_config": "<e:Xe> 4f[4] 6s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 7.1,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 285,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 328,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "classifying",
         "goldschmidt": "lithophile",
         "group": 19,
@@ -11274,7 +12114,7 @@
         }
     },
     "pm": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.5e-19,
@@ -11334,6 +12174,20 @@
             "poisson": 0.28
         },
         "electron_config": "<e:Xe> 4f[5] 6s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 7.7,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 290,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 350,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "quantum",
         "goldschmidt": "synthetic",
         "group": 19,
@@ -11403,7 +12257,7 @@
         }
     },
     "sm": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0006,
@@ -11476,6 +12330,20 @@
             "poisson": 0.27
         },
         "electron_config": "<e:Xe> 4f[6] 6s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 8.6,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 175,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 207,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "classifying",
         "goldschmidt": "lithophile",
         "group": 19,
@@ -11586,7 +12454,7 @@
         }
     },
     "eu": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000099,
@@ -11659,6 +12527,20 @@
             "poisson": 0.15
         },
         "electron_config": "<e:Xe> 4f[7] 6s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 9.2,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 175,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 175,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "quantum",
         "goldschmidt": "lithophile",
         "group": 19,
@@ -11763,7 +12645,7 @@
         }
     },
     "gd": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00059,
@@ -11836,6 +12718,20 @@
             "poisson": 0.26
         },
         "electron_config": "<e:Xe> 4f[7] 5d[1] 6s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 10,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 305,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 398,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "classifying",
         "goldschmidt": "lithophile",
         "group": 19,
@@ -11940,7 +12836,7 @@
         }
     },
     "tb": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000085,
@@ -12013,6 +12909,20 @@
             "poisson": 0.26
         },
         "electron_config": "<e:Xe> 4f[9] 6s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 10.8,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 295,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 389,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "revolution",
         "goldschmidt": "lithophile",
         "group": 19,
@@ -12101,7 +13011,7 @@
         }
     },
     "dy": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00043,
@@ -12174,6 +13084,20 @@
             "poisson": 0.25
         },
         "electron_config": "<e:Xe> 4f[10] 6s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 11.1,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 280,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 290,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "classifying",
         "goldschmidt": "lithophile",
         "group": 19,
@@ -12278,7 +13202,7 @@
         }
     },
     "ho": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00011,
@@ -12351,6 +13275,20 @@
             "poisson": 0.23
         },
         "electron_config": "<e:Xe> 4f[11] 6s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 17,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 265,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 301,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "classifying",
         "goldschmidt": "lithophile",
         "group": 19,
@@ -12456,7 +13394,7 @@
         }
     },
     "er": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00023,
@@ -12529,6 +13467,20 @@
             "poisson": 0.24
         },
         "electron_config": "<e:Xe> 4f[12] 6s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 19.9,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 285,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 317,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "revolution",
         "goldschmidt": "lithophile",
         "group": 19,
@@ -12633,7 +13585,7 @@
         }
     },
     "tm": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000019,
@@ -12706,6 +13658,20 @@
             "poisson": 0.21
         },
         "electron_config": "<e:Xe> 4f[13] 6s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 16.8,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 250,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 232,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "classifying",
         "goldschmidt": "lithophile",
         "group": 19,
@@ -12816,7 +13782,7 @@
         }
     },
     "yb": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00025,
@@ -12889,6 +13855,20 @@
             "poisson": 0.21
         },
         "electron_config": "<e:Xe> 4f[14] 6s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 7.7,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 160,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 152,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "classifying",
         "goldschmidt": "lithophile",
         "group": 19,
@@ -13002,7 +13982,7 @@
         }
     },
     "lu": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00007,
@@ -13075,6 +14055,21 @@
             "poisson": 0.26
         },
         "electron_config": "<e:Xe> 4f[14] 5d[1] 6s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 22,
+                "*": true,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 415,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 428,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "quantum",
         "goldschmidt": "lithophile",
         "group": 19,
@@ -13180,7 +14175,7 @@
         }
     },
     "hf": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00042,
@@ -13253,6 +14248,20 @@
             "poisson": 0.37
         },
         "electron_config": "<e:Xe> 4f[14] 5d[2] 6s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 25.5,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 630,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 621,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "quantum",
         "goldschmidt": "lithophile",
         "group": 4,
@@ -13362,7 +14371,7 @@
         }
     },
     "ta": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0008,
@@ -13435,6 +14444,20 @@
             "poisson": 0.34
         },
         "electron_config": "<e:Xe> 4f[14] 5d[3] 6s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 36,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 735,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 782,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "revolution",
         "goldschmidt": "lithophile",
         "group": 5,
@@ -13548,7 +14571,7 @@
         }
     },
     "w": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0064,
@@ -13621,6 +14644,20 @@
             "poisson": 0.28
         },
         "electron_config": "<e:Xe> 4f[14] 5d[4] 6s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 35,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 800,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 860,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "enlightenment",
         "goldschmidt": "siderophile",
         "group": 6,
@@ -13737,7 +14774,7 @@
         }
     },
     "re": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1e-7,
@@ -13810,6 +14847,20 @@
             "poisson": 0.3
         },
         "electron_config": "<e:Xe> 4f[14] 5d[5] 6s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 33,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 705,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 776,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "quantum",
         "goldschmidt": "siderophile",
         "group": 7,
@@ -13918,7 +14969,7 @@
         }
     },
     "os": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000001,
@@ -13979,6 +15030,20 @@
             "poisson": 0.25
         },
         "electron_config": "<e:Xe> 4f[14] 5d[6] 6s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 31,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 630,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 789,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "revolution",
         "goldschmidt": "siderophile",
         "group": 8,
@@ -14096,7 +15161,7 @@
         }
     },
     "ir": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1e-7,
@@ -14165,6 +15230,20 @@
             "poisson": 0.26
         },
         "electron_config": "<e:Xe> 4f[14] 5d[7] 6s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 26,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 560,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 671,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "revolution",
         "goldschmidt": "siderophile",
         "group": 9,
@@ -14278,7 +15357,7 @@
         }
     },
     "pt": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 5e-7,
@@ -14347,6 +15426,20 @@
             "poisson": 0.38
         },
         "electron_config": "<e:Xe> 4f[14] 5d[9] 6s[1]",
+        "enthalpy": {
+            "fusion": {
+                "value": 20,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 490,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 565,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "enlightenment",
         "goldschmidt": "siderophile",
         "group": 10,
@@ -14442,7 +15535,7 @@
         }
     },
     "au": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4e-7,
@@ -14511,6 +15604,20 @@
             "poisson": 0.44
         },
         "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[1]",
+        "enthalpy": {
+            "fusion": {
+                "value": 12.5,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 330,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 368,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "antiquity",
         "goldschmidt": "siderophile",
         "group": 11,
@@ -14608,7 +15715,7 @@
         }
     },
     "hg": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00004,
@@ -14673,6 +15780,20 @@
             }
         },
         "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 2.29,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 56.2,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 64,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "antiquity",
         "goldschmidt": "chalcophile",
         "group": 12,
@@ -14823,7 +15944,7 @@
         }
     },
     "tl": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000029,
@@ -14896,6 +16017,20 @@
             "poisson": 0.45
         },
         "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[1]",
+        "enthalpy": {
+            "fusion": {
+                "value": 4.2,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 165,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 182,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "classifying",
         "goldschmidt": "chalcophile",
         "group": 13,
@@ -15024,7 +16159,7 @@
         }
     },
     "pb": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0018,
@@ -15093,6 +16228,20 @@
             "poisson": 0.44
         },
         "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 4.77,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 178,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 195,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "antiquity",
         "goldschmidt": "chalcophile",
         "group": 14,
@@ -15232,7 +16381,7 @@
         }
     },
     "bi": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00002,
@@ -15305,6 +16454,20 @@
             "poisson": 0.33
         },
         "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[3]",
+        "enthalpy": {
+            "fusion": {
+                "value": 10.9,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 160,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 207,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "enlightenment",
         "goldschmidt": "chalcophile",
         "group": 15,
@@ -15421,7 +16584,7 @@
         }
     },
     "po": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2.1e-15,
@@ -15476,6 +16639,22 @@
             "value": 1898
         },
         "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[4]",
+        "enthalpy": {
+            "fusion": {
+                "value": 13,
+                "*": true,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 100,
+                "*": true,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 142,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "classifying",
         "goldschmidt": "synthetic",
         "group": 16,
@@ -15552,7 +16731,7 @@
         }
     },
     "at": {
-        "@modified": "2023-10-11T23:38:25.362Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 3e-25,
@@ -15589,6 +16768,18 @@
             "value": 1940
         },
         "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[5]",
+        "enthalpy": {
+            "fusion": {
+                "value": 6,
+                "*": true,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 40,
+                "*": true,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "quantum",
         "goldschmidt": "synthetic",
         "group": 17,
@@ -15638,7 +16829,7 @@
         }
     },
     "rn": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 6.1e-15,
@@ -15691,6 +16882,20 @@
             "value": 1900
         },
         "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[6]",
+        "enthalpy": {
+            "fusion": {
+                "value": 3,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 17,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 0,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "quantum",
         "goldschmidt": "synthetic",
         "group": 18,
@@ -15768,7 +16973,7 @@
         }
     },
     "fr": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.3e-22,
@@ -15801,6 +17006,23 @@
             "value": 1939
         },
         "electron_config": "<e:Rn> 7s[1]",
+        "enthalpy": {
+            "fusion": {
+                "value": 2,
+                "*": true,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 65,
+                "*": true,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 64,
+                "*": true,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "quantum",
         "goldschmidt": "synthetic",
         "group": 1,
@@ -15875,7 +17097,7 @@
         }
     },
     "ra": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 9.5e-15,
@@ -15928,6 +17150,22 @@
             "value": 1898
         },
         "electron_config": "<e:Rn> 7s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 8,
+                "*": true,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 125,
+                "*": true,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 159,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "classifying",
         "goldschmidt": "synthetic",
         "group": 2,
@@ -16002,7 +17240,7 @@
         }
     },
     "ac": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 6e-18,
@@ -16044,6 +17282,20 @@
             "value": 1899
         },
         "electron_config": "<e:Rn> 6d[1] 7s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 14,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 400,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 406,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "classifying",
         "goldschmidt": "synthetic",
         "group": 20,
@@ -16112,7 +17364,7 @@
         }
     },
     "th": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0011,
@@ -16185,6 +17437,20 @@
             "poisson": 0.27
         },
         "electron_config": "<e:Rn> 6d[2] 7s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 16,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 530,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 598,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "revolution",
         "goldschmidt": "lithophile",
         "group": 20,
@@ -16278,7 +17544,7 @@
         }
     },
     "pa": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0009,
@@ -16331,6 +17597,20 @@
             "value": 1917
         },
         "electron_config": "<e:Rn> 5f[2] 6d[1] 7s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 15,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 470,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 607,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "quantum",
         "goldschmidt": "synthetic",
         "group": 20,
@@ -16410,7 +17690,7 @@
         }
     },
     "u": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00032,
@@ -16482,6 +17762,20 @@
             "poisson": 0.23
         },
         "electron_config": "<e:Rn> 5f[3] 6d[1] 7s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 14,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 420,
+                "unit": "kJ·mol[-1]"
+            },
+            "atomisation": {
+                "value": 536,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "enlightenment",
         "goldschmidt": "lithophile",
         "group": 20,
@@ -16606,7 +17900,7 @@
         }
     },
     "np": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4e-18,
@@ -16651,6 +17945,16 @@
             "value": 1940
         },
         "electron_config": "<e:Rn> 5f[4] 6d[1] 7s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 10,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 335,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "quantum",
         "goldschmidt": "synthetic",
         "group": 20,
@@ -16725,7 +18029,7 @@
         }
     },
     "pu": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2e-19,
@@ -16782,6 +18086,16 @@
             "poisson": 0.21
         },
         "electron_config": "<e:Rn> 5f[6] 7s[2]",
+        "enthalpy": {
+            "fusion": {
+                "value": 2.8,
+                "unit": "kJ·mol[-1]"
+            },
+            "vaporisation": {
+                "value": 325,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "quantum",
         "goldschmidt": "synthetic",
         "group": 20,
@@ -16969,7 +18283,7 @@
         }
     },
     "cm": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-13T12:15:30.047Z",
         "appearance": {
             "en": "silvery metallic, glows purple in the dark",
             "de": "silbrig-weißes Metall"
@@ -16996,6 +18310,13 @@
             "value": 1944
         },
         "electron_config": "<e:Rn> 5f[7] 6d[1] 7s[2]",
+        "enthalpy": {
+            "vaporisation": {
+                "value": 320,
+                "*": true,
+                "unit": "kJ·mol[-1]"
+            }
+        },
         "era": "quantum",
         "goldschmidt": "synthetic",
         "group": 20,

@@ -131,24 +131,21 @@ block content
                         a( href='/scale/temp_' + label )!= __( label + '-temp' )
                       td.pt-prop-table-value!= core.fNumber( prop, locale )
         //- prop box: enthalpies
-        div.pt-prop-box
-          h3.pt-prop-box-label
-            span!= __( 'enthalpies' )
-            a( href="#" ).pt-prop-box-toggle
-              span.open!= __( 'expand' )
-              span.close!= __( 'close' )
-          div.pt-prop-box-content
-            table.pt-prop-table.pt-element-table
-              tbody
-                each prop in [ 'enthalpy_fusion', 'enthalpy_vaporisation', 'enthalpy_atomisation' ]
-                  tr.pt-prop-table-row
-                    th.pt-prop-table-label
-                      a( href='/scale/' + prop )!= __( prop )
-                    td.pt-prop-table-value
-                      if prop in element
-                        span!= core.fNumber( element[ prop ], locale )
-                      else
-                        span!= __( 'undefined' )
+        if element.enthalpy
+          div.pt-prop-box
+            h3.pt-prop-box-label
+              span!= __( 'enthalpies' )
+              a( href="#" ).pt-prop-box-toggle
+                span.open!= __( 'expand' )
+                span.close!= __( 'close' )
+            div.pt-prop-box-content
+              table.pt-prop-table.pt-element-table
+                tbody
+                  each prop, label in element.enthalpy
+                    tr.pt-prop-table-row
+                      th.pt-prop-table-label
+                        a( href='/scale/enthalpy_' + label )!= __( label + '-enthalpy' )
+                      td.pt-prop-table-value!= core.fNumber( prop, locale )
         //- prop box: hardness
         if element.hardness
           div.pt-prop-box
