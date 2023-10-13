@@ -1,0 +1,16 @@
+//- sitemap.pug
+extends layout.pug
+
+block styles
+  link( rel="stylesheet", href="/css/lists.css" )/
+
+block content
+  div.pt-page.pt-box
+    h1!= __( 'sitemap-title' )
+    p.pt-page-intro!= __( 'sitemap-description' )
+    h2!= __( 'lists-title' )
+    div.pt-lists
+    h2!= __( 'scales-title' )
+    div.pt-lists
+    h2!= __( 'props-title' )
+    div.pt-lists
