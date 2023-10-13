@@ -2,6 +2,8 @@
 	"404-description": "Die angeforderte Seite konnte leider nicht gefunden werden. Möglicherweise wurden die Inhalte gelöscht, zu einer anderen URL verschoben oder die Anfrage enthält einen Tippfehler.",
 	"404-title": "Seite nicht gefunden",
 	"@modified": "Zuletzt bearbeitet am %s",
+	"activity-description": "Berechnung der Aktivität eines Nuklids mit bestimmter Masse nach gegebener Zeit.",
+	"activity-title": "Radioaktivität",
 	"adr-title": "ADR-Gefahrgutklassen",
 	"allen-negativity": "Allen-Skala",
 	"allen-negativity-description": "Leland C. Allen berechnet die Elektronegativität aus dem Energiezustand der Valenzelektronen, was eine spektroskopische Bestimmung ermöglicht.",
@@ -84,6 +86,8 @@
 	"crystal_structure-tetr-description": "Das tetragonale Kristallsystem (TETR) umfasst alle Punktgruppen, die in genau einer Richtung eine vierzählige Dreh- oder Drehinversionsachse besitzen.",
 	"crystal_structure-undefined": "unbekannt",
 	"data-title": "Datenbank",
+	"decay-description": "Berechnung und Ausgabe der Zerfallsreihe für ein beliebiges Nuklid, inkl. Halbwertszeiten und Zerfallsarten.",
+	"decay-title": "Zerfallsreihe",
 	"density": "Dichte",
 	"description": "Interaktives Periodensystem der Elemente mit atomaren, chemischen, physikalischen Angaben, Isotopen und vielem mehr",
 	"discovery": "Entdeckung",
@@ -237,6 +241,7 @@
 	"magnetic_susceptibility": "Magnetische Suszeptibilität",
 	"melting-temp": "Schmelzpunkt",
 	"melting-temp-description": "Der Schmelzpunkt entspricht den Bedingungen, die beim Phasenübergang eines Stoffes von der festen in die flüssige Phase vorliegen (Schmelzen). Falls nicht abweichend wird die Siedetemperatur unter Normaldruck von einer Atmosphäre (101.325 Pa) angegeben.",
+	"mmc-description": "Der Molmassenrechner dient der Bestimmung von Stoffmenge und Masse chemischer Elemente und Formeln.",
 	"mmc-title": "Molmassenrechner",
 	"mohs-hardness": "Mohshärte",
 	"mohs-hardness-description": "Härteprüfung nach Friedrich Mohs: „Harte Stoffe ritzen weiche“. Der Härtewert lässt sich nur im Vergleich mit anderen Werkstoffe oder Werkstoffzustände ermitteln. Die Ordinalskala (Mohs-Skala) ist in der Mineralogie und Geologie bis heute in Gebrauch. Minerale der Mohshärte 1 bis 2 gelten als weich, von 3 bis 5 als mittelhart, und alle Minerale über der Mohshärte 6 werden als hart bezeichnet.",
@@ -473,6 +478,5 @@
 	"weblinks": "Weiterführende Links",
 	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" target=\"_blank\">Weiterlesen …</a>",
 	"young-elastic": "Youngscher Modul",
-	"young-elastic-description": "Der nach Thomas Young benannte Materialkennwert beschreibt bei linear-elastischem Verhalten den proportionalen Zusammenhang zwischen Spannung und Dehnung bei der Verformung eines festen Körpers.",
-	"mmc-description": "Der Molmassenrechner dient der Bestimmung von Stoffmenge und Masse chemischer Elemente und Formeln."
+	"young-elastic-description": "Der nach Thomas Young benannte Materialkennwert beschreibt bei linear-elastischem Verhalten den proportionalen Zusammenhang zwischen Spannung und Dehnung bei der Verformung eines festen Körpers."
 }

@@ -162,6 +162,22 @@ routes.routes.forEach( ( route ) => {
 
             switch( route[1] ) {
 
+                case 'tools':
+
+                    /* breadcrumbs */
+
+                    res.locals.breadcrumbs.push( [
+                        '/sitemap',
+                        req.__( 'sitemap' )
+                    ] );
+
+                    res.locals.breadcrumbs.push( [
+                        '/tools',
+                        req.__( 'tools-title' )
+                    ] );
+
+                    break;
+
                 case 'element':
 
                     /* check if given element exists in DB */

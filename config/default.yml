@@ -10,6 +10,9 @@ i18n:
 
 site:
   theme: light
+  tools: [
+    mmc, activity, decay
+  ]
   lists: [
     group, period, set, era, block, phase, natural_occurrence, basicity, goldschmidt,
     radioactivity, crystal_structure, magnetic_ordering, superconductivity

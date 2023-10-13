@@ -10,7 +10,7 @@ block content
     p.pt-page-intro!= __( 'sitemap-description' )
     h2!= __( 'tools-title' )
     div.pt-lists
-      each tool in [ 'mmc' ]
+      each tool in config.tools
         div.pt-lists-item
           h3.pt-lists-item-title
             a( href='/tool/' + tool )!= __( tool + '-title' )

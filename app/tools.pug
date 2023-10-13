@@ -6,10 +6,11 @@ block styles
 
 block content
   div.pt-page.pt-box
+    include templates/breadcrumbs.pug
     h1!= __( 'tools-title' )
     p.pt-page-intro!= __( 'tools-description' )
     div.pt-lists
-      each tool in [ 'mmc' ]
+      each tool in config.tools
         div.pt-lists-item
           h3.pt-lists-item-title
             a( href='/tool/' + tool )!= __( tool + '-title' )
