@@ -8,7 +8,7 @@ table.pt-prop-table.pt-isotable
     each isotope in isotopes
       tr.pt-prop-table-row.pt-isotable-item
         td.pt-prop-table-value.pt-isotable-value
-          a( href="/isotope/" + isotope.nuclide.replace( /^\[(.+)\](.+)$/g, '$2_$1' ) )
+          a( href= core.isoLink( isotope.nuclide ) )
             b!= core.fText( isotope.nuclide ) + ( isotope.alias ? '&nbsp;(' + core.fText( isotope.alias ) + ')' : '' )
         td.pt-prop-table-value.pt-isotable-value
           if isotope.mass

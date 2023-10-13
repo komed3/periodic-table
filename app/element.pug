@@ -259,7 +259,7 @@ block content
           h2!= __( 'prop-nmr' )
           each isotope in element.nmr
             h3
-              a( href='/isotope/' + isotope.isotope.replace( /^\[(.+)\](.+)$/g, '$2_$1' ) )!= core.fText( isotope.isotope )
+              a( href= core.isoLink( isotope.isotope ) )!= core.fText( isotope.isotope )
             table.pt-prop-table.pt-element-table
               tbody
                 tr.pt-prop-table-row
