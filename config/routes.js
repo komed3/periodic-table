@@ -15,5 +15,5 @@ module.exports.routes = [
     [ '/prop/*', 'prop' ],
     [ '/scale/*', 'scale' ],
     [ '/search/?*', 'search' ],
-    [ '*', '404', '404', 404 ]
+    [ '*', '404' ]
 ];

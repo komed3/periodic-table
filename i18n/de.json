@@ -1,5 +1,5 @@
 {
-	"404-description": "404-description",
+	"404-description": "Die angeforderte Seite konnte leider nicht gefunden werden. Möglicherweise wurden die Inhalte gelöscht, zu einer anderen URL verschoben oder die Anfrage enthält einen Tippfehler.",
 	"404-title": "Seite nicht gefunden",
 	"@modified": "Zuletzt bearbeitet am %s",
 	"adr-title": "ADR-Gefahrgutklassen",
@@ -297,6 +297,7 @@
 	"nmr-spin": "Spin-Quantenzahl",
 	"nmr-u": "Kernmag. Moment (μ)",
 	"nmr-y": "Gyromag. Verhältnis (γ)",
+	"nuclides-description": "Grafische Darstellung aller bekannten Nuklide, bestimmt durch die Anzahl der Protonen und Neutronen mit farblicher Codierung der Halbwertszeiten.",
 	"nuclides-title": "Nuklidkarte",
 	"number": "Ordnungszahl",
 	"oxidation-state": "Oxidationszustand",
@@ -459,6 +460,8 @@
 	"theme-light": "Heller Modus",
 	"thermal_conductivity": "Wärmeleitfähigkeit",
 	"title": "Periodensystem der Elemente",
+	"tools-description": "Liste von Werkzeugen und Hilfen zur Berechnung atomphysikalischer und chemischer Eigenschaften.",
+	"tools-title": "Werkzeuge & Hilfen",
 	"triple-temp": "Tripelpunkt",
 	"triple-temp-description": "Am Tripelpunkt stehen Temperatur und Druck dreier Phasen (gasförmig, flüssig und Feststoff) im thermodynamischen Gleichgewicht. Je nach Stoff können am Tripelpunkt verschiedene Aggregatzustände existieren.",
 	"undefined": "—",
