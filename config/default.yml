@@ -66,6 +66,18 @@ site:
       key: temperature.critical
       label: critical-temp
       scheme: _fire
+    enthalpy_fusion:
+      key: enthalpy.fusion
+      label: fusion-enthalpy
+      scheme: _fire
+    enthalpy_vaporisation:
+      key: enthalpy.vaporisation
+      label: vaporisation-enthalpy
+      scheme: _fire
+    enthalpy_atomisation:
+      key: enthalpy.atomisation
+      label: atomisation-enthalpy
+      scheme: _fire
     hardness_mohs:
       key: hardness.mohs
       label: mohs-hardness
