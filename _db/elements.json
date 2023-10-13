@@ -6240,6 +6240,7 @@
             },
             "critical": {
                 "value": 1673,
+                "*": true,
                 "unit": "K"
             }
         },
@@ -7007,6 +7008,7 @@
             },
             "triple": {
                 "value": 312.41,
+                "*": true,
                 "unit": "K"
             },
             "critical": {
