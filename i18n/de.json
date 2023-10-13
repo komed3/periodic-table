@@ -443,7 +443,6 @@
 	"sitemap-title": "Alle Seiten",
 	"solar_system": "Sonnensystem",
 	"sound_speed": "Schallgeschwindigkeit",
-	"spectral-lines": "Spektralanalyse",
 	"stable": "stabil",
 	"standard-atomic-weight": "Relative Atommasse",
 	"standard-atomic-weight-description": "Standardatomgewicht als dimensionsloses arithmetisches Mittel der relativen Massen aller Isotope eines Elements, gewichtet mit deren Häufigkeit auf der Erde.",
@@ -482,5 +481,7 @@
 	"weblinks": "Weiterführende Links",
 	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" target=\"_blank\">Weiterlesen …</a>",
 	"young-elastic": "Youngscher Modul",
-	"young-elastic-description": "Der nach Thomas Young benannte Materialkennwert beschreibt bei linear-elastischem Verhalten den proportionalen Zusammenhang zwischen Spannung und Dehnung bei der Verformung eines festen Körpers."
+	"young-elastic-description": "Der nach Thomas Young benannte Materialkennwert beschreibt bei linear-elastischem Verhalten den proportionalen Zusammenhang zwischen Spannung und Dehnung bei der Verformung eines festen Körpers.",
+	"spectral-title": "Spektralanalyse",
+	"spectral-description": ""
 }
