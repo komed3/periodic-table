@@ -36,7 +36,7 @@ block content
               a( href='/e/' + elements[ nav.prev ].symbol, title!= __( 'navigation-prev' ) )
                 i.icon arrow_back
             a( href="/", title!= __( 'title' ) )
-              i.icon apps
+              i.icon grid_view
             if nav.next
               a( href='/e/' + elements[ nav.next ].symbol, title!= __( 'navigation-next' ) )
                 i.icon arrow_forward
@@ -296,17 +296,15 @@ block content
               tr.pt-prop-table-row
                 th.pt-prop-table-label!= __( 'appearance' )
                 td.pt-prop-table-value!= core.fText( element.appearance[ locale ] )
-            if element.discovery
+            if element.era
               tr.pt-prop-table-row
                 th.pt-prop-table-label
-                  a(
-                    href= (
-                      element.era
-                        ? '/list/era/' + element.era
-                        : '/lists/era'
-                      )
-                    )!= __( 'discovery' )
-                td.pt-prop-table-value= element.discovery.by + ' (' + element.discovery.value + ')'
+                  a( href= '/list/era/' + element.era )!= __( 'discovery' )
+                td.pt-prop-table-value
+                  if element.discovery
+                    span!= element.discovery.by + ' (' + element.discovery.value + ')'
+                  else
+                    span!= __( 'era-' + element.era )
             each prop in [ 'group', 'period', 'set', 'block' ]
               if element[ prop ]
                 tr.pt-prop-table-row
