@@ -107,18 +107,6 @@
                 "unit": "kJ·mol[-1]"
             }
         },
-        "enthalpy_atomisation": {
-            "value": 218,
-            "unit": "kJ·mol[−1]"
-        },
-        "enthalpy_fusion": {
-            "value": 0.558,
-            "unit": "kJ·mol[−1]"
-        },
-        "enthalpy_vaporisation": {
-            "value": 0.452,
-            "unit": "kJ·mol[−1]"
-        },
         "era": "enlightenment",
         "goldschmidt": "atmophile",
         "group": 1,
