@@ -443,6 +443,8 @@
 	"sitemap-title": "Alle Seiten",
 	"solar_system": "Sonnensystem",
 	"sound_speed": "Schallgeschwindigkeit",
+	"spectrum-description": "Die abgebildeten Spektrallinien sind charakteristisch für die emittierten elektromagnetischen Wellen jedes chemischen Elements. Sie werden durch die mit Licht angeregten elektronischen Übergänge in Atomen oder Molekülen erzeugt.",
+	"spectrum-title": "Spektralanalyse",
 	"stable": "stabil",
 	"standard-atomic-weight": "Relative Atommasse",
 	"standard-atomic-weight-description": "Standardatomgewicht als dimensionsloses arithmetisches Mittel der relativen Massen aller Isotope eines Elements, gewichtet mit deren Häufigkeit auf der Erde.",
@@ -481,7 +483,5 @@
 	"weblinks": "Weiterführende Links",
 	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" target=\"_blank\">Weiterlesen …</a>",
 	"young-elastic": "Youngscher Modul",
-	"young-elastic-description": "Der nach Thomas Young benannte Materialkennwert beschreibt bei linear-elastischem Verhalten den proportionalen Zusammenhang zwischen Spannung und Dehnung bei der Verformung eines festen Körpers.",
-	"spectrum-title": "Spektralanalyse",
-	"spectrum-description": ""
+	"young-elastic-description": "Der nach Thomas Young benannte Materialkennwert beschreibt bei linear-elastischem Verhalten den proportionalen Zusammenhang zwischen Spannung und Dehnung bei der Verformung eines festen Körpers."
 }

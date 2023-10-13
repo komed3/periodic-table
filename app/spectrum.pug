@@ -7,7 +7,7 @@ block styles
 block content
   div.pt-page.pt-box.pt-spectrum
     h1!= __( 'spectrum-title' )
-    p!= __( 'spectrum-description' )
+    p.pt-page-intro!= __( 'spectrum-description' )
     table.pt-prop-table.zebra.pt-element-table
       tbody
         each src, k in spectrum
