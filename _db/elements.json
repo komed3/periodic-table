@@ -15982,7 +15982,6 @@
         "temperature": {
             "melting": {
                 "value": 973,
-                "*": true,
                 "unit": "K"
             },
             "boiling": {
@@ -15991,6 +15990,7 @@
             },
             "liquid": {
                 "value": 1037,
+                "*": true,
                 "unit": "K"
             }
         },
@@ -16713,6 +16713,7 @@
             },
             "liquid": {
                 "value": 3535,
+                "*": true,
                 "unit": "K"
             }
         },
@@ -16952,11 +16953,11 @@
             },
             "boiling": {
                 "value": 2880,
-                "*": true,
                 "unit": "K"
             },
             "liquid": {
                 "value": 1431,
+                "*": true,
                 "unit": "K"
             }
         },
@@ -17236,6 +17237,7 @@
             },
             "liquid": {
                 "value": 570,
+                "*": true,
                 "unit": "K"
             }
         },
@@ -17324,6 +17326,7 @@
             },
             "liquid": {
                 "value": 136,
+                "*": true,
                 "unit": "K"
             }
         },
@@ -17698,6 +17701,7 @@
             },
             "liquid": {
                 "value": 3400,
+                "*": true,
                 "unit": "K"
             }
         },
@@ -18292,6 +18296,7 @@
             },
             "liquid": {
                 "value": 57,
+                "*": true,
                 "unit": "K"
             },
             "triple": {
@@ -18389,6 +18394,7 @@
             },
             "liquid": {
                 "value": 730,
+                "*": true,
                 "unit": "K"
             }
         },
@@ -18556,6 +18562,7 @@
             },
             "liquid": {
                 "value": 730,
+                "*": true,
                 "unit": "K"
             }
         },
@@ -18651,7 +18658,12 @@
             },
             "liquid": {
                 "value": 376.5,
-                "unit": "K"
+                "*": true,
+                "unit": "K",
+                "range": [
+                    255,
+                    498
+                ]
             }
         },
         "wiki": {
@@ -18744,7 +18756,12 @@
             },
             "liquid": {
                 "value": 160,
-                "unit": "K"
+                "*": true,
+                "unit": "K",
+                "range": [
+                    60,
+                    260
+                ]
             }
         },
         "wiki": {
@@ -18837,6 +18854,7 @@
             },
             "liquid": {
                 "value": 125,
+                "*": true,
                 "unit": "K"
             }
         },
