@@ -6,6 +6,10 @@ div.pt-element-list( layer=list.layer, type=_type )
       div(
         prop= core.getValue( k, el, list.layer, list.value || 'undefined', _type ),
         class= 'pt-el element--symbol' + (
+          el.phase
+            ? ' ' + el.phase
+            : ''
+        ) + (
           el.radioactive
             ? ' radioactive'
             : ''
