@@ -10,7 +10,22 @@ block content
     p.pt-page-intro!= __( 'sitemap-description' )
     h2!= __( 'lists-title' )
     div.pt-lists
+      each list in config.lists
+        div.pt-lists-item
+          h3.pt-lists-item-title
+            a( href='/lists/' + list )!= __( list + '-label' )
+          p.pt-lists-item-desc!= __( list + '-description' )
     h2!= __( 'scales-title' )
     div.pt-lists
+      each scale, link in config.scales
+        div.pt-lists-item
+          h3.pt-lists-item-title
+            a( href='/scale/' + link )!= __( scale.label )
+          p.pt-lists-item-desc!= __( scale.label + '-description' )
     h2!= __( 'props-title' )
     div.pt-lists
+      each prop in config.props
+        div.pt-lists-item
+          h3.pt-lists-item-title
+            a( href='/prop/' + prop )!= __( 'prop-' + prop )
+          p.pt-lists-item-desc!= __( 'prop-' + prop + '-description' )

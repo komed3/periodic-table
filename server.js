@@ -246,6 +246,11 @@ routes.routes.forEach( ( route ) => {
                         /* breadcrumbs */
 
                         res.locals.breadcrumbs.push( [
+                            '/sitemap',
+                            req.__( 'sitemap' )
+                        ] );
+
+                        res.locals.breadcrumbs.push( [
                             '/lists/' + _url[1],
                             req.__( _url[1] + '-label' )
                         ] );
@@ -296,6 +301,11 @@ routes.routes.forEach( ( route ) => {
                             res.locals.navURL = '/lists/' + _url[1];
 
                             /* breadcrumbs */
+
+                            res.locals.breadcrumbs.push( [
+                                '/sitemap',
+                                req.__( 'sitemap' )
+                            ] );
 
                             res.locals.breadcrumbs.push( [
                                 '/lists/' + _url[1],
@@ -417,6 +427,11 @@ routes.routes.forEach( ( route ) => {
                             /* breadcrumbs */
 
                             res.locals.breadcrumbs.push( [
+                                '/sitemap',
+                                req.__( 'sitemap' )
+                            ] );
+
+                            res.locals.breadcrumbs.push( [
                                 '/scale/' + _url[1],
                                 req.__( scale.label )
                             ] );
@@ -440,6 +455,11 @@ routes.routes.forEach( ( route ) => {
                 case 'props':
 
                     /* breadcrumbs */
+
+                    res.locals.breadcrumbs.push( [
+                        '/sitemap',
+                        req.__( 'sitemap' )
+                    ] );
 
                     res.locals.breadcrumbs.push( [
                         '/props',
@@ -482,6 +502,11 @@ routes.routes.forEach( ( route ) => {
                             };
 
                             /* breadcrumbs */
+
+                            res.locals.breadcrumbs.push( [
+                                '/sitemap',
+                                req.__( 'sitemap' )
+                            ] );
 
                             res.locals.breadcrumbs.push( [
                                 '/props',
