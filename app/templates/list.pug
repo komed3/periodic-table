@@ -3,7 +3,8 @@
 div.pt-element-list( layer=list.layer, type=_type )
   each el, k in list.items
     div.pt-element-list-item
-      div(
+      a(
+        href= '/e/' + el.symbol,
         prop= core.getValue( k, el, list.layer, list.value || 'undefined', _type ),
         class= 'pt-el element--symbol' + (
           el.phase
