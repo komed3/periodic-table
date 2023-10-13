@@ -202,6 +202,14 @@ routes.routes.forEach( ( route ) => {
 
                         }
 
+                        /* spectral lines */
+
+                        if( element in ( spectral = core.DB( 'spectral' ) ) ) {
+
+                            res.locals.spectral = spectral[ element ];
+
+                        }
+
                         /* element navigation */
 
                         let k = element_list.indexOf( element );

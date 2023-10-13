@@ -145,4 +145,4 @@ site:
   ]
 
 maintenance:
-  databases: [ elements, isotopes ]
+  databases: [ elements, isotopes, spectral ]
