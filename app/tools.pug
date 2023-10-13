@@ -1,0 +1,16 @@
+//- tools.pug
+extends layout.pug
+
+block styles
+  link( rel="stylesheet", href="/css/lists.css" )/
+
+block content
+  div.pt-page.pt-box
+    h1!= __( 'tools-title' )
+    p.pt-page-intro!= __( 'tools-description' )
+    div.pt-lists
+      each tool in [ 'mmc' ]
+        div.pt-lists-item
+          h3.pt-lists-item-title
+            a( href='/tool/' + tool )!= __( tool + '-title' )
+          p.pt-lists-item-desc!= __( tool + '-description' )

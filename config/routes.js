@@ -5,8 +5,9 @@
 
 module.exports.routes = [
     [ '/', 'start' ],
-    [ '/sitemap', 'sitemap' ],
-    [ '/glossary', 'glossary' ],
+    [ '/sitemap/?', 'sitemap' ],
+    [ '/glossary/?', 'glossary' ],
+    [ '/tools/?', 'tools' ],
     [ '/element/*', 'element', 'e' ],
     [ '/e/*', 'element' ],
     [ '/lists/*', 'lists' ],
