@@ -312,9 +312,9 @@ block content
       //- spectral lines
       if spectrum && spectrum.length
         div.pt-box.pt-element-spectrum
-          h2!= __( 'spectrum-title' )
-          a( href="/spectrum" )
-            img( src= spectrum )
+          h2
+            a( href="/spectrum" )!= __( 'spectrum-title' )
+          img( src= spectrum )
       //- radioactive warning
       if element.radioactive
         a( href="/prop/radioactive" ).pt-box.pt-box-flex.pt-element-radioactive
@@ -394,12 +394,13 @@ block content
       //- abundance
       if element.abundance
         div.pt-box.pt-element-classification
-          h2!= __( 'natural-abundance' )
+          h2
+            a( href="/abundance" )!= __( 'natural-abundance' )
           table.pt-prop-table.pt-element-table
             tbody
               each prop, label in element.abundance
                 tr.pt-prop-table-row
-                  th.pt-prop-table-label!= __( label )
+                  th.pt-prop-table-label!= __( label + '-abundance' )
                   td.pt-prop-table-value!= core.fNumber( prop, locale )
       //- weblinks
       div.pt-box.pt-element-weblinks
