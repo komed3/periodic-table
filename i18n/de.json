@@ -448,6 +448,7 @@
 	"standard-atomic-weight": "Relative Atommasse",
 	"standard-atomic-weight-description": "Standardatomgewicht als dimensionsloses arithmetisches Mittel der relativen Massen aller Isotope eines Elements, gewichtet mit deren Häufigkeit auf der Erde.",
 	"standard-potential": "Normalpotential",
+	"standard-potential-description": "Das Elektrodenpotential ist die Spannung, die eine Elektrode einer elektrochemischen Zelle liefert. Wird die Normal-Wasserstoffelektrode als Referenz zugrunde gelegt, wird diese Spannung als Normalpotential bezeichnet.",
 	"start-title": "Start",
 	"sublimation-temp": "Sublimationspunkt",
 	"sublimation-temp-description": "Sublimation beschreibt den Übergang eines Systems vom festen in den gasförmigen Aggregatzustand, ohne sich vorher zu verflüssigen. Falls nicht abweichend wird die Siedetemperatur unter Normaldruck von einer Atmosphäre (101.325 Pa) angegeben.",

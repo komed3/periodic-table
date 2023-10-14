@@ -114,6 +114,11 @@ site:
       key: sc_temp
       label: sc_temp
       scheme: _fire
+    standard_potential:
+      key: standard_potential
+      label: standard-potential
+      scheme: _warm
+      scaling: false
     negativity_pauling:
       key: negativity.pauling
       label: pauling-negativity
