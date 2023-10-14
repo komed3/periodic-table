@@ -1,6 +1,6 @@
 {
     "h": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.15,
@@ -87,10 +87,6 @@
         "discovery": {
             "by": "Cavendish",
             "value": 1766
-        },
-        "electrode_potential": {
-            "value": 0,
-            "unit": "V"
         },
         "electron_config": "1s[1]",
         "enthalpy": {
@@ -255,11 +251,7 @@
             }
         ],
         "number": 1,
-        "oxidation": [
-            "+1",
-            "0",
-            "-1"
-        ],
+        "oxidation_state": "+1, 0, -1",
         "period": 1,
         "phase": "gas",
         "properties": [
@@ -308,6 +300,10 @@
                 1.00784,
                 1.00811
             ]
+        },
+        "standard_potential": {
+            "value": 0,
+            "unit": "V"
         },
         "superconductivity": "none",
         "symbol": "H",
@@ -361,7 +357,7 @@
         }
     },
     "he": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4e-7,
@@ -479,6 +475,7 @@
             "mulliken": 3.49
         },
         "number": 2,
+        "oxidation_state": "0",
         "period": 1,
         "phase": "gas",
         "properties": [
@@ -549,7 +546,7 @@
         }
     },
     "li": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.006,
@@ -691,6 +688,8 @@
             "allen": 0.912
         },
         "number": 3,
+        "oxidation_state": "1",
+        "oxide_character": "basic",
         "period": 2,
         "phase": "solid",
         "properties": [
@@ -734,6 +733,10 @@
                 6.997
             ]
         },
+        "standard_potential": {
+            "value": -3.04,
+            "unit": "V"
+        },
         "superconductivity": "special",
         "symbol": "Li",
         "temperature": {
@@ -765,7 +768,7 @@
         }
     },
     "be": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00053,
@@ -922,6 +925,8 @@
             "allen": 1.576
         },
         "number": 4,
+        "oxidation_state": "2",
+        "oxide_character": "amphoteric",
         "period": 2,
         "phase": "solid",
         "properties": [
@@ -962,6 +967,11 @@
             "value": 9.0121831,
             "deviation": 5e-7
         },
+        "standard_potential": {
+            "value": -1.97,
+            "unit": "V",
+            "info": "Be[2+] + 2e[-] → Be"
+        },
         "superconductivity": "normal",
         "symbol": "Be",
         "temperature": {
@@ -989,7 +999,7 @@
         }
     },
     "b": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0016,
@@ -1118,6 +1128,8 @@
             "allen": 2.051
         },
         "number": 5,
+        "oxidation_state": "'''+3''', +2, +1",
+        "oxide_character": "acidic",
         "period": 2,
         "phase": "solid",
         "properties": [
@@ -1183,7 +1195,7 @@
         }
     },
     "c": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.087,
@@ -1292,6 +1304,8 @@
             "allen": 2.544
         },
         "number": 6,
+        "oxidation_state": "-4 … 4",
+        "oxide_character": "acidic",
         "period": 2,
         "phase": "solid",
         "properties": [
@@ -1359,7 +1373,7 @@
         }
     },
     "n": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.03,
@@ -1467,6 +1481,8 @@
             "allen": 3.066
         },
         "number": 7,
+        "oxidation_state": "-3, -2, -1, 0, 1, 2, '''3''', 4, 5",
+        "oxide_character": "acidic",
         "period": 2,
         "phase": "gas",
         "properties": [
@@ -1544,7 +1560,7 @@
         }
     },
     "o": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 49400,
@@ -1672,6 +1688,8 @@
             "allen": 3.61
         },
         "number": 8,
+        "oxidation_state": "'''-2''', -1, 0, +1, +2",
+        "oxide_character": "acidic",
         "period": 2,
         "phase": "gas",
         "properties": [
@@ -1715,6 +1733,10 @@
                 15.99977
             ]
         },
+        "standard_potential": {
+            "value": 1.23,
+            "unit": "V"
+        },
         "superconductivity": "normal",
         "symbol": "O",
         "temperature": {
@@ -1753,7 +1775,7 @@
         }
     },
     "f": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.028,
@@ -1891,6 +1913,8 @@
             "allen": 4.193
         },
         "number": 9,
+        "oxidation_state": "-1",
+        "oxide_character": "acidic",
         "period": 2,
         "phase": "gas",
         "properties": [
@@ -1925,6 +1949,11 @@
         "standard_atomic_weight": {
             "value": 18.99840316,
             "deviation": 5e-9
+        },
+        "standard_potential": {
+            "value": 2.87,
+            "unit": "V",
+            "info": "F + e[-] → F[-]"
         },
         "superconductivity": "none",
         "symbol": "F",
@@ -2133,7 +2162,7 @@
         }
     },
     "na": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2.64,
@@ -2279,6 +2308,8 @@
             "allen": 0.869
         },
         "number": 11,
+        "oxidation_state": "1",
+        "oxide_character": "basic",
         "period": 3,
         "phase": "solid",
         "properties": [
@@ -2317,6 +2348,11 @@
             "value": 22.98976928,
             "deviation": 2e-8
         },
+        "standard_potential": {
+            "value": -2.713,
+            "unit": "V",
+            "info": "Na[+] + e[-] → Na"
+        },
         "superconductivity": "none",
         "symbol": "Na",
         "temperature": {
@@ -2348,7 +2384,7 @@
         }
     },
     "mg": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.94,
@@ -2498,6 +2534,8 @@
             "allen": 1.293
         },
         "number": 12,
+        "oxidation_state": "1, '''2'''",
+        "oxide_character": "basic",
         "period": 3,
         "phase": "solid",
         "properties": [
@@ -2540,6 +2578,11 @@
                 24.307
             ]
         },
+        "standard_potential": {
+            "value": -2.372,
+            "unit": "V",
+            "info": "Mg[2+] + 2e[-] → Mg"
+        },
         "superconductivity": "none",
         "symbol": "Mg",
         "temperature": {
@@ -2562,7 +2605,7 @@
         }
     },
     "al": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 7.57,
@@ -2701,6 +2744,8 @@
             "allen": 1.613
         },
         "number": 13,
+        "oxidation_state": "1, 2, '''3'''",
+        "oxide_character": "amphoteric",
         "period": 3,
         "phase": "solid",
         "properties": [
@@ -2742,6 +2787,11 @@
             "value": 26.9815384,
             "deviation": 3e-7
         },
+        "standard_potential": {
+            "value": -1.676,
+            "unit": "V",
+            "info": "Al[3+] + 3e[-] → Al"
+        },
         "superconductivity": "normal",
         "symbol": "Al",
         "temperature": {
@@ -2764,7 +2814,7 @@
         }
     },
     "si": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 25800,
@@ -2872,6 +2922,8 @@
             "allen": 1.916
         },
         "number": 14,
+        "oxidation_state": "-4, (2), '''+4'''",
+        "oxide_character": "acidic",
         "period": 3,
         "phase": "solid",
         "properties": [
@@ -2938,7 +2990,7 @@
         }
     },
     "p": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.09,
@@ -3083,6 +3135,8 @@
             "allen": 2.253
         },
         "number": 15,
+        "oxidation_state": "±3, 4, '''5'''",
+        "oxide_character": "acidic",
         "period": 3,
         "phase": "solid",
         "properties": [
@@ -3154,7 +3208,7 @@
         }
     },
     "s": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.048,
@@ -3276,6 +3330,8 @@
             "allen": 2.589
         },
         "number": 16,
+        "oxidation_state": "±2 … +6",
+        "oxide_character": "acidic",
         "period": 3,
         "phase": "solid",
         "properties": [
@@ -3322,6 +3378,11 @@
                 32.076
             ]
         },
+        "standard_potential": {
+            "value": -0.48,
+            "unit": "V",
+            "info": "S + 2e[-] → S[2-]"
+        },
         "superconductivity": "special",
         "symbol": "S",
         "temperature": {
@@ -3352,7 +3413,7 @@
         }
     },
     "cl": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.19,
@@ -3499,6 +3560,8 @@
             "allen": 2.869
         },
         "number": 17,
+        "oxidation_state": "'''±1''', 3, 4, 5, 6, 7",
+        "oxide_character": "acidic",
         "period": 3,
         "phase": "gas",
         "properties": [
@@ -3538,6 +3601,11 @@
                 35.446,
                 35.457
             ]
+        },
+        "standard_potential": {
+            "value": 1.36,
+            "unit": "V",
+            "info": "Cl + e[-] → Cl[-]"
         },
         "superconductivity": "none",
         "symbol": "Cl",
@@ -3744,7 +3812,7 @@
         }
     },
     "k": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2.41,
@@ -3885,6 +3953,8 @@
             "allen": 0.734
         },
         "number": 19,
+        "oxidation_state": "-1, '''+1'''",
+        "oxide_character": "basic",
         "period": 4,
         "phase": "solid",
         "properties": [
@@ -3923,6 +3993,11 @@
             "value": 39.0983,
             "deviation": 0.0001
         },
+        "standard_potential": {
+            "value": -2.931,
+            "unit": "V",
+            "info": "K[+] + e[-] → K"
+        },
         "superconductivity": "none",
         "symbol": "K",
         "temperature": {
@@ -3953,7 +4028,7 @@
         }
     },
     "ca": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 3.39,
@@ -4100,6 +4175,8 @@
             "allen": 1.034
         },
         "number": 20,
+        "oxidation_state": "(+1) '''+2'''",
+        "oxide_character": "basic",
         "period": 4,
         "phase": "solid",
         "properties": [
@@ -4142,6 +4219,11 @@
             "value": 40.078,
             "deviation": 0.004
         },
+        "standard_potential": {
+            "value": -2.84,
+            "unit": "V",
+            "info": "Ca[2+] + 2e[-] → Ca"
+        },
         "superconductivity": "special",
         "symbol": "Ca",
         "temperature": {
@@ -4164,7 +4246,7 @@
         }
     },
     "sc": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00051,
@@ -4292,6 +4374,8 @@
             "allred": 1.2
         },
         "number": 21,
+        "oxidation_state": "3",
+        "oxide_character": "basic",
         "period": 4,
         "phase": "solid",
         "properties": [
@@ -4335,6 +4419,11 @@
             "value": 44.955907,
             "deviation": 0.000004
         },
+        "standard_potential": {
+            "value": -2.03,
+            "unit": "V",
+            "info": "Sc[3+] + 3e[-] → Sc"
+        },
         "superconductivity": "special",
         "symbol": "Sc",
         "temperature": {
@@ -4357,7 +4446,7 @@
         }
     },
     "ti": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.41,
@@ -4493,6 +4582,8 @@
             "allred": 1.32
         },
         "number": 22,
+        "oxidation_state": "+2, +3, '''+4'''",
+        "oxide_character": "amphoteric",
         "period": 4,
         "phase": "solid",
         "properties": [
@@ -4532,6 +4623,11 @@
             "value": 47.867,
             "deviation": 0.001
         },
+        "standard_potential": {
+            "value": -0.86,
+            "unit": "V",
+            "info": "TiO[2+] + 2H[+] + 4e[-] → Ti + H{2}O"
+        },
         "superconductivity": "normal",
         "symbol": "Ti",
         "temperature": {
@@ -4554,7 +4650,7 @@
         }
     },
     "v": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.041,
@@ -4673,6 +4769,8 @@
             "allred": 1.45
         },
         "number": 23,
+        "oxidation_state": "'''+5''', +4 ,+3 ,+2",
+        "oxide_character": "amphoteric",
         "period": 4,
         "phase": "solid",
         "properties": [
@@ -4735,7 +4833,7 @@
         }
     },
     "cr": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.019,
@@ -4854,6 +4952,8 @@
             "allred": 1.56
         },
         "number": 24,
+        "oxidation_state": "6, 3, 2, 1",
+        "oxide_character": "amphoteric",
         "period": 4,
         "phase": "solid",
         "properties": [
@@ -4894,6 +4994,11 @@
             "value": 51.9961,
             "deviation": 0.0006
         },
+        "standard_potential": {
+            "value": -0.744,
+            "unit": "V",
+            "info": "Cr[3+] + 3e[-] → Cr"
+        },
         "superconductivity": "special",
         "symbol": "Cr",
         "temperature": {
@@ -4916,7 +5021,7 @@
         }
     },
     "mn": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.085,
@@ -5052,6 +5157,8 @@
             "allred": 1.6
         },
         "number": 25,
+        "oxidation_state": "1, '''2''', 3, 4, (5), 6, 7",
+        "oxide_character": "acidic",
         "period": 4,
         "phase": "solid",
         "properties": [
@@ -5087,6 +5194,11 @@
             "value": 54.938043,
             "deviation": 0.000002
         },
+        "standard_potential": {
+            "value": -1.18,
+            "unit": "V",
+            "info": "Mn[2+] + 2e[-] → Mn"
+        },
         "superconductivity": "none",
         "symbol": "Mn",
         "temperature": {
@@ -5109,7 +5221,7 @@
         }
     },
     "fe": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4700,
@@ -5224,6 +5336,8 @@
             "allred": 1.64
         },
         "number": 26,
+        "oxidation_state": "2, '''3''', 4, 5, 6",
+        "oxide_character": "basic",
         "period": 4,
         "phase": "solid",
         "properties": [
@@ -5268,6 +5382,11 @@
             "value": 55.845,
             "deviation": 0.002
         },
+        "standard_potential": {
+            "value": -0.44,
+            "unit": "V",
+            "info": "Fe[2+] + 2e[-] → Fe"
+        },
         "superconductivity": "special",
         "symbol": "Fe",
         "temperature": {
@@ -5290,7 +5409,7 @@
         }
     },
     "co": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0037,
@@ -5451,6 +5570,8 @@
             "allred": 1.7
         },
         "number": 27,
+        "oxidation_state": "'''2''', 3",
+        "oxide_character": "basic",
         "period": 4,
         "phase": "solid",
         "properties": [
@@ -5486,6 +5607,11 @@
             "value": 58.933194,
             "deviation": 0.000003
         },
+        "standard_potential": {
+            "value": -0.28,
+            "unit": "V",
+            "info": "Co[2+] + 2e[-] → Co"
+        },
         "superconductivity": "none",
         "symbol": "Co",
         "temperature": {
@@ -5508,7 +5634,7 @@
         }
     },
     "ni": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.015,
@@ -5657,6 +5783,8 @@
             "allred": 1.75
         },
         "number": 28,
+        "oxidation_state": "'''2''', (-1), 0, 1, 3, 4",
+        "oxide_character": "basic",
         "period": 4,
         "phase": "solid",
         "properties": [
@@ -5696,6 +5824,11 @@
             "value": 58.6934,
             "deviation": 0.0004
         },
+        "standard_potential": {
+            "value": -0.257,
+            "unit": "V",
+            "info": "Ni[2+] + 2e[-] → Ni"
+        },
         "superconductivity": "none",
         "symbol": "Ni",
         "temperature": {
@@ -5718,7 +5851,7 @@
         }
     },
     "cu": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.01,
@@ -5851,6 +5984,8 @@
             "mulliken": 1.49
         },
         "number": 29,
+        "oxidation_state": "1, '''2''', 3, 4",
+        "oxide_character": "basic",
         "period": 4,
         "phase": "solid",
         "properties": [
@@ -5891,6 +6026,11 @@
             "value": 63.546,
             "deviation": 0.003
         },
+        "standard_potential": {
+            "value": 0.34,
+            "unit": "V",
+            "info": "Cu[2+] + 2e[-] → Cu"
+        },
         "superconductivity": "none",
         "symbol": "Cu",
         "temperature": {
@@ -5913,7 +6053,7 @@
         }
     },
     "zn": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.012,
@@ -6056,6 +6196,8 @@
             "mulliken": 1.65
         },
         "number": 30,
+        "oxidation_state": "2",
+        "oxide_character": "amphoteric",
         "period": 4,
         "phase": "solid",
         "properties": [
@@ -6100,6 +6242,11 @@
             "value": 65.38,
             "deviation": 0.02
         },
+        "standard_potential": {
+            "value": -0.7926,
+            "unit": "V",
+            "info": "Zn[2+] + 2e[-] → Zn"
+        },
         "superconductivity": "normal",
         "symbol": "Zn",
         "temperature": {
@@ -6122,7 +6269,7 @@
         }
     },
     "ga": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0014,
@@ -6255,6 +6402,8 @@
             "allen": 1.756
         },
         "number": 31,
+        "oxidation_state": "3",
+        "oxide_character": "amphoteric",
         "period": 4,
         "phase": "solid",
         "properties": [
@@ -6296,6 +6445,11 @@
             "value": 69.723,
             "deviation": 0.001
         },
+        "standard_potential": {
+            "value": -0.53,
+            "unit": "V",
+            "info": "Ga[3+] + 3e[-] → Ga"
+        },
         "superconductivity": "normal",
         "symbol": "Ga",
         "temperature": {
@@ -6318,7 +6472,7 @@
         }
     },
     "ge": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00056,
@@ -6432,6 +6586,8 @@
             "allen": 1.994
         },
         "number": 32,
+        "oxidation_state": "-4, 2, '''4'''",
+        "oxide_character": "amphoteric",
         "period": 4,
         "phase": "solid",
         "properties": [
@@ -6473,6 +6629,11 @@
             "value": 72.63,
             "deviation": 0.008
         },
+        "standard_potential": {
+            "value": 0.247,
+            "unit": "V",
+            "info": "Ge[2+] + 2e[-] → Ge"
+        },
         "superconductivity": "special",
         "symbol": "Ge",
         "temperature": {
@@ -6495,7 +6656,7 @@
         }
     },
     "as": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00055,
@@ -6630,6 +6791,8 @@
             "allen": 2.211
         },
         "number": 33,
+        "oxidation_state": "-3, '''3''', 5",
+        "oxide_character": "amphoteric",
         "period": 4,
         "phase": "solid",
         "properties": [
@@ -6673,6 +6836,11 @@
             "value": 74.921595,
             "deviation": 0.000006
         },
+        "standard_potential": {
+            "value": 0.24,
+            "unit": "V",
+            "info": "½As{2}O{3} + 3H[+] + 3e[-] → As + 1½H{2}O"
+        },
         "superconductivity": "special",
         "symbol": "As",
         "temperature": {
@@ -6700,7 +6868,7 @@
         }
     },
     "se": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00008,
@@ -6847,6 +7015,8 @@
             "allen": 2.424
         },
         "number": 34,
+        "oxidation_state": "±2, '''4''', 6",
+        "oxide_character": "acidic",
         "period": 4,
         "phase": "solid",
         "properties": [
@@ -6890,6 +7060,11 @@
             "value": 78.971,
             "deviation": 0.008
         },
+        "standard_potential": {
+            "value": -0.67,
+            "unit": "V",
+            "info": "Se + 2e[-] → Se[2-]"
+        },
         "superconductivity": "special",
         "symbol": "Se",
         "temperature": {
@@ -6920,7 +7095,7 @@
         }
     },
     "br": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0006,
@@ -7056,6 +7231,8 @@
             "allen": 2.685
         },
         "number": 35,
+        "oxidation_state": "±1, 3, 5, 7",
+        "oxide_character": "acidic",
         "period": 4,
         "phase": "liquid",
         "properties": [
@@ -7100,6 +7277,11 @@
                 79.901,
                 79.907
             ]
+        },
+        "standard_potential": {
+            "value": 1.066,
+            "unit": "V",
+            "info": "Br + e[-] → Br[-]"
         },
         "superconductivity": "special",
         "symbol": "Br",
@@ -7318,7 +7500,7 @@
         }
     },
     "rb": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0029,
@@ -7459,6 +7641,8 @@
             "allen": 0.706
         },
         "number": 37,
+        "oxidation_state": "-1, '''+1'''",
+        "oxide_character": "basic",
         "period": 5,
         "phase": "solid",
         "properties": [
@@ -7497,6 +7681,11 @@
             "value": 85.4678,
             "deviation": 0.0003
         },
+        "standard_potential": {
+            "value": -2.924,
+            "unit": "V",
+            "info": "Rb[+] + e[-] → Rb"
+        },
         "superconductivity": "none",
         "symbol": "Rb",
         "temperature": {
@@ -7533,7 +7722,7 @@
         }
     },
     "sr": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.014,
@@ -7665,6 +7854,8 @@
             "allen": 0.963
         },
         "number": 38,
+        "oxidation_state": "+2",
+        "oxide_character": "basic",
         "period": 5,
         "phase": "solid",
         "properties": [
@@ -7707,6 +7898,11 @@
             "value": 87.62,
             "deviation": 0.01
         },
+        "standard_potential": {
+            "value": -2.89,
+            "unit": "V",
+            "info": "Sr[2+] + 2e[-] → Sr"
+        },
         "superconductivity": "special",
         "symbol": "Sr",
         "temperature": {
@@ -7729,7 +7925,7 @@
         }
     },
     "y": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0026,
@@ -7860,6 +8056,8 @@
             "allred": 1.11
         },
         "number": 39,
+        "oxidation_state": "+3",
+        "oxide_character": "basic",
         "period": 5,
         "phase": "solid",
         "properties": [
@@ -7900,6 +8098,11 @@
             "value": 88.905838,
             "deviation": 0.000002
         },
+        "standard_potential": {
+            "value": -2.37,
+            "unit": "V",
+            "info": "Y[3+] + 3e[-] → Y"
+        },
         "superconductivity": "special",
         "symbol": "Y",
         "temperature": {
@@ -7922,7 +8125,7 @@
         }
     },
     "zr": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.021,
@@ -8060,6 +8263,8 @@
             "allred": 1.22
         },
         "number": 40,
+        "oxidation_state": "4, 2",
+        "oxide_character": "amphoteric",
         "period": 5,
         "phase": "solid",
         "properties": [
@@ -8099,6 +8304,11 @@
             "value": 91.224,
             "deviation": 0.002
         },
+        "standard_potential": {
+            "value": -1.553,
+            "unit": "V",
+            "info": "ZrO{2} + 4H[+] + 4e[-] → Zr + 2H{2}O"
+        },
         "superconductivity": "normal",
         "symbol": "Zr",
         "temperature": {
@@ -8121,7 +8331,7 @@
         }
     },
     "nb": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0019,
@@ -8259,6 +8469,8 @@
             "allred": 1.23
         },
         "number": 41,
+        "oxidation_state": "2, 4, '''5'''",
+        "oxide_character": "amphoteric",
         "period": 5,
         "phase": "solid",
         "properties": [
@@ -8299,6 +8511,11 @@
             "value": 92.90637,
             "deviation": 0.00001
         },
+        "standard_potential": {
+            "value": -1.1,
+            "unit": "V",
+            "info": "Nb[2+] + 2e[-] → Nb"
+        },
         "superconductivity": "normal",
         "symbol": "Nb",
         "temperature": {
@@ -8321,7 +8538,7 @@
         }
     },
     "mo": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0014,
@@ -8440,6 +8657,8 @@
             "allred": 1.3
         },
         "number": 42,
+        "oxidation_state": "2, 3, 4, 5, '''6'''",
+        "oxide_character": "amphoteric",
         "period": 5,
         "phase": "solid",
         "properties": [
@@ -8481,6 +8700,11 @@
             "value": 95.95,
             "deviation": 0.01
         },
+        "standard_potential": {
+            "value": -0.152,
+            "unit": "V",
+            "info": "MoO{2} + 4e[-] + 4H[+] → Mo + 2H{2}O"
+        },
         "superconductivity": "normal",
         "symbol": "Mo",
         "temperature": {
@@ -8503,7 +8727,7 @@
         }
     },
     "tc": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.2e-19,
@@ -8583,6 +8807,8 @@
             "allred": 1.36
         },
         "number": 43,
+        "oxidation_state": "-3 … 7",
+        "oxide_character": "acidic",
         "period": 5,
         "phase": "solid",
         "properties": [
@@ -8623,6 +8849,11 @@
             13,
             2
         ],
+        "standard_potential": {
+            "value": 0.272,
+            "unit": "V",
+            "info": "TcO{2} + 4e[-] + 4H[+] → Tc + 2H{2}O"
+        },
         "superconductivity": "normal",
         "symbol": "Tc",
         "temperature": {
@@ -8645,7 +8876,7 @@
         }
     },
     "ru": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000002,
@@ -8772,6 +9003,8 @@
             "allred": 1.42
         },
         "number": 44,
+        "oxidation_state": "2, 3, '''4''', 6, 8",
+        "oxide_character": "basic",
         "period": 5,
         "phase": "solid",
         "properties": [
@@ -8835,7 +9068,7 @@
         }
     },
     "rh": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1e-7,
@@ -8968,6 +9201,8 @@
             "allred": 1.45
         },
         "number": 45,
+        "oxidation_state": "0, '''+1''', +2, '''+3''', +4",
+        "oxide_character": "basic",
         "period": 5,
         "phase": "solid",
         "properties": [
@@ -9010,6 +9245,11 @@
             "value": 102.90549,
             "deviation": 0.00002
         },
+        "standard_potential": {
+            "value": 0.76,
+            "unit": "V",
+            "info": "Rh[3+] + 3e[-] → Rh"
+        },
         "superconductivity": "normal",
         "symbol": "Rh",
         "temperature": {
@@ -9032,7 +9272,7 @@
         }
     },
     "pd": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000011,
@@ -9169,6 +9409,8 @@
             "allred": 1.35
         },
         "number": 46,
+        "oxidation_state": "0, '''+2''', +4",
+        "oxide_character": "basic",
         "period": 5,
         "phase": "solid",
         "properties": [
@@ -9213,6 +9455,11 @@
             "value": 106.42,
             "deviation": 0.01
         },
+        "standard_potential": {
+            "value": 0.915,
+            "unit": "V",
+            "info": "Pd[2+] + 2e[-] → Pd"
+        },
         "superconductivity": "special",
         "symbol": "Pd",
         "temperature": {
@@ -9235,7 +9482,7 @@
         }
     },
     "ag": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000079,
@@ -9377,6 +9624,8 @@
             "mulliken": 1.47
         },
         "number": 47,
+        "oxidation_state": "'''+1''', +2, +3",
+        "oxide_character": "basic",
         "period": 5,
         "phase": "solid",
         "properties": [
@@ -9418,6 +9667,11 @@
             "value": 107.8682,
             "deviation": 0.0002
         },
+        "standard_potential": {
+            "value": 0.7991,
+            "unit": "V",
+            "info": "Ag[+] + e[-] → Ag"
+        },
         "superconductivity": "none",
         "symbol": "Ag",
         "temperature": {
@@ -9440,7 +9694,7 @@
         }
     },
     "cd": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00003,
@@ -9603,6 +9857,8 @@
             "mulliken": 1.53
         },
         "number": 48,
+        "oxidation_state": "2",
+        "oxide_character": "basic",
         "period": 5,
         "phase": "solid",
         "properties": [
@@ -9646,6 +9902,11 @@
             "value": 112.414,
             "deviation": 0.004
         },
+        "standard_potential": {
+            "value": -0.403,
+            "unit": "V",
+            "info": "Cd[2+] + 2e[-] → Cd"
+        },
         "superconductivity": "normal",
         "symbol": "Cd",
         "temperature": {
@@ -9668,7 +9929,7 @@
         }
     },
     "in": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00001,
@@ -9799,6 +10060,8 @@
             "allen": 1.656
         },
         "number": 49,
+        "oxidation_state": "'''3''', 1",
+        "oxide_character": "amphoteric",
         "period": 5,
         "phase": "solid",
         "properties": [
@@ -9842,6 +10105,11 @@
             "value": 114.818,
             "deviation": 0.001
         },
+        "standard_potential": {
+            "value": -0.343,
+            "unit": "V",
+            "info": "In[3+] + 3e[-] → In"
+        },
         "superconductivity": "normal",
         "symbol": "In",
         "temperature": {
@@ -9872,7 +10140,7 @@
         }
     },
     "sn": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0035,
@@ -9985,6 +10253,8 @@
             "allen": 1.824
         },
         "number": 50,
+        "oxidation_state": "(-4), '''4''', 2",
+        "oxide_character": "amphoteric",
         "period": 5,
         "phase": "solid",
         "properties": [
@@ -10030,6 +10300,11 @@
             "value": 118.71,
             "deviation": 0.007
         },
+        "standard_potential": {
+            "value": -0.137,
+            "unit": "V",
+            "info": "Sn[2+] + 2e[-] → Sn"
+        },
         "superconductivity": "normal",
         "symbol": "Sn",
         "temperature": {
@@ -10052,7 +10327,7 @@
         }
     },
     "sb": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000065,
@@ -10182,6 +10457,8 @@
             "allen": 1.984
         },
         "number": 51,
+        "oxidation_state": "-3, '''3''', 5",
+        "oxide_character": "amphoteric",
         "period": 5,
         "phase": "solid",
         "properties": [
@@ -10225,6 +10502,11 @@
             "value": 121.76,
             "deviation": 0.001
         },
+        "standard_potential": {
+            "value": 0.15,
+            "unit": "V",
+            "info": "Sb[3+] + 3e[-] → Sb"
+        },
         "superconductivity": "special",
         "symbol": "Sb",
         "temperature": {
@@ -10247,7 +10529,7 @@
         }
     },
     "te": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000001,
@@ -10388,6 +10670,8 @@
             "allen": 2.158
         },
         "number": 52,
+        "oxidation_state": "'''-2''', (±1), 2, '''4''', 6",
+        "oxide_character": "acidic",
         "period": 5,
         "phase": "solid",
         "properties": [
@@ -10432,6 +10716,11 @@
             "value": 127.6,
             "deviation": 0.03
         },
+        "standard_potential": {
+            "value": -1.143,
+            "unit": "V",
+            "info": "Te + 2e[-] → Te[2-]"
+        },
         "superconductivity": "special",
         "symbol": "Te",
         "temperature": {
@@ -10454,7 +10743,7 @@
         }
     },
     "i": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000006,
@@ -10613,6 +10902,8 @@
             "allen": 2.359
         },
         "number": 53,
+        "oxidation_state": "±1, 3, 5, 7",
+        "oxide_character": "acidic",
         "period": 5,
         "phase": "solid",
         "properties": [
@@ -10656,6 +10947,11 @@
             "value": 126.90447,
             "deviation": 0.00003
         },
+        "standard_potential": {
+            "value": 0.536,
+            "unit": "V",
+            "info": "I{2} + 2e[-] → 2I[-]"
+        },
         "superconductivity": "special",
         "symbol": "I",
         "temperature": {
@@ -10694,7 +10990,7 @@
         }
     },
     "xe": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 9e-10,
@@ -10817,6 +11113,7 @@
             "allen": 2.582
         },
         "number": 54,
+        "oxide_character": "acidic",
         "period": 5,
         "phase": "gas",
         "properties": [
@@ -10888,7 +11185,7 @@
         }
     },
     "cs": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00065,
@@ -11028,6 +11325,8 @@
             "mulliken": 0.62
         },
         "number": 55,
+        "oxidation_state": "+1",
+        "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
         "properties": [
@@ -11072,6 +11371,11 @@
             "value": 132.905452,
             "deviation": 6e-8
         },
+        "standard_potential": {
+            "value": -2.923,
+            "unit": "V",
+            "info": "Cs[+] + e[-] → Cs"
+        },
         "superconductivity": "special",
         "symbol": "Cs",
         "temperature": {
@@ -11102,7 +11406,7 @@
         }
     },
     "ba": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.026,
@@ -11248,6 +11552,8 @@
             "mulliken": 0.88
         },
         "number": 56,
+        "oxidation_state": "+2",
+        "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
         "properties": [
@@ -11291,6 +11597,11 @@
             "value": 137.327,
             "deviation": 0.007
         },
+        "standard_potential": {
+            "value": -2.92,
+            "unit": "V",
+            "info": "Ba[2+] + 2e[-] → Ba"
+        },
         "superconductivity": "special",
         "symbol": "Ba",
         "temperature": {
@@ -11313,7 +11624,7 @@
         }
     },
     "la": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0017,
@@ -11450,6 +11761,8 @@
             "allred": 1.08
         },
         "number": 57,
+        "oxidation_state": "3",
+        "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
         "properties": [
@@ -11486,6 +11799,11 @@
             "value": 138.90547,
             "deviation": 0.00007
         },
+        "standard_potential": {
+            "value": -2.38,
+            "unit": "V",
+            "info": "La[3+] + 3e[-] → La"
+        },
         "superconductivity": "normal",
         "symbol": "La",
         "temperature": {
@@ -11508,7 +11826,7 @@
         }
     },
     "ce": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0043,
@@ -11650,6 +11968,8 @@
             "allred": 1.08
         },
         "number": 58,
+        "oxidation_state": "'''3''', 4",
+        "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
         "properties": [
@@ -11686,6 +12006,11 @@
             "value": 140.116,
             "deviation": 0.001
         },
+        "standard_potential": {
+            "value": -2.34,
+            "unit": "V",
+            "info": "Ce[3+] + 3e[-] → Ce"
+        },
         "superconductivity": "special",
         "symbol": "Ce",
         "temperature": {
@@ -11708,7 +12033,7 @@
         }
     },
     "pr": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00052,
@@ -11846,6 +12171,8 @@
             "allred": 1.07
         },
         "number": 59,
+        "oxidation_state": "'''3''', 4, 2",
+        "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
         "properties": [
@@ -11883,6 +12210,11 @@
             "value": 140.90766,
             "deviation": 0.00001
         },
+        "standard_potential": {
+            "value": -2.35,
+            "unit": "V",
+            "info": "Pr[3+] + 3e[-] → Pr"
+        },
         "superconductivity": "none",
         "symbol": "Pr",
         "temperature": {
@@ -11905,7 +12237,7 @@
         }
     },
     "nd": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0022,
@@ -12044,6 +12376,8 @@
             "allred": 1.07
         },
         "number": 60,
+        "oxidation_state": "2, '''3''' , 4",
+        "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
         "properties": [
@@ -12080,6 +12414,11 @@
             "value": 144.242,
             "deviation": 0.003
         },
+        "standard_potential": {
+            "value": -2.32,
+            "unit": "V",
+            "info": "Nd[3+] + 3e[-] → Nd"
+        },
         "superconductivity": "none",
         "symbol": "Nd",
         "temperature": {
@@ -12102,7 +12441,7 @@
         }
     },
     "pm": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.5e-19,
@@ -12190,6 +12529,8 @@
             "allred": 1.07
         },
         "number": 61,
+        "oxidation_state": "3",
+        "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
         "properties": [
@@ -12223,6 +12564,11 @@
             8,
             2
         ],
+        "standard_potential": {
+            "value": -2.423,
+            "unit": "V",
+            "info": "Pm[3+] + 3e[-] → Pm"
+        },
         "superconductivity": "none",
         "symbol": "Pm",
         "temperature": {
@@ -12245,7 +12591,7 @@
         }
     },
     "sm": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0006,
@@ -12384,6 +12730,8 @@
             "allred": 1.07
         },
         "number": 62,
+        "oxidation_state": "2, '''3''",
+        "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
         "properties": [
@@ -12442,7 +12790,7 @@
         }
     },
     "eu": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000099,
@@ -12575,6 +12923,8 @@
             "allred": 1.01
         },
         "number": 63,
+        "oxidation_state": "2, '''3'''",
+        "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
         "properties": [
@@ -12611,6 +12961,11 @@
             "value": 151.964,
             "deviation": 0.001
         },
+        "standard_potential": {
+            "value": -1.99,
+            "unit": "V",
+            "info": "Eu[3+] + 3e[-] → Eu"
+        },
         "superconductivity": "none",
         "symbol": "Eu",
         "temperature": {
@@ -12633,7 +12988,7 @@
         }
     },
     "gd": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00059,
@@ -12766,6 +13121,8 @@
             "allred": 1.11
         },
         "number": 64,
+        "oxidation_state": "2, '''3'''",
+        "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
         "properties": [
@@ -12824,7 +13181,7 @@
         }
     },
     "tb": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000085,
@@ -12940,6 +13297,8 @@
             "allred": 1.1
         },
         "number": 65,
+        "oxidation_state": "4, '''3'''",
+        "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
         "properties": [
@@ -12999,7 +13358,7 @@
         }
     },
     "dy": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00043,
@@ -13132,6 +13491,8 @@
             "allred": 1.1
         },
         "number": 66,
+        "oxidation_state": "3",
+        "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
         "properties": [
@@ -13168,6 +13529,11 @@
             "value": 162.5,
             "deviation": 0.001
         },
+        "standard_potential": {
+            "value": -2.29,
+            "unit": "V",
+            "info": "Dy[3+] + 3e[-] → Dy"
+        },
         "superconductivity": "none",
         "symbol": "Dy",
         "temperature": {
@@ -13190,7 +13556,7 @@
         }
     },
     "ho": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00011,
@@ -13323,6 +13689,8 @@
             "allred": 1.1
         },
         "number": 67,
+        "oxidation_state": "3",
+        "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
         "properties": [
@@ -13360,6 +13728,11 @@
             "value": 164.930329,
             "deviation": 0.000005
         },
+        "standard_potential": {
+            "value": -2.33,
+            "unit": "V",
+            "info": "Ho[3+] + 3e[-] → Ho"
+        },
         "superconductivity": "none",
         "symbol": "Ho",
         "temperature": {
@@ -13382,7 +13755,7 @@
         }
     },
     "er": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00023,
@@ -13515,6 +13888,8 @@
             "allred": 1.11
         },
         "number": 68,
+        "oxidation_state": "3",
+        "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
         "properties": [
@@ -13551,6 +13926,11 @@
             "value": 167.259,
             "deviation": 0.003
         },
+        "standard_potential": {
+            "value": -2.32,
+            "unit": "V",
+            "info": "Er[3+] + 3e[-] → Er"
+        },
         "superconductivity": "none",
         "symbol": "Er",
         "temperature": {
@@ -13573,7 +13953,7 @@
         }
     },
     "tm": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000019,
@@ -13711,6 +14091,8 @@
             "allred": 1.11
         },
         "number": 69,
+        "oxidation_state": "2, '''3''', 4",
+        "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
         "properties": [
@@ -13748,6 +14130,11 @@
             "value": 168.934219,
             "deviation": 0.000005
         },
+        "standard_potential": {
+            "value": -2.32,
+            "unit": "V",
+            "info": "Tm[3+] + 3e[-] → Tm"
+        },
         "superconductivity": "none",
         "symbol": "Tm",
         "temperature": {
@@ -13770,7 +14157,7 @@
         }
     },
     "yb": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00025,
@@ -13912,6 +14299,8 @@
             "allred": 1.06
         },
         "number": 70,
+        "oxidation_state": "2, '''3'''",
+        "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
         "properties": [
@@ -13948,6 +14337,11 @@
             "value": 173.045,
             "deviation": 0.01
         },
+        "standard_potential": {
+            "value": -2.22,
+            "unit": "V",
+            "info": "Yb[3+] + 3e[-] → Yb"
+        },
         "superconductivity": "none",
         "symbol": "Yb",
         "temperature": {
@@ -13970,7 +14364,7 @@
         }
     },
     "lu": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00007,
@@ -14101,6 +14495,8 @@
             "allred": 1.14
         },
         "number": 71,
+        "oxidation_state": "3",
+        "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
         "properties": [
@@ -14141,6 +14537,11 @@
             "value": 174.9668,
             "deviation": 0.0001
         },
+        "standard_potential": {
+            "value": -2.3,
+            "unit": "V",
+            "info": "Lu[3+] + 3e[-] → Lu"
+        },
         "superconductivity": "normal",
         "symbol": "Lu",
         "temperature": {
@@ -14163,7 +14564,7 @@
         }
     },
     "hf": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00042,
@@ -14297,6 +14698,8 @@
             "allred": 1.23
         },
         "number": 72,
+        "oxidation_state": "2, 4",
+        "oxide_character": "amphoteric",
         "period": 6,
         "phase": "solid",
         "properties": [
@@ -14337,6 +14740,11 @@
             "value": 178.486,
             "deviation": 0.006
         },
+        "standard_potential": {
+            "value": -1.505,
+            "unit": "V",
+            "info": "HfO{2} + 4H[+] + 4e[-] → Hf + 2H{2}O"
+        },
         "superconductivity": "normal",
         "symbol": "Hf",
         "temperature": {
@@ -14359,7 +14767,7 @@
         }
     },
     "ta": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0008,
@@ -14497,6 +14905,8 @@
             "allred": 1.33
         },
         "number": 73,
+        "oxidation_state": "5",
+        "oxide_character": "amphoteric",
         "period": 6,
         "phase": "solid",
         "properties": [
@@ -14537,6 +14947,11 @@
             "value": 180.94788,
             "deviation": 0.00002
         },
+        "standard_potential": {
+            "value": -0.81,
+            "unit": "V",
+            "info": "½Ta{2}O{5} + 5H[+] + 5e[-] → Ta + 2½H{2}O"
+        },
         "superconductivity": "normal",
         "symbol": "Ta",
         "temperature": {
@@ -14559,7 +14974,7 @@
         }
     },
     "w": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0064,
@@ -14698,6 +15113,8 @@
             "allred": 1.4
         },
         "number": 74,
+        "oxidation_state": "'''6''', 5, 4, 3, 2",
+        "oxide_character": "amphoteric",
         "period": 6,
         "phase": "solid",
         "properties": [
@@ -14740,6 +15157,11 @@
             "value": 183.84,
             "deviation": 0.01
         },
+        "standard_potential": {
+            "value": -0.119,
+            "unit": "V",
+            "info": "WO{2} + 4H[+] + 4e[-] → W + 2H{2}O"
+        },
         "superconductivity": "normal",
         "symbol": "W",
         "temperature": {
@@ -14762,7 +15184,7 @@
         }
     },
     "re": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1e-7,
@@ -14896,6 +15318,8 @@
             "allred": 1.46
         },
         "number": 75,
+        "oxidation_state": "-3 … 7",
+        "oxide_character": "acidic",
         "period": 6,
         "phase": "solid",
         "properties": [
@@ -14935,6 +15359,11 @@
             "value": 186.207,
             "deviation": 0.001
         },
+        "standard_potential": {
+            "value": -0.276,
+            "unit": "V",
+            "info": "ReO{2} + 4H[+] + 4e[-] → Re + 2H{2}O"
+        },
         "superconductivity": "normal",
         "symbol": "Re",
         "temperature": {
@@ -14957,7 +15386,7 @@
         }
     },
     "os": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000001,
@@ -15085,6 +15514,8 @@
             "allred": 1.52
         },
         "number": 76,
+        "oxidation_state": "-2, 0, 2, 3, '''4''', 6, 8",
+        "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
         "properties": [
@@ -15127,6 +15558,11 @@
             "value": 190.23,
             "deviation": 0.03
         },
+        "standard_potential": {
+            "value": 0.85,
+            "unit": "V",
+            "info": "OsO{4} + 8H[+] + 8e[-] → Os + 4H{2}O"
+        },
         "superconductivity": "normal",
         "symbol": "Os",
         "temperature": {
@@ -15149,7 +15585,7 @@
         }
     },
     "ir": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1e-7,
@@ -15281,6 +15717,8 @@
             "allred": 1.55
         },
         "number": 77,
+        "oxidation_state": "-3, -1, 0, 1, 2, '''3''', '''4''', 5, 6, 8, 9",
+        "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
         "properties": [
@@ -15323,6 +15761,11 @@
             "value": 192.217,
             "deviation": 0.002
         },
+        "standard_potential": {
+            "value": 1.156,
+            "unit": "V",
+            "info": "Ir[3+] + 3e[-] → Ir"
+        },
         "superconductivity": "normal",
         "symbol": "Ir",
         "temperature": {
@@ -15345,7 +15788,7 @@
         }
     },
     "pt": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 5e-7,
@@ -15459,6 +15902,8 @@
             "allred": 1.44
         },
         "number": 78,
+        "oxidation_state": "-2, 0, '''+2''', '''+4''', '''+6'''",
+        "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
         "properties": [
@@ -15501,6 +15946,11 @@
             "value": 195.084,
             "deviation": 0.009
         },
+        "standard_potential": {
+            "value": 1.118,
+            "unit": "V",
+            "info": "Pt[2+] + 2e[-] → Pt"
+        },
         "superconductivity": "none",
         "symbol": "Pt",
         "temperature": {
@@ -15523,7 +15973,7 @@
         }
     },
     "au": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4e-7,
@@ -15638,6 +16088,8 @@
             "mulliken": 1.87
         },
         "number": 79,
+        "oxidation_state": "-1, 0, +1, +2, '''+3''', +5",
+        "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
         "properties": [
@@ -15681,6 +16133,11 @@
             "value": 196.96657,
             "deviation": 0.000004
         },
+        "standard_potential": {
+            "value": 1.52,
+            "unit": "V",
+            "info": "Au[3+] + 3e[-] → Au"
+        },
         "superconductivity": "none",
         "symbol": "Au",
         "temperature": {
@@ -15703,7 +16160,7 @@
         }
     },
     "hg": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00004,
@@ -15848,6 +16305,8 @@
             "mulliken": 1.81
         },
         "number": 80,
+        "oxidation_state": "1, '''2''', 4",
+        "oxide_character": "basic",
         "period": 6,
         "phase": "liquid",
         "properties": [
@@ -15894,6 +16353,11 @@
             "value": 200.592,
             "deviation": 0.003
         },
+        "standard_potential": {
+            "value": 0.8535,
+            "unit": "V",
+            "info": "Hg[2+] + 2e[-] → Hg"
+        },
         "superconductivity": "normal",
         "symbol": "Hg",
         "temperature": {
@@ -15932,7 +16396,7 @@
         }
     },
     "tl": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000029,
@@ -16078,6 +16542,8 @@
             "mulliken": 1.96
         },
         "number": 81,
+        "oxidation_state": "'''1''', 3",
+        "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
         "properties": [
@@ -16125,6 +16591,11 @@
                 204.385
             ]
         },
+        "standard_potential": {
+            "value": -0.3363,
+            "unit": "V",
+            "info": "Tl[+] + e[-] → Tl"
+        },
         "superconductivity": "normal",
         "symbol": "Tl",
         "temperature": {
@@ -16147,7 +16618,7 @@
         }
     },
     "pb": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0018,
@@ -16298,6 +16769,8 @@
             "mulliken": 2.41
         },
         "number": 82,
+        "oxidation_state": "'''2''', 4",
+        "oxide_character": "amphoteric",
         "period": 6,
         "phase": "solid",
         "properties": [
@@ -16347,6 +16820,11 @@
                 207.94
             ]
         },
+        "standard_potential": {
+            "value": -0.1251,
+            "unit": "V",
+            "info": "Pb[2+] + 2e[-] → Pb"
+        },
         "superconductivity": "normal",
         "symbol": "Pb",
         "temperature": {
@@ -16369,7 +16847,7 @@
         }
     },
     "bi": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00002,
@@ -16502,6 +16980,8 @@
             "mulliken": 2.15
         },
         "number": 83,
+        "oxidation_state": "(-3), 1, '''3''', 5",
+        "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
         "properties": [
@@ -16550,6 +17030,11 @@
             "value": 208.9804,
             "deviation": 0.00001
         },
+        "standard_potential": {
+            "value": 0.317,
+            "unit": "V",
+            "info": "Bi[3+] + 3e[-] → Bi"
+        },
         "superconductivity": "special",
         "symbol": "Bi",
         "temperature": {
@@ -16572,7 +17057,7 @@
         }
     },
     "po": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2.1e-15,
@@ -16659,6 +17144,8 @@
             "mulliken": 2.48
         },
         "number": 84,
+        "oxidation_state": "(-2), 2, '''4''', 6",
+        "oxide_character": "acidic",
         "period": 6,
         "phase": "solid",
         "properties": [
@@ -16697,6 +17184,11 @@
             18,
             6
         ],
+        "standard_potential": {
+            "value": 0.37,
+            "unit": "V",
+            "info": "Po[2+] + 2e[-] → Po"
+        },
         "superconductivity": "none",
         "symbol": "Po",
         "temperature": {
@@ -16719,7 +17211,7 @@
         }
     },
     "at": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 3e-25,
@@ -16784,6 +17276,8 @@
             "mulliken": 2.85
         },
         "number": 85,
+        "oxidation_state": "±1, 3, 5, 7",
+        "oxide_character": "acidic",
         "period": 6,
         "phase": "solid",
         "properties": [
@@ -16817,7 +17311,7 @@
         }
     },
     "rn": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 6.1e-15,
@@ -16899,6 +17393,7 @@
             "mulliken": 2.59
         },
         "number": 86,
+        "oxide_character": "acidic",
         "period": 6,
         "phase": "gas",
         "properties": [
@@ -16961,7 +17456,7 @@
         }
     },
     "fr": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.3e-22,
@@ -17031,6 +17526,8 @@
             "mulliken": 0.68
         },
         "number": 87,
+        "oxidation_state": "+1",
+        "oxide_character": "basic",
         "period": 7,
         "phase": "solid",
         "properties": [
@@ -17063,6 +17560,12 @@
             8,
             1
         ],
+        "standard_potential": {
+            "value": -2.92,
+            "*": true,
+            "unit": "V",
+            "info": "Fr[+] + e[-] → Fr"
+        },
         "superconductivity": "none",
         "symbol": "Fr",
         "temperature": {
@@ -17085,7 +17588,7 @@
         }
     },
     "ra": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 9.5e-15,
@@ -17174,6 +17677,8 @@
             "mulliken": 0.92
         },
         "number": 88,
+        "oxidation_state": "2",
+        "oxide_character": "basic",
         "period": 7,
         "phase": "solid",
         "properties": [
@@ -17205,6 +17710,11 @@
             8,
             2
         ],
+        "standard_potential": {
+            "value": -2.916,
+            "unit": "V",
+            "info": "Ra[2+] + 2e[-] → Ra"
+        },
         "superconductivity": "none",
         "symbol": "Ra",
         "temperature": {
@@ -17228,7 +17738,7 @@
         }
     },
     "ac": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 6e-18,
@@ -17303,6 +17813,8 @@
             "allred": 1
         },
         "number": 89,
+        "oxidation_state": "3",
+        "oxide_character": "basic",
         "period": 7,
         "phase": "solid",
         "properties": [
@@ -17329,6 +17841,11 @@
             9,
             2
         ],
+        "standard_potential": {
+            "value": -2.13,
+            "unit": "V",
+            "info": "Ac[3+] + 3e[-] → Ac"
+        },
         "superconductivity": "none",
         "symbol": "Ac",
         "temperature": {
@@ -17352,7 +17869,7 @@
         }
     },
     "th": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0011,
@@ -17470,6 +17987,8 @@
             "allred": 1.11
         },
         "number": 90,
+        "oxidation_state": "4, 3, 2",
+        "oxide_character": "basic",
         "period": 7,
         "phase": "solid",
         "properties": [
@@ -17532,7 +18051,7 @@
         }
     },
     "pa": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0009,
@@ -17618,6 +18137,8 @@
             "allred": 1.14
         },
         "number": 91,
+        "oxidation_state": "5",
+        "oxide_character": "basic",
         "period": 7,
         "phase": "solid",
         "properties": [
@@ -17678,7 +18199,7 @@
         }
     },
     "u": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00032,
@@ -17823,6 +18344,8 @@
             "allred": 1.22
         },
         "number": 92,
+        "oxidation_state": "+3, +4, +5, '''+6'''",
+        "oxide_character": "basic",
         "period": 7,
         "phase": "solid",
         "properties": [
@@ -17866,6 +18389,11 @@
             "value": 238.02891,
             "deviation": 0.00003
         },
+        "standard_potential": {
+            "value": -1.66,
+            "unit": "V",
+            "info": "U[3+] + 3e[-] → U"
+        },
         "superconductivity": "normal",
         "symbol": "U",
         "temperature": {
@@ -17888,7 +18416,7 @@
         }
     },
     "np": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4e-18,
@@ -17962,6 +18490,8 @@
             "allred": 1.22
         },
         "number": 93,
+        "oxidation_state": "+3, +4, '''+5''', +6, +7",
+        "oxide_character": "basic",
         "period": 7,
         "phase": "solid",
         "properties": [
@@ -17992,6 +18522,11 @@
             9,
             2
         ],
+        "standard_potential": {
+            "value": -1.79,
+            "unit": "V",
+            "info": "Np[3+] + 3e[-] → Np"
+        },
         "superconductivity": "none",
         "symbol": "Np",
         "temperature": {
@@ -18017,7 +18552,7 @@
         }
     },
     "pu": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2e-19,
@@ -18104,6 +18639,8 @@
             "allred": 1.22
         },
         "number": 94,
+        "oxidation_state": "+3, '''+4''', +5, +6, (+7)",
+        "oxide_character": "basic",
         "period": 7,
         "phase": "solid",
         "properties": [
@@ -18136,6 +18673,11 @@
             8,
             2
         ],
+        "standard_potential": {
+            "value": -2.031,
+            "unit": "V",
+            "info": "Pu[3+] + 3e[-] → Pu"
+        },
         "superconductivity": "none",
         "symbol": "Pu",
         "temperature": {
@@ -18158,7 +18700,7 @@
         }
     },
     "am": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "appearance": {
             "en": "silvery white",
             "de": "silbrig-weißes Metall"
@@ -18213,6 +18755,8 @@
             "allred": 1.2
         },
         "number": 95,
+        "oxidation_state": "+2, '''+3''', +4, +5, +6, (+7)",
+        "oxide_character": "basic",
         "period": 7,
         "phase": "solid",
         "properties": [
@@ -18248,6 +18792,11 @@
             8,
             2
         ],
+        "standard_potential": {
+            "value": -2.07,
+            "unit": "V",
+            "info": "Am[3+] + 3e[-] → Am"
+        },
         "superconductivity": "normal",
         "symbol": "Am",
         "temperature": {
@@ -18271,7 +18820,7 @@
         }
     },
     "cm": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "appearance": {
             "en": "silvery metallic, glows purple in the dark",
             "de": "silbrig-weißes Metall"
@@ -18320,6 +18869,8 @@
             "allred": 1.2
         },
         "number": 96,
+        "oxidation_state": "(+2), '''+3''', +4",
+        "oxide_character": "basic",
         "period": 7,
         "phase": "solid",
         "properties": [
@@ -18351,6 +18902,11 @@
             9,
             2
         ],
+        "standard_potential": {
+            "value": -2.06,
+            "unit": "V",
+            "info": "Cm[3+] + 3e[-] → Cm"
+        },
         "superconductivity": "none",
         "symbol": "Cm",
         "temperature": {
@@ -18373,7 +18929,7 @@
         }
     },
     "bk": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "appearance": {
             "en": "silvery",
             "de": "silberweiß"
@@ -18420,6 +18976,7 @@
             "allred": 1.2
         },
         "number": 97,
+        "oxidation_state": "'''+3''', +4",
         "period": 7,
         "phase": "solid",
         "properties": [
@@ -18446,6 +19003,11 @@
             8,
             2
         ],
+        "standard_potential": {
+            "value": -2,
+            "unit": "V",
+            "info": "Bk[3+] + 3e[-] → Bk"
+        },
         "superconductivity": "none",
         "symbol": "Bk",
         "temperature": {
@@ -18468,7 +19030,7 @@
         }
     },
     "cf": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "appearance": {
             "en": "silvery",
             "de": "silbriges Metall"
@@ -18514,6 +19076,7 @@
             "allred": 1.2
         },
         "number": 98,
+        "oxidation_state": "(+2), '''+3''', (+4)",
         "period": 7,
         "phase": "solid",
         "properties": [
@@ -18534,6 +19097,11 @@
             8,
             2
         ],
+        "standard_potential": {
+            "value": -1.91,
+            "unit": "V",
+            "info": "Cf[3+] + 3e[-] → Cf"
+        },
         "superconductivity": "none",
         "symbol": "Cf",
         "temperature": {
@@ -18558,7 +19126,7 @@
         }
     },
     "es": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "appearance": {
             "en": "silvery; glows blue in the dark"
         },
@@ -18603,6 +19171,7 @@
             "allred": 1.2
         },
         "number": 99,
+        "oxidation_state": "+2, '''+3''', (+4)",
         "period": 7,
         "phase": "solid",
         "properties": [
@@ -18647,7 +19216,7 @@
         }
     },
     "fm": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "atomic_mass": {
             "value": 257.0951,
             "*": true,
@@ -18685,6 +19254,7 @@
             "allred": 1.2
         },
         "number": 100,
+        "oxidation_state": "+2 +3",
         "period": 7,
         "phase": "solid",
         "properties": [
@@ -18704,6 +19274,11 @@
             8,
             2
         ],
+        "standard_potential": {
+            "value": -1.96,
+            "unit": "V",
+            "info": "Fm[3+] + 3e[-] → Fm"
+        },
         "superconductivity": "none",
         "symbol": "Fm",
         "temperature": {
@@ -18719,7 +19294,7 @@
         }
     },
     "md": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "atomic_mass": {
             "value": 258,
             "*": true,
@@ -18757,6 +19332,7 @@
             "allred": 1.2
         },
         "number": 101,
+        "oxidation_state": "+2 +3",
         "period": 7,
         "phase": "solid",
         "properties": [
@@ -18791,7 +19367,7 @@
         }
     },
     "no": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "atomic_mass": {
             "value": 259,
             "*": true,
@@ -18829,6 +19405,7 @@
             "allred": 1.2
         },
         "number": 102,
+        "oxidation_state": "+2 +3",
         "period": 7,
         "phase": "solid",
         "properties": [
@@ -18863,7 +19440,7 @@
         }
     },
     "lr": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-14T10:19:50.627Z",
         "atomic_mass": {
             "value": 266,
             "*": true,
@@ -18901,6 +19478,7 @@
             "pauling": 1.3
         },
         "number": 103,
+        "oxidation_state": "+3",
         "period": 7,
         "phase": "solid",
         "properties": [
