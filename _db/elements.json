@@ -8942,12 +8942,6 @@
     },
     "tc": {
         "@modified": "2023-10-14T10:19:50.627Z",
-        "abundance": {
-            "earth_envelope": {
-                "value": 1.2e-15,
-                "unit": "ppmw"
-            }
-        },
         "appearance": {
             "en": "shiny gray metal",
             "de": "silbrig grau metallisch"
@@ -17471,12 +17465,6 @@
     },
     "at": {
         "@modified": "2023-10-14T10:19:50.627Z",
-        "abundance": {
-            "earth_envelope": {
-                "value": 3e-21,
-                "unit": "ppmw"
-            }
-        },
         "appearance": {
             "en": "unknown, probably metallic",
             "de": "metallisch"
@@ -17704,12 +17692,6 @@
     },
     "fr": {
         "@modified": "2023-10-14T10:19:50.627Z",
-        "abundance": {
-            "earth_envelope": {
-                "value": 1.3e-18,
-                "unit": "ppmw"
-            }
-        },
         "atomic_mass": {
             "value": 223.0197,
             "*": true,
@@ -17982,12 +17964,6 @@
     },
     "ac": {
         "@modified": "2023-10-14T10:19:50.627Z",
-        "abundance": {
-            "earth_crust": {
-                "value": 5.5e-9,
-                "unit": "ppmw"
-            }
-        },
         "appearance": {
             "en": "silvery-white, glowing with an eerie blue light; sometimes with a golden cast",
             "de": "silbrig"
@@ -18654,12 +18630,6 @@
     },
     "np": {
         "@modified": "2023-10-14T10:19:50.627Z",
-        "abundance": {
-            "earth_envelope": {
-                "value": 4e-14,
-                "unit": "ppmw"
-            }
-        },
         "appearance": {
             "en": "silvery metallic",
             "de": "silbrig"
@@ -18786,12 +18756,6 @@
     },
     "pu": {
         "@modified": "2023-10-14T10:19:50.627Z",
-        "abundance": {
-            "earth_envelope": {
-                "value": 2e-16,
-                "unit": "ppmw"
-            }
-        },
         "appearance": {
             "en": "silvery white, tarnishing to dark gray in air",
             "de": "silbriges Metall"
