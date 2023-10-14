@@ -1,27 +1,34 @@
 {
     "h": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.15,
-                "unit": "%"
+            "universe": {
+                "value": 750000000,
+                "unit": "ppb"
             },
-            "solar_system": 32000000000,
-            "earth_total": {
-                "value": 260,
-                "unit": "ppmw"
+            "sun": {
+                "value": 750000000,
+                "unit": "ppb"
             },
-            "earth_envelope": {
-                "value": 8800,
-                "unit": "ppmw"
+            "meteorite": {
+                "value": 24000000,
+                "unit": "ppb"
             },
-            "earth_crust": {
-                "value": 1400,
-                "unit": "ppmw"
+            "crust": {
+                "value": 1500000,
+                "unit": "ppb"
             },
-            "earth_oceans": {
-                "value": 108000,
-                "unit": "ppmw"
+            "water": {
+                "value": 107800000,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 115000000,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 100000000,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -357,7 +364,7 @@
         }
     },
     "he": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4e-7,
@@ -375,6 +382,22 @@
             "earth_oceans": {
                 "value": 0.000007,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 230000000,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 230000000,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 5.5,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.0072,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -546,7 +569,7 @@
         }
     },
     "li": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.006,
@@ -568,6 +591,34 @@
             "earth_oceans": {
                 "value": 0.18,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 6,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 0.06,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 1700,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 17000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 180,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 3000,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 30,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -768,7 +819,7 @@
         }
     },
     "be": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00053,
@@ -790,6 +841,34 @@
             "earth_oceans": {
                 "value": 0.0000056,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 1,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 0.1,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 30,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 1900,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.0006,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 0.1,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 0.4,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -999,7 +1078,7 @@
         }
     },
     "b": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0016,
@@ -1021,6 +1100,34 @@
             "earth_oceans": {
                 "value": 4.44,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 1,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 2,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 1600,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 8700,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 4440,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 10,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 700,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -1195,7 +1302,7 @@
         }
     },
     "c": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.087,
@@ -1217,6 +1324,34 @@
             "earth_oceans": {
                 "value": 28,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 5000000,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 3000000,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 15000000,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 1800000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 28000,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 1200,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 230000000,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -1373,7 +1508,7 @@
         }
     },
     "n": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.03,
@@ -1395,6 +1530,34 @@
             "earth_oceans": {
                 "value": 0.5,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 1000000,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 1000000,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 1400000,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 20000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 500,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 240,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 26000000,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -1560,7 +1723,7 @@
         }
     },
     "o": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 49400,
@@ -1582,6 +1745,34 @@
             "earth_oceans": {
                 "value": 847000,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 10000000,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 9000000,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 410000000,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 460000000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 857000000,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 880000000,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 610000000,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -1775,7 +1966,7 @@
         }
     },
     "f": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.028,
@@ -1797,6 +1988,34 @@
             "earth_oceans": {
                 "value": 1.3,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 400,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 500,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 89000,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 540000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 1300,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 100,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 37000,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -1993,7 +2212,7 @@
         }
     },
     "ne": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 5e-7,
@@ -2011,6 +2230,22 @@
             "earth_oceans": {
                 "value": 0.00012,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 1300000,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 1000000,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 3,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.12,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -2162,7 +2397,7 @@
         }
     },
     "na": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2.64,
@@ -2184,6 +2419,34 @@
             "earth_oceans": {
                 "value": 10800,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 20000,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 40000,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 5600000,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 23000000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 11050000,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 8000,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 1400000,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -2384,7 +2647,7 @@
         }
     },
     "mg": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.94,
@@ -2406,6 +2669,34 @@
             "earth_oceans": {
                 "value": 1290,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 600000,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 700000,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 120000000,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 29000000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 1326000,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 4100,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 270000,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -2605,7 +2896,7 @@
         }
     },
     "al": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 7.57,
@@ -2627,6 +2918,34 @@
             "earth_oceans": {
                 "value": 2,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 50000,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 60000,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 9300000,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 82000000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 5,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 400,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 900,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -2814,7 +3133,7 @@
         }
     },
     "si": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 25800,
@@ -2836,6 +3155,34 @@
             "earth_oceans": {
                 "value": 2.2,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 700000,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 900000,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 140000000,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 270000000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 1000,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 5000,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 260000,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -2990,7 +3337,7 @@
         }
     },
     "p": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.09,
@@ -3012,6 +3359,34 @@
             "earth_oceans": {
                 "value": 0.06,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 7000,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 7000,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 1100000,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 1000000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 70,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 20,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 11000000,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -3208,7 +3583,7 @@
         }
     },
     "s": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.048,
@@ -3230,6 +3605,34 @@
             "earth_oceans": {
                 "value": 905,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 500000,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 400000,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 41000000,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 420000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 928000,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 4000,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 2000000,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -3413,7 +3816,7 @@
         }
     },
     "cl": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.19,
@@ -3435,6 +3838,34 @@
             "earth_oceans": {
                 "value": 19400,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 1000,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 8000,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 380000,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 170000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 19870000,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 8000,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 1200000,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -3637,7 +4068,7 @@
         }
     },
     "ar": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00036,
@@ -3655,6 +4086,22 @@
             "earth_oceans": {
                 "value": 0.45,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 200000,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 70000,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 1500,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 450,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -3812,7 +4259,7 @@
         }
     },
     "k": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2.41,
@@ -3834,6 +4281,34 @@
             "earth_oceans": {
                 "value": 399,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 3000,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 4000,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 710000,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 15000000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 416000,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 2300,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 2000000,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -4028,7 +4503,7 @@
         }
     },
     "ca": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 3.39,
@@ -4050,6 +4525,34 @@
             "earth_oceans": {
                 "value": 412,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 70000,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 70000,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 11000000,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 50000000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 4220,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 1500,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 14000000,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -4246,7 +4749,7 @@
         }
     },
     "sc": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00051,
@@ -4268,6 +4771,30 @@
             "earth_oceans": {
                 "value": 6e-7,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 30,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 40,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 6500,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 26000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.0015,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 0.004,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -4446,7 +4973,7 @@
         }
     },
     "ti": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.41,
@@ -4468,6 +4995,30 @@
             "earth_oceans": {
                 "value": 1,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 3000,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 4000,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 550000,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 6600000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 1,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 3,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -4650,7 +5201,7 @@
         }
     },
     "v": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.041,
@@ -4672,6 +5223,34 @@
             "earth_oceans": {
                 "value": 0.0025,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 1000,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 400,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 62000,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 190000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 1.5,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 1,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 30,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -4833,7 +5412,7 @@
         }
     },
     "cr": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.019,
@@ -4855,6 +5434,34 @@
             "earth_oceans": {
                 "value": 0.0003,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 15000,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 20000,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 3100000,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 140000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.6,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 1,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 30,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -5021,7 +5628,7 @@
         }
     },
     "mn": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.085,
@@ -5043,6 +5650,34 @@
             "earth_oceans": {
                 "value": 0.0002,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 8000,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 10000,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 2800000,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 1100000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 2,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 5,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 200,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -5221,7 +5856,7 @@
         }
     },
     "fe": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4700,
@@ -5243,6 +5878,34 @@
             "earth_oceans": {
                 "value": 2,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 1100000,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 1000000,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 220000000,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 63000000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 3,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 670,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 60000,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -5409,7 +6072,7 @@
         }
     },
     "co": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0037,
@@ -5431,6 +6094,34 @@
             "earth_oceans": {
                 "value": 0.00002,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 3000,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 4000,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 600000,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 30000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.08,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 0.2,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 20,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -5634,7 +6325,7 @@
         }
     },
     "ni": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.015,
@@ -5656,6 +6347,34 @@
             "earth_oceans": {
                 "value": 0.00056,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 60000,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 80000,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 13000000,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 90000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 2,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 0.3,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 100,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -5851,7 +6570,7 @@
         }
     },
     "cu": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.01,
@@ -5873,6 +6592,34 @@
             "earth_oceans": {
                 "value": 0.00025,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 60,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 700,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 110000,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 68000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 3,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 6,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 1000,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -6053,7 +6800,7 @@
         }
     },
     "zn": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.012,
@@ -6075,6 +6822,34 @@
             "earth_oceans": {
                 "value": 0.0049,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 300,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 2000,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 180000,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 79000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 5,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 10,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 33000,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -6269,7 +7044,7 @@
         }
     },
     "ga": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0014,
@@ -6291,6 +7066,30 @@
             "earth_oceans": {
                 "value": 0.00003,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 10,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 40,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 7800,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 19000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.03,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 0.15,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -6472,7 +7271,7 @@
         }
     },
     "ge": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00056,
@@ -6494,6 +7293,26 @@
             "earth_oceans": {
                 "value": 0.00005,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 200,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 200,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 21000,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 1400,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.06,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -6656,7 +7475,7 @@
         }
     },
     "as": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00055,
@@ -6678,6 +7497,30 @@
             "earth_oceans": {
                 "value": 0.0037,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 8,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 1800,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 2100,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 2.3,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 1,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 50,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -6868,7 +7711,7 @@
         }
     },
     "se": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00008,
@@ -6890,6 +7733,30 @@
             "earth_oceans": {
                 "value": 0.0002,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 30,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 13000,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 50,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.45,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 0.2,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 50,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -7095,7 +7962,7 @@
         }
     },
     "br": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0006,
@@ -7117,6 +7984,30 @@
             "earth_oceans": {
                 "value": 67.3,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 7,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 1200,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 3000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 67300,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 20,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 2900,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -7321,7 +8212,7 @@
         }
     },
     "kr": {
-        "@modified": "2023-10-13T12:15:30.047Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00019,
@@ -7339,6 +8230,18 @@
             "earth_oceans": {
                 "value": 0.00021,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 40,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 0.15,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.21,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -7500,7 +8403,7 @@
         }
     },
     "rb": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0029,
@@ -7522,6 +8425,34 @@
             "earth_oceans": {
                 "value": 0.12,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 10,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 30,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 3300,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 60000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 120,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 1,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 4600,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -7722,7 +8653,7 @@
         }
     },
     "sr": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.014,
@@ -7744,6 +8675,34 @@
             "earth_oceans": {
                 "value": 7.9,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 40,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 50,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 8900,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 360000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 8100,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 60,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 4600,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -7925,7 +8884,7 @@
         }
     },
     "y": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0026,
@@ -7947,6 +8906,30 @@
             "earth_oceans": {
                 "value": 0.000013,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 7,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 10,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 1900,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 29000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.013,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 50,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -8125,7 +9108,7 @@
         }
     },
     "zr": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.021,
@@ -8147,6 +9130,34 @@
             "earth_oceans": {
                 "value": 0.00003,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 50,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 40,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 6700,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 130000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.026,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 3,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 50,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -8331,7 +9342,7 @@
         }
     },
     "nb": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0019,
@@ -8353,6 +9364,26 @@
             "earth_oceans": {
                 "value": 0.00001,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 2,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 4,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 190,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 17000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.001,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -8538,7 +9569,7 @@
         }
     },
     "mo": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0014,
@@ -8560,6 +9591,34 @@
             "earth_oceans": {
                 "value": 0.01,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 5,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 9,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 1200,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 1100,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 10,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 0.8,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 100,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -8876,7 +9935,7 @@
         }
     },
     "ru": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000002,
@@ -8898,6 +9957,26 @@
             "earth_oceans": {
                 "value": 7e-7,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 4,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 5,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 830,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 1,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.0007,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -9068,7 +10147,7 @@
         }
     },
     "rh": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1e-7,
@@ -9086,6 +10165,22 @@
             "earth_crust": {
                 "value": 1,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 0.6,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 2,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 180,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 0.7,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -9272,7 +10367,7 @@
         }
     },
     "pd": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000011,
@@ -9290,6 +10385,22 @@
             "earth_crust": {
                 "value": 15,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 2,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 3,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 670,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 6.3,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -9482,7 +10593,7 @@
         }
     },
     "ag": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000079,
@@ -9504,6 +10615,30 @@
             "earth_oceans": {
                 "value": 0.00004,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 0.6,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 1,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 140,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 80,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.1,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 0.3,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -9694,7 +10829,7 @@
         }
     },
     "cd": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00003,
@@ -9716,6 +10851,30 @@
             "earth_oceans": {
                 "value": 0.00011,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 2,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 6,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 450,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 150,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.05,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 700,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -9929,7 +11088,7 @@
         }
     },
     "in": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00001,
@@ -9951,6 +11110,26 @@
             "earth_oceans": {
                 "value": 0.02,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 0.3,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 4,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 45,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 160,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.0001,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -10140,7 +11319,7 @@
         }
     },
     "sn": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0035,
@@ -10162,6 +11341,34 @@
             "earth_oceans": {
                 "value": 0.000004,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 4,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 9,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 1200,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 2200,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.01,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 0.06,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 200,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -10327,7 +11534,7 @@
         }
     },
     "sb": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000065,
@@ -10349,6 +11556,30 @@
             "earth_oceans": {
                 "value": 0.00024,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 0.4,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 1,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 120,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 200,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.2,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 2,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -10529,7 +11760,7 @@
         }
     },
     "te": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000001,
@@ -10547,6 +11778,18 @@
             "earth_crust": {
                 "value": 1,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 9,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 2100,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 1,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -10743,7 +11986,7 @@
         }
     },
     "i": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000006,
@@ -10765,6 +12008,30 @@
             "earth_oceans": {
                 "value": 0.06,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 1,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 260,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 490,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 60,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 5,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 200,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -10990,7 +12257,7 @@
         }
     },
     "xe": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 9e-10,
@@ -11008,6 +12275,18 @@
             "earth_oceans": {
                 "value": 0.00005,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 10,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 0.02,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.005,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -11185,7 +12464,7 @@
         }
     },
     "cs": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00065,
@@ -11207,6 +12486,34 @@
             "earth_oceans": {
                 "value": 0.0003,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 0.8,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 8,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 140,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 1900,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.5,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 0.05,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 20,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -11406,7 +12713,7 @@
         }
     },
     "ba": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.026,
@@ -11428,6 +12735,34 @@
             "earth_oceans": {
                 "value": 13,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 10,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 10,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 2800,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 340000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 30,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 25,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 300,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -11624,7 +12959,7 @@
         }
     },
     "la": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0017,
@@ -11646,6 +12981,30 @@
             "earth_oceans": {
                 "value": 0.0000034,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 2,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 2,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 290,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 34000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.0034,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 0.2,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -11826,7 +13185,7 @@
         }
     },
     "ce": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0043,
@@ -11848,6 +13207,30 @@
             "earth_oceans": {
                 "value": 0.0000012,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 10,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 4,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 760,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 60000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.0012,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 0.06,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -12033,7 +13416,7 @@
         }
     },
     "pr": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00052,
@@ -12055,6 +13438,30 @@
             "earth_oceans": {
                 "value": 6.4e-7,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 2,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 1,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 100,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 8700,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.0006,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 0.03,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -12237,7 +13644,7 @@
         }
     },
     "nd": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0022,
@@ -12259,6 +13666,30 @@
             "earth_oceans": {
                 "value": 0.0000028,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 10,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 3,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 510,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 33000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.0028,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 0.2,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -12441,7 +13872,7 @@
         }
     },
     "pm": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1.5e-19,
@@ -12450,6 +13881,10 @@
             "earth_envelope": {
                 "value": 1.5e-15,
                 "unit": "ppmw"
+            },
+            "sun": {
+                "value": 0.005,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -12591,7 +14026,7 @@
         }
     },
     "sm": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0006,
@@ -12613,6 +14048,30 @@
             "earth_oceans": {
                 "value": 4.5e-7,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 5,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 1,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 170,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 6000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.00045,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 0.03,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -12790,7 +14249,7 @@
         }
     },
     "eu": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0000099,
@@ -12812,6 +14271,30 @@
             "earth_oceans": {
                 "value": 1.3e-7,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 0.5,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 0.5,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 60,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 1800,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.00013,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 0.007,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -12988,7 +14471,7 @@
         }
     },
     "gd": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00059,
@@ -13010,6 +14493,30 @@
             "earth_oceans": {
                 "value": 7e-7,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 2,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 2,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 230,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 5200,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.0007,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 0.04,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -13181,7 +14688,7 @@
         }
     },
     "tb": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000085,
@@ -13203,6 +14710,30 @@
             "earth_oceans": {
                 "value": 1.4e-7,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 0.5,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 0.1,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 40,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 940,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.00014,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 0.008,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -13358,7 +14889,7 @@
         }
     },
     "dy": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00043,
@@ -13380,6 +14911,30 @@
             "earth_oceans": {
                 "value": 9.1e-7,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 2,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 2,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 280,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 6200,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.00091,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 0.05,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -13556,7 +15111,7 @@
         }
     },
     "ho": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00011,
@@ -13578,6 +15133,26 @@
             "earth_oceans": {
                 "value": 2.2e-7,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 0.5,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 60,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 1200,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.00022,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 0.01,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -13755,7 +15330,7 @@
         }
     },
     "er": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00023,
@@ -13777,6 +15352,30 @@
             "earth_oceans": {
                 "value": 8.7e-7,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 2,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 1,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 180,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 3000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.0009,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 0.05,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -13953,7 +15552,7 @@
         }
     },
     "tm": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000019,
@@ -13975,6 +15574,30 @@
             "earth_oceans": {
                 "value": 1.7e-7,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 0.1,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 0.2,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 30,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 450,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.0002,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 0.009,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -14157,7 +15780,7 @@
         }
     },
     "yb": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00025,
@@ -14179,6 +15802,30 @@
             "earth_oceans": {
                 "value": 8.2e-7,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 2,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 1,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 180,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 2800,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.0008,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 0.05,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -14364,7 +16011,7 @@
         }
     },
     "lu": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00007,
@@ -14386,6 +16033,30 @@
             "earth_oceans": {
                 "value": 1.5e-7,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 0.1,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 1,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 30,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 560,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.00015,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 0.008,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -14564,7 +16235,7 @@
         }
     },
     "hf": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00042,
@@ -14586,6 +16257,26 @@
             "earth_oceans": {
                 "value": 0.000007,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 0.7,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 1,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 170,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 3300,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.008,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -14767,7 +16458,7 @@
         }
     },
     "ta": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0008,
@@ -14789,6 +16480,22 @@
             "earth_oceans": {
                 "value": 0.000002,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 0.08,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 20,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 1700,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.002,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -14974,7 +16681,7 @@
         }
     },
     "w": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0064,
@@ -14996,6 +16703,30 @@
             "earth_oceans": {
                 "value": 0.0001,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 0.5,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 4,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 120,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 1100,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.12,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 0.03,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -15184,7 +16915,7 @@
         }
     },
     "re": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1e-7,
@@ -15206,6 +16937,26 @@
             "earth_oceans": {
                 "value": 0.000004,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 0.2,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 0.1,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 50,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 2.6,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.001,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -15386,7 +17137,7 @@
         }
     },
     "os": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000001,
@@ -15404,6 +17155,22 @@
             "earth_crust": {
                 "value": 0.0015,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 3,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 2,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 670,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 1.8,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -15585,7 +17352,7 @@
         }
     },
     "ir": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 1e-7,
@@ -15603,6 +17370,22 @@
             "earth_crust": {
                 "value": 1,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 2,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 2,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 550,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 0.4,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -15788,7 +17571,7 @@
         }
     },
     "pt": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 5e-7,
@@ -15806,6 +17589,22 @@
             "earth_crust": {
                 "value": 5,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 5,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 9,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 1000,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 37,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -15973,7 +17772,7 @@
         }
     },
     "au": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 4e-7,
@@ -15995,6 +17794,34 @@
             "earth_oceans": {
                 "value": 0.000004,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 0.6,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 1,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 170,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 3.1,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.05,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 0.002,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 100,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -16160,7 +17987,7 @@
         }
     },
     "hg": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00004,
@@ -16182,6 +18009,30 @@
             "earth_oceans": {
                 "value": 0.00003,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 1,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 20,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 250,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 67,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.05,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 0.07,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -16396,7 +18247,7 @@
         }
     },
     "tl": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.000029,
@@ -16418,6 +18269,26 @@
             "earth_oceans": {
                 "value": 0.000019,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 0.5,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 1,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 80,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 530,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.001,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -16618,7 +18489,7 @@
         }
     },
     "pb": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0018,
@@ -16640,6 +18511,34 @@
             "earth_oceans": {
                 "value": 0.00003,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 10,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 10,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 1400,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 10000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.03,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 3,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 1700,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -16847,7 +18746,7 @@
         }
     },
     "bi": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00002,
@@ -16869,6 +18768,26 @@
             "earth_oceans": {
                 "value": 0.00002,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 0.7,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 10,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 70,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 25,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.02,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -17057,7 +18976,7 @@
         }
     },
     "po": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 2.1e-15,
@@ -17074,6 +18993,10 @@
             "earth_oceans": {
                 "value": 1.5e-14,
                 "unit": "ppmw"
+            },
+            "water": {
+                "value": 2e-11,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -17311,7 +19234,7 @@
         }
     },
     "rn": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 6.1e-15,
@@ -17328,6 +19251,14 @@
             "earth_oceans": {
                 "value": 6e-16,
                 "unit": "ppmw"
+            },
+            "water": {
+                "value": 6e-13,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 2e-13,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -17588,7 +19519,7 @@
         }
     },
     "ra": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 9.5e-15,
@@ -17605,6 +19536,22 @@
             "earth_oceans": {
                 "value": 8.9e-11,
                 "unit": "ppmw"
+            },
+            "crust": {
+                "value": 0.0001,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 1e-8,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 4e-7,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 0.000001,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -17869,7 +19816,7 @@
         }
     },
     "th": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0011,
@@ -17891,6 +19838,30 @@
             "earth_oceans": {
                 "value": 0.000001,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 0.4,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 0.3,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 40,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 6000,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 0.00004,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 0.1,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -18051,7 +20022,7 @@
         }
     },
     "pa": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.0009,
@@ -18068,6 +20039,14 @@
             "earth_oceans": {
                 "value": 5e-11,
                 "unit": "ppmw"
+            },
+            "crust": {
+                "value": 0.00001,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 2e-16,
+                "unit": "ppb"
             }
         },
         "appearance": {
@@ -18199,7 +20178,7 @@
         }
     },
     "u": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
             "earth_fraction": {
                 "value": 0.00032,
@@ -18221,6 +20200,34 @@
             "earth_oceans": {
                 "value": 0.0032,
                 "unit": "ppmw"
+            },
+            "universe": {
+                "value": 0.2,
+                "unit": "ppb"
+            },
+            "sun": {
+                "value": 1,
+                "unit": "ppb"
+            },
+            "meteorite": {
+                "value": 10,
+                "unit": "ppb"
+            },
+            "crust": {
+                "value": 1800,
+                "unit": "ppb"
+            },
+            "water": {
+                "value": 3.3,
+                "unit": "ppb"
+            },
+            "stream": {
+                "value": 0.04,
+                "unit": "ppb"
+            },
+            "human": {
+                "value": 1,
+                "unit": "ppb"
             }
         },
         "appearance": {
