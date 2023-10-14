@@ -366,23 +366,6 @@
     "he": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 4e-7,
-                "unit": "%"
-            },
-            "solar_system": 2200000000,
-            "earth_envelope": {
-                "value": 4,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 8,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.000007,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 230000000,
                 "unit": "ppb"
@@ -571,27 +554,6 @@
     "li": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.006,
-                "unit": "%"
-            },
-            "solar_system": 50,
-            "earth_total": {
-                "value": 2.3,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 60,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 20,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.18,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 6,
                 "unit": "ppb"
@@ -821,27 +783,6 @@
     "be": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.00053,
-                "unit": "%"
-            },
-            "solar_system": 0.81,
-            "earth_total": {
-                "value": 46,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 5.3,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 2.8,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.0000056,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 1,
                 "unit": "ppb"
@@ -1080,27 +1021,6 @@
     "b": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.0016,
-                "unit": "%"
-            },
-            "solar_system": 350,
-            "earth_total": {
-                "value": 0.26,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 16,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 10,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 4.44,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 1,
                 "unit": "ppb"
@@ -1304,27 +1224,6 @@
     "c": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.087,
-                "unit": "%"
-            },
-            "solar_system": 12000000,
-            "earth_total": {
-                "value": 1700,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 870,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 200,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 28,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 5000000,
                 "unit": "ppb"
@@ -1510,27 +1409,6 @@
     "n": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.03,
-                "unit": "%"
-            },
-            "solar_system": 3700000,
-            "earth_total": {
-                "value": 1.27,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 300,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 19,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.5,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 1000000,
                 "unit": "ppb"
@@ -1725,27 +1603,6 @@
     "o": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 49400,
-                "unit": "%"
-            },
-            "solar_system": 22000000,
-            "earth_total": {
-                "value": 324000,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 494000,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 461000,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 847000,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 10000000,
                 "unit": "ppb"
@@ -1968,27 +1825,6 @@
     "f": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.028,
-                "unit": "%"
-            },
-            "solar_system": 2500,
-            "earth_total": {
-                "value": 5.12,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 280,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 585,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 1.3,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 400,
                 "unit": "ppb"
@@ -2214,23 +2050,6 @@
     "ne": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 5e-7,
-                "unit": "%"
-            },
-            "solar_system": 3400000,
-            "earth_envelope": {
-                "value": 5,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 5,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.00012,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 1300000,
                 "unit": "ppb"
@@ -2399,27 +2218,6 @@
     "na": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 2.64,
-                "unit": "%"
-            },
-            "solar_system": 60000,
-            "earth_total": {
-                "value": 1870,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 26400,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 23600,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 10800,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 20000,
                 "unit": "ppb"
@@ -2649,27 +2447,6 @@
     "mg": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 1.94,
-                "unit": "%"
-            },
-            "solar_system": 1100000,
-            "earth_total": {
-                "value": 158000,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 19400,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 23300,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 1290,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 600000,
                 "unit": "ppb"
@@ -2898,27 +2675,6 @@
     "al": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 7.57,
-                "unit": "%"
-            },
-            "solar_system": 85000,
-            "earth_total": {
-                "value": 15000,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 75700,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 82300,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 2,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 50000,
                 "unit": "ppb"
@@ -3135,27 +2891,6 @@
     "si": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 25800,
-                "unit": "%"
-            },
-            "solar_system": 1000000,
-            "earth_total": {
-                "value": 171000,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 258000,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 282000,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 2.2,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 700000,
                 "unit": "ppb"
@@ -3339,27 +3074,6 @@
     "p": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.09,
-                "unit": "%"
-            },
-            "solar_system": 9600,
-            "earth_total": {
-                "value": 690,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 900,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 1050,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.06,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 7000,
                 "unit": "ppb"
@@ -3585,27 +3299,6 @@
     "s": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.048,
-                "unit": "%"
-            },
-            "solar_system": 500000,
-            "earth_total": {
-                "value": 4600,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 480,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 350,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 905,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 500000,
                 "unit": "ppb"
@@ -3818,27 +3511,6 @@
     "cl": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.19,
-                "unit": "%"
-            },
-            "solar_system": 5700,
-            "earth_total": {
-                "value": 10,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 1900,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 145,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 19400,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 1000,
                 "unit": "ppb"
@@ -4070,23 +3742,6 @@
     "ar": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.00036,
-                "unit": "%"
-            },
-            "solar_system": 120000,
-            "earth_envelope": {
-                "value": 3.6,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 3.5,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.45,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 200000,
                 "unit": "ppb"
@@ -4261,27 +3916,6 @@
     "k": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 2.41,
-                "unit": "%"
-            },
-            "solar_system": 4200,
-            "earth_total": {
-                "value": 171,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 24100,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 20900,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 399,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 3000,
                 "unit": "ppb"
@@ -4505,27 +4139,6 @@
     "ca": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 3.39,
-                "unit": "%"
-            },
-            "solar_system": 72000,
-            "earth_total": {
-                "value": 16200,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 33900,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 41500,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 412,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 70000,
                 "unit": "ppb"
@@ -4751,27 +4364,6 @@
     "sc": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.00051,
-                "unit": "%"
-            },
-            "solar_system": 35,
-            "earth_total": {
-                "value": 10,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 5.1,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 22,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 6e-7,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 30,
                 "unit": "ppb"
@@ -4975,27 +4567,6 @@
     "ti": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.41,
-                "unit": "%"
-            },
-            "solar_system": 2800,
-            "earth_total": {
-                "value": 764,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 4100,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 5650,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 1,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 3000,
                 "unit": "ppb"
@@ -5203,27 +4774,6 @@
     "v": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.041,
-                "unit": "%"
-            },
-            "solar_system": 260,
-            "earth_total": {
-                "value": 93,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 410,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 120,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.0025,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 1000,
                 "unit": "ppb"
@@ -5414,27 +4964,6 @@
     "cr": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.019,
-                "unit": "%"
-            },
-            "solar_system": 13000,
-            "earth_total": {
-                "value": 4200,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 190,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 102,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.0003,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 15000,
                 "unit": "ppb"
@@ -5630,27 +5159,6 @@
     "mn": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.085,
-                "unit": "%"
-            },
-            "solar_system": 9300,
-            "earth_total": {
-                "value": 1390,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 850,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 950,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.0002,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 8000,
                 "unit": "ppb"
@@ -5858,27 +5366,6 @@
     "fe": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 4700,
-                "unit": "%"
-            },
-            "solar_system": 830000,
-            "earth_total": {
-                "value": 288000,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 47000,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 56000,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 2,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 1100000,
                 "unit": "ppb"
@@ -6074,27 +5561,6 @@
     "co": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.0037,
-                "unit": "%"
-            },
-            "solar_system": 2200,
-            "earth_total": {
-                "value": 800,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 37,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 25,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.00002,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 3000,
                 "unit": "ppb"
@@ -6327,27 +5793,6 @@
     "ni": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.015,
-                "unit": "%"
-            },
-            "solar_system": 48000,
-            "earth_total": {
-                "value": 16900,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 150,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 84,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.00056,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 60000,
                 "unit": "ppb"
@@ -6572,27 +6017,6 @@
     "cu": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.01,
-                "unit": "%"
-            },
-            "solar_system": 540,
-            "earth_total": {
-                "value": 65,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 100,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 60,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.00025,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 60,
                 "unit": "ppb"
@@ -6802,27 +6226,6 @@
     "zn": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.012,
-                "unit": "%"
-            },
-            "solar_system": 1200,
-            "earth_total": {
-                "value": 24,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 120,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 70,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.0049,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 300,
                 "unit": "ppb"
@@ -7046,27 +6449,6 @@
     "ga": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.0014,
-                "unit": "%"
-            },
-            "solar_system": 48,
-            "earth_total": {
-                "value": 3.1,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 14,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 19,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.00003,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 10,
                 "unit": "ppb"
@@ -7273,27 +6655,6 @@
     "ge": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.00056,
-                "unit": "%"
-            },
-            "solar_system": 120,
-            "earth_total": {
-                "value": 7.3,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 5.6,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 1.5,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.00005,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 200,
                 "unit": "ppb"
@@ -7477,27 +6838,6 @@
     "as": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.00055,
-                "unit": "%"
-            },
-            "solar_system": 6.6,
-            "earth_total": {
-                "value": 1.1,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 5.5,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 1.8,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.0037,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 8,
                 "unit": "ppb"
@@ -7713,27 +7053,6 @@
     "se": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.00008,
-                "unit": "%"
-            },
-            "solar_system": 67,
-            "earth_total": {
-                "value": 2.5,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 0.8,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 0.05,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.0002,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 30,
                 "unit": "ppb"
@@ -7964,27 +7283,6 @@
     "br": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.0006,
-                "unit": "%"
-            },
-            "solar_system": 14,
-            "earth_total": {
-                "value": 0.4,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 6,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 2.4,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 67.3,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 7,
                 "unit": "ppb"
@@ -8214,23 +7512,6 @@
     "kr": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.00019,
-                "unit": "%"
-            },
-            "solar_system": 47,
-            "earth_envelope": {
-                "value": 0.000019,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 0.0001,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.00021,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 40,
                 "unit": "ppb"
@@ -8405,27 +7686,6 @@
     "rb": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.0029,
-                "unit": "%"
-            },
-            "solar_system": 5.9,
-            "earth_total": {
-                "value": 0.6,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 29,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 90,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.12,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 10,
                 "unit": "ppb"
@@ -8655,27 +7915,6 @@
     "sr": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.014,
-                "unit": "%"
-            },
-            "solar_system": 27,
-            "earth_total": {
-                "value": 13.7,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 140,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 370,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 7.9,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 40,
                 "unit": "ppb"
@@ -8886,27 +8125,6 @@
     "y": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.0026,
-                "unit": "%"
-            },
-            "solar_system": 4.8,
-            "earth_total": {
-                "value": 2.4,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 26,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 33,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.000013,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 7,
                 "unit": "ppb"
@@ -9110,27 +8328,6 @@
     "zr": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.021,
-                "unit": "%"
-            },
-            "solar_system": 28,
-            "earth_total": {
-                "value": 6.8,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 210,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 165,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.00003,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 50,
                 "unit": "ppb"
@@ -9344,27 +8541,6 @@
     "nb": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.0019,
-                "unit": "%"
-            },
-            "solar_system": 1.4,
-            "earth_total": {
-                "value": 0.47,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 19,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 20,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.00001,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 2,
                 "unit": "ppb"
@@ -9571,27 +8747,6 @@
     "mo": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.0014,
-                "unit": "%"
-            },
-            "solar_system": 4,
-            "earth_total": {
-                "value": 1.66,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 14,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 1.2,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.01,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 5,
                 "unit": "ppb"
@@ -9788,10 +8943,6 @@
     "tc": {
         "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 1.2e-19,
-                "unit": "%"
-            },
             "earth_envelope": {
                 "value": 1.2e-15,
                 "unit": "ppmw"
@@ -9937,27 +9088,6 @@
     "ru": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.000002,
-                "unit": "%"
-            },
-            "solar_system": 1.9,
-            "earth_total": {
-                "value": 1.18,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 0.02,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 1,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 7e-7,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 4,
                 "unit": "ppb"
@@ -10149,23 +9279,6 @@
     "rh": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 1e-7,
-                "unit": "%"
-            },
-            "solar_system": 0.4,
-            "earth_total": {
-                "value": 0.23,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 1,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 1,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 0.6,
                 "unit": "ppb"
@@ -10369,23 +9482,6 @@
     "pd": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.0000011,
-                "unit": "%"
-            },
-            "solar_system": 1.3,
-            "earth_total": {
-                "value": 0.88,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 11,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 15,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 2,
                 "unit": "ppb"
@@ -10595,27 +9691,6 @@
     "ag": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.0000079,
-                "unit": "%"
-            },
-            "solar_system": 0.45,
-            "earth_total": {
-                "value": 46,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 0.12,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 75,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.00004,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 0.6,
                 "unit": "ppb"
@@ -10831,27 +9906,6 @@
     "cd": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.00003,
-                "unit": "%"
-            },
-            "solar_system": 1.5,
-            "earth_total": {
-                "value": 0.18,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 0.3,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 0.15,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.00011,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 2,
                 "unit": "ppb"
@@ -11090,27 +10144,6 @@
     "in": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.00001,
-                "unit": "%"
-            },
-            "solar_system": 0.19,
-            "earth_total": {
-                "value": 0.0094,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 0.1,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 0.25,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.02,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 0.3,
                 "unit": "ppb"
@@ -11321,27 +10354,6 @@
     "sn": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.0035,
-                "unit": "%"
-            },
-            "solar_system": 3.6,
-            "earth_total": {
-                "value": 0.39,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 35,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 2.3,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.000004,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 4,
                 "unit": "ppb"
@@ -11536,27 +10548,6 @@
     "sb": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.000065,
-                "unit": "%"
-            },
-            "solar_system": 0.32,
-            "earth_total": {
-                "value": 0.04,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 0.65,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 0.2,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.00024,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 0.4,
                 "unit": "ppb"
@@ -11762,23 +10753,6 @@
     "te": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.000001,
-                "unit": "%"
-            },
-            "solar_system": 6.4,
-            "earth_total": {
-                "value": 0.31,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 0.01,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 1,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 9,
                 "unit": "ppb"
@@ -11988,27 +10962,6 @@
     "i": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.000006,
-                "unit": "%"
-            },
-            "solar_system": 1.1,
-            "earth_total": {
-                "value": 0.04,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 0.06,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 0.45,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.06,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 1,
                 "unit": "ppb"
@@ -12259,23 +11212,6 @@
     "xe": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 9e-10,
-                "unit": "%"
-            },
-            "solar_system": 5.4,
-            "earth_envelope": {
-                "value": 0.000009,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 0.00003,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.00005,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 10,
                 "unit": "ppb"
@@ -12466,27 +11402,6 @@
     "cs": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.00065,
-                "unit": "%"
-            },
-            "solar_system": 0.39,
-            "earth_total": {
-                "value": 41,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 6.5,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 3,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.0003,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 0.8,
                 "unit": "ppb"
@@ -12715,27 +11630,6 @@
     "ba": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.026,
-                "unit": "%"
-            },
-            "solar_system": 4.8,
-            "earth_total": {
-                "value": 4.06,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 260,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 425,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 13,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 10,
                 "unit": "ppb"
@@ -12961,27 +11855,6 @@
     "la": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.0017,
-                "unit": "%"
-            },
-            "solar_system": 0.45,
-            "earth_total": {
-                "value": 0.42,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 17,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 39,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.0000034,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 2,
                 "unit": "ppb"
@@ -13187,27 +12060,6 @@
     "ce": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.0043,
-                "unit": "%"
-            },
-            "solar_system": 1.2,
-            "earth_total": {
-                "value": 1.1,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 43,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 65.5,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.0000012,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 10,
                 "unit": "ppb"
@@ -13418,27 +12270,6 @@
     "pr": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.00052,
-                "unit": "%"
-            },
-            "solar_system": 0.15,
-            "earth_total": {
-                "value": 0.17,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 5.2,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 9.2,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 6.4e-7,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 2,
                 "unit": "ppb"
@@ -13646,27 +12477,6 @@
     "nd": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.0022,
-                "unit": "%"
-            },
-            "solar_system": 0.78,
-            "earth_total": {
-                "value": 0.81,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 22,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 41.5,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.0000028,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 10,
                 "unit": "ppb"
@@ -13874,14 +12684,6 @@
     "pm": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 1.5e-19,
-                "unit": "%"
-            },
-            "earth_envelope": {
-                "value": 1.5e-15,
-                "unit": "ppmw"
-            },
             "sun": {
                 "value": 0.005,
                 "unit": "ppb"
@@ -14028,27 +12830,6 @@
     "sm": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.0006,
-                "unit": "%"
-            },
-            "solar_system": 0.23,
-            "earth_total": {
-                "value": 0.26,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 6,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 7.5,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 4.5e-7,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 5,
                 "unit": "ppb"
@@ -14251,27 +13032,6 @@
     "eu": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.0000099,
-                "unit": "%"
-            },
-            "solar_system": 85,
-            "earth_total": {
-                "value": 98,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 99,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 2,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 1.3e-7,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 0.5,
                 "unit": "ppb"
@@ -14473,27 +13233,6 @@
     "gd": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.00059,
-                "unit": "%"
-            },
-            "solar_system": 0.3,
-            "earth_total": {
-                "value": 0.35,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 5.9,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 6.2,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 7e-7,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 2,
                 "unit": "ppb"
@@ -14690,27 +13429,6 @@
     "tb": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.000085,
-                "unit": "%"
-            },
-            "solar_system": 55,
-            "earth_total": {
-                "value": 67,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 0.85,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 1.2,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 1.4e-7,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 0.5,
                 "unit": "ppb"
@@ -14891,27 +13609,6 @@
     "dy": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.00043,
-                "unit": "%"
-            },
-            "solar_system": 0.36,
-            "earth_total": {
-                "value": 0.42,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 4.3,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 5.2,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 9.1e-7,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 2,
                 "unit": "ppb"
@@ -15113,27 +13810,6 @@
     "ho": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.00011,
-                "unit": "%"
-            },
-            "solar_system": 79,
-            "earth_total": {
-                "value": 96,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 1.1,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 1.3,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 2.2e-7,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 0.5,
                 "unit": "ppb"
@@ -15332,27 +14008,6 @@
     "er": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.00023,
-                "unit": "%"
-            },
-            "solar_system": 0.23,
-            "earth_total": {
-                "value": 0.28,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 2.3,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 3.5,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 8.7e-7,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 2,
                 "unit": "ppb"
@@ -15554,27 +14209,6 @@
     "tm": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.000019,
-                "unit": "%"
-            },
-            "solar_system": 34,
-            "earth_total": {
-                "value": 42,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 0.19,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 0.52,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 1.7e-7,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 0.1,
                 "unit": "ppb"
@@ -15782,27 +14416,6 @@
     "yb": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.00025,
-                "unit": "%"
-            },
-            "solar_system": 0.22,
-            "earth_total": {
-                "value": 0.28,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 2.5,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 3.2,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 8.2e-7,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 2,
                 "unit": "ppb"
@@ -16013,27 +14626,6 @@
     "lu": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.00007,
-                "unit": "%"
-            },
-            "solar_system": 36,
-            "earth_total": {
-                "value": 43,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 0.7,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 0.8,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 1.5e-7,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 0.1,
                 "unit": "ppb"
@@ -16237,27 +14829,6 @@
     "hf": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.00042,
-                "unit": "%"
-            },
-            "solar_system": 0.21,
-            "earth_total": {
-                "value": 0.2,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 4.2,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 3,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.000007,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 0.7,
                 "unit": "ppb"
@@ -16460,27 +15031,6 @@
     "ta": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.0008,
-                "unit": "%"
-            },
-            "solar_system": 21,
-            "earth_total": {
-                "value": 28,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 8,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 2,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.000002,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 0.08,
                 "unit": "ppb"
@@ -16683,27 +15233,6 @@
     "w": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.0064,
-                "unit": "%"
-            },
-            "solar_system": 0.16,
-            "earth_total": {
-                "value": 0.17,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 64,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 1.25,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.0001,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 0.5,
                 "unit": "ppb"
@@ -16917,27 +15446,6 @@
     "re": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 1e-7,
-                "unit": "%"
-            },
-            "solar_system": 53,
-            "earth_total": {
-                "value": 63,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 1,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 0.0007,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.000004,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 0.2,
                 "unit": "ppb"
@@ -17139,23 +15647,6 @@
     "os": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.000001,
-                "unit": "%"
-            },
-            "solar_system": 0.75,
-            "earth_total": {
-                "value": 0.82,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 0.01,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 0.0015,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 3,
                 "unit": "ppb"
@@ -17354,23 +15845,6 @@
     "ir": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 1e-7,
-                "unit": "%"
-            },
-            "solar_system": 0.72,
-            "earth_total": {
-                "value": 0.77,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 1,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 1,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 2,
                 "unit": "ppb"
@@ -17573,23 +16047,6 @@
     "pt": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 5e-7,
-                "unit": "%"
-            },
-            "solar_system": 1.4,
-            "earth_total": {
-                "value": 1.56,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 5,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 5,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 5,
                 "unit": "ppb"
@@ -17774,27 +16231,6 @@
     "au": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 4e-7,
-                "unit": "%"
-            },
-            "solar_system": 0.2,
-            "earth_total": {
-                "value": 0.1,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 5,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 4,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.000004,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 0.6,
                 "unit": "ppb"
@@ -17989,27 +16425,6 @@
     "hg": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.00004,
-                "unit": "%"
-            },
-            "solar_system": 0.4,
-            "earth_total": {
-                "value": 0.02,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 0.4,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 85,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.00003,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 1,
                 "unit": "ppb"
@@ -18249,27 +16664,6 @@
     "tl": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.000029,
-                "unit": "%"
-            },
-            "solar_system": 0.19,
-            "earth_total": {
-                "value": 4,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 0.29,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 0.85,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.000019,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 0.5,
                 "unit": "ppb"
@@ -18491,27 +16885,6 @@
     "pb": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.0018,
-                "unit": "%"
-            },
-            "solar_system": 4,
-            "earth_total": {
-                "value": 0.67,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 18,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 14,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.00003,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 10,
                 "unit": "ppb"
@@ -18748,27 +17121,6 @@
     "bi": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.00002,
-                "unit": "%"
-            },
-            "solar_system": 0.14,
-            "earth_total": {
-                "value": 16,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 0.2,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 0.0085,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.00002,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 0.7,
                 "unit": "ppb"
@@ -18978,22 +17330,6 @@
     "po": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 2.1e-15,
-                "unit": "%"
-            },
-            "earth_envelope": {
-                "value": 2.1e-11,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 2e-10,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 1.5e-14,
-                "unit": "ppmw"
-            },
             "water": {
                 "value": 2e-11,
                 "unit": "ppb"
@@ -19136,10 +17472,6 @@
     "at": {
         "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 3e-25,
-                "unit": "%"
-            },
             "earth_envelope": {
                 "value": 3e-21,
                 "unit": "ppmw"
@@ -19236,22 +17568,6 @@
     "rn": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 6.1e-15,
-                "unit": "%"
-            },
-            "earth_envelope": {
-                "value": 6.1e-11,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 4e-13,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 6e-16,
-                "unit": "ppmw"
-            },
             "water": {
                 "value": 6e-13,
                 "unit": "ppb"
@@ -19389,10 +17705,6 @@
     "fr": {
         "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 1.3e-22,
-                "unit": "%"
-            },
             "earth_envelope": {
                 "value": 1.3e-18,
                 "unit": "ppmw"
@@ -19521,22 +17833,6 @@
     "ra": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 9.5e-15,
-                "unit": "%"
-            },
-            "earth_envelope": {
-                "value": 9.5e-11,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 9e-7,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 8.9e-11,
-                "unit": "ppmw"
-            },
             "crust": {
                 "value": 0.0001,
                 "unit": "ppb"
@@ -19687,14 +17983,6 @@
     "ac": {
         "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 6e-18,
-                "unit": "%"
-            },
-            "earth_envelope": {
-                "value": 6.1e-14,
-                "unit": "ppmw"
-            },
             "earth_crust": {
                 "value": 5.5e-9,
                 "unit": "ppmw"
@@ -19818,27 +18106,6 @@
     "th": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.0011,
-                "unit": "%"
-            },
-            "solar_system": 58,
-            "earth_total": {
-                "value": 51,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 11,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 9.6,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.000001,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 0.4,
                 "unit": "ppb"
@@ -20024,22 +18291,6 @@
     "pa": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.0009,
-                "unit": "%"
-            },
-            "earth_envelope": {
-                "value": 9e-8,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 0.0000014,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 5e-11,
-                "unit": "ppmw"
-            },
             "crust": {
                 "value": 0.00001,
                 "unit": "ppb"
@@ -20180,27 +18431,6 @@
     "u": {
         "@modified": "2023-10-14T17:24:47.643Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 0.00032,
-                "unit": "%"
-            },
-            "solar_system": 26,
-            "earth_total": {
-                "value": 14,
-                "unit": "ppmw"
-            },
-            "earth_envelope": {
-                "value": 3.2,
-                "unit": "ppmw"
-            },
-            "earth_crust": {
-                "value": 2.7,
-                "unit": "ppmw"
-            },
-            "earth_oceans": {
-                "value": 0.0032,
-                "unit": "ppmw"
-            },
             "universe": {
                 "value": 0.2,
                 "unit": "ppb"
@@ -20425,10 +18655,6 @@
     "np": {
         "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 4e-18,
-                "unit": "%"
-            },
             "earth_envelope": {
                 "value": 4e-14,
                 "unit": "ppmw"
@@ -20561,10 +18787,6 @@
     "pu": {
         "@modified": "2023-10-14T10:19:50.627Z",
         "abundance": {
-            "earth_fraction": {
-                "value": 2e-19,
-                "unit": "%"
-            },
             "earth_envelope": {
                 "value": 2e-16,
                 "unit": "ppmw"
