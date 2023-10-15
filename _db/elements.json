@@ -1,6 +1,6 @@
 {
     "h": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 750000000,
@@ -261,6 +261,10 @@
         "oxidation_state": "+1, 0, -1",
         "period": 1,
         "phase": "gas",
+        "price": {
+            "value": 1.39,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "vital",
@@ -364,7 +368,7 @@
         }
     },
     "he": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 230000000,
@@ -484,6 +488,10 @@
         "oxidation_state": "0",
         "period": 1,
         "phase": "gas",
+        "price": {
+            "value": 24,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "stable"
@@ -552,7 +560,7 @@
         }
     },
     "li": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 6,
@@ -705,6 +713,10 @@
         "oxide_character": "basic",
         "period": 2,
         "phase": "solid",
+        "price": {
+            "value": 83.5,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "stable",
@@ -781,7 +793,7 @@
         }
     },
     "be": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -949,6 +961,10 @@
         "oxide_character": "amphoteric",
         "period": 2,
         "phase": "solid",
+        "price": {
+            "value": 857,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "mononuclidic",
@@ -1019,7 +1035,7 @@
         }
     },
     "b": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -1159,6 +1175,10 @@
         "oxide_character": "acidic",
         "period": 2,
         "phase": "solid",
+        "price": {
+            "value": 3.68,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "stable",
@@ -1222,7 +1242,7 @@
         }
     },
     "c": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 5000000,
@@ -1342,6 +1362,10 @@
         "oxide_character": "acidic",
         "period": 2,
         "phase": "solid",
+        "price": {
+            "value": 0.122,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "native",
@@ -1407,7 +1431,7 @@
         }
     },
     "n": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 1000000,
@@ -1526,6 +1550,10 @@
         "oxide_character": "acidic",
         "period": 2,
         "phase": "gas",
+        "price": {
+            "value": 0.14,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "vital",
@@ -1601,7 +1629,7 @@
         }
     },
     "o": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 10000000,
@@ -1740,6 +1768,10 @@
         "oxide_character": "acidic",
         "period": 2,
         "phase": "gas",
+        "price": {
+            "value": 0.154,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "vital",
@@ -1823,7 +1855,7 @@
         }
     },
     "f": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 400,
@@ -1972,6 +2004,11 @@
         "oxide_character": "acidic",
         "period": 2,
         "phase": "gas",
+        "price": {
+            "value": 2,
+            "deviation": 0.16,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "vital",
@@ -2048,7 +2085,7 @@
         }
     },
     "ne": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 1300000,
@@ -2151,6 +2188,10 @@
         "number": 10,
         "period": 2,
         "phase": "gas",
+        "price": {
+            "value": 240,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "stable"
@@ -2216,7 +2257,7 @@
         }
     },
     "na": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 20000,
@@ -2373,6 +2414,11 @@
         "oxide_character": "basic",
         "period": 3,
         "phase": "solid",
+        "price": {
+            "value": 3,
+            "deviation": 0.43,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "vital",
@@ -2445,7 +2491,7 @@
         }
     },
     "mg": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 600000,
@@ -2606,6 +2652,10 @@
         "oxide_character": "basic",
         "period": 3,
         "phase": "solid",
+        "price": {
+            "value": 2.32,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "native",
@@ -2673,7 +2723,7 @@
         }
     },
     "al": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 50000,
@@ -2823,6 +2873,10 @@
         "oxide_character": "amphoteric",
         "period": 3,
         "phase": "solid",
+        "price": {
+            "value": 1.79,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "mononuclidic",
@@ -2889,7 +2943,7 @@
         }
     },
     "si": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 700000,
@@ -3008,6 +3062,10 @@
         "oxide_character": "acidic",
         "period": 3,
         "phase": "solid",
+        "price": {
+            "value": 1.7,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "native",
@@ -3072,7 +3130,7 @@
         }
     },
     "p": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 7000,
@@ -3228,6 +3286,10 @@
         "oxide_character": "acidic",
         "period": 3,
         "phase": "solid",
+        "price": {
+            "value": 2.69,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "vital",
@@ -3297,7 +3359,7 @@
         }
     },
     "s": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 500000,
@@ -3430,6 +3492,10 @@
         "oxide_character": "acidic",
         "period": 3,
         "phase": "solid",
+        "price": {
+            "value": 0.0926,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "native",
@@ -3509,7 +3575,7 @@
         }
     },
     "cl": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 1000,
@@ -3667,6 +3733,10 @@
         "oxide_character": "acidic",
         "period": 3,
         "phase": "gas",
+        "price": {
+            "value": 0.082,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "vital",
@@ -3740,7 +3810,7 @@
         }
     },
     "ar": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 200000,
@@ -3843,6 +3913,10 @@
         "number": 18,
         "period": 3,
         "phase": "gas",
+        "price": {
+            "value": 0.931,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "stable"
@@ -3914,7 +3988,7 @@
         }
     },
     "k": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 3000,
@@ -4066,6 +4140,11 @@
         "oxide_character": "basic",
         "period": 4,
         "phase": "solid",
+        "price": {
+            "value": 12.85,
+            "deviation": 1.5,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "vital",
@@ -4137,7 +4216,7 @@
         }
     },
     "ca": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 70000,
@@ -4295,6 +4374,11 @@
         "oxide_character": "basic",
         "period": 4,
         "phase": "solid",
+        "price": {
+            "value": 2.28,
+            "deviation": 0.14,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "vital",
@@ -4362,7 +4446,7 @@
         }
     },
     "sc": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 30,
@@ -4497,6 +4581,10 @@
         "oxide_character": "basic",
         "period": 4,
         "phase": "solid",
+        "price": {
+            "value": 3460,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "mononuclidic",
@@ -4565,7 +4653,7 @@
         }
     },
     "ti": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 3000,
@@ -4708,6 +4796,11 @@
         "oxide_character": "amphoteric",
         "period": 4,
         "phase": "solid",
+        "price": {
+            "value": 11.4,
+            "deviation": 0.3,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "native",
@@ -4772,7 +4865,7 @@
         }
     },
     "v": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 1000,
@@ -4902,6 +4995,11 @@
         "oxide_character": "amphoteric",
         "period": 4,
         "phase": "solid",
+        "price": {
+            "value": 371,
+            "deviation": 14,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "native",
@@ -4962,7 +5060,7 @@
         }
     },
     "cr": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 15000,
@@ -5092,6 +5190,10 @@
         "oxide_character": "amphoteric",
         "period": 4,
         "phase": "solid",
+        "price": {
+            "value": 9.4,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "native",
@@ -5157,7 +5259,7 @@
         }
     },
     "mn": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 8000,
@@ -5304,6 +5406,10 @@
         "oxide_character": "acidic",
         "period": 4,
         "phase": "solid",
+        "price": {
+            "value": 1.82,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "vital",
@@ -5364,7 +5470,7 @@
         }
     },
     "fe": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 1100000,
@@ -5490,6 +5596,10 @@
         "oxide_character": "basic",
         "period": 4,
         "phase": "solid",
+        "price": {
+            "value": 0.424,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "native",
@@ -5559,7 +5669,7 @@
         }
     },
     "co": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 3000,
@@ -5731,6 +5841,10 @@
         "oxide_character": "basic",
         "period": 4,
         "phase": "solid",
+        "price": {
+            "value": 32.8,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "vital",
@@ -5791,7 +5905,7 @@
         }
     },
     "ni": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 60000,
@@ -5951,6 +6065,10 @@
         "oxide_character": "basic",
         "period": 4,
         "phase": "solid",
+        "price": {
+            "value": 13.9,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "native",
@@ -6015,7 +6133,7 @@
         }
     },
     "cu": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 60,
@@ -6159,6 +6277,10 @@
         "oxide_character": "basic",
         "period": 4,
         "phase": "solid",
+        "price": {
+            "value": 6,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "native",
@@ -6224,7 +6346,7 @@
         }
     },
     "zn": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 300,
@@ -6378,6 +6500,10 @@
         "oxide_character": "amphoteric",
         "period": 4,
         "phase": "solid",
+        "price": {
+            "value": 2.55,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "native",
@@ -6447,7 +6573,7 @@
         }
     },
     "ga": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -6587,6 +6713,10 @@
         "oxide_character": "amphoteric",
         "period": 4,
         "phase": "solid",
+        "price": {
+            "value": 148,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "stable",
@@ -6653,7 +6783,7 @@
         }
     },
     "ge": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 200,
@@ -6770,6 +6900,11 @@
         "oxide_character": "amphoteric",
         "period": 4,
         "phase": "solid",
+        "price": {
+            "value": 962,
+            "deviation": 48,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "stable",
@@ -6836,7 +6971,7 @@
         }
     },
     "as": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 8,
@@ -6978,6 +7113,11 @@
         "oxide_character": "amphoteric",
         "period": 4,
         "phase": "solid",
+        "price": {
+            "value": 1.15,
+            "deviation": 0.16,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "native",
@@ -7051,7 +7191,7 @@
         }
     },
     "se": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 30,
@@ -7205,6 +7345,10 @@
         "oxide_character": "acidic",
         "period": 4,
         "phase": "solid",
+        "price": {
+            "value": 21.4,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "native",
@@ -7281,7 +7425,7 @@
         }
     },
     "br": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 7,
@@ -7424,6 +7568,10 @@
         "oxide_character": "acidic",
         "period": 4,
         "phase": "liquid",
+        "price": {
+            "value": 4.39,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "vital",
@@ -7510,7 +7658,7 @@
         }
     },
     "kr": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 40,
@@ -7616,6 +7764,10 @@
         "number": 36,
         "period": 4,
         "phase": "gas",
+        "price": {
+            "value": 290,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "stable"
@@ -7684,7 +7836,7 @@
         }
     },
     "rb": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -7836,6 +7988,10 @@
         "oxide_character": "basic",
         "period": 5,
         "phase": "solid",
+        "price": {
+            "value": 15500,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "stable",
@@ -7913,7 +8069,7 @@
         }
     },
     "sr": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 40,
@@ -8056,6 +8212,11 @@
         "oxide_character": "basic",
         "period": 5,
         "phase": "solid",
+        "price": {
+            "value": 6.61,
+            "deviation": 0.08,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "stable",
@@ -8123,7 +8284,7 @@
         }
     },
     "y": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 7,
@@ -8261,6 +8422,10 @@
         "oxide_character": "basic",
         "period": 5,
         "phase": "solid",
+        "price": {
+            "value": 31,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "mononuclidic",
@@ -8326,7 +8491,7 @@
         }
     },
     "zr": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 50,
@@ -8475,6 +8640,11 @@
         "oxide_character": "amphoteric",
         "period": 5,
         "phase": "solid",
+        "price": {
+            "value": 36.4,
+            "deviation": 0.7,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "stable",
@@ -8539,7 +8709,7 @@
         }
     },
     "nb": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -8680,6 +8850,11 @@
         "oxide_character": "amphoteric",
         "period": 5,
         "phase": "solid",
+        "price": {
+            "value": 73.5,
+            "deviation": 12.1,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "mononuclidic",
@@ -8745,7 +8920,7 @@
         }
     },
     "mo": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 5,
@@ -8875,6 +9050,10 @@
         "oxide_character": "amphoteric",
         "period": 5,
         "phase": "solid",
+        "price": {
+            "value": 40.1,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "native",
@@ -8941,7 +9120,7 @@
         }
     },
     "tc": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "appearance": {
             "en": "shiny gray metal",
             "de": "silbrig grau metallisch"
@@ -9015,6 +9194,10 @@
         "oxide_character": "acidic",
         "period": 5,
         "phase": "solid",
+        "price": {
+            "value": 100000,
+            "unit": "USD"
+        },
         "properties": [
             "heavy",
             "radioactive",
@@ -9080,7 +9263,7 @@
         }
     },
     "ru": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 4,
@@ -9210,6 +9393,11 @@
         "oxide_character": "basic",
         "period": 5,
         "phase": "solid",
+        "price": {
+            "value": 10500,
+            "deviation": 100,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "native",
@@ -9271,7 +9459,7 @@
         }
     },
     "rh": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 0.6,
@@ -9407,6 +9595,10 @@
         "oxide_character": "basic",
         "period": 5,
         "phase": "solid",
+        "price": {
+            "value": 147000,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "native",
@@ -9474,7 +9666,7 @@
         }
     },
     "pd": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -9614,6 +9806,10 @@
         "oxide_character": "basic",
         "period": 5,
         "phase": "solid",
+        "price": {
+            "value": 49500,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "native",
@@ -9683,7 +9879,7 @@
         }
     },
     "ag": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 0.6,
@@ -9832,6 +10028,10 @@
         "oxide_character": "basic",
         "period": 5,
         "phase": "solid",
+        "price": {
+            "value": 521,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "native",
@@ -9898,7 +10098,7 @@
         }
     },
     "cd": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -10068,6 +10268,10 @@
         "oxide_character": "basic",
         "period": 5,
         "phase": "solid",
+        "price": {
+            "value": 2.73,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "native",
@@ -10136,7 +10340,7 @@
         }
     },
     "in": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 0.3,
@@ -10270,6 +10474,10 @@
         "oxide_character": "amphoteric",
         "period": 5,
         "phase": "solid",
+        "price": {
+            "value": 167,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "native",
@@ -10346,7 +10554,7 @@
         }
     },
     "sn": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 4,
@@ -10470,6 +10678,10 @@
         "oxide_character": "amphoteric",
         "period": 5,
         "phase": "solid",
+        "price": {
+            "value": 18.7,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "native",
@@ -10540,7 +10752,7 @@
         }
     },
     "sb": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 0.4,
@@ -10677,6 +10889,10 @@
         "oxide_character": "amphoteric",
         "period": 5,
         "phase": "solid",
+        "price": {
+            "value": 5.79,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "native",
@@ -10745,7 +10961,7 @@
         }
     },
     "te": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 9,
@@ -10885,6 +11101,10 @@
         "oxide_character": "acidic",
         "period": 5,
         "phase": "solid",
+        "price": {
+            "value": 63.5,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "native",
@@ -10954,7 +11174,7 @@
         }
     },
     "i": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -11120,6 +11340,10 @@
         "oxide_character": "acidic",
         "period": 5,
         "phase": "solid",
+        "price": {
+            "value": 35,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "vital",
@@ -11204,7 +11428,7 @@
         }
     },
     "xe": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -11325,6 +11549,10 @@
         "oxide_character": "acidic",
         "period": 5,
         "phase": "gas",
+        "price": {
+            "value": 1800,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "stable"
@@ -11394,7 +11622,7 @@
         }
     },
     "cs": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 0.8,
@@ -11545,6 +11773,10 @@
         "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
+        "price": {
+            "value": 61800,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "mononuclidic",
@@ -11622,7 +11854,7 @@
         }
     },
     "ba": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -11779,6 +12011,11 @@
         "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
+        "price": {
+            "value": 0.26,
+            "deviation": 0.015,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "stable",
@@ -11847,7 +12084,7 @@
         }
     },
     "la": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -11991,6 +12228,11 @@
         "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
+        "price": {
+            "value": 4.85,
+            "deviation": 0.07,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "stable",
@@ -12052,7 +12294,7 @@
         }
     },
     "ce": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -12201,6 +12443,11 @@
         "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
+        "price": {
+            "value": 4.64,
+            "deviation": 0.07,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "stable",
@@ -12262,7 +12509,7 @@
         }
     },
     "pr": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -12407,6 +12654,10 @@
         "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
+        "price": {
+            "value": 103,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "mononuclidic",
@@ -12469,7 +12720,7 @@
         }
     },
     "nd": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -12615,6 +12866,10 @@
         "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
+        "price": {
+            "value": 57.5,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "stable",
@@ -12676,7 +12931,7 @@
         }
     },
     "pm": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "sun": {
                 "value": 0.005,
@@ -12764,6 +13019,10 @@
         "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
+        "price": {
+            "value": 460000,
+            "unit": "USD"
+        },
         "properties": [
             "heavy",
             "rare",
@@ -12822,7 +13081,7 @@
         }
     },
     "sm": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 5,
@@ -12968,6 +13227,10 @@
         "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
+        "price": {
+            "value": 13.9,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "stable",
@@ -13024,7 +13287,7 @@
         }
     },
     "eu": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -13164,6 +13427,10 @@
         "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
+        "price": {
+            "value": 31.4,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "stable",
@@ -13225,7 +13492,7 @@
         }
     },
     "gd": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -13365,6 +13632,10 @@
         "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
+        "price": {
+            "value": 28.6,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "stable",
@@ -13421,7 +13692,7 @@
         }
     },
     "tb": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -13544,6 +13815,10 @@
         "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
+        "price": {
+            "value": 658,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "mononuclidic",
@@ -13601,7 +13876,7 @@
         }
     },
     "dy": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -13741,6 +14016,10 @@
         "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
+        "price": {
+            "value": 307,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "stable",
@@ -13802,7 +14081,7 @@
         }
     },
     "ho": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -13938,6 +14217,10 @@
         "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
+        "price": {
+            "value": 57.1,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "mononuclidic",
@@ -14000,7 +14283,7 @@
         }
     },
     "er": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -14140,6 +14423,10 @@
         "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
+        "price": {
+            "value": 26.4,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "stable",
@@ -14201,7 +14488,7 @@
         }
     },
     "tm": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 0.1,
@@ -14346,6 +14633,10 @@
         "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
+        "price": {
+            "value": 3000,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "mononuclidic",
@@ -14408,7 +14699,7 @@
         }
     },
     "yb": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -14557,6 +14848,10 @@
         "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
+        "price": {
+            "value": 17.1,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "stable",
@@ -14618,7 +14913,7 @@
         }
     },
     "lu": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 0.1,
@@ -14756,6 +15051,10 @@
         "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
+        "price": {
+            "value": 643,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "stable",
@@ -14821,7 +15120,7 @@
         }
     },
     "hf": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 0.7,
@@ -14958,6 +15257,10 @@
         "oxide_character": "amphoteric",
         "period": 6,
         "phase": "solid",
+        "price": {
+            "value": 900,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "stable",
@@ -15023,7 +15326,7 @@
         }
     },
     "ta": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 0.08,
@@ -15160,6 +15463,11 @@
         "oxide_character": "amphoteric",
         "period": 6,
         "phase": "solid",
+        "price": {
+            "value": 305,
+            "deviation": 7,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "stable",
@@ -15225,7 +15533,7 @@
         }
     },
     "w": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -15371,6 +15679,10 @@
         "oxide_character": "amphoteric",
         "period": 6,
         "phase": "solid",
+        "price": {
+            "value": 35.3,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "native",
@@ -15438,7 +15750,7 @@
         }
     },
     "re": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 0.2,
@@ -15575,6 +15887,11 @@
         "oxide_character": "acidic",
         "period": 6,
         "phase": "solid",
+        "price": {
+            "value": 3580,
+            "deviation": 570,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "stable",
@@ -15639,7 +15956,7 @@
         }
     },
     "os": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 3,
@@ -15770,6 +16087,10 @@
         "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
+        "price": {
+            "value": 12000,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "native",
@@ -15837,7 +16158,7 @@
         }
     },
     "ir": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -15972,6 +16293,11 @@
         "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
+        "price": {
+            "value": 55850,
+            "deviation": 350,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "native",
@@ -16039,7 +16365,7 @@
         }
     },
     "pt": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 5,
@@ -16156,6 +16482,10 @@
         "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
+        "price": {
+            "value": 27800,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "native",
@@ -16223,7 +16553,7 @@
         }
     },
     "au": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 0.6,
@@ -16349,6 +16679,10 @@
         "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
+        "price": {
+            "value": 44800,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "native",
@@ -16417,7 +16751,7 @@
         }
     },
     "hg": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -16569,6 +16903,10 @@
         "oxide_character": "basic",
         "period": 6,
         "phase": "liquid",
+        "price": {
+            "value": 30.2,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "native",
@@ -16656,7 +16994,7 @@
         }
     },
     "tl": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -16805,6 +17143,10 @@
         "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
+        "price": {
+            "value": 4200,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "stable",
@@ -16877,7 +17219,7 @@
         }
     },
     "pb": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -17039,6 +17381,10 @@
         "oxide_character": "amphoteric",
         "period": 6,
         "phase": "solid",
+        "price": {
+            "value": 2,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "native",
@@ -17113,7 +17459,7 @@
         }
     },
     "bi": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 0.7,
@@ -17249,6 +17595,10 @@
         "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
+        "price": {
+            "value": 6.36,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "native",
@@ -18080,7 +18430,7 @@
         }
     },
     "th": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 0.4,
@@ -18205,6 +18555,10 @@
         "oxide_character": "basic",
         "period": 7,
         "phase": "solid",
+        "price": {
+            "value": 287,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "mononuclidic",
@@ -18405,7 +18759,7 @@
         }
     },
     "u": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "abundance": {
             "universe": {
                 "value": 0.2,
@@ -18561,6 +18915,10 @@
         "oxide_character": "basic",
         "period": 7,
         "phase": "solid",
+        "price": {
+            "value": 101,
+            "unit": "USD"
+        },
         "properties": [
             "natural",
             "heavy",
@@ -18629,7 +18987,7 @@
         }
     },
     "np": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-15T17:52:40.444Z",
         "appearance": {
             "en": "silvery metallic",
             "de": "silbrig"
@@ -18697,6 +19055,10 @@
         "oxide_character": "basic",
         "period": 7,
         "phase": "solid",
+        "price": {
+            "value": 660000,
+            "unit": "USD"
+        },
         "properties": [
             "heavy",
             "radioactive",
