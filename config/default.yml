@@ -148,6 +148,9 @@ site:
     radioactive, natural, native, vital, mononuclidic, stable, noble, semiconductor,
     light, heavy, rare, platinum, refractory, artificial, synthetic, antiquity
   ]
+  abundances: [
+    universe
+  ]
 
 maintenance:
   databases: [ elements, isotopes, spectral ]
