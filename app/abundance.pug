@@ -11,6 +11,9 @@ block social
   meta( property="og:title", content= title )/
   meta( property="og:description", content= description )/
 
+block scripts
+  script( src="/js/tablesort.min.js" )
+
 block styles
   link( rel="stylesheet", href="/css/abundance.css" )/
 
@@ -19,6 +22,7 @@ block content
     include templates/breadcrumbs.pug
     h1!= title
     p.pt-page-intro!= description
+    //- abundance chart
     div.pt-abundance-chart
       - let i = 0
       each value, el in abundance.results
@@ -33,3 +37,29 @@ block content
               style='--pct:' + Math.max( 4, ( Math.log10( value ) / 9 * 100 ) ) + '%'
             )
           div.pt-abundance-chart-label= elements[ el ].symbol
+    //- abundance table
+    table.pt-prop-table.zebra.sortable.pt-abundance-table
+      thead
+        tr.pt-prop-table-row
+          th.pt-prop-table-label(
+            colspan="2",
+            sort-key="number"
+          )!= __( 'element' )
+          th.pt-prop-table-label.sort(
+            colspan="2",
+            sort-key="x"
+            sort-dir="asc"
+          )!= __( 'abundance-title' )
+      tbody
+        each value, el in abundance.results
+          tr.pt-prop-table-row(
+            sort-value--number= elements[ el ].number,
+            sort-value--x= value
+          )
+            td.pt-prop-table-value.mini!= '<sub>' + elements[ el ].number + '</sub>' + elements[ el ].symbol
+            td.pt-prop-table-value
+              a( href='/e/' + elements[ el ].symbol )!= elements[ el ].names[ locale ]
+            td.pt-prop-table-value.right
+              span!= core.fNumber( elements[ el ].abundance[ abundance.type ], locale )
+            td.pt-prop-table-value.right
+              span!= core.fNumber( { value: value / 1e7, unit: '%' }, locale )
