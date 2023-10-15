@@ -148,9 +148,21 @@ site:
     radioactive, natural, native, vital, mononuclidic, stable, noble, semiconductor,
     light, heavy, rare, platinum, refractory, artificial, synthetic, antiquity
   ]
-  abundances: [
-    universe, sun, meteorite, crust, water, stream, human
-  ]
+  abundances:
+    universe:
+      mass: 2.0e+49
+    sun:
+      mass: 1.989e+30
+    meteorite:
+      mass: 1.0e+3
+    crust:
+      mass: 2.77e+22
+    water:
+      mass: 1.37e+18
+    stream:
+      mass: 1.6e+16
+    human:
+      mass: 62.0
 
 maintenance:
   databases: [ elements, isotopes, spectral ]

@@ -579,7 +579,7 @@ routes.routes.forEach( ( route ) => {
 
                     /* check if given abundance exists */
 
-                    if( _url.length == 2 && config.get( 'site.abundances' ).includes( _url[1] ) ) {
+                    if( _url.length == 2 && _url[1] in config.get( 'site.abundances' ) ) {
 
                         /* fetch abundance results */
 
@@ -601,6 +601,7 @@ routes.routes.forEach( ( route ) => {
 
                             res.locals.abundance = {
                                 type: _url[1],
+                                mass: config.get( 'site.abundances' )[ _url[1] ].mass,
                                 results: Object.entries( results )
                                     .sort( ( [ ,a ], [ ,b ] ) => b - a )
                                     .reduce( ( r, [ k, v ] ) => ( { ...r, [k]: v } ), {} )

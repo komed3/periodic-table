@@ -50,11 +50,17 @@ block content
             sort-key="x"
             sort-dir="asc"
           )!= __( 'abundance-title' )
+          th.pt-prop-table-label(
+            sort-key="mass"
+          )!= __( 'mass' )
       tbody
         each value, el in abundance.results
           tr.pt-prop-table-row(
             sort-value--number= elements[ el ].number,
-            sort-value--x= value
+            sort-value--x= value,
+            sort-value--mass= (
+              mass = value / 1e9 * abundance.mass
+            )
           )
             td.pt-prop-table-value.mini!= '<sub>' + elements[ el ].number + '</sub>' + elements[ el ].symbol
             td.pt-prop-table-value
@@ -63,3 +69,5 @@ block content
               span!= core.fNumber( elements[ el ].abundance[ abundance.type ], locale )
             td.pt-prop-table-value.right
               span!= core.fNumber( { value: value / 1e7, unit: '%' }, locale )
+            td.pt-prop-table-value.right
+              span!= core.fWeight( mass, locale )[0]

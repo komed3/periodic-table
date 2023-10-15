@@ -10,7 +10,7 @@ block content
     h1!= __( 'abundances-title' )
     p.pt-page-intro!= __( 'abundances-description' )
     div.pt-lists
-      each abundance in config.abundances
+      each abundance in Object.keys( config.abundances )
         div.pt-lists-item
           h3.pt-lists-item-title
             a( href='/abundance/' + abundance )!= __( abundance + '-abundance' )
