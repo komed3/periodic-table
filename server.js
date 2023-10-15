@@ -581,28 +581,55 @@ routes.routes.forEach( ( route ) => {
 
                     if( _url.length == 2 && config.get( 'site.abundances' ).includes( _url[1] ) ) {
 
-                        res.locals.abundance = _url[1];
+                        /* fetch abundance results */
 
-                        /* nav URL */
+                        let results = {};
 
-                        res.locals.navURL = '/abundances';
+                        for( const [ _k, el ] of Object.entries( elements ) ) {
 
-                        /* breadcrumbs */
+                            if( 'abundance' in el && _url[1] in el.abundance ) {
 
-                        res.locals.breadcrumbs.push( [
-                            '/sitemap',
-                            req.__( 'sitemap' )
-                        ] );
+                                results[ _k ] = el.abundance[ _url[1] ].value;
 
-                        res.locals.breadcrumbs.push( [
-                            '/abundances',
-                            req.__( 'abundances-title' )
-                        ] );
+                            }
 
-                        res.locals.breadcrumbs.push( [
-                            '/abundance/' + _url[1],
-                            req.__( _url[1] + '-abundance' )
-                        ] );
+                        }
+
+                        /* if abundance has items */
+
+                        if( Object.keys( results ).length ) {
+
+                            res.locals.abundance = {
+                                type: _url[1],
+                                results: Object.entries( results )
+                                    .sort( ( [ ,a ], [ ,b ] ) => b - a )
+                                    .reduce( ( r, [ k, v ] ) => ( { ...r, [k]: v } ), {} )
+                            };
+
+                            /* nav URL */
+
+                            res.locals.navURL = '/abundances';
+
+                            /* breadcrumbs */
+
+                            res.locals.breadcrumbs.push( [
+                                '/sitemap',
+                                req.__( 'sitemap' )
+                            ] );
+
+                            res.locals.breadcrumbs.push( [
+                                '/abundances',
+                                req.__( 'abundances-title' )
+                            ] );
+
+                            res.locals.breadcrumbs.push( [
+                                '/abundance/' + _url[1],
+                                req.__( _url[1] + '-abundance' )
+                            ] );
+
+                        }
+
+                        //
 
                     } else {
 
