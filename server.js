@@ -412,6 +412,13 @@ routes.routes.forEach( ( route ) => {
                                     return a.scale.x > b.scale.x ? a : b;
                                 } ).scale.x;
 
+                                if( scale.log ) {
+
+                                    scale.min = Math.log( scale.min );
+                                    scale.max = Math.log( scale.max );
+
+                                }
+
                             }
 
                             if( scale.step == undefined ) {
@@ -424,7 +431,10 @@ routes.routes.forEach( ( route ) => {
 
                             for( const [ _k, res ] of Object.entries( scale.results ) ) {
 
-                                let val = ( res.scale.x - scale.min ) / scale.step;
+                                let val = ( ( scale.log
+                                    ? Math.log( res.scale.x )
+                                    : res.scale.x
+                                ) - scale.min ) / scale.step;
 
                                 switch( scale.round ) {
 
