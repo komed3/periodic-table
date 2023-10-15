@@ -341,6 +341,9 @@
 	"pictogram-title": "Piktogramme",
 	"poisson-elastic": "Poissonzahl",
 	"poisson-elastic-description": "Nach Siméon Denis Poisson benannter Materialkennwert, welcher der Berechnung des Verformungsverhaltens von Bauteilen unter mechanischer Beanspruchung dient. Sie ist auch ein Maß für die Kompressibilität der Werkstoffe und eine der elastischen Konstanten eines Materials.",
+	"price": "Preis",
+	"price-description": "Gemittelte Preise am Markt pro Kilogramm eines chemischen Elements in US-Dollar. Markt- und Tagesabweichungen nicht berechnet; Stand der Daten vor 2020.",
+	"price-kg": "Preis/kg",
 	"print": "Drucken",
 	"privacy-title": "Datenschutz",
 	"prop-antiquity": "Element der Antike",
@@ -496,6 +499,5 @@
 	"weblinks": "Weiterführende Links",
 	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" target=\"_blank\">Weiterlesen …</a>",
 	"young-elastic": "Youngscher Modul",
-	"young-elastic-description": "Der nach Thomas Young benannte Materialkennwert beschreibt bei linear-elastischem Verhalten den proportionalen Zusammenhang zwischen Spannung und Dehnung bei der Verformung eines festen Körpers.",
-	"price-kg": "Preis/kg"
+	"young-elastic-description": "Der nach Thomas Young benannte Materialkennwert beschreibt bei linear-elastischem Verhalten den proportionalen Zusammenhang zwischen Spannung und Dehnung bei der Verformung eines festen Körpers."
 }

@@ -144,6 +144,11 @@ site:
       label: allen-negativity
       scheme: _warm
       scaling: false
+    price:
+      key: price
+      label: price
+      scheme: _ice
+      log: true
   props: [
     radioactive, natural, native, vital, mononuclidic, stable, noble, semiconductor,
     light, heavy, rare, platinum, refractory, artificial, synthetic, antiquity
