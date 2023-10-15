@@ -496,5 +496,6 @@
 	"weblinks": "Weiterführende Links",
 	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" target=\"_blank\">Weiterlesen …</a>",
 	"young-elastic": "Youngscher Modul",
-	"young-elastic-description": "Der nach Thomas Young benannte Materialkennwert beschreibt bei linear-elastischem Verhalten den proportionalen Zusammenhang zwischen Spannung und Dehnung bei der Verformung eines festen Körpers."
+	"young-elastic-description": "Der nach Thomas Young benannte Materialkennwert beschreibt bei linear-elastischem Verhalten den proportionalen Zusammenhang zwischen Spannung und Dehnung bei der Verformung eines festen Körpers.",
+	"price-kg": "Preis/kg"
 }

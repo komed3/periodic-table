@@ -243,6 +243,11 @@ block content
                 th.pt-prop-table-label
                   a( href="/scale/sc_temp" )!= __( 'sc_temp' )
                 td.pt-prop-table-value!= core.fNumber( element.sc_temp, locale )
+            if element.price
+              tr.pt-prop-table-row
+                th.pt-prop-table-label
+                  a( href="/scale/price" )!= __( 'price-kg' )
+                td.pt-prop-table-value!= core.fNumber( element.price, locale )
             tr.pt-prop-table-row
               th.pt-prop-table-label!= __( 'properties' )
               td.pt-prop-table-value.pt-prop-table-list
