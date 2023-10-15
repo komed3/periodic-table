@@ -50,9 +50,9 @@ block content
             sort-key="x"
             sort-dir="asc"
           )!= __( 'abundance-title' )
-          th.pt-prop-table-label(
+          th.pt-prop-table-label.right(
             sort-key="mass"
-          )!= __( 'mass' )
+          )!= __( 'abundance-mass', core.fWeight( abundance.mass, locale )[0] )
       tbody
         each value, el in abundance.results
           tr.pt-prop-table-row(
