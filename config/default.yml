@@ -162,7 +162,7 @@ site:
     stream:
       mass: 1.6e+16
     human:
-      mass: 62.0
+      mass: 70.0
 
 maintenance:
   databases: [ elements, isotopes, spectral ]
