@@ -2,8 +2,8 @@
 extends layout.pug
 
 block title
-  - var title = __( 'abundance-of', __( abundance + '-abundance' ) )
-  - var description = __( abundance + '-abundance-description' )
+  - var title = __( 'abundance-of', __( abundance.type + '-abundance' ) )
+  - var description = __( abundance.type + '-abundance-description' )
   title= title + ' — ' + __( 'title' )
   meta( name="description", content= description )/
 
@@ -11,39 +11,25 @@ block social
   meta( property="og:title", content= title )/
   meta( property="og:description", content= description )/
 
-block scripts
-  script( src="/js/tablesort.min.js" )
+block styles
+  link( rel="stylesheet", href="/css/abundance.css" )/
 
 block content
-  div.pt-page.pt-box
+  div.pt-page.pt-box.pt-abundance
     include templates/breadcrumbs.pug
     h1!= title
     p.pt-page-intro!= description
-    //table.pt-prop-table.zebra.sortable.pt-abundance-table
-      thead
-        tr.pt-prop-table-row
-          th.pt-prop-table-label.sort(
-            colspan="2",
-            sort-key="number"
-          )!= __( 'element' )
-          each abundance in abundances
-            th.pt-prop-table-label(
-                sort-key= abundance
-            )!= __( abundance + '-abundance' )
-      tbody
-        each el, k in elements
-          if el.abundance
-            tr.pt-prop-table-row.pt-el(
-                sort-value--number= el.number
+    div.pt-abundance-chart
+      - let i = 0
+      each value, el in abundance.results
+        if ++i > 32
+          - break
+        a.pt-abundance-chart-item(
+          href= '/e/' + elements[ el ].symbol,
+          title= elements[ el ].names[ locale ]
+        )
+          div.pt-abundance-chart-column
+            div.pt-abundance-chart-column-inner(
+              style='--pct:' + Math.max( 4, ( Math.log10( value ) / 9 * 100 ) ) + '%'
             )
-              td.pt-prop-table-value.mini
-                sub!= el.number
-                span!= el.symbol
-              td.pt-prop-table-value
-                a( href='/e/' + el.symbol )!= el.names[ locale ]
-              each abundance in abundances
-                td.pt-prop-table-value
-                  if abundance in el.abundance
-                    span!= core.fNumber( el.abundance[ abundance ], locale )
-                  else
-                    span!= __( 'undefined' )
+          div.pt-abundance-chart-label= elements[ el ].symbol
