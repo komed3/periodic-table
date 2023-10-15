@@ -36,3 +36,10 @@ block content
           h3.pt-lists-item-title
             a( href='/prop/' + prop )!= __( 'prop-' + prop )
           p.pt-lists-item-desc!= __( 'prop-' + prop + '-description' )
+    h2!= __( 'abundances-title' )
+    div.pt-lists
+      each abundance in config.abundances
+        div.pt-lists-item
+          h3.pt-lists-item-title
+            a( href='/abundance/' + abundance )!= __( abundance + '-abundance' )
+          p.pt-lists-item-desc!= __( abundance + '-abundance-description' )

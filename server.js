@@ -184,6 +184,22 @@ routes.routes.forEach( ( route ) => {
 
                     break;
 
+                case 'abundances':
+
+                    /* breadcrumbs */
+
+                    res.locals.breadcrumbs.push( [
+                        '/sitemap',
+                        req.__( 'sitemap' )
+                    ] );
+
+                    res.locals.breadcrumbs.push( [
+                        '/abundances',
+                        req.__( 'abundances-title' )
+                    ] );
+
+                    break;
+
                 case 'abundance':
 
                     /* check if given abundance exists */

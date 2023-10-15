@@ -2,7 +2,6 @@
 	"404-description": "Die angeforderte Seite konnte leider nicht gefunden werden. Möglicherweise wurden die Inhalte gelöscht, zu einer anderen URL verschoben oder die Anfrage enthält einen Tippfehler.",
 	"404-title": "Seite nicht gefunden",
 	"@modified": "Zuletzt bearbeitet am %s",
-	"abundance-description": "",
 	"abundance-of": "Natürliche Häufigkeit: %s",
 	"abundance-title": "Natürliche Häufigkeit",
 	"activity-description": "Berechnung der Aktivität eines Nuklids mit bestimmter Masse nach gegebener Zeit.",
@@ -488,6 +487,13 @@
 	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" target=\"_blank\">Weiterlesen …</a>",
 	"young-elastic": "Youngscher Modul",
 	"young-elastic-description": "Der nach Thomas Young benannte Materialkennwert beschreibt bei linear-elastischem Verhalten den proportionalen Zusammenhang zwischen Spannung und Dehnung bei der Verformung eines festen Körpers.",
-	"universe-abundance-description": "universe-abundance-description",
-	"abundances-title": "Natürliche Häufigkeiten"
+	"universe-abundance-description": "",
+	"abundances-title": "Natürliche Häufigkeiten",
+	"abundances-description": "",
+	"sun-abundance-description": "",
+	"meteorite-abundance-description": "",
+	"crust-abundance-description": "",
+	"water-abundance-description": "",
+	"stream-abundance-description": "",
+	"human-abundance-description": ""
 }
