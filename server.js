@@ -184,56 +184,6 @@ routes.routes.forEach( ( route ) => {
 
                     break;
 
-                case 'abundances':
-
-                    /* breadcrumbs */
-
-                    res.locals.breadcrumbs.push( [
-                        '/sitemap',
-                        req.__( 'sitemap' )
-                    ] );
-
-                    res.locals.breadcrumbs.push( [
-                        '/abundances',
-                        req.__( 'abundances-title' )
-                    ] );
-
-                    break;
-
-                case 'abundance':
-
-                    /* check if given abundance exists */
-
-                    if( _url.length == 2 && config.get( 'site.abundances' ).includes( _url[1] ) ) {
-
-                        res.locals.abundance = _url[1];
-
-                        /* breadcrumbs */
-
-                        res.locals.breadcrumbs.push( [
-                            '/sitemap',
-                            req.__( 'sitemap' )
-                        ] );
-
-                        res.locals.breadcrumbs.push( [
-                            '/abundances',
-                            req.__( 'abundances-title' )
-                        ] );
-
-                        res.locals.breadcrumbs.push( [
-                            '/abundance/' + _url[1],
-                            req.__( _url[1] + '-abundance' )
-                        ] );
-
-                    } else {
-
-                        res.redirect( '/abundances' );
-                        return ;
-
-                    }
-
-                    break;
-
                 case 'element':
 
                     /* check if given element exists in DB */
@@ -603,6 +553,60 @@ routes.routes.forEach( ( route ) => {
                     } else {
 
                         res.redirect( '/' );
+                        return ;
+
+                    }
+
+                    break;
+
+                case 'abundances':
+
+                    /* breadcrumbs */
+
+                    res.locals.breadcrumbs.push( [
+                        '/sitemap',
+                        req.__( 'sitemap' )
+                    ] );
+
+                    res.locals.breadcrumbs.push( [
+                        '/abundances',
+                        req.__( 'abundances-title' )
+                    ] );
+
+                    break;
+
+                case 'abundance':
+
+                    /* check if given abundance exists */
+
+                    if( _url.length == 2 && config.get( 'site.abundances' ).includes( _url[1] ) ) {
+
+                        res.locals.abundance = _url[1];
+
+                        /* nav URL */
+
+                        res.locals.navURL = '/abundances';
+
+                        /* breadcrumbs */
+
+                        res.locals.breadcrumbs.push( [
+                            '/sitemap',
+                            req.__( 'sitemap' )
+                        ] );
+
+                        res.locals.breadcrumbs.push( [
+                            '/abundances',
+                            req.__( 'abundances-title' )
+                        ] );
+
+                        res.locals.breadcrumbs.push( [
+                            '/abundance/' + _url[1],
+                            req.__( _url[1] + '-abundance' )
+                        ] );
+
+                    } else {
+
+                        res.redirect( '/abundances' );
                         return ;
 
                     }
