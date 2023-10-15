@@ -149,7 +149,7 @@ site:
     light, heavy, rare, platinum, refractory, artificial, synthetic, antiquity
   ]
   abundances: [
-    universe
+    universe, sun, meteorite, crust, water, stream, human
   ]
 
 maintenance:
