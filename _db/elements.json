@@ -65,37 +65,27 @@
         },
         "column": 1,
         "crystal_structure": "hex",
-        "density": {
-            "value": 0.0000899,
-            "unit": "g·cm[−3]",
+        "density": [ {
+            "label": "gas",
+            "value": 0.0899,
+            "unit": "kg·m[−3]",
             "condition": [
                 {
                     "value": 273,
                     "unit": "K"
                 }
-            ],
-            "variation": [ {
-                "label": "phase-gas",
-                "value": 0.0899,
-                "unit": "kg·m[−3]",
-                "condition": [
-                    {
-                        "value": 273,
-                        "unit": "K"
-                    }
-                ]
-            }, {
-                "label": "phase-liquid",
-                "value": 0.0709,
-                "unit": "kg·l[−1]",
-                "condition": [
-                    {
-                        "value": 20.324,
-                        "unit": "K"
-                    }
-                ]
-            } ]
-        },
+            ]
+        }, {
+            "label": "liquid",
+            "value": 0.0709,
+            "unit": "kg·l[−1]",
+            "condition": [
+                {
+                    "value": 20.324,
+                    "unit": "K"
+                }
+            ]
+        } ],
         "discovery": {
             "by": "Cavendish",
             "value": 1766
