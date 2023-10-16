@@ -1,6 +1,6 @@
 {
     "h": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 750000000,
@@ -66,7 +66,7 @@
         "column": 1,
         "crystal_structure": "hex",
         "density": {
-            "value": 8.988,
+            "value": 0.0000899,
             "unit": "g·cm[−3]",
             "phases": {
                 "gas": {
@@ -89,7 +89,13 @@
                         }
                     ]
                 }
-            }
+            },
+            "condition": [
+                {
+                    "value": 273,
+                    "unit": "K"
+                }
+            ]
         },
         "discovery": {
             "by": "Cavendish",
@@ -368,7 +374,7 @@
         }
     },
     "he": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 230000000,
@@ -420,6 +426,10 @@
         },
         "column": 32,
         "crystal_structure": "hcp",
+        "density": {
+            "value": 0.0001785,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "Ramsay, Crookes",
             "value": 1895
@@ -574,7 +584,7 @@
         }
     },
     "li": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 6,
@@ -634,6 +644,16 @@
         },
         "column": 1,
         "crystal_structure": "bcc",
+        "density": {
+            "value": 0.534,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Arfwedson",
             "value": 1817
@@ -821,7 +841,7 @@
         }
     },
     "be": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -881,6 +901,16 @@
         },
         "column": 2,
         "crystal_structure": "hcp",
+        "density": {
+            "value": 1.848,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Vauquelin",
             "value": 1797
@@ -1071,7 +1101,7 @@
         }
     },
     "b": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -1131,6 +1161,10 @@
         },
         "column": 27,
         "crystal_structure": "rho",
+        "density": {
+            "value": 2.35,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "Davy, Gay-Lussac",
             "value": 1808
@@ -1292,7 +1326,7 @@
         }
     },
     "c": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 5000000,
@@ -1361,6 +1395,10 @@
         },
         "column": 28,
         "crystal_structure": "hex",
+        "density": {
+            "value": 2.26,
+            "unit": "g·cm[−3]"
+        },
         "elastic": {
             "bulk": {
                 "value": 33,
@@ -1485,7 +1523,7 @@
         }
     },
     "n": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 1000000,
@@ -1545,6 +1583,16 @@
         },
         "column": 29,
         "crystal_structure": "hex",
+        "density": {
+            "value": 0.00125,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 273.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Scheele",
             "value": 1771
@@ -1697,7 +1745,7 @@
         }
     },
     "o": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 10000000,
@@ -1762,6 +1810,16 @@
         },
         "column": 30,
         "crystal_structure": "sc",
+        "density": {
+            "value": 0.001429,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 273.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Priestley, Scheele",
             "value": 1774
@@ -1937,7 +1995,7 @@
         }
     },
     "f": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 400,
@@ -1997,6 +2055,16 @@
         },
         "column": 31,
         "crystal_structure": "sc",
+        "density": {
+            "value": 0.0016965,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 273,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Moissan",
             "value": 1886
@@ -2171,7 +2239,7 @@
         }
     },
     "ne": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 1300000,
@@ -2218,6 +2286,16 @@
         },
         "column": 32,
         "crystal_structure": "fcc",
+        "density": {
+            "value": 0.0009,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 273,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Ramsay, Travers",
             "value": 1898
@@ -2351,7 +2429,7 @@
         }
     },
     "na": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 20000,
@@ -2411,6 +2489,16 @@
         },
         "column": 1,
         "crystal_structure": "bcc",
+        "density": {
+            "value": 0.968,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Davy",
             "value": 1807
@@ -2599,7 +2687,7 @@
         }
     },
     "mg": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 600000,
@@ -2664,6 +2752,16 @@
         },
         "column": 2,
         "crystal_structure": "hcp",
+        "density": {
+            "value": 1.738,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Bussy",
             "value": 1828
@@ -2845,7 +2943,7 @@
         }
     },
     "al": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 50000,
@@ -2905,6 +3003,16 @@
         },
         "column": 27,
         "crystal_structure": "fcc",
+        "density": {
+            "value": 2.6989,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Ørsted",
             "value": 1825
@@ -3073,7 +3181,7 @@
         }
     },
     "si": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 700000,
@@ -3133,6 +3241,16 @@
         },
         "column": 28,
         "crystal_structure": "dc",
+        "density": {
+            "value": 2.336,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Berzelius",
             "value": 1824
@@ -3274,7 +3392,7 @@
         }
     },
     "p": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 7000,
@@ -3339,6 +3457,10 @@
         },
         "column": 29,
         "crystal_structure": "orth",
+        "density": {
+            "value": 1.83,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "Brand",
             "value": 1669
@@ -3507,7 +3629,7 @@
         }
     },
     "s": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 500000,
@@ -3572,6 +3694,10 @@
         },
         "column": 30,
         "crystal_structure": "orth",
+        "density": {
+            "value": 2.07,
+            "unit": "g·cm[−3]"
+        },
         "elastic": {
             "bulk": {
                 "value": 7.7,
@@ -3727,7 +3853,7 @@
         }
     },
     "cl": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 1000,
@@ -3787,6 +3913,16 @@
         },
         "column": 31,
         "crystal_structure": "orth",
+        "density": {
+            "value": 3.215,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 273,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Scheele",
             "value": 1774
@@ -3970,7 +4106,7 @@
         }
     },
     "ar": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 200000,
@@ -4017,6 +4153,16 @@
         },
         "column": 32,
         "crystal_structure": "fcc",
+        "density": {
+            "value": 0.001784,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 273,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Ramsay, Strutt",
             "value": 1894
@@ -4162,7 +4308,7 @@
         }
     },
     "k": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 3000,
@@ -4222,6 +4368,16 @@
         },
         "column": 1,
         "crystal_structure": "bcc",
+        "density": {
+            "value": 0.856,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Davy",
             "value": 1807
@@ -4404,7 +4560,7 @@
         }
     },
     "ca": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 70000,
@@ -4469,6 +4625,16 @@
         },
         "column": 2,
         "crystal_structure": "fcc",
+        "density": {
+            "value": 1.55,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Davy",
             "value": 1808
@@ -4648,7 +4814,7 @@
         }
     },
     "sc": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 30,
@@ -4704,6 +4870,10 @@
         },
         "column": 3,
         "crystal_structure": "hcp",
+        "density": {
+            "value": 2.985,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "Nilson",
             "value": 1879
@@ -4859,7 +5029,7 @@
         }
     },
     "ti": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 3000,
@@ -4915,6 +5085,16 @@
         },
         "column": 18,
         "crystal_structure": "hcp",
+        "density": {
+            "value": 4.5,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 298.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Gregor, Klaproth",
             "value": 1791
@@ -5085,7 +5265,7 @@
         }
     },
     "v": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 1000,
@@ -5145,6 +5325,16 @@
         },
         "column": 19,
         "crystal_structure": "bcc",
+        "density": {
+            "value": 6.11,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "del Río",
             "value": 1801
@@ -5294,7 +5484,7 @@
         }
     },
     "cr": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 15000,
@@ -5354,6 +5544,16 @@
         },
         "column": 20,
         "crystal_structure": "bcc",
+        "density": {
+            "value": 7.14,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Vauquelin",
             "value": 1797
@@ -5507,7 +5707,7 @@
         }
     },
     "mn": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 8000,
@@ -5567,6 +5767,16 @@
         },
         "column": 21,
         "crystal_structure": "bcc",
+        "density": {
+            "value": 7.43,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 298.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Gahn",
             "value": 1774
@@ -5732,7 +5942,7 @@
         }
     },
     "fe": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 1100000,
@@ -5792,6 +6002,10 @@
         },
         "column": 22,
         "crystal_structure": "bcc",
+        "density": {
+            "value": 7.874,
+            "unit": "g·cm[−3]"
+        },
         "elastic": {
             "young": {
                 "value": 211,
@@ -5945,7 +6159,7 @@
         }
     },
     "co": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 3000,
@@ -6005,6 +6219,16 @@
         },
         "column": 23,
         "crystal_structure": "hcp",
+        "density": {
+            "value": 8.9,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Brandt",
             "value": 1735
@@ -6189,7 +6413,7 @@
         }
     },
     "ni": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 60000,
@@ -6249,6 +6473,16 @@
         },
         "column": 24,
         "crystal_structure": "fcc",
+        "density": {
+            "value": 8.908,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Cronstedt",
             "value": 1751
@@ -6425,7 +6659,7 @@
         }
     },
     "cu": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 60,
@@ -6485,6 +6719,16 @@
         },
         "column": 25,
         "crystal_structure": "fcc",
+        "density": {
+            "value": 8.92,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "elastic": {
             "young": {
                 "value": 130,
@@ -6646,7 +6890,7 @@
         }
     },
     "zn": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 300,
@@ -6711,6 +6955,16 @@
         },
         "column": 26,
         "crystal_structure": "hcp",
+        "density": {
+            "value": 7.14,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 298.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "elastic": {
             "young": {
                 "value": 108,
@@ -6881,7 +7135,7 @@
         }
     },
     "ga": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -6937,6 +7191,10 @@
         },
         "column": 27,
         "crystal_structure": "orth",
+        "density": {
+            "value": 5.904,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "Lecoq de Boisbaudran",
             "value": 1875
@@ -7105,7 +7363,7 @@
         }
     },
     "ge": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 200,
@@ -7157,6 +7415,16 @@
         },
         "column": 28,
         "crystal_structure": "dc",
+        "density": {
+            "value": 5.323,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Winkler",
             "value": 1886
@@ -7307,7 +7575,7 @@
         }
     },
     "as": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 8,
@@ -7363,6 +7631,10 @@
         },
         "column": 29,
         "crystal_structure": "rho",
+        "density": {
+            "value": 5.73,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "Albertus Magnus",
             "value": 1300
@@ -7531,7 +7803,7 @@
         }
     },
     "se": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 30,
@@ -7587,6 +7859,16 @@
         },
         "column": 30,
         "crystal_structure": "hex",
+        "density": {
+            "value": 4.819,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 298.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Berzelius",
             "value": 1817
@@ -7779,7 +8061,7 @@
         }
     },
     "br": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 7,
@@ -7835,6 +8117,16 @@
         },
         "column": 31,
         "crystal_structure": "orth",
+        "density": {
+            "value": 3.12,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 300,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Balard",
             "value": 1826
@@ -8016,7 +8308,7 @@
         }
     },
     "kr": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 40,
@@ -8065,6 +8357,16 @@
         },
         "column": 32,
         "crystal_structure": "fcc",
+        "density": {
+            "value": 0.0037491,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 273.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Ramsay, Travers",
             "value": 1898
@@ -8202,7 +8504,7 @@
         }
     },
     "rb": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -8262,6 +8564,16 @@
         },
         "column": 1,
         "crystal_structure": "bcc",
+        "density": {
+            "value": 1.532,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Bunsen, Kirchhoff",
             "value": 1861
@@ -8449,7 +8761,7 @@
         }
     },
     "sr": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 40,
@@ -8509,6 +8821,16 @@
         },
         "column": 2,
         "crystal_structure": "fcc",
+        "density": {
+            "value": 2.63,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Klaproth",
             "value": 1798
@@ -8668,7 +8990,7 @@
         }
     },
     "y": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 7,
@@ -8724,6 +9046,10 @@
         },
         "column": 3,
         "crystal_structure": "hcp",
+        "density": {
+            "value": 4.472,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "Gadolin",
             "value": 1794
@@ -8889,7 +9215,7 @@
         }
     },
     "zr": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 50,
@@ -8949,6 +9275,16 @@
         },
         "column": 18,
         "crystal_structure": "hcp",
+        "density": {
+            "value": 6.501,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 298.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Klaproth",
             "value": 1789
@@ -9115,7 +9451,7 @@
         }
     },
     "nb": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -9167,6 +9503,16 @@
         },
         "column": 19,
         "crystal_structure": "bcc",
+        "density": {
+            "value": 8.57,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Hatchet",
             "value": 1801
@@ -9340,7 +9686,7 @@
         }
     },
     "mo": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 5,
@@ -9400,6 +9746,16 @@
         },
         "column": 20,
         "crystal_structure": "bcc",
+        "density": {
+            "value": 10.28,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Scheele",
             "value": 1778
@@ -9548,7 +9904,7 @@
         }
     },
     "tc": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "appearance": {
             "en": "shiny gray metal",
             "de": "silbrig grau metallisch"
@@ -9579,6 +9935,16 @@
         },
         "column": 21,
         "crystal_structure": "hcp",
+        "density": {
+            "value": 11.5,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 298.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Segrè",
             "value": 1937
@@ -9695,7 +10061,7 @@
         }
     },
     "ru": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 4,
@@ -9747,6 +10113,10 @@
         },
         "column": 22,
         "crystal_structure": "hcp",
+        "density": {
+            "value": 12.37,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "Claus",
             "value": 1844
@@ -9899,7 +10269,7 @@
         }
     },
     "rh": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 0.6,
@@ -9947,6 +10317,16 @@
         },
         "column": 23,
         "crystal_structure": "fcc",
+        "density": {
+            "value": 12.38,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Wollaston",
             "value": 1803
@@ -10120,7 +10500,7 @@
         }
     },
     "pd": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -10168,6 +10548,16 @@
         },
         "column": 24,
         "crystal_structure": "fcc",
+        "density": {
+            "value": 11.99,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Wollaston",
             "value": 1803
@@ -10341,7 +10731,7 @@
         }
     },
     "ag": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 0.6,
@@ -10402,6 +10792,16 @@
         },
         "column": 25,
         "crystal_structure": "fcc",
+        "density": {
+            "value": 10.49,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "elastic": {
             "young": {
                 "value": 83,
@@ -10568,7 +10968,7 @@
         }
     },
     "cd": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -10629,6 +11029,16 @@
         },
         "column": 26,
         "crystal_structure": "hcp",
+        "density": {
+            "value": 8.65,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 298.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Stromeyer, Hermann",
             "value": 1817
@@ -10824,7 +11234,7 @@
         }
     },
     "in": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 0.3,
@@ -10876,6 +11286,10 @@
         },
         "column": 27,
         "crystal_structure": "tetr",
+        "density": {
+            "value": 7.31,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "Reich, Richter",
             "value": 1863
@@ -11052,7 +11466,7 @@
         }
     },
     "sn": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 4,
@@ -11112,6 +11526,16 @@
         },
         "column": 28,
         "crystal_structure": "tetr",
+        "density": {
+            "value": 5.769,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "elastic": {
             "young": {
                 "value": 50,
@@ -11264,7 +11688,7 @@
         }
     },
     "sb": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 0.4,
@@ -11320,6 +11744,10 @@
         },
         "column": 29,
         "crystal_structure": "rho",
+        "density": {
+            "value": 6.697,
+            "unit": "g·cm[−3]"
+        },
         "elastic": {
             "young": {
                 "value": 55,
@@ -11481,7 +11909,7 @@
         }
     },
     "te": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 9,
@@ -11525,6 +11953,10 @@
         },
         "column": 30,
         "crystal_structure": "hex",
+        "density": {
+            "value": 6.24,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "von Reichenstein",
             "value": 1782
@@ -11708,7 +12140,7 @@
         }
     },
     "i": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -11788,6 +12220,10 @@
         },
         "column": 31,
         "crystal_structure": "orth",
+        "density": {
+            "value": 4.94,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "Courtois",
             "value": 1811
@@ -11966,7 +12402,7 @@
         }
     },
     "xe": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -12023,6 +12459,16 @@
         },
         "column": 32,
         "crystal_structure": "fcc",
+        "density": {
+            "value": 0.0058982,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 273.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Ramsay, Travers",
             "value": 1898
@@ -12168,7 +12614,7 @@
         }
     },
     "cs": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 0.8,
@@ -12228,6 +12674,16 @@
         },
         "column": 1,
         "crystal_structure": "bcc",
+        "density": {
+            "value": 1.9,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Kirchhoff, Bunsen",
             "value": 1860
@@ -12404,7 +12860,7 @@
         }
     },
     "ba": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -12464,6 +12920,16 @@
         },
         "column": 2,
         "crystal_structure": "bcc",
+        "density": {
+            "value": 3.62,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 293,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Davy",
             "value": 1808
@@ -12642,7 +13108,7 @@
         }
     },
     "la": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -12698,6 +13164,16 @@
         },
         "column": 3,
         "crystal_structure": "dhcp",
+        "density": {
+            "value": 6.17,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Mosander",
             "value": 1839
@@ -12860,7 +13336,7 @@
         }
     },
     "ce": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -12916,6 +13392,16 @@
         },
         "column": 4,
         "crystal_structure": "dhcp",
+        "density": {
+            "value": 6.773,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 298.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "von Hisinger, Berzelius, Klaproth",
             "value": 1803
@@ -13089,7 +13575,7 @@
         }
     },
     "pr": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -13145,6 +13631,16 @@
         },
         "column": 5,
         "crystal_structure": "dhcp",
+        "density": {
+            "value": 6.475,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 298.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "von Welsbach",
             "value": 1895
@@ -13314,7 +13810,7 @@
         }
     },
     "nd": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -13370,6 +13866,16 @@
         },
         "column": 6,
         "crystal_structure": "dhcp",
+        "density": {
+            "value": 7.003,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 298.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "von Welsbach",
             "value": 1895
@@ -13539,7 +14045,7 @@
         }
     },
     "pm": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "sun": {
                 "value": 0.005,
@@ -13575,6 +14081,16 @@
         },
         "column": 7,
         "crystal_structure": "dhcp",
+        "density": {
+            "value": 7.2,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 298.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Marinsky",
             "value": 1945
@@ -13693,7 +14209,7 @@
         }
     },
     "sm": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 5,
@@ -13749,6 +14265,16 @@
         },
         "column": 8,
         "crystal_structure": "rho",
+        "density": {
+            "value": 7.536,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 298.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Lecoq de Boisbaudran",
             "value": 1879
@@ -13913,7 +14439,7 @@
         }
     },
     "eu": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -13969,6 +14495,16 @@
         },
         "column": 9,
         "crystal_structure": "bcc",
+        "density": {
+            "value": 5.245,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 298.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Demarçay",
             "value": 1901
@@ -14122,7 +14658,7 @@
         }
     },
     "gd": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -14178,6 +14714,16 @@
         },
         "column": 10,
         "crystal_structure": "hcp",
+        "density": {
+            "value": 7.886,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 298.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "de Marignac",
             "value": 1880
@@ -14336,7 +14882,7 @@
         }
     },
     "tb": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -14392,6 +14938,16 @@
         },
         "column": 11,
         "crystal_structure": "hcp",
+        "density": {
+            "value": 8.253,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 298.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Mosander",
             "value": 1843
@@ -14534,7 +15090,7 @@
         }
     },
     "dy": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -14590,6 +15146,16 @@
         },
         "column": 12,
         "crystal_structure": "hcp",
+        "density": {
+            "value": 8.559,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 298.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Lecoq de Boisbaudran",
             "value": 1886
@@ -14753,7 +15319,7 @@
         }
     },
     "ho": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -14805,6 +15371,16 @@
         },
         "column": 13,
         "crystal_structure": "hcp",
+        "density": {
+            "value": 8.78,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 298.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Soret",
             "value": 1878
@@ -14963,7 +15539,7 @@
         }
     },
     "er": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -15019,6 +15595,16 @@
         },
         "column": 14,
         "crystal_structure": "hcp",
+        "density": {
+            "value": 9.045,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 298.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Mosander",
             "value": 1842
@@ -15176,7 +15762,7 @@
         }
     },
     "tm": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 0.1,
@@ -15232,6 +15818,16 @@
         },
         "column": 15,
         "crystal_structure": "hcp",
+        "density": {
+            "value": 9.318,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 298.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Cleve",
             "value": 1879
@@ -15391,7 +15987,7 @@
         }
     },
     "yb": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -15447,6 +16043,16 @@
         },
         "column": 16,
         "crystal_structure": "fcc",
+        "density": {
+            "value": 6.973,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 298.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "de Marignac",
             "value": 1878
@@ -15619,7 +16225,7 @@
         }
     },
     "lu": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 0.1,
@@ -15675,6 +16281,16 @@
         },
         "column": 17,
         "crystal_structure": "hcp",
+        "density": {
+            "value": 9.84,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 298.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "von Welsbach, Urbain",
             "value": 1907
@@ -15830,7 +16446,7 @@
         }
     },
     "hf": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 0.7,
@@ -15882,6 +16498,16 @@
         },
         "column": 18,
         "crystal_structure": "hcp",
+        "density": {
+            "value": 13.28,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 298.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Coster, de Hevesy",
             "value": 1923
@@ -16050,7 +16676,7 @@
         }
     },
     "ta": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 0.08,
@@ -16098,6 +16724,16 @@
         },
         "column": 19,
         "crystal_structure": "bcc",
+        "density": {
+            "value": 16.65,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Ekeberg",
             "value": 1802
@@ -16271,7 +16907,7 @@
         }
     },
     "w": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -16327,6 +16963,16 @@
         },
         "column": 20,
         "crystal_structure": "bcc",
+        "density": {
+            "value": 19.25,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Fausto und Juan de Elhuyar",
             "value": 1783
@@ -16496,7 +17142,7 @@
         }
     },
     "re": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 0.2,
@@ -16548,6 +17194,16 @@
         },
         "column": 21,
         "crystal_structure": "hcp",
+        "density": {
+            "value": 21,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 298.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Noddack, Tacke, Berg",
             "value": 1925
@@ -16716,7 +17372,7 @@
         }
     },
     "os": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 3,
@@ -16764,6 +17420,10 @@
         },
         "column": 22,
         "crystal_structure": "hcp",
+        "density": {
+            "value": 22.59,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "Tennant",
             "value": 1803
@@ -16932,7 +17592,7 @@
         }
     },
     "ir": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -16980,6 +17640,10 @@
         },
         "column": 23,
         "crystal_structure": "fcc",
+        "density": {
+            "value": 22.56,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "Tennant",
             "value": 1803
@@ -17147,7 +17811,7 @@
         }
     },
     "pt": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 5,
@@ -17195,6 +17859,16 @@
         },
         "column": 24,
         "crystal_structure": "fcc",
+        "density": {
+            "value": 21.45,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Scaliger",
             "value": 1557
@@ -17343,7 +18017,7 @@
         }
     },
     "au": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 0.6,
@@ -17403,6 +18077,16 @@
         },
         "column": 25,
         "crystal_structure": "fcc",
+        "density": {
+            "value": 19.32,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "elastic": {
             "young": {
                 "value": 78,
@@ -17549,7 +18233,7 @@
         }
     },
     "hg": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -17610,6 +18294,16 @@
         },
         "column": 26,
         "crystal_structure": "rho",
+        "density": {
+            "value": 13.5459,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "elastic": {
             "bulk": {
                 "value": 25,
@@ -17806,7 +18500,7 @@
         }
     },
     "tl": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -17858,6 +18552,10 @@
         },
         "column": 27,
         "crystal_structure": "hcp",
+        "density": {
+            "value": 11.85,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "Crookes",
             "value": 1861
@@ -18045,7 +18743,7 @@
         }
     },
     "pb": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -18105,6 +18803,16 @@
         },
         "column": 28,
         "crystal_structure": "fcc",
+        "density": {
+            "value": 11.342,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "elastic": {
             "young": {
                 "value": 16,
@@ -18299,7 +19007,7 @@
         }
     },
     "bi": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 0.7,
@@ -18351,6 +19059,10 @@
         },
         "column": 29,
         "crystal_structure": "rho",
+        "density": {
+            "value": 9.78,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "Agricola",
             "value": 1540
@@ -18526,7 +19238,7 @@
         }
     },
     "po": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "water": {
                 "value": 2e-11,
@@ -18564,6 +19276,10 @@
         },
         "column": 30,
         "crystal_structure": "sc",
+        "density": {
+            "value": 9.196,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "Marie und Pierre Curie",
             "value": 1898
@@ -18672,7 +19388,7 @@
         }
     },
     "at": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "appearance": {
             "en": "unknown, probably metallic",
             "de": "metallisch"
@@ -18694,6 +19410,11 @@
         },
         "column": 31,
         "crystal_structure": "fcc",
+        "density": {
+            "value": 6.4,
+            "*": true,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "Segrè",
             "value": 1940
@@ -18767,7 +19488,7 @@
         }
     },
     "rn": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "water": {
                 "value": 6e-13,
@@ -18807,6 +19528,10 @@
         },
         "column": 32,
         "crystal_structure": "fcc",
+        "density": {
+            "value": 0.00973,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "Dorn",
             "value": 1900
@@ -18908,7 +19633,7 @@
         }
     },
     "fr": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "atomic_mass": {
             "value": 223.0197,
             "*": true,
@@ -18926,6 +19651,11 @@
         },
         "column": 1,
         "crystal_structure": "bcc",
+        "density": {
+            "value": 2.9,
+            "*": true,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "Perey",
             "value": 1939
@@ -19035,7 +19765,7 @@
         }
     },
     "ra": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "crust": {
                 "value": 0.0001,
@@ -19083,6 +19813,16 @@
         },
         "column": 2,
         "crystal_structure": "bcc",
+        "density": {
+            "value": 5.5,
+            "unit": "g·cm[−3]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "discovery": {
             "by": "Marie und Pierre Curie",
             "value": 1898
@@ -19189,7 +19929,7 @@
         }
     },
     "ac": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "appearance": {
             "en": "silvery-white, glowing with an eerie blue light; sometimes with a golden cast",
             "de": "silbrig"
@@ -19212,6 +19952,10 @@
         },
         "column": 3,
         "crystal_structure": "fcc",
+        "density": {
+            "value": 10.07,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "Debierne",
             "value": 1899
@@ -19310,7 +20054,7 @@
         }
     },
     "th": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 0.4,
@@ -19366,6 +20110,10 @@
         },
         "column": 4,
         "crystal_structure": "fcc",
+        "density": {
+            "value": 11.724,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "Berzelius",
             "value": 1829
@@ -19513,7 +20261,7 @@
         }
     },
     "pa": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "crust": {
                 "value": 0.00001,
@@ -19553,6 +20301,10 @@
         },
         "column": 5,
         "crystal_structure": "tetr",
+        "density": {
+            "value": 15.37,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "Fajans, Hahn, Meitner",
             "value": 1917
@@ -19657,7 +20409,7 @@
         }
     },
     "u": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "abundance": {
             "universe": {
                 "value": 0.2,
@@ -19716,6 +20468,10 @@
         },
         "column": 6,
         "crystal_structure": "orth",
+        "density": {
+            "value": 19.16,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "Klaproth",
             "value": 1789
@@ -19893,7 +20649,7 @@
         }
     },
     "np": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "appearance": {
             "en": "silvery metallic",
             "de": "silbrig"
@@ -19923,6 +20679,10 @@
         },
         "column": 7,
         "crystal_structure": "orth",
+        "density": {
+            "value": 20.45,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "McMillan, Abelson",
             "value": 1940
@@ -20027,7 +20787,7 @@
         }
     },
     "pu": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "appearance": {
             "en": "silvery white, tarnishing to dark gray in air",
             "de": "silbriges Metall"
@@ -20058,6 +20818,10 @@
         },
         "column": 8,
         "crystal_structure": "mon",
+        "density": {
+            "value": 19.816,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "Seaborg",
             "value": 1940
@@ -20179,7 +20943,7 @@
         }
     },
     "am": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "appearance": {
             "en": "silvery white",
             "de": "silbrig-weißes Metall"
@@ -20209,6 +20973,10 @@
         },
         "column": 9,
         "crystal_structure": "dhcp",
+        "density": {
+            "value": 13.67,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "Seaborg",
             "value": 1944
@@ -20303,7 +21071,7 @@
         }
     },
     "cm": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "appearance": {
             "en": "silvery metallic, glows purple in the dark",
             "de": "silbrig-weißes Metall"
@@ -20325,6 +21093,10 @@
         },
         "column": 10,
         "crystal_structure": "dhcp",
+        "density": {
+            "value": 13.51,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "Seaborg",
             "value": 1944
@@ -20416,7 +21188,7 @@
         }
     },
     "bk": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "appearance": {
             "en": "silvery",
             "de": "silberweiß"
@@ -20438,6 +21210,10 @@
         },
         "column": 11,
         "crystal_structure": "dhcp",
+        "density": {
+            "value": 14.78,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "Seaborg",
             "value": 1949
@@ -20521,7 +21297,7 @@
         }
     },
     "cf": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "appearance": {
             "en": "silvery",
             "de": "silbriges Metall"
@@ -20543,6 +21319,10 @@
         },
         "column": 12,
         "crystal_structure": "dhcp",
+        "density": {
+            "value": 15.1,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "Seaborg",
             "value": 1950
@@ -20621,7 +21401,7 @@
         }
     },
     "es": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "appearance": {
             "en": "silvery; glows blue in the dark"
         },
@@ -20642,6 +21422,11 @@
         },
         "column": 13,
         "crystal_structure": "fcc",
+        "density": {
+            "value": 13.5,
+            "*": true,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "Seaborg",
             "value": 1952
@@ -21013,7 +21798,7 @@
         }
     },
     "rf": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "appearance": {
             "de": "unbekannt, vermutlich silber-weiß oder grau metallisch"
         },
@@ -21034,6 +21819,11 @@
         },
         "column": 18,
         "crystal_structure": "hcp",
+        "density": {
+            "value": 17,
+            "*": true,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "Ghiorso",
             "value": 1964
@@ -21105,7 +21895,7 @@
         }
     },
     "db": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "atomic_mass": {
             "value": 262.1138,
             "*": true,
@@ -21131,6 +21921,11 @@
         },
         "column": 19,
         "crystal_structure": "bcc",
+        "density": {
+            "value": 21.6,
+            "*": true,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "Ghiorso",
             "value": 1967
@@ -21189,7 +21984,7 @@
         }
     },
     "sg": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "atomic_mass": {
             "value": 263.1182,
             "*": true,
@@ -21207,6 +22002,11 @@
         },
         "column": 20,
         "crystal_structure": "bcc",
+        "density": {
+            "value": 23.2,
+            "*": true,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "Oganessian",
             "value": 1974
@@ -21265,7 +22065,7 @@
         }
     },
     "bh": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "atomic_mass": {
             "value": 262.1229,
             "*": true,
@@ -21283,6 +22083,11 @@
         },
         "column": 21,
         "crystal_structure": "hcp",
+        "density": {
+            "value": 27.2,
+            "*": true,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "Oganessian",
             "value": 1976
@@ -21341,7 +22146,7 @@
         }
     },
     "hs": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "atomic_mass": {
             "value": 265.269,
             "*": true,
@@ -21359,6 +22164,11 @@
         },
         "column": 22,
         "crystal_structure": "hcp",
+        "density": {
+            "value": 28.6,
+            "*": true,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "GSI",
             "value": 1984
@@ -21417,7 +22227,7 @@
         }
     },
     "mt": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "atomic_mass": {
             "value": 268,
             "*": true,
@@ -21435,6 +22245,11 @@
         },
         "column": 23,
         "crystal_structure": "fcc",
+        "density": {
+            "value": 28.2,
+            "*": true,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "GSI",
             "value": 1982
@@ -21493,7 +22308,7 @@
         }
     },
     "ds": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "atomic_mass": {
             "value": 281,
             "*": true,
@@ -21511,6 +22326,11 @@
         },
         "column": 24,
         "crystal_structure": "bcc",
+        "density": {
+            "value": 27.4,
+            "*": true,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "GSI",
             "value": 1994
@@ -21569,7 +22389,7 @@
         }
     },
     "rg": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "atomic_mass": {
             "value": 280,
             "*": true,
@@ -21587,6 +22407,11 @@
         },
         "column": 25,
         "crystal_structure": "bcc",
+        "density": {
+            "value": 24.4,
+            "*": true,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "GSI",
             "value": 1994
@@ -21645,7 +22470,7 @@
         }
     },
     "cn": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "atomic_mass": {
             "value": 277,
             "*": true,
@@ -21663,6 +22488,11 @@
         },
         "column": 26,
         "crystal_structure": "bcc",
+        "density": {
+            "value": 16.8,
+            "*": true,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "GSI",
             "value": 1996
@@ -21749,7 +22579,7 @@
         }
     },
     "nh": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "atomic_mass": {
             "value": 287,
             "*": true,
@@ -21767,6 +22597,11 @@
         },
         "column": 27,
         "crystal_structure": "hcp",
+        "density": {
+            "value": 16,
+            "*": true,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "JINR",
             "value": 2006
@@ -21843,7 +22678,7 @@
         }
     },
     "fl": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "atomic_mass": {
             "value": 289,
             "*": true,
@@ -21861,6 +22696,11 @@
         },
         "column": 28,
         "crystal_structure": "fcc",
+        "density": {
+            "value": 14,
+            "*": true,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "JINR",
             "value": 1999
@@ -21928,7 +22768,7 @@
         }
     },
     "mc": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "atomic_mass": {
             "value": 288,
             "*": true,
@@ -21945,6 +22785,11 @@
             "echa": null
         },
         "column": 29,
+        "density": {
+            "value": 13,
+            "*": true,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "JINR",
             "value": 2006
@@ -22021,7 +22866,7 @@
         }
     },
     "lv": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "atomic_mass": {
             "value": 293,
             "*": true,
@@ -22038,6 +22883,11 @@
             "echa": null
         },
         "column": 30,
+        "density": {
+            "value": 11.2,
+            "*": true,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "JINR",
             "value": 2000
@@ -22126,7 +22976,7 @@
         }
     },
     "ts": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "appearance": {
             "en": "semimetallic (predicted)"
         },
@@ -22146,6 +22996,11 @@
             "echa": null
         },
         "column": 31,
+        "density": {
+            "value": 7.2,
+            "*": true,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "JINR",
             "value": 2010
@@ -22229,7 +23084,7 @@
         }
     },
     "og": {
-        "@modified": "2023-10-16T09:16:47.694Z",
+        "@modified": "2023-10-16T17:04:37.409Z",
         "appearance": {
             "en": "metallic (predicted)"
         },
@@ -22250,6 +23105,11 @@
         },
         "column": 32,
         "crystal_structure": "fcc",
+        "density": {
+            "value": 5.7,
+            "*": true,
+            "unit": "g·cm[−3]"
+        },
         "discovery": {
             "by": "JINR",
             "value": 2006
