@@ -1398,11 +1398,11 @@
             "value": 2.26,
             "unit": "g·cm[−3]",
             "variation": [ {
-                "label": "G",
+                "label": "_G",
                 "value": 2.26,
                 "unit": "g·cm[−3]"
             }, {
-                "label": "D",
+                "label": "_D",
                 "value": 3.51,
                 "unit": "g·cm[−1]"
             } ]
@@ -11603,7 +11603,7 @@
                 }
             ],
             "variation": [ {
-                "label": "α",
+                "label": "_α",
                 "value": 5.769,
                 "unit": "g·cm[−3]",
                 "condition": [
@@ -11613,7 +11613,7 @@
                     }
                 ]
             }, {
-                "label": "β",
+                "label": "_β",
                 "value": 7.265,
                 "unit": "g·cm[−1]",
                 "condition": [
