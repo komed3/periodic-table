@@ -42,6 +42,15 @@ site:
       key: radius.vdw
       label: vdw-radius
       scheme: _fire
+    molar_volume:
+      key: molar_volume
+      label: molar_volume
+      scheme: _fire
+    sound_speed:
+      key: sound_speed
+      label: sound_speed
+      scheme: _fire
+      log: true
     temp_melting:
       key: temperature.melting
       label: melting-temp
