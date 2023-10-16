@@ -165,6 +165,7 @@
             ]
         },
         "molar_volume": {
+            "label": "solid",
             "value": 0.00001142,
             "unit": "m[3]·mol[−1]"
         },
@@ -474,6 +475,7 @@
         },
         "magnetic_ordering": "diamagnetic",
         "molar_volume": {
+            "label": "solid",
             "value": 0.000021,
             "unit": "m[3]·mol[−1]"
         },
@@ -1385,7 +1387,12 @@
         "column": 28,
         "crystal_structure": "hex",
         "density": [ {
-            "label": "graphit",
+            "label": "amorphous",
+            "value": 1.95,
+            "range": [ 1.8, 2.1 ],
+            "unit": "g·cm[−3]"
+        }, {
+            "label": "graphite",
             "value": 2.26,
             "unit": "g·cm[−3]"
         }, {
@@ -1487,6 +1494,15 @@
             2,
             4
         ],
+        "sound_speed": {
+            "label": "diamond",
+            "value": 18350,
+            "unit": "m·s[−1]",
+            "condition": [ {
+                "value": 293.15,
+                "unit": "K"
+            } ]
+        },
         "standard_atomic_weight": {
             "value": 12.011,
             "deviation": 0.002,
@@ -2131,6 +2147,7 @@
         },
         "magnetic_ordering": "diamagnetic",
         "molar_volume": {
+            "label": "solid",
             "value": 0.0000112,
             "unit": "m[3]·mol[−1]"
         },
@@ -2332,6 +2349,7 @@
         },
         "magnetic_ordering": "diamagnetic",
         "molar_volume": {
+            "label": "solid",
             "value": 0.00001323,
             "unit": "m[3]·mol[−1]"
         },
@@ -4008,6 +4026,7 @@
         },
         "magnetic_ordering": "diamagnetic",
         "molar_volume": {
+            "label": "solid",
             "value": 0.00001739,
             "unit": "m[3]·mol[−1]"
         },
@@ -4209,6 +4228,7 @@
         },
         "magnetic_ordering": "diamagnetic",
         "molar_volume": {
+            "label": "solid",
             "value": 0.00002256,
             "unit": "m[3]·mol[−1]"
         },
@@ -8232,6 +8252,7 @@
         },
         "magnetic_ordering": "diamagnetic",
         "molar_volume": {
+            "label": "solid",
             "value": 0.00001978,
             "unit": "m[3]·mol[−1]"
         },
@@ -8444,6 +8465,7 @@
         },
         "magnetic_ordering": "diamagnetic",
         "molar_volume": {
+            "label": "solid",
             "value": 0.00002799,
             "unit": "m[3]·mol[−1]"
         },
@@ -12563,6 +12585,7 @@
         },
         "magnetic_ordering": "diamagnetic",
         "molar_volume": {
+            "label": "solid",
             "value": 0.00003592,
             "unit": "m[3]·mol[−1]"
         },
@@ -12614,10 +12637,15 @@
             18,
             8
         ],
-        "sound_speed": {
+        "sound_speed": [ {
+            "label": "gas",
+            "value": 169,
+            "unit": "m·s[−1]"
+        }, {
+            "label": "liquid",
             "value": 1090,
             "unit": "m·s[−1]"
-        },
+        } ],
         "standard_atomic_weight": {
             "value": 131.293,
             "deviation": 0.006
@@ -19603,6 +19631,7 @@
         "hazardous": null,
         "magnetic_ordering": "diamagnetic",
         "molar_volume": {
+            "label": "solid",
             "value": 0.0000505,
             "unit": "m[3]·mol[−1]"
         },

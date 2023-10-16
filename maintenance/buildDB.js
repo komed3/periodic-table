@@ -40,9 +40,22 @@ databases.forEach( ( DB ) => {
 
     console.log( 'load "' + DB + '" database ...' );
 
-    let database = core.DB( DB );
+    let database = core.DB( DB ),
+        path = './_db/' + DB + '.min.json';
 
     console.log( '... done' );
+
+    /**
+     * delete old minified database if exists
+     */
+
+    if( fs.existsSync( path ) ) {
+
+        console.log( 'delete old minified database ...' );
+
+        fs.unlinkSync( path );
+
+    }
 
     /**
      * save minified database
@@ -51,7 +64,7 @@ databases.forEach( ( DB ) => {
     console.log( 'save minified database ...' );
 
     fs.writeFile(
-        './_db/' + DB + '.min.json',
+        path,
         JSON.stringify( database ),
         { flag: 'w' }, ( error ) => {
 
