@@ -98,6 +98,7 @@
 	"decay-description": "Berechnung und Ausgabe der Zerfallsreihe für ein beliebiges Nuklid, inkl. Halbwertszeiten und Zerfallsarten.",
 	"decay-title": "Zerfallsreihe",
 	"density": "Dichte",
+	"density-description": "Die Dichte beschreibt das Verhältnis der Masse eines Stoffs zu seinem Volumen. Sie ist von Form und Größe des Körpers unabhängig, nimmt aber im Allgemeinen mit steigender Temperatur ab. Sie ergibt sich aus den Massen der Atome und ihren Abständen zueinander.",
 	"description": "Interaktives Periodensystem der Elemente mit atomaren, chemischen, physikalischen Angaben, Isotopen und vielem mehr",
 	"discovery": "Entdeckung",
 	"download": "Datensatz speichern",

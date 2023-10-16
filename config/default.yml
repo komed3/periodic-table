@@ -42,6 +42,10 @@ site:
       key: radius.vdw
       label: vdw-radius
       scheme: _fire
+    density:
+      key: density
+      label: density
+      scheme: _fire
     molar_volume:
       key: molar_volume
       label: molar_volume
