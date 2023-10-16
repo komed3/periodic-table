@@ -1,6 +1,6 @@
 {
     "h": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 750000000,
@@ -368,7 +368,7 @@
         }
     },
     "he": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 230000000,
@@ -474,6 +474,10 @@
             "unit": "eV"
         },
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.000021,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Helium",
             "de": "Helium",
@@ -514,6 +518,16 @@
         "shell": [
             2
         ],
+        "sound_speed": {
+            "value": 970,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 273.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 4.002602,
             "deviation": 0.000002
@@ -560,7 +574,7 @@
         }
     },
     "li": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 6,
@@ -695,6 +709,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Limetal.JPG\">Dnn87</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00001302,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Lithium",
             "de": "Lithium",
@@ -750,6 +768,16 @@
             2,
             1
         ],
+        "sound_speed": {
+            "value": 6000,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 6.94,
             "deviation": 0.06,
@@ -793,7 +821,7 @@
         }
     },
     "be": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -943,6 +971,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Be-140g.jpg\">Alchemist-hp = Alchemist-hp (pse-mendelejew.de)</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.00000485,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Beryllium",
             "de": "Beryllium",
@@ -999,6 +1031,10 @@
             2,
             2
         ],
+        "sound_speed": {
+            "value": 13000,
+            "unit": "m·s[−1]"
+        },
         "standard_atomic_weight": {
             "value": 9.0121831,
             "deviation": 5e-7
@@ -1035,7 +1071,7 @@
         }
     },
     "b": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -1157,6 +1193,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Boron_R105.jpg\">James L Marshall</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.00000439,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Boron",
             "de": "Bor",
@@ -1212,6 +1252,16 @@
             2,
             3
         ],
+        "sound_speed": {
+            "value": 16200,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 10.81,
             "deviation": 0.02,
@@ -1242,7 +1292,7 @@
         }
     },
     "c": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 5000000,
@@ -1344,6 +1394,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Glassy_carbon_and_a_1cm3_graphite_cube_HP68-79.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.00000531,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Carbon",
             "de": "Kohlenstoff",
@@ -1431,7 +1485,7 @@
         }
     },
     "n": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 1000000,
@@ -1532,6 +1586,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Nitrogen_discharge_tube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.00001354,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Nitrogen",
             "de": "Stickstoff",
@@ -1583,6 +1641,16 @@
             2,
             5
         ],
+        "sound_speed": {
+            "value": 333.6,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 298.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 14.007,
             "deviation": 0.001,
@@ -1629,7 +1697,7 @@
         }
     },
     "o": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 10000000,
@@ -1750,6 +1818,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Oxygen_discharge_tube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00001736,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Oxygen",
             "de": "Sauerstoff",
@@ -1805,6 +1877,16 @@
             2,
             6
         ],
+        "sound_speed": {
+            "value": 317.5,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 15.999,
             "deviation": 0.001,
@@ -1855,7 +1937,7 @@
         }
     },
     "f": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 400,
@@ -1986,6 +2068,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Fluoro_liquido_a_-196%C2%B0C_1.jpg\">Fulvio314</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.0000112,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Fluorine",
             "de": "Fluor",
@@ -2085,7 +2171,7 @@
         }
     },
     "ne": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 1300000,
@@ -2173,6 +2259,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Neon_discharge_tube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.00001323,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Neon",
             "de": "Neon",
@@ -2215,6 +2305,10 @@
             2,
             8
         ],
+        "sound_speed": {
+            "value": 435,
+            "unit": "m·s[−1]"
+        },
         "standard_atomic_weight": {
             "value": 20.1797,
             "deviation": 0.0006
@@ -2257,7 +2351,7 @@
         }
     },
     "na": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 20000,
@@ -2396,6 +2490,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Na_(Sodium).jpg\">The original uploader was Dnn87 at English Wikipedia.</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00002378,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Sodium",
             "de": "Natrium",
@@ -2451,6 +2549,16 @@
             8,
             1
         ],
+        "sound_speed": {
+            "value": 3200,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 22.98976928,
             "deviation": 2e-8
@@ -2491,7 +2599,7 @@
         }
     },
     "mg": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 600000,
@@ -2634,6 +2742,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_2893_Crystalised_magnesium.jpg\">CSIRO</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.000014,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Magnesium",
             "de": "Magnesium",
@@ -2688,6 +2800,16 @@
             8,
             2
         ],
+        "sound_speed": {
+            "value": 4602,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 24.305,
             "deviation": 0.002,
@@ -2723,7 +2845,7 @@
         }
     },
     "al": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 50000,
@@ -2855,6 +2977,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Aluminium-4.jpg\">http://images-of-elements.com/aluminium.php</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00001,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Aluminum",
             "de": "Aluminium",
@@ -2912,6 +3038,10 @@
             8,
             3
         ],
+        "sound_speed": {
+            "value": 5100,
+            "unit": "m·s[−1]"
+        },
         "standard_atomic_weight": {
             "value": 26.9815384,
             "deviation": 3e-7
@@ -2943,7 +3073,7 @@
         }
     },
     "si": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 700000,
@@ -3044,6 +3174,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:SiliconCroda.jpg\">Enricoros at English Wikipedia</a>, Public domain, via Wikimedia Commons"
         },
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.00001206,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Silicon",
             "de": "Silicium",
@@ -3100,6 +3234,16 @@
             8,
             4
         ],
+        "sound_speed": {
+            "value": 8433,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 28.085,
             "deviation": 0.001,
@@ -3130,7 +3274,7 @@
         }
     },
     "p": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 7000,
@@ -3268,6 +3412,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:%C4%8Cerven%C3%BD_fosfor.png\">Ondřej Mangl</a>, Public domain, via Wikimedia Commons"
         },
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.00001702,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Phosphorus",
             "de": "Phosphor",
@@ -3359,7 +3507,7 @@
         }
     },
     "s": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 500000,
@@ -3474,6 +3622,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Sulfur_-_El_Desierto_mine,_San_Pablo_de_Napa,_Daniel_Campos_Province,_Potos%C3%AD,_Bolivia.jpg\">Ivar Leidus</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.00001553,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Sulfur",
             "de": "Schwefel",
@@ -3575,7 +3727,7 @@
         }
     },
     "cl": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 1000,
@@ -3715,6 +3867,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Die_chemischen_elemente_cl.jpg\">Alexander C. Wimmer</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0/at/deed.en\">CC BY-SA 3.0 AT</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.00001739,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Chlorine",
             "de": "Chlor",
@@ -3767,6 +3923,10 @@
             8,
             7
         ],
+        "sound_speed": {
+            "value": 206,
+            "unit": "m·s[−1]"
+        },
         "standard_atomic_weight": {
             "value": 35.45,
             "deviation": 0.01,
@@ -3810,7 +3970,7 @@
         }
     },
     "ar": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 200000,
@@ -3898,6 +4058,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Argon_discharge_tube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.00002256,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Argon",
             "de": "Argon",
@@ -3942,6 +4106,16 @@
             8,
             8
         ],
+        "sound_speed": {
+            "value": 319,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 39.95,
             "deviation": 0.16,
@@ -3988,7 +4162,7 @@
         }
     },
     "k": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 3000,
@@ -4122,6 +4296,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:KaliumunterTetrahydrofuran.JPG\">Schmid &amp; Rauch</a>, Public domain, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00004594,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Potassium",
             "de": "Kalium",
@@ -4177,6 +4355,16 @@
             8,
             1
         ],
+        "sound_speed": {
+            "value": 2000,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 39.0983,
             "deviation": 0.0001
@@ -4216,7 +4404,7 @@
         }
     },
     "ca": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 70000,
@@ -4356,6 +4544,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Calcium_unter_Argon_Schutzgasatmosph%C3%A4re.jpg\">Matthias Zepper</a>, Public domain, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.0000262,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Calcium",
             "de": "Calcium",
@@ -4415,6 +4607,16 @@
             8,
             2
         ],
+        "sound_speed": {
+            "value": 3810,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 40.078,
             "deviation": 0.004
@@ -4446,7 +4648,7 @@
         }
     },
     "sc": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 30,
@@ -4565,6 +4767,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Scandium_sublimed_dendritic_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.000015,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Scandium",
             "de": "Scandium",
@@ -4653,7 +4859,7 @@
         }
     },
     "ti": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 3000,
@@ -4780,6 +4986,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Titan-crystal_bar.JPG\">Alchemist-hp (pse-mendelejew.de)</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00001064,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Titanium",
             "de": "Titan",
@@ -4834,6 +5044,16 @@
             10,
             2
         ],
+        "sound_speed": {
+            "value": 4140,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 47.867,
             "deviation": 0.001
@@ -4865,7 +5085,7 @@
         }
     },
     "v": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 1000,
@@ -4979,6 +5199,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Vanadium_crystal_bar_and_1cm3_cube.jpg\">Alchemist-hp (pse-mendelejew.de).</a>, FAL, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00000832,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Vanadium",
             "de": "Vanadium",
@@ -5034,6 +5258,16 @@
             11,
             2
         ],
+        "sound_speed": {
+            "value": 4560,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 50.9415,
             "deviation": 0.0001
@@ -5060,7 +5294,7 @@
         }
     },
     "cr": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 15000,
@@ -5174,6 +5408,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Chromium_crystals_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
         },
         "magnetic_ordering": "antiferromagnetic",
+        "molar_volume": {
+            "value": 0.00000723,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Chromium",
             "de": "Chrom",
@@ -5228,6 +5466,16 @@
             13,
             1
         ],
+        "sound_speed": {
+            "value": 5940,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 51.9961,
             "deviation": 0.0006
@@ -5259,7 +5507,7 @@
         }
     },
     "mn": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 8000,
@@ -5390,6 +5638,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Manganese_electrolytic_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
         "magnetic_ordering": "antiferromagnetic",
+        "molar_volume": {
+            "value": 0.00000735,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Manganese",
             "de": "Mangan",
@@ -5439,6 +5691,16 @@
             13,
             2
         ],
+        "sound_speed": {
+            "value": 5150,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 54.938043,
             "deviation": 0.000002
@@ -5470,7 +5732,7 @@
         }
     },
     "fe": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 1100000,
@@ -5580,6 +5842,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Iron_electrolytic_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
         },
         "magnetic_ordering": "ferromagnetic",
+        "molar_volume": {
+            "value": 0.00000709,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Iron",
             "de": "Eisen",
@@ -5638,6 +5904,16 @@
             14,
             2
         ],
+        "sound_speed": {
+            "value": 4910,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 55.845,
             "deviation": 0.002
@@ -5669,7 +5945,7 @@
         }
     },
     "co": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 3000,
@@ -5825,6 +6101,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Kobalt_electrolytic_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
         "magnetic_ordering": "ferromagnetic",
+        "molar_volume": {
+            "value": 0.00000667,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Cobalt",
             "de": "Cobalt",
@@ -5874,6 +6154,10 @@
             15,
             2
         ],
+        "sound_speed": {
+            "value": 4720,
+            "unit": "m·s[−1]"
+        },
         "standard_atomic_weight": {
             "value": 58.933194,
             "deviation": 0.000003
@@ -5905,7 +6189,7 @@
         }
     },
     "ni": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 60000,
@@ -6049,6 +6333,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Nickel_chunk.jpg\">Materialscientist at English Wikipedia</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "ferromagnetic",
+        "molar_volume": {
+            "value": 0.00000659,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Nickel",
             "de": "Nickel",
@@ -6102,6 +6390,10 @@
             16,
             2
         ],
+        "sound_speed": {
+            "value": 4970,
+            "unit": "m·s[−1]"
+        },
         "standard_atomic_weight": {
             "value": 58.6934,
             "deviation": 0.0004
@@ -6133,7 +6425,7 @@
         }
     },
     "cu": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 60,
@@ -6260,6 +6552,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:NatCopper.jpg\">Native_Copper_Macro_Digon3.jpg: “Jonathan Zander (Digon3)&quot;derivative work: Materialscientist</a>, <a href=\"https://creativecommons.org/licenses/by-sa/2.5\">CC BY-SA 2.5</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.00000711,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Copper",
             "de": "Kupfer",
@@ -6315,6 +6611,10 @@
             18,
             1
         ],
+        "sound_speed": {
+            "value": 3570,
+            "unit": "m·s[−1]"
+        },
         "standard_atomic_weight": {
             "value": 63.546,
             "deviation": 0.003
@@ -6346,7 +6646,7 @@
         }
     },
     "zn": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 300,
@@ -6483,6 +6783,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Zinc_fragment_sublimed_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.00000916,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Zinc",
             "de": "Zink",
@@ -6542,6 +6846,10 @@
             18,
             2
         ],
+        "sound_speed": {
+            "value": 3700,
+            "unit": "m·s[−1]"
+        },
         "standard_atomic_weight": {
             "value": 65.38,
             "deviation": 0.02
@@ -6573,7 +6881,7 @@
         }
     },
     "ga": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -6695,6 +7003,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Gallium_crystals.jpg\">en:user:foobar</a>, <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\">CC BY-SA 3.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.0000118,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Gallium",
             "de": "Gallium",
@@ -6752,6 +7064,16 @@
             18,
             3
         ],
+        "sound_speed": {
+            "value": 2740,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 69.723,
             "deviation": 0.001
@@ -6783,7 +7105,7 @@
         }
     },
     "ge": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 200,
@@ -6882,6 +7204,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Polycrystalline-germanium.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.00001363,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Germanium",
             "de": "Germanium",
@@ -6940,6 +7266,16 @@
             18,
             4
         ],
+        "sound_speed": {
+            "value": 5400,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 72.63,
             "deviation": 0.008
@@ -6971,7 +7307,7 @@
         }
     },
     "as": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 8,
@@ -7095,6 +7431,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Native_arsenic.jpg\">Aram Dulyan (User:Aramgutang)</a>, Public domain, via Wikimedia Commons"
         },
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.00001295,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Arsenic",
             "de": "Arsen",
@@ -7191,7 +7531,7 @@
         }
     },
     "se": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 30,
@@ -7327,6 +7667,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Selenium_in_sandstone_Westwater_Canyon_Section_23_Mine_Grants,_New_Mexico.jpg\">James St. John</a>, <a href=\"https://creativecommons.org/licenses/by/2.0\">CC BY 2.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.00001642,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Selenium",
             "de": "Selen",
@@ -7386,6 +7730,16 @@
             18,
             6
         ],
+        "sound_speed": {
+            "value": 3350,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 78.971,
             "deviation": 0.008
@@ -7425,7 +7779,7 @@
         }
     },
     "br": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 7,
@@ -7550,6 +7904,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Bromine-ampoule.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.00001978,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Bromine",
             "de": "Brom",
@@ -7658,7 +8016,7 @@
         }
     },
     "kr": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 40,
@@ -7748,6 +8106,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Krypton_discharge_tube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.00002799,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Krypton",
             "de": "Krypton",
@@ -7794,6 +8156,10 @@
             18,
             8
         ],
+        "sound_speed": {
+            "value": 1120,
+            "unit": "m·s[−1]"
+        },
         "standard_atomic_weight": {
             "value": 83.798,
             "deviation": 0.002
@@ -7836,7 +8202,7 @@
         }
     },
     "rb": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -7970,6 +8336,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Rb5.JPG\">Dnn87</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00005576,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Rubidium",
             "de": "Rubidium",
@@ -8024,6 +8394,16 @@
             8,
             1
         ],
+        "sound_speed": {
+            "value": 1300,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 85.4678,
             "deviation": 0.0003
@@ -8069,7 +8449,7 @@
         }
     },
     "sr": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 40,
@@ -8194,6 +8574,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Strontium_destilled_crystals.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00003394,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Strontium",
             "de": "Strontium",
@@ -8284,7 +8668,7 @@
         }
     },
     "y": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 7,
@@ -8406,6 +8790,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Yttrium_sublimed_dendritic_and_1cm3_cube.jpg\">Alchemist-hp (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00001988,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Yttrium",
             "de": "Yttrium",
@@ -8460,6 +8848,16 @@
             9,
             2
         ],
+        "sound_speed": {
+            "value": 3300,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 88.905838,
             "deviation": 0.000002
@@ -8491,7 +8889,7 @@
         }
     },
     "zr": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 50,
@@ -8624,6 +9022,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Zirconium_crystal_bar_and_1cm3_cube.jpg\">Alchemist-hp (pse-mendelejew.de).</a>, FAL, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00001402,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Zirconium",
             "de": "Zirconium",
@@ -8678,6 +9080,10 @@
             10,
             2
         ],
+        "sound_speed": {
+            "value": 3800,
+            "unit": "m·s[−1]"
+        },
         "standard_atomic_weight": {
             "value": 91.224,
             "deviation": 0.002
@@ -8709,7 +9115,7 @@
         }
     },
     "nb": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -8834,6 +9240,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Niobium_crystals_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00001083,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Niobium",
             "de": "Niob",
@@ -8889,6 +9299,16 @@
             12,
             1
         ],
+        "sound_speed": {
+            "value": 3480,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 92.90637,
             "deviation": 0.00001
@@ -8920,7 +9340,7 @@
         }
     },
     "mo": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 5,
@@ -9034,6 +9454,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Molybdenum_crystaline_fragment_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00000938,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Molybdenum",
             "de": "Molybdän",
@@ -9089,6 +9513,10 @@
             13,
             1
         ],
+        "sound_speed": {
+            "value": 6190,
+            "unit": "m·s[−1]"
+        },
         "standard_atomic_weight": {
             "value": 95.95,
             "deviation": 0.01
@@ -9120,7 +9548,7 @@
         }
     },
     "tc": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "appearance": {
             "en": "shiny gray metal",
             "de": "silbrig grau metallisch"
@@ -9179,6 +9607,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Technetium-sample-cropped.jpg\">GFDL</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00000863,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Technetium",
             "de": "Technetium",
@@ -9263,7 +9695,7 @@
         }
     },
     "ru": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 4,
@@ -9378,6 +9810,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Ruthenium_a_half_bar.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00000817,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Ruthenium",
             "de": "Ruthenium",
@@ -9433,6 +9869,10 @@
             15,
             1
         ],
+        "sound_speed": {
+            "value": 5970,
+            "unit": "m·s[−1]"
+        },
         "standard_atomic_weight": {
             "value": 101.07,
             "deviation": 0.02
@@ -9459,7 +9899,7 @@
         }
     },
     "rh": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 0.6,
@@ -9580,6 +10020,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Rhodium_powder_pressed_melted.jpg\">Alchemist-hp (talk) www.pse-mendelejew.dederivative work: Purpy Pupple</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0/de/deed.en\">CC BY-SA 3.0 DE</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00000828,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Rhodium",
             "de": "Rhodium",
@@ -9635,6 +10079,16 @@
             16,
             1
         ],
+        "sound_speed": {
+            "value": 4700,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 102.90549,
             "deviation": 0.00002
@@ -9666,7 +10120,7 @@
         }
     },
     "pd": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -9791,6 +10245,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Palladium_crystals.jpg\">Hi-Res Images ofChemical Elements</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00000856,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Palladium",
             "de": "Palladium",
@@ -9848,6 +10306,10 @@
             18,
             18
         ],
+        "sound_speed": {
+            "value": 3070,
+            "unit": "m·s[−1]"
+        },
         "standard_atomic_weight": {
             "value": 106.42,
             "deviation": 0.01
@@ -9879,7 +10341,7 @@
         }
     },
     "ag": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 0.6,
@@ -10011,6 +10473,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Silver_crystal.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0/de/deed.en\">CC BY-SA 3.0 DE</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.00001027,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Silver",
             "de": "Silber",
@@ -10067,6 +10533,10 @@
             18,
             1
         ],
+        "sound_speed": {
+            "value": 2600,
+            "unit": "m·s[−1]"
+        },
         "standard_atomic_weight": {
             "value": 107.8682,
             "deviation": 0.0002
@@ -10098,7 +10568,7 @@
         }
     },
     "cd": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -10251,6 +10721,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Cadmium-crystal_bar.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
         },
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.000013,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Cadmium",
             "de": "Cadmium",
@@ -10309,6 +10783,16 @@
             18,
             2
         ],
+        "sound_speed": {
+            "value": 2310,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 112.414,
             "deviation": 0.004
@@ -10340,7 +10824,7 @@
         }
     },
     "in": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 0.3,
@@ -10456,6 +10940,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Indium_wetting_glass.jpg\">Schtone</a>, Public domain, via Wikimedia Commons"
         },
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.00001576,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Indium",
             "de": "Indium",
@@ -10515,6 +11003,16 @@
             18,
             3
         ],
+        "sound_speed": {
+            "value": 1215,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 114.818,
             "deviation": 0.001
@@ -10554,7 +11052,7 @@
         }
     },
     "sn": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 4,
@@ -10660,6 +11158,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Tin-2.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.00001629,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Tin",
             "de": "Zinn",
@@ -10721,6 +11223,16 @@
             18,
             4
         ],
+        "sound_speed": {
+            "value": 2500,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 118.71,
             "deviation": 0.007
@@ -10752,7 +11264,7 @@
         }
     },
     "sb": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 0.4,
@@ -10871,6 +11383,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Antimony-4.jpg\">http://images-of-elements.com/</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.00001819,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Antimony",
             "de": "Antimon",
@@ -10930,6 +11446,10 @@
             18,
             5
         ],
+        "sound_speed": {
+            "value": 3420,
+            "unit": "m·s[−1]"
+        },
         "standard_atomic_weight": {
             "value": 121.76,
             "deviation": 0.001
@@ -10961,7 +11481,7 @@
         }
     },
     "te": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 9,
@@ -11083,6 +11603,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Tellurium2.jpg\">http://images-of-elements.com/tellurium.php</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.00002046,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Tellurium",
             "de": "Tellur",
@@ -11143,6 +11667,16 @@
             18,
             6
         ],
+        "sound_speed": {
+            "value": 2610,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 127.6,
             "deviation": 0.03
@@ -11174,7 +11708,7 @@
         }
     },
     "i": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -11322,6 +11856,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Sample_of_iodine.jpg\">LHcheM</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.00002572,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Iodine",
             "de": "Iod",
@@ -11428,7 +11966,7 @@
         }
     },
     "xe": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -11532,6 +12070,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Xenon_discharge_tube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.00003592,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Xenon",
             "de": "Xenon",
@@ -11580,6 +12122,10 @@
             18,
             8
         ],
+        "sound_speed": {
+            "value": 1090,
+            "unit": "m·s[−1]"
+        },
         "standard_atomic_weight": {
             "value": 131.293,
             "deviation": 0.006
@@ -11622,7 +12168,7 @@
         }
     },
     "cs": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 0.8,
@@ -11756,6 +12302,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Cesium.jpg\">Dnn87 Contact email: Dnn87yahoo.dk</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00007094,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Caesium",
             "de": "Caesium",
@@ -11854,7 +12404,7 @@
         }
     },
     "ba": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -11994,6 +12544,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Barium_dendritic.jpg\">La2O3</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00003816,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Barium",
             "de": "Barium",
@@ -12053,6 +12607,10 @@
             8,
             2
         ],
+        "sound_speed": {
+            "value": 1620,
+            "unit": "m·s[−1]"
+        },
         "standard_atomic_weight": {
             "value": 137.327,
             "deviation": 0.007
@@ -12084,7 +12642,7 @@
         }
     },
     "la": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -12213,6 +12771,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Lanthanum-2.jpg\">Jurii (Lanthanum-138 at en.wikipedia</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00002239,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Lanthanum",
             "de": "Lanthan",
@@ -12263,6 +12825,10 @@
             9,
             2
         ],
+        "sound_speed": {
+            "value": 2475,
+            "unit": "m·s[−1]"
+        },
         "standard_atomic_weight": {
             "value": 138.90547,
             "deviation": 0.00007
@@ -12294,7 +12860,7 @@
         }
     },
     "ce": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -12428,6 +12994,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Cerium2.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/1.0\">CC BY 1.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00002069,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Cerium",
             "de": "Cer",
@@ -12478,6 +13048,16 @@
             9,
             2
         ],
+        "sound_speed": {
+            "value": 2100,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 140.116,
             "deviation": 0.001
@@ -12509,7 +13089,7 @@
         }
     },
     "pr": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -12639,6 +13219,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Praseodymium.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.0000208,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Praseodymium",
             "de": "Praseodym",
@@ -12689,6 +13273,16 @@
             8,
             2
         ],
+        "sound_speed": {
+            "value": 2280,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 140.90766,
             "deviation": 0.00001
@@ -12720,7 +13314,7 @@
         }
     },
     "nd": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -12851,6 +13445,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Neodymium2.jpg\">http://images-of-elements.com/</a>, <a href=\"https://creativecommons.org/licenses/by/1.0\">CC BY 1.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00002059,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Neodymium",
             "de": "Neodym",
@@ -12900,6 +13498,16 @@
             8,
             2
         ],
+        "sound_speed": {
+            "value": 2330,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 144.242,
             "deviation": 0.003
@@ -12931,7 +13539,7 @@
         }
     },
     "pm": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "sun": {
                 "value": 0.005,
@@ -13005,6 +13613,10 @@
         "goldschmidt": "synthetic",
         "group": 19,
         "hazardous": null,
+        "molar_volume": {
+            "value": 0.0000201,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Promethium",
             "de": "Promethium",
@@ -13081,7 +13693,7 @@
         }
     },
     "sm": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 5,
@@ -13212,6 +13824,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Samarium-2.jpg\">http://images-of-elements.com/</a>, <a href=\"https://creativecommons.org/licenses/by/1.0\">CC BY 1.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00001998,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Samarium",
             "de": "Samarium",
@@ -13261,6 +13877,16 @@
             8,
             2
         ],
+        "sound_speed": {
+            "value": 2130,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 150.36,
             "deviation": 0.02
@@ -13287,7 +13913,7 @@
         }
     },
     "eu": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -13413,6 +14039,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Europium.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00002897,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Europium",
             "de": "Europium",
@@ -13492,7 +14122,7 @@
         }
     },
     "gd": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -13617,6 +14247,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Gadolinium-4.jpg\">http://images-of-elements.com/gadolinium.php</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "ferromagnetic",
+        "molar_volume": {
+            "value": 0.0000199,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Gadolinium",
             "de": "Gadolinium",
@@ -13666,6 +14300,16 @@
             9,
             2
         ],
+        "sound_speed": {
+            "value": 2680,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 157.25,
             "deviation": 0.03
@@ -13692,7 +14336,7 @@
         }
     },
     "tb": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -13801,6 +14445,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Terbium-2.jpg\">http://images-of-elements.com/</a>, <a href=\"https://creativecommons.org/licenses/by/1.0\">CC BY 1.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.0000193,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Terbium",
             "de": "Terbium",
@@ -13850,6 +14498,16 @@
             8,
             2
         ],
+        "sound_speed": {
+            "value": 2620,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 158.925354,
             "deviation": 0.000007
@@ -13876,7 +14534,7 @@
         }
     },
     "dy": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -14001,6 +14659,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Dy_chips.jpg\">Materialscientist at en.wikipedia</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00001901,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Dysprosium",
             "de": "Dysprosium",
@@ -14050,6 +14712,16 @@
             8,
             2
         ],
+        "sound_speed": {
+            "value": 2710,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 162.5,
             "deviation": 0.001
@@ -14081,7 +14753,7 @@
         }
     },
     "ho": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -14202,6 +14874,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Holmium2.jpg\">http://images-of-elements.com/</a>, <a href=\"https://creativecommons.org/licenses/by/1.0\">CC BY 1.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00001874,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Holmium",
             "de": "Holmium",
@@ -14252,6 +14928,10 @@
             8,
             2
         ],
+        "sound_speed": {
+            "value": 2760,
+            "unit": "m·s[−1]"
+        },
         "standard_atomic_weight": {
             "value": 164.930329,
             "deviation": 0.000005
@@ -14283,7 +14963,7 @@
         }
     },
     "er": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -14408,6 +15088,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Erbium_(68_Er).jpg\">Hi-Res Images of Chemical Elements</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00001846,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Erbium",
             "de": "Erbium",
@@ -14457,6 +15141,10 @@
             8,
             2
         ],
+        "sound_speed": {
+            "value": 2830,
+            "unit": "m·s[−1]"
+        },
         "standard_atomic_weight": {
             "value": 167.259,
             "deviation": 0.003
@@ -14488,7 +15176,7 @@
         }
     },
     "tm": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 0.1,
@@ -14618,6 +15306,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Thulium_sublimed_dendritic_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.0000191,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Thulium",
             "de": "Thulium",
@@ -14699,7 +15391,7 @@
         }
     },
     "yb": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -14834,6 +15526,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Ytterbium-3.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/1.0\">CC BY 1.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00002484,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Ytterbium",
             "de": "Ytterbium",
@@ -14882,6 +15578,16 @@
             8,
             2
         ],
+        "sound_speed": {
+            "value": 1590,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 173.045,
             "deviation": 0.01
@@ -14913,7 +15619,7 @@
         }
     },
     "lu": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 0.1,
@@ -15036,6 +15742,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Lutetium_sublimed_dendritic_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00001778,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Lutetium",
             "de": "Lutetium",
@@ -15120,7 +15830,7 @@
         }
     },
     "hf": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 0.7,
@@ -15242,6 +15952,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Hafnium_bits.jpg\">Deglr6328 at the English-language Wikipedia</a>, <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\">CC BY-SA 3.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00001344,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Hafnium",
             "de": "Hafnium",
@@ -15295,6 +16009,16 @@
             10,
             2
         ],
+        "sound_speed": {
+            "value": 3010,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 178.486,
             "deviation": 0.006
@@ -15326,7 +16050,7 @@
         }
     },
     "ta": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 0.08,
@@ -15448,6 +16172,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Tantalum_single_crystal_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00001085,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Tantalum",
             "de": "Tantal",
@@ -15502,6 +16230,16 @@
             11,
             2
         ],
+        "sound_speed": {
+            "value": 3400,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 180.94788,
             "deviation": 0.00002
@@ -15533,7 +16271,7 @@
         }
     },
     "w": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -15663,6 +16401,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Wolfram_evaporated_crystals_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00000947,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Tungsten",
             "de": "Wolfram",
@@ -15719,6 +16461,10 @@
             12,
             2
         ],
+        "sound_speed": {
+            "value": 5174,
+            "unit": "m·s[−1]"
+        },
         "standard_atomic_weight": {
             "value": 183.84,
             "deviation": 0.01
@@ -15750,7 +16496,7 @@
         }
     },
     "re": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 0.2,
@@ -15872,6 +16618,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Rhenium_single_crystal_bar_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00000886,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Rhenium",
             "de": "Rhenium",
@@ -15925,6 +16675,16 @@
             13,
             2
         ],
+        "sound_speed": {
+            "value": 4700,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 186.207,
             "deviation": 0.001
@@ -15956,7 +16716,7 @@
         }
     },
     "os": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 3,
@@ -16072,6 +16832,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Osmium_crystals.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00000842,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Osmium",
             "de": "Osmium",
@@ -16127,6 +16891,16 @@
             14,
             2
         ],
+        "sound_speed": {
+            "value": 4940,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 190.23,
             "deviation": 0.03
@@ -16158,7 +16932,7 @@
         }
     },
     "ir": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -16278,6 +17052,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Iridium_foil.jpg\">Dschwen</a>, <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\">CC BY-SA 3.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00000852,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Iridium",
             "de": "Iridium",
@@ -16334,6 +17112,10 @@
             15,
             2
         ],
+        "sound_speed": {
+            "value": 4825,
+            "unit": "m·s[−1]"
+        },
         "standard_atomic_weight": {
             "value": 192.217,
             "deviation": 0.002
@@ -16365,7 +17147,7 @@
         }
     },
     "pt": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 5,
@@ -16467,6 +17249,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Platinum_crystals.jpg\">Periodictableru</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00000909,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Platinum",
             "de": "Platin",
@@ -16522,6 +17308,10 @@
             17,
             1
         ],
+        "sound_speed": {
+            "value": 2680,
+            "unit": "m·s[−1]"
+        },
         "standard_atomic_weight": {
             "value": 195.084,
             "deviation": 0.009
@@ -16553,7 +17343,7 @@
         }
     },
     "au": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 0.6,
@@ -16663,6 +17453,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Or_natif1.jpg\">Urban</a>, Public domain, via Wikimedia Commons"
         },
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.00001021,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Gold",
             "de": "Gold",
@@ -16720,6 +17514,10 @@
             18,
             1
         ],
+        "sound_speed": {
+            "value": 2030,
+            "unit": "m·s[−1]"
+        },
         "standard_atomic_weight": {
             "value": 196.96657,
             "deviation": 0.000004
@@ -16751,7 +17549,7 @@
         }
     },
     "hg": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -16886,6 +17684,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:HgKviks%C3%B8lv.JPG\">Dnn87</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.00001409,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Mercury",
             "de": "Quecksilber",
@@ -16947,6 +17749,16 @@
             18,
             2
         ],
+        "sound_speed": {
+            "value": 1407,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 200.592,
             "deviation": 0.003
@@ -16994,7 +17806,7 @@
         }
     },
     "tl": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -17126,6 +17938,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Thallium_pieces_in_ampoule.jpg\">W. Oelen</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.00001722,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Thallium",
             "de": "Thallium",
@@ -17184,6 +18000,16 @@
             18,
             3
         ],
+        "sound_speed": {
+            "value": 818,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 204.38,
             "deviation": 0.01,
@@ -17219,7 +18045,7 @@
         }
     },
     "pb": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -17364,6 +18190,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Lead-2.jpg\">Chemical Elements</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.00001826,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Lead",
             "de": "Blei",
@@ -17424,6 +18254,16 @@
             18,
             4
         ],
+        "sound_speed": {
+            "value": 1260,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 207.2,
             "deviation": 1.1,
@@ -17459,7 +18299,7 @@
         }
     },
     "bi": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 0.7,
@@ -17578,6 +18418,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Bismuth_crystals_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.00002131,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Bismuth",
             "de": "Bismut",
@@ -17641,6 +18485,16 @@
             18,
             5
         ],
+        "sound_speed": {
+            "value": 1790,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 208.9804,
             "deviation": 0.00001
@@ -17672,7 +18526,7 @@
         }
     },
     "po": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "water": {
                 "value": 2e-11,
@@ -17735,6 +18589,10 @@
         "goldschmidt": "synthetic",
         "group": 16,
         "hazardous": null,
+        "molar_volume": {
+            "value": 0.00002297,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Polonium",
             "de": "Polonium",
@@ -17814,7 +18672,7 @@
         }
     },
     "at": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "appearance": {
             "en": "unknown, probably metallic",
             "de": "metallisch"
@@ -17857,6 +18715,11 @@
         "goldschmidt": "synthetic",
         "group": 17,
         "hazardous": null,
+        "molar_volume": {
+            "value": 0.000033,
+            "*": true,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Astatine",
             "de": "Astat",
@@ -17904,7 +18767,7 @@
         }
     },
     "rn": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "water": {
                 "value": 6e-13,
@@ -17968,6 +18831,10 @@
         "group": 18,
         "hazardous": null,
         "magnetic_ordering": "diamagnetic",
+        "molar_volume": {
+            "value": 0.0000505,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Radon",
             "de": "Radon",
@@ -18041,7 +18908,7 @@
         }
     },
     "fr": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "atomic_mass": {
             "value": 223.0197,
             "*": true,
@@ -18088,6 +18955,11 @@
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Pichblende.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Pichblende.jpg\">Template:Farhan</a>, <a href=\"https://creativecommons.org/licenses/by-sa/2.5\">CC BY-SA 2.5</a>, via Wikimedia Commons"
+        },
+        "molar_volume": {
+            "value": 0.000077,
+            "*": true,
+            "unit": "m[3]·mol[−1]"
         },
         "names": {
             "en": "Francium",
@@ -18163,7 +19035,7 @@
         }
     },
     "ra": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "crust": {
                 "value": 0.0001,
@@ -18240,6 +19112,10 @@
             "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Radium226.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Radium226.jpg\">grenadier</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
+        "molar_volume": {
+            "value": 0.00004109,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Radium",
             "de": "Radium",
@@ -18313,7 +19189,7 @@
         }
     },
     "ac": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "appearance": {
             "en": "silvery-white, glowing with an eerie blue light; sometimes with a golden cast",
             "de": "silbrig"
@@ -18362,6 +19238,10 @@
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Actinium_sample_%2831481701837%29.png",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Actinium_sample_(31481701837).png\">Oak Ridge National Laboratory</a>, <a href=\"https://creativecommons.org/licenses/by/2.0\">CC BY 2.0</a>, via Wikimedia Commons"
+        },
+        "molar_volume": {
+            "value": 0.00002255,
+            "unit": "m[3]·mol[−1]"
         },
         "names": {
             "en": "Actinium",
@@ -18430,7 +19310,7 @@
         }
     },
     "th": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 0.4,
@@ -18540,6 +19420,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Thorium_sample_0.1g.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.0000198,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Thorium",
             "de": "Thorium",
@@ -18593,6 +19477,16 @@
             10,
             2
         ],
+        "sound_speed": {
+            "value": 2490,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_atomic_weight": {
             "value": 232.0377,
             "deviation": 0.0004
@@ -18619,7 +19513,7 @@
         }
     },
     "pa": {
-        "@modified": "2023-10-14T17:24:47.643Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "crust": {
                 "value": 0.00001,
@@ -18685,6 +19579,10 @@
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Protactinium-233.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Protactinium-233.jpg\">ENERGY.GOV</a>, Public domain, via Wikimedia Commons"
+        },
+        "molar_volume": {
+            "value": 0.00001518,
+            "unit": "m[3]·mol[−1]"
         },
         "names": {
             "en": "Protactinium",
@@ -18759,7 +19657,7 @@
         }
     },
     "u": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "abundance": {
             "universe": {
                 "value": 0.2,
@@ -18900,6 +19798,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Vacuum_capacitor_with_uranium_glass.jpg\">Warut Roonguthai</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00001249,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Uranium",
             "de": "Uran",
@@ -18956,6 +19858,10 @@
             9,
             2
         ],
+        "sound_speed": {
+            "value": 3155,
+            "unit": "m·s[−1]"
+        },
         "standard_atomic_weight": {
             "value": 238.02891,
             "deviation": 0.00003
@@ -18987,7 +19893,7 @@
         }
     },
     "np": {
-        "@modified": "2023-10-15T17:52:40.444Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "appearance": {
             "en": "silvery metallic",
             "de": "silbrig"
@@ -19039,6 +19945,10 @@
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Np_sphere.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Np_sphere.jpg\">Los Alamos National Lab.</a>, Public domain, via Wikimedia Commons"
+        },
+        "molar_volume": {
+            "value": 0.00001159,
+            "unit": "m[3]·mol[−1]"
         },
         "names": {
             "en": "Neptunium",
@@ -19117,7 +20027,7 @@
         }
     },
     "pu": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "appearance": {
             "en": "silvery white, tarnishing to dark gray in air",
             "de": "silbriges Metall"
@@ -19183,6 +20093,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Plutonium_ring.jpg\">Los Alamos National Laboratory</a>, Attribution, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00001229,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Plutonium",
             "de": "Plutonium",
@@ -19228,6 +20142,16 @@
             8,
             2
         ],
+        "sound_speed": {
+            "value": 2260,
+            "unit": "m·s[−1]",
+            "condition": [
+                {
+                    "value": 293.15,
+                    "unit": "K"
+                }
+            ]
+        },
         "standard_potential": {
             "value": -2.031,
             "unit": "V",
@@ -19255,7 +20179,7 @@
         }
     },
     "am": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "appearance": {
             "en": "silvery white",
             "de": "silbrig-weißes Metall"
@@ -19299,6 +20223,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Americium_microscope.jpg\">Bionerd</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
         },
         "magnetic_ordering": "paramagnetic",
+        "molar_volume": {
+            "value": 0.00001778,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Americium",
             "de": "Americium",
@@ -19375,7 +20303,7 @@
         }
     },
     "cm": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "appearance": {
             "en": "silvery metallic, glows purple in the dark",
             "de": "silbrig-weißes Metall"
@@ -19413,6 +20341,10 @@
         "goldschmidt": "synthetic",
         "group": 20,
         "hazardous": null,
+        "molar_volume": {
+            "value": 0.00001805,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Curium",
             "de": "Curium",
@@ -19484,7 +20416,7 @@
         }
     },
     "bk": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "appearance": {
             "en": "silvery",
             "de": "silberweiß"
@@ -19520,6 +20452,10 @@
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Berkelium_metal.jpg\">Oak Ridge National Laboratory, US Department of Energy</a>, Public domain, via Wikimedia Commons"
         },
         "magnetic_ordering": "antiferromagnetic",
+        "molar_volume": {
+            "value": 0.00001684,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Berkelium",
             "de": "Berkelium",
@@ -19585,7 +20521,7 @@
         }
     },
     "cf": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "appearance": {
             "en": "silvery",
             "de": "silbriges Metall"
@@ -19619,6 +20555,10 @@
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Californium.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Californium.jpg\">United States Department of Energy (see File:Einsteinium.jpg)</a>, Public domain, via Wikimedia Commons"
+        },
+        "molar_volume": {
+            "value": 0.0000165,
+            "unit": "m[3]·mol[−1]"
         },
         "names": {
             "en": "Californium",
@@ -19681,7 +20621,7 @@
         }
     },
     "es": {
-        "@modified": "2023-10-14T10:19:50.627Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "appearance": {
             "en": "silvery; glows blue in the dark"
         },
@@ -19714,6 +20654,11 @@
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Einsteinium.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Einsteinium.jpg\">Haire, R. G., US Department of Energy.Touched up by Materialscientist at en.wikipedia.</a>, Public domain, via Wikimedia Commons"
+        },
+        "molar_volume": {
+            "value": 0.00002852,
+            "*": true,
+            "unit": "m[3]·mol[−1]"
         },
         "names": {
             "en": "Einsteinium",
@@ -20068,7 +21013,7 @@
         }
     },
     "rf": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "appearance": {
             "de": "unbekannt, vermutlich silber-weiß oder grau metallisch"
         },
@@ -20098,6 +21043,11 @@
         "goldschmidt": "synthetic",
         "group": 4,
         "hazardous": null,
+        "molar_volume": {
+            "value": 0.000016,
+            "*": true,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Rutherfordium",
             "de": "Rutherfordium",
@@ -20155,7 +21105,7 @@
         }
     },
     "db": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "atomic_mass": {
             "value": 262.1138,
             "*": true,
@@ -20190,6 +21140,11 @@
         "goldschmidt": "synthetic",
         "group": 5,
         "hazardous": null,
+        "molar_volume": {
+            "value": 0.000012,
+            "*": true,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Dubnium",
             "de": "Dubnium",
@@ -20234,7 +21189,7 @@
         }
     },
     "sg": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "atomic_mass": {
             "value": 263.1182,
             "*": true,
@@ -20261,6 +21216,11 @@
         "goldschmidt": "synthetic",
         "group": 6,
         "hazardous": null,
+        "molar_volume": {
+            "value": 0.000012,
+            "*": true,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Seaborgium",
             "de": "Seaborgium",
@@ -20305,7 +21265,7 @@
         }
     },
     "bh": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "atomic_mass": {
             "value": 262.1229,
             "*": true,
@@ -20332,6 +21292,11 @@
         "goldschmidt": "synthetic",
         "group": 7,
         "hazardous": null,
+        "molar_volume": {
+            "value": 0.00001,
+            "*": true,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Bohrium",
             "de": "Bohrium",
@@ -20376,7 +21341,7 @@
         }
     },
     "hs": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "atomic_mass": {
             "value": 265.269,
             "*": true,
@@ -20403,6 +21368,11 @@
         "goldschmidt": "synthetic",
         "group": 8,
         "hazardous": null,
+        "molar_volume": {
+            "value": 0.00001,
+            "*": true,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Hassium",
             "de": "Hassium",
@@ -20447,7 +21417,7 @@
         }
     },
     "mt": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "atomic_mass": {
             "value": 268,
             "*": true,
@@ -20474,6 +21444,11 @@
         "goldschmidt": "synthetic",
         "group": 9,
         "hazardous": null,
+        "molar_volume": {
+            "value": 0.00001,
+            "*": true,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Meitnerium",
             "de": "Meitnerium",
@@ -20518,7 +21493,7 @@
         }
     },
     "ds": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "atomic_mass": {
             "value": 281,
             "*": true,
@@ -20545,6 +21520,11 @@
         "goldschmidt": "synthetic",
         "group": 10,
         "hazardous": null,
+        "molar_volume": {
+            "value": 0.00001,
+            "*": true,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Darmstadtium",
             "de": "Darmstadtium",
@@ -20589,7 +21569,7 @@
         }
     },
     "rg": {
-        "@modified": "2023-10-11T11:47:53.714Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "atomic_mass": {
             "value": 280,
             "*": true,
@@ -20616,6 +21596,11 @@
         "goldschmidt": "synthetic",
         "group": 11,
         "hazardous": null,
+        "molar_volume": {
+            "value": 0.000012,
+            "*": true,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Roentgenium",
             "de": "Roentgenium",
@@ -20660,7 +21645,7 @@
         }
     },
     "cn": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "atomic_mass": {
             "value": 277,
             "*": true,
@@ -20687,6 +21672,11 @@
         "goldschmidt": "synthetic",
         "group": 12,
         "hazardous": null,
+        "molar_volume": {
+            "value": 0.000017,
+            "*": true,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Copernicium",
             "de": "Copernicium",
@@ -20759,7 +21749,7 @@
         }
     },
     "nh": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "atomic_mass": {
             "value": 287,
             "*": true,
@@ -20786,6 +21776,11 @@
         "goldschmidt": "synthetic",
         "group": 13,
         "hazardous": null,
+        "molar_volume": {
+            "value": 0.000018,
+            "*": true,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Nihonium",
             "de": "Nihonium",
@@ -20848,7 +21843,7 @@
         }
     },
     "fl": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "atomic_mass": {
             "value": 289,
             "*": true,
@@ -20875,6 +21870,11 @@
         "goldschmidt": "synthetic",
         "group": 14,
         "hazardous": null,
+        "molar_volume": {
+            "value": 0.000021,
+            "*": true,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Flerovium",
             "de": "Flerovium",
@@ -20928,7 +21928,7 @@
         }
     },
     "mc": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "atomic_mass": {
             "value": 288,
             "*": true,
@@ -20954,6 +21954,11 @@
         "goldschmidt": "synthetic",
         "group": 15,
         "hazardous": null,
+        "molar_volume": {
+            "value": 0.000022,
+            "*": true,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Moscovium",
             "de": "Moscovium",
@@ -21016,7 +22021,7 @@
         }
     },
     "lv": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "atomic_mass": {
             "value": 293,
             "*": true,
@@ -21042,6 +22047,11 @@
         "goldschmidt": "synthetic",
         "group": 16,
         "hazardous": null,
+        "molar_volume": {
+            "value": 0.000026,
+            "*": true,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Livermorium",
             "de": "Livermorium",
@@ -21116,7 +22126,7 @@
         }
     },
     "ts": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "appearance": {
             "en": "semimetallic (predicted)"
         },
@@ -21145,6 +22155,11 @@
         "goldschmidt": "synthetic",
         "group": 17,
         "hazardous": null,
+        "molar_volume": {
+            "value": 0.000041,
+            "*": true,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Tennessine",
             "de": "Tenness",
@@ -21214,7 +22229,7 @@
         }
     },
     "og": {
-        "@modified": "2023-10-12T23:10:57.236Z",
+        "@modified": "2023-10-16T09:16:47.694Z",
         "appearance": {
             "en": "metallic (predicted)"
         },
@@ -21244,6 +22259,11 @@
         "goldschmidt": "synthetic",
         "group": 18,
         "hazardous": null,
+        "molar_volume": {
+            "value": 0.000052,
+            "*": true,
+            "unit": "m[3]·mol[−1]"
+        },
         "names": {
             "en": "Oganesson",
             "de": "Oganesson",
