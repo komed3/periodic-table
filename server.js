@@ -380,6 +380,12 @@ routes.routes.forEach( ( route ) => {
 
                             if( ( value = core.fromPath( el, scale.key ) ) ) {
 
+                                if( Array.isArray( value ) ) {
+
+                                    value = value[0];
+
+                                }
+
                                 scale.results[ _k ] = {
                                     ...el,
                                     scale: {
