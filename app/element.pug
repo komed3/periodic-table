@@ -103,11 +103,14 @@ block content
                   a( href="/scale/density" )!= __( 'density' )
                 td.pt-prop-table-value
                   div.pt-prop-table-line!= core.fNumber( element.density, locale )
-                  if element.density.phases
-                    each prop, label in element.density.phases
+                  if element.density.variation
+                    each variation in element.density.variation
                       div.pt-prop-table-line
-                        span!= __( 'phase-' + label ) + ': '
-                        span!= core.fNumber( prop, locale )
+                        if variation.label && variation.label.substring( 0, 1 ) == '_'
+                          span!= variation.label.substring( 1 ) + ': '
+                        else
+                          span!= __( variation.label || 'undefined' ) + ': '
+                        span!= core.fNumber( variation, locale )
             each prop in [ 'molar_volume', 'sound_speed', 'heat_capacity', 'thermal_conductivity' ]
               if element[ prop ]
                 tr.pt-prop-table-row

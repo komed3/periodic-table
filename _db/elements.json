@@ -68,34 +68,33 @@
         "density": {
             "value": 0.0000899,
             "unit": "g·cm[−3]",
-            "phases": {
-                "gas": {
-                    "value": 8.988,
-                    "unit": "g·cm[−3]",
-                    "condition": [
-                        {
-                            "value": 273,
-                            "unit": "K"
-                        }
-                    ]
-                },
-                "liquid": {
-                    "value": 70.9,
-                    "unit": "g·l[−1]",
-                    "condition": [
-                        {
-                            "value": 20.324,
-                            "unit": "K"
-                        }
-                    ]
-                }
-            },
             "condition": [
                 {
                     "value": 273,
                     "unit": "K"
                 }
-            ]
+            ],
+            "variation": [ {
+                "label": "phase-gas",
+                "value": 0.0899,
+                "unit": "kg·m[−3]",
+                "condition": [
+                    {
+                        "value": 273,
+                        "unit": "K"
+                    }
+                ]
+            }, {
+                "label": "phase-liquid",
+                "value": 0.0709,
+                "unit": "kg·l[−1]",
+                "condition": [
+                    {
+                        "value": 20.324,
+                        "unit": "K"
+                    }
+                ]
+            } ]
         },
         "discovery": {
             "by": "Cavendish",
@@ -1397,7 +1396,16 @@
         "crystal_structure": "hex",
         "density": {
             "value": 2.26,
-            "unit": "g·cm[−3]"
+            "unit": "g·cm[−3]",
+            "variation": [ {
+                "label": "G",
+                "value": 2.26,
+                "unit": "g·cm[−3]"
+            }, {
+                "label": "D",
+                "value": 3.51,
+                "unit": "g·cm[−1]"
+            } ]
         },
         "elastic": {
             "bulk": {
@@ -3459,7 +3467,21 @@
         "crystal_structure": "orth",
         "density": {
             "value": 1.83,
-            "unit": "g·cm[−3]"
+            "unit": "g·cm[−3]",
+            "variation": [ {
+                "label": "white",
+                "value": 1.83,
+                "unit": "g·cm[−3]"
+            }, {
+                "label": "red",
+                "value": 2.2,
+                "range": [ 2, 2.4 ],
+                "unit": "g·cm[−1]"
+            }, {
+                "label": "black",
+                "value": 2.69,
+                "unit": "g·cm[−1]"
+            } ]
         },
         "discovery": {
             "by": "Brand",
@@ -7633,7 +7655,21 @@
         "crystal_structure": "rho",
         "density": {
             "value": 5.73,
-            "unit": "g·cm[−3]"
+            "unit": "g·cm[−3]",
+            "variation": [ {
+                "label": "gray",
+                "value": 5.73,
+                "unit": "g·cm[−3]"
+            }, {
+                "label": "yellow",
+                "value": 1.97,
+                "unit": "g·cm[−1]"
+            }, {
+                "label": "black",
+                "value": 4.9,
+                "range": [ 4.7, 5.1 ],
+                "unit": "g·cm[−1]"
+            } ]
         },
         "discovery": {
             "by": "Albertus Magnus",
@@ -7867,7 +7903,38 @@
                     "value": 298.15,
                     "unit": "K"
                 }
-            ]
+            ],
+            "variation": [ {
+                "label": "black",
+                "value": 4.28,
+                "unit": "g·cm[−3]",
+                "condition": [
+                    {
+                        "value": 333.15,
+                        "unit": "K"
+                    }
+                ]
+            }, {
+                "label": "gray",
+                "value": 4.819,
+                "unit": "g·cm[−1]",
+                "condition": [
+                    {
+                        "value": 298.15,
+                        "unit": "K"
+                    }
+                ]
+            }, {
+                "label": "red",
+                "value": 4.48,
+                "unit": "g·cm[−1]",
+                "condition": [
+                    {
+                        "value": 298.15,
+                        "unit": "K"
+                    }
+                ]
+            } ]
         },
         "discovery": {
             "by": "Berzelius",
@@ -11534,7 +11601,28 @@
                     "value": 293.15,
                     "unit": "K"
                 }
-            ]
+            ],
+            "variation": [ {
+                "label": "α",
+                "value": 5.769,
+                "unit": "g·cm[−3]",
+                "condition": [
+                    {
+                        "value": 293.15,
+                        "unit": "K"
+                    }
+                ]
+            }, {
+                "label": "β",
+                "value": 7.265,
+                "unit": "g·cm[−1]",
+                "condition": [
+                    {
+                        "value": 293.15,
+                        "unit": "K"
+                    }
+                ]
+            } ]
         },
         "elastic": {
             "young": {
