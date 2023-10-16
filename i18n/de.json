@@ -252,6 +252,7 @@
 	"mohs-hardness": "Mohshärte",
 	"mohs-hardness-description": "Härteprüfung nach Friedrich Mohs: „Harte Stoffe ritzen weiche“. Der Härtewert lässt sich nur im Vergleich mit anderen Werkstoffe oder Werkstoffzustände ermitteln. Die Ordinalskala (Mohs-Skala) ist in der Mineralogie und Geologie bis heute in Gebrauch. Minerale der Mohshärte 1 bis 2 gelten als weich, von 3 bis 5 als mittelhart, und alle Minerale über der Mohshärte 6 werden als hart bezeichnet.",
 	"molar_volume": "Molares Volumen",
+	"molar_volume-description": "Das Volumen, welches von 6,022·10²³ Teilchen (Avogadro-Konstante) einer Substanz ausgefüllt wird.",
 	"mulliken-negativity": "Mulliken-Skala",
 	"mulliken-negativity-description": "Robert S. Mulliken berechnet die Elektronegativität der nach ihm benannten Mulliken-Skala als Mittelwert aus der Ionisierungsenergie und der Elektronenaffinität.",
 	"name": "Name",
@@ -449,6 +450,7 @@
 	"sitemap-description": "Verzeichnis aller Unterseiten (Sitemap) für einen schnellen Zugriff auf Listen, Skalen und angegebene Eigenschaften der chemischen Elemente.",
 	"sitemap-title": "Alle Seiten",
 	"sound_speed": "Schallgeschwindigkeit",
+	"sound_speed-description": "Die Schallgeschwindigkeit gibt an, mit welcher Geschwindigkeit sich Schallwellen in einem Medium ausbreiten. Sie ist von der Dichte des Stoffs, dem Druck und der Temperatur abhängig.",
 	"spectrum-description": "Die abgebildeten Spektrallinien sind charakteristisch für die emittierten elektromagnetischen Wellen jedes chemischen Elements. Sie werden durch die mit Licht angeregten elektronischen Übergänge in Atomen oder Molekülen erzeugt.",
 	"spectrum-title": "Spektralanalyse",
 	"stable": "stabil",
@@ -499,7 +501,5 @@
 	"weblinks": "Weiterführende Links",
 	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" target=\"_blank\">Weiterlesen …</a>",
 	"young-elastic": "Youngscher Modul",
-	"young-elastic-description": "Der nach Thomas Young benannte Materialkennwert beschreibt bei linear-elastischem Verhalten den proportionalen Zusammenhang zwischen Spannung und Dehnung bei der Verformung eines festen Körpers.",
-	"molar_volume-description": "molar_volume-description",
-	"sound_speed-description": "sound_speed-description"
+	"young-elastic-description": "Der nach Thomas Young benannte Materialkennwert beschreibt bei linear-elastischem Verhalten den proportionalen Zusammenhang zwischen Spannung und Dehnung bei der Verformung eines festen Körpers."
 }
