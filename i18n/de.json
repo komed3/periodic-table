@@ -215,6 +215,8 @@
 	"human-abundance": "Menschlicher Körper",
 	"human-abundance-description": "Die gemittelte natürliche Häufigkeit chemischer Elemente im menschlichen Körper nach Gewicht ihrer Atome in ppb (parts per billion; Bezugswert: eine Milliarde). Reale Werte können stark von den Angaben abweichen.",
 	"ionization-energy": "Ionisierungsenergie",
+	"isotope-decay": "Zerfall",
+	"isotope-energy": "<abbr title=\"Zerfallsenergie\">ZE</abbr>",
 	"isotope-half-life": "<abbr title=\"Halbwertszeit\">t½</abbr>",
 	"isotope-mass": "Masse",
 	"isotope-mode": "<abbr title=\"Zerfallsart\">ZA</abbr>",

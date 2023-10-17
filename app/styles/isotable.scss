@@ -7,14 +7,15 @@
     white-space: nowrap;
 }
 
-.pt-isotable-label {
+.pt-isotable .pt-prop-table-label {
     width: auto !important;
 }
 
-.pt-isotable-value {
+.pt-isotable .pt-prop-table-value {
     padding: 0 10px;
 }
 
-.pt-isotable-value span {
-    display: block;
+.pt-isotable-decay {
+    display: flex;
+    gap: 0 6px;
 }
