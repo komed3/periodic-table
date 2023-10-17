@@ -253,23 +253,6 @@ block content
         div.pt-box.pt-element-properties
           h2!= __( 'prop-isotopes' )
           include templates/isotable.pug
-      //- NMR
-      if element.nmr
-        div.pt-box.pt-element-properties
-          h2!= __( 'prop-nmr' )
-          each isotope in element.nmr
-            h3
-              a( href= core.isoLink( isotope.isotope ) )!= core.fText( isotope.isotope )
-            table.pt-prop-table.pt-element-table
-              tbody
-                tr.pt-prop-table-row
-                  th.pt-prop-table-label!= __( 'nmr-spin' )
-                  td.pt-prop-table-value!= core.fText( isotope.spin )
-                each prop in [ 'freq', 'y', 'u', 'f', 'Dp', 'Dc' ]
-                  if isotope[ prop ]
-                    tr.pt-prop-table-row
-                      th.pt-prop-table-label!= __( 'nmr-' + prop )
-                      td.pt-prop-table-value!= core.fNumber( isotope[ prop ] )
     //- aside
     aside.pt-element-aside
       //- element image
