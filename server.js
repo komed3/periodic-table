@@ -101,6 +101,8 @@ app.use( i18n.init );
 
 app.use( ( req, res, next ) => {
 
+    core.setLocale( res.getLocale() );
+
     res.locals.__ = res.__ = function () {
 
         return i18n.__.apply( req, arguments );

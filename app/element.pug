@@ -62,18 +62,18 @@ block content
               tr.pt-prop-table-row
                 th.pt-prop-table-label
                   a( href="/scale/standard_atomic_weight" )!= __( 'standard-atomic-weight' )
-                td.pt-prop-table-value!= core.fNumber( element.standard_atomic_weight, locale )
+                td.pt-prop-table-value!= core.fNumber( element.standard_atomic_weight )
             if element.atomic_mass
               tr.pt-prop-table-row
                 th.pt-prop-table-label
                   a( href="/scale/atomic_mass" )!= __( 'atomic-mass' )
-                td.pt-prop-table-value!= core.fNumber( element.atomic_mass, locale )
+                td.pt-prop-table-value!= core.fNumber( element.atomic_mass )
             if element.radius
               each prop, label in element.radius
                 tr.pt-prop-table-row
                   th.pt-prop-table-label
                     a( href='/scale/radius_' + label )!= __( label + '-radius' )
-                  td.pt-prop-table-value!= core.fNumber( prop, locale )
+                  td.pt-prop-table-value!= core.fNumber( prop )
             if element.electron_config
               tr.pt-prop-table-row
                 th.pt-prop-table-label!= __( 'electron-config' )
@@ -81,7 +81,7 @@ block content
             if element.ionization
               tr.pt-prop-table-row
                 th.pt-prop-table-label!= __( 'ionization-energy' )
-                td.pt-prop-table-value!= core.fNumber( element.ionization, locale )
+                td.pt-prop-table-value!= core.fNumber( element.ionization )
             if element.shell
               tr.pt-prop-table-row
                 th.pt-prop-table-label!= __( 'shell' )
@@ -101,13 +101,13 @@ block content
               tr.pt-prop-table-row
                 th.pt-prop-table-label
                   a( href="/scale/density" )!= __( 'density' )
-                td.pt-prop-table-value!= core.fNumber( element.density, locale )
+                td.pt-prop-table-value!= core.fNumber( element.density )
             each prop in [ 'molar_volume', 'sound_speed', 'heat_capacity', 'thermal_conductivity' ]
               if element[ prop ]
                 tr.pt-prop-table-row
                   th.pt-prop-table-label
                     a( href='/scale/' + prop )!= __( prop )
-                  td.pt-prop-table-value!= core.fNumber( element[ prop ], locale )
+                  td.pt-prop-table-value!= core.fNumber( element[ prop ] )
         //- prop box: temperatures
         if element.temperature
           div.pt-prop-box.open
@@ -123,7 +123,7 @@ block content
                     tr.pt-prop-table-row
                       th.pt-prop-table-label
                         a( href='/scale/temp_' + label )!= __( label + '-temp' )
-                      td.pt-prop-table-value!= core.fNumber( prop, locale )
+                      td.pt-prop-table-value!= core.fNumber( prop )
         //- prop box: enthalpies
         if element.enthalpy
           div.pt-prop-box
@@ -139,7 +139,7 @@ block content
                     tr.pt-prop-table-row
                       th.pt-prop-table-label
                         a( href='/scale/enthalpy_' + label )!= __( label + '-enthalpy' )
-                      td.pt-prop-table-value!= core.fNumber( prop, locale )
+                      td.pt-prop-table-value!= core.fNumber( prop )
         //- prop box: hardness
         if element.hardness
           div.pt-prop-box
@@ -155,7 +155,7 @@ block content
                     tr.pt-prop-table-row
                       th.pt-prop-table-label
                         a( href='/scale/hardness_' + label )!= __( label + '-hardness' )
-                      td.pt-prop-table-value!= core.fNumber( prop, locale )
+                      td.pt-prop-table-value!= core.fNumber( prop )
         //- prop box: elastic
         if element.elastic
           div.pt-prop-box
@@ -171,7 +171,7 @@ block content
                     tr.pt-prop-table-row
                       th.pt-prop-table-label
                         a( href='/scale/elastic_' + label )!= __( label + '-elastic' )
-                      td.pt-prop-table-value!= core.fNumber( prop, locale )
+                      td.pt-prop-table-value!= core.fNumber( prop )
       //- chemical properties
       div.pt-box.pt-element-properties
         h2!= __( 'prop-chemical' )
@@ -190,7 +190,7 @@ block content
               tr.pt-prop-table-row
                 th.pt-prop-table-label
                   a( href="/scale/standard_potential" )!= __( 'standard-potential' )
-                td.pt-prop-table-value!= core.fNumber( element.standard_potential, locale )
+                td.pt-prop-table-value!= core.fNumber( element.standard_potential )
         //- prop box: electronegativity
         if element.negativity
           div.pt-prop-box.open
@@ -206,7 +206,7 @@ block content
                     tr.pt-prop-table-row
                       th.pt-prop-table-label
                         a( href='/scale/negativity_' + label )!= __( label + '-negativity' )
-                      td.pt-prop-table-value!= core.fNumber( prop, locale )
+                      td.pt-prop-table-value!= core.fNumber( prop )
       //- other properties
       div.pt-box.pt-element-properties
         h2!= __( 'prop-other' )
@@ -221,12 +221,12 @@ block content
             if element.magnetic_susceptibility
               tr.pt-prop-table-row
                 th.pt-prop-table-label!= __( 'magnetic_susceptibility' )
-                td.pt-prop-table-value!= core.fNumber( element.magnetic_susceptibility, locale )
+                td.pt-prop-table-value!= core.fNumber( element.magnetic_susceptibility )
             if element.refractive_index
               tr.pt-prop-table-row
                 th.pt-prop-table-label
                   a( href="/scale/refractive_index" )!= __( 'refractive_index' )
-                td.pt-prop-table-value!= core.fNumber( element.refractive_index, locale )
+                td.pt-prop-table-value!= core.fNumber( element.refractive_index )
             if element.superconductivity
               tr.pt-prop-table-row
                 th.pt-prop-table-label!= __( 'superconductivity-label' )
@@ -236,12 +236,12 @@ block content
               tr.pt-prop-table-row
                 th.pt-prop-table-label
                   a( href="/scale/sc_temp" )!= __( 'sc_temp' )
-                td.pt-prop-table-value!= core.fNumber( element.sc_temp, locale )
+                td.pt-prop-table-value!= core.fNumber( element.sc_temp )
             if element.price
               tr.pt-prop-table-row
                 th.pt-prop-table-label
                   a( href="/scale/price" )!= __( 'price-kg' )
-                td.pt-prop-table-value!= core.fNumber( element.price, locale )
+                td.pt-prop-table-value!= core.fNumber( element.price )
             tr.pt-prop-table-row
               th.pt-prop-table-label!= __( 'properties' )
               td.pt-prop-table-value.pt-prop-table-list
@@ -269,7 +269,7 @@ block content
                   if isotope[ prop ]
                     tr.pt-prop-table-row
                       th.pt-prop-table-label!= __( 'nmr-' + prop )
-                      td.pt-prop-table-value!= core.fNumber( isotope[ prop ], locale )
+                      td.pt-prop-table-value!= core.fNumber( isotope[ prop ] )
     //- aside
     aside.pt-element-aside
       //- element image
@@ -400,7 +400,7 @@ block content
               each prop, label in element.abundance
                 tr.pt-prop-table-row
                   th.pt-prop-table-label!= __( label + '-abundance' )
-                  td.pt-prop-table-value!= core.fNumber( prop, locale )
+                  td.pt-prop-table-value!= core.fNumber( prop )
       //- weblinks
       div.pt-box.pt-element-weblinks
         h2!= __( 'weblinks' )
@@ -415,7 +415,7 @@ block content
               span= link.text
       //- @modified
       if element[ '@modified' ]
-        p.pt-element-modified!= __( '@modified', core.fDate( element[ '@modified' ], locale ) )
+        p.pt-element-modified!= __( '@modified', core.fDate( element[ '@modified' ] ) )
     //- footer
     div.pt-element-footer
       //- tpl:microtable

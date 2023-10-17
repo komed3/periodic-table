@@ -12,7 +12,7 @@ table.pt-prop-table.pt-isotable
             b!= core.fText( isotope.nuclide ) + ( isotope.alias ? '&nbsp;(' + core.fText( isotope.alias ) + ')' : '' )
         td.pt-prop-table-value.pt-isotable-value
           if isotope.mass
-            span!= core.fNumber( isotope.mass, locale, 5 )
+            span!= core.fNumber( isotope.mass, 5 )
           else
             span —
         if isotope.decay == 'stable'
@@ -20,7 +20,7 @@ table.pt-prop-table.pt-isotable
             b!= __( 'stable' )
         else
           td.pt-prop-table-value.pt-isotable-value
-            span!= core.fTime( isotope.decay.half_life, locale )[0]
+            span!= core.fTime( isotope.decay.half_life )[0]
           td.pt-prop-table-value.pt-isotable-value
             each p in isotope.decay.products
               span!= core.fText( p.mode )
@@ -29,7 +29,7 @@ table.pt-prop-table.pt-isotable
               span!= core.fText( p.isotope )
         td.pt-prop-table-value.pt-isotable-value
           if isotope.natural_abundance
-            span!= core.fNumber( isotope.natural_abundance, locale, 5 )
+            span!= core.fNumber( isotope.natural_abundance, 5 )
   tfoot
     tr.pt-prop-table-row.pt-isotable-footer
       th( colspan="6" ).pt-prop-table-label.pt-isotable-label

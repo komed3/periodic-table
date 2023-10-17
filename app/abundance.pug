@@ -52,7 +52,7 @@ block content
           )!= __( 'abundance-title' )
           th.pt-prop-table-label.right(
             sort-key="mass"
-          )!= __( 'abundance-mass', core.fWeight( abundance.mass, locale )[0] )
+          )!= __( 'abundance-mass', core.fWeight( abundance.mass )[0] )
           th.pt-prop-table-label.right(
             sort-key="price"
           )!= __( 'price' )
@@ -74,13 +74,13 @@ block content
             td.pt-prop-table-value
               a( href='/e/' + elements[ el ].symbol )!= elements[ el ].names[ locale ]
             td.pt-prop-table-value.right
-              span!= core.fNumber( elements[ el ].abundance[ abundance.type ], locale )
+              span!= core.fNumber( elements[ el ].abundance[ abundance.type ] )
             td.pt-prop-table-value.right
-              span!= core.fNumber( { value: value / 1e7, unit: '%' }, locale )
+              span!= core.fNumber( { value: value / 1e7, unit: '%' } )
             td.pt-prop-table-value.right
-              span!= core.fWeight( mass, locale )[0]
+              span!= core.fWeight( mass )[0]
             td.pt-prop-table-value.right
               if price == null
                 span!= __( 'undefined' )
               else
-                span!= core.fNumber( { value: price, unit: 'USD' }, locale, 2 )
+                span!= core.fNumber( { value: price, unit: 'USD' }, 2 )
