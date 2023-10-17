@@ -148,6 +148,16 @@ block content
                   th.pt-prop-table-label
                     a( href='/scale/elastic_' + label )!= __( label + '-elastic' )
                   td.pt-prop-table-value!= core.fNumber( prop )
+        //- prop box: optical
+        if element.optical
+          h3!= __( 'optical' )
+          table.pt-prop-table.pt-element-table
+            tbody
+              each prop, label in element.optical
+                tr.pt-prop-table-row
+                  th.pt-prop-table-label
+                    a( href='/scale/optical_' + label )!= __( label + '-optical' )
+                  td.pt-prop-table-value!= core.fNumber( prop )
       //- chemical properties
       div.pt-box.pt-element-properties
         h2!= __( 'prop-chemical' )
