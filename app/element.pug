@@ -223,6 +223,21 @@ block content
         div.pt-box.pt-element-properties
           h2!= __( 'prop-isotopes' )
           include templates/isotable.pug
+      //- abundance
+      if element.abundance
+        div.pt-box.pt-element-abundance
+          h2!= __( 'abundances-title' )
+          div.pt-element-abundance-grid
+            each abundance, k in config.abundances
+              div.pt-element-abundance-item
+                i.icon.pt-element-abundance-icon!= abundance.icon
+                div.pt-element-abundance-info
+                  a( href="/abundance/" + k )!= __( k + '-abundance' )
+                  if k in element.abundance
+                    - var mass = element.abundance[ k ].value / 1e9 * abundance.mass
+                    div!= core.fNumber( element.abundance[ k ] ) + ' ≈&nbsp;' + core.fWeight( mass )[0]
+                  else
+                    div!= __( 'undefined' )
     //- aside
     aside.pt-element-aside
       //- element image
@@ -343,17 +358,6 @@ block content
                         )= c.value
                       if c.label && c.label.length
                         span!= '&nbsp;(' + core.fText( c.label ) + ')'
-      //- abundance
-      if element.abundance
-        div.pt-box.pt-element-classification
-          h2
-            a( href="/abundances" )!= __( 'abundances-title' )
-          table.pt-prop-table.pt-element-table
-            tbody
-              each prop, label in element.abundance
-                tr.pt-prop-table-row
-                  th.pt-prop-table-label!= __( label + '-abundance' )
-                  td.pt-prop-table-value!= core.fNumber( prop )
       //- weblinks
       div.pt-box.pt-element-weblinks
         h2!= __( 'weblinks' )
