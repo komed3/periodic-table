@@ -41,24 +41,4 @@ window.addEventListener( 'load', function () {
 
     }, false );
 
-    /**
-     * prop box toggle (expand / close)
-     */
-
-    var ptPropBoxOpener = document.querySelectorAll( '.pt-prop-box-toggle' );
-
-    [].forEach.call( ptPropBoxOpener, function ( el ) {
-
-        let box = el.closest( '.pt-prop-box' );
-
-        el.addEventListener( 'click', function ( e ) {
-
-            e.preventDefault();
-
-            box.classList.toggle( 'open' );
-
-        } );
-
-    } );
-
 }, false );

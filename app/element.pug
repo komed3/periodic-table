@@ -110,68 +110,44 @@ block content
                   td.pt-prop-table-value!= core.fNumber( element[ prop ] )
         //- prop box: temperatures
         if element.temperature
-          div.pt-prop-box.open
-            h3.pt-prop-box-label
-              span!= __( 'temperatures' )
-              a( href="#" ).pt-prop-box-toggle
-                span.open!= __( 'expand' )
-                span.close!= __( 'close' )
-            div.pt-prop-box-content
-              table.pt-prop-table.pt-element-table
-                tbody
-                  each prop, label in element.temperature
-                    tr.pt-prop-table-row
-                      th.pt-prop-table-label
-                        a( href='/scale/temp_' + label )!= __( label + '-temp' )
-                      td.pt-prop-table-value!= core.fNumber( prop )
+          h3!= __( 'temperatures' )
+          table.pt-prop-table.pt-element-table
+            tbody
+              each prop, label in element.temperature
+                tr.pt-prop-table-row
+                  th.pt-prop-table-label
+                    a( href='/scale/temp_' + label )!= __( label + '-temp' )
+                  td.pt-prop-table-value!= core.fNumber( prop )
         //- prop box: enthalpies
         if element.enthalpy
-          div.pt-prop-box
-            h3.pt-prop-box-label
-              span!= __( 'enthalpies' )
-              a( href="#" ).pt-prop-box-toggle
-                span.open!= __( 'expand' )
-                span.close!= __( 'close' )
-            div.pt-prop-box-content
-              table.pt-prop-table.pt-element-table
-                tbody
-                  each prop, label in element.enthalpy
-                    tr.pt-prop-table-row
-                      th.pt-prop-table-label
-                        a( href='/scale/enthalpy_' + label )!= __( label + '-enthalpy' )
-                      td.pt-prop-table-value!= core.fNumber( prop )
+          h3!= __( 'enthalpies' )
+          table.pt-prop-table.pt-element-table
+            tbody
+              each prop, label in element.enthalpy
+                tr.pt-prop-table-row
+                  th.pt-prop-table-label
+                    a( href='/scale/enthalpy_' + label )!= __( label + '-enthalpy' )
+                  td.pt-prop-table-value!= core.fNumber( prop )
         //- prop box: hardness
         if element.hardness
-          div.pt-prop-box
-            h3.pt-prop-box-label
-              span!= __( 'hardnesses' )
-              a( href="#" ).pt-prop-box-toggle
-                span.open!= __( 'expand' )
-                span.close!= __( 'close' )
-            div.pt-prop-box-content
-              table.pt-prop-table.pt-element-table
-                tbody
-                  each prop, label in element.hardness
-                    tr.pt-prop-table-row
-                      th.pt-prop-table-label
-                        a( href='/scale/hardness_' + label )!= __( label + '-hardness' )
-                      td.pt-prop-table-value!= core.fNumber( prop )
+          h3!= __( 'hardnesses' )
+          table.pt-prop-table.pt-element-table
+            tbody
+              each prop, label in element.hardness
+                tr.pt-prop-table-row
+                  th.pt-prop-table-label
+                    a( href='/scale/hardness_' + label )!= __( label + '-hardness' )
+                  td.pt-prop-table-value!= core.fNumber( prop )
         //- prop box: elastic
         if element.elastic
-          div.pt-prop-box
-            h3.pt-prop-box-label
-              span!= __( 'elastics' )
-              a( href="#" ).pt-prop-box-toggle
-                span.open!= __( 'expand' )
-                span.close!= __( 'close' )
-            div.pt-prop-box-content
-              table.pt-prop-table.pt-element-table
-                tbody
-                  each prop, label in element.elastic
-                    tr.pt-prop-table-row
-                      th.pt-prop-table-label
-                        a( href='/scale/elastic_' + label )!= __( label + '-elastic' )
-                      td.pt-prop-table-value!= core.fNumber( prop )
+          h3!= __( 'elastics' )
+          table.pt-prop-table.pt-element-table
+            tbody
+              each prop, label in element.elastic
+                tr.pt-prop-table-row
+                  th.pt-prop-table-label
+                    a( href='/scale/elastic_' + label )!= __( label + '-elastic' )
+                  td.pt-prop-table-value!= core.fNumber( prop )
       //- chemical properties
       div.pt-box.pt-element-properties
         h2!= __( 'prop-chemical' )
@@ -193,20 +169,14 @@ block content
                 td.pt-prop-table-value!= core.fNumber( element.standard_potential )
         //- prop box: electronegativity
         if element.negativity
-          div.pt-prop-box.open
-            h3.pt-prop-box-label
-              span!= __( 'electronegativity' )
-              a( href="#" ).pt-prop-box-toggle
-                span.open!= __( 'expand' )
-                span.close!= __( 'close' )
-            div.pt-prop-box-content
-              table.pt-prop-table.pt-element-table
-                tbody
-                  each prop, label in element.negativity
-                    tr.pt-prop-table-row
-                      th.pt-prop-table-label
-                        a( href='/scale/negativity_' + label )!= __( label + '-negativity' )
-                      td.pt-prop-table-value!= core.fNumber( prop )
+          h3!= __( 'electronegativity' )
+          table.pt-prop-table.pt-element-table
+            tbody
+              each prop, label in element.negativity
+                tr.pt-prop-table-row
+                  th.pt-prop-table-label
+                    a( href='/scale/negativity_' + label )!= __( label + '-negativity' )
+                  td.pt-prop-table-value!= core.fNumber( prop )
       //- other properties
       div.pt-box.pt-element-properties
         h2!= __( 'prop-other' )
