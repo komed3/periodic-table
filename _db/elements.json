@@ -1,6 +1,6 @@
 {
     "h": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 750000000,
@@ -186,6 +186,18 @@
             "allen": 2.3
         },
         "number": 1,
+        "optic": {
+            "refractive_index": [
+                {
+                    "label": "gas",
+                    "value": 1.000132
+                },
+                {
+                    "label": "liquid",
+                    "value": 1.12
+                }
+            ]
+        },
         "oxidation_state": "+1, 0, -1",
         "period": 1,
         "phase": "gas",
@@ -296,7 +308,7 @@
         }
     },
     "he": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 230000000,
@@ -424,6 +436,18 @@
             "mulliken": 3.49
         },
         "number": 2,
+        "optic": {
+            "refractive_index": [
+                {
+                    "label": "gas",
+                    "value": 1.000035
+                },
+                {
+                    "label": "liquid",
+                    "value": 1.028
+                }
+            ]
+        },
         "oxidation_state": "0",
         "period": 1,
         "phase": "gas",
@@ -1278,7 +1302,7 @@
         }
     },
     "c": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 5000000,
@@ -1429,6 +1453,16 @@
             "allen": 2.544
         },
         "number": 6,
+        "optic": {
+            "reflectivity": {
+                "value": 27,
+                "unit": "%"
+            },
+            "refractive_index": {
+                "label": "diamond",
+                "value": 2.417
+            }
+        },
         "oxidation_state": "-4 … 4",
         "oxide_character": "acidic",
         "period": 2,
@@ -1513,7 +1547,7 @@
         }
     },
     "n": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 1000000,
@@ -1652,6 +1686,18 @@
             "allen": 3.066
         },
         "number": 7,
+        "optic": {
+            "refractive_index": [
+                {
+                    "label": "gas",
+                    "value": 1.000298
+                },
+                {
+                    "label": "liquid",
+                    "value": 1.197
+                }
+            ]
+        },
         "oxidation_state": "-3, -2, -1, 0, 1, 2, '''3''', 4, 5",
         "oxide_character": "acidic",
         "period": 2,
@@ -1745,7 +1791,7 @@
         }
     },
     "o": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 10000000,
@@ -1905,6 +1951,18 @@
             "allen": 3.61
         },
         "number": 8,
+        "optic": {
+            "refractive_index": [
+                {
+                    "label": "gas",
+                    "value": 1.000271
+                },
+                {
+                    "label": "liquid",
+                    "value": 1.221
+                }
+            ]
+        },
         "oxidation_state": "'''-2''', -1, 0, +1, +2",
         "oxide_character": "acidic",
         "period": 2,
@@ -2006,7 +2064,7 @@
         }
     },
     "f": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 400,
@@ -2178,6 +2236,9 @@
             "allen": 4.193
         },
         "number": 9,
+        "optic": {
+            "refractive_index": 1.000195
+        },
         "oxidation_state": "-1",
         "oxide_character": "acidic",
         "period": 2,
@@ -2263,7 +2324,7 @@
         }
     },
     "ne": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 1300000,
@@ -2389,6 +2450,9 @@
             "allen": 4.787
         },
         "number": 10,
+        "optic": {
+            "refractive_index": 1.000067
+        },
         "period": 2,
         "phase": "gas",
         "price": {
@@ -2732,7 +2796,7 @@
         }
     },
     "mg": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 600000,
@@ -2913,6 +2977,12 @@
             "allen": 1.293
         },
         "number": 12,
+        "optic": {
+            "reflectivity": {
+                "value": 74,
+                "unit": "%"
+            }
+        },
         "oxidation_state": "1, '''2'''",
         "oxide_character": "basic",
         "period": 3,
@@ -2998,7 +3068,7 @@
         }
     },
     "al": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 50000,
@@ -3168,6 +3238,12 @@
             "allen": 1.613
         },
         "number": 13,
+        "optic": {
+            "reflectivity": {
+                "value": 71,
+                "unit": "%"
+            }
+        },
         "oxidation_state": "1, 2, '''3'''",
         "oxide_character": "amphoteric",
         "period": 3,
@@ -3246,7 +3322,7 @@
         }
     },
     "si": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 700000,
@@ -3385,6 +3461,12 @@
             "allen": 1.916
         },
         "number": 14,
+        "optic": {
+            "reflectivity": {
+                "value": 28,
+                "unit": "%"
+            }
+        },
         "oxidation_state": "-4, (2), '''+4'''",
         "oxide_character": "acidic",
         "period": 3,
@@ -3467,7 +3549,7 @@
         }
     },
     "p": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 7000,
@@ -3654,6 +3736,9 @@
             "allen": 2.253
         },
         "number": 15,
+        "optic": {
+            "refractive_index": 1.001212
+        },
         "oxidation_state": "±3, 4, '''5'''",
         "oxide_character": "acidic",
         "period": 3,
@@ -3731,7 +3816,7 @@
         }
     },
     "s": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 500000,
@@ -3879,6 +3964,9 @@
             "allen": 2.589
         },
         "number": 16,
+        "optic": {
+            "refractive_index": 1.001111
+        },
         "oxidation_state": "±2 … +6",
         "oxide_character": "acidic",
         "period": 3,
@@ -3966,7 +4054,7 @@
         }
     },
     "cl": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 1000,
@@ -4147,6 +4235,9 @@
             "allen": 2.869
         },
         "number": 17,
+        "optic": {
+            "refractive_index": 1.000773
+        },
         "oxidation_state": "'''±1''', 3, 4, 5, 6, 7",
         "oxide_character": "acidic",
         "period": 3,
@@ -4232,7 +4323,7 @@
         }
     },
     "ar": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 200000,
@@ -4358,6 +4449,9 @@
             "allen": 3.242
         },
         "number": 18,
+        "optic": {
+            "refractive_index": 1.000281
+        },
         "period": 3,
         "phase": "gas",
         "price": {
@@ -5442,7 +5536,7 @@
         }
     },
     "v": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 1000,
@@ -5592,6 +5686,12 @@
             "allred": 1.45
         },
         "number": 23,
+        "optic": {
+            "reflectivity": {
+                "value": 61,
+                "unit": "%"
+            }
+        },
         "oxidation_state": "'''+5''', +4 ,+3 ,+2",
         "oxide_character": "amphoteric",
         "period": 4,
@@ -6149,7 +6249,7 @@
         }
     },
     "fe": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 1100000,
@@ -6289,6 +6389,12 @@
             "allred": 1.64
         },
         "number": 26,
+        "optic": {
+            "reflectivity": {
+                "value": 65,
+                "unit": "%"
+            }
+        },
         "oxidation_state": "2, '''3''', 4, 5, 6",
         "oxide_character": "basic",
         "period": 4,
@@ -6376,7 +6482,7 @@
         }
     },
     "co": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 3000,
@@ -6568,6 +6674,12 @@
             "allred": 1.7
         },
         "number": 27,
+        "optic": {
+            "reflectivity": {
+                "value": 67,
+                "unit": "%"
+            }
+        },
         "oxidation_state": "'''2''', 3",
         "oxide_character": "basic",
         "period": 4,
@@ -6640,7 +6752,7 @@
         }
     },
     "ni": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 60000,
@@ -6820,6 +6932,12 @@
             "allred": 1.75
         },
         "number": 28,
+        "optic": {
+            "reflectivity": {
+                "value": 72,
+                "unit": "%"
+            }
+        },
         "oxidation_state": "'''2''', (-1), 0, 1, 3, 4",
         "oxide_character": "basic",
         "period": 4,
@@ -6896,7 +7014,7 @@
         }
     },
     "cu": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 60,
@@ -7060,6 +7178,12 @@
             "mulliken": 1.49
         },
         "number": 29,
+        "optic": {
+            "reflectivity": {
+                "value": 90,
+                "unit": "%"
+            }
+        },
         "oxidation_state": "1, '''2''', 3, 4",
         "oxide_character": "basic",
         "period": 4,
@@ -7137,7 +7261,7 @@
         }
     },
     "zn": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 300,
@@ -7311,6 +7435,13 @@
             "mulliken": 1.65
         },
         "number": 30,
+        "optic": {
+            "reflectivity": {
+                "value": 80,
+                "unit": "%"
+            },
+            "refractive_index": 1.00205
+        },
         "oxidation_state": "2",
         "oxide_character": "amphoteric",
         "period": 4,
@@ -7852,7 +7983,7 @@
         }
     },
     "as": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 8,
@@ -8025,6 +8156,9 @@
             "allen": 2.211
         },
         "number": 33,
+        "optic": {
+            "refractive_index": 1.001552
+        },
         "oxidation_state": "-3, '''3''', 5",
         "oxide_character": "amphoteric",
         "period": 4,
@@ -8107,7 +8241,7 @@
         }
     },
     "se": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 30,
@@ -8307,6 +8441,9 @@
             "allen": 2.424
         },
         "number": 34,
+        "optic": {
+            "refractive_index": 1.000895
+        },
         "oxidation_state": "±2, '''4''', 6",
         "oxide_character": "acidic",
         "period": 4,
@@ -8401,7 +8538,7 @@
         }
     },
     "br": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 7,
@@ -8567,6 +8704,9 @@
             "allen": 2.685
         },
         "number": 35,
+        "optic": {
+            "refractive_index": 1.001132
+        },
         "oxidation_state": "±1, 3, 5, 7",
         "oxide_character": "acidic",
         "period": 4,
@@ -8661,7 +8801,7 @@
         }
     },
     "kr": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 40,
@@ -8790,6 +8930,9 @@
             "allen": 2.966
         },
         "number": 36,
+        "optic": {
+            "refractive_index": 1.000427
+        },
         "period": 4,
         "phase": "gas",
         "price": {
@@ -10100,7 +10243,7 @@
         }
     },
     "mo": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 5,
@@ -10250,6 +10393,12 @@
             "allred": 1.3
         },
         "number": 42,
+        "optic": {
+            "reflectivity": {
+                "value": 58,
+                "unit": "%"
+            }
+        },
         "oxidation_state": "2, 3, 4, 5, '''6'''",
         "oxide_character": "amphoteric",
         "period": 5,
@@ -10713,7 +10862,7 @@
         }
     },
     "rh": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 0.6,
@@ -10869,6 +11018,12 @@
             "allred": 1.45
         },
         "number": 45,
+        "optic": {
+            "reflectivity": {
+                "value": 84,
+                "unit": "%"
+            }
+        },
         "oxidation_state": "0, '''+1''', +2, '''+3''', +4",
         "oxide_character": "basic",
         "period": 5,
@@ -10954,7 +11109,7 @@
         }
     },
     "pd": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -11114,6 +11269,12 @@
             "allred": 1.35
         },
         "number": 46,
+        "optic": {
+            "reflectivity": {
+                "value": 72,
+                "unit": "%"
+            }
+        },
         "oxidation_state": "0, '''+2''', +4",
         "oxide_character": "basic",
         "period": 5,
@@ -11195,7 +11356,7 @@
         }
     },
     "ag": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 0.6,
@@ -11364,6 +11525,12 @@
             "mulliken": 1.47
         },
         "number": 47,
+        "optic": {
+            "reflectivity": {
+                "value": 97,
+                "unit": "%"
+            }
+        },
         "oxidation_state": "'''+1''', +2, +3",
         "oxide_character": "basic",
         "period": 5,
@@ -11442,7 +11609,7 @@
         }
     },
     "cd": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -11632,6 +11799,12 @@
             "mulliken": 1.53
         },
         "number": 48,
+        "optic": {
+            "reflectivity": {
+                "value": 67,
+                "unit": "%"
+            }
+        },
         "oxidation_state": "2",
         "oxide_character": "basic",
         "period": 5,
@@ -11960,7 +12133,7 @@
         }
     },
     "sn": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 4,
@@ -12118,6 +12291,12 @@
             "allen": 1.824
         },
         "number": 50,
+        "optic": {
+            "reflectivity": {
+                "value": 54,
+                "unit": "%"
+            }
+        },
         "oxidation_state": "(-4), '''4''', 2",
         "oxide_character": "amphoteric",
         "period": 5,
@@ -12206,7 +12385,7 @@
         }
     },
     "sb": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 0.4,
@@ -12357,6 +12536,12 @@
             "allen": 1.984
         },
         "number": 51,
+        "optic": {
+            "reflectivity": {
+                "value": 55,
+                "unit": "%"
+            }
+        },
         "oxidation_state": "-3, '''3''', 5",
         "oxide_character": "amphoteric",
         "period": 5,
@@ -12437,7 +12622,7 @@
         }
     },
     "te": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 9,
@@ -12592,6 +12777,13 @@
             "allen": 2.158
         },
         "number": 52,
+        "optic": {
+            "reflectivity": {
+                "value": 50,
+                "unit": "%"
+            },
+            "refractive_index": 1.000991
+        },
         "oxidation_state": "'''-2''', (±1), 2, '''4''', 6",
         "oxide_character": "acidic",
         "period": 5,
@@ -12953,7 +13145,7 @@
         }
     },
     "xe": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -13096,6 +13288,9 @@
             "allen": 2.582
         },
         "number": 54,
+        "optic": {
+            "refractive_index": 1.000702
+        },
         "oxide_character": "acidic",
         "period": 5,
         "phase": "gas",
@@ -17426,7 +17621,7 @@
         }
     },
     "ta": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 0.08,
@@ -17583,6 +17778,12 @@
             "allred": 1.33
         },
         "number": 73,
+        "optic": {
+            "reflectivity": {
+                "value": 78,
+                "unit": "%"
+            }
+        },
         "oxidation_state": "5",
         "oxide_character": "amphoteric",
         "period": 6,
@@ -17667,7 +17868,7 @@
         }
     },
     "w": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -17833,6 +18034,12 @@
             "allred": 1.4
         },
         "number": 74,
+        "optic": {
+            "reflectivity": {
+                "value": 62,
+                "unit": "%"
+            }
+        },
         "oxidation_state": "'''6''', 5, 4, 3, 2",
         "oxide_character": "amphoteric",
         "period": 6,
@@ -18382,7 +18589,7 @@
         }
     },
     "ir": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -18531,6 +18738,12 @@
             "allred": 1.55
         },
         "number": 77,
+        "optic": {
+            "reflectivity": {
+                "value": 78,
+                "unit": "%"
+            }
+        },
         "oxidation_state": "-3, -1, 0, 1, 2, '''3''', '''4''', 5, 6, 8, 9",
         "oxide_character": "basic",
         "period": 6,
@@ -18611,7 +18824,7 @@
         }
     },
     "pt": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 5,
@@ -18748,6 +18961,12 @@
             "allred": 1.44
         },
         "number": 78,
+        "optic": {
+            "reflectivity": {
+                "value": 73,
+                "unit": "%"
+            }
+        },
         "oxidation_state": "-2, 0, '''+2''', '''+4''', '''+6'''",
         "oxide_character": "basic",
         "period": 6,
@@ -18827,7 +19046,7 @@
         }
     },
     "au": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 0.6,
@@ -18973,6 +19192,12 @@
             "mulliken": 1.87
         },
         "number": 79,
+        "optic": {
+            "reflectivity": {
+                "value": 95,
+                "unit": "%"
+            }
+        },
         "oxidation_state": "-1, 0, +1, +2, '''+3''', +5",
         "oxide_character": "basic",
         "period": 6,
@@ -19053,7 +19278,7 @@
         }
     },
     "hg": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-17T21:04:22.393Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -19225,6 +19450,13 @@
             "mulliken": 1.81
         },
         "number": 80,
+        "optic": {
+            "reflectivity": {
+                "value": 73,
+                "unit": "%"
+            },
+            "refractive_index": 1.000933
+        },
         "oxidation_state": "1, '''2''', 4",
         "oxide_character": "basic",
         "period": 6,
