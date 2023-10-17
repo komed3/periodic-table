@@ -516,5 +516,7 @@
 	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" target=\"_blank\">Weiterlesen …</a>",
 	"yellow": "gelb",
 	"young-elastic": "Youngscher Modul",
-	"young-elastic-description": "Der nach Thomas Young benannte Materialkennwert beschreibt bei linear-elastischem Verhalten den proportionalen Zusammenhang zwischen Spannung und Dehnung bei der Verformung eines festen Körpers."
+	"young-elastic-description": "Der nach Thomas Young benannte Materialkennwert beschreibt bei linear-elastischem Verhalten den proportionalen Zusammenhang zwischen Spannung und Dehnung bei der Verformung eines festen Körpers.",
+	"reflectivity-optical-description": "Das Verhältnis zwischen reflektierter und einfallender Intensität als Energiegröße wird als Reflexionsgrad bezeichnet.",
+	"refractive_index-optical-description": "Die einheitenlose optische Materialeigenschaft Brechungsindex ist das Verhältnis der Wellenlänge des Lichts im Vakuum zur Wellenlänge im Material."
 }
