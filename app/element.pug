@@ -244,7 +244,7 @@ block content
       if image
         div.pt-box.pt-element-image
           a( href=image.fullres, target="_blank" )
-            img( src=image.thumb, loading="lazy" )/
+            img( src=image.thumb, loading="lazy", alt= element.names[ locale ] )/
           figcaption!= element.image.caption
       //- element info
       div.pt-box.pt-element-quickinfo
@@ -281,11 +281,11 @@ block content
         div.pt-box.pt-element-spectrum
           h2
             a( href="/spectrum" )!= __( 'spectrum-title' )
-          img( src= spectrum )
+          img( src= spectrum, alt= __( 'spectrum-title' ) )
       //- radioactive warning
       if element.radioactive
         a( href="/prop/radioactive" ).pt-box.pt-box-flex.pt-element-radioactive
-            img.pictogram-small( src="/res/radioactive.png", loading="lazy" )/
+            img.pictogram-small( src="/res/radioactive.png", loading="lazy", alt= __( 'radioactive' ) )/
             b!= __( 'element-radioactive' )
       //- hazard classification
       if element.hazardous
@@ -295,7 +295,7 @@ block content
             div.pt-box-flex.pt-box-columns.pt-element-hazard-box
               each ghs in element.hazardous.ghs
                 div.pt-element-hazard-item
-                  img.pictogram( src='/res/GHS' + ghs + '.png', loading="lazy" )/
+                  img.pictogram( src='/res/GHS' + ghs + '.png', loading="lazy", alt= __( 'pictogram' ) )/
                   span!= __( 'ghs-' + ghs )
           else
             i!= __( 'ghs-undefined' )
@@ -332,12 +332,12 @@ block content
             h3!= __( 'pictogram-title' )
             div.pt-element-hazard-pictograms
               each hazard in element.hazardous.hazard
-                img.pictogram-small( src='/res/hazard-' + hazard + '.png', loading="lazy" )/
+                img.pictogram-small( src='/res/hazard-' + hazard + '.png', loading="lazy", alt= __( 'pictogram' ) )/
           if element.hazardous.adr
             h3!= __( 'adr-title' )
             div.pt-element-hazard-pictograms
               each adr in element.hazardous.adr
-                img.pictogram( src='/res/ADR-' + adr + '.png', loading="lazy" )/
+                img.pictogram( src='/res/ADR-' + adr + '.png', loading="lazy", alt= __( 'pictogram' ) )/
       //- element classification
       if element.classification
         div.pt-box.pt-element-classification
