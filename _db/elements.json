@@ -186,14 +186,14 @@
             "allen": 2.3
         },
         "number": 1,
-        "optic": {
+        "optical": {
             "refractive_index": [
                 {
-                    "label": "gas",
+                    "label": "phase-gas",
                     "value": 1.000132
                 },
                 {
-                    "label": "liquid",
+                    "label": "phase-liquid",
                     "value": 1.12
                 }
             ]
@@ -436,14 +436,14 @@
             "mulliken": 3.49
         },
         "number": 2,
-        "optic": {
+        "optical": {
             "refractive_index": [
                 {
-                    "label": "gas",
+                    "label": "phase-gas",
                     "value": 1.000035
                 },
                 {
-                    "label": "liquid",
+                    "label": "phase-liquid",
                     "value": 1.028
                 }
             ]
@@ -1453,7 +1453,7 @@
             "allen": 2.544
         },
         "number": 6,
-        "optic": {
+        "optical": {
             "reflectivity": {
                 "value": 27,
                 "unit": "%"
@@ -1686,14 +1686,14 @@
             "allen": 3.066
         },
         "number": 7,
-        "optic": {
+        "optical": {
             "refractive_index": [
                 {
-                    "label": "gas",
+                    "label": "phase-gas",
                     "value": 1.000298
                 },
                 {
-                    "label": "liquid",
+                    "label": "phase-liquid",
                     "value": 1.197
                 }
             ]
@@ -1951,14 +1951,14 @@
             "allen": 3.61
         },
         "number": 8,
-        "optic": {
+        "optical": {
             "refractive_index": [
                 {
-                    "label": "gas",
+                    "label": "phase-gas",
                     "value": 1.000271
                 },
                 {
-                    "label": "liquid",
+                    "label": "phase-liquid",
                     "value": 1.221
                 }
             ]
@@ -2236,7 +2236,7 @@
             "allen": 4.193
         },
         "number": 9,
-        "optic": {
+        "optical": {
             "refractive_index": 1.000195
         },
         "oxidation_state": "-1",
@@ -2450,7 +2450,7 @@
             "allen": 4.787
         },
         "number": 10,
-        "optic": {
+        "optical": {
             "refractive_index": 1.000067
         },
         "period": 2,
@@ -2977,7 +2977,7 @@
             "allen": 1.293
         },
         "number": 12,
-        "optic": {
+        "optical": {
             "reflectivity": {
                 "value": 74,
                 "unit": "%"
@@ -3238,7 +3238,7 @@
             "allen": 1.613
         },
         "number": 13,
-        "optic": {
+        "optical": {
             "reflectivity": {
                 "value": 71,
                 "unit": "%"
@@ -3461,7 +3461,7 @@
             "allen": 1.916
         },
         "number": 14,
-        "optic": {
+        "optical": {
             "reflectivity": {
                 "value": 28,
                 "unit": "%"
@@ -3736,7 +3736,7 @@
             "allen": 2.253
         },
         "number": 15,
-        "optic": {
+        "optical": {
             "refractive_index": 1.001212
         },
         "oxidation_state": "±3, 4, '''5'''",
@@ -3964,7 +3964,7 @@
             "allen": 2.589
         },
         "number": 16,
-        "optic": {
+        "optical": {
             "refractive_index": 1.001111
         },
         "oxidation_state": "±2 … +6",
@@ -4235,7 +4235,7 @@
             "allen": 2.869
         },
         "number": 17,
-        "optic": {
+        "optical": {
             "refractive_index": 1.000773
         },
         "oxidation_state": "'''±1''', 3, 4, 5, 6, 7",
@@ -4449,7 +4449,7 @@
             "allen": 3.242
         },
         "number": 18,
-        "optic": {
+        "optical": {
             "refractive_index": 1.000281
         },
         "period": 3,
@@ -5686,7 +5686,7 @@
             "allred": 1.45
         },
         "number": 23,
-        "optic": {
+        "optical": {
             "reflectivity": {
                 "value": 61,
                 "unit": "%"
@@ -6389,7 +6389,7 @@
             "allred": 1.64
         },
         "number": 26,
-        "optic": {
+        "optical": {
             "reflectivity": {
                 "value": 65,
                 "unit": "%"
@@ -6674,7 +6674,7 @@
             "allred": 1.7
         },
         "number": 27,
-        "optic": {
+        "optical": {
             "reflectivity": {
                 "value": 67,
                 "unit": "%"
@@ -6932,7 +6932,7 @@
             "allred": 1.75
         },
         "number": 28,
-        "optic": {
+        "optical": {
             "reflectivity": {
                 "value": 72,
                 "unit": "%"
@@ -7178,7 +7178,7 @@
             "mulliken": 1.49
         },
         "number": 29,
-        "optic": {
+        "optical": {
             "reflectivity": {
                 "value": 90,
                 "unit": "%"
@@ -7435,7 +7435,7 @@
             "mulliken": 1.65
         },
         "number": 30,
-        "optic": {
+        "optical": {
             "reflectivity": {
                 "value": 80,
                 "unit": "%"
@@ -8156,7 +8156,7 @@
             "allen": 2.211
         },
         "number": 33,
-        "optic": {
+        "optical": {
             "refractive_index": 1.001552
         },
         "oxidation_state": "-3, '''3''', 5",
@@ -8441,7 +8441,7 @@
             "allen": 2.424
         },
         "number": 34,
-        "optic": {
+        "optical": {
             "refractive_index": 1.000895
         },
         "oxidation_state": "±2, '''4''', 6",
@@ -8704,7 +8704,7 @@
             "allen": 2.685
         },
         "number": 35,
-        "optic": {
+        "optical": {
             "refractive_index": 1.001132
         },
         "oxidation_state": "±1, 3, 5, 7",
@@ -8930,7 +8930,7 @@
             "allen": 2.966
         },
         "number": 36,
-        "optic": {
+        "optical": {
             "refractive_index": 1.000427
         },
         "period": 4,
@@ -10393,7 +10393,7 @@
             "allred": 1.3
         },
         "number": 42,
-        "optic": {
+        "optical": {
             "reflectivity": {
                 "value": 58,
                 "unit": "%"
@@ -11018,7 +11018,7 @@
             "allred": 1.45
         },
         "number": 45,
-        "optic": {
+        "optical": {
             "reflectivity": {
                 "value": 84,
                 "unit": "%"
@@ -11269,7 +11269,7 @@
             "allred": 1.35
         },
         "number": 46,
-        "optic": {
+        "optical": {
             "reflectivity": {
                 "value": 72,
                 "unit": "%"
@@ -11525,7 +11525,7 @@
             "mulliken": 1.47
         },
         "number": 47,
-        "optic": {
+        "optical": {
             "reflectivity": {
                 "value": 97,
                 "unit": "%"
@@ -11799,7 +11799,7 @@
             "mulliken": 1.53
         },
         "number": 48,
-        "optic": {
+        "optical": {
             "reflectivity": {
                 "value": 67,
                 "unit": "%"
@@ -12291,7 +12291,7 @@
             "allen": 1.824
         },
         "number": 50,
-        "optic": {
+        "optical": {
             "reflectivity": {
                 "value": 54,
                 "unit": "%"
@@ -12536,7 +12536,7 @@
             "allen": 1.984
         },
         "number": 51,
-        "optic": {
+        "optical": {
             "reflectivity": {
                 "value": 55,
                 "unit": "%"
@@ -12777,7 +12777,7 @@
             "allen": 2.158
         },
         "number": 52,
-        "optic": {
+        "optical": {
             "reflectivity": {
                 "value": 50,
                 "unit": "%"
@@ -13288,7 +13288,7 @@
             "allen": 2.582
         },
         "number": 54,
-        "optic": {
+        "optical": {
             "refractive_index": 1.000702
         },
         "oxide_character": "acidic",
@@ -17778,7 +17778,7 @@
             "allred": 1.33
         },
         "number": 73,
-        "optic": {
+        "optical": {
             "reflectivity": {
                 "value": 78,
                 "unit": "%"
@@ -18034,7 +18034,7 @@
             "allred": 1.4
         },
         "number": 74,
-        "optic": {
+        "optical": {
             "reflectivity": {
                 "value": 62,
                 "unit": "%"
@@ -18738,7 +18738,7 @@
             "allred": 1.55
         },
         "number": 77,
-        "optic": {
+        "optical": {
             "reflectivity": {
                 "value": 78,
                 "unit": "%"
@@ -18961,7 +18961,7 @@
             "allred": 1.44
         },
         "number": 78,
-        "optic": {
+        "optical": {
             "reflectivity": {
                 "value": 73,
                 "unit": "%"
@@ -19192,7 +19192,7 @@
             "mulliken": 1.87
         },
         "number": 79,
-        "optic": {
+        "optical": {
             "reflectivity": {
                 "value": 95,
                 "unit": "%"
@@ -19450,7 +19450,7 @@
             "mulliken": 1.81
         },
         "number": 80,
-        "optic": {
+        "optical": {
             "reflectivity": {
                 "value": 73,
                 "unit": "%"
