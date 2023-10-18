@@ -325,7 +325,8 @@ body[theme="dark"] {
 [layer="_grayscale"] .pt-el[prop="3"],
 [layer="group"] .pt-el[prop="2"],
 [layer="period"] .pt-el[prop="7"],
-[layer="era"] .pt-el[prop="antiquity"] {
+[layer="era"] .pt-el[prop="antiquity"],
+[layer="magnetic_ordering"] .pt-el[prop="nonmagnetic"] {
     --bg: var( --pt-gy-3 );
 }
 

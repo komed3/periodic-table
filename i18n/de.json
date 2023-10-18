@@ -247,6 +247,8 @@
 	"magnetic_ordering-ferromagnetic": "ferromagnetisch",
 	"magnetic_ordering-ferromagnetic-description": "Ferromagneten erzeugen entweder selbst ein dauerhaftes Magnetfeld oder werden von einem Pol eines äußeren Magnetfelds stark angezogen. Die magnetischen Momente der Atome des Materials dazu neigen, sich parallel auszurichten.",
 	"magnetic_ordering-label": "Magnetismus",
+	"magnetic_ordering-nonmagnetic": "unmagnetisch",
+	"magnetic_ordering-nonmagnetic-description": "Unmagnetische Elemente sind Stoffe ohne magnetische Eigenschaften. Sie besitzen kein eigenes Magnetfeld und können auch nicht durch äußere Felder beeinflusst werden.",
 	"magnetic_ordering-paramagnetic": "paramagnetisch",
 	"magnetic_ordering-paramagnetic-description": "Paramagneten sind Stoffe, die von einem Magneten angezogen werden und in ihrer Magnetisierung dem äußeren Feld folgen. Ohne ein äußeres Magnetfeld zeigen paramagnetische Materialien keine magnetische Ordnung.",
 	"magnetic_ordering-undefined": "unbekannt",
@@ -414,8 +416,10 @@
 	"radioactivity-slightly-radioactive-description": "Radioaktive Elemente: Das stabilste Isotop ist sehr langlebig, mit einer Halbwertszeit von über vier Millionen Jahren.",
 	"red": "rot",
 	"reflectivity-optical": "Reflexionsgrad",
+	"reflectivity-optical-description": "Das Verhältnis zwischen reflektierter und einfallender Intensität als Energiegröße wird als Reflexionsgrad bezeichnet.",
 	"refractive_index": "Brechungsindex",
 	"refractive_index-optical": "Brechungsindex",
+	"refractive_index-optical-description": "Die einheitenlose optische Materialeigenschaft Brechungsindex ist das Verhältnis der Wellenlänge des Lichts im Vakuum zur Wellenlänge im Material.",
 	"rigidity-elastic": "Schubmodul",
 	"rigidity-elastic-description": "Der Schubmodul ist ein in GPa angegebener Indikator für die linear-elastische Verformung eines Bauteils infolge einer Scherkraft oder Schubspannung.",
 	"sanderson-negativity": "Sanderson-Skala",
@@ -516,7 +520,5 @@
 	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" target=\"_blank\">Weiterlesen …</a>",
 	"yellow": "gelb",
 	"young-elastic": "Youngscher Modul",
-	"young-elastic-description": "Der nach Thomas Young benannte Materialkennwert beschreibt bei linear-elastischem Verhalten den proportionalen Zusammenhang zwischen Spannung und Dehnung bei der Verformung eines festen Körpers.",
-	"reflectivity-optical-description": "Das Verhältnis zwischen reflektierter und einfallender Intensität als Energiegröße wird als Reflexionsgrad bezeichnet.",
-	"refractive_index-optical-description": "Die einheitenlose optische Materialeigenschaft Brechungsindex ist das Verhältnis der Wellenlänge des Lichts im Vakuum zur Wellenlänge im Material."
+	"young-elastic-description": "Der nach Thomas Young benannte Materialkennwert beschreibt bei linear-elastischem Verhalten den proportionalen Zusammenhang zwischen Spannung und Dehnung bei der Verformung eines festen Körpers."
 }
