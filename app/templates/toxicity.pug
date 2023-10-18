@@ -1,7 +1,8 @@
 //- templates/toxicity.pug
 -
   var icons = {
-    oral: 'voice_selection',
+    '#': 'avg_pace',
+    oral: 'airware',
     dermal: 'eda',
     transdermal: 'eda',
     subcutaneous: 'dermatology',
@@ -19,4 +20,7 @@ div.pt-box-flex.pt-box-columns.pt-toxicity
       i.pt-toxicity-icon.icon!= icons[ t.application ]
       div.pt-toxicity-info
         b!= core.fNumber( t.value )
-        div!= __( 'toxicity-info', core.fText( t.type ), __( 'organism-' + t.organism ), __( 'toxicity-' + t.application ) )
+        if t.application == '#'
+          div!= __( 'toxicity-time', core.fText( t.type ), __( 'organism-' + t.organism ), core.fTime( t.time || 0 )[0] )
+        else
+          div!= __( 'toxicity-info', core.fText( t.type ), __( 'organism-' + t.organism ), __( 'toxicity-' + t.application ) )
