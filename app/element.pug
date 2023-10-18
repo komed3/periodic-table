@@ -93,11 +93,13 @@ block content
         h2!= __( 'prop-physical' )
         table.pt-prop-table.pt-element-table
           tbody
-            if element.phase
-              tr.pt-prop-table-row
-                th.pt-prop-table-label!= __( 'phase-label' )
-                td.pt-prop-table-value
+            tr.pt-prop-table-row
+              th.pt-prop-table-label!= __( 'phase-label' )
+              td.pt-prop-table-value
+                if element.phase
                   a( href='/list/phase/' + element.phase )!= __( 'phase-' + element.phase )
+                else
+                  span!= __( 'undefined' )
             if element.density
               tr.pt-prop-table-row
                 th.pt-prop-table-label
