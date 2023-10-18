@@ -15,7 +15,7 @@
   }
 div.pt-box-flex.pt-box-columns.pt-toxicity
   each t in toxicity
-    div.pt-box-flex.pt-toxicity-item
+    div.pt-toxicity-item
       i.pt-toxicity-icon.icon!= icons[ t.application ]
       div.pt-toxicity-info
         b!= core.fNumber( t.value )
