@@ -1,6 +1,6 @@
 {
     "h": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 750000000,
@@ -308,7 +308,7 @@
         }
     },
     "he": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 230000000,
@@ -420,6 +420,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "diamagnetic",
+        "magnetic_susceptibility": {
+            "value": -0.00000188,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 298,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "label": "phase-solid",
             "value": 0.000021,
@@ -533,7 +543,7 @@
         }
     },
     "li": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 6,
@@ -686,6 +696,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.0000142,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 298,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00001302,
             "unit": "m[3]·mol[−1]"
@@ -798,7 +818,7 @@
         }
     },
     "be": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -967,6 +987,10 @@
             "unit": "eV"
         },
         "magnetic_ordering": "diamagnetic",
+        "magnetic_susceptibility": {
+            "value": -0.000009,
+            "unit": "cm[3]·mol[−1]"
+        },
         "molar_volume": {
             "value": 0.00000485,
             "unit": "m[3]·mol[−1]"
@@ -1067,7 +1091,7 @@
         }
     },
     "b": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -1203,6 +1227,10 @@
             "unit": "eV"
         },
         "magnetic_ordering": "diamagnetic",
+        "magnetic_susceptibility": {
+            "value": -0.0000067,
+            "unit": "cm[3]·mol[−1]"
+        },
         "molar_volume": {
             "value": 0.00000439,
             "unit": "m[3]·mol[−1]"
@@ -1302,7 +1330,7 @@
         }
     },
     "c": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 5000000,
@@ -1435,6 +1463,10 @@
             "unit": "eV"
         },
         "magnetic_ordering": "diamagnetic",
+        "magnetic_susceptibility": {
+            "value": -0.0000059,
+            "unit": "cm[3]·mol[−1]"
+        },
         "molar_volume": {
             "value": 0.00000531,
             "unit": "m[3]·mol[−1]"
@@ -1547,7 +1579,7 @@
         }
     },
     "n": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 1000000,
@@ -1791,7 +1823,7 @@
         }
     },
     "o": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 10000000,
@@ -1933,6 +1965,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.00345,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 293,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00001736,
             "unit": "m[3]·mol[−1]"
@@ -2064,7 +2106,7 @@
         }
     },
     "f": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 400,
@@ -2217,6 +2259,10 @@
             "unit": "eV"
         },
         "magnetic_ordering": "diamagnetic",
+        "magnetic_susceptibility": {
+            "value": -0.00012,
+            "unit": "cm[3]·mol[−1]"
+        },
         "molar_volume": {
             "label": "phase-solid",
             "value": 0.0000112,
@@ -2324,7 +2370,7 @@
         }
     },
     "ne": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 1300000,
@@ -2432,6 +2478,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "diamagnetic",
+        "magnetic_susceptibility": {
+            "value": -0.00000674,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 298,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "label": "phase-solid",
             "value": 0.00001323,
@@ -2528,7 +2584,7 @@
         }
     },
     "na": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 20000,
@@ -2687,6 +2743,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.000016,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 298,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00002378,
             "unit": "m[3]·mol[−1]"
@@ -2796,7 +2862,7 @@
         }
     },
     "mg": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 600000,
@@ -2959,6 +3025,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.0000131,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 298,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.000014,
             "unit": "m[3]·mol[−1]"
@@ -3068,7 +3144,7 @@
         }
     },
     "al": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 50000,
@@ -3220,6 +3296,10 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.0000165,
+            "unit": "cm[3]·mol[−1]"
+        },
         "molar_volume": {
             "value": 0.00001,
             "unit": "m[3]·mol[−1]"
@@ -3322,7 +3402,7 @@
         }
     },
     "si": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 700000,
@@ -3443,6 +3523,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "diamagnetic",
+        "magnetic_susceptibility": {
+            "value": -0.0000039,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 298,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00001206,
             "unit": "m[3]·mol[−1]"
@@ -3549,7 +3639,7 @@
         }
     },
     "p": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 7000,
@@ -3718,6 +3808,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "diamagnetic",
+        "magnetic_susceptibility": {
+            "value": -0.0000208,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 293,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00001702,
             "unit": "m[3]·mol[−1]"
@@ -3816,7 +3916,7 @@
         }
     },
     "s": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 500000,
@@ -3946,6 +4046,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "diamagnetic",
+        "magnetic_susceptibility": {
+            "value": -0.0000155,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 298,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00001553,
             "unit": "m[3]·mol[−1]"
@@ -4054,7 +4164,7 @@
         }
     },
     "cl": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 1000,
@@ -4216,6 +4326,10 @@
             "unit": "eV"
         },
         "magnetic_ordering": "diamagnetic",
+        "magnetic_susceptibility": {
+            "value": -0.0000405,
+            "unit": "cm[3]·mol[−1]"
+        },
         "molar_volume": {
             "label": "phase-solid",
             "value": 0.00001739,
@@ -4323,7 +4437,7 @@
         }
     },
     "ar": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 200000,
@@ -4431,6 +4545,10 @@
             "unit": "eV"
         },
         "magnetic_ordering": "diamagnetic",
+        "magnetic_susceptibility": {
+            "value": -0.0000196,
+            "unit": "cm[3]·mol[−1]"
+        },
         "molar_volume": {
             "label": "phase-solid",
             "value": 0.00002256,
@@ -4539,7 +4657,7 @@
         }
     },
     "k": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 3000,
@@ -4693,6 +4811,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.0000208,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 298,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00004594,
             "unit": "m[3]·mol[−1]"
@@ -4801,7 +4929,7 @@
         }
     },
     "ca": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 70000,
@@ -4960,7 +5088,11 @@
             ],
             "unit": "eV"
         },
-        "magnetic_ordering": "paramagnetic",
+        "magnetic_ordering": "diamagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.00004,
+            "unit": "cm[3]·mol[−1]"
+        },
         "molar_volume": {
             "value": 0.0000262,
             "unit": "m[3]·mol[−1]"
@@ -5065,7 +5197,7 @@
         }
     },
     "sc": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 30,
@@ -5198,6 +5330,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.000315,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 292,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.000015,
             "unit": "m[3]·mol[−1]"
@@ -5290,7 +5432,7 @@
         }
     },
     "ti": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 3000,
@@ -5437,6 +5579,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.000153,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 293,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00001064,
             "unit": "m[3]·mol[−1]"
@@ -5536,7 +5688,7 @@
         }
     },
     "v": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 1000,
@@ -5670,6 +5822,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.000255,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 298,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00000832,
             "unit": "m[3]·mol[−1]"
@@ -5771,7 +5933,7 @@
         }
     },
     "cr": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 15000,
@@ -5905,6 +6067,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "antiferromagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.00028,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 273,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00000723,
             "unit": "m[3]·mol[−1]"
@@ -6004,7 +6176,7 @@
         }
     },
     "mn": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 8000,
@@ -6155,6 +6327,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "antiferromagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.000529,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 293,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00000735,
             "unit": "m[3]·mol[−1]"
@@ -6249,7 +6431,7 @@
         }
     },
     "fe": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 1100000,
@@ -6482,7 +6664,7 @@
         }
     },
     "co": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 3000,
@@ -6752,7 +6934,7 @@
         }
     },
     "ni": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 60000,
@@ -7014,7 +7196,7 @@
         }
     },
     "cu": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 60,
@@ -7161,6 +7343,10 @@
             "unit": "eV"
         },
         "magnetic_ordering": "diamagnetic",
+        "magnetic_susceptibility": {
+            "value": -0.00000546,
+            "unit": "cm[3]·mol[−1]"
+        },
         "molar_volume": {
             "value": 0.00000711,
             "unit": "m[3]·mol[−1]"
@@ -7261,7 +7447,7 @@
         }
     },
     "zn": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 300,
@@ -7418,6 +7604,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "diamagnetic",
+        "magnetic_susceptibility": {
+            "value": -0.0000114,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 298,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00000916,
             "unit": "m[3]·mol[−1]"
@@ -7523,7 +7719,7 @@
         }
     },
     "ga": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -7659,6 +7855,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "diamagnetic",
+        "magnetic_susceptibility": {
+            "value": -0.0000216,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 290,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.0000118,
             "unit": "m[3]·mol[−1]"
@@ -7761,7 +7967,7 @@
         }
     },
     "ge": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 200,
@@ -7880,6 +8086,10 @@
             "unit": "eV"
         },
         "magnetic_ordering": "diamagnetic",
+        "magnetic_susceptibility": {
+            "value": -0.0000768,
+            "unit": "cm[3]·mol[−1]"
+        },
         "molar_volume": {
             "value": 0.00001363,
             "unit": "m[3]·mol[−1]"
@@ -7983,7 +8193,7 @@
         }
     },
     "as": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 8,
@@ -8138,6 +8348,10 @@
             "unit": "eV"
         },
         "magnetic_ordering": "diamagnetic",
+        "magnetic_susceptibility": {
+            "value": -0.0000055,
+            "unit": "cm[3]·mol[−1]"
+        },
         "molar_volume": {
             "value": 0.00001295,
             "unit": "m[3]·mol[−1]"
@@ -8241,7 +8455,7 @@
         }
     },
     "se": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 30,
@@ -8423,6 +8637,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "diamagnetic",
+        "magnetic_susceptibility": {
+            "value": -0.000025,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 298,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00001642,
             "unit": "m[3]·mol[−1]"
@@ -8538,7 +8762,7 @@
         }
     },
     "br": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 7,
@@ -8685,6 +8909,10 @@
             "unit": "eV"
         },
         "magnetic_ordering": "diamagnetic",
+        "magnetic_susceptibility": {
+            "value": -0.0000564,
+            "unit": "cm[3]·mol[−1]"
+        },
         "molar_volume": {
             "label": "phase-solid",
             "value": 0.00001978,
@@ -8801,7 +9029,7 @@
         }
     },
     "kr": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 40,
@@ -8911,6 +9139,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "diamagnetic",
+        "magnetic_susceptibility": {
+            "value": -0.0000288,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 298,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "label": "phase-solid",
             "value": 0.00002799,
@@ -9011,7 +9249,7 @@
         }
     },
     "rb": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -9165,6 +9403,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.000017,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 303,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00005576,
             "unit": "m[3]·mol[−1]"
@@ -9278,7 +9526,7 @@
         }
     },
     "sr": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 40,
@@ -9423,6 +9671,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": -0.000092,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 298,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00003394,
             "unit": "m[3]·mol[−1]"
@@ -9517,7 +9775,7 @@
         }
     },
     "y": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 7,
@@ -9653,6 +9911,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.00000215,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 298,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00001988,
             "unit": "m[3]·mol[−1]"
@@ -9752,7 +10020,7 @@
         }
     },
     "zr": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 50,
@@ -9998,7 +10266,7 @@
         }
     },
     "nb": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -10243,7 +10511,7 @@
         }
     },
     "mo": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 5,
@@ -10377,6 +10645,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.000089,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 298,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00000938,
             "unit": "m[3]·mol[−1]"
@@ -10477,7 +10755,7 @@
         }
     },
     "tc": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "appearance": {
             "en": "shiny gray metal",
             "de": "silbrig grau metallisch"
@@ -10556,6 +10834,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.00027,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 298,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00000863,
             "unit": "m[3]·mol[−1]"
@@ -10644,7 +10932,7 @@
         }
     },
     "ru": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 4,
@@ -10773,6 +11061,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.000039,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 298,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00000817,
             "unit": "m[3]·mol[−1]"
@@ -10862,7 +11160,7 @@
         }
     },
     "rh": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 0.6,
@@ -11003,6 +11301,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.000111,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 298,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00000828,
             "unit": "m[3]·mol[−1]"
@@ -11109,7 +11417,7 @@
         }
     },
     "pd": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -11254,6 +11562,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.000567,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 288,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00000856,
             "unit": "m[3]·mol[−1]"
@@ -11356,7 +11674,7 @@
         }
     },
     "ag": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 0.6,
@@ -11508,6 +11826,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "diamagnetic",
+        "magnetic_susceptibility": {
+            "value": -0.0000195,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 296,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00001027,
             "unit": "m[3]·mol[−1]"
@@ -11609,7 +11937,7 @@
         }
     },
     "cd": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -11782,6 +12110,10 @@
             "unit": "eV"
         },
         "magnetic_ordering": "diamagnetic",
+        "magnetic_susceptibility": {
+            "value": -0.0000198,
+            "unit": "cm[3]·mol[−1]"
+        },
         "molar_volume": {
             "value": 0.000013,
             "unit": "m[3]·mol[−1]"
@@ -11891,7 +12223,7 @@
         }
     },
     "in": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 0.3,
@@ -12021,6 +12353,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "diamagnetic",
+        "magnetic_susceptibility": {
+            "value": -0.000064,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 298,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00001576,
             "unit": "m[3]·mol[−1]"
@@ -12133,7 +12475,7 @@
         }
     },
     "sn": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 4,
@@ -12272,7 +12614,17 @@
             ],
             "unit": "eV"
         },
-        "magnetic_ordering": "diamagnetic",
+        "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.0000031,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 298,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00001629,
             "unit": "m[3]·mol[−1]"
@@ -12385,7 +12737,7 @@
         }
     },
     "sb": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 0.4,
@@ -12518,6 +12870,10 @@
             "unit": "eV"
         },
         "magnetic_ordering": "diamagnetic",
+        "magnetic_susceptibility": {
+            "value": -0.000099,
+            "unit": "cm[3]·mol[−1]"
+        },
         "molar_volume": {
             "value": 0.00001819,
             "unit": "m[3]·mol[−1]"
@@ -12622,7 +12978,7 @@
         }
     },
     "te": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 9,
@@ -12759,6 +13115,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "diamagnetic",
+        "magnetic_susceptibility": {
+            "value": -0.0000395,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 298,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00002046,
             "unit": "m[3]·mol[−1]"
@@ -12871,7 +13237,7 @@
         }
     },
     "i": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -13035,6 +13401,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "diamagnetic",
+        "magnetic_susceptibility": {
+            "value": -0.0000887,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 298,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00002572,
             "unit": "m[3]·mol[−1]"
@@ -13145,7 +13521,7 @@
         }
     },
     "xe": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -13269,6 +13645,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "diamagnetic",
+        "magnetic_susceptibility": {
+            "value": -0.0000439,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 298,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "label": "phase-solid",
             "value": 0.00003592,
@@ -13379,7 +13765,7 @@
         }
     },
     "cs": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 0.8,
@@ -13635,7 +14021,7 @@
         }
     },
     "ba": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -13795,6 +14181,10 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.0000206,
+            "unit": "cm[3]·mol[−1]"
+        },
         "molar_volume": {
             "value": 0.00003816,
             "unit": "m[3]·mol[−1]"
@@ -13893,7 +14283,7 @@
         }
     },
     "la": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -14042,6 +14432,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.000118,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 298,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00002239,
             "unit": "m[3]·mol[−1]"
@@ -14131,7 +14531,7 @@
         }
     },
     "ce": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -14285,6 +14685,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.00245,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 293,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00002069,
             "unit": "m[3]·mol[−1]"
@@ -14380,7 +14790,7 @@
         }
     },
     "pr": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -14530,6 +14940,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.00501,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 293,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.0000208,
             "unit": "m[3]·mol[−1]"
@@ -14625,7 +15045,7 @@
         }
     },
     "nd": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -14776,6 +15196,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.00563,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 287.7,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00002059,
             "unit": "m[3]·mol[−1]"
@@ -14870,7 +15300,7 @@
         }
     },
     "pm": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "sun": {
                 "value": 0.005,
@@ -14964,6 +15394,7 @@
             ],
             "unit": "eV"
         },
+        "magnetic_ordering": "paramagnetic",
         "molar_volume": {
             "value": 0.0000201,
             "unit": "m[3]·mol[−1]"
@@ -15044,7 +15475,7 @@
         }
     },
     "sm": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 5,
@@ -15195,6 +15626,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.00186,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 291,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00001998,
             "unit": "m[3]·mol[−1]"
@@ -15284,7 +15725,7 @@
         }
     },
     "eu": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -15430,6 +15871,10 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.034,
+            "unit": "cm[3]·mol[−1]"
+        },
         "molar_volume": {
             "value": 0.00002897,
             "unit": "m[3]·mol[−1]"
@@ -15513,7 +15958,7 @@
         }
     },
     "gd": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -15658,6 +16103,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "ferromagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.755,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 300.6,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.0000199,
             "unit": "m[3]·mol[−1]"
@@ -15747,7 +16202,7 @@
         }
     },
     "tb": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -15876,6 +16331,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.146,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 273,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.0000193,
             "unit": "m[3]·mol[−1]"
@@ -15965,7 +16430,7 @@
         }
     },
     "dy": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -16110,6 +16575,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.104,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 293.2,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00001901,
             "unit": "m[3]·mol[−1]"
@@ -16204,7 +16679,7 @@
         }
     },
     "ho": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -16434,7 +16909,7 @@
         }
     },
     "er": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -16579,6 +17054,10 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.0443,
+            "unit": "cm[3]·mol[−1]"
+        },
         "molar_volume": {
             "value": 0.00001846,
             "unit": "m[3]·mol[−1]"
@@ -16667,7 +17146,7 @@
         }
     },
     "tm": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 0.1,
@@ -16817,6 +17296,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.0255,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 291,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.0000191,
             "unit": "m[3]·mol[−1]"
@@ -16902,7 +17391,7 @@
         }
     },
     "yb": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -17057,6 +17546,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.000249,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 298,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00002484,
             "unit": "m[3]·mol[−1]"
@@ -17150,7 +17649,7 @@
         }
     },
     "lu": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 0.1,
@@ -17381,7 +17880,7 @@
         }
     },
     "hf": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 0.7,
@@ -17523,6 +18022,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.000075,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 298,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00001344,
             "unit": "m[3]·mol[−1]"
@@ -17621,7 +18130,7 @@
         }
     },
     "ta": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 0.08,
@@ -17763,6 +18272,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.000154,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 293,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00001085,
             "unit": "m[3]·mol[−1]"
@@ -17868,7 +18387,7 @@
         }
     },
     "w": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -18018,6 +18537,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.000059,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 298,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00000947,
             "unit": "m[3]·mol[−1]"
@@ -18119,7 +18648,7 @@
         }
     },
     "re": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 0.2,
@@ -18261,6 +18790,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.0000676,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 293,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00000886,
             "unit": "m[3]·mol[−1]"
@@ -18359,7 +18898,7 @@
         }
     },
     "os": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 3,
@@ -18489,6 +19028,10 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.000011,
+            "unit": "cm[3]·mol[−1]"
+        },
         "molar_volume": {
             "value": 0.00000842,
             "unit": "m[3]·mol[−1]"
@@ -18589,7 +19132,7 @@
         }
     },
     "ir": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -18723,6 +19266,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.0000256,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 298,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00000852,
             "unit": "m[3]·mol[−1]"
@@ -18824,7 +19377,7 @@
         }
     },
     "pt": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 5,
@@ -18946,6 +19499,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.000202,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 290,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00000909,
             "unit": "m[3]·mol[−1]"
@@ -19046,7 +19609,7 @@
         }
     },
     "au": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 0.6,
@@ -19176,6 +19739,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "diamagnetic",
+        "magnetic_susceptibility": {
+            "value": -0.000028,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 296,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00001021,
             "unit": "m[3]·mol[−1]"
@@ -19278,7 +19851,7 @@
         }
     },
     "hg": {
-        "@modified": "2023-10-17T21:04:22.393Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -19562,7 +20135,7 @@
         }
     },
     "tl": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -19708,6 +20281,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "diamagnetic",
+        "magnetic_susceptibility": {
+            "value": -0.0000509,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 298,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00001722,
             "unit": "m[3]·mol[−1]"
@@ -19815,7 +20398,7 @@
         }
     },
     "pb": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -19980,6 +20563,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "diamagnetic",
+        "magnetic_susceptibility": {
+            "value": -0.000023,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 298,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.00001826,
             "unit": "m[3]·mol[−1]"
@@ -20089,7 +20682,7 @@
         }
     },
     "bi": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 0.7,
@@ -20222,6 +20815,10 @@
             "unit": "eV"
         },
         "magnetic_ordering": "diamagnetic",
+        "magnetic_susceptibility": {
+            "value": -0.00028,
+            "unit": "cm[3]·mol[−1]"
+        },
         "molar_volume": {
             "value": 0.00002131,
             "unit": "m[3]·mol[−1]"
@@ -20330,7 +20927,7 @@
         }
     },
     "po": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "water": {
                 "value": 2e-11,
@@ -20408,6 +21005,7 @@
             ],
             "unit": "eV"
         },
+        "magnetic_ordering": "nonmagnetic",
         "molar_volume": {
             "value": 0.00002297,
             "unit": "m[3]·mol[−1]"
@@ -20603,7 +21201,7 @@
         }
     },
     "rn": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "water": {
                 "value": 6e-13,
@@ -20680,7 +21278,7 @@
             ],
             "unit": "eV"
         },
-        "magnetic_ordering": "diamagnetic",
+        "magnetic_ordering": "nonmagnetic",
         "molar_volume": {
             "label": "phase-solid",
             "value": 0.0000505,
@@ -20759,7 +21357,7 @@
         }
     },
     "fr": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "atomic_mass": {
             "value": 223.0197,
             "*": true,
@@ -20822,6 +21420,7 @@
             ],
             "unit": "eV"
         },
+        "magnetic_ordering": "paramagnetic",
         "molar_volume": {
             "value": 0.000077,
             "*": true,
@@ -20901,7 +21500,7 @@
         }
     },
     "ra": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "crust": {
                 "value": 0.0001,
@@ -20998,6 +21597,7 @@
             ],
             "unit": "eV"
         },
+        "magnetic_ordering": "nonmagnetic",
         "molar_volume": {
             "value": 0.00004109,
             "unit": "m[3]·mol[−1]"
@@ -21210,7 +21810,7 @@
         }
     },
     "th": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 0.4,
@@ -21334,6 +21934,16 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.000132,
+            "unit": "cm[3]·mol[−1]",
+            "condition": [
+                {
+                    "value": 293,
+                    "unit": "K"
+                }
+            ]
+        },
         "molar_volume": {
             "value": 0.0000198,
             "unit": "m[3]·mol[−1]"
@@ -21427,7 +22037,7 @@
         }
     },
     "pa": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "crust": {
                 "value": 0.00001,
@@ -21508,6 +22118,7 @@
             ],
             "unit": "eV"
         },
+        "magnetic_ordering": "paramagnetic",
         "molar_volume": {
             "value": 0.00001518,
             "unit": "m[3]·mol[−1]"
@@ -21585,7 +22196,7 @@
         }
     },
     "u": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "abundance": {
             "universe": {
                 "value": 0.2,
@@ -21835,7 +22446,7 @@
         }
     },
     "np": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "appearance": {
             "en": "silvery metallic",
             "de": "silbrig"
@@ -21902,6 +22513,7 @@
             ],
             "unit": "eV"
         },
+        "magnetic_ordering": "paramagnetic",
         "molar_volume": {
             "value": 0.00001159,
             "unit": "m[3]·mol[−1]"
@@ -21983,7 +22595,7 @@
         }
     },
     "pu": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "appearance": {
             "en": "silvery white, tarnishing to dark gray in air",
             "de": "silbriges Metall"
@@ -22149,7 +22761,7 @@
         }
     },
     "am": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "appearance": {
             "en": "silvery white",
             "de": "silbrig-weißes Metall"
@@ -22207,6 +22819,10 @@
             "unit": "eV"
         },
         "magnetic_ordering": "paramagnetic",
+        "magnetic_susceptibility": {
+            "value": 0.001,
+            "unit": "cm[3]·mol[−1]"
+        },
         "molar_volume": {
             "value": 0.00001778,
             "unit": "m[3]·mol[−1]"
@@ -22287,7 +22903,7 @@
         }
     },
     "cm": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "appearance": {
             "en": "silvery metallic, glows purple in the dark",
             "de": "silbrig-weißes Metall"
@@ -22339,6 +22955,7 @@
             ],
             "unit": "eV"
         },
+        "magnetic_ordering": "antiferromagnetic",
         "molar_volume": {
             "value": 0.00001805,
             "unit": "m[3]·mol[−1]"
@@ -22414,7 +23031,7 @@
         }
     },
     "bk": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "appearance": {
             "en": "silvery",
             "de": "silberweiß"
@@ -22463,7 +23080,7 @@
             ],
             "unit": "eV"
         },
-        "magnetic_ordering": "antiferromagnetic",
+        "magnetic_ordering": "paramagnetic",
         "molar_volume": {
             "value": 0.00001684,
             "unit": "m[3]·mol[−1]"
@@ -22647,7 +23264,7 @@
         }
     },
     "es": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "appearance": {
             "en": "silvery; glows blue in the dark"
         },
@@ -22696,6 +23313,7 @@
             ],
             "unit": "eV"
         },
+        "magnetic_ordering": "paramagnetic",
         "molar_volume": {
             "value": 0.00002852,
             "*": true,
@@ -23582,7 +24200,7 @@
         }
     },
     "mt": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-18T09:29:41.556Z",
         "atomic_mass": {
             "value": 268,
             "*": true,
@@ -23621,6 +24239,7 @@
             "unit": "eV",
             "*": true
         },
+        "magnetic_ordering": "paramagnetic",
         "molar_volume": {
             "value": 0.00001,
             "*": true,
