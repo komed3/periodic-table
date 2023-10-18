@@ -13,10 +13,10 @@
     intratracheal: 'rib_cage',
     parenteral: 'fluid'
   }
-div.pt-box-flex.pt-box-columns.pt-toxicity-box
+div.pt-box-flex.pt-box-columns.pt-toxicity
   each t in toxicity
     div.pt-box-flex.pt-toxicity-item
-      i.icon!= icons[ t.application ]
+      i.pt-toxicity-icon.icon!= icons[ t.application ]
       div.pt-toxicity-info
         b!= core.fNumber( t.value )
-        span!= core.fText( t.type ) + ', ' + __( 'organism-' + t.organism ) + ', ' + __( 'toxicity-' + t.application )
+        div!= __( 'toxicity-info', core.fText( t.type ), __( 'organism-' + t.organism ), __( 'toxicity-' + t.application ) )

@@ -503,6 +503,7 @@
 	"tools-description": "Liste von Werkzeugen und Hilfen zur Berechnung atomphysikalischer und chemischer Eigenschaften.",
 	"tools-title": "Werkzeuge",
 	"toxicity": "Toxikologische Daten",
+	"toxicity-info": "%s, %s, %s",
 	"toxicity-intratracheal": "intratracheal",
 	"toxicity-intravenous": "intravenös",
 	"triple-temp": "Tripelpunkt",
