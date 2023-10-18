@@ -1087,7 +1087,7 @@
         },
         "toxicity": [
             {
-                "typ": "LD{50}",
+                "type": "LD{50}",
                 "organism": "rats",
                 "application": "intratracheal",
                 "value": {
@@ -1096,7 +1096,7 @@
                 }
             },
             {
-                "typ": "LD{50}",
+                "type": "LD{50}",
                 "organism": "rats",
                 "application": "intravenous",
                 "value": {
