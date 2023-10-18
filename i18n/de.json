@@ -408,6 +408,7 @@
 	"props-description": "Liste möglicher Eigenschaften, die einem oder mehreren Elementen zugeschrieben werden. Dies kann Zustandsgrößen, besondere Eigenschaften oder Ähnliches umfassen.",
 	"props-title": "Eigenschaften",
 	"quickinfo": "Allgemeine Informationen",
+	"quiz-title": "Quiz",
 	"radioactive": "Radioaktiv",
 	"radioactivity-description": "Radioaktivität ist die Eigenschaft instabiler Atomkerne, spontan ionisierende Strahlung auszusenden. Untergliedert werden die radioaktiven Elemente in dieser Übersicht nach den Halbwertszeiten ihrer stabilsten Isotope.",
 	"radioactivity-extremely-radioactive": "extrem radioaktiv",
