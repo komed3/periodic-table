@@ -96,7 +96,7 @@ if( process.argv[2] == undefined ) {
 
             index[ key ] = text.plain
                 .toString().toLocaleLowerCase( locale ).trim()
-                .replaceAll( /[^a-zA-Z ]/g, '' )
+                .replaceAll( /[^a-zA-ZäöüÄÖÜß ]/g, '' )
                 .replaceAll( /[\s+]/g, ' ' );
 
             console.log( '... done' );
