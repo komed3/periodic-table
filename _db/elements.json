@@ -818,7 +818,7 @@
         }
     },
     "be": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-18T10:09:23.630Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -1085,6 +1085,26 @@
                 "unit": "K"
             }
         },
+        "toxicity": [
+            {
+                "typ": "LD{50}",
+                "organism": "rats",
+                "application": "intratracheal",
+                "value": {
+                    "value": 51,
+                    "unit": "mg·kg[-1]"
+                }
+            },
+            {
+                "typ": "LD{50}",
+                "organism": "rats",
+                "application": "intravenous",
+                "value": {
+                    "value": 0.496,
+                    "unit": "mg·kg[-1]"
+                }
+            }
+        ],
         "wiki": {
             "en": "Beryllium",
             "de": "Beryllium"
