@@ -11913,7 +11913,7 @@
         }
     },
     "ag": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-18T17:22:10.405Z",
         "abundance": {
             "universe": {
                 "value": 0.6,
@@ -12170,13 +12170,71 @@
                 "unit": "K"
             }
         },
+        "toxicity": [
+            {
+                "type": "LC{50}",
+                "organism": "fish",
+                "application": "#",
+                "time": 345600,
+                "value": {
+                    "value": null,
+                    "range": [
+                        0.00213,
+                        58
+                    ],
+                    "unit": "mg·l[-1]"
+                }
+            },
+            {
+                "type": "LC{50}",
+                "organism": "crayfish",
+                "application": "#",
+                "time": 172800,
+                "value": {
+                    "value": null,
+                    "range": [
+                        0.0015,
+                        4.5
+                    ],
+                    "unit": "mg·l[-1]"
+                }
+            },
+            {
+                "type": "EC{50}",
+                "organism": "crayfish",
+                "application": "#",
+                "time": 172800,
+                "value": {
+                    "value": null,
+                    "range": [
+                        0.00024,
+                        0.0095
+                    ],
+                    "unit": "mg·l[-1]"
+                }
+            },
+            {
+                "type": "EC{50}",
+                "organism": "algae",
+                "application": "#",
+                "time": 345600,
+                "value": {
+                    "value": null,
+                    "range": [
+                        0.00163,
+                        0.00234
+                    ],
+                    "unit": "mg·l[-1]"
+                }
+            }
+        ],
         "wiki": {
             "en": "Silver",
             "de": "Silber"
         }
     },
     "cd": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-18T17:22:10.405Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -12456,6 +12514,69 @@
                 "unit": "K"
             }
         },
+        "toxicity": [
+            {
+                "type": "LD{50}",
+                "organism": "rats",
+                "application": "oral",
+                "value": {
+                    "value": 2330,
+                    "unit": "mg·kg[-1]"
+                }
+            },
+            {
+                "type": "LC{50}",
+                "organism": "fish",
+                "application": "#",
+                "time": 345600,
+                "value": {
+                    "value": null,
+                    "range": [
+                        0.001,
+                        45
+                    ],
+                    "unit": "mg·l[-1]"
+                }
+            },
+            {
+                "type": "LC{50}",
+                "organism": "crayfish",
+                "application": "#",
+                "time": 172800,
+                "value": {
+                    "value": null,
+                    "range": [
+                        0.000072,
+                        4
+                    ],
+                    "unit": "mg·l[-1]"
+                }
+            },
+            {
+                "type": "EC{50}",
+                "organism": "crayfish",
+                "application": "#",
+                "time": 172800,
+                "value": {
+                    "value": 0.58,
+                    "unit": "mg·l[-1]"
+                }
+            },
+            {
+                "type": "EC{50}",
+                "organism": "algae",
+                "application": "#",
+                "time": 345600,
+                "value": {
+                    "value": null,
+                    "range": [
+                        0.097,
+                        0.452
+                    ],
+                    "unit": "mg·l[-1]"
+                }
+            }
+        ],
         "wiki": {
             "en": "Cadmium",
             "de": "Cadmium"
@@ -13476,7 +13597,7 @@
         }
     },
     "i": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-18T17:22:10.405Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -13754,6 +13875,55 @@
                 }
             }
         },
+        "toxicity": [
+            {
+                "type": "LD{50}",
+                "organism": "rats",
+                "application": "oral",
+                "value": {
+                    "value": 14000,
+                    "unit": "mg·kg[-1]"
+                }
+            },
+            {
+                "type": "LC{50}",
+                "organism": "fish",
+                "application": "#",
+                "time": 345600,
+                "value": {
+                    "value": null,
+                    "range": [
+                        0.53,
+                        4.2
+                    ],
+                    "unit": "mg·l[-1]"
+                }
+            },
+            {
+                "type": "LC{50}",
+                "organism": "crayfish",
+                "application": "#",
+                "time": 172800,
+                "value": {
+                    "value": null,
+                    "range": [
+                        0.16,
+                        1.75
+                    ],
+                    "unit": "mg·l[-1]"
+                }
+            },
+            {
+                "type": "EC{50}",
+                "organism": "crayfish",
+                "application": "#",
+                "time": 172800,
+                "value": {
+                    "value": 0.33,
+                    "unit": "mg·l[-1]"
+                }
+            }
+        ],
         "wiki": {
             "en": "Iodine",
             "de": "Iod"
@@ -20090,7 +20260,7 @@
         }
     },
     "hg": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-18T19:13:50.233Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -20368,6 +20538,46 @@
                 }
             }
         },
+        "toxicity": [
+            {
+                "type": "LC{50}",
+                "organism": "fish",
+                "application": "#",
+                "time": 345600,
+                "value": {
+                    "value": null,
+                    "range": [
+                        0.004,
+                        1.2
+                    ],
+                    "unit": "mg·l[-1]"
+                }
+            },
+            {
+                "type": "LC{50}",
+                "organism": "crayfish",
+                "application": "#",
+                "time": 172800,
+                "value": {
+                    "value": null,
+                    "range": [
+                        0.002,
+                        0.6
+                    ],
+                    "unit": "mg·l[-1]"
+                }
+            },
+            {
+                "type": "EC{50}",
+                "organism": "algae",
+                "application": "#",
+                "time": 259200,
+                "value": {
+                    "value": 0.3,
+                    "unit": "mg·l[-1]"
+                }
+            }
+        ],
         "wiki": {
             "en": "Mercury (element)",
             "de": "Quecksilber"
@@ -20637,7 +20847,7 @@
         }
     },
     "pb": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-18T19:12:06.930Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -20915,13 +21125,43 @@
                 "unit": "K"
             }
         },
+        "toxicity": [
+            {
+                "type": "LC{50}",
+                "organism": "fish",
+                "application": "#",
+                "time": 345600,
+                "value": {
+                    "value": null,
+                    "range": [
+                        0.44,
+                        452
+                    ],
+                    "unit": "mg·l[-1]"
+                }
+            },
+            {
+                "type": "LC{50}",
+                "organism": "crayfish",
+                "application": "#",
+                "time": 172800,
+                "value": {
+                    "value": null,
+                    "range": [
+                        0.53,
+                        5.1
+                    ],
+                    "unit": "mg·l[-1]"
+                }
+            }
+        ],
         "wiki": {
             "en": "Lead",
             "de": "Blei"
         }
     },
     "bi": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-18T19:12:06.930Z",
         "abundance": {
             "universe": {
                 "value": 0.7,
@@ -21160,6 +21400,17 @@
                 "unit": "K"
             }
         },
+        "toxicity": [
+            {
+                "type": "LD{50}",
+                "organism": "rats",
+                "application": "oral",
+                "value": {
+                    "value": 5000,
+                    "unit": "mg·kg[-1]"
+                }
+            }
+        ],
         "wiki": {
             "en": "Bismuth",
             "de": "Bismut"
@@ -22834,7 +23085,7 @@
         }
     },
     "pu": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-18T19:12:06.930Z",
         "appearance": {
             "en": "silvery white, tarnishing to dark gray in air",
             "de": "silbriges Metall"
@@ -22994,6 +23245,31 @@
                 "unit": "K"
             }
         },
+        "toxicity": [
+            {
+                "type": "LD{50}",
+                "organism": "dog",
+                "application": "#",
+                "value": {
+                    "value": 0.32,
+                    "unit": "mg·kg[-1]"
+                }
+            },
+            {
+                "type": "LD{50}",
+                "organism": "human",
+                "application": "#",
+                "value": {
+                    "value": null,
+                    "range": [
+                        10,
+                        99
+                    ],
+                    "*": true,
+                    "unit": "mg·kg[-1]"
+                }
+            }
+        ],
         "wiki": {
             "en": "Plutonium",
             "de": "Plutonium"
