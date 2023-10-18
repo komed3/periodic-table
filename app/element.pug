@@ -17,6 +17,7 @@ block styles
   link( rel="stylesheet", href="/css/element.css" )/
   link( rel="stylesheet", href="/css/shell.css" )/
   link( rel="stylesheet", href="/css/isotable.css" )/
+  link( rel="stylesheet", href="/css/toxicity.css" )/
   link( rel="stylesheet", href="/css/microtable.css" )/
 
 block content
@@ -348,6 +349,12 @@ block content
             div.pt-element-hazard-pictograms
               each adr in element.hazardous.adr
                 img.pictogram( src='/res/ADR-' + adr + '.png', loading="lazy", alt= __( 'pictogram' ) )/
+      //- toxicity
+      if element.toxicity
+        - var toxicity = element.toxicity
+        div.pt-box.pt-element-toxicity
+          h2!= __( 'toxicity' )
+          include templates/toxicity.pug
       //- element classification
       if element.classification
         div.pt-box.pt-element-classification
