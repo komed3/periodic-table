@@ -322,6 +322,7 @@
 	"nuclides-title": "Nuklidkarte",
 	"number": "Ordnungszahl",
 	"optical": "Optische Eigenschaften",
+	"organism-rats": "Ratte",
 	"oxidation-state": "Oxidationszustand",
 	"pauling-negativity": "Pauling-Skala",
 	"pauling-negativity-description": "Linus Paulings Modell als Maß für den ionischen Anteil der Bindung zweier Atome beruht auf deren Elektronegativitätsdifferenzen. Die Kenntnis experimentell ermittelter Bindungsdissoziationsenergien ist Voraussetzung.",
@@ -502,6 +503,8 @@
 	"tools-description": "Liste von Werkzeugen und Hilfen zur Berechnung atomphysikalischer und chemischer Eigenschaften.",
 	"tools-title": "Werkzeuge",
 	"toxicity": "Toxikologische Daten",
+	"toxicity-intratracheal": "intratracheal",
+	"toxicity-intravenous": "intravenös",
 	"triple-temp": "Tripelpunkt",
 	"triple-temp-description": "Am Tripelpunkt stehen Temperatur und Druck dreier Phasen (gasförmig, flüssig und Feststoff) im thermodynamischen Gleichgewicht. Je nach Stoff können am Tripelpunkt verschiedene Aggregatzustände existieren.",
 	"undefined": "—",
@@ -521,8 +524,5 @@
 	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" target=\"_blank\">Weiterlesen …</a>",
 	"yellow": "gelb",
 	"young-elastic": "Youngscher Modul",
-	"young-elastic-description": "Der nach Thomas Young benannte Materialkennwert beschreibt bei linear-elastischem Verhalten den proportionalen Zusammenhang zwischen Spannung und Dehnung bei der Verformung eines festen Körpers.",
-	"organism-rats": "Ratte",
-	"toxicity-intratracheal": "intratracheal",
-	"toxicity-intravenous": "intravenös"
+	"young-elastic-description": "Der nach Thomas Young benannte Materialkennwert beschreibt bei linear-elastischem Verhalten den proportionalen Zusammenhang zwischen Spannung und Dehnung bei der Verformung eines festen Körpers."
 }
