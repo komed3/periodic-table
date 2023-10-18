@@ -1111,7 +1111,7 @@
         }
     },
     "b": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-18T13:35:00.408Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -1344,6 +1344,17 @@
                 "unit": "K"
             }
         },
+        "toxicity": [
+            {
+                "type": "LD{50}",
+                "organism": "rats",
+                "application": "oral",
+                "value": {
+                    "value": 650,
+                    "unit": "mg·kg[-1]"
+                }
+            }
+        ],
         "wiki": {
             "en": "Boron",
             "de": "Bor"
@@ -3659,7 +3670,7 @@
         }
     },
     "p": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-18T13:35:00.408Z",
         "abundance": {
             "universe": {
                 "value": 7000,
@@ -3930,6 +3941,39 @@
                 ]
             }
         },
+        "toxicity": [
+            {
+                "type": "LD{50}",
+                "organism": "rats",
+                "application": "oral",
+                "value": {
+                    "value": 3.03,
+                    "unit": "mg·kg[-1]"
+                }
+            },
+            {
+                "type": "LD{50}",
+                "organism": "mouse",
+                "application": "oral",
+                "value": {
+                    "value": 4.82,
+                    "unit": "mg·kg[-1]"
+                }
+            },
+            {
+                "type": "LD{Lo}",
+                "organism": "human",
+                "application": "oral",
+                "value": {
+                    "value": null,
+                    "range": [
+                        1.4,
+                        22
+                    ],
+                    "unit": "mg·kg[-1]"
+                }
+            }
+        ],
         "wiki": {
             "en": "Phosphorus",
             "de": "Phosphor"
@@ -5953,7 +5997,7 @@
         }
     },
     "cr": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-18T13:35:00.408Z",
         "abundance": {
             "universe": {
                 "value": 15000,
@@ -6190,6 +6234,60 @@
                 "unit": "K"
             }
         },
+        "toxicity": [
+            {
+                "type": "LC{50}",
+                "organism": "fish",
+                "application": "#",
+                "time": 345600,
+                "value": {
+                    "value": null,
+                    "range": [
+                        13.9,
+                        210
+                    ],
+                    "unit": "mg·l[-1]"
+                }
+            },
+            {
+                "type": "LC{50}",
+                "organism": "crayfish",
+                "application": "#",
+                "time": 172800,
+                "value": {
+                    "value": null,
+                    "range": [
+                        0.002,
+                        100
+                    ],
+                    "unit": "mg·l[-1]"
+                }
+            },
+            {
+                "type": "EC{50}",
+                "organism": "crayfish",
+                "application": "#",
+                "time": 172800,
+                "value": {
+                    "value": 0.07,
+                    "unit": "mg·l[-1]"
+                }
+            },
+            {
+                "type": "EC{50}",
+                "organism": "algae",
+                "application": "#",
+                "time": 259200,
+                "value": {
+                    "value": null,
+                    "range": [
+                        0.1,
+                        17.8
+                    ],
+                    "unit": "mg·l[-1]"
+                }
+            }
+        ],
         "wiki": {
             "en": "Chromium",
             "de": "Chrom"
