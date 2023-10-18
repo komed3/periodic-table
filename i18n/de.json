@@ -509,6 +509,7 @@
 	"tools-title": "Werkzeuge",
 	"toxicity": "Toxikologische Daten",
 	"toxicity-info": "%s, %s, %s",
+	"toxicity-inhalative": "inhalativ",
 	"toxicity-intratracheal": "intratracheal",
 	"toxicity-intravenous": "intravenös",
 	"toxicity-oral": "oral",

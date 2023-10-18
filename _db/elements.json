@@ -6294,7 +6294,7 @@
         }
     },
     "mn": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-18T15:25:36.912Z",
         "abundance": {
             "universe": {
                 "value": 8000,
@@ -6543,6 +6543,27 @@
                 "unit": "K"
             }
         },
+        "toxicity": [
+            {
+                "type": "LD{50}",
+                "organism": "rats",
+                "application": "oral",
+                "value": {
+                    "value": 9000,
+                    "unit": "mg·kg[-1]"
+                }
+            },
+            {
+                "type": "EC{50}",
+                "organism": "crayfish",
+                "application": "#",
+                "time": 172800,
+                "value": {
+                    "value": 40,
+                    "unit": "mg·l[-1]"
+                }
+            }
+        ],
         "wiki": {
             "en": "Manganese",
             "de": "Mangan"
@@ -6782,7 +6803,7 @@
         }
     },
     "co": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-18T15:25:36.912Z",
         "abundance": {
             "universe": {
                 "value": 3000,
@@ -7046,13 +7067,24 @@
                 "unit": "K"
             }
         },
+        "toxicity": [
+            {
+                "type": "LD{50}",
+                "organism": "rats",
+                "application": "oral",
+                "value": {
+                    "value": 6171,
+                    "unit": "mg·kg[-1]"
+                }
+            }
+        ],
         "wiki": {
             "en": "Cobalt",
             "de": "Cobalt"
         }
     },
     "ni": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-18T15:25:36.912Z",
         "abundance": {
             "universe": {
                 "value": 60000,
@@ -7308,6 +7340,46 @@
                 "unit": "K"
             }
         },
+        "toxicity": [
+            {
+                "type": "LC{50}",
+                "organism": "fish",
+                "application": "#",
+                "time": 345600,
+                "value": {
+                    "value": null,
+                    "range": [
+                        0.0000475,
+                        350
+                    ],
+                    "unit": "mg·l[-1]"
+                }
+            },
+            {
+                "type": "LC{50}",
+                "organism": "crayfish",
+                "application": "#",
+                "time": 172800,
+                "value": {
+                    "value": null,
+                    "range": [
+                        1.28,
+                        9.28
+                    ],
+                    "unit": "mg·l[-1]"
+                }
+            },
+            {
+                "type": "EC{50}",
+                "organism": "crayfish",
+                "application": "#",
+                "time": 172800,
+                "value": {
+                    "value": 1,
+                    "unit": "mg·l[-1]"
+                }
+            }
+        ],
         "wiki": {
             "en": "Nickel",
             "de": "Nickel"
@@ -8311,7 +8383,7 @@
         }
     },
     "as": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-18T15:25:36.912Z",
         "abundance": {
             "universe": {
                 "value": 8,
@@ -8567,6 +8639,17 @@
                 "unit": "K"
             }
         },
+        "toxicity": [
+            {
+                "type": "LD{50}",
+                "organism": "human",
+                "application": "oral",
+                "value": {
+                    "value": 1.4,
+                    "unit": "mg·kg[-1]"
+                }
+            }
+        ],
         "wiki": {
             "en": "Arsenic",
             "de": "Arsen"
@@ -8880,7 +8963,7 @@
         }
     },
     "br": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-18T15:25:36.912Z",
         "abundance": {
             "universe": {
                 "value": 7,
@@ -9141,6 +9224,44 @@
                 }
             }
         },
+        "toxicity": [
+            {
+                "type": "LD{50}",
+                "organism": "rats",
+                "application": "oral",
+                "value": {
+                    "value": 2600,
+                    "unit": "mg·kg[-1]"
+                }
+            },
+            {
+                "type": "LD{50}",
+                "organism": "mouse",
+                "application": "oral",
+                "value": {
+                    "value": 3100,
+                    "unit": "mg·kg[-1]"
+                }
+            },
+            {
+                "type": "LD{Lo}",
+                "organism": "human",
+                "application": "oral",
+                "value": {
+                    "value": 14,
+                    "unit": "mg·kg[-1]"
+                }
+            },
+            {
+                "type": "LC{Lo}",
+                "organism": "human",
+                "application": "inhalative",
+                "value": {
+                    "value": 1000,
+                    "unit": "ppm"
+                }
+            }
+        ],
         "wiki": {
             "en": "Bromine",
             "de": "Brom"
