@@ -91,6 +91,23 @@ site:
       key: enthalpy.atomisation
       label: atomisation-enthalpy
       scheme: _fire
+    heat_capacity:
+      key: heat.heat_capacity
+      label: heat_capacity
+      scheme: _fire
+    thermal_conductivity:
+      key: heat.thermal_conductivity
+      label: thermal_conductivity
+      scheme: _fire
+    thermal_expansion:
+      key: heat.thermal_expansion
+      label: thermal_expansion
+      scheme: _fire
+      log: true
+    work_function:
+      key: heat.work_function
+      label: work_function
+      scheme: _fire
     hardness_mohs:
       key: hardness.mohs
       label: mohs-hardness
