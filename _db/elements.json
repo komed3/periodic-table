@@ -1,6 +1,6 @@
 {
     "h": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.602Z",
         "abundance": {
             "universe": {
                 "value": 750000000,
@@ -141,10 +141,6 @@
                 "i": "0",
                 "s": ""
             }
-        },
-        "heat_capacity": {
-            "value": 14304,
-            "unit": "J·kg[−1]·K[−1]"
         },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Hydrogen_discharge_tube.jpg",
@@ -287,9 +283,15 @@
                 }
             }
         },
-        "thermal_conductivity": {
-            "value": 0.1805,
-            "unit": "W·m[−1]·K[−1]"
+        "thermal": {
+            "heat_capacity": {
+                "value": 14304,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 0.1805,
+                "unit": "W·m[-1]·K[-1]"
+            }
         },
         "weblinks": [
             {
@@ -307,7 +309,7 @@
         }
     },
     "he": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 230000000,
@@ -536,13 +538,23 @@
                 }
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 5193,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 0.1513,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "wiki": {
             "en": "Helium",
             "de": "Helium"
         }
     },
     "li": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 6,
@@ -628,6 +640,16 @@
             "bulk": {
                 "value": 11,
                 "unit": "GPa"
+            }
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 10600000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 9.5e-8,
+                "unit": "Ωm"
             }
         },
         "electron_config": "<e:He> 2s[1]",
@@ -811,13 +833,31 @@
                 }
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 3482,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 85,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.000046,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 2.9,
+                "unit": "eV"
+            }
+        },
         "wiki": {
             "en": "Lithium",
             "de": "Lithium"
         }
     },
     "be": {
-        "@modified": "2023-10-18T10:09:23.630Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -905,6 +945,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.032
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 25000000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 3.8e-8,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:He> 2s[2]",
         "enthalpy": {
@@ -1084,6 +1134,24 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 1825,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 190,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000113,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 4.98,
+                "unit": "eV"
+            }
+        },
         "toxicity": [
             {
                 "type": "LD{50}",
@@ -1110,7 +1178,7 @@
         }
     },
     "b": {
-        "@modified": "2023-10-18T13:35:00.408Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -1182,6 +1250,16 @@
             "bulk": {
                 "value": 320,
                 "unit": "GPa"
+            }
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 0.0001,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 10000,
+                "unit": "Ωm"
             }
         },
         "electron_config": "<e:He> 2s[2] 2p[1]",
@@ -1343,6 +1421,24 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 1260,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 27,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.000006,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 4.45,
+                "unit": "eV"
+            }
+        },
         "toxicity": [
             {
                 "type": "LD{50}",
@@ -1360,7 +1456,7 @@
         }
     },
     "c": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 5000000,
@@ -1454,6 +1550,12 @@
             "bulk": {
                 "value": 33,
                 "unit": "GPa"
+            }
+        },
+        "electrical": {
+            "resistivity": {
+                "value": 0.00001,
+                "unit": "Ωm"
             }
         },
         "electron_config": "<e:He> 2s[2] 2p[2]",
@@ -1603,13 +1705,35 @@
                 }
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": null,
+                "range": [
+                    427,
+                    709
+                ],
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 140,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000071,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 4.81,
+                "unit": "eV"
+            }
+        },
         "wiki": {
             "en": "Carbon",
             "de": "Kohlenstoff"
         }
     },
     "n": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 1000000,
@@ -1847,13 +1971,29 @@
                 }
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 1040,
+                "unit": "J·kg[−1]·K[−1]",
+                "condition": [
+                    {
+                        "value": 298,
+                        "unit": "K"
+                    }
+                ]
+            },
+            "thermal_conductivity": {
+                "value": 0.02583,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "wiki": {
             "en": "Nitrogen",
             "de": "Stickstoff"
         }
     },
     "o": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 10000000,
@@ -2130,13 +2270,29 @@
                 }
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 920,
+                "unit": "J·kg[−1]·K[−1]",
+                "condition": [
+                    {
+                        "value": 298,
+                        "unit": "K"
+                    }
+                ]
+            },
+            "thermal_conductivity": {
+                "value": 0.02658,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "wiki": {
             "en": "Oxygen",
             "de": "Sauerstoff"
         }
     },
     "f": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 400,
@@ -2394,13 +2550,19 @@
                 }
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 0.0279,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "wiki": {
             "en": "Fluorine",
             "de": "Fluor"
         }
     },
     "ne": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 1300000,
@@ -2608,13 +2770,23 @@
                 }
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 1030.4,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 0.0491,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "wiki": {
             "en": "Neon",
             "de": "Neon"
         }
     },
     "na": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 20000,
@@ -2700,6 +2872,16 @@
             "bulk": {
                 "value": 6.3,
                 "unit": "GPa"
+            }
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 21000000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 4.9e-8,
+                "unit": "Ωm"
             }
         },
         "electron_config": "<e:Ne> 3s[1]",
@@ -2886,13 +3068,31 @@
                 }
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 1230,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 140,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.000071,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 2.75,
+                "unit": "eV"
+            }
+        },
         "wiki": {
             "en": "Sodium",
             "de": "Natrium"
         }
     },
     "mg": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 600000,
@@ -2985,6 +3185,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.29
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 22700000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 4.4e-8,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Ne> 3s[2]",
         "enthalpy": {
@@ -3168,13 +3378,31 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 1023,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 160,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000082,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 3.66,
+                "unit": "eV"
+            }
+        },
         "wiki": {
             "en": "Magnesium",
             "de": "Magnesium"
         }
     },
     "al": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 50000,
@@ -3262,6 +3490,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.35
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 37700000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 2.7e-8,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Ne> 3s[2] 3p[1]",
         "enthalpy": {
@@ -3426,13 +3664,35 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 897,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 235,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000231,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": null,
+                "range": [
+                    4.06,
+                    4.26
+                ],
+                "unit": "eV"
+            }
+        },
         "wiki": {
             "en": "Aluminum",
             "de": "Aluminium"
         }
     },
     "si": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 700000,
@@ -3514,6 +3774,16 @@
             "bulk": {
                 "value": 100,
                 "unit": "GPa"
+            }
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 0.0005,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 0.001,
+                "unit": "Ωm"
             }
         },
         "electron_config": "<e:Ne> 3s[2] 3p[2]",
@@ -3663,13 +3933,33 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 703,
+                "unit": "J·kg[−1]·K[−1]",
+                "condition": [
+                    {
+                        "value": 298,
+                        "unit": "K"
+                    }
+                ]
+            },
+            "thermal_conductivity": {
+                "value": 150,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000026,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Silicon",
             "de": "Silicium"
         }
     },
     "p": {
-        "@modified": "2023-10-18T13:35:00.408Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 7000,
@@ -3763,6 +4053,12 @@
             "bulk": {
                 "value": 11,
                 "unit": "GPa"
+            }
+        },
+        "electrical": {
+            "resistivity": {
+                "value": 1e-7,
+                "unit": "Ωm"
             }
         },
         "electron_config": "<e:Ne> 3s[2] 3p[3]",
@@ -3940,6 +4236,22 @@
                 ]
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 685.6,
+                "unit": "J·kg[−1]·K[−1]",
+                "condition": [
+                    {
+                        "value": 298,
+                        "unit": "K"
+                    }
+                ]
+            },
+            "thermal_conductivity": {
+                "value": 0.236,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "toxicity": [
             {
                 "type": "LD{50}",
@@ -3979,7 +4291,7 @@
         }
     },
     "s": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 500000,
@@ -4052,6 +4364,12 @@
             "bulk": {
                 "value": 7.7,
                 "unit": "GPa"
+            }
+        },
+        "electrical": {
+            "resistivity": {
+                "value": 10000000000000000,
+                "unit": "Ωm"
             }
         },
         "electron_config": "<e:Ne> 3s[2] 3p[4]",
@@ -4221,13 +4539,23 @@
                 }
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 736,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 0.205,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "wiki": {
             "en": "Sulfur",
             "de": "Schwefel"
         }
     },
     "cl": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 1000,
@@ -4305,6 +4633,12 @@
             "bulk": {
                 "value": 1.1,
                 "unit": "GPa"
+            }
+        },
+        "electrical": {
+            "resistivity": {
+                "value": 1000,
+                "unit": "Ωm"
             }
         },
         "electron_config": "<e:Ne> 3s[2] 3p[5]",
@@ -4494,13 +4828,23 @@
                 }
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 480,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 0.0089,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "wiki": {
             "en": "Chlorine",
             "de": "Chlor"
         }
     },
     "ar": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 200000,
@@ -4714,13 +5058,29 @@
                 }
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 319,
+                "unit": "J·kg[−1]·K[−1]",
+                "condition": [
+                    {
+                        "value": 293.15,
+                        "unit": "K"
+                    }
+                ]
+            },
+            "thermal_conductivity": {
+                "value": 0.01772,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "wiki": {
             "en": "Argon",
             "de": "Argon"
         }
     },
     "k": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 3000,
@@ -4802,6 +5162,16 @@
             "bulk": {
                 "value": 3.1,
                 "unit": "GPa"
+            }
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 14300000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 7.5e-8,
+                "unit": "Ωm"
             }
         },
         "electron_config": "<e:Ar> 4s[1]",
@@ -4986,13 +5356,27 @@
                 }
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 757.8,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 100,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "work_function": {
+                "value": 2.3,
+                "unit": "eV"
+            }
+        },
         "wiki": {
             "en": "Potassium",
             "de": "Kalium"
         }
     },
     "ca": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 70000,
@@ -5085,6 +5469,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.31
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 29400000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 3.4e-8,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Ar> 4s[2]",
         "enthalpy": {
@@ -5254,13 +5648,31 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 647.3,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 200,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000223,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 2.87,
+                "unit": "eV"
+            }
+        },
         "wiki": {
             "en": "Calcium",
             "de": "Calcium"
         }
     },
     "sc": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 30,
@@ -5338,6 +5750,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.28
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 1810000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 5.5e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Ar> 3d[1] 4s[2]",
         "enthalpy": {
@@ -5489,13 +5911,27 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 586,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 16,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000102,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Scandium",
             "de": "Scandium"
         }
     },
     "ti": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 3000,
@@ -5579,6 +6015,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.32
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 2500000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 4e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Ar> 3d[2] 4s[2]",
         "enthalpy": {
@@ -5745,13 +6191,31 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 523,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 22,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000086,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 4.33,
+                "unit": "eV"
+            }
+        },
         "wiki": {
             "en": "Titanium",
             "de": "Titan (Element)"
         }
     },
     "v": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 1000,
@@ -5839,6 +6303,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.37
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 5000000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 2e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Ar> 3d[3] 4s[2]",
         "enthalpy": {
@@ -5990,13 +6464,27 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 489,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 31,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000084,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Vanadium",
             "de": "Vanadium"
         }
     },
     "cr": {
-        "@modified": "2023-10-18T13:35:00.408Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 15000,
@@ -6084,6 +6572,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.21
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 7870000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 1.27e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Ar> 3d[5] 4s[1]",
         "enthalpy": {
@@ -6233,6 +6731,24 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 449,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 94,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000049,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 4.5,
+                "unit": "eV"
+            }
+        },
         "toxicity": [
             {
                 "type": "LC{50}",
@@ -6293,7 +6809,7 @@
         }
     },
     "mn": {
-        "@modified": "2023-10-18T15:25:36.912Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 8000,
@@ -6375,6 +6891,16 @@
             "bulk": {
                 "value": 120,
                 "unit": "GPa"
+            }
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 694000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 0.00000144,
+                "unit": "Ωm"
             }
         },
         "electron_config": "<e:Ar> 3d[5] 4s[2]",
@@ -6542,6 +7068,24 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 479.5,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 7.8,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000217,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 4.1,
+                "unit": "eV"
+            }
+        },
         "toxicity": [
             {
                 "type": "LD{50}",
@@ -6569,7 +7113,7 @@
         }
     },
     "fe": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 1100000,
@@ -6647,6 +7191,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.29
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 10000000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 1e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Ar> 3d[6] 4s[2]",
         "enthalpy": {
@@ -6796,13 +7350,31 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 449,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 80,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000118,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 4.5,
+                "unit": "eV"
+            }
+        },
         "wiki": {
             "en": "Iron",
             "de": "Eisen"
         }
     },
     "co": {
-        "@modified": "2023-10-18T15:25:36.912Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 3000,
@@ -6890,6 +7462,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.31
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 16700000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 6e-8,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Ar> 3d[7] 4s[2]",
         "enthalpy": {
@@ -7066,6 +7648,24 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 421,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 100,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.000013,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 5,
+                "unit": "eV"
+            }
+        },
         "toxicity": [
             {
                 "type": "LD{50}",
@@ -7083,7 +7683,7 @@
         }
     },
     "ni": {
-        "@modified": "2023-10-18T15:25:36.912Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 60000,
@@ -7171,6 +7771,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.31
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 13900000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 7.2e-8,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Ar> 3d[8] 4s[2]",
         "enthalpy": {
@@ -7339,6 +7949,24 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 444,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 91,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000134,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 5.15,
+                "unit": "eV"
+            }
+        },
         "toxicity": [
             {
                 "type": "LC{50}",
@@ -7385,7 +8013,7 @@
         }
     },
     "cu": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 60,
@@ -7469,6 +8097,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.34
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 58100000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 1.72e-8,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Ar> 3d[10] 4s[1]",
         "enthalpy": {
@@ -7630,13 +8268,31 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 385,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 400,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000165,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 4.65,
+                "unit": "eV"
+            }
+        },
         "wiki": {
             "en": "Copper",
             "de": "Kupfer"
         }
     },
     "zn": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 300,
@@ -7725,6 +8381,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.25
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 16700000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 6e-8,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Ar> 3d[10] 4s[2]",
         "enthalpy": {
@@ -7902,13 +8568,27 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 388,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 120,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000302,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Zinc",
             "de": "Zink"
         }
     },
     "ga": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -7971,6 +8651,16 @@
         "discovery": {
             "by": "Lecoq de Boisbaudran",
             "value": 1875
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 7140000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 1.4e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[1]",
         "enthalpy": {
@@ -8150,13 +8840,27 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 371,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 29,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.00012,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Gallium",
             "de": "Gallium"
         }
     },
     "ge": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 200,
@@ -8221,6 +8925,16 @@
         "discovery": {
             "by": "Winkler",
             "value": 1886
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 2,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 0.0005,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[2]",
         "enthalpy": {
@@ -8376,13 +9090,31 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 308.3,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 60,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.000006,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 5,
+                "unit": "eV"
+            }
+        },
         "wiki": {
             "en": "Germanium",
             "de": "Germanium"
         }
     },
     "as": {
-        "@modified": "2023-10-18T15:25:36.912Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 8,
@@ -8471,6 +9203,16 @@
             "bulk": {
                 "value": 22,
                 "unit": "GPa"
+            }
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 3030000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 3.3e-7,
+                "unit": "Ωm"
             }
         },
         "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[3]",
@@ -8638,6 +9380,16 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 328.5,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 50,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "toxicity": [
             {
                 "type": "LD{50}",
@@ -8655,7 +9407,7 @@
         }
     },
     "se": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 30,
@@ -8956,13 +9708,23 @@
                 }
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 0.52,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "work_function": {
+                "value": 5.9,
+                "unit": "eV"
+            }
+        },
         "wiki": {
             "en": "Selenium",
             "de": "Selen"
         }
     },
     "br": {
-        "@modified": "2023-10-18T15:25:36.912Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 7,
@@ -9036,6 +9798,12 @@
             "bulk": {
                 "value": 1.9,
                 "unit": "GPa"
+            }
+        },
+        "electrical": {
+            "resistivity": {
+                "value": 100000000000,
+                "unit": "Ωm"
             }
         },
         "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[5]",
@@ -9223,6 +9991,12 @@
                 }
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 0.12,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "toxicity": [
             {
                 "type": "LD{50}",
@@ -9267,7 +10041,7 @@
         }
     },
     "kr": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 40,
@@ -9481,13 +10255,19 @@
                 }
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 0.00949,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "wiki": {
             "en": "Krypton",
             "de": "Krypton"
         }
     },
     "rb": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -9569,6 +10349,16 @@
             "bulk": {
                 "value": 2.5,
                 "unit": "GPa"
+            }
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 7520000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 1.33e-7,
+                "unit": "Ωm"
             }
         },
         "electron_config": "<e:Kr> 5s[1]",
@@ -9758,13 +10548,23 @@
                 }
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 58,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "work_function": {
+                "value": 2.16,
+                "unit": "eV"
+            }
+        },
         "wiki": {
             "en": "Rubidium",
             "de": "Rubidium"
         }
     },
     "sr": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 40,
@@ -9844,6 +10644,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.28
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 7410000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 1.35e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Kr> 5s[2]",
         "enthalpy": {
@@ -10007,13 +10817,27 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 35,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000225,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 2.59,
+                "unit": "eV"
+            }
+        },
         "wiki": {
             "en": "Strontium",
             "de": "Strontium"
         }
     },
     "y": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 7,
@@ -10091,6 +10915,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.24
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 1660000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 6e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Kr> 4d[1] 5s[2]",
         "enthalpy": {
@@ -10252,13 +11086,23 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 17,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000106,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Yttrium",
             "de": "Yttrium"
         }
     },
     "zr": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 50,
@@ -10342,6 +11186,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.34
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 2360000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 4.33e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Kr> 4d[2] 5s[2]",
         "enthalpy": {
@@ -10498,13 +11352,27 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 270,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 22.7,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000057,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Zirconium",
             "de": "Zirconium"
         }
     },
     "nb": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -10584,6 +11452,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.4
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 6580000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 1.52e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Kr> 4d[4] 5s[1]",
         "enthalpy": {
@@ -10743,13 +11621,23 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 54,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000073,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Niobium",
             "de": "Niob"
         }
     },
     "mo": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 5,
@@ -10837,6 +11725,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.31
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 18200000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 5.5e-8,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Kr> 4d[5] 5s[1]",
         "enthalpy": {
@@ -10987,13 +11885,23 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 139,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000048,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Molybdenum",
             "de": "Molybdän"
         }
     },
     "tc": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "appearance": {
             "en": "shiny gray metal",
             "de": "silbrig grau metallisch"
@@ -11037,6 +11945,16 @@
         "discovery": {
             "by": "Segrè",
             "value": 1937
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 4540000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 2.2e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Kr> 4d[5] 5s[2]",
         "enthalpy": {
@@ -11164,13 +12082,19 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 51,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "wiki": {
             "en": "Technetium",
             "de": "Technetium"
         }
     },
     "ru": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 4,
@@ -11244,6 +12168,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.3
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 14100000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 7.1e-8,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Kr> 4d[7] 5s[1]",
         "enthalpy": {
@@ -11392,13 +12326,23 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 120,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000064,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Ruthenium",
             "de": "Ruthenium"
         }
     },
     "rh": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 0.6,
@@ -11474,6 +12418,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.26
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 23300000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 4.3e-8,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Kr> 4d[8] 5s[1]",
         "enthalpy": {
@@ -11649,13 +12603,27 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 243,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 150,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000082,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Rhodium",
             "de": "Rhodium"
         }
     },
     "pd": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -11731,6 +12699,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.39
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 9260000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 1.08e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Kr> 4d[10]",
         "enthalpy": {
@@ -11906,13 +12884,23 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 72,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000118,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Palladium",
             "de": "Palladium"
         }
     },
     "ag": {
-        "@modified": "2023-10-18T17:22:10.405Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 0.6,
@@ -11997,6 +12985,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.37
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 61400000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 1.63e-8,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Kr> 4d[10] 5s[1]",
         "enthalpy": {
@@ -12169,6 +13167,30 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 235,
+                "unit": "J·kg[−1]·K[−1]",
+                "condition": [
+                    {
+                        "value": 298.15,
+                        "unit": "K"
+                    }
+                ]
+            },
+            "thermal_conductivity": {
+                "value": 430,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000189,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 4.26,
+                "unit": "eV"
+            }
+        },
         "toxicity": [
             {
                 "type": "LC{50}",
@@ -12233,7 +13255,7 @@
         }
     },
     "cd": {
-        "@modified": "2023-10-18T17:22:10.405Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -12322,6 +13344,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.3
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 14300000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 7e-8,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Kr> 4d[10] 5s[2]",
         "enthalpy": {
@@ -12513,6 +13545,20 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 97,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000308,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 4.2,
+                "unit": "eV"
+            }
+        },
         "toxicity": [
             {
                 "type": "LD{50}",
@@ -12582,7 +13628,7 @@
         }
     },
     "in": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 0.3,
@@ -12646,6 +13692,16 @@
             "young": {
                 "value": 11,
                 "unit": "GPa"
+            }
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 12500000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 8e-8,
+                "unit": "Ωm"
             }
         },
         "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[1]",
@@ -12828,13 +13884,27 @@
                 }
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 233,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 81.6,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000321,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Indium",
             "de": "Indium"
         }
     },
     "sn": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 4,
@@ -12932,6 +14002,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.36
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 8690000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 1.15e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[2]",
         "enthalpy": {
@@ -13090,13 +14170,27 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 67,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.000022,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 4.42,
+                "unit": "eV"
+            }
+        },
         "wiki": {
             "en": "Tin",
             "de": "Zinn"
         }
     },
     "sb": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 0.4,
@@ -13168,6 +14262,16 @@
             "bulk": {
                 "value": 42,
                 "unit": "GPa"
+            }
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 2500000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 4e-7,
+                "unit": "Ωm"
             }
         },
         "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[3]",
@@ -13331,13 +14435,23 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 24,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.000011,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Antimony",
             "de": "Antimon"
         }
     },
     "te": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 9,
@@ -13401,6 +14515,16 @@
             "bulk": {
                 "value": 65,
                 "unit": "GPa"
+            }
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 10000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 0.001,
+                "unit": "Ωm"
             }
         },
         "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[4]",
@@ -13590,13 +14714,19 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 3,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "wiki": {
             "en": "Tellurium",
             "de": "Tellur"
         }
     },
     "i": {
-        "@modified": "2023-10-18T17:22:10.405Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -13688,6 +14818,12 @@
             "bulk": {
                 "value": 7.7,
                 "unit": "GPa"
+            }
+        },
+        "electrical": {
+            "resistivity": {
+                "value": 100000000,
+                "unit": "Ωm"
             }
         },
         "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[5]",
@@ -13874,6 +15010,12 @@
                 }
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 0.449,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "toxicity": [
             {
                 "type": "LD{50}",
@@ -13929,7 +15071,7 @@
         }
     },
     "xe": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -14167,13 +15309,19 @@
                 }
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 0.00569,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "wiki": {
             "en": "Xenon",
             "de": "Xenon"
         }
     },
     "cs": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 0.8,
@@ -14255,6 +15403,16 @@
             "bulk": {
                 "value": 1.6,
                 "unit": "GPa"
+            }
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 4760000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 2.1e-7,
+                "unit": "Ωm"
             }
         },
         "electron_config": "<e:Xe> 6s[1]",
@@ -14423,13 +15581,23 @@
                 }
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 36,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "work_function": {
+                "value": 2.14,
+                "unit": "eV"
+            }
+        },
         "wiki": {
             "en": "Caesium",
             "de": "Caesium"
         }
     },
     "ba": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -14515,6 +15683,16 @@
             "bulk": {
                 "value": 9.6,
                 "unit": "GPa"
+            }
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 2940000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 3.4e-7,
+                "unit": "Ωm"
             }
         },
         "electron_config": "<e:Xe> 6s[2]",
@@ -14685,13 +15863,31 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 18,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000206,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 2.7,
+                "range": [
+                    1.8,
+                    2.52
+                ],
+                "unit": "eV"
+            }
+        },
         "wiki": {
             "en": "Barium",
             "de": "Barium"
         }
     },
     "la": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -14775,6 +15971,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.28
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 1630000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 6.15e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Xe> 5d[1] 6s[2]",
         "enthalpy": {
@@ -14933,13 +16139,23 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 13,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000121,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Lanthanum",
             "de": "Lanthan"
         }
     },
     "ce": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -15023,6 +16239,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.24
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 1350000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 7.4e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Xe> 4f[1] 5d[1] 6s[2]",
         "enthalpy": {
@@ -15192,13 +16418,23 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 11,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000063,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Cerium",
             "de": "Cer"
         }
     },
     "pr": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -15282,6 +16518,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.28
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 1430000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 7e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Xe> 4f[3] 6s[2]",
         "enthalpy": {
@@ -15447,13 +16693,23 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 13,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000067,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Praseodymium",
             "de": "Praseodym"
         }
     },
     "nd": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -15537,6 +16793,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.28
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 1560000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 6.43e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Xe> 4f[4] 6s[2]",
         "enthalpy": {
@@ -15702,13 +16968,23 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 17,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000096,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Neodymium",
             "de": "Neodym"
         }
     },
     "pm": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "sun": {
                 "value": 0.005,
@@ -15772,6 +17048,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.28
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 1330000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 7.5e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Xe> 4f[5] 6s[2]",
         "enthalpy": {
@@ -15877,13 +17163,23 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 15,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.000011,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Promethium",
             "de": "Promethium"
         }
     },
     "sm": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 5,
@@ -15967,6 +17263,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.27
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 1060000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 9.4e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Xe> 4f[6] 6s[2]",
         "enthalpy": {
@@ -16127,13 +17433,23 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 13,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000127,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Samarium",
             "de": "Samarium"
         }
     },
     "eu": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -16217,6 +17533,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.15
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 1110000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 9e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Xe> 4f[7] 6s[2]",
         "enthalpy": {
@@ -16360,13 +17686,23 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 14,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.000035,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Europium",
             "de": "Europium"
         }
     },
     "gd": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -16450,6 +17786,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.26
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 763000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 0.00000131,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Xe> 4f[7] 5d[1] 6s[2]",
         "enthalpy": {
@@ -16604,13 +17950,23 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 11,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000094,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Gadolinium",
             "de": "Gadolinium"
         }
     },
     "tb": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -16694,6 +18050,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.26
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 870000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 0.00000115,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Xe> 4f[9] 6s[2]",
         "enthalpy": {
@@ -16832,13 +18198,23 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 11,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000103,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Terbium",
             "de": "Terbium"
         }
     },
     "dy": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -16922,6 +18298,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.25
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 1080000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 9.26e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Xe> 4f[10] 6s[2]",
         "enthalpy": {
@@ -17081,13 +18467,23 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 11,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000099,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Dysprosium",
             "de": "Dysprosium"
         }
     },
     "ho": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -17167,6 +18563,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.23
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 1230000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 8.14e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Xe> 4f[11] 6s[2]",
         "enthalpy": {
@@ -17311,13 +18717,23 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 16,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000112,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Holmium",
             "de": "Holmium"
         }
     },
     "er": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -17401,6 +18817,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.24
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 1160000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 8.6e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Xe> 4f[12] 6s[2]",
         "enthalpy": {
@@ -17548,13 +18974,23 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 15,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000122,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Erbium",
             "de": "Erbium"
         }
     },
     "tm": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 0.1,
@@ -17638,6 +19074,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.21
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 1480000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 6.76e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Xe> 4f[13] 6s[2]",
         "enthalpy": {
@@ -17793,13 +19239,23 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 16.8,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000133,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Thulium",
             "de": "Thulium"
         }
     },
     "yb": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -17883,6 +19339,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.21
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 4000000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 2.5e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Xe> 4f[14] 6s[2]",
         "enthalpy": {
@@ -18051,13 +19517,23 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 39,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000263,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Ytterbium",
             "de": "Ytterbium"
         }
     },
     "lu": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 0.1,
@@ -18141,6 +19617,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.26
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 1720000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 5.8e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Xe> 4f[14] 5d[1] 6s[2]",
         "enthalpy": {
@@ -18282,13 +19768,23 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 16,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000099,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Lutetium",
             "de": "Lutetium"
         }
     },
     "hf": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 0.7,
@@ -18368,6 +19864,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.37
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 3120000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 3.4e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Xe> 4f[14] 5d[2] 6s[2]",
         "enthalpy": {
@@ -18532,13 +20038,27 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 140,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 23,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000059,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Hafnium",
             "de": "Hafnium"
         }
     },
     "ta": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 0.08,
@@ -18614,6 +20134,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.34
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 7610000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 1.35e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Xe> 4f[14] 5d[3] 6s[2]",
         "enthalpy": {
@@ -18789,13 +20319,27 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 140,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 57,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000063,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Tantalum",
             "de": "Tantal"
         }
     },
     "w": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -18879,6 +20423,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.28
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 18500000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 5.4e-8,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Xe> 4f[14] 5d[4] 6s[2]",
         "enthalpy": {
@@ -19050,13 +20604,31 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 138,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 170,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000045,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 4.55,
+                "unit": "eV"
+            }
+        },
         "wiki": {
             "en": "Tungsten",
             "de": "Wolfram"
         }
     },
     "re": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 0.2,
@@ -19136,6 +20708,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.3
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 5560000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 1.8e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Xe> 4f[14] 5d[5] 6s[2]",
         "enthalpy": {
@@ -19300,13 +20882,27 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 137,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 48,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000062,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Rhenium",
             "de": "Rhenium"
         }
     },
     "os": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 3,
@@ -19368,6 +20964,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.25
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 10900000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 8.1e-8,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Xe> 4f[14] 5d[6] 6s[2]",
         "enthalpy": {
@@ -19534,13 +21140,27 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 130,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 88,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000051,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Osmium",
             "de": "Osmium"
         }
     },
     "ir": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -19610,6 +21230,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.26
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 19700000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 4.7e-8,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Xe> 4f[14] 5d[7] 6s[2]",
         "enthalpy": {
@@ -19779,13 +21409,23 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 150,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000064,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Iridium",
             "de": "Iridium"
         }
     },
     "pt": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 5,
@@ -19861,6 +21501,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.38
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 9480000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 1.06e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Xe> 4f[14] 5d[9] 6s[1]",
         "enthalpy": {
@@ -20011,13 +21661,31 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 130,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 72,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000088,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 5.65,
+                "unit": "eV"
+            }
+        },
         "wiki": {
             "en": "Platinum",
             "de": "Platin"
         }
     },
     "au": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 0.6,
@@ -20101,6 +21769,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.44
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 45500000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 2.2e-8,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[1]",
         "enthalpy": {
@@ -20253,13 +21931,31 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 128,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 320,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000142,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 5.1,
+                "unit": "eV"
+            }
+        },
         "wiki": {
             "en": "Gold",
             "de": "Gold"
         }
     },
     "hg": {
-        "@modified": "2023-10-18T19:13:50.233Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -20334,6 +22030,16 @@
             "bulk": {
                 "value": 25,
                 "unit": "GPa"
+            }
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 1040000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 9.6e-7,
+                "unit": "Ωm"
             }
         },
         "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2]",
@@ -20537,6 +22243,20 @@
                 }
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 140,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 8.3,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "work_function": {
+                "value": 4.49,
+                "unit": "eV"
+            }
+        },
         "toxicity": [
             {
                 "type": "LC{50}",
@@ -20583,7 +22303,7 @@
         }
     },
     "tl": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -20657,6 +22377,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.45
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 6670000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 1.5e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[1]",
         "enthalpy": {
@@ -20840,13 +22570,27 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 129,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 46,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000299,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Thallium",
             "de": "Thallium"
         }
     },
     "pb": {
-        "@modified": "2023-10-18T19:12:06.930Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -20930,6 +22674,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.44
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 4760000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 2.1e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[2]",
         "enthalpy": {
@@ -21124,6 +22878,20 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 131,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 35,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000289,
+                "unit": "K[-1]"
+            }
+        },
         "toxicity": [
             {
                 "type": "LC{50}",
@@ -21160,7 +22928,7 @@
         }
     },
     "bi": {
-        "@modified": "2023-10-18T19:12:06.930Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 0.7,
@@ -21234,6 +23002,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.33
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 769000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 0.0000013,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[3]",
         "enthalpy": {
@@ -21399,6 +23177,16 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 8,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000134,
+                "unit": "K[-1]"
+            }
+        },
         "toxicity": [
             {
                 "type": "LD{50}",
@@ -21416,7 +23204,7 @@
         }
     },
     "po": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "water": {
                 "value": 2e-11,
@@ -21461,6 +23249,16 @@
         "discovery": {
             "by": "Marie und Pierre Curie",
             "value": 1898
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 2500000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 4e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[4]",
         "enthalpy": {
@@ -21572,13 +23370,19 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 20,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "wiki": {
             "en": "Polonium",
             "de": "Polonium"
         }
     },
     "at": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "appearance": {
             "en": "unknown, probably metallic",
             "de": "metallisch"
@@ -21684,13 +23488,19 @@
         ],
         "superconductivity": "none",
         "symbol": "At",
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 2,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "wiki": {
             "en": "Astatine",
             "de": "Astat"
         }
     },
     "rn": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "water": {
                 "value": 6e-13,
@@ -21840,13 +23650,19 @@
                 }
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 0.00364,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "wiki": {
             "en": "Radon",
             "de": "Radon"
         }
     },
     "fr": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "atomic_mass": {
             "value": 223.0197,
             "*": true,
@@ -21983,13 +23799,20 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 15,
+                "*": true,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "wiki": {
             "en": "Francium",
             "de": "Francium"
         }
     },
     "ra": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "crust": {
                 "value": 0.0001,
@@ -22050,6 +23873,16 @@
         "discovery": {
             "by": "Marie und Pierre Curie",
             "value": 1898
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 1000000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 0.000001,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Rn> 7s[2]",
         "enthalpy": {
@@ -22158,13 +23991,19 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 19,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "wiki": {
             "en": "Radium",
             "de": "Radium"
         }
     },
     "ac": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "appearance": {
             "en": "silvery-white, glowing with an eerie blue light; sometimes with a golden cast",
             "de": "silbrig"
@@ -22293,13 +24132,19 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 12,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "wiki": {
             "en": "Actinium",
             "de": "Actinium"
         }
     },
     "th": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 0.4,
@@ -22377,6 +24222,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.27
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 6670000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 1.5e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Rn> 6d[2] 7s[2]",
         "enthalpy": {
@@ -22520,13 +24375,23 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 54,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.000011,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Thorium",
             "de": "Thorium"
         }
     },
     "pa": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "crust": {
                 "value": 0.00001,
@@ -22573,6 +24438,16 @@
         "discovery": {
             "by": "Fajans, Hahn, Meitner",
             "value": 1917
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 5560000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 1.8e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Rn> 5f[2] 6d[1] 7s[2]",
         "enthalpy": {
@@ -22679,13 +24554,19 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 47,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "wiki": {
             "en": "Protactinium",
             "de": "Protactinium"
         }
     },
     "u": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "abundance": {
             "universe": {
                 "value": 0.2,
@@ -22766,6 +24647,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.23
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 3240000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 2.8e-7,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Rn> 5f[3] 6d[1] 7s[2]",
         "enthalpy": {
@@ -22929,13 +24820,27 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 116,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 27.6,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000139,
+                "unit": "K[-1]"
+            }
+        },
         "wiki": {
             "en": "Uranium",
             "de": "Uran"
         }
     },
     "np": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "appearance": {
             "en": "silvery metallic",
             "de": "silbrig"
@@ -22972,6 +24877,16 @@
         "discovery": {
             "by": "McMillan, Abelson",
             "value": 1940
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 820000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 0.0000012,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Rn> 5f[4] 6d[1] 7s[2]",
         "enthalpy": {
@@ -23078,13 +24993,25 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 6.3,
+                "unit": "W·m[-1]·K[-1]",
+                "condition": [
+                    {
+                        "value": 300,
+                        "unit": "K"
+                    }
+                ]
+            }
+        },
         "wiki": {
             "en": "Neptunium",
             "de": "Neptunium"
         }
     },
     "pu": {
-        "@modified": "2023-10-18T19:12:06.930Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "appearance": {
             "en": "silvery white, tarnishing to dark gray in air",
             "de": "silbriges Metall"
@@ -23133,6 +25060,16 @@
                 "unit": "GPa"
             },
             "poisson": 0.21
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 680000,
+                "unit": "S·m[-1]"
+            },
+            "resistivity": {
+                "value": 0.0000015,
+                "unit": "Ωm"
+            }
         },
         "electron_config": "<e:Rn> 5f[6] 7s[2]",
         "enthalpy": {
@@ -23244,6 +25181,16 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 130,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 6.74,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "toxicity": [
             {
                 "type": "LD{50}",
@@ -23275,7 +25222,7 @@
         }
     },
     "am": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "appearance": {
             "en": "silvery white",
             "de": "silbrig-weißes Metall"
@@ -23312,6 +25259,12 @@
         "discovery": {
             "by": "Seaborg",
             "value": 1944
+        },
+        "electrical": {
+            "conductivity": {
+                "value": 147000000,
+                "unit": "S·m[-1]"
+            }
         },
         "electron_config": "<e:Rn> 5f[7] 7s[2]",
         "era": "quantum",
@@ -23411,13 +25364,29 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "heat_capacity": {
+                "value": 0.11,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 10,
+                "unit": "W·m[-1]·K[-1]",
+                "condition": [
+                    {
+                        "value": 300,
+                        "unit": "K"
+                    }
+                ]
+            }
+        },
         "wiki": {
             "en": "Americium",
             "de": "Americium"
         }
     },
     "cm": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "appearance": {
             "en": "silvery metallic, glows purple in the dark",
             "de": "silbrig-weißes Metall"
@@ -23539,13 +25508,25 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 10,
+                "unit": "W·m[-1]·K[-1]",
+                "condition": [
+                    {
+                        "value": 300,
+                        "unit": "K"
+                    }
+                ]
+            }
+        },
         "wiki": {
             "en": "Curium",
             "de": "Curium"
         }
     },
     "bk": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "appearance": {
             "en": "silvery",
             "de": "silberweiß"
@@ -23658,13 +25639,20 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 10,
+                "*": true,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "wiki": {
             "en": "Berkelium",
             "de": "Berkelium"
         }
     },
     "cf": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "appearance": {
             "en": "silvery",
             "de": "silbriges Metall"
@@ -23772,13 +25760,20 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 10,
+                "*": true,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "wiki": {
             "en": "Californium",
             "de": "Californium"
         }
     },
     "es": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "appearance": {
             "en": "silvery; glows blue in the dark"
         },
@@ -23883,13 +25878,20 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 10,
+                "*": true,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "wiki": {
             "en": "Einsteinium",
             "de": "Einsteinium"
         }
     },
     "fm": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "atomic_mass": {
             "value": 257.0951,
             "*": true,
@@ -23972,13 +25974,20 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 10,
+                "*": true,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "wiki": {
             "en": "Fermium",
             "de": "Fermium"
         }
     },
     "md": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "atomic_mass": {
             "value": 258,
             "*": true,
@@ -24056,13 +26065,20 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 10,
+                "*": true,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "wiki": {
             "en": "Mendelevium",
             "de": "Mendelevium"
         }
     },
     "no": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "atomic_mass": {
             "value": 259,
             "*": true,
@@ -24140,13 +26156,20 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 10,
+                "*": true,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "wiki": {
             "en": "Nobelium",
             "de": "Nobelium"
         }
     },
     "lr": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "atomic_mass": {
             "value": 266,
             "*": true,
@@ -24224,13 +26247,20 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 10,
+                "*": true,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "wiki": {
             "en": "Lawrencium",
             "de": "Lawrencium"
         }
     },
     "rf": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "appearance": {
             "de": "unbekannt, vermutlich silber-weiß oder grau metallisch"
         },
@@ -24332,13 +26362,20 @@
                 "unit": "K"
             }
         },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 23,
+                "*": true,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "wiki": {
             "en": "Rutherfordium",
             "de": "Rutherfordium"
         }
     },
     "db": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "atomic_mass": {
             "value": 262.1138,
             "*": true,
@@ -24432,13 +26469,20 @@
             2
         ],
         "symbol": "Db",
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 58,
+                "*": true,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "wiki": {
             "en": "Dubnium",
             "de": "Dubnium"
         }
     },
     "sg": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "atomic_mass": {
             "value": 263.1182,
             "*": true,
@@ -24524,6 +26568,13 @@
             2
         ],
         "symbol": "Sg",
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 19,
+                "*": true,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "wiki": {
             "en": "Seaborgium",
             "de": "Seaborgium"
@@ -25635,7 +27686,7 @@
         }
     },
     "og": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-19T17:18:47.603Z",
         "appearance": {
             "en": "metallic (predicted)"
         },
@@ -25738,6 +27789,13 @@
                 "value": 125,
                 "*": true,
                 "unit": "K"
+            }
+        },
+        "thermal": {
+            "thermal_conductivity": {
+                "value": 0.0023,
+                "*": true,
+                "unit": "W·m[-1]·K[-1]"
             }
         },
         "wiki": {
