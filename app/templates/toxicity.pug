@@ -25,7 +25,7 @@ div.pt-box-flex.pt-box-columns.pt-toxicity
           span!= '(' + __( 'undefined' ) + ')'
         div.pt-toxicity-meta
           if t.type
-            span!= core.fText( t.type )
+            span!= core.fUnit( t.type )
           if t.organism
             span!= __( 'organism-' + t.organism )
           if t.application != '#'

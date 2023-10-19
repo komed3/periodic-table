@@ -1,9 +1,14 @@
 {
-    "eV": "Elektronenvolt",
-    "K": "Kelvin (273,15 °C)",
-    "pm": "Pikometer",
-    "ppm": "parts per million (dt. Teile pro Million)",
-    "ppb": "parts per billion (dt. Teile pro Milliarde)",
-    "u": "atomare Masseneinheit",
-    "M☉": "Sonnenmassen"
+	"EC{50}": "mittlere effektive Konzentration",
+	"K": "Kelvin (273,15 °C)",
+	"LC{50}": "mittlere letale Konzentration",
+	"LC{Lo}": "niedrigste (bekannte) letale Konzentration",
+	"LD{50}": "mittlere letale Dosis",
+	"LD{Lo}": "niedrigste (bekannte) letale Dosis",
+	"M☉": "Sonnenmassen",
+	"eV": "Elektronenvolt",
+	"pm": "Pikometer",
+	"ppb": "parts per billion (dt. Teile pro Milliarde)",
+	"ppm": "parts per million (dt. Teile pro Million)",
+	"u": "atomare Masseneinheit"
 }
