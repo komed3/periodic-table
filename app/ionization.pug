@@ -19,7 +19,7 @@ block content
             if el.ionization
               - for( let i = 0; i < 7; i++ ) {
                 if el.ionization.values[ i ]
-                  td.pt-prop-table-value.right!= core.fNumber( el.ionization.values[ i ], 5 )
+                  td.pt-prop-table-value.right!= core.fNumber( { value: el.ionization.values[ i ], '*': el.ionization['*'] }, 5 )
                 else
                   td.pt-prop-table-value
               - }
