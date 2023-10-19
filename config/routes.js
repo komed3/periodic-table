@@ -11,6 +11,7 @@ module.exports.routes = [
     [ '/spectrum/?', 'spectrum' ],
     [ '/abundances/?', 'abundances' ],
     [ '/abundance/*', 'abundance' ],
+    [ '/ionization', 'ionization' ],
     [ '/element/*', 'element', 'e' ],
     [ '/e/*', 'element' ],
     [ '/lists/*', 'lists' ],

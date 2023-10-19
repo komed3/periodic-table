@@ -106,7 +106,8 @@ block content
                 td.pt-prop-table-value!= core.fText( element.electron_config )
             if element.ionization
               tr.pt-prop-table-row
-                th.pt-prop-table-label!= __( 'ionization-energy' )
+                th.pt-prop-table-label
+                  a( href="/ionization" )!= __( 'ionization-energy' )
                 td.pt-prop-table-value!= core.fNumber( element.ionization )
             if element.shell
               tr.pt-prop-table-row
