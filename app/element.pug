@@ -158,6 +158,16 @@ block content
                   th.pt-prop-table-label
                     a( href='/scale/enthalpy_' + label )!= __( label + '-enthalpy' )
                   td.pt-prop-table-value!= core.fNumber( prop )
+        //- thermal
+        if element.heat
+          h3!= __( 'heat-conduction' )
+          table.pt-prop-table.pt-element-table
+            tbody
+              each prop, label in element.heat
+                tr.pt-prop-table-row
+                  th.pt-prop-table-label
+                    a( href='/scale/' + label )!= __( label )
+                  td.pt-prop-table-value!= core.fNumber( prop )
         //- hardness props
         if element.hardness
           h3!= __( 'hardnesses' )
@@ -177,6 +187,16 @@ block content
                 tr.pt-prop-table-row
                   th.pt-prop-table-label
                     a( href='/scale/elastic_' + label )!= __( label + '-elastic' )
+                  td.pt-prop-table-value!= core.fNumber( prop )
+        //- electrical
+        if element.electrical
+          h3!= __( 'electrical' )
+          table.pt-prop-table.pt-element-table
+            tbody
+              each prop, label in element.electrical
+                tr.pt-prop-table-row
+                  th.pt-prop-table-label
+                    a( href='/scale/electrical_' + label )!= __( 'electrical_' + label )
                   td.pt-prop-table-value!= core.fNumber( prop )
         //- magnetism
         h3!= __( 'magnetism' )
