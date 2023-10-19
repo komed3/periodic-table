@@ -95,6 +95,8 @@ site:
       key: heat.heat_capacity
       label: heat_capacity
       scheme: _fire
+      min: 100
+      max: 2500
     thermal_conductivity:
       key: heat.thermal_conductivity
       label: thermal_conductivity
@@ -140,6 +142,17 @@ site:
       key: elastic.poisson
       label: poisson-elastic
       scheme: _ice
+    electrical_conductivity:
+      key: electrical.conductivity
+      label: electrical_conductivity
+      scheme: _ice
+      min: 0.9e+6
+      max: 5.0e+7
+    electrical_resistivity:
+      key: electrical.resistivity
+      label: electrical_resistivity
+      scheme: _ice
+      log: true
     optical_reflectivity:
       key: optical.reflectivity
       label: reflectivity-optical
