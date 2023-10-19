@@ -1706,14 +1706,15 @@
             }
         },
         "heat": {
-            "heat_capacity": {
-                "value": null,
-                "range": [
-                    427,
-                    709
-                ],
+            "heat_capacity": [ {
+                "label": "graphite",
+                "value": 427,
                 "unit": "J·kg[−1]·K[−1]"
-            },
+            }, {
+                "label": "diamond",
+                "value": 709,
+                "unit": "J·kg[−1]·K[−1]"
+            } ],
             "thermal_conductivity": {
                 "value": 140,
                 "unit": "W·m[-1]·K[-1]"
@@ -3678,7 +3679,7 @@
                 "unit": "K[-1]"
             },
             "work_function": {
-                "value": null,
+                "value": 4.16,
                 "range": [
                     4.06,
                     4.26
