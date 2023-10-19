@@ -283,7 +283,7 @@
                 }
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 14304,
                 "unit": "J·kg[−1]·K[−1]"
@@ -538,7 +538,7 @@
                 }
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 5193,
                 "unit": "J·kg[−1]·K[−1]"
@@ -833,7 +833,7 @@
                 }
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 3482,
                 "unit": "J·kg[−1]·K[−1]"
@@ -1134,7 +1134,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 1825,
                 "unit": "J·kg[−1]·K[−1]"
@@ -1421,7 +1421,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 1260,
                 "unit": "J·kg[−1]·K[−1]"
@@ -1705,7 +1705,7 @@
                 }
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": null,
                 "range": [
@@ -1971,7 +1971,7 @@
                 }
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 1040,
                 "unit": "J·kg[−1]·K[−1]",
@@ -2270,7 +2270,7 @@
                 }
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 920,
                 "unit": "J·kg[−1]·K[−1]",
@@ -2550,7 +2550,7 @@
                 }
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 0.0279,
                 "unit": "W·m[-1]·K[-1]"
@@ -2770,7 +2770,7 @@
                 }
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 1030.4,
                 "unit": "J·kg[−1]·K[−1]"
@@ -3068,7 +3068,7 @@
                 }
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 1230,
                 "unit": "J·kg[−1]·K[−1]"
@@ -3378,7 +3378,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 1023,
                 "unit": "J·kg[−1]·K[−1]"
@@ -3664,7 +3664,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 897,
                 "unit": "J·kg[−1]·K[−1]"
@@ -3933,7 +3933,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 703,
                 "unit": "J·kg[−1]·K[−1]",
@@ -4236,7 +4236,7 @@
                 ]
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 685.6,
                 "unit": "J·kg[−1]·K[−1]",
@@ -4539,7 +4539,7 @@
                 }
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 736,
                 "unit": "J·kg[−1]·K[−1]"
@@ -4828,7 +4828,7 @@
                 }
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 480,
                 "unit": "J·kg[−1]·K[−1]"
@@ -5058,7 +5058,7 @@
                 }
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 319,
                 "unit": "J·kg[−1]·K[−1]",
@@ -5356,7 +5356,7 @@
                 }
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 757.8,
                 "unit": "J·kg[−1]·K[−1]"
@@ -5648,7 +5648,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 647.3,
                 "unit": "J·kg[−1]·K[−1]"
@@ -5911,7 +5911,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 586,
                 "unit": "J·kg[−1]·K[−1]"
@@ -6191,7 +6191,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 523,
                 "unit": "J·kg[−1]·K[−1]"
@@ -6464,7 +6464,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 489,
                 "unit": "J·kg[−1]·K[−1]"
@@ -6731,7 +6731,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 449,
                 "unit": "J·kg[−1]·K[−1]"
@@ -7068,7 +7068,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 479.5,
                 "unit": "J·kg[−1]·K[−1]"
@@ -7350,7 +7350,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 449,
                 "unit": "J·kg[−1]·K[−1]"
@@ -7648,7 +7648,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 421,
                 "unit": "J·kg[−1]·K[−1]"
@@ -7949,7 +7949,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 444,
                 "unit": "J·kg[−1]·K[−1]"
@@ -8268,7 +8268,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 385,
                 "unit": "J·kg[−1]·K[−1]"
@@ -8568,7 +8568,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 388,
                 "unit": "J·kg[−1]·K[−1]"
@@ -8840,7 +8840,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 371,
                 "unit": "J·kg[−1]·K[−1]"
@@ -9090,7 +9090,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 308.3,
                 "unit": "J·kg[−1]·K[−1]"
@@ -9380,7 +9380,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 328.5,
                 "unit": "J·kg[−1]·K[−1]"
@@ -9708,7 +9708,7 @@
                 }
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 0.52,
                 "unit": "W·m[-1]·K[-1]"
@@ -9991,7 +9991,7 @@
                 }
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 0.12,
                 "unit": "W·m[-1]·K[-1]"
@@ -10255,7 +10255,7 @@
                 }
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 0.00949,
                 "unit": "W·m[-1]·K[-1]"
@@ -10548,7 +10548,7 @@
                 }
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 58,
                 "unit": "W·m[-1]·K[-1]"
@@ -10817,7 +10817,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 35,
                 "unit": "W·m[-1]·K[-1]"
@@ -11086,7 +11086,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 17,
                 "unit": "W·m[-1]·K[-1]"
@@ -11352,7 +11352,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 270,
                 "unit": "J·kg[−1]·K[−1]"
@@ -11621,7 +11621,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 54,
                 "unit": "W·m[-1]·K[-1]"
@@ -11885,7 +11885,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 139,
                 "unit": "W·m[-1]·K[-1]"
@@ -12082,7 +12082,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 51,
                 "unit": "W·m[-1]·K[-1]"
@@ -12326,7 +12326,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 120,
                 "unit": "W·m[-1]·K[-1]"
@@ -12603,7 +12603,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 243,
                 "unit": "J·kg[−1]·K[−1]"
@@ -12884,7 +12884,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 72,
                 "unit": "W·m[-1]·K[-1]"
@@ -13167,7 +13167,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 235,
                 "unit": "J·kg[−1]·K[−1]",
@@ -13545,7 +13545,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 97,
                 "unit": "W·m[-1]·K[-1]"
@@ -13884,7 +13884,7 @@
                 }
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 233,
                 "unit": "J·kg[−1]·K[−1]"
@@ -14170,7 +14170,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 67,
                 "unit": "W·m[-1]·K[-1]"
@@ -14435,7 +14435,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 24,
                 "unit": "W·m[-1]·K[-1]"
@@ -14714,7 +14714,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 3,
                 "unit": "W·m[-1]·K[-1]"
@@ -15010,7 +15010,7 @@
                 }
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 0.449,
                 "unit": "W·m[-1]·K[-1]"
@@ -15309,7 +15309,7 @@
                 }
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 0.00569,
                 "unit": "W·m[-1]·K[-1]"
@@ -15581,7 +15581,7 @@
                 }
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 36,
                 "unit": "W·m[-1]·K[-1]"
@@ -15863,7 +15863,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 18,
                 "unit": "W·m[-1]·K[-1]"
@@ -16139,7 +16139,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 13,
                 "unit": "W·m[-1]·K[-1]"
@@ -16418,7 +16418,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 11,
                 "unit": "W·m[-1]·K[-1]"
@@ -16693,7 +16693,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 13,
                 "unit": "W·m[-1]·K[-1]"
@@ -16968,7 +16968,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 17,
                 "unit": "W·m[-1]·K[-1]"
@@ -17163,7 +17163,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 15,
                 "unit": "W·m[-1]·K[-1]"
@@ -17433,7 +17433,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 13,
                 "unit": "W·m[-1]·K[-1]"
@@ -17686,7 +17686,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 14,
                 "unit": "W·m[-1]·K[-1]"
@@ -17950,7 +17950,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 11,
                 "unit": "W·m[-1]·K[-1]"
@@ -18198,7 +18198,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 11,
                 "unit": "W·m[-1]·K[-1]"
@@ -18467,7 +18467,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 11,
                 "unit": "W·m[-1]·K[-1]"
@@ -18717,7 +18717,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 16,
                 "unit": "W·m[-1]·K[-1]"
@@ -18974,7 +18974,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 15,
                 "unit": "W·m[-1]·K[-1]"
@@ -19239,7 +19239,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 16.8,
                 "unit": "W·m[-1]·K[-1]"
@@ -19517,7 +19517,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 39,
                 "unit": "W·m[-1]·K[-1]"
@@ -19768,7 +19768,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 16,
                 "unit": "W·m[-1]·K[-1]"
@@ -20038,7 +20038,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 140,
                 "unit": "J·kg[−1]·K[−1]"
@@ -20319,7 +20319,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 140,
                 "unit": "J·kg[−1]·K[−1]"
@@ -20604,7 +20604,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 138,
                 "unit": "J·kg[−1]·K[−1]"
@@ -20882,7 +20882,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 137,
                 "unit": "J·kg[−1]·K[−1]"
@@ -21140,7 +21140,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 130,
                 "unit": "J·kg[−1]·K[−1]"
@@ -21409,7 +21409,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 150,
                 "unit": "W·m[-1]·K[-1]"
@@ -21661,7 +21661,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 130,
                 "unit": "J·kg[−1]·K[−1]"
@@ -21931,7 +21931,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 128,
                 "unit": "J·kg[−1]·K[−1]"
@@ -22243,7 +22243,7 @@
                 }
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 140,
                 "unit": "J·kg[−1]·K[−1]"
@@ -22570,7 +22570,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 129,
                 "unit": "J·kg[−1]·K[−1]"
@@ -22878,7 +22878,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 131,
                 "unit": "J·kg[−1]·K[−1]"
@@ -23177,7 +23177,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 8,
                 "unit": "W·m[-1]·K[-1]"
@@ -23370,7 +23370,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 20,
                 "unit": "W·m[-1]·K[-1]"
@@ -23488,7 +23488,7 @@
         ],
         "superconductivity": "none",
         "symbol": "At",
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 2,
                 "unit": "W·m[-1]·K[-1]"
@@ -23650,7 +23650,7 @@
                 }
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 0.00364,
                 "unit": "W·m[-1]·K[-1]"
@@ -23799,7 +23799,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 15,
                 "*": true,
@@ -23991,7 +23991,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 19,
                 "unit": "W·m[-1]·K[-1]"
@@ -24132,7 +24132,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 12,
                 "unit": "W·m[-1]·K[-1]"
@@ -24375,7 +24375,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 54,
                 "unit": "W·m[-1]·K[-1]"
@@ -24554,7 +24554,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 47,
                 "unit": "W·m[-1]·K[-1]"
@@ -24820,7 +24820,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 116,
                 "unit": "J·kg[−1]·K[−1]"
@@ -24993,7 +24993,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 6.3,
                 "unit": "W·m[-1]·K[-1]",
@@ -25181,7 +25181,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 130,
                 "unit": "J·kg[−1]·K[−1]"
@@ -25364,7 +25364,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "heat_capacity": {
                 "value": 0.11,
                 "unit": "J·kg[−1]·K[−1]"
@@ -25508,7 +25508,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 10,
                 "unit": "W·m[-1]·K[-1]",
@@ -25639,7 +25639,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 10,
                 "*": true,
@@ -25760,7 +25760,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 10,
                 "*": true,
@@ -25878,7 +25878,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 10,
                 "*": true,
@@ -25974,7 +25974,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 10,
                 "*": true,
@@ -26065,7 +26065,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 10,
                 "*": true,
@@ -26156,7 +26156,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 10,
                 "*": true,
@@ -26247,7 +26247,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 10,
                 "*": true,
@@ -26362,7 +26362,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 23,
                 "*": true,
@@ -26469,7 +26469,7 @@
             2
         ],
         "symbol": "Db",
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 58,
                 "*": true,
@@ -26568,7 +26568,7 @@
             2
         ],
         "symbol": "Sg",
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 19,
                 "*": true,
@@ -27791,7 +27791,7 @@
                 "unit": "K"
             }
         },
-        "thermal": {
+        "heat": {
             "thermal_conductivity": {
                 "value": 0.0023,
                 "*": true,
