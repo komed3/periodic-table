@@ -9,6 +9,7 @@ module.exports.routes = [
     [ '/glossary/?', 'glossary' ],
     [ '/spectrum/?', 'spectrum' ],
     [ '/ionization/?', 'ionization' ],
+    [ '/quiz/?', 'quiz' ],
     [ '/tools/?', 'tools' ],
     [ '/abundances/?', 'abundances' ],
     [ '/abundance/*', 'abundance' ],

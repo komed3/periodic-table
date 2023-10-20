@@ -1,0 +1,19 @@
+//- quiz.pug
+extends layout.pug
+
+block styles
+  link( rel="stylesheet", href="/css/quiz.css" )/
+
+block content
+  div.pt-page.pt-quiz
+    div.pt-quiz-form
+    div.pt-quiz-table.noselect
+      each el, k in elements
+        div.pt-quiz-table-item(
+          number= el.number
+        )
+          span.element--number= el.number
+          span.element--symbol
+  div.pt-page.pt-box
+    h1!= __( 'quiz-title' )
+    p.pt-page-intro!= __( 'quiz-description' )

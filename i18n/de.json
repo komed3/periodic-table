@@ -419,6 +419,7 @@
 	"props-description": "Liste möglicher Eigenschaften, die einem oder mehreren Elementen zugeschrieben werden. Dies kann Zustandsgrößen, besondere Eigenschaften oder Ähnliches umfassen.",
 	"props-title": "Eigenschaften",
 	"quickinfo": "Allgemeine Informationen",
+	"quiz-description": "Teste dein Wissen rund um das Periodensystem und nenne in unter 15 Minuten so viele Elemente wie möglich. Dein Fortschritt und Highscore werden gespeichert.",
 	"quiz-title": "Quiz",
 	"radien": "Atomradien",
 	"radioactive": "Radioaktiv",

@@ -1,0 +1,24 @@
+/**
+ * periodic table
+ * quiz page
+ */
+
+.pt-quiz-table {
+    display: grid;
+    grid-template-columns: repeat( 18, 1fr );
+    gap: 4px;
+}
+
+.pt-quiz-table-item,
+.pt-quiz-table-gap,
+.pt-quiz-table-label {
+    grid-column: var( --g );
+    grid-row: var( --p );
+}
+
+.pt-quiz-table-item {
+    aspect-ratio: 1/1;
+    line-height: 1;
+    font-weight: bold;
+    background: var( --gray-0 );
+}
