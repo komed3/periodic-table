@@ -2,7 +2,9 @@ window.addEventListener( 'load', function () {
 
     const elements = ptLoadDB( 'elements' );
 
-    var ptQuizCount, ptQuizTime, ptQuizTimer, ptQuizScore, ptQuizHS;
+    var ptQuizRevealed = new Set();
+    var ptQuizTime, ptQuizTimer,
+        ptQuizScore, ptQuizHS;
 
     /**
      * reset quiz + init
@@ -40,6 +42,7 @@ window.addEventListener( 'load', function () {
 
         document.querySelector( '.pt-quiz-progress-all' ).innerHTML = Object.keys( elements ).length;
 
+        ptQuizRevealed.clear();
         ptQuizProgress();
 
         /* reset score */
@@ -93,6 +96,23 @@ window.addEventListener( 'load', function () {
      */
     var ptQuizStart = () => {
 
+        /* reset quiz */
+
+        ptQuizReset();
+
+        /* undisable input field */
+
+        document.querySelector( '.pt-quiz-input' ).classList.remove( 'hidden' );
+
+        ptQuizResetInput();
+
+        /* update actions */
+
+        document.querySelector( '[quiz="start"]' ).classList.add( 'hidden' );
+        document.querySelector( '[quiz="abort"]' ).classList.remove( 'hidden' );
+
+        /* quiz timer */
+
         ptQuizTime = 900;
 
         ptQuizTimer = setInterval( () => {
@@ -112,7 +132,27 @@ window.addEventListener( 'load', function () {
      */
     var ptQuizAbort = () => {
 
+        /* disable input field */
+
+        document.querySelector( '.pt-quiz-input' ).classList.add( 'hidden' );
+
+        /* update actions */
+
+        document.querySelector( '[quiz="start"]' ).classList.remove( 'hidden' );
+        document.querySelector( '[quiz="abort"]' ).classList.add( 'hidden' );
+
+        /* stopp quiz timer */
+
         clearInterval( ptQuizTimer );
+
+    };
+
+    var ptQuizResetInput = () => {
+
+        let input = document.querySelector( '[quiz="input"]' );
+
+        input.value = '';
+        input.focus();
 
     };
 
@@ -121,12 +161,15 @@ window.addEventListener( 'load', function () {
      */
     var ptQuizProgress = () => {
 
-        let progress = document.querySelectorAll( '.pt-quiz-table-item.revealed' ).length,
-            el = document.querySelector( '.pt-quiz-progress-cur' );
+        let progress = ptQuizRevealed.size;
 
-        ptQuizCounter( el, ptQuizCount || 0, progress );
+        document.querySelector( '.pt-quiz-progress-cur' ).innerHTML = progress;
 
-        ptQuizCount = progress;
+        if( progress == Object.keys( elements ).length ) {
+
+            //
+
+        }
 
     };
 
@@ -140,6 +183,57 @@ window.addEventListener( 'load', function () {
         let el = document.querySelector( '.pt-quiz-score-' + type + ' b' );
 
         ptQuizCounter( el, parseInt( el.innerHTML || 0 ), score );
+
+    };
+
+    /**
+     * search elements by name
+     * @param {String} search search query
+     */
+    var ptQuizSearch = ( search ) => {
+
+        search = ( search || '' ).toString().trim().toLowerCase();
+
+        for( const [ k, el ] of Object.entries( elements ) ) {
+
+            if( !ptQuizRevealed.has( k ) ) {
+
+                Object.values( el.names ).forEach( ( n ) => {
+
+                    if( n.toLowerCase() == search ) {
+
+                        ptQuizRevealed.add( el );
+
+                        ptQuizReveal( k );
+
+                        ptQuizProgress();
+
+                        ptQuizResetInput();
+
+                        return ;
+
+                    }
+
+                } );
+
+            }
+
+        }
+
+    };
+
+    /**
+     * reveal element
+     * @param {String} el element key
+     */
+    var ptQuizReveal = ( el ) => {
+
+        let number = elements[ el ].number;
+
+        let tableItem = document.querySelector( '.pt-quiz-table-item[number="' + number + '"]' );
+
+        tableItem.classList.add( 'revealed' );
+        tableItem.querySelector( '.element--symbol' ).innerHTML = elements[ el ].symbol;
 
     };
 
@@ -160,6 +254,14 @@ window.addEventListener( 'load', function () {
         e.preventDefault();
 
         ptQuizAbort();
+
+    } );
+
+    document.querySelector( '[quiz="input"]' ).addEventListener( 'input', ( e ) => {
+
+        e.preventDefault();
+
+        ptQuizSearch( e.target.value );
 
     } );
 
