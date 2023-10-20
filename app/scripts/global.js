@@ -1,3 +1,37 @@
+/**
+ * load database
+ * @param {String} DB database name
+ * @returns database object
+ */
+var ptLoadDB = ( DB ) => {
+
+    let req = new XMLHttpRequest();
+
+    req.open( 'GET', '/db/' + DB + '.min.json', false );
+    req.send( null );
+
+    if( req.status == 200 ) {
+
+        try {
+
+            return JSON.parse( req.responseText );
+
+        } catch( e ) {
+
+            return {};
+
+        }
+
+    }
+
+    return {};
+
+};
+
+/**
+ * DOM content loaded
+ */
+
 window.addEventListener( 'load', function () {
 
     /**
@@ -6,7 +40,7 @@ window.addEventListener( 'load', function () {
 
     var ptExternalLinks = document.querySelectorAll( 'a[target="_blank"], .external, .weblink' );
 
-    [].forEach.call( ptExternalLinks, function ( el ) {
+    [].forEach.call( ptExternalLinks, ( el ) => {
 
         el.setAttribute( 'target', '_blank' );
         el.setAttribute( 'rel', 'noopener noreferrer' );
@@ -20,7 +54,7 @@ window.addEventListener( 'load', function () {
     var ptHeaderNavOpener = document.querySelector( '.pt-header-menu' ),
         ptHeaderNav = document.querySelector( '.pt-header-nav' );
 
-    ptHeaderNavOpener.addEventListener( 'click', function ( e ) {
+    ptHeaderNavOpener.addEventListener( 'click', ( e ) => {
 
         e.preventDefault();
 
@@ -35,7 +69,7 @@ window.addEventListener( 'load', function () {
 
     var ptLanguageSelector = document.querySelector( '.pt-language-selector-select' );
 
-    ptLanguageSelector.addEventListener( 'change', function ( e ) {
+    ptLanguageSelector.addEventListener( 'change', ( e ) => {
 
         location.href = '/set?locale=' + e.target.value;
 

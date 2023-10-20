@@ -42,6 +42,7 @@ const app = express();
  * define static folders/files
  */
 
+app.use( '/db', express.static( __dirname + '/_db' ) );
 app.use( '/css', express.static( __dirname + '/public/styles' ) );
 app.use( '/js', express.static( __dirname + '/public/scripts' ) );
 app.use( '/res', express.static( __dirname + '/public/resources' ) );
