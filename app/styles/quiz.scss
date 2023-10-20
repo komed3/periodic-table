@@ -27,11 +27,12 @@
 }
 
 .pt-quiz-score-hs {
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .pt-quiz-score-now b {
-    font-size: 26px;
+    line-height: 1;
+    font-size: 32px;
 }
 
 .pt-quiz-input input,
@@ -44,6 +45,7 @@
 }
 
 .pt-quiz-input {
+    grid-column: span 2;
     position: relative;
 }
 
@@ -69,15 +71,12 @@
     border: 1px solid var( --gray-3 );
 }
 
-.pt-quiz-actions {
-    place-self: center end;
-}
-
 .pt-quiz-actions button {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
     gap: 8px;
+    padding-left: 16px;
     color: var( --accent-contrast );
     background: var( --accent-1 );
     cursor: pointer;
