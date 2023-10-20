@@ -9,7 +9,26 @@ block styles
 
 block content
   div.pt-page.pt-quiz
-    div.pt-quiz-form
+    div.pt-quiz-form.noselect
+      div.pt-quiz-timer
+        span 15:00
+      div.pt-quiz-score
+        div.pt-quiz-score-hs
+          b 0
+          span!= __( 'quiz-hs' )
+        div.pt-quiz-score-now
+          b 0
+          span!= __( 'quiz-score' )
+      div.pt-quiz-input.hidden
+        i.icon stylus
+        input( type="text", autocomplete="false", spellcheck="false" )/
+      div.pt-quiz-actions
+        button( quiz="start" )
+          i.icon play_circle
+          span!= __( 'quiz-start' )
+        button.hidden( quiz="abort" )
+          i.icon flag
+          span!= __( 'quiz-abort' )
     div.pt-quiz-table.noselect
       - var offset = 3
       span.pt-quiz-table-gap( style= '--g:1 / span 18' )
@@ -31,6 +50,7 @@ block content
   div.pt-page.pt-box
     h1!= __( 'quiz-title' )
     p.pt-page-intro!= __( 'quiz-description' )
+    h2!= __( 'quiz-revealed-list' )
     div.pt-quiz-list
       each el, k in elements
         div.pt-quiz-list-item(

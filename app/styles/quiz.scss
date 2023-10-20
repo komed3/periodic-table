@@ -3,6 +3,94 @@
  * quiz page
  */
 
+.pt-quiz-form {
+    display: grid;
+    grid-template-columns: repeat( 2, 1fr );
+    align-items: center;
+    gap: 12px 48px;
+    margin-bottom: 48px;
+}
+
+.pt-quiz-timer {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.pt-quiz-score {
+    text-align: right;
+}
+
+.pt-quiz-score b {
+    padding-right: 6px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.pt-quiz-score-hs {
+    font-size: 13px;
+}
+
+.pt-quiz-score-now b {
+    font-size: 26px;
+}
+
+.pt-quiz-input input,
+.pt-quiz-actions button {
+    height: 42px;
+    padding: 0 18px;
+    font-size: 16px;
+    border-radius: 21px;
+    border: 0;
+}
+
+.pt-quiz-input {
+    position: relative;
+}
+
+.pt-quiz-input.hidden {
+    pointer-events: none;
+    filter: blur( 2px );
+    opacity: 0.6;
+}
+
+.pt-quiz-input .icon {
+    pointer-events: none;
+    position: absolute;
+    top: 10px;
+    left: 16px;
+    font-size: 20px;
+    color: var( --gray-4 );
+}
+
+.pt-quiz-input input {
+    width: 360px;
+    padding-left: 44px;
+    background: var( --gray-0 );
+    border: 1px solid var( --gray-3 );
+}
+
+.pt-quiz-actions {
+    place-self: center end;
+}
+
+.pt-quiz-actions button {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 8px;
+    color: var( --accent-contrast );
+    background: var( --accent-1 );
+    cursor: pointer;
+}
+
+.pt-quiz-actions button .icon {
+    font-size: 22px;
+}
+
+.pt-quiz-actions button.hidden {
+    display: none;
+}
+
 .pt-quiz-table {
     display: grid;
     grid-template-columns: repeat( 18, 1fr );
