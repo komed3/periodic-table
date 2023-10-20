@@ -24,11 +24,6 @@
     background: var( --gray-0 );
 }
 
-.pt-quiz-table-item.revealed {
-    color: var( --accent-contrast );
-    background: var( --accent-1 );
-}
-
 .pt-quiz-table-item .element--number {
     position: absolute;
     top: 6px;
@@ -45,4 +40,35 @@
 
 .pt-quiz-table-gap {
     height: 24px;
+}
+
+.pt-quiz-list {
+    display: grid;
+    grid-template-columns: repeat( 4, 1fr );
+    gap: 4px;
+}
+
+.pt-quiz-list-item {
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    align-items: center;
+    gap: 4px;
+    height: 32px;
+    background: var( --gray-1 );
+}
+
+.pt-quiz-list-item .element--number {
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.pt-quiz-list-item .element--name {
+    font-size: 14px;
+}
+
+.pt-quiz-table-item.revealed,
+.pt-quiz-list-item.revealed {
+    color: var( --accent-contrast );
+    background: var( --accent-1 );
 }
