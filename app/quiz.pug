@@ -10,25 +10,32 @@ block styles
 block content
   div.pt-page.pt-quiz
     div.pt-quiz-form.noselect
-      div.pt-quiz-timer
-        span 15:00
-      div.pt-quiz-score
-        div.pt-quiz-score-hs
-          b 0
-          span!= __( 'quiz-hs' )
-        div.pt-quiz-score-now
-          b 0
-          span!= __( 'quiz-score' )
-      div.pt-quiz-input.hidden
-        i.icon stylus
-        input( type="text", autocomplete="false", spellcheck="false" )/
-      div.pt-quiz-actions
-        button( quiz="start" )
-          i.icon play_circle
-          span!= __( 'quiz-start' )
-        button.hidden( quiz="abort" )
-          i.icon flag
-          span!= __( 'quiz-abort' )
+      div.pt-quiz-form-left
+        div.pt-quiz-info
+          div.pt-quiz-timer
+            span
+          div.pt-quiz-progress
+            b.pt-quiz-progress-cur
+            span.pt-quiz-progress-divider /
+            span.pt-quiz-progress-all
+        div.pt-quiz-input.hidden
+          i.icon stylus
+          input( type="text", autocomplete="false", spellcheck="false" )/
+        div.pt-quiz-actions
+          button( quiz="start" )
+            i.icon play_circle
+            span!= __( 'quiz-start' )
+          button.hidden( quiz="abort" )
+            i.icon flag
+            span!= __( 'quiz-abort' )
+      div.pt-quiz-form-right
+        div.pt-quiz-score
+          div.pt-quiz-score-hs
+            b
+            span!= __( 'quiz-hs' )
+          div.pt-quiz-score-now
+            b
+            span!= __( 'quiz-score' )
     div.pt-quiz-table.noselect
       - var offset = 3
       span.pt-quiz-table-gap( style= '--g:1 / span 18' )

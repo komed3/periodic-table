@@ -4,35 +4,39 @@
  */
 
 .pt-quiz-form {
-    display: grid;
-    grid-template-columns: repeat( 2, 1fr );
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
     align-items: center;
-    gap: 12px 48px;
+    gap: 48px;
     margin-bottom: 48px;
+}
+
+.pt-quiz-form > div {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 12px;
+}
+
+.pt-quiz-info {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: baseline;
+    gap: 48px;
 }
 
 .pt-quiz-timer {
     font-family: 'Roboto Mono', monospace;
-    font-size: 42px;
+    font-size: 38px;
     font-weight: bold;
 }
 
-.pt-quiz-score {
-    text-align: right;
-}
-
-.pt-quiz-score b {
-    padding-right: 6px;
+.pt-quiz-progress {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: baseline;
+    gap: 6px;
     font-family: 'Roboto Mono', monospace;
-}
-
-.pt-quiz-score-hs {
-    font-size: 14px;
-}
-
-.pt-quiz-score-now b {
-    line-height: 1;
-    font-size: 32px;
 }
 
 .pt-quiz-input input,
@@ -65,7 +69,7 @@
 }
 
 .pt-quiz-input input {
-    width: 360px;
+    width: 420px;
     padding-left: 44px;
     background: var( --gray-0 );
     border: 1px solid var( --gray-3 );
@@ -89,6 +93,22 @@
 .pt-quiz-actions button.hidden {
     display: none;
 }
+
+.pt-quiz-score {
+    text-align: right;
+}
+
+.pt-quiz-score b {
+    padding-right: 6px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.pt-quiz-progress b,
+.pt-quiz-score-now b {
+    font-size: 26px;
+}
+
+/* periodic table */
 
 .pt-quiz-table {
     display: grid;
@@ -128,6 +148,8 @@
 .pt-quiz-table-gap {
     height: 24px;
 }
+
+/* elements list */
 
 .pt-quiz-list {
     display: grid;
