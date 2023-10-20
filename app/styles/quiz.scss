@@ -17,8 +17,32 @@
 }
 
 .pt-quiz-table-item {
+    position: relative;
     aspect-ratio: 1/1;
     line-height: 1;
     font-weight: bold;
     background: var( --gray-0 );
+}
+
+.pt-quiz-table-item.revealed {
+    color: var( --accent-contrast );
+    background: var( --accent-1 );
+}
+
+.pt-quiz-table-item .element--number {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    font-size: 13px;
+}
+
+.pt-quiz-table-item .element--symbol {
+    position: absolute;
+    right: 8px;
+    bottom: 6px;
+    font-size: 26px;
+}
+
+.pt-quiz-table-gap {
+    height: 24px;
 }

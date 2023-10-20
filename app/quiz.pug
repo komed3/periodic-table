@@ -1,6 +1,9 @@
 //- quiz.pug
 extends layout.pug
 
+block scripts
+  script( src="/js/quiz.min.js" )
+
 block styles
   link( rel="stylesheet", href="/css/quiz.css" )/
 
@@ -8,9 +11,20 @@ block content
   div.pt-page.pt-quiz
     div.pt-quiz-form
     div.pt-quiz-table.noselect
+      - var offset = 3
+      span.pt-quiz-table-gap( style= '--g:1 / span 18' )
       each el, k in elements
         div.pt-quiz-table-item(
-          number= el.number
+          number= el.number,
+          style= '--g:' + (
+            el.group > 18
+              ? el.column + 1
+              : el.group
+          ) + ';--p:' + (
+            el.group > 18
+              ? el.period + offset
+              : el.period
+          )
         )
           span.element--number= el.number
           span.element--symbol
