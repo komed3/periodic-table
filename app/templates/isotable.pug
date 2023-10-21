@@ -9,8 +9,9 @@ table.pt-prop-table.pt-isotable
       tr.pt-prop-table-row.pt-isotable-item
         td.pt-prop-table-value
           a( href= '/nuclide/' + k )
-            sup!= isotope.m
-            span!= isotope.symbol
+            b
+              sup!= isotope.m
+              span!= isotope.symbol
         td.pt-prop-table-value
           if isotope.mass
             span!= core.fNumber( isotope.mass, 5 )
