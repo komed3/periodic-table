@@ -22,6 +22,7 @@ window.addEventListener( 'load', function () {
         let input = document.querySelector( '.pt-quiz-input' );
 
         input.classList.add( 'hidden' );
+        input.querySelector( 'input' ).disabled = true;
         input.querySelector( 'input' ).value = '';
 
         /* reset actions */
@@ -51,7 +52,7 @@ window.addEventListener( 'load', function () {
 
         clearInterval( ptQuizTimer );
 
-        document.querySelector( '.pt-quiz-timer' ).innerHTML = '15:00';
+        document.querySelector( '.pt-quiz-timer' ).innerHTML = ptQuizTimeFormat( ptQuizMaxTime );
 
         /* reset progress */
 
@@ -175,6 +176,7 @@ window.addEventListener( 'load', function () {
         let input = document.querySelector( '[quiz="input"]' );
 
         input.value = '';
+        input.disabled = false;
         input.focus();
 
     };
@@ -308,7 +310,11 @@ window.addEventListener( 'load', function () {
 
         /* disable input field */
 
-        document.querySelector( '.pt-quiz-input' ).classList.add( 'hidden' );
+        let input = document.querySelector( '.pt-quiz-input' );
+
+        input.classList.add( 'hidden' );
+        input.querySelector( 'input' ).disabled = true;
+        input.querySelector( 'input' ).value = '';
 
         /* update actions */
 

@@ -18,14 +18,19 @@ block content
             b.pt-quiz-progress-cur
             span.pt-quiz-progress-divider /
             span.pt-quiz-progress-all
-        div.pt-quiz-input.hidden
+        div.pt-quiz-input
           i.icon stylus
-          input( type="text", autocomplete="false", spellcheck="false", quiz="input" )/
+          input(
+            type="text",
+            autocomplete="false",
+            spellcheck="false",
+            quiz="input"
+          )/
         div.pt-quiz-actions
           button( quiz="start" )
             i.icon play_circle
             span!= __( 'quiz-start' )
-          button.hidden( quiz="abort" )
+          button( quiz="abort" )
             i.icon flag
             span!= __( 'quiz-abort' )
       div.pt-quiz-form-right
