@@ -60,8 +60,8 @@ window.addEventListener( 'load', function () {
         ptQuizHS = parseInt( localStorage.getItem( 'pt_quiz_hs' ) || 0 );
         ptQuizScore = 0;
 
-        ptQuizSetScore( ptQuizScore, 'now' );
-        ptQuizSetScore( ptQuizHS, 'hs' );
+        document.querySelector( '.pt-quiz-score-hs b' ).innerHTML = ptQuizHS;
+        document.querySelector( '.pt-quiz-score-now b' ).innerHTML = ptQuizScore;
 
     };
 
@@ -127,7 +127,13 @@ window.addEventListener( 'load', function () {
 
         ptQuizTimer = setInterval( () => {
 
-            ptQuizTime--;
+            if( --ptQuizTime <= 0 ) {
+
+                /* time is out */
+
+                ptQuizFinish();
+
+            }
 
             document.querySelector( '.pt-quiz-timer' ).innerHTML =
                 Math.floor( ptQuizTime / 60 ).toString().padStart( 2, '0' ) + ':' +
@@ -142,18 +148,7 @@ window.addEventListener( 'load', function () {
      */
     var ptQuizAbort = () => {
 
-        /* disable input field */
-
-        document.querySelector( '.pt-quiz-input' ).classList.add( 'hidden' );
-
-        /* update actions */
-
-        document.querySelector( '[quiz="start"]' ).classList.remove( 'hidden' );
-        document.querySelector( '[quiz="abort"]' ).classList.add( 'hidden' );
-
-        /* stopp quiz timer */
-
-        clearInterval( ptQuizTimer );
+        ptQuizFinish();
 
     };
 
@@ -180,22 +175,37 @@ window.addEventListener( 'load', function () {
 
         if( progress == Object.keys( elements ).length ) {
 
-            //
+            /* add time bonus + finish */
+
+            ptQuizAddScore( ptQuizTime * 15 );
+
+            ptQuizFinish();
 
         }
 
     };
 
     /**
-     * set new score value
-     * @param {Int} score score value
-     * @param {String} type score type to set
+     * add score to value
+     * @param {Int} score score value to add
      */
-    var ptQuizSetScore = ( score, type = 'now' ) => {
+    var ptQuizAddScore = ( score ) => {
 
-        let el = document.querySelector( '.pt-quiz-score-' + type + ' b' );
+        ptQuizScore += score;
 
-        ptQuizCounter( el, parseInt( el.innerHTML || 0 ), score );
+        let now = document.querySelector( '.pt-quiz-score-now b' );
+
+        ptQuizCounter( now, parseInt( now.innerHTML || 0 ), ptQuizScore );
+
+        if( ptQuizScore > ptQuizHS ) {
+
+            ptQuizHS = ptQuizScore;
+
+            let hs = document.querySelector( '.pt-quiz-score-hs b' );
+
+            ptQuizCounter( hs, parseInt( hs.innerHTML || 0 ), ptQuizHS );
+
+        }
 
     };
 
@@ -253,17 +263,18 @@ window.addEventListener( 'load', function () {
         listItem.classList.add( 'revealed' );
         listItem.querySelector( '.element--name' ).innerHTML = el.names[ ptQuizLocale ];
 
-        /* calc score */
+        /* add score */
 
-        ptQuizScore += el.number + ( el.period * 2 ) + (
+        ptQuizAddScore(
+            el.number + (
+            el.period * 2
+        ) + (
             el.group > 18
                 ? 200
                 : el.group > 2 && el.group < 13
                     ? 100
                     : 50
-        );
-
-        ptQuizSetScore( ptQuizScore, 'now' );
+        ) );
 
         /* update progress */
 
@@ -275,7 +286,29 @@ window.addEventListener( 'load', function () {
 
     };
 
+    /**
+     * finish game + dialog
+     */
     var ptQuizFinish = () => {
+
+        /* disable input field */
+
+        document.querySelector( '.pt-quiz-input' ).classList.add( 'hidden' );
+
+        /* update actions */
+
+        document.querySelector( '[quiz="start"]' ).classList.remove( 'hidden' );
+        document.querySelector( '[quiz="abort"]' ).classList.add( 'hidden' );
+
+        /* stopp quiz timer */
+
+        clearInterval( ptQuizTimer );
+
+        /* save highscore */
+
+        localStorage.setItem( 'pt_quiz_hs', ptQuizHS );
+
+        /* show finish dialog */
 
         //
 
