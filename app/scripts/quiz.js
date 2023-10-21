@@ -2,8 +2,13 @@ window.addEventListener( 'load', function () {
 
     const elements = ptLoadDB( 'elements' );
 
-    var ptQuizLocale = document.querySelector( '.pt-quiz' ).getAttribute( 'locale' );
+    const ptQuizLocale = document.querySelector( '.pt-quiz' ).getAttribute( 'locale' );
+
+    const ptQuizMaxTime = 900;
+    const ptQuizMax = Object.keys( elements ).length;
+
     var ptQuizRevealed = new Set();
+
     var ptQuizTime, ptQuizTimer,
         ptQuizScore, ptQuizHS;
 
@@ -50,7 +55,7 @@ window.addEventListener( 'load', function () {
 
         /* reset progress */
 
-        document.querySelector( '.pt-quiz-progress-all' ).innerHTML = Object.keys( elements ).length;
+        document.querySelector( '.pt-quiz-progress-all' ).innerHTML = ptQuizMax;
 
         ptQuizRevealed.clear();
         ptQuizProgress();
@@ -102,6 +107,18 @@ window.addEventListener( 'load', function () {
     };
 
     /**
+     * format seconds to MM:SS
+     * @param {Int} time time in seconds
+     * @returns {String} formatted time
+     */
+    var ptQuizTimeFormat = ( time ) => {
+
+        return Math.floor( time / 60 ).toString().padStart( 2, '0' ) + ':' +
+            ( time % 60 ).toString().padStart( 2, '0' );
+
+    };
+
+    /**
      * start quiz
      */
     var ptQuizStart = () => {
@@ -121,9 +138,9 @@ window.addEventListener( 'load', function () {
         document.querySelector( '[quiz="start"]' ).classList.add( 'hidden' );
         document.querySelector( '[quiz="abort"]' ).classList.remove( 'hidden' );
 
-        /* quiz timer */
+        /* start quiz timer */
 
-        ptQuizTime = 900;
+        ptQuizTime = ptQuizMaxTime;
 
         ptQuizTimer = setInterval( () => {
 
@@ -135,9 +152,7 @@ window.addEventListener( 'load', function () {
 
             }
 
-            document.querySelector( '.pt-quiz-timer' ).innerHTML =
-                Math.floor( ptQuizTime / 60 ).toString().padStart( 2, '0' ) + ':' +
-                ( ptQuizTime % 60 ).toString().padStart( 2, '0' );
+            document.querySelector( '.pt-quiz-timer' ).innerHTML = ptQuizTimeFormat( ptQuizTime );
 
         }, 1000 );
 
@@ -173,7 +188,7 @@ window.addEventListener( 'load', function () {
 
         document.querySelector( '.pt-quiz-progress-cur' ).innerHTML = progress;
 
-        if( progress == Object.keys( elements ).length ) {
+        if( progress == ptQuizMax ) {
 
             /* add time bonus + finish */
 
@@ -310,7 +325,25 @@ window.addEventListener( 'load', function () {
 
         /* show finish dialog */
 
-        //
+        if( ptQuizRevealed.size > 0 ) {
+
+            document.querySelector( '.pt-quiz-overlay' ).classList.add( 'active' );
+
+            let dialog = document.querySelector( '.pt-quiz-dialog' ),
+                result = [
+                    ptQuizRevealed.size,
+                    ptQuizMax,
+                    ptQuizTimeFormat( ptQuizMaxTime - ptQuizTime ),
+                    ptQuizScore
+                ];
+
+            dialog.querySelectorAll( 'p b' ).forEach( ( el, k ) => {
+
+                el.innerHTML = result[ k ];
+
+            } );
+
+        }
 
     };
 
