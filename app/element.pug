@@ -2,16 +2,17 @@
 extends layout.pug
 
 block title
-  title= __( 'element-title', element.names[ locale ] ) + ' — ' + __( 'title' )
+  - var name = element.names[ locale ]
+  title= __( 'element-title', name ) + ' — ' + __( 'title' )
   if text.description
     meta( name="description", content=text.description )/
 
 block social
-  meta( property="og:title", content=element.names[ locale ] )/
+  meta( property="og:title", content= name )/
   if text.description
-    meta( property="og:description", content=text.description )/
+    meta( property="og:description", content= text.description )/
   if image
-    meta( property="og:image", content=image.url )/
+    meta( property="og:image", content= image.url )/
 
 block styles
   link( rel="stylesheet", href="/css/element.css" )/
@@ -33,12 +34,12 @@ block content
           span.element--symbol
             span.symbol--number= element.number
             span.symbol--label= element.symbol
-          span.element--name= element.names[ locale ]
+          span.element--name= name
           //- actions
           div.pt-actions.element--actions
             if nav.prev
               a(
-                href='/e/' + elements[ nav.prev ].symbol,
+                href= '/e/' + elements[ nav.prev ].symbol,
                 title!= __( 'navigation-prev' )
               )
                 i.icon arrow_back
@@ -49,12 +50,12 @@ block content
               i.icon grid_view
             if nav.next
               a(
-                href='/e/' + elements[ nav.next ].symbol,
+                href= '/e/' + elements[ nav.next ].symbol,
                 title!= __( 'navigation-next' )
               )
                 i.icon arrow_forward
             a(
-              href='data:text/json;charset=utf-8,' + encodeURIComponent(
+              href= 'data:text/json;charset=utf-8,' + encodeURIComponent(
                 JSON.stringify( element )
               ),
               download="data.json", title!= __( 'download' )
@@ -94,7 +95,7 @@ block content
               each prop, label in element.radius
                 tr.pt-prop-table-row
                   th.pt-prop-table-label
-                    a( href='/scale/radius_' + label )!= __( label + '-radius' )
+                    a( href= '/scale/radius_' + label )!= __( label + '-radius' )
                   td.pt-prop-table-value!= core.fNumber( prop )
         //- electron shell data
         h3!= __( 'electron-shell' )
@@ -124,7 +125,7 @@ block content
               th.pt-prop-table-label!= __( 'phase-label' )
               td.pt-prop-table-value
                 if element.phase
-                  a( href='/list/phase/' + element.phase )!= __( 'phase-' + element.phase )
+                  a( href= '/list/phase/' + element.phase )!= __( 'phase-' + element.phase )
                 else
                   span!= __( 'undefined' )
             if element.density
@@ -136,7 +137,7 @@ block content
               if element[ prop ]
                 tr.pt-prop-table-row
                   th.pt-prop-table-label
-                    a( href='/scale/' + prop )!= __( prop )
+                    a( href= '/scale/' + prop )!= __( prop )
                   td.pt-prop-table-value!= core.fNumber( element[ prop ] )
         //- temperatures
         if element.temperature
@@ -146,7 +147,7 @@ block content
               each prop, label in element.temperature
                 tr.pt-prop-table-row
                   th.pt-prop-table-label
-                    a( href='/scale/temp_' + label )!= __( label + '-temp' )
+                    a( href= '/scale/temp_' + label )!= __( label + '-temp' )
                   td.pt-prop-table-value!= core.fNumber( prop )
         //- enthalpies
         if element.enthalpy
@@ -156,7 +157,7 @@ block content
               each prop, label in element.enthalpy
                 tr.pt-prop-table-row
                   th.pt-prop-table-label
-                    a( href='/scale/enthalpy_' + label )!= __( label + '-enthalpy' )
+                    a( href= '/scale/enthalpy_' + label )!= __( label + '-enthalpy' )
                   td.pt-prop-table-value!= core.fNumber( prop )
         //- thermal
         if element.heat
@@ -166,7 +167,7 @@ block content
               each prop, label in element.heat
                 tr.pt-prop-table-row
                   th.pt-prop-table-label
-                    a( href='/scale/' + label )!= __( label )
+                    a( href= '/scale/' + label )!= __( label )
                   td.pt-prop-table-value!= core.fNumber( prop )
         //- hardness props
         if element.hardness
@@ -176,7 +177,7 @@ block content
               each prop, label in element.hardness
                 tr.pt-prop-table-row
                   th.pt-prop-table-label
-                    a( href='/scale/hardness_' + label )!= __( label + '-hardness' )
+                    a( href= '/scale/hardness_' + label )!= __( label + '-hardness' )
                   td.pt-prop-table-value!= core.fNumber( prop )
         //- elastic props
         if element.elastic
@@ -186,7 +187,7 @@ block content
               each prop, label in element.elastic
                 tr.pt-prop-table-row
                   th.pt-prop-table-label
-                    a( href='/scale/elastic_' + label )!= __( label + '-elastic' )
+                    a( href= '/scale/elastic_' + label )!= __( label + '-elastic' )
                   td.pt-prop-table-value!= core.fNumber( prop )
         //- electrical
         if element.electrical
@@ -196,7 +197,7 @@ block content
               each prop, label in element.electrical
                 tr.pt-prop-table-row
                   th.pt-prop-table-label
-                    a( href='/scale/electrical_' + label )!= __( 'electrical_' + label )
+                    a( href= '/scale/electrical_' + label )!= __( 'electrical_' + label )
                   td.pt-prop-table-value!= core.fNumber( prop )
         //- magnetism
         h3!= __( 'magnetism' )
@@ -206,7 +207,7 @@ block content
               th.pt-prop-table-label!= __( 'magnetic_ordering-label' )
               td.pt-prop-table-value
                 if element.magnetic_ordering
-                  a( href='/list/magnetic_ordering/' + element.magnetic_ordering )!= __( 'magnetic_ordering-' + element.magnetic_ordering )
+                  a( href= '/list/magnetic_ordering/' + element.magnetic_ordering )!= __( 'magnetic_ordering-' + element.magnetic_ordering )
                 else
                   span!= __( 'undefined' )
             if element.magnetic_susceptibility
@@ -221,7 +222,7 @@ block content
               each prop, label in element.optical
                 tr.pt-prop-table-row
                   th.pt-prop-table-label
-                    a( href='/scale/optical_' + label )!= __( label + '-optical' )
+                    a( href= '/scale/optical_' + label )!= __( label + '-optical' )
                   td.pt-prop-table-value!= core.fNumber( prop )
 
       //- chemical properties
@@ -233,7 +234,7 @@ block content
               tr.pt-prop-table-row
                 th.pt-prop-table-label!= __( 'basicity-label' )
                 td.pt-prop-table-value
-                  a( href='/list/basicity/' + element.basicity )!= __( 'basicity-' + element.basicity )
+                  a( href= '/list/basicity/' + element.basicity )!= __( 'basicity-' + element.basicity )
             if element.oxidation_state
               tr.pt-prop-table-row
                 th.pt-prop-table-label!= __( 'oxidation-state' )
@@ -251,7 +252,7 @@ block content
               each prop, label in element.negativity
                 tr.pt-prop-table-row
                   th.pt-prop-table-label
-                    a( href='/scale/negativity_' + label )!= __( label + '-negativity' )
+                    a( href= '/scale/negativity_' + label )!= __( label + '-negativity' )
                   td.pt-prop-table-value!= core.fNumber( prop )
 
       //- other properties
@@ -264,12 +265,12 @@ block content
                 tr.pt-prop-table-row
                   th.pt-prop-table-label!= __( prop + '-label' )
                   td.pt-prop-table-value
-                    a( href='/list/' + prop + '/' + element[ prop ] )!= __( prop + '-' + element[ prop ] )
+                    a( href= '/list/' + prop + '/' + element[ prop ] )!= __( prop + '-' + element[ prop ] )
             if element.superconductivity
               tr.pt-prop-table-row
                 th.pt-prop-table-label!= __( 'superconductivity-label' )
                 td.pt-prop-table-value
-                  a( href='/list/superconductivity/' + element.superconductivity )!= __( 'superconductivity-' + element.superconductivity )
+                  a( href= '/list/superconductivity/' + element.superconductivity )!= __( 'superconductivity-' + element.superconductivity )
             if element.sc_temp
               tr.pt-prop-table-row
                 th.pt-prop-table-label
@@ -285,10 +286,10 @@ block content
               td.pt-prop-table-value.pt-prop-table-list
                 each prop in element.properties
                   span.pt-prop-table-list-item
-                    a( href='/prop/' + prop )!= __( 'prop-' + prop )
+                    a( href= '/prop/' + prop )!= __( 'prop-' + prop )
 
-      //- isotopes
-      if isotopes.length > 0
+      //- element isotopes (nuclides)
+      if Object.keys( isotopes ).length > 0
         div.pt-box.pt-element-properties
           h2!= __( 'prop-isotopes' )
           include templates/isotable.pug
@@ -316,7 +317,7 @@ block content
       if image
         div.pt-box.pt-element-image
           a( href=image.fullres, target="_blank" )
-            img( src=image.thumb, loading="lazy", alt= element.names[ locale ] )/
+            img( src=image.thumb, alt= element.names[ locale ] )/
           figcaption!= element.image.caption
 
       //- element info
@@ -348,7 +349,7 @@ block content
                 tr.pt-prop-table-row
                   th.pt-prop-table-label!= __( prop + '-label' )
                   td.pt-prop-table-value
-                    a( href='/list/' + prop + '/' + element[ prop ] )!= __( prop + '-' + element[ prop ] )
+                    a( href= '/list/' + prop + '/' + element[ prop ] )!= __( prop + '-' + element[ prop ] )
 
       //- spectral lines
       if spectrum && spectrum.length
@@ -360,7 +361,7 @@ block content
       //- radioactive warning
       if element.radioactive
         a( href="/prop/radioactive" ).pt-box.pt-box-flex.pt-element-radioactive
-            img.pictogram-small( src="/res/radioactive.png", loading="lazy", alt= __( 'radioactive' ) )/
+            img.pictogram-small( src="/res/radioactive.png", alt= __( 'radioactive' ) )/
             b!= __( 'element-radioactive' )
 
       //- hazard classification
@@ -371,7 +372,7 @@ block content
             div.pt-box-flex.pt-box-columns.pt-element-hazard-box
               each ghs in element.hazardous.ghs
                 div.pt-element-hazard-item
-                  img.pictogram( src='/res/GHS' + ghs + '.png', loading="lazy", alt= __( 'pictogram' ) )/
+                  img.pictogram( src= '/res/GHS' + ghs + '.png', alt= __( 'pictogram' ) )/
                   span!= __( 'ghs-' + ghs )
           else
             i!= __( 'ghs-undefined' )
@@ -395,7 +396,7 @@ block content
             div.pt-box-flex.pt-nfpa
               div.pt-nfpa-diamond
                 each key in [ 'h', 'f', 'i', 's' ]
-                  div( class=key, style='--code:' + key )
+                  div( class=key, style= '--code:' + key )
                     each code in ( element.hazardous.nfpa[ key ] || '—' ).split( '|' )
                       b( code=code )= code
               div.pt-nfpa-info
@@ -408,12 +409,12 @@ block content
             h3!= __( 'pictogram-title' )
             div.pt-element-hazard-pictograms
               each hazard in element.hazardous.hazard
-                img.pictogram-small( src='/res/hazard-' + hazard + '.png', loading="lazy", alt= __( 'pictogram' ) )/
+                img.pictogram-small( src= '/res/hazard-' + hazard + '.png', alt= __( 'pictogram' ) )/
           if element.hazardous.adr
             h3!= __( 'adr-title' )
             div.pt-element-hazard-pictograms
               each adr in element.hazardous.adr
-                img.pictogram( src='/res/ADR-' + adr + '.png', loading="lazy", alt= __( 'pictogram' ) )/
+                img.pictogram( src= '/res/ADR-' + adr + '.png', alt= __( 'pictogram' ) )/
 
       //- toxicity
       if element.toxicity
@@ -447,7 +448,7 @@ block content
       div.pt-box.pt-element-weblinks
         h2!= __( 'weblinks' )
         if element.wiki && element.wiki[ locale ]
-          a( href='https://wikipedia.org/wiki/' + locale + ':' + element.wiki[ locale ] ).weblink
+          a( href= 'https://wikipedia.org/wiki/' + locale + ':' + element.wiki[ locale ] ).weblink
             i.icon link
             span!= __( 'weblink-wiki', element.names[ locale ], locale )
         if element.weblinks

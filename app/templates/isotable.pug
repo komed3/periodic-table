@@ -5,21 +5,29 @@ table.pt-prop-table.pt-isotable
       each label in [ 'nuclide', 'mass', 'half-life', 'decay', 'natural-abundance' ]
         th.pt-prop-table-label!= __( 'isotope-' + label )
   tbody
-    each isotope in isotopes
+    each isotope, k in isotopes
       tr.pt-prop-table-row.pt-isotable-item
         td.pt-prop-table-value
-          a( href= core.isoLink( isotope.nuclide ) )
-            b!= core.fText( isotope.nuclide ) + ( isotope.alias ? '&nbsp;(' + core.fText( isotope.alias ) + ')' : '' )
+          a( href= '/nuclid/' + k )
+            sup!= isotope.m
+            span!= isotope.symbol
         td.pt-prop-table-value
           if isotope.mass
             span!= core.fNumber( isotope.mass, 5 )
           else
             span —
-        if isotope.decay == 'stable'
+        if !isotope.decay
+          td.pt-prop-table-value( colspan="2" )
+            b!= __( 'undefined' )
+        else if isotope.decay == 'stable'
           td.pt-prop-table-value( colspan="2" )
             b!= __( 'stable' )
         else
-          td.pt-prop-table-value!= core.fTime( isotope.decay.half_life )[0]
+          td.pt-prop-table-value
+            if isotope.decay.half_life
+              span!= core.fTime( isotope.decay.half_life )[0]
+            else
+              span!= __( 'undefined' )
           td.pt-prop-table-value
             each p in isotope.decay.products
               div.pt-isotable-decay

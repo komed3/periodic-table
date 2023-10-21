@@ -23,7 +23,7 @@ const fs = require( 'fs' );
 const core = require( './lib/core' );
 const elements = core.DB( 'elements' );
 const element_list = Object.keys( elements );
-const isotopes = core.DB( 'isotopes' );
+const nuclides = core.DB( 'nuclides' );
 
 /**
  * load "express" web framework
@@ -197,7 +197,7 @@ routes.routes.forEach( ( route ) => {
 
                         res.locals.element = elements[ element ];
                         res.locals.text = core.DB( 'text/' + req.getLocale() + '/' + element );
-                        res.locals.isotopes = isotopes[ element ] || [];
+                        res.locals.isotopes = nuclides[ element ] || [];
 
                         /* fetch image */
 

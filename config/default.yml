@@ -228,4 +228,4 @@ site:
       icon: accessibility_new
 
 maintenance:
-  databases: [ elements, isotopes, spectral ]
+  databases: [ elements, nuclides, spectral ]
