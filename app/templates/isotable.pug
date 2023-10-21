@@ -18,7 +18,7 @@ table.pt-prop-table.pt-isotable
             span —
         if !isotope.decay
           td.pt-prop-table-value( colspan="2" )
-            b!= __( 'undefined' )
+            span!= __( 'undefined' )
         else if isotope.decay == 'stable'
           td.pt-prop-table-value( colspan="2" )
             b!= __( 'stable' )
