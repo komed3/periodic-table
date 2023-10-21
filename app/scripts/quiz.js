@@ -381,6 +381,14 @@ window.addEventListener( 'load', function () {
 
     } );
 
+    document.querySelector( '[quiz="dialog"]' ).addEventListener( 'click', ( e ) => {
+
+        e.preventDefault();
+
+        document.querySelector( '.pt-quiz-overlay' ).classList.toggle( 'active' );
+
+    } );
+
     /**
      * reset quiz by loading page
      */
