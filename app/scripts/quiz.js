@@ -19,11 +19,7 @@ window.addEventListener( 'load', function () {
 
         /* reset quiz form */
 
-        let input = document.querySelector( '.pt-quiz-input' );
-
-        input.classList.add( 'hidden' );
-        input.querySelector( 'input' ).disabled = true;
-        input.querySelector( 'input' ).value = '';
+        ptQuizResetInput( true );
 
         /* reset actions */
 
@@ -130,8 +126,6 @@ window.addEventListener( 'load', function () {
 
         /* undisable input field */
 
-        document.querySelector( '.pt-quiz-input' ).classList.remove( 'hidden' );
-
         ptQuizResetInput();
 
         /* update actions */
@@ -170,14 +164,30 @@ window.addEventListener( 'load', function () {
 
     /**
      * reset quiz input field
+     * @param {Boolean} hidden disable input field
      */
-    var ptQuizResetInput = () => {
+    var ptQuizResetInput = ( hidden = false ) => {
 
-        let input = document.querySelector( '[quiz="input"]' );
+        let container = document.querySelector( '.pt-quiz-input' ),
+            input = container.querySelector( 'input' );
 
         input.value = '';
-        input.disabled = false;
-        input.focus();
+
+        if( hidden ) {
+
+            container.classList.add( 'hidden' );
+
+            input.disabled = true;
+            input.blur();
+
+        } else {
+
+            container.classList.remove( 'hidden' );
+
+            input.disabled = false;
+            input.focus();
+
+        }
 
     };
 
@@ -310,11 +320,7 @@ window.addEventListener( 'load', function () {
 
         /* disable input field */
 
-        let input = document.querySelector( '.pt-quiz-input' );
-
-        input.classList.add( 'hidden' );
-        input.querySelector( 'input' ).disabled = true;
-        input.querySelector( 'input' ).value = '';
+        ptQuizResetInput( true );
 
         /* update actions */
 
