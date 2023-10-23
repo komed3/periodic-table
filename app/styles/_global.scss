@@ -1,3 +1,5 @@
+/* import fonts from google api */
+
 @import url( 'https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400;700&family=Roboto:wght@100;400;700&display=swap' );
 @import url( 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined' );
 
@@ -12,4 +14,49 @@
     font-style: normal;
     letter-spacing: normal;
     direction: ltr;
+}
+
+/* global styling rules */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    text-underline-offset: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: var( --color-main );
+    background: var( --color-bg );
+}
+
+h1 {
+    margin: 0 0 32px 0;
+    font-size: 24px;
+}
+
+h2 {
+    margin: 0 0 24px 0;
+    font-size: 18px;
+}
+
+h3 {
+    margin: 12px 0;
+    font-size: 16px;
+}
+
+p {
+    line-height: 1.4;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
