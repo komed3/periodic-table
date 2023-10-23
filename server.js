@@ -24,6 +24,7 @@ const config = require( 'config' );
  */
 
 const core = require( './src/core' );
+const formatter = require( './src/formatter' );
 
 /**
  * express framework
@@ -54,6 +55,15 @@ app.use( cookieParser() );
  * localization (i18n)
  */
 
+const { I18n } = require( 'i18n' );
+
+const i18n = new I18n( {
+    locales: config.get( 'i18n.list' ),
+    defaultLocale: config.get( 'i18n.default' ),
+    cookie: 'locale',
+    directory: __dirname + '/i18n'
+} );
+
 app.use( ( req, res, next ) => {
 
     let url = core.parseURL( req.originalUrl ),
@@ -62,10 +72,11 @@ app.use( ( req, res, next ) => {
     if( config.get( 'i18n.list' ).includes( locale ) ) {
 
         /**
-         * save localizazion
+         * localizazion
          */
 
         res.locals.locale = locale;
+        req.cookies.locale = locale;
 
         res.cookie( 'locale', locale, {
             maxAge: config.get( 'server.cookieAge' ),
@@ -88,6 +99,23 @@ app.use( ( req, res, next ) => {
 
 } );
 
+app.use( i18n.init );
+
+/**
+ * use modules + basic locals
+ */
+
+app.use( ( req, res, next ) => {
+
+    res.locals.core = core;
+    res.locals.f = formatter;
+
+    res.locals.theme = req.cookies.theme || config.get( 'themes.default' );
+
+    next();
+
+} );
+
 /**
  * pug template engine
  */
@@ -105,6 +133,12 @@ routes.forEach( ( route ) => {
     app.get( route[0], ( req, res ) => {
 
         try {
+
+            /**
+             * locals
+             */
+
+            res.locals.site = route[1];
 
             /**
              * send rendered output
