@@ -2,45 +2,34 @@
     "name": "periodic-table",
     "version": "2.0.0",
     "description": "Periodic table and elements lists",
-    "homepage": "https://github.com/komed3/periodic-table#periodic-table",
-    "author": "komed3 (Paul Köhler)",
-    "license": "MIT",
-    "main": "server.js",
-    "scripts": {
-        "start": "nodemon server.js",
-        "compileSCSS": "node-sass app/styles/ -o public/styles/ --output-style compressed",
-        "compileJS": "uglifyjs-folder app/scripts/ -o public/scripts/ --each",
-        "buildDB": "node maintenance/buildDB.js",
-        "buildSearchIndex": "node maintenance/buildSearchIndex.js",
-        "buildSitemap": "node maintenance/buildSitemap.js",
-        "buildTextIndex": "node maintenance/buildTextIndex.js",
-        "getImages": "node maintenance/getImages.js",
-        "mergeDB": "node maintenance/mergeDB.js"
+    "author": {
+        "name": "komed3 (Paul Köhler)",
+        "email": "webmaster@komed3.de",
+        "url": "https://komed3.de"
     },
+    "homepage": "https://github.com/komed3/periodic-table",
+    "license": "MIT",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/komed3/periodic-table.git"
     },
-    "keywords": [
-        "periodic-table",
-        "chemistry"
-    ],
     "bugs": {
         "url": "https://github.com/komed3/periodic-table/issues"
     },
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon server.js",
+        "compileSCSS": "node-sass app/styles/ -o public/styles/ --output-style compressed",
+        "compileJS": "uglifyjs-folder app/scripts/ -o public/scripts/ --each"
+    },
     "dependencies": {
-        "axios": "^1.5.1",
-        "cmpstr": "^1.0.1",
         "config": "^3.3.9",
-        "cookie-parser": "^1.4.6",
-        "deepmerge": "^4.3.1",
         "express": "^4.18.2",
-        "fs": "^0.0.1-security",
-        "i18n": "^0.15.1",
-        "imagemagick": "^0.1.3",
-        "js-yaml": "^4.1.0",
-        "log-timestamp": "^0.3.0",
-        "pug": "^3.0.2",
-        "wikijs": "^6.4.1"
-    }
+        "js-yaml": "^4.1.0"
+    },
+    "keywords": [
+        "periodic-table",
+        "chemistry",
+        "nuclides-table"
+    ]
 }
