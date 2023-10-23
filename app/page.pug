@@ -12,5 +12,7 @@ html( lang= locale )
       meta( name= 'description', content= __( site + '-description' ) )/
     meta( name= 'robots', content= 'all, max-image-preview:standard' )/
     meta( name= 'format-detection', content= 'telephone=no' )/
+    block styles
+      link( rel="stylesheet", href="/css/page.css" )
   //- html content
   body( theme= theme )
