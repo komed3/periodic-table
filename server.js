@@ -93,9 +93,11 @@ app.use( ( req, res, next ) => {
          * i18n redirect
          */
 
-        res.redirect( '/' + (
-            req.cookies.locale || config.get( 'i18n.default' )
-        ) + url.string );
+        res.redirect(
+            ( '/' + ( req.cookies.locale || config.get( 'i18n.default' ) ) + url.string )
+                .replace( /\/+/g, '/' )
+                .replace( /\/+$/, '' )
+        );
 
     }
 
