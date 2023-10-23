@@ -1,5 +1,17 @@
 'use strict'
 
+var _locale;
+
+/**
+ * set locale
+ * @param {String} locale language code
+ */
+const setLocale = ( locale ) => {
+
+    _locale = locale;
+
+};
+
 /**
  * parse url
  * @param {String} url url to parse
@@ -18,8 +30,22 @@ const parseURL = ( url ) => {
 };
 
 /**
+ * get canonical url with locale
+ * @param {String} url path to page
+ * @returns localized url
+ */
+const url = ( url ) => {
+
+    return ( '/' + _locale + '/' + url )
+        .replace( /\/+/g, '/' )
+        .replace( /\/+$/, '' );
+
+};
+
+/**
  * export public methods
  */
 module.exports = {
-    parseURL
+    setLocale, parseURL,
+    url
 };

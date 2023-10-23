@@ -13,6 +13,24 @@ html( lang= locale )
     meta( name= 'robots', content= 'all, max-image-preview:standard' )/
     meta( name= 'format-detection', content= 'telephone=no' )/
     block styles
-      link( rel="stylesheet", href="/css/page.css" )
+      link( rel= 'stylesheet', href= '/css/page.css' )
   //- html content
   body( theme= theme )
+
+    //- header
+    header#header.pt-header( role= 'banner' )
+      div.pt-header-left
+        a.pt-header-menu( href= '#', title= __( 'nav' ) )
+          i.icon.open menu
+          i.icon.close close
+        a.pt-header-logo( href= core.url( '/' ), title= __( 'periodic-table' ) )
+          svg.pt-atom( width= '32', height= '32' )
+            use( xlink:href= '/res/atom.svg#atom' )
+        a.pt-header-title( href= core.url( '/' ) )!= __( 'periodic-table' )
+
+    //- main content
+    main#main.pt-wrapper( role= 'main' )
+      block content
+
+    //- footer
+    footer#footer.pt-footer

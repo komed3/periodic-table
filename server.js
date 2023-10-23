@@ -78,6 +78,8 @@ app.use( ( req, res, next ) => {
         res.locals.locale = locale;
         req.cookies.locale = locale;
 
+        core.setLocale( locale );
+
         res.cookie( 'locale', locale, {
             maxAge: config.get( 'server.cookieAge' ),
             httpOnly: true
