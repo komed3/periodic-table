@@ -1,3 +1,5 @@
-module.exports.routes = [
-    [ '/', 'start' ]
+module.exports = [
+    [ '/:locale/?', 'start' ],
+    [ '/:locale/element/*', 'element' ],
+    [ '*', '404' ]
 ];

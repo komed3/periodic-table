@@ -3,3 +3,12 @@
 
 server:
   port: 3000
+  cookieAge: 1.0e+10
+
+i18n:
+  default: en
+  list: [ en, de ]
+
+themes:
+  default: light
+  list: [ light, dark ]
