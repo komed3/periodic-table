@@ -1,5 +1,6 @@
 {
 	"periodic-table": "Periodensystem der Elemente",
 	"404-title": "Seite nicht gefunden",
+	"404-description": "Die angeforderte Seite konnte leider nicht gefunden werden. Möglicherweise wurden die Inhalte gelöscht, zu einer anderen URL verschoben oder die Anfrage enthält einen Tippfehler.",
 	"nav": "Menü"
 }
