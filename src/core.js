@@ -17,6 +17,9 @@ const parseURL = ( url ) => {
 
 };
 
+/**
+ * export public methods
+ */
 module.exports = {
     parseURL
 };
