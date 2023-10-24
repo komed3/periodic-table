@@ -17,5 +17,32 @@ block content
     //- main
     div.pt-element-main
 
+      //- general informations
+      div.pt-box.pt-element-box.pt-element-general
+        h1.pt-element-title
+          span.element--symbol
+            span.symbol--number= page.element.data.number
+            span.symbol--label= page.element.data.symbol
+          span.element--name= page.element.name
+          div.pt-actions.element--actions
+            a.pt-icon-button(
+              href= core.url( '/' ),
+              title!= __( 'periodic-table' )
+            )
+              i.icon grid_view
+            a.pt-icon-button(
+              href= 'data:text/json;charset=utf-8,' + encodeURIComponent(
+                JSON.stringify( page.element.data )
+              ),
+              download= 'data.json',
+              title!= __( 'action-download' )
+            )
+              i.icon download
+            a.pt-icon-button(
+              href= 'javascript:window.print();',
+              title!= __( 'action-print' )
+            )
+              i.icon print
+
     //- aside
     aside.pt-element-aside

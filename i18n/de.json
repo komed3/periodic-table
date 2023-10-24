@@ -21,5 +21,7 @@
 	"theme": "Darstellung",
 	"theme-dark": "Dunkler Modus",
 	"theme-light": "Heller Modus",
-	"tools-title": "Werkzeuge"
+	"tools-title": "Werkzeuge",
+	"action-download": "action-download",
+	"action-print": "action-print"
 }

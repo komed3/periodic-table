@@ -15,6 +15,11 @@
     --accent-2: #55c1fa;
     --accent-3: #f25949;
 
+    --accent-contrast: var( --gray-0 );
+
+    --color-light: var( --gray-0 );
+    --color-dark: var( --gray-6 );
+
     --box-shadow: 2px 2px 4px rgba( 230 230 230 / 0.25 );
 
 }
@@ -35,6 +40,11 @@
     --accent-1: #55c1fa;
     --accent-2: #2a80ad;
     --accent-3: #f58479;
+
+    --accent-contrast: var( --gray-0 );
+
+    --color-light: var( --gray-6 );
+    --color-dark: var( --gray-0 );
 
     --box-shadow: 2px 2px 4px rgba( 0 0 0 / 0.25 );
 

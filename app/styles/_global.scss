@@ -168,6 +168,21 @@ select {
     overflow: hidden;
 }
 
+/* actions */
+
+.pt-actions {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 6px;
+}
+
+.pt-actions a {
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
+    border-radius: 16px;
+}
+
 /* responsive adaptations */
 
 @media all and ( max-width: 1240px ) {
