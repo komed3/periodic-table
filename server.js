@@ -46,6 +46,31 @@ app.get( '/robots.txt', ( req, res ) => {
 } );
 
 /**
+ * passing settings and save them as cookie
+ * e.g. theme, locale ...
+ */
+
+app.use( '/set', ( req, res, next ) => {
+
+    for( const [ key, val ] of Object.entries( req.query ) ) {
+
+        res.cookie( key, val, { maxAge: config.get( 'server.cookieAge' ), httpOnly: true } );
+
+    }
+
+    if( req.get( 'referrer' ).includes( req.get( 'host' ) ) ) {
+
+        res.redirect( req.get( 'referrer' ) );
+
+    } else {
+
+        next();
+
+    }
+
+} );
+
+/**
  * static resources
  */
 

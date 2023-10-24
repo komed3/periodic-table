@@ -39,7 +39,9 @@ const getCanonical = ( url, split = true ) => {
 
     return ( '/' + (
         split ? url.split( '?' )[0] : url
-    ) + '/' ).replace( /\/+/g, '/' );
+    ) + '/' )
+        .replace( /\/+/g, '/' )
+        .replace( /\/+$/, '' );
 
 };
 
