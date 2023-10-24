@@ -1,0 +1,10 @@
+//- templates/language-selector.pug
+div.pt-language-selector
+  div.pt-input-container.pt-language-selector-inner
+    i.icon.pt-language-selector-icon language
+    select.pt-language-selector-select( title= __( 'language' ) )
+      each lang in availableLanguages
+        option(
+          value= lang,
+          selected= lang == locale
+        )= __( 'lang-' + lang )

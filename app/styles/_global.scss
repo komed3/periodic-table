@@ -80,3 +80,38 @@ a.pt-icon-button {
     background: var( --gray-1 );
     border-radius: 18px;
 }
+
+input, select {
+    height: 36px;
+    padding: 0 14px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: var( --color-main );
+    background: var( --gray-0 );
+    border: 1px solid var( --gray-2 );
+    border-radius: 18px;
+    outline: 0 none;
+}
+
+select {
+    appearance: none;
+    cursor: pointer;
+}
+
+.pt-input-container {
+    position: relative;
+}
+
+.pt-input-container .icon {
+    pointer-events: none;
+    position: absolute;
+    top: 8px;
+    left: 14px;
+    font-size: 20px;
+    color: var( --gray-4 );
+}
+
+.pt-input-container input,
+.pt-input-container select {
+    padding-left: 42px;
+}

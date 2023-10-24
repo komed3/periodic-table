@@ -117,6 +117,8 @@ app.use( ( req, res, next ) => {
         res.locals.locale = locale;
         req.cookies.locale = locale;
 
+        res.locals.availableLanguages = config.get( 'i18n.list' );
+
         core.setLocale( locale );
 
         res.cookie( 'locale', locale, {
