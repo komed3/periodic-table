@@ -139,6 +139,37 @@ select {
     width: 360px;
 }
 
+/* global elements */
+
+/* page */
+
+.pt-page {
+    margin: var( --padding ) auto;
+    max-width: var( --content );
+}
+
+.pt-page h2 {
+    margin-top: 24px;
+}
+
+.pt-page-intro {
+    margin: 0 20% 48px 0;
+    font-size: 18px;
+}
+
+/* box */
+
+.pt-box {
+    margin-bottom: 24px;
+    padding: 24px;
+    background: var( --gray-0 );
+    border-radius: 12px;
+    box-shadow: var( --box-shadow );
+    overflow: hidden;
+}
+
+/* responsive adaptations */
+
 @media all and ( max-width: 1240px ) {
 
     :root {

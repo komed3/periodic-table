@@ -1,0 +1,9 @@
+@import 'page';
+
+.pt-element {
+    display: grid;
+    grid-template-columns: 1fr 460px;
+    gap: 24px;
+    margin: var( --padding ) auto;
+    max-width: var( --content );
+}

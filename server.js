@@ -25,12 +25,11 @@ const config = require( 'config' );
 
 const core = require( './src/core' );
 const formatter = require( './src/formatter' );
+const DB = require( './src/database' );
 
 /**
  * load globally used databases
  */
-
-const DB = require( './src/database' );
 
 const elements = new DB( 'elements' );
 
