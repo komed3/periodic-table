@@ -214,12 +214,21 @@ routes.forEach( ( route ) => {
                         let element = elements.get( key );
 
                         /**
-                         * pass element data to render
+                         * element data
                          */
 
                         res.locals.page.element = {
                             name: element.names[ res.getLocale() ] || element.names[ config.get( 'i18n.default' ) ],
                             data: element
+                        };
+
+                        /**
+                         * element navigation
+                         */
+
+                        res.locals.page.nav = {
+                            prev: elements.prevKey( key ),
+                            next: elements.nextKey( key )
                         };
 
                     } else {

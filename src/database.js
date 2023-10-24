@@ -68,4 +68,65 @@ module.exports = class DB {
 
     };
 
+    /**
+     * get array of database keys
+     * @returns array of database keys
+     */
+    keys = () => {
+
+        return Object.keys( this.database );
+
+    };
+
+    /**
+     * get previous key from database
+     * @param {String} key key
+     * @param {Int} i previous i key
+     * @returns previous key
+     */
+    prevKey = ( key, i = 1 ) => {
+
+        return this.nextKey( key, i * (-1) );
+
+    };
+
+    /**
+     * get previous item from database
+     * @param {String} key key
+     * @param {Int} i previous i key
+     * @returns previous item
+     */
+    prev = ( key, i = 1 ) => {
+
+        return this.get( this.prevKey( key, i ) );
+
+    };
+
+    /**
+     * get next key from database
+     * @param {String} key key
+     * @param {Int} i next i key
+     * @returns next key
+     */
+    nextKey = ( key, i = 1 ) => {
+
+        let list = this.keys(),
+            index = list.indexOf( key );
+
+        return list[ index + i ] || null;
+
+    };
+
+    /**
+     * get next item from database
+     * @param {String} key key
+     * @param {Int} i next i key
+     * @returns next item
+     */
+    next = ( key, i = 1 ) => {
+
+        return this.get( this.nextKey( key, i ) );
+
+    };
+
 };
