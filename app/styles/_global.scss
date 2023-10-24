@@ -18,6 +18,11 @@
 
 /* global styling rules */
 
+:root {
+    --padding: 64px;
+    --content: 1200px;
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -59,4 +64,8 @@ ul {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+a.red {
+    color: var( --accent-3 );
 }

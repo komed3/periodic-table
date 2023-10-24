@@ -30,7 +30,8 @@ html( lang= locale )
         a.pt-header-logo( href= core.url( '/' ), title= __( 'periodic-table' ) )
           svg.pt-atom( width= '32', height= '32' )
             use( xlink:href= '/res/atom.svg#atom' )
-        a.pt-header-title( href= core.url( '/' ) )!= __( 'periodic-table' )
+        a.pt-header-title( href= core.url( '/' ) )
+          span!= __( 'periodic-table' )
       div.pt-header-right
 
     //- main content
