@@ -32,12 +32,27 @@
 
 .pt-footer-nav {
     display: flex;
-    flex-flow: row nowrap;
-    gap: 12px;
+    flex-flow: row wrap;
+    gap: 4px 12px;
     font-size: 15px;
 }
 
 .pt-footer-credits {
     margin: 0;
     font-size: 12px;
+}
+
+@media all and ( max-width: 700px ) {
+
+    .pt-footer {
+        flex-direction: column;
+    }
+
+    .pt-footer-inner,
+    .pt-footer-nav {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
 }
