@@ -62,7 +62,10 @@ app.use( '/set', ( req, res, next ) => {
 
     for( const [ key, val ] of Object.entries( req.query ) ) {
 
-        res.cookie( key, val, { maxAge: config.get( 'server.cookieAge' ), httpOnly: true } );
+        res.cookie( key, val, {
+            maxAge: config.get( 'server.cookieAge' ),
+            httpOnly: true
+        } );
 
     }
 
@@ -216,7 +219,7 @@ routes.forEach( ( route ) => {
                          */
 
                         res.locals.page.element = {
-                            name: element.names[ res.getLocale() ],
+                            name: element.names[ res.getLocale() ] || element.names[ config.get( 'i18n.default' ) ],
                             data: element
                         };
 
@@ -227,7 +230,8 @@ routes.forEach( ( route ) => {
                          * redirect to home
                          */
 
-                        res.redirect( core.getCanonical( '/' ) );
+                        res.redirect( core.url( '/' ) );
+                        return ;
 
                     }
 

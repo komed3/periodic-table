@@ -40,20 +40,20 @@ module.exports = class DB {
     #fromPath = ( path ) => {
 
         return path.toString().split( '.' ).reduce(
-            ( p, c ) => p && p[ c ] || null,
+            ( p, c ) => p && p[ c ] || undefined,
             this.database
         );
 
     };
 
     /**
-     * check if database contains key
-     * @param {String} key searchable key
-     * @returns boolean if key is in database
+     * check if database contains path
+     * @param {String} path searchable path
+     * @returns boolean if path is in database
      */
-    has = ( key ) => {
+    has = ( path ) => {
 
-        return key in this.database;
+        return typeof this.#fromPath( path ) != 'undefined';
 
     };
 
