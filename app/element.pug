@@ -1,0 +1,9 @@
+//- element page
+extends page.pug
+
+block title
+  - var title = __( 'element-title', page.element.name )
+  title= title + ' — ' + __( 'periodic-table' )
+
+block social
+  meta( property= 'og:title', content= title )/

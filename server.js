@@ -27,6 +27,14 @@ const core = require( './src/core' );
 const formatter = require( './src/formatter' );
 
 /**
+ * load globally used databases
+ */
+
+const DB = require( './src/database' );
+
+const elements = new DB( 'elements' );
+
+/**
  * express framework
  */
 
@@ -185,7 +193,50 @@ routes.forEach( ( route ) => {
             res.locals.search = { query: '' };
 
             /**
-             * send rendered output
+             * page locals
+             */
+
+            res.locals.page = {};
+
+            switch( route[1] ) {
+
+                /**
+                 * elements page
+                 */
+                case 'element':
+
+                    let key = ( req.params.element || '' ).toLowerCase();
+
+                    if( elements.has( key ) ) {
+
+                        let element = elements.get( key );
+
+                        /**
+                         * pass element data to render
+                         */
+
+                        res.locals.page.element = {
+                            name: element.names[ res.getLocale() ],
+                            data: element
+                        };
+
+                    } else {
+
+                        /**
+                         * element not given or found
+                         * redirect to home
+                         */
+
+                        res.redirect( core.getCanonical( '/' ) );
+
+                    }
+
+                    break;
+
+            }
+
+            /**
+             * render output + send to client
              */
 
             res.status( 200 ).send(

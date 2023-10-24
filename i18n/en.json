@@ -4,6 +4,7 @@
 	"bug-report": "Bug report",
 	"credits": "Copyright © %s <a href=\"https://komed3.de\" target=\"_blank\">Paul Köhler (komed3)</a>",
 	"data-title": "Database",
+	"element-title": "Element: %s",
 	"github": "GitHub",
 	"glossary-title": "Glossary",
 	"lang-de": "German",
