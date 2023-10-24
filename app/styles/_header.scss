@@ -48,3 +48,8 @@
     gap: 12px;
     padding: 0 12px;
 }
+
+.pt-language-selector select {
+    background: var( --gray-1 );
+    border: 0;
+}
