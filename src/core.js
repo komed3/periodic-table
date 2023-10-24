@@ -30,15 +30,27 @@ const parseURL = ( url ) => {
 };
 
 /**
+ * gets the canonical url
+ * @param {String} url target url
+ * @param {Boolean} split remove query args
+ * @returns canonical url
+ */
+const getCanonical = ( url, split = true ) => {
+
+    return ( '/' + (
+        split ? url.split( '?' )[0] : url
+    ) + '/' ).replace( /\/+/g, '/' );
+
+};
+
+/**
  * get canonical url with locale
  * @param {String} url path to page
  * @returns localized url
  */
 const url = ( url ) => {
 
-    return ( '/' + _locale + '/' + url )
-        .replace( /\/+/g, '/' )
-        .replace( /\/+$/, '' );
+    return getCanonical( _locale + '/' + url, false );
 
 };
 
@@ -47,5 +59,5 @@ const url = ( url ) => {
  */
 module.exports = {
     setLocale, parseURL,
-    url
+    getCanonical, url
 };

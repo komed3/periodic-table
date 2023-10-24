@@ -75,6 +75,9 @@ app.use( ( req, res, next ) => {
          * localizazion
          */
 
+        res.locals.canonical = req.protocol + '://' + req.hostname +
+            core.getCanonical( url.string );
+
         res.locals.locale = locale;
         req.cookies.locale = locale;
 
@@ -93,11 +96,9 @@ app.use( ( req, res, next ) => {
          * i18n redirect
          */
 
-        res.redirect(
-            ( '/' + ( req.cookies.locale || config.get( 'i18n.default' ) ) + url.string )
-                .replace( /\/+/g, '/' )
-                .replace( /\/+$/, '' )
-        );
+        res.redirect( core.getCanonical( '/' + (
+            req.cookies.locale || config.get( 'i18n.default' )
+        ) + url.string ) );
 
     }
 
