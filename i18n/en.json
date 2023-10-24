@@ -1,4 +1,17 @@
 {
+	"404-description": "Unfortunately, the requested page could not be found. The content may have been deleted, moved to another URL, or the request contains a spelling mistake.",
+	"404-title": "Page not found",
+	"bug-report": "Bug report",
+	"credits": "Copyright © %s <a href=\"https://komed3.de\" target=\"_blank\">Paul Köhler (komed3)</a>",
+	"data-title": "Database",
+	"github": "GitHub",
+	"glossary-title": "Glossary",
+	"nav": "Navigation",
 	"periodic-table": "Periodic Table",
-	"404-title": "Page not found"
+	"privacy-title": "Privacy",
+	"sitemap": "Sitemap",
+	"theme": "Theme",
+	"theme-dark": "Dark Mode",
+	"theme-light": "Light Mode",
+	"tools-title": "Tools"
 }
