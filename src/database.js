@@ -98,7 +98,7 @@ module.exports = class DB {
      */
     prev = ( key, i = 1 ) => {
 
-        return this.get( this.prevKey( key, i ) );
+        return this.next( key, i * (-1) );
 
     };
 
@@ -125,7 +125,11 @@ module.exports = class DB {
      */
     next = ( key, i = 1 ) => {
 
-        return this.get( this.nextKey( key, i ) );
+        let next = this.nextKey( key, i );
+
+        return next != null
+            ? this.get( next )
+            : null;
 
     };
 
