@@ -69,3 +69,14 @@ a {
 a.red {
     color: var( --accent-3 );
 }
+
+a.pt-icon-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    font-size: 20px;
+    background: var( --gray-1 );
+    border-radius: 18px;
+}

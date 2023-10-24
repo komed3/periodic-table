@@ -10,7 +10,8 @@
 	"periodic-table": "Periodensystem der Elemente",
 	"privacy-title": "Datenschutz",
 	"sitemap": "Sitemap",
-	"tools-title": "Werkzeuge",
-	"theme-dark": "theme-dark",
-	"theme-light": "theme-light"
+	"theme": "Darstellung",
+	"theme-dark": "Dunkler Modus",
+	"theme-light": "Heller Modus",
+	"tools-title": "Werkzeuge"
 }

@@ -40,3 +40,11 @@
     font-size: 16px;
     font-weight: bold;
 }
+
+.pt-header-settings {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 12px;
+    padding: 0 12px;
+}
