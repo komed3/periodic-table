@@ -41,6 +41,10 @@
     font-weight: bold;
 }
 
+.pt-header-search {
+    align-self: center;
+}
+
 .pt-header-settings {
     display: flex;
     flex-flow: row nowrap;
@@ -54,9 +58,17 @@
     border: 0;
 }
 
-@media all and ( max-width: 800px ) {
+@media all and ( max-width: 1200px ) {
 
     .pt-header-title {
+        display: none;
+    }
+
+}
+
+@media all and ( max-width: 800px ) {
+
+    .pt-header-search {
         display: none;
     }
 

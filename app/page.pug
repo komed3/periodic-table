@@ -39,6 +39,8 @@ html( lang= locale )
         a.pt-header-title( href= core.url( '/' ) )
           span!= __( 'periodic-table' )
       div.pt-header-right
+        div.pt-header-search
+          include templates/searchform.pug
         div.pt-header-settings
           include templates/language-selector.pug
           include templates/theme-selector.pug

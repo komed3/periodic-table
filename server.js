@@ -182,6 +182,7 @@ routes.forEach( ( route ) => {
              */
 
             res.locals.site = route[1];
+            res.locals.search = { query: '' };
 
             /**
              * send rendered output
