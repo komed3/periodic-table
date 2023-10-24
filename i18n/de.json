@@ -1,6 +1,14 @@
 {
-	"periodic-table": "Periodensystem der Elemente",
-	"404-title": "Seite nicht gefunden",
 	"404-description": "Die angeforderte Seite konnte leider nicht gefunden werden. Möglicherweise wurden die Inhalte gelöscht, zu einer anderen URL verschoben oder die Anfrage enthält einen Tippfehler.",
-	"nav": "Menü"
+	"404-title": "Seite nicht gefunden",
+	"bug-report": "Fehler melden",
+	"credits": "Copyright © %s <a href=\"https://komed3.de\" target=\"_blank\">Paul Köhler (komed3)</a>",
+	"data-title": "Datenbank",
+	"github": "GitHub",
+	"glossary-title": "Glossar",
+	"nav": "Menü",
+	"periodic-table": "Periodensystem der Elemente",
+	"privacy-title": "Datenschutz",
+	"sitemap": "Sitemap",
+	"tools-title": "Werkzeuge"
 }

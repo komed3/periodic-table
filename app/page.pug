@@ -39,3 +39,16 @@ html( lang= locale )
 
     //- footer
     footer#footer.pt-footer
+      a.pt-footer-logo( href= core.url( '/' ), title= __( 'periodic-table' ) )
+        svg.pt-atom( width= '32', height= '32' )
+          use( xlink:href= '/res/atom.svg#atom' )
+      div.pt-footer-inner
+        nav.pt-footer-nav
+          a( href= core.url( '/sitemap' ) )!= __( 'sitemap' )
+          a( href= core.url( '/tools' ) )!= __( 'tools-title' )
+          a( href= core.url( '/glossary' ) )!= __( 'glossary-title' )
+          a( href= core.url( '/data' ) )!= __( 'data-title' )
+          a( href= core.url( '/privacy' ) )!= __( 'privacy-title' )
+          a( href= 'https://github.com/komed3/periodic-table', target= '_blank' )!= __( 'github' )
+          a( href= 'https://github.com/komed3/periodic-table/issues', target= '_blank' ).red!= __( 'bug-report' )
+        p.pt-footer-credits!= __( 'credits', ( new Date() ).getFullYear() )
