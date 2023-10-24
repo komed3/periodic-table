@@ -35,6 +35,17 @@ const express = require( 'express' );
 const app = express();
 
 /**
+ * robots.txt
+ */
+
+app.get( '/robots.txt', ( req, res ) => {
+
+    res.type( 'text/plain' );
+    res.send( 'User-agent: *\nAllow: /' );
+
+} );
+
+/**
  * static resources
  */
 
@@ -169,6 +180,16 @@ routes.forEach( ( route ) => {
         };
 
     } );
+
+} );
+
+/**
+ * 404 redirect
+ */
+
+app.all( '*', ( req, res ) => {
+
+    res.redirect( core.url( '/404' ) );
 
 } );
 

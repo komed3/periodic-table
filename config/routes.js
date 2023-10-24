@@ -1,5 +1,5 @@
 module.exports = [
     [ '/:locale/?', 'start' ],
     [ '/:locale/element/*', 'element' ],
-    [ '*', '404' ]
+    [ '/:locale/404', '404' ]
 ];
