@@ -1,6 +1,8 @@
 {
 	"404-description": "Unfortunately, the requested page could not be found. The content may have been deleted, moved to another URL, or the request contains a spelling mistake.",
 	"404-title": "Page not found",
+	"action-download": "Download",
+	"action-print": "Print",
 	"bug-report": "Bug report",
 	"credits": "Copyright © %s <a href=\"https://komed3.de\" target=\"_blank\">Paul Köhler (komed3)</a>",
 	"data-title": "Database",
@@ -11,6 +13,8 @@
 	"lang-en": "English",
 	"language": "Language",
 	"nav": "Navigation",
+	"navigation-next": "Next item",
+	"navigation-prev": "Previous item",
 	"nuclides-title": "Nuclides Table",
 	"periodic-table": "Periodic Table",
 	"privacy-title": "Privacy",
