@@ -58,7 +58,7 @@ app.use( '/set', ( req, res, next ) => {
 
     }
 
-    if( req.get( 'referrer' ).includes( req.get( 'host' ) ) ) {
+    if( ( req.get( 'referrer' ) || '' ).includes( req.get( 'host' ) ) ) {
 
         res.redirect( req.get( 'referrer' ) );
 
