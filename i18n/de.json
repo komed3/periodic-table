@@ -1,6 +1,8 @@
 {
 	"404-description": "Die angeforderte Seite konnte leider nicht gefunden werden. Möglicherweise wurden die Inhalte gelöscht, zu einer anderen URL verschoben oder die Anfrage enthält einen Tippfehler.",
 	"404-title": "Seite nicht gefunden",
+	"action-download": "Datensatz speichern",
+	"action-print": "Drucken",
 	"bug-report": "Fehler melden",
 	"credits": "Copyright © %s <a href=\"https://komed3.de\" target=\"_blank\">Paul Köhler (komed3)</a>",
 	"data-title": "Datenbank",
@@ -11,6 +13,8 @@
 	"lang-en": "Englisch",
 	"language": "Sprache",
 	"nav": "Menü",
+	"navigation-next": "Nächster Eintrag",
+	"navigation-prev": "Vorheriger Eintrag",
 	"nuclides-title": "Nuklidkarte",
 	"periodic-table": "Periodensystem der Elemente",
 	"privacy-title": "Datenschutz",
@@ -21,7 +25,5 @@
 	"theme": "Darstellung",
 	"theme-dark": "Dunkler Modus",
 	"theme-light": "Heller Modus",
-	"tools-title": "Werkzeuge",
-	"action-download": "action-download",
-	"action-print": "action-print"
+	"tools-title": "Werkzeuge"
 }

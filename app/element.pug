@@ -25,11 +25,23 @@ block content
             span.symbol--label= page.element.data.symbol
           span.element--name= page.element.name
           div.pt-actions.element--actions
+            if page.nav && page.nav.prev
+              a.pt-icon-button(
+                href= core.url( '/element/' + page.nav.prev.symbol ),
+                title!= __( 'navigation-prev' )
+              )
+                i.icon arrow_back
             a.pt-icon-button(
               href= core.url( '/' ),
               title!= __( 'periodic-table' )
             )
               i.icon grid_view
+            if page.nav && page.nav.next
+              a.pt-icon-button(
+                href= core.url( '/element/' + page.nav.next.symbol ),
+                title!= __( 'navigation-next' )
+              )
+                i.icon arrow_forward
             a.pt-icon-button(
               href= 'data:text/json;charset=utf-8,' + encodeURIComponent(
                 JSON.stringify( page.element.data )

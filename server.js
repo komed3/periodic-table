@@ -227,8 +227,8 @@ routes.forEach( ( route ) => {
                          */
 
                         res.locals.page.nav = {
-                            prev: elements.prevKey( key ),
-                            next: elements.nextKey( key )
+                            prev: elements.prev( key ),
+                            next: elements.next( key )
                         };
 
                     } else {
