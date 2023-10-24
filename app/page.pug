@@ -44,6 +44,7 @@ html( lang= locale )
         div.pt-header-settings
           include templates/language-selector.pug
           include templates/theme-selector.pug
+      include templates/nav.pug
 
     //- main content
     main#main.pt-wrapper( role= 'main' )
@@ -56,7 +57,7 @@ html( lang= locale )
           use( xlink:href= '/res/atom.svg#atom' )
       div.pt-footer-inner
         nav.pt-footer-nav
-          a( href= core.url( '/sitemap' ) )!= __( 'sitemap' )
+          a( href= core.url( '/sitemap' ) )!= __( 'sitemap-title' )
           a( href= core.url( '/tools' ) )!= __( 'tools-title' )
           a( href= core.url( '/glossary' ) )!= __( 'glossary-title' )
           a( href= core.url( '/data' ) )!= __( 'data-title' )

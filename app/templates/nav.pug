@@ -1,0 +1,28 @@
+//- templates/nav.pug
+-
+  var links = [
+    [ '/', 'grid_view', __( 'periodic-table' ) ],
+    [ '/nuclides', 'grid_4x4', __( 'nuclides-title' ) ],
+    [ '/spectrum', 'barcode_scanner', __( 'spectrum-title' ) ],
+    [ '/quiz', 'quiz', __( 'quiz-title' ) ],
+    null,
+    [ '/sitemap', 'sort', __( 'sitemap-title' ) ],
+    [ '/glossary', 'dictionary', __( 'glossary-title' ) ],
+    [ '/data', 'database', __( 'data-title' ) ]
+  ];
+
+div.pt-nav
+  each link in links
+    if link == null
+      div.pt-nav-divider
+    else
+      a(
+        href= link[0],
+        class= 'pt-nav-link' + (
+          link[0] == false
+            ? ' current'
+            : ''
+        )
+      )
+        i.icon= link[1]
+        span!= link[2]
