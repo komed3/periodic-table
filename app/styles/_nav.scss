@@ -4,13 +4,16 @@
     top: 56px;
     left: 0;
     bottom: 0;
-    display: flex;
-    flex-flow: column nowrap;
+    display: none;
     width: 380px;
     padding: 24px 0;
     background: var( --gray-0 );
     box-shadow: var( --box-shadow );
     overflow-y: auto;
+}
+
+.pt-nav.active {
+    display: block;
 }
 
 .pt-nav .pt-nav-divider {
