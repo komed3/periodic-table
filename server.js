@@ -23,6 +23,7 @@ const config = require( 'config' );
  * load required modules
  */
 
+const fs = require( 'fs' );
 const core = require( './src/core' );
 const formatter = require( './src/formatter' );
 const DB = require( './src/database' );
@@ -221,6 +222,20 @@ routes.forEach( ( route ) => {
                             name: element.names[ res.getLocale() ] || element.names[ config.get( 'i18n.default' ) ],
                             data: element
                         };
+
+                        /**
+                         * element image
+                         */
+
+                        if( fs.existsSync( __dirname + '/public/images/' + key + '.jpg' ) ) {
+
+                            res.locals.page.image = {
+                                url: './img/' + key + '.jpg',
+                                fullres: '/img/' + key + '.jpg',
+                                thumb: '/img/' + key + '-thumb.jpg'
+                            }
+
+                        }
 
                         /**
                          * element navigation
