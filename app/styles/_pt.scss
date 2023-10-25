@@ -1,0 +1,75 @@
+/* periodic table schemes */
+
+[theme="light"] {
+
+    --pt-radioactive: rgba( 255 255 255 / 0.5 );
+
+}
+
+[theme="dark"] {
+
+    --pt-radioactive: rgba( 0 0 0 / 0.5 );
+
+}
+
+/* global rules for periodic table */
+
+.pt-table {
+    display: grid;
+    grid-template-columns: repeat( 18, 1fr );
+    gap: 4px;
+}
+
+.pt-el {
+    grid-column: var( --g );
+    grid-row: var( --p );
+    position: relative;
+    aspect-ratio: 1/1;
+    color: var( --pt-color, var( --color-main ) );
+    background: var( --pt-bg, var( --gray-0 ) );
+}
+
+.pt-el * {
+    position: relative;
+    z-index: 1;
+}
+
+.pt-el.highlight {
+    outline: 4px solid var( --gray-4 );
+}
+
+.pt-el.current {
+    outline: 1px solid var( --gray-4 );
+}
+
+.pt-el.radioactive::before {
+    content: '';
+    flex: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: repeating-linear-gradient(
+        -45deg,
+        transparent,
+        transparent 6px,
+        var( --pt-radioactive ) 6px,
+        var( --pt-radioactive ) 12px
+    );
+    z-index: 0;
+}
+
+/* responsive adaptation */
+
+@media all and ( max-width: 1000px ) {
+
+    .pt-table {
+        gap: 2px;
+    }
+
+    .pt-el.hl {
+        outline: 2px solid var( --gray-4 );
+    }
+
+}

@@ -1,13 +1,19 @@
 //- templates/microtable.pug
-div.pt-microtable.noselect
-  each el, k in elements
+div.pt-table.pt-microtable.noselect(
+  layer= table.layer || 'set'
+)
+  each el, key in elements.database
     a(
       href= core.url( '/element/' + el.symbol ),
       style= '--g:' + el.column + ';--p:' + el.period,
       title= el.names[ locale ],
-      class= 'pt-microtable-item' + (
+      class= 'pt-el pt-microtable-item' + (
         el.radioactive
           ? ' radioactive'
+          : ''
+      ) + (
+        key == table.current || null
+          ? ' current'
           : ''
       )
     )

@@ -195,7 +195,8 @@ routes.forEach( ( route ) => {
              */
 
             res.locals.site = route[1];
-            res.locals.elements = elements.database;
+            res.locals.elements = elements;
+            res.locals.table = { layer: 'set' };
             res.locals.search = { query: '' };
 
             /**
@@ -249,6 +250,12 @@ routes.forEach( ( route ) => {
                             prev: elements.prev( key ),
                             next: elements.next( key )
                         };
+
+                        /**
+                         * periodic table
+                         */
+
+                        res.locals.table.current = key;
 
                     } else {
 
