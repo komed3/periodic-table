@@ -1,12 +1,14 @@
 //- templates/microtable.pug
 div.pt-table.pt-microtable.noselect(
-  layer= table.layer || 'set'
+  layer= table.layer
 )
   div.pt-table-gap
   each el, key in elements.database
+    - value = elements.prop( key, table.layer )
     a(
       href= core.url( '/element/' + el.symbol ),
       style= core.getPos( el ).position,
+      prop= value,
       title= el.names[ locale ],
       class= 'pt-el pt-microtable-item' + (
         el.radioactive

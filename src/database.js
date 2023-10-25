@@ -133,4 +133,22 @@ module.exports = class DB {
 
     };
 
+    /**
+     * get property value
+     * @param {String} key item key
+     * @param {String} path searchable path
+     * @param {String} type property type
+     * @returns return property
+     */
+    prop = ( key, path, type = 'value' ) => {
+
+        switch( type ) {
+
+            case 'value':
+                return this.get( key + '.' + path ) || 'undefined';
+
+        }
+
+    };
+
 };
