@@ -4,9 +4,13 @@ extends page.pug
 block title
   - var title = __( 'element-title', page.element.name )
   title= title + ' — ' + __( 'periodic-table' )
+  if page.element.text
+    meta( name= 'description', content= page.element.text.description )/
 
 block social
   meta( property= 'og:title', content= title )/
+  if page.element.text
+    meta( property= 'og:description', content= page.element.text.description )/
 
 block styles
   link( rel= 'stylesheet', href= '/css/element.css' )/
@@ -55,6 +59,10 @@ block content
               title!= __( 'action-print' )
             )
               i.icon print
+        if page.element.text
+          div.pt-element-text
+            div.pt-element-text-content!= page.element.text.text
+            div.pt-element-text-credits!= __( 'wiki-credits', 'https://wikipedia.org/wiki/' + locale + ':' + page.element.data.wiki[ locale ] )
 
     //- aside
     aside.pt-element-aside

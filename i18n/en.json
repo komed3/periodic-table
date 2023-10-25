@@ -25,5 +25,6 @@
 	"theme": "Theme",
 	"theme-dark": "Dark Mode",
 	"theme-light": "Light Mode",
-	"tools-title": "Tools"
+	"tools-title": "Tools",
+	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" class=\"external\" target=\"_blank\">Read more …</a>"
 }

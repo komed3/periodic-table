@@ -152,6 +152,16 @@ select {
     margin-top: 24px;
 }
 
+.pt-page a.external,
+.pt-page a.weblink {
+    color: var( --accent-1 );
+}
+
+.pt-page a.external:hover,
+.pt-page a.weblink:hover {
+    text-decoration: underline;
+}
+
 .pt-page-intro {
     margin: 0 20% 48px 0;
     font-size: 18px;

@@ -8,7 +8,7 @@
     max-width: var( --content );
 }
 
-/* title */
+/* general */
 
 .pt-element-title {
     display: flex;
@@ -40,6 +40,10 @@
 .pt-element-title .element--actions {
     flex: 1;
     justify-content: flex-end;
+}
+
+.pt-element-text-credits {
+    font-size: 12px;
 }
 
 /* aside */

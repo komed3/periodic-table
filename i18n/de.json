@@ -25,5 +25,6 @@
 	"theme": "Darstellung",
 	"theme-dark": "Dunkler Modus",
 	"theme-light": "Heller Modus",
-	"tools-title": "Werkzeuge"
+	"tools-title": "Werkzeuge",
+	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" class=\"external\" target=\"_blank\">Weiterlesen …</a>"
 }
