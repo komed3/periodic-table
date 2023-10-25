@@ -73,3 +73,6 @@ block content
           a( href= page.image.fullres, target= '_blank' )
             img( src= page.image.thumb, alt= page.element.name )/
           figcaption!= page.element.data.image.caption
+
+  div.pt-page.pt-element-footer
+    include templates/microtable.pug

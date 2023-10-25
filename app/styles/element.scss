@@ -1,4 +1,5 @@
 @import 'page';
+@import 'microtable';
 
 .pt-element {
     display: grid;
@@ -70,4 +71,14 @@
     text-overflow: ellipsis;
     font-size: 10px;
     overflow: hidden;
+}
+
+/* responsive adaptation */
+
+@media all and ( max-width: 1200px ) {
+
+    .pt-element {
+        grid-template-columns: 1fr;
+    }
+
 }

@@ -1,0 +1,14 @@
+//- templates/microtable.pug
+div.pt-microtable.noselect
+  each el, k in elements
+    a(
+      href= core.url( '/element/' + el.symbol ),
+      style= '--g:' + el.column + ';--p:' + el.period,
+      title= el.names[ locale ],
+      class= 'pt-microtable-item' + (
+        el.radioactive
+          ? ' radioactive'
+          : ''
+      )
+    )
+      span= el.symbol

@@ -164,7 +164,9 @@ app.use( ( req, res, next ) => {
     res.locals.core = core;
     res.locals.f = formatter;
 
-    res.locals.theme = req.cookies.theme || config.get( 'themes.default' );
+    res.locals.theme = (
+        req.cookies.theme || config.get( 'themes.default' )
+    );
 
     next();
 
@@ -193,6 +195,7 @@ routes.forEach( ( route ) => {
              */
 
             res.locals.site = route[1];
+            res.locals.elements = elements.database;
             res.locals.search = { query: '' };
 
             /**
