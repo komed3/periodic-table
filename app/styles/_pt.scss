@@ -20,6 +20,11 @@
     gap: 4px;
 }
 
+.pt-table-gap {
+    grid-column: 1 / -1;
+    height: 16px;
+}
+
 .pt-el {
     grid-column: var( --g );
     grid-row: var( --p );

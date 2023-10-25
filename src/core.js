@@ -57,9 +57,35 @@ const url = ( url ) => {
 };
 
 /**
+ * get element position in periodic table
+ * @param {Object} el element
+ * @param {Int} offset La, Ac offset from table
+ * @returns position
+ */
+const getPos = ( el, offset = 3 ) => {
+
+    let group = el.group > 18
+        ? el.column + 1
+        : el.group;
+
+    let period = el.group > 18
+        ? el.period + offset
+        : el.period;
+
+    return {
+        position: '--g:' + group + ';--p:' + period + ';--r:' +
+            el.period + ';--c:' + el.column,
+        group: group,
+        period: period
+    };
+
+};
+
+/**
  * export public methods
  */
 module.exports = {
     setLocale, parseURL,
-    getCanonical, url
+    getCanonical, url,
+    getPos
 };

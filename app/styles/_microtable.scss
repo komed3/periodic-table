@@ -4,7 +4,13 @@
     grid-template-columns: repeat( 32, 1fr );
 }
 
+.pt-table-gap {
+    display: none;
+}
+
 .pt-microtable-item {
+    grid-column: var( --c );
+    grid-row: var( --r );
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -14,8 +20,18 @@
 
 @media all and ( max-width: 1200px ) {
 
+    .pt-microtable {
+        grid-template-columns: repeat( 18, 1fr );
+    }
+
+    .pt-table-gap {
+        display: block;
+    }
+
     .pt-microtable-item {
-        font-size: 12px;
+        grid-column: var( --g );
+        grid-row: var( --p );
+        font-size: 16px;
     }
 
 }
@@ -23,12 +39,20 @@
 @media all and ( max-width: 1000px ) {
 
     .pt-microtable-item {
-        font-size: 10px;
+        font-size: 14px;
     }
 
 }
 
 @media all and ( max-width: 800px ) {
+
+    .pt-microtable-item {
+        font-size: 13px;
+    }
+
+}
+
+@media all and ( max-width: 600px ) {
 
     .pt-microtable-item {
         font-size: 0;

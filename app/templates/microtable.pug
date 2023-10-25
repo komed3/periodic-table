@@ -2,10 +2,11 @@
 div.pt-table.pt-microtable.noselect(
   layer= table.layer || 'set'
 )
+  div.pt-table-gap
   each el, key in elements.database
     a(
       href= core.url( '/element/' + el.symbol ),
-      style= '--g:' + el.column + ';--p:' + el.period,
+      style= core.getPos( el ).position,
       title= el.names[ locale ],
       class= 'pt-el pt-microtable-item' + (
         el.radioactive
