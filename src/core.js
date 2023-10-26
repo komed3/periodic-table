@@ -1,14 +1,18 @@
 'use strict'
 
-var _locale;
+var i18n, locale;
 
 /**
  * set locale
- * @param {String} locale language code
+ * @param {Module} m i18n module
+ * @param {String} l language code
  */
-const setLocale = ( locale ) => {
+const setLocale = ( m, l ) => {
 
-    _locale = locale;
+    locale = l;
+    i18n = m;
+
+    i18n.setLocale( locale );
 
 };
 
@@ -52,7 +56,7 @@ const getCanonical = ( url, split = true ) => {
  */
 const url = ( url ) => {
 
-    return getCanonical( _locale + '/' + url, false );
+    return getCanonical( locale + '/' + url, false );
 
 };
 

@@ -1,14 +1,20 @@
 'use strict'
 
-var _locale;
+var i18n, locale, catalog;
 
 /**
  * set locale
- * @param {String} locale language code
+ * @param {Module} m i18n module
+ * @param {String} l language code
  */
-const setLocale = ( locale ) => {
+const setLocale = ( m, l ) => {
 
-    _locale = locale;
+    locale = l;
+    i18n = m;
+
+    i18n.setLocale( locale );
+
+    catalog = Object.keys( i18n.getCatalog() );
 
 };
 
@@ -24,6 +30,25 @@ const text = ( str ) => {
         .replaceAll( /''(.+?)''/g, '<i>$1</i>' )
         .replaceAll( /\[(.+?)\]/g, '<sup>$1</sup>' )
         .replaceAll( /\{(.+?)\}/g, '<sub>$1</sub>' );
+
+};
+
+/**
+ * format unit (+ explanation)
+ * @param {String} u unit
+ * @returns formatted unit (+ explanation)
+ */
+const unit = ( u ) => {
+
+    let key = 'unit-' + u.replace( /[^a-zA-Z0-9]/g, '' );
+
+    if( catalog.includes( key ) ) {
+
+        return '<abbr title="' + i18n.__( key ) + '">' + text( u ) + '</abbr>';
+
+    }
+
+    return text( u );
 
 };
 
@@ -66,7 +91,7 @@ const number = ( n, digits = 12 ) => {
         let res = [
 
             ( !isNaN( n.value ) && n.value != null
-                ? ( new Intl.NumberFormat( _locale, {
+                ? ( new Intl.NumberFormat( locale, {
                       maximumSignificantDigits: digits,
                       roundingMode: 'floor'
                   } ) ).format(
@@ -90,7 +115,7 @@ const number = ( n, digits = 12 ) => {
 
             // unit
             ( n.unit
-                ? text( n.unit )
+                ? unit( n.unit )
                 : '' ),
 
             // @ (second value)
