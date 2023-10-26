@@ -652,7 +652,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:He> 2s[1]",
+        "electron_config": "He 2s[1]",
         "enthalpy": {
             "fusion": {
                 "value": 3,
@@ -956,7 +956,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:He> 2s[2]",
+        "electron_config": "He 2s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 7.95,
@@ -1262,7 +1262,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:He> 2s[2] 2p[1]",
+        "electron_config": "He 2s[2] 2p[1]",
         "enthalpy": {
             "fusion": {
                 "value": 50,
@@ -1558,7 +1558,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:He> 2s[2] 2p[2]",
+        "electron_config": "He 2s[2] 2p[2]",
         "enthalpy": {
             "fusion": {
                 "value": 117,
@@ -1808,7 +1808,7 @@
             "by": "Scheele",
             "value": 1771
         },
-        "electron_config": "<e:He> 2s[2] 2p[3]",
+        "electron_config": "He 2s[2] 2p[3]",
         "enthalpy": {
             "fusion": {
                 "value": 0.36,
@@ -2073,7 +2073,7 @@
             "by": "Priestley, Scheele",
             "value": 1774
         },
-        "electron_config": "<e:He> 2s[2] 2p[4]",
+        "electron_config": "He 2s[2] 2p[4]",
         "enthalpy": {
             "fusion": {
                 "value": 0.222,
@@ -2367,7 +2367,7 @@
             "by": "Moissan",
             "value": 1886
         },
-        "electron_config": "<e:He> 2s[2] 2p[5]",
+        "electron_config": "He 2s[2] 2p[5]",
         "enthalpy": {
             "fusion": {
                 "value": 0.26,
@@ -2624,7 +2624,7 @@
             "by": "Ramsay, Travers",
             "value": 1898
         },
-        "electron_config": "<e:He> 2s[2] 2p[6]",
+        "electron_config": "He 2s[2] 2p[6]",
         "enthalpy": {
             "fusion": {
                 "value": 0.34,
@@ -2885,7 +2885,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ne> 3s[1]",
+        "electron_config": "Ne 3s[1]",
         "enthalpy": {
             "fusion": {
                 "value": 2.6,
@@ -3197,7 +3197,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ne> 3s[2]",
+        "electron_config": "Ne 3s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 8.7,
@@ -3502,7 +3502,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ne> 3s[2] 3p[1]",
+        "electron_config": "Ne 3s[2] 3p[1]",
         "enthalpy": {
             "fusion": {
                 "value": 10.7,
@@ -3787,7 +3787,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ne> 3s[2] 3p[2]",
+        "electron_config": "Ne 3s[2] 3p[2]",
         "enthalpy": {
             "fusion": {
                 "value": 50.2,
@@ -4062,7 +4062,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ne> 3s[2] 3p[3]",
+        "electron_config": "Ne 3s[2] 3p[3]",
         "enthalpy": {
             "fusion": {
                 "value": 0.64,
@@ -4373,7 +4373,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ne> 3s[2] 3p[4]",
+        "electron_config": "Ne 3s[2] 3p[4]",
         "enthalpy": {
             "fusion": {
                 "value": 1.73,
@@ -4642,7 +4642,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ne> 3s[2] 3p[5]",
+        "electron_config": "Ne 3s[2] 3p[5]",
         "enthalpy": {
             "fusion": {
                 "value": 3.2,
@@ -4906,7 +4906,7 @@
             "by": "Ramsay, Strutt",
             "value": 1894
         },
-        "electron_config": "<e:Ne> 3s[2] 3p[6]",
+        "electron_config": "Ne 3s[2] 3p[6]",
         "enthalpy": {
             "fusion": {
                 "value": 1.18,
@@ -5175,7 +5175,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ar> 4s[1]",
+        "electron_config": "Ar 4s[1]",
         "enthalpy": {
             "fusion": {
                 "value": 2.33,
@@ -5481,7 +5481,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ar> 4s[2]",
+        "electron_config": "Ar 4s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 8.54,
@@ -5762,7 +5762,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ar> 3d[1] 4s[2]",
+        "electron_config": "Ar 3d[1] 4s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 16,
@@ -6027,7 +6027,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ar> 3d[2] 4s[2]",
+        "electron_config": "Ar 3d[2] 4s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 18.7,
@@ -6315,7 +6315,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ar> 3d[3] 4s[2]",
+        "electron_config": "Ar 3d[3] 4s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 22.8,
@@ -6584,7 +6584,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ar> 3d[5] 4s[1]",
+        "electron_config": "Ar 3d[5] 4s[1]",
         "enthalpy": {
             "fusion": {
                 "value": 20.5,
@@ -6904,7 +6904,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ar> 3d[5] 4s[2]",
+        "electron_config": "Ar 3d[5] 4s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 13.2,
@@ -7203,7 +7203,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ar> 3d[6] 4s[2]",
+        "electron_config": "Ar 3d[6] 4s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 13.8,
@@ -7474,7 +7474,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ar> 3d[7] 4s[2]",
+        "electron_config": "Ar 3d[7] 4s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 16.2,
@@ -7783,7 +7783,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ar> 3d[8] 4s[2]",
+        "electron_config": "Ar 3d[8] 4s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 17.2,
@@ -8109,7 +8109,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ar> 3d[10] 4s[1]",
+        "electron_config": "Ar 3d[10] 4s[1]",
         "enthalpy": {
             "fusion": {
                 "value": 13.1,
@@ -8393,7 +8393,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ar> 3d[10] 4s[2]",
+        "electron_config": "Ar 3d[10] 4s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 7.35,
@@ -8663,7 +8663,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[1]",
+        "electron_config": "Ar 3d[10] 4s[2] 4p[1]",
         "enthalpy": {
             "fusion": {
                 "value": 5.59,
@@ -8937,7 +8937,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[2]",
+        "electron_config": "Ar 3d[10] 4s[2] 4p[2]",
         "enthalpy": {
             "fusion": {
                 "value": 31.8,
@@ -9216,7 +9216,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[3]",
+        "electron_config": "Ar 3d[10] 4s[2] 4p[3]",
         "enthalpy": {
             "fusion": {
                 "value": 27.7,
@@ -9518,7 +9518,7 @@
             },
             "poisson": 0.33
         },
-        "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[4]",
+        "electron_config": "Ar 3d[10] 4s[2] 4p[4]",
         "enthalpy": {
             "fusion": {
                 "value": 5.4,
@@ -9807,7 +9807,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[5]",
+        "electron_config": "Ar 3d[10] 4s[2] 4p[5]",
         "enthalpy": {
             "fusion": {
                 "value": 5.8,
@@ -10105,7 +10105,7 @@
             "by": "Ramsay, Travers",
             "value": 1898
         },
-        "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[6]",
+        "electron_config": "Ar 3d[10] 4s[2] 4p[6]",
         "enthalpy": {
             "fusion": {
                 "value": 1.64,
@@ -10362,7 +10362,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 5s[1]",
+        "electron_config": "Kr 5s[1]",
         "enthalpy": {
             "fusion": {
                 "value": 2.19,
@@ -10656,7 +10656,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 5s[2]",
+        "electron_config": "Kr 5s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 8,
@@ -10927,7 +10927,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 4d[1] 5s[2]",
+        "electron_config": "Kr 4d[1] 5s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 11.4,
@@ -11198,7 +11198,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 4d[2] 5s[2]",
+        "electron_config": "Kr 4d[2] 5s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 21,
@@ -11464,7 +11464,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 4d[4] 5s[1]",
+        "electron_config": "Kr 4d[4] 5s[1]",
         "enthalpy": {
             "fusion": {
                 "value": 26.8,
@@ -11737,7 +11737,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 4d[5] 5s[1]",
+        "electron_config": "Kr 4d[5] 5s[1]",
         "enthalpy": {
             "fusion": {
                 "value": 36,
@@ -11957,7 +11957,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 4d[5] 5s[2]",
+        "electron_config": "Kr 4d[5] 5s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 23,
@@ -12180,7 +12180,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 4d[7] 5s[1]",
+        "electron_config": "Kr 4d[7] 5s[1]",
         "enthalpy": {
             "fusion": {
                 "value": 25.7,
@@ -12430,7 +12430,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 4d[8] 5s[1]",
+        "electron_config": "Kr 4d[8] 5s[1]",
         "enthalpy": {
             "fusion": {
                 "value": 21.7,
@@ -12711,7 +12711,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 4d[10]",
+        "electron_config": "Kr 4d[10]",
         "enthalpy": {
             "fusion": {
                 "value": 16.7,
@@ -12997,7 +12997,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 4d[10] 5s[1]",
+        "electron_config": "Kr 4d[10] 5s[1]",
         "enthalpy": {
             "fusion": {
                 "value": 11.3,
@@ -13356,7 +13356,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 4d[10] 5s[2]",
+        "electron_config": "Kr 4d[10] 5s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 6.3,
@@ -13705,7 +13705,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[1]",
+        "electron_config": "Kr 4d[10] 5s[2] 5p[1]",
         "enthalpy": {
             "fusion": {
                 "value": 3.26,
@@ -14014,7 +14014,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[2]",
+        "electron_config": "Kr 4d[10] 5s[2] 5p[2]",
         "enthalpy": {
             "fusion": {
                 "value": 7,
@@ -14275,7 +14275,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[3]",
+        "electron_config": "Kr 4d[10] 5s[2] 5p[3]",
         "enthalpy": {
             "fusion": {
                 "value": 19.7,
@@ -14528,7 +14528,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[4]",
+        "electron_config": "Kr 4d[10] 5s[2] 5p[4]",
         "enthalpy": {
             "fusion": {
                 "value": 17.5,
@@ -14827,7 +14827,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[5]",
+        "electron_config": "Kr 4d[10] 5s[2] 5p[5]",
         "enthalpy": {
             "fusion": {
                 "value": 7.76,
@@ -15143,7 +15143,7 @@
             "by": "Ramsay, Travers",
             "value": 1898
         },
-        "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[6]",
+        "electron_config": "Kr 4d[10] 5s[2] 5p[6]",
         "enthalpy": {
             "fusion": {
                 "value": 2.3,
@@ -15416,7 +15416,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 6s[1]",
+        "electron_config": "Xe 6s[1]",
         "enthalpy": {
             "fusion": {
                 "value": 2.09,
@@ -15696,7 +15696,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 6s[2]",
+        "electron_config": "Xe 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 8,
@@ -15983,7 +15983,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 5d[1] 6s[2]",
+        "electron_config": "Xe 5d[1] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 6.2,
@@ -16251,7 +16251,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[1] 5d[1] 6s[2]",
+        "electron_config": "Xe 4f[1] 5d[1] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 5.5,
@@ -16530,7 +16530,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[3] 6s[2]",
+        "electron_config": "Xe 4f[3] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 6.9,
@@ -16805,7 +16805,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[4] 6s[2]",
+        "electron_config": "Xe 4f[4] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 7.1,
@@ -17060,7 +17060,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[5] 6s[2]",
+        "electron_config": "Xe 4f[5] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 7.7,
@@ -17275,7 +17275,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[6] 6s[2]",
+        "electron_config": "Xe 4f[6] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 8.6,
@@ -17545,7 +17545,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[7] 6s[2]",
+        "electron_config": "Xe 4f[7] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 9.2,
@@ -17798,7 +17798,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[7] 5d[1] 6s[2]",
+        "electron_config": "Xe 4f[7] 5d[1] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 10,
@@ -18062,7 +18062,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[9] 6s[2]",
+        "electron_config": "Xe 4f[9] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 10.8,
@@ -18310,7 +18310,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[10] 6s[2]",
+        "electron_config": "Xe 4f[10] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 11.1,
@@ -18575,7 +18575,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[11] 6s[2]",
+        "electron_config": "Xe 4f[11] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 17,
@@ -18829,7 +18829,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[12] 6s[2]",
+        "electron_config": "Xe 4f[12] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 19.9,
@@ -19086,7 +19086,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[13] 6s[2]",
+        "electron_config": "Xe 4f[13] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 16.8,
@@ -19351,7 +19351,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[14] 6s[2]",
+        "electron_config": "Xe 4f[14] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 7.7,
@@ -19629,7 +19629,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[14] 5d[1] 6s[2]",
+        "electron_config": "Xe 4f[14] 5d[1] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 22,
@@ -19876,7 +19876,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[14] 5d[2] 6s[2]",
+        "electron_config": "Xe 4f[14] 5d[2] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 25.5,
@@ -20146,7 +20146,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[14] 5d[3] 6s[2]",
+        "electron_config": "Xe 4f[14] 5d[3] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 36,
@@ -20435,7 +20435,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[14] 5d[4] 6s[2]",
+        "electron_config": "Xe 4f[14] 5d[4] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 35,
@@ -20720,7 +20720,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[14] 5d[5] 6s[2]",
+        "electron_config": "Xe 4f[14] 5d[5] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 33,
@@ -20976,7 +20976,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[14] 5d[6] 6s[2]",
+        "electron_config": "Xe 4f[14] 5d[6] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 31,
@@ -21242,7 +21242,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[14] 5d[7] 6s[2]",
+        "electron_config": "Xe 4f[14] 5d[7] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 26,
@@ -21513,7 +21513,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[14] 5d[9] 6s[1]",
+        "electron_config": "Xe 4f[14] 5d[9] 6s[1]",
         "enthalpy": {
             "fusion": {
                 "value": 20,
@@ -21781,7 +21781,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[1]",
+        "electron_config": "Xe 4f[14] 5d[10] 6s[1]",
         "enthalpy": {
             "fusion": {
                 "value": 12.5,
@@ -22043,7 +22043,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2]",
+        "electron_config": "Xe 4f[14] 5d[10] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 2.29,
@@ -22389,7 +22389,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[1]",
+        "electron_config": "Xe 4f[14] 5d[10] 6s[2] 6p[1]",
         "enthalpy": {
             "fusion": {
                 "value": 4.2,
@@ -22686,7 +22686,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[2]",
+        "electron_config": "Xe 4f[14] 5d[10] 6s[2] 6p[2]",
         "enthalpy": {
             "fusion": {
                 "value": 4.77,
@@ -23014,7 +23014,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[3]",
+        "electron_config": "Xe 4f[14] 5d[10] 6s[2] 6p[3]",
         "enthalpy": {
             "fusion": {
                 "value": 10.9,
@@ -23261,7 +23261,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[4]",
+        "electron_config": "Xe 4f[14] 5d[10] 6s[2] 6p[4]",
         "enthalpy": {
             "fusion": {
                 "value": 13,
@@ -23414,7 +23414,7 @@
             "by": "Segrè",
             "value": 1940
         },
-        "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[5]",
+        "electron_config": "Xe 4f[14] 5d[10] 6s[2] 6p[5]",
         "enthalpy": {
             "fusion": {
                 "value": 6,
@@ -23549,7 +23549,7 @@
             "by": "Dorn",
             "value": 1900
         },
-        "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[6]",
+        "electron_config": "Xe 4f[14] 5d[10] 6s[2] 6p[6]",
         "enthalpy": {
             "fusion": {
                 "value": 3,
@@ -23690,7 +23690,7 @@
             "by": "Perey",
             "value": 1939
         },
-        "electron_config": "<e:Rn> 7s[1]",
+        "electron_config": "Rn 7s[1]",
         "enthalpy": {
             "fusion": {
                 "value": 2,
@@ -23885,7 +23885,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Rn> 7s[2]",
+        "electron_config": "Rn 7s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 8,
@@ -24035,7 +24035,7 @@
             "by": "Debierne",
             "value": 1899
         },
-        "electron_config": "<e:Rn> 6d[1] 7s[2]",
+        "electron_config": "Rn 6d[1] 7s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 14,
@@ -24234,7 +24234,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Rn> 6d[2] 7s[2]",
+        "electron_config": "Rn 6d[2] 7s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 16,
@@ -24450,7 +24450,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Rn> 5f[2] 6d[1] 7s[2]",
+        "electron_config": "Rn 5f[2] 6d[1] 7s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 15,
@@ -24659,7 +24659,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Rn> 5f[3] 6d[1] 7s[2]",
+        "electron_config": "Rn 5f[3] 6d[1] 7s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 14,
@@ -24889,7 +24889,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Rn> 5f[4] 6d[1] 7s[2]",
+        "electron_config": "Rn 5f[4] 6d[1] 7s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 10,
@@ -25072,7 +25072,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Rn> 5f[6] 7s[2]",
+        "electron_config": "Rn 5f[6] 7s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 2.8,
@@ -25267,7 +25267,7 @@
                 "unit": "S·m[-1]"
             }
         },
-        "electron_config": "<e:Rn> 5f[7] 7s[2]",
+        "electron_config": "Rn 5f[7] 7s[2]",
         "era": "quantum",
         "goldschmidt": "synthetic",
         "group": 20,
@@ -25417,7 +25417,7 @@
             "by": "Seaborg",
             "value": 1944
         },
-        "electron_config": "<e:Rn> 5f[7] 6d[1] 7s[2]",
+        "electron_config": "Rn 5f[7] 6d[1] 7s[2]",
         "enthalpy": {
             "vaporisation": {
                 "value": 320,
@@ -25557,7 +25557,7 @@
             "by": "Seaborg",
             "value": 1949
         },
-        "electron_config": "<e:Rn> 5f[9] 7s[2]",
+        "electron_config": "Rn 5f[9] 7s[2]",
         "era": "quantum",
         "goldschmidt": "synthetic",
         "group": 20,
@@ -25683,7 +25683,7 @@
             "by": "Seaborg",
             "value": 1950
         },
-        "electron_config": "<e:Rn> 5f[10] 7s[2]",
+        "electron_config": "Rn 5f[10] 7s[2]",
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 20,
@@ -25804,7 +25804,7 @@
             "by": "Seaborg",
             "value": 1952
         },
-        "electron_config": "<e:Rn> 5f[11] 7s[2]",
+        "electron_config": "Rn 5f[11] 7s[2]",
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 20,
@@ -25914,7 +25914,7 @@
             "by": "Seaborg",
             "value": 1952
         },
-        "electron_config": "<e:Rn> 5f[12] 7s[2]",
+        "electron_config": "Rn 5f[12] 7s[2]",
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 20,
@@ -26010,7 +26010,7 @@
             "by": "Seaborg",
             "value": 1955
         },
-        "electron_config": "<e:Rn> 5f[13] 7s[2]",
+        "electron_config": "Rn 5f[13] 7s[2]",
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 20,
@@ -26101,7 +26101,7 @@
             "by": "Seaborg",
             "value": 1958
         },
-        "electron_config": "<e:Rn> 5f[14] 7s[2]",
+        "electron_config": "Rn 5f[14] 7s[2]",
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 20,
@@ -26193,7 +26193,7 @@
             "by": "Ghiorso",
             "value": 1961
         },
-        "electron_config": "<e:Rn> 5f[14] 7s[2] 7p[1]",
+        "electron_config": "Rn 5f[14] 7s[2] 7p[1]",
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 20,
@@ -26291,7 +26291,7 @@
             "by": "Ghiorso",
             "value": 1964
         },
-        "electron_config": "<e:Rn> 5f[14] 6d[2] 7s[2]",
+        "electron_config": "Rn 5f[14] 6d[2] 7s[2]",
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 4,
@@ -26411,7 +26411,7 @@
             "by": "Ghiorso",
             "value": 1967
         },
-        "electron_config": "<e:Rn> 5f[14] 6d[3] 7s[2]",
+        "electron_config": "Rn 5f[14] 6d[3] 7s[2]",
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 5,
@@ -26510,7 +26510,7 @@
             "by": "Oganessian",
             "value": 1974
         },
-        "electron_config": "<e:Rn> 5f[14] 6d[4] 7s[2]",
+        "electron_config": "Rn 5f[14] 6d[4] 7s[2]",
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 6,
@@ -26609,7 +26609,7 @@
             "by": "Oganessian",
             "value": 1976
         },
-        "electron_config": "<e:Rn> 5f[14] 6d[5] 7s[2]",
+        "electron_config": "Rn 5f[14] 6d[5] 7s[2]",
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 7,
@@ -26701,7 +26701,7 @@
             "by": "GSI",
             "value": 1984
         },
-        "electron_config": "<e:Rn> 5f[14] 6d[6] 7s[2]",
+        "electron_config": "Rn 5f[14] 6d[6] 7s[2]",
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 8,
@@ -26793,7 +26793,7 @@
             "by": "GSI",
             "value": 1982
         },
-        "electron_config": "<e:Rn> 5f[14] 6d[7] 7s[2]",
+        "electron_config": "Rn 5f[14] 6d[7] 7s[2]",
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 9,
@@ -26882,7 +26882,7 @@
             "by": "GSI",
             "value": 1994
         },
-        "electron_config": "<e:Rn> 5f[14] 6d[8] 7s[2]",
+        "electron_config": "Rn 5f[14] 6d[8] 7s[2]",
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 10,
@@ -26970,7 +26970,7 @@
             "by": "GSI",
             "value": 1994
         },
-        "electron_config": "<e:Rn> 5f[14] 6d[9] 7s[2]",
+        "electron_config": "Rn 5f[14] 6d[9] 7s[2]",
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 11,
@@ -27058,7 +27058,7 @@
             "by": "GSI",
             "value": 1996
         },
-        "electron_config": "<e:Rn> 5f[14] 6d[10] 7s[2]",
+        "electron_config": "Rn 5f[14] 6d[10] 7s[2]",
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 12,
@@ -27174,7 +27174,7 @@
             "by": "JINR",
             "value": 2006
         },
-        "electron_config": "<e:Rn> 5f[14] 6d[10] 7s[2] 7p[1]",
+        "electron_config": "Rn 5f[14] 6d[10] 7s[2] 7p[1]",
         "era": "recent",
         "goldschmidt": "synthetic",
         "group": 13,
@@ -27280,7 +27280,7 @@
             "by": "JINR",
             "value": 1999
         },
-        "electron_config": "<e:Rn> 5f[14] 6d[10] 7s[2] 7p[2]",
+        "electron_config": "Rn 5f[14] 6d[10] 7s[2] 7p[2]",
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 14,
@@ -27376,7 +27376,7 @@
             "by": "JINR",
             "value": 2006
         },
-        "electron_config": "<e:Rn> 5f[14] 6d[10] 7s[2] 7p[3]",
+        "electron_config": "Rn 5f[14] 6d[10] 7s[2] 7p[3]",
         "era": "recent",
         "goldschmidt": "synthetic",
         "group": 15,
@@ -27481,7 +27481,7 @@
             "by": "JINR",
             "value": 2000
         },
-        "electron_config": "<e:Rn> 5f[14] 6d[10] 7s[2] 7p[4]",
+        "electron_config": "Rn 5f[14] 6d[10] 7s[2] 7p[4]",
         "era": "recent",
         "goldschmidt": "synthetic",
         "group": 16,
@@ -27601,7 +27601,7 @@
             "by": "JINR",
             "value": 2010
         },
-        "electron_config": "<e:Rn> 5f[14] 6d[10] 7s[2] 7p[5]",
+        "electron_config": "Rn 5f[14] 6d[10] 7s[2] 7p[5]",
         "era": "recent",
         "goldschmidt": "synthetic",
         "group": 17,
@@ -27717,7 +27717,7 @@
             "by": "JINR",
             "value": 2006
         },
-        "electron_config": "<e:Rn> 5f[14] 6d[10] 7s[2] 7p[6]",
+        "electron_config": "Rn 5f[14] 6d[10] 7s[2] 7p[6]",
         "era": "recent",
         "goldschmidt": "synthetic",
         "group": 18,
