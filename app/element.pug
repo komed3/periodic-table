@@ -123,7 +123,10 @@ block content
       if page.image
         div.pt-box.pt-element-box.pt-element-image
           a( href= page.image.fullres, target= '_blank' )
-            img( src= page.image.thumb, alt= page.element.name )/
+            img(
+              src= page.image.thumb,
+              alt= page.element.name
+            )/
           figcaption!= page.element.data.image.caption
 
       //- element info
@@ -157,6 +160,16 @@ block content
                   td.pt-prop-table-value
                     a( href= core.url( '/list/' + prop + '/' + page.element.data[ prop ] ) )
                       span!= __( prop + '-' + page.element.data[ prop ] )
+
+      //- spectral lines
+      if page.element.spectrum
+        div.pt-box.pt-element-box.pt-element-spectrum
+          h2
+            a( href= core.url( '/spectrum' ) )!= __( 'spectrum-title' )
+          img(
+            src= page.element.spectrum,
+            alt= __( 'spectrum-title' )
+          )/
 
   div.pt-page.pt-element-footer
     include templates/microtable.pug

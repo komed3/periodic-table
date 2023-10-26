@@ -226,7 +226,8 @@ routes.forEach( ( route ) => {
                         res.locals.page.element = {
                             name: element.names[ res.getLocale() ] || element.names[ config.get( 'i18n.default' ) ],
                             data: element,
-                            text: ( new DB( 'text/' + res.getLocale() + '/' + key ) ).database
+                            text: ( new DB( 'text/' + res.getLocale() + '/' + key ) ).database,
+                            spectrum: ( new DB( 'spectrum' ) ).get( key )
                         };
 
                         /**
