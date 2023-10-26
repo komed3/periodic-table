@@ -187,5 +187,12 @@ block content
           h2!= __( 'toxicity' )
           include templates/toxicity.pug
 
+      //- element classification
+      if page.element.data.classification
+        - var classification = page.element.data.classification
+        div.pt-box.pt-element-box.pt-element-classification
+          h2!= __( 'classification' )
+          include templates/classification.pug
+
   div.pt-page.pt-element-footer
     include templates/microtable.pug
