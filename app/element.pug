@@ -79,6 +79,29 @@ block content
                 th.pt-prop-table-label
                   a( href= core.url( '/scale/atomic_mass' ) )!= __( 'atomic-mass' )
                 td.pt-prop-table-value!= f.number( page.element.data.atomic_mass )
+        //- radien
+        if page.element.data.radius
+          h3!= __( 'radien' )
+          table.pt-prop-table.pt-element-table
+            tbody
+              each prop, label in page.element.data.radius
+                tr.pt-prop-table-row
+                  th.pt-prop-table-label
+                    a( href= core.url( '/scale/radius_' + label ) )!= __( label + '-radius' )
+                  td.pt-prop-table-value!= f.number( prop )
+        //- electron shell data
+        h3!= __( 'electron-shell' )
+         table.pt-prop-table.pt-element-table
+          tbody
+            if page.element.data.electron_config
+              tr.pt-prop-table-row
+                th.pt-prop-table-label!= __( 'electron-config' )
+                td.pt-prop-table-value!= f.text( page.element.data.electron_config )
+            if page.element.data.ionization
+              tr.pt-prop-table-row
+                th.pt-prop-table-label
+                  a( href= core.url( '/ionization' ) )!= __( 'ionization-energy' )
+                td.pt-prop-table-value!= f.number( page.element.data.ionization )
 
       //- physic properties
       div.pt-box.pt-element-box.pt-element-physic
