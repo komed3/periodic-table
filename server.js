@@ -131,6 +131,7 @@ app.use( ( req, res, next ) => {
         res.locals.availableLanguages = config.get( 'i18n.list' );
 
         core.setLocale( locale );
+        formatter.setLocale( locale );
 
         res.cookie( 'locale', locale, {
             maxAge: config.get( 'server.cookieAge' ),
