@@ -64,6 +64,30 @@ block content
             div.pt-element-text-content!= page.element.text.text
             div.pt-element-text-credits!= __( 'wiki-credits', 'https://wikipedia.org/wiki/' + locale + ':' + page.element.data.wiki[ locale ] )
 
+      //- atomic properties
+      div.pt-box.pt-element-box.pt-element-atomic
+        h2!= __( 'atomic-props' )
+        table.pt-prop-table.pt-element-table
+          tbody
+            if page.element.data.standard_atomic_weight
+              tr.pt-prop-table-row
+                th.pt-prop-table-label
+                  a( href= core.url( '/scale/standard_atomic_weight' ) )!= __( 'standard-atomic-weight' )
+                td.pt-prop-table-value!= f.number( page.element.data.standard_atomic_weight )
+            if page.element.data.atomic_mass
+              tr.pt-prop-table-row
+                th.pt-prop-table-label
+                  a( href= core.url( '/scale/atomic_mass' ) )!= __( 'atomic-mass' )
+                td.pt-prop-table-value!= f.number( page.element.data.atomic_mass )
+
+      //- physic properties
+      div.pt-box.pt-element-box.pt-element-physic
+        h2!= __( 'physic-props' )
+
+      //- chemic properties
+      div.pt-box.pt-element-box.pt-element-chemic
+        h2!= __( 'chemic-props' )
+
     //- aside
     aside.pt-element-aside
 

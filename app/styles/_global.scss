@@ -189,6 +189,53 @@ select {
     border-radius: 16px;
 }
 
+/* prop table */
+
+.pt-prop-table {
+    width: 100%;
+    margin: 0 -6px;
+    border-collapse: separate;
+    border-spacing: 6px;
+}
+
+.pt-prop-table a {
+    color: var( --accent-1 );
+}
+
+.pt-prop-table a:hover {
+    text-decoration: underline;
+}
+
+.pt-prop-table-label,
+.pt-prop-table-value {
+    padding: 5px 10px;
+    vertical-align: top;
+    line-height: 1.5;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+}
+
+.pt-prop-table-label {
+    text-align: left;
+    background: var( --gray-1 );
+}
+
+.pt-prop-table .center {
+    text-align: center;
+}
+
+.pt-prop-table .right {
+    text-align: right;
+}
+
+.pt-prop-table .mini {
+    width: 1px;
+}
+
+.pt-prop-table.zebra tbody tr:nth-child( even ) .pt-prop-table-value {
+    background: var( --gray-1 );
+}
+
 /* responsive adaptations */
 
 @media all and ( max-width: 1240px ) {
