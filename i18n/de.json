@@ -165,5 +165,7 @@
 	"unit-pm": "Pikometer",
 	"unit-u": "atomare Masseneinheit",
 	"vdw-radius": "Van-der-Waals-Radius",
-	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" class=\"external\" target=\"_blank\">Weiterlesen …</a>"
+	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" class=\"external\" target=\"_blank\">Weiterlesen …</a>",
+	"radioactive": "Radioaktivität",
+	"element-radioactive": "Radioaktives Element"
 }

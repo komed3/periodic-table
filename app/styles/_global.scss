@@ -126,6 +126,16 @@ input, select {
     outline: 0 none;
 }
 
+.pictogram {
+    max-width: 56px;
+    max-height: 56px;
+}
+
+.pictogram-small {
+    max-width: 42px;
+    max-height: 42px;
+}
+
 select {
     appearance: none;
     cursor: pointer;
@@ -186,6 +196,22 @@ select {
     border-radius: 12px;
     box-shadow: var( --box-shadow );
     overflow: hidden;
+}
+
+.pt-box-flex {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 12px;
+}
+
+.pt-box-columns {
+    flex-flow: column nowrap;
+}
+
+.pt-box-center {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 /* actions */

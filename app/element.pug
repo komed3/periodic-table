@@ -129,6 +129,15 @@ block content
             )/
           figcaption!= page.element.data.image.caption
 
+      //- radioactive warning
+      if page.element.data.radioactive
+        a( href= core.url( '/prop/radioactive' ) ).pt-box.pt-box-flex.pt-element-radioactive
+            img.pictogram-small(
+              src= '/res/radioactive.png',
+              alt= __( 'radioactive' )
+            )/
+            b!= __( 'element-radioactive' )
+
       //- element info
       div.pt-box.pt-element-box.pt-element-quickinfo
         h2!= __( 'quickinfo' )

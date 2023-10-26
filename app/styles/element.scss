@@ -84,6 +84,20 @@
     height: 48px;
 }
 
+/* radioactive */
+
+.pt-element-radioactive {
+    align-items: center;
+    padding: 12px 16px;
+    background: repeating-linear-gradient(
+        -45deg,
+        var( --gray-0 ),
+        var( --gray-0 ) 12px,
+        var( --warn ) 12px,
+        var( --warn ) 24px
+    );
+}
+
 /* responsive adaptation */
 
 @media all and ( max-width: 1200px ) {
