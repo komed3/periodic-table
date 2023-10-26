@@ -5,17 +5,18 @@
     echa: 'https://echa.europa.eu/de/substance-information/-/substanceinfo/$1',
     atc: 'https://www.whocc.no/atc_ddd_index/?code=$1'
   }
-each prop, label in classification
-  div.pt-classification-item
-    b!= __( 'classification-' + label )
-    each p in prop
-      span.pt-classification-line
-        if label in links
-          a.external(
-            href!= links[ label ].replace( '$1', p.value ),
-            target= '_blank'
-          )= p.value
-        else
-          span= p.value
-        if p.label && p.label.length
-          span!= '&nbsp;(' + f.text( p.label ) + ')'
+div.pt-classification
+  each prop, label in classification
+    div.pt-classification-item
+      b!= __( 'classification-' + label )
+      each p in prop
+        span.pt-classification-line
+          if label in links
+            a.external(
+              href!= links[ label ].replace( '$1', p.value ),
+              target= '_blank'
+            )= p.value
+          else
+            span= p.value
+          if p.label && p.label.length
+            span!= '&nbsp;(' + f.text( p.label ) + ')'
