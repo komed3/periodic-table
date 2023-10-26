@@ -19,6 +19,36 @@ const setLocale = ( m, l ) => {
 };
 
 /**
+* format value to human readable units
+* @param {Object} units units and its SI unit factors
+* @param {Float|Int} value value in SI unit
+* @param {Boolean} float use floating
+* @returns formatted unit parts
+*/
+const unitParts = ( units, value, float = true ) => {
+
+   let parts = [];
+
+   for( const [ unit, factor ] of Object.entries( units ) ) {
+
+       if( value >= factor || unit == Object.keys( units ).reverse()[0] ) {
+
+           parts.push( number( {
+               value: float ? ( value / factor ) : Math.floor( value / factor ),
+               unit: unit
+           }, float ? 3 : 0 ) );
+
+           value %= factor;
+
+       }
+
+   }
+
+   return parts;
+
+};
+
+/**
  * format text
  * @param {String} str text
  * @returns formatted text
@@ -225,10 +255,28 @@ const number = ( n, digits = 12 ) => {
 };
 
 /**
+ * format time to human readable
+ * @param {Int} time time in seconds
+ * @param {Boolean} float use floating
+ * @returns formatted time in [years, days, ...]
+ */
+const time = ( time, float = true ) => {
+
+    return unitParts( {
+        a: 31557600, d: 86400, h: 3600, m: 60, s: 1,
+        ms: 1e-3, μs: 1e-6, ns: 1e-9, ps: 1e-12,
+        fs: 1e-15, as: 1e-18, zs: 1e-21, ys: 1e-24,
+        rs: 1e-27, qs: 1e-30
+    }, time, float );
+
+};
+
+/**
  * export public methods
  */
 module.exports = {
     setLocale,
     text, ordinal,
-    unit, number
+    unit, number,
+    time
 };

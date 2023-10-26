@@ -1,0 +1,34 @@
+//- templates/toxicity.pug
+-
+  var icons = {
+    '#': 'skull',
+    oral: 'airware',
+    dermal: 'eda',
+    transdermal: 'eda',
+    subcutaneous: 'dermatology',
+    percutaneous: 'dermatology',
+    inhalative: 'pulmonology',
+    intramuscular: 'rheumatology',
+    intraperitoneal: 'hermatology',
+    intravenous: 'fluid_med',
+    intratracheal: 'rib_cage',
+    parenteral: 'fluid'
+  }
+div.pt-box-flex.pt-box-columns.pt-toxicity
+  each t in toxicity
+    div.pt-toxicity-item
+      i.pt-toxicity-icon.icon!= icons[ t.application ]
+      div.pt-toxicity-info
+        if t.value
+          b!= f.number( t.value )
+        else
+          span!= '(' + __( 'undefined' ) + ')'
+        div.pt-toxicity-meta
+          if t.type
+            span!= f.unit( t.type )
+          if t.organism
+            span!= __( 'organism-' + t.organism )
+          if t.application != '#'
+            span!= __( 'toxicity-' + t.application )
+          if t.time
+            span!= __( 'toxicity-time', f.time( t.time || 0 )[0] )

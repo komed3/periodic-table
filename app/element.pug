@@ -131,7 +131,7 @@ block content
 
       //- radioactive warning
       if page.element.data.radioactive
-        a( href= core.url( '/prop/radioactive' ) ).pt-box.pt-box-flex.pt-element-radioactive
+        a( href= core.url( '/prop/radioactive' ) ).pt-box.pt-element-box.pt-box-flex.pt-element-radioactive
             img.pictogram-small(
               src= '/res/radioactive.png',
               alt= __( 'radioactive' )
@@ -179,6 +179,13 @@ block content
             src= page.element.spectrum,
             alt= __( 'spectrum-title' )
           )/
+
+      //- toxicity
+      if page.element.data.toxicity
+        - var toxicity = page.element.data.toxicity
+        div.pt-box.pt-element-box.pt-element-toxicity
+          h2!= __( 'toxicity' )
+          include templates/toxicity.pug
 
   div.pt-page.pt-element-footer
     include templates/microtable.pug
