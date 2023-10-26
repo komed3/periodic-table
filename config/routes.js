@@ -1,5 +1,6 @@
 module.exports = [
     [ '/:locale/?', 'start' ],
-    [ '/:locale/element/:element', 'element' ],
-    [ '/:locale/404', '404' ]
+    [ '/:locale/spectrum/?', 'spectrum' ],
+    [ '/:locale/element/:element/?', 'element' ],
+    [ '/:locale/404/?', '404' ]
 ];

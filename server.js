@@ -273,6 +273,15 @@ routes.forEach( ( route ) => {
 
                     break;
 
+                /**
+                 * element spectrums
+                 */
+                case 'spectrum':
+
+                    res.locals.page.spectrum = ( new DB( 'spectrum' ) ).database;
+
+                    break;
+
             }
 
             /**
