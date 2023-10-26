@@ -102,6 +102,11 @@ block content
                 th.pt-prop-table-label
                   a( href= core.url( '/ionization' ) )!= __( 'ionization-energy' )
                 td.pt-prop-table-value!= f.number( page.element.data.ionization )
+            if page.element.data.shell
+              tr.pt-prop-table-row
+                th.pt-prop-table-label!= __( 'shell-model' )
+                td.pt-prop-table-value
+                  include templates/shell.pug
 
       //- physic properties
       div.pt-box.pt-element-box.pt-element-physic
