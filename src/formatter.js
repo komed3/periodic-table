@@ -26,10 +26,38 @@ const setLocale = ( m, l ) => {
 const text = ( str ) => {
 
     return ( str || '' ).toString()
-        .replaceAll( /'''(.+?)'''/g, '<b>$1</b>' )
-        .replaceAll( /''(.+?)''/g, '<i>$1</i>' )
-        .replaceAll( /\[(.+?)\]/g, '<sup>$1</sup>' )
-        .replaceAll( /\{(.+?)\}/g, '<sub>$1</sub>' );
+        .replace( /'''(.+?)'''/g, '<b>$1</b>' )
+        .replace( /''(.+?)''/g, '<i>$1</i>' )
+        .replace( /\[(.+?)\]/g, '<sup>$1</sup>' )
+        .replace( /\{(.+?)\}/g, '<sub>$1</sub>' );
+
+};
+
+/**
+ * get ordinal number
+ * @param {Int} n number
+ * @returns ordinal
+ */
+const ordinal = ( n ) => {
+
+    n = parseInt( n );
+
+    switch( locale ) {
+
+        case 'en':
+            return n + '<sup>' + (
+                n % 100 >= 11 &&
+                n % 100 <= 13
+                    ? 'th' : [
+                        'th', 'st', 'nd', 'rd', 'th',
+                        'th', 'th', 'th', 'th', 'th'
+                    ][ n % 10 ]
+            ) + '</sup>';
+
+        case 'de':
+            return n + '.';
+
+    }
 
 };
 
@@ -70,6 +98,16 @@ const number = ( n, digits = 12 ) => {
 
             return number( { value: n }, digits );
 
+        } else if( Array.isArray( n ) ) {
+
+            /**
+             * return multiple formatted values
+             */
+
+            return n.map( ( p ) => {
+                return number( p, digits );
+            } ).join( '<br />' );
+
         } else if( 'value' in n ) {
 
             /**
@@ -85,50 +123,50 @@ const number = ( n, digits = 12 ) => {
             }
 
             /**
-         * format single value
-         */
+             * format single value
+             */
 
-        let res = [
+            let res = [
 
-            ( !isNaN( n.value ) && n.value != null
-                ? ( new Intl.NumberFormat( locale, {
-                      maximumSignificantDigits: digits,
-                      roundingMode: 'floor'
-                  } ) ).format(
-                      n.value / Math.pow( 10, exp )
-                  ) + ( exp
-                      ? text( '·10[' + exp + ']' )
-                      : '' )
-                : '' ),
+                ( !isNaN( n.value ) && n.value != null
+                    ? ( new Intl.NumberFormat( locale, {
+                        maximumSignificantDigits: digits,
+                        roundingMode: 'floor'
+                    } ) ).format(
+                        n.value / Math.pow( 10, exp )
+                    ) + ( exp
+                        ? text( '·10[' + exp + ']' )
+                        : '' )
+                    : '' ),
 
-            // deviation
-            ( n.deviation
-                ? '±' + number( { value: n.deviation }, digits )
-                : '' ),
+                // deviation
+                ( n.deviation
+                    ? '±' + number( { value: n.deviation }, digits )
+                    : '' ),
 
-            // range
-            ( n.range
-                ? '[' + n.range.map( rn => {
-                    return number( { value: rn }, digits );
-                } ).join( ' … ' ) + ']'
-                : '' ),
+                // range
+                ( n.range
+                    ? '[' + n.range.map( rn => {
+                        return number( { value: rn }, digits );
+                    } ).join( ' … ' ) + ']'
+                    : '' ),
 
-            // unit
-            ( n.unit
-                ? unit( n.unit )
-                : '' ),
+                // unit
+                ( n.unit
+                    ? unit( n.unit )
+                    : '' ),
 
-            // @ (second value)
-            ( '@' in n
-                ? '@ ' + number( n['@'], digits )
-                : '' ),
+                // @ (second value)
+                ( '@' in n
+                    ? '@ ' + number( n['@'], digits )
+                    : '' ),
 
-            // condition(s)
-            ( n.condition
-                ? '(' + n.condition.map( c => {
-                    return number( c, digits )
-                } ).join( ', ' ) + ')'
-                : '' )
+                // condition(s)
+                ( n.condition
+                    ? '(' + n.condition.map( c => {
+                        return number( c, digits )
+                    } ).join( ', ' ) + ')'
+                    : '' )
 
             ].filter( r => r ).join( ' ' );
 
@@ -158,11 +196,29 @@ const number = ( n, digits = 12 ) => {
 
             return res;
 
+        } else if( 'values' in n ) {
+
+            /**
+             * format multiple values
+             */
+
+            return n.values.map( ( v, i ) => {
+
+                return '(' + ordinal( i + 1 ) + ')&nbsp;' +
+                    number( {
+                        ...n,
+                        value: v
+                    }, digits );
+
+            } ).filter( p => p ).join( '<br />' );
+
         }
+
+        return i18n.__( 'undefined' );
 
     } catch ( err ) {
 
-        return 'ERR (' + err + ')';
+        return i18n.__( 'error', err );
 
     }
 
@@ -173,5 +229,6 @@ const number = ( n, digits = 12 ) => {
  */
 module.exports = {
     setLocale,
-    text, number
+    text, ordinal,
+    unit, number
 };
