@@ -138,14 +138,21 @@ module.exports = class DB {
      * @param {String} key item key
      * @param {String} path searchable path
      * @param {String} type property type
+     * @param {Mixed} value mixed test value
      * @returns return property
      */
-    prop = ( key, path, type = 'value' ) => {
+    prop = ( key, path, type = 'value', value = null ) => {
+
+        let p = key + '.' + path;
 
         switch( type ) {
 
+            case 'prop':
+                return +!!( this.get( p ) || [] ).includes( value || '' );
+
+            default:
             case 'value':
-                return this.get( key + '.' + path ) || 'undefined';
+                return this.get( p ) || 'undefined';
 
         }
 
