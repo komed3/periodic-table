@@ -122,6 +122,93 @@ block content
                   )!= __( 'phase-' + page.element.data.phase )
                 else
                   span!= __( 'undefined' )
+        //- temperatures
+        if page.element.data.temperature
+          h3!= __( 'temperatures' )
+          table.pt-prop-table.pt-element-table
+            tbody
+              each prop, label in page.element.data.temperature
+                tr.pt-prop-table-row
+                  th.pt-prop-table-label
+                    a( href= core.url( '/scale/temp_' + label ) )!= __( label + '-temp' )
+                  td.pt-prop-table-value!= f.number( prop )
+        //- enthalpies
+        if page.element.data.enthalpy
+          h3!= __( 'enthalpies' )
+          table.pt-prop-table.pt-element-table
+            tbody
+              each prop, label in page.element.data.enthalpy
+                tr.pt-prop-table-row
+                  th.pt-prop-table-label
+                    a( href= core.url( '/scale/enthalpy_' + label ) )!= __( label + '-enthalpy' )
+                  td.pt-prop-table-value!= f.number( prop )
+        //- thermal
+        if page.element.data.heat
+          h3!= __( 'heat-conduction' )
+          table.pt-prop-table.pt-element-table
+            tbody
+              each prop, label in page.element.data.heat
+                tr.pt-prop-table-row
+                  th.pt-prop-table-label
+                    a( href= core.url( '/scale/' + label ) )!= __( label )
+                  td.pt-prop-table-value!= f.number( prop )
+        //- hardness props
+        if page.element.data.hardness
+          h3!= __( 'hardnesses' )
+          table.pt-prop-table.pt-element-table
+            tbody
+              each prop, label in page.element.data.hardness
+                tr.pt-prop-table-row
+                  th.pt-prop-table-label
+                    a( href= core.url( '/scale/hardness_' + label ) )!= __( label + '-hardness' )
+                  td.pt-prop-table-value!= f.number( prop )
+        //- elastic props
+        if page.element.data.elastic
+          h3!= __( 'elastics' )
+          table.pt-prop-table.pt-element-table
+            tbody
+              each prop, label in page.element.data.elastic
+                tr.pt-prop-table-row
+                  th.pt-prop-table-label
+                    a( href= core.url( '/scale/elastic_' + label ) )!= __( label + '-elastic' )
+                  td.pt-prop-table-value!= f.number( prop )
+        //- electrical
+        if page.element.data.electrical
+          h3!= __( 'electrical' )
+          table.pt-prop-table.pt-element-table
+            tbody
+              each prop, label in page.element.data.electrical
+                tr.pt-prop-table-row
+                  th.pt-prop-table-label
+                    a( href= core.url( '/scale/electrical_' + label ) )!= __( 'electrical_' + label )
+                  td.pt-prop-table-value!= f.number( prop )
+        //- magnetism
+        h3!= __( 'magnetism' )
+        table.pt-prop-table.pt-element-table
+          tbody
+            tr.pt-prop-table-row
+              th.pt-prop-table-label!= __( 'magnetic_ordering-label' )
+              td.pt-prop-table-value
+                if page.element.data.magnetic_ordering
+                  a(
+                    href= core.url( '/list/magnetic_ordering/' + page.element.data.magnetic_ordering )
+                  )!= __( 'magnetic_ordering-' + page.element.data.magnetic_ordering )
+                else
+                  span!= __( 'undefined' )
+            if page.element.data.magnetic_susceptibility
+              tr.pt-prop-table-row
+                th.pt-prop-table-label!= __( 'magnetic_susceptibility' )
+                td.pt-prop-table-value!= f.number( page.element.data.magnetic_susceptibility )
+        //- optical props
+        if page.element.data.optical
+          h3!= __( 'optical' )
+          table.pt-prop-table.pt-element-table
+            tbody
+              each prop, label in page.element.data.optical
+                tr.pt-prop-table-row
+                  th.pt-prop-table-label
+                    a( href= core.url( '/scale/optical_' + label ) )!= __( label + '-optical' )
+                  td.pt-prop-table-value!= f.number( prop )
 
       //- chemic properties
       div.pt-box.pt-element-box.pt-element-chemic
