@@ -1,0 +1,30 @@
+//- ionization energy page
+extends page.pug
+
+block content
+  div.pt-page.pt-box.pt-ionization
+    h1!= __( 'ionization-title' )
+    p.pt-page-intro!= __( 'ionization-description' )
+    div.pt-prop-table-container
+      table.pt-prop-table.zebra.pt-ionization-table
+        thead
+          tr.pt-prop-table-row
+            th.pt-prop-table-label( colspan= '2' )!= __( 'element' )
+            th.pt-prop-table-label( colspan= '7' )!= __( 'ionization-title' ) + ' [' + f.unit( 'eV' ) + ']'
+        tbody
+          each el, k in elements.database
+            tr.pt-prop-table-row
+              td.pt-prop-table-value.mini
+                sub!= el.number
+                span!= el.symbol
+              td.pt-prop-table-value
+                a( href= core.url( '/element/' + el.symbol ) )!= el.names[ locale ]
+              if el.ionization
+                - for( let i = 0; i < 7; i++ ) {
+                  if el.ionization.values[ i ]
+                    td.pt-prop-table-value.right!= f.number( { value: el.ionization.values[ i ], '*': el.ionization['*'] }, 5 )
+                  else
+                    td.pt-prop-table-value
+                - }
+              else
+                td.pt-prop-table-value( colspan= '7' )!= __( 'undefined' )
