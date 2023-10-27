@@ -158,6 +158,14 @@ const number = ( n, digits = 12 ) => {
 
             let res = [
 
+                // label
+                ( n.label
+                    ? n.label.substring( 0, 1 ) == '_'
+                        ? n.label.substring( 1 )
+                        : i18n.__( n.label ) + ': '
+                    : '' ),
+
+                // formatted number
                 ( !isNaN( n.value ) && n.value != null
                     ? ( new Intl.NumberFormat( locale, {
                         maximumSignificantDigits: digits,
