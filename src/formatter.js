@@ -272,11 +272,43 @@ const time = ( time, float = true ) => {
 };
 
 /**
+ * format datetime to human readable date string
+ * @param {String} datetime datetime string
+ * @param {String} format date style
+ * @returns formatted date string
+ */
+const date = ( datetime, format = 'full' ) => {
+
+    return (
+        new Date( datetime )
+    ).toLocaleDateString( locale, {
+        dateStyle: format
+    } );
+
+};
+
+/**
+ * format datetime to human readable time string
+ * @param {String} datetime datetime string
+ * @param {String} format time style
+ * @returns formatted time string
+ */
+const dateTime = ( datetime, format = 'short' ) => {
+
+    return (
+        new Date( datetime )
+    ).toLocaleTimeString( locale, {
+        timeStyle: format
+    } );
+
+};
+
+/**
  * export public methods
  */
 module.exports = {
     setLocale,
     text, ordinal,
     unit, number,
-    time
+    time, date, dateTime
 };

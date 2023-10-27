@@ -194,5 +194,22 @@ block content
           h2!= __( 'classification' )
           include templates/classification.pug
 
+      //- weblinks
+      div.pt-box.pt-element-box.pt-element-weblinks
+        h2!= __( 'weblinks' )
+        if page.element.data.wiki && page.element.data.wiki[ locale ]
+          a.weblink( href= 'https://wikipedia.org/wiki/' + locale + ':' + page.element.data.wiki[ locale ] )
+            i.icon link
+            span!= __( 'weblink-wiki', page.element.name, locale )
+        if page.element.data.weblinks
+          each link in page.element.data.weblinks
+            a.weblink( href= link.url )
+              i.icon link
+              span= link.text
+
+      //- @modified
+      if page.element.data[ '@modified' ]
+        p.pt-modified!= __( '@modified', f.date( page.element.data[ '@modified' ] ) )
+
   div.pt-page.pt-element-footer
     include templates/microtable.pug

@@ -1,6 +1,7 @@
 {
 	"404-description": "Die angeforderte Seite konnte leider nicht gefunden werden. Möglicherweise wurden die Inhalte gelöscht, zu einer anderen URL verschoben oder die Anfrage enthält einen Tippfehler.",
 	"404-title": "Seite nicht gefunden",
+	"@modified": "Zuletzt bearbeitet am %s",
 	"action-download": "Datensatz speichern",
 	"action-print": "Drucken",
 	"appearance": "Aussehen",
@@ -191,5 +192,7 @@
 	"unit-pm": "Pikometer",
 	"unit-u": "atomare Masseneinheit",
 	"vdw-radius": "Van-der-Waals-Radius",
+	"weblink-wiki": "%s in der Wikipedia (%s)",
+	"weblinks": "Weiterführende Links",
 	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" class=\"external\" target=\"_blank\">Weiterlesen …</a>"
 }

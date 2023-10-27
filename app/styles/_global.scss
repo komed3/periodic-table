@@ -103,6 +103,26 @@ a.red {
     color: var( --accent-3 );
 }
 
+a.external,
+a.weblink span {
+    color: var( --accent-1 );
+}
+
+a.external:hover,
+a.weblink:hover span {
+    text-decoration: underline;
+}
+
+a.weblink {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+    width: max-content;
+}
+
 a.pt-icon-button {
     display: flex;
     justify-content: center;
@@ -163,6 +183,13 @@ select {
     width: 360px;
 }
 
+.pt-modified {
+    margin: 0;
+    text-align: right;
+    font-size: 12px;
+    color: var( --gray-3 );
+}
+
 /* global elements */
 
 /* page */
@@ -170,16 +197,6 @@ select {
 .pt-page {
     margin: var( --padding ) auto;
     max-width: var( --content );
-}
-
-.pt-page a.external,
-.pt-page a.weblink {
-    color: var( --accent-1 );
-}
-
-.pt-page a.external:hover,
-.pt-page a.weblink:hover {
-    text-decoration: underline;
 }
 
 .pt-page-intro {
