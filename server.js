@@ -162,6 +162,7 @@ app.use( i18n.init );
 
 app.use( ( req, res, next ) => {
 
+    res.locals.config = config;
     res.locals.core = core;
     res.locals.f = formatter;
 

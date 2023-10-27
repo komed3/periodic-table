@@ -12,3 +12,26 @@ i18n:
 themes:
   default: light
   list: [ light, dark ]
+
+abundances:
+  universe:
+    mass: 2.0e+49
+    icon: satellite_alt
+  sun:
+    mass: 1.989e+30
+    icon: sunny
+  meteorite:
+    mass: 1.0e+3
+    icon: destruction
+  crust:
+    mass: 2.77e+22
+    icon: public
+  water:
+    mass: 1.37e+18
+    icon: water_drop
+  stream:
+    mass: 1.6e+16
+    icon: waves
+  human:
+    mass: 70.0
+    icon: accessibility_new

@@ -229,6 +229,13 @@ block content
       div.pt-box.pt-element-box.pt-element-other
         h2!= __( 'other-props' )
 
+      //- natural abundances
+      if page.element.data.abundance
+      - var abundances = page.element.data.abundance
+      div.pt-box.pt-element-box.pt-element-abundance
+        h2!= __( 'abundances-title' )
+        include templates/abundance.pug
+
       //- properties / categories
       if page.element.data.properties
       div.pt-categories.pt-element-props

@@ -263,6 +263,23 @@ const number = ( n, digits = 12 ) => {
 };
 
 /**
+ * format weight to human readable
+ * @param {Float|Int} weight weight in kg
+ * @param {Boolean} float use floating
+ * @returns formatted weight in [t, kg, ...]
+ */
+const weight = ( weight, float = true ) => {
+
+    return unitParts( {
+        'M☉': 1.989e30,
+        Mt: 1e12, Gt: 1e9, kt: 1e6,
+        t: 1e3, kg: 1, g: 1e-3, mg: 1e-6,
+        μg: 1e-9
+    }, weight, float );
+
+};
+
+/**
  * format time to human readable
  * @param {Int} time time in seconds
  * @param {Boolean} float use floating
@@ -317,6 +334,6 @@ const dateTime = ( datetime, format = 'short' ) => {
 module.exports = {
     setLocale,
     text, ordinal,
-    unit, number,
+    unit, number, weight,
     time, date, dateTime
 };

@@ -1,0 +1,30 @@
+.pt-abundance-grid {
+    display: grid;
+    grid-template-columns: repeat( 2, 1fr );
+    gap: 18px 32px;
+}
+
+.pt-abundance-item {
+    display: grid;
+    grid-template-columns: 32px auto;
+    align-items: center;
+    gap: 6px;
+}
+
+.pt-abundance-icon {
+    font-size: 26px;
+}
+
+.pt-abundance-info {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+}
+
+.pt-abundance-info a {
+    font-weight: bold;
+    color: var( --accent-1 );
+}
+
+.pt-abundance-info a:hover {
+    text-decoration: underline;
+}
