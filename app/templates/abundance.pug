@@ -5,8 +5,8 @@ div.pt-abundance-grid
       i.icon.pt-abundance-icon!= a.icon
       div.pt-abundance-info
         a( href= core.url( '/abundance/' + k ) )!= __( k + '-abundance' )
-          if k in abundances
-            - var mass = abundances[ k ].value / 1e9 * a.mass
-            div!= f.number( abundances[ k ] ) + ' ≈&nbsp;' + f.weight( mass )[0]
-          else
-            div!= __( 'undefined' )
+        if k in abundances
+          - var mass = abundances[ k ].value / 1e9 * a.mass
+          div!= f.number( abundances[ k ] ) + ' ≈&nbsp;' + f.weight( mass )[0]
+        else
+          div!= __( 'undefined' )
