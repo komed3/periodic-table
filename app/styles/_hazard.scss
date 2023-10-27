@@ -2,6 +2,10 @@
     margin-top: 24px;
 }
 
+.pt-hazard i {
+    color: var( --gray-3 );
+}
+
 .pt-hazard-item {
     align-items: center;
 }
@@ -16,4 +20,71 @@
 
 .pt-hazard-pictograms {
     gap: 8px;
+}
+
+/* NFPA704 */
+
+.pt-hazard-nfpa-diamond {
+    position: relative;
+    flex: 0 0 auto;
+    display: grid;
+    grid-template-columns: repeat( 2, 1fr );
+    grid-template-rows: repeat( 2, 1fr );
+    grid-template-areas:
+        'h f'
+        's i';
+    width: 96px;
+    height: 96px;
+    padding: 14px;
+    transform: rotate( -45deg );
+}
+
+.pt-hazard-nfpa-diamond::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url( '/res/NFPA704.png' );
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate( 45deg );
+}
+
+.pt-hazard-nfpa-diamond > div {
+    grid-area: var( --code );
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    color: var( --accent-main );
+    transform: rotate( 45deg );
+}
+
+.pt-hazard-nfpa-diamond > div.s {
+    line-height: 0.9;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.pt-hazard-nfpa-diamond > div.s b[code="W"] {
+    text-decoration: line-through;
+}
+
+.pt-hazard-nfpa-info {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    gap: 4px;
+}
+
+.pt-hazard-nfpa-info-line {
+    font-size: 14px;
+}
+
+.pt-hazard-nfpa-info-line span {
+    padding-left: 12px;
 }

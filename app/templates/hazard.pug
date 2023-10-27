@@ -25,20 +25,20 @@ div.pt-hazard
         span!= hazard.p.join( ', ' )
       else
         i!= __( 'hazard-precautionary-undefined' )
-  //-if element.hazardous.nfpa
-            h3!= __( 'nfpa-title' )
-            div.pt-box-flex.pt-nfpa
-              div.pt-nfpa-diamond
-                each key in [ 'h', 'f', 'i', 's' ]
-                  div( class=key, style= '--code:' + key )
-                    each code in ( element.hazardous.nfpa[ key ] || '—' ).split( '|' )
-                      b( code=code )= code
-              div.pt-nfpa-info
-                each key in [ 'h', 'f', 'i', 's' ]
-                  div.pt-nfpa-info-line
-                    b!= __( 'nfpa-' + key )
-                    each code in ( element.hazardous.nfpa[ key ] || 'undefined' ).split( '|' )
-                      span!= __( 'nfpa-' + key + '-' + code )
+  if hazard.nfpa
+    h3!= __( 'nfpa' )
+    div.pt-box-flex.pt-hazard-nfpa
+      div.pt-hazard-nfpa-diamond
+        each key in [ 'h', 'f', 'i', 's' ]
+          div( class= key, style= '--code:' + key )
+            each code in ( hazard.nfpa[ key ] || '—' ).split( '|' )
+              b( code= code )= code
+      div.pt-hazard-nfpa-info
+        each key in [ 'h', 'f', 'i', 's' ]
+          div.pt-hazard-nfpa-info-line
+            b!= __( 'nfpa-' + key )
+            each code in ( hazard.nfpa[ key ] || 'undefined' ).split( '|' )
+              span!= __( 'nfpa-' + key + '-' + code )
   if hazard.hazard
     h3!= __( 'pictograms' )
     div.pt-box-flex.pt-box-center.pt-hazard-pictograms
