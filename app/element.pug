@@ -111,6 +111,17 @@ block content
       //- physic properties
       div.pt-box.pt-element-box.pt-element-physic
         h2!= __( 'physical-props' )
+        table.pt-prop-table.pt-element-table
+          tbody
+            tr.pt-prop-table-row
+              th.pt-prop-table-label!= __( 'phase-label' )
+              td.pt-prop-table-value
+                if page.element.data.phase
+                  a(
+                    href= core.url( '/list/phase/' + page.element.data.phase )
+                  )!= __( 'phase-' + page.element.data.phase )
+                else
+                  span!= __( 'undefined' )
 
       //- chemic properties
       div.pt-box.pt-element-box.pt-element-chemic
