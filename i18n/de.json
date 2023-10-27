@@ -80,6 +80,7 @@
 	"github": "GitHub",
 	"glossary-title": "Glossar",
 	"graphite": "Graphit",
+	"gray": "grau",
 	"group-1": "Alkalimetalle",
 	"group-1-description": "Alkalimetalle (1. Hauptgruppe) sind silbrig glänzende, reaktive Metalle (ausgenommen Wasserstoff), die in ihrer Valenzschale ein einzelnes Elektron besitzen, das sie als starke Reduktionsmittel leicht abgeben können.",
 	"group-10": "Nickelgruppe",
@@ -320,6 +321,7 @@
 	"wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" class=\"external\" target=\"_blank\">Weiterlesen …</a>",
 	"work_function": "Austrittsarbeit",
 	"work_function-description": "Als Austrittsarbeit wird die Energie bezeichnet, die aufgebracht werden muss, um ein Elektron aus einem ungeladenen Festkörper zu lösen.",
+	"yellow": "gelb",
 	"young-elastic": "Youngscher Modul",
 	"young-elastic-description": "Der nach Thomas Young benannte Materialkennwert beschreibt bei linear-elastischem Verhalten den proportionalen Zusammenhang zwischen Spannung und Dehnung bei der Verformung eines festen Körpers."
 }
