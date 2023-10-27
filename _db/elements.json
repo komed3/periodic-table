@@ -111,7 +111,7 @@
         "era": "enlightenment",
         "goldschmidt": "atmophile",
         "group": 1,
-        "hazardous": {
+        "hazard": {
             "h": [
                 "220",
                 "280"
@@ -387,7 +387,7 @@
         "era": "classifying",
         "goldschmidt": "atmophile",
         "group": 18,
-        "hazardous": {
+        "hazard": {
             "h": [
                 "280"
             ],
@@ -673,7 +673,7 @@
         "hardness": {
             "mohs": 0.6
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "260",
                 "314"
@@ -985,7 +985,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "301",
                 "315",
@@ -1287,7 +1287,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "302",
                 "412"
@@ -1579,7 +1579,7 @@
         "hardness": {
             "mohs": 0.51
         },
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Glassy_carbon_and_a_1cm3_graphite_cube_HP68-79.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Glassy_carbon_and_a_1cm3_graphite_cube_HP68-79.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
@@ -1826,7 +1826,7 @@
         "era": "enlightenment",
         "goldschmidt": "atmophile",
         "group": 15,
-        "hazardous": {
+        "hazard": {
             "h": [
                 "280"
             ],
@@ -2091,7 +2091,7 @@
         "era": "enlightenment",
         "goldschmidt": "lithophile",
         "group": 16,
-        "hazardous": {
+        "hazard": {
             "h": [
                 "270",
                 "280"
@@ -2385,7 +2385,7 @@
         "era": "classifying",
         "goldschmidt": "lithophile",
         "group": 17,
-        "hazardous": {
+        "hazard": {
             "h": [
                 "270",
                 "280",
@@ -2642,7 +2642,7 @@
         "era": "classifying",
         "goldschmidt": "atmophile",
         "group": 18,
-        "hazardous": {
+        "hazard": {
             "h": [
                 "280"
             ],
@@ -2910,7 +2910,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "260",
                 "314"
@@ -3222,7 +3222,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "260",
                 "250"
@@ -3531,7 +3531,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "250",
                 "261"
@@ -3808,7 +3808,7 @@
         "hardness": {
             "mohs": 6.5
         },
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/SiliconCroda.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:SiliconCroda.jpg\">Enricoros at English Wikipedia</a>, Public domain, via Wikimedia Commons"
@@ -4080,7 +4080,7 @@
         "era": "enlightenment",
         "goldschmidt": "lithophile",
         "group": 15,
-        "hazardous": {
+        "hazard": {
             "h": [
                 "250",
                 "300+330",
@@ -4394,7 +4394,7 @@
         "hardness": {
             "mohs": 2
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "315"
             ],
@@ -4660,7 +4660,7 @@
         "era": "enlightenment",
         "goldschmidt": "lithophile",
         "group": 17,
-        "hazardous": {
+        "hazard": {
             "h": [
                 "270",
                 "280",
@@ -4924,7 +4924,7 @@
         "era": "classifying",
         "goldschmidt": "atmophile",
         "group": 18,
-        "hazardous": {
+        "hazard": {
             "h": [
                 "280"
             ],
@@ -5200,7 +5200,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "260",
                 "314"
@@ -5506,7 +5506,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "261"
             ],
@@ -5787,7 +5787,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -6056,7 +6056,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "250",
                 "252"
@@ -6344,7 +6344,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Vanadium_crystal_bar_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Vanadium_crystal_bar_and_1cm3_cube.jpg\">Alchemist-hp (pse-mendelejew.de).</a>, FAL, via Wikimedia Commons"
@@ -6613,7 +6613,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Chromium_crystals_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Chromium_crystals_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
@@ -6929,7 +6929,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -7232,7 +7232,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Iron_electrolytic_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Iron_electrolytic_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
@@ -7503,7 +7503,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228",
                 "302",
@@ -7812,7 +7812,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228",
                 "351",
@@ -8138,7 +8138,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228",
                 "410"
@@ -8418,7 +8418,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "250",
                 "260",
@@ -8688,7 +8688,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "290",
                 "302",
@@ -8958,7 +8958,7 @@
         "hardness": {
             "mohs": 6
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -9241,7 +9241,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "301+331",
                 "350",
@@ -9543,7 +9543,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "331",
                 "301",
@@ -9825,7 +9825,7 @@
         "era": "revolution",
         "goldschmidt": "lithophile",
         "group": 17,
-        "hazardous": {
+        "hazard": {
             "h": [
                 "330",
                 "314",
@@ -10123,7 +10123,7 @@
         "era": "classifying",
         "goldschmidt": "atmophile",
         "group": 18,
-        "hazardous": {
+        "hazard": {
             "h": [
                 "280"
             ],
@@ -10387,7 +10387,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "260",
                 "314"
@@ -10677,7 +10677,7 @@
         "hardness": {
             "mohs": 1.5
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "260",
                 "315"
@@ -10951,7 +10951,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -11227,7 +11227,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "250",
                 "260"
@@ -11493,7 +11493,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -11766,7 +11766,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Molybdenum_crystaline_fragment_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Molybdenum_crystaline_fragment_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
@@ -11975,7 +11975,7 @@
         "era": "quantum",
         "goldschmidt": "synthetic",
         "group": 7,
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Technetium-sample-cropped.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Technetium-sample-cropped.jpg\">GFDL</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons"
@@ -12205,7 +12205,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -12459,7 +12459,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -12740,7 +12740,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "317"
             ],
@@ -13026,7 +13026,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "410"
             ],
@@ -13381,7 +13381,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "250",
                 "350",
@@ -13730,7 +13730,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -14039,7 +14039,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Tin-2.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Tin-2.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -14300,7 +14300,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "351"
             ],
@@ -14553,7 +14553,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "332",
                 "317",
@@ -14845,7 +14845,7 @@
         "era": "revolution",
         "goldschmidt": "lithophile",
         "group": 17,
-        "hazardous": {
+        "hazard": {
             "h": [
                 "312+332",
                 "315",
@@ -15161,7 +15161,7 @@
         "era": "classifying",
         "goldschmidt": "atmophile",
         "group": 18,
-        "hazardous": {
+        "hazard": {
             "h": [
                 "280"
             ],
@@ -15441,7 +15441,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "260",
                 "314"
@@ -15717,7 +15717,7 @@
         "hardness": {
             "mohs": 1.25
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228",
                 "260",
@@ -16012,7 +16012,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -16280,7 +16280,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -16558,7 +16558,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "250"
             ],
@@ -16833,7 +16833,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "315",
                 "319",
@@ -17078,7 +17078,7 @@
         "era": "quantum",
         "goldschmidt": "synthetic",
         "group": 19,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 5.58187,
@@ -17303,7 +17303,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "261"
             ],
@@ -17569,7 +17569,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "250"
             ],
@@ -17822,7 +17822,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "261"
             ],
@@ -18090,7 +18090,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Terbium-2.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Terbium-2.jpg\">http://images-of-elements.com/</a>, <a href=\"https://creativecommons.org/licenses/by/1.0\">CC BY 1.0</a>, via Wikimedia Commons"
@@ -18338,7 +18338,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -18603,7 +18603,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -18857,7 +18857,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -19114,7 +19114,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228",
                 "319",
@@ -19379,7 +19379,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228",
                 "302",
@@ -19658,7 +19658,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -19905,7 +19905,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "250"
             ],
@@ -20175,7 +20175,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -20464,7 +20464,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -20749,7 +20749,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -21001,7 +21001,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228",
                 "315",
@@ -21271,7 +21271,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228",
                 "319"
@@ -21542,7 +21542,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Platinum_crystals.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Platinum_crystals.jpg\">Periodictableru</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -21810,7 +21810,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Or_natif1.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Or_natif1.jpg\">Urban</a>, Public domain, via Wikimedia Commons"
@@ -22064,7 +22064,7 @@
         "hardness": {
             "mohs": 1.5
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "330",
                 "360D",
@@ -22414,7 +22414,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "300",
                 "330",
@@ -22711,7 +22711,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "302",
                 "332",
@@ -23039,7 +23039,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -23281,7 +23281,7 @@
         "era": "classifying",
         "goldschmidt": "synthetic",
         "group": 16,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 8.41807,
@@ -23430,7 +23430,7 @@
         "era": "quantum",
         "goldschmidt": "synthetic",
         "group": 17,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 9.31751,
@@ -23567,7 +23567,7 @@
         "era": "quantum",
         "goldschmidt": "synthetic",
         "group": 18,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 10.7485,
@@ -23711,7 +23711,7 @@
         "era": "quantum",
         "goldschmidt": "synthetic",
         "group": 1,
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Pichblende.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Pichblende.jpg\">Template:Farhan</a>, <a href=\"https://creativecommons.org/licenses/by-sa/2.5\">CC BY-SA 2.5</a>, via Wikimedia Commons"
@@ -23905,7 +23905,7 @@
         "era": "classifying",
         "goldschmidt": "synthetic",
         "group": 2,
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Radium226.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Radium226.jpg\">grenadier</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -24053,7 +24053,7 @@
         "era": "classifying",
         "goldschmidt": "synthetic",
         "group": 20,
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Actinium_sample_%2831481701837%29.png",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Actinium_sample_(31481701837).png\">Oak Ridge National Laboratory</a>, <a href=\"https://creativecommons.org/licenses/by/2.0\">CC BY 2.0</a>, via Wikimedia Commons"
@@ -24263,7 +24263,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Thorium_sample_0.1g.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Thorium_sample_0.1g.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
@@ -24468,7 +24468,7 @@
         "era": "quantum",
         "goldschmidt": "synthetic",
         "group": 20,
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Protactinium-233.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Protactinium-233.jpg\">ENERGY.GOV</a>, Public domain, via Wikimedia Commons"
@@ -24688,7 +24688,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "330",
                 "300",
@@ -24903,7 +24903,7 @@
         "era": "quantum",
         "goldschmidt": "synthetic",
         "group": 20,
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Np_sphere.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Np_sphere.jpg\">Los Alamos National Lab.</a>, Public domain, via Wikimedia Commons"
@@ -25086,7 +25086,7 @@
         "era": "quantum",
         "goldschmidt": "synthetic",
         "group": 20,
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Plutonium_ring.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Plutonium_ring.jpg\">Los Alamos National Laboratory</a>, Attribution, via Wikimedia Commons"
@@ -25271,7 +25271,7 @@
         "era": "quantum",
         "goldschmidt": "synthetic",
         "group": 20,
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Americium_microscope.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Americium_microscope.jpg\">Bionerd</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -25428,7 +25428,7 @@
         "era": "quantum",
         "goldschmidt": "synthetic",
         "group": 20,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 5.99141,
@@ -25561,7 +25561,7 @@
         "era": "quantum",
         "goldschmidt": "synthetic",
         "group": 20,
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Berkelium_metal.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Berkelium_metal.jpg\">Oak Ridge National Laboratory, US Department of Energy</a>, Public domain, via Wikimedia Commons"
@@ -25687,7 +25687,7 @@
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 20,
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Californium.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Californium.jpg\">United States Department of Energy (see File:Einsteinium.jpg)</a>, Public domain, via Wikimedia Commons"
@@ -25808,7 +25808,7 @@
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 20,
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Einsteinium.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Einsteinium.jpg\">Haire, R. G., US Department of Energy.Touched up by Materialscientist at en.wikipedia.</a>, Public domain, via Wikimedia Commons"
@@ -25918,7 +25918,7 @@
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 20,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 6.5,
@@ -26014,7 +26014,7 @@
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 20,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 6.58,
@@ -26105,7 +26105,7 @@
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 20,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 6.62621,
@@ -26197,7 +26197,7 @@
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 20,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 4.96,
@@ -26295,7 +26295,7 @@
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 4,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 6.02,
@@ -26415,7 +26415,7 @@
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 5,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 6.8,
@@ -26514,7 +26514,7 @@
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 6,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 7.8,
@@ -26613,7 +26613,7 @@
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 7,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 7.7,
@@ -26705,7 +26705,7 @@
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 8,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 7.6,
@@ -26797,7 +26797,7 @@
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 9,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 8.3
@@ -26886,7 +26886,7 @@
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 10,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 9.9
@@ -26974,7 +26974,7 @@
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 11,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 10.6
@@ -27062,7 +27062,7 @@
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 12,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 12
@@ -27178,7 +27178,7 @@
         "era": "recent",
         "goldschmidt": "synthetic",
         "group": 13,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 7.31
@@ -27284,7 +27284,7 @@
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 14,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 8.54
@@ -27380,7 +27380,7 @@
         "era": "recent",
         "goldschmidt": "synthetic",
         "group": 15,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 5.57
@@ -27485,7 +27485,7 @@
         "era": "recent",
         "goldschmidt": "synthetic",
         "group": 16,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 7.5
@@ -27605,7 +27605,7 @@
         "era": "recent",
         "goldschmidt": "synthetic",
         "group": 17,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 7.7
@@ -27721,7 +27721,7 @@
         "era": "recent",
         "goldschmidt": "synthetic",
         "group": 18,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 8.7
