@@ -122,6 +122,17 @@ block content
                   )!= __( 'phase-' + page.element.data.phase )
                 else
                   span!= __( 'undefined' )
+            if page.element.data.density
+              tr.pt-prop-table-row
+                th.pt-prop-table-label
+                  a( href= core.url( '/scale/density' ) )!= __( 'density' )
+                td.pt-prop-table-value!= f.number( page.element.data.density )
+            each prop in [ 'molar_volume', 'sound_speed', 'heat_capacity', 'thermal_conductivity' ]
+              if page.element.data[ prop ]
+                tr.pt-prop-table-row
+                  th.pt-prop-table-label
+                    a( href= core.url( '/scale/' + prop ) )!= __( prop )
+                  td.pt-prop-table-value!= f.number( page.element.data[ prop ] )
         //- temperatures
         if page.element.data.temperature
           h3!= __( 'temperatures' )
