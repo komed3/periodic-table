@@ -246,6 +246,22 @@ select {
     border-radius: 16px;
 }
 
+/* categories */
+
+.pt-categories {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 6px;
+    max-width: 75%;
+}
+
+.pt-category-link {
+    padding: 4px 8px;
+    font-size: 14px;
+    color: var( --color-light );
+    background: var( --accent-1 );
+}
+
 /* prop table */
 
 .pt-prop-table {

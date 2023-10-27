@@ -116,6 +116,18 @@ block content
       div.pt-box.pt-element-box.pt-element-chemic
         h2!= __( 'chemical-props' )
 
+      //- other properties
+      div.pt-box.pt-element-box.pt-element-other
+        h2!= __( 'other-props' )
+
+      //- properties / categories
+      if page.element.data.properties
+      div.pt-categories.pt-element-props
+        each prop in page.element.data.properties
+          a.pt-category-link(
+            href= core.url( '/prop/' + prop )
+          )!= __( 'prop-' + prop )
+
     //- aside
     aside.pt-element-aside
 
