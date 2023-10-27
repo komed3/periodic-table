@@ -128,6 +128,7 @@
 	"group-description": "Das Periodensystem der Elemente wird in Spalten eingeteilt, die als Gruppen bezeichnet werden. Als Untergliederung gelten Haupt- und Nebengruppen. Die Elemente gleicher Gruppen weisen ähnliche Eigenschaften und die gleiche Anzahl der Valenzelektronen auf.",
 	"group-label": "Gruppe",
 	"hardnesses": "Härten",
+	"hazard-classification": "Gefahrenkennzeichnung",
 	"heat-conduction": "Wärme und Leitfähigkeit",
 	"heat_capacity": "Spezifische Wärmekapazität",
 	"heat_capacity-description": "Die spezifische Wärmekapazität bemisst die Fähigkeit eines Stoffes, thermische Energie zu speichern.",

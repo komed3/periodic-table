@@ -308,6 +308,13 @@ block content
             alt= __( 'spectrum-title' )
           )/
 
+      //- hazard classification
+      if page.element.data.hazard
+        - var hazard = page.element.data.hazard
+        div.pt-box.pt-element-box.pt-element-hazard
+          h2!= __( 'hazard-classification' )
+          include templates/hazard.pug
+
       //- toxicity
       if page.element.data.toxicity
         - var toxicity = page.element.data.toxicity
