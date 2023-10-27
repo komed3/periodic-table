@@ -268,6 +268,12 @@ select {
 
 /* prop table */
 
+.pt-prop-table-container {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
 .pt-prop-table {
     width: 100%;
     margin: 0 -6px;

@@ -8,18 +8,19 @@ block content
   div.pt-page.pt-box.pt-spectrum
     h1!= __( 'spectrum-title' )
     p.pt-page-intro!= __( 'spectrum-description' )
-    table.pt-prop-table.zebra.pt-element-table
-      tbody
-        each src, key in page.spectrum
-          - var el = elements.get( key )
-          tr.pt-prop-table-row
-            td.pt-prop-table-value.mini
-              sub!= el.number
-              span!= el.symbol
-            td.pt-prop-table-value.mini
-              a( href= core.url( '/element/' + el.symbol ) )!= el.names[ locale ]
-            td.pt-prop-table-value.pt-spectrum-img
-              if src && src.length
-                img( src= src )/
-              else
-                span!= __( 'undefined' )
+    div.pt-prop-table-container
+      table.pt-prop-table.zebra.pt-element-table
+        tbody
+          each src, key in page.spectrum
+            - var el = elements.get( key )
+            tr.pt-prop-table-row
+              td.pt-prop-table-value.mini
+                sub!= el.number
+                span!= el.symbol
+              td.pt-prop-table-value.mini
+                a( href= core.url( '/element/' + el.symbol ) )!= el.names[ locale ]
+              td.pt-prop-table-value.pt-spectrum-img
+                if src && src.length
+                  img( src= src )/
+                else
+                  span!= __( 'undefined' )
