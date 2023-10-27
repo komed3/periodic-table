@@ -7,16 +7,17 @@
   }
 div.pt-classification
   each prop, label in classification
-    div.pt-classification-item
-      b!= __( 'classification-' + label )
-      each p in prop
-        span.pt-classification-line
-          if label in links
-            a.external(
-              href!= links[ label ].replace( '$1', p.value ),
-              target= '_blank'
-            )= p.value
-          else
-            span= p.value
-          if p.label && p.label.length
-            span!= '&nbsp;(' + f.text( p.label ) + ')'
+    if prop != null
+      div.pt-classification-item
+        b!= __( 'classification-' + label )
+        each p in prop
+          span.pt-classification-line
+            if label in links
+              a.external(
+                href!= links[ label ].replace( '$1', p.value ),
+                target= '_blank'
+              )= p.value
+            else
+              span= p.value
+            if p.label && p.label.length
+              span!= '&nbsp;(' + f.text( p.label ) + ')'
