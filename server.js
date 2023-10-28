@@ -8,7 +8,7 @@
  * @license MIT
  */
 
-'use strict'
+'use strict';
 
 /**
  * load config file
@@ -122,7 +122,7 @@ app.use( ( req, res, next ) => {
          * localizazion
          */
 
-        res.locals.navURL = '/' + url.normalized[1];
+        res.locals.navURL = '/' + url.normalized.slice( 1 ).join( '/' );
         res.locals.canonical = req.protocol + '://' + req.hostname +
             core.getCanonical( url.string );
 

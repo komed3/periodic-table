@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 var i18n, locale, catalog;
 
