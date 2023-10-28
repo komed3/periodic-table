@@ -122,6 +122,7 @@ app.use( ( req, res, next ) => {
          * localizazion
          */
 
+        res.locals.navURL = '/' + url.normalized[1];
         res.locals.canonical = req.protocol + '://' + req.hostname +
             core.getCanonical( url.string );
 
