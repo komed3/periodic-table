@@ -261,6 +261,21 @@ block content
       //- other properties
       div.pt-box.pt-element-box.pt-element-other
         h2!= __( 'other-props' )
+        table.pt-prop-table.pt-element-table
+          tbody
+            each prop in [ 'natural_occurrence', 'crystal_structure', 'goldschmidt', 'superconductivity', 'radioactivity' ]
+              if page.element.data[ prop ]
+                tr.pt-prop-table-row
+                  th.pt-prop-table-label!= __( prop + '-label' )
+                  td.pt-prop-table-value
+                    a(
+                      href= core.url( '/list/' + prop + '/' + page.element.data[ prop ] )
+                    )!= __( prop + '-' + page.element.data[ prop ] )
+            if page.element.data.price
+              tr.pt-prop-table-row
+                th.pt-prop-table-label
+                  a( href= core.url( '/scale/price' ) )!= __( 'price-kg' )
+                td.pt-prop-table-value!= f.number( page.element.data.price )
 
       //- natural abundances
       if page.element.data.abundance
