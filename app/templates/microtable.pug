@@ -11,6 +11,10 @@ div.pt-table.pt-microtable.noselect(
       prop= value,
       title= el.names[ locale ],
       class= 'pt-el pt-microtable-item' + (
+        el.phase
+          ? ' ' + el.phase
+          : ''
+      ) + (
         el.radioactive
           ? ' radioactive'
           : ''

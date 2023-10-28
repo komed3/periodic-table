@@ -22,6 +22,12 @@
     --pt-scheme-ice-09: #719ce3;
     --pt-scheme-ice-10: #778ddc;
 
+    --pt-special-green: #a7d699;
+    --pt-special-violet: #dac8da;
+    --pt-special-pink: #f0b9de;
+    --pt-special-beige: #dcc7b2;
+    --pt-special-gray: #dedede;
+
     --pt-radioactive: rgba( 255 255 255 / 0.5 );
 
 }
@@ -50,8 +56,18 @@
     --pt-scheme-ice-09: #294e85;
     --pt-scheme-ice-10: #33437f;
 
+    --pt-special-green: #64805b;
+    --pt-special-violet: #9b7d91;
+    --pt-special-pink: #b2868e;
+    --pt-special-beige: #918476;
+    --pt-special-gray: #545454;
+
     --pt-radioactive: rgba( 0 0 0 / 0.5 );
 
+}
+
+[layer="set"] [prop="halogen"] {
+    --pt-bg: var( --pt-scheme-fire-01 );
 }
 
 [layer="set"] [prop="alkalimetal"] {
@@ -66,10 +82,38 @@
     --pt-bg: var( --pt-scheme-fire-10 );
 }
 
-[layer="set"] [prop="halogen"] {
-    --pt-bg: var( --pt-scheme-fire-01 );
-}
-
 [layer="set"] [prop="noblegas"] {
     --pt-bg: var( --pt-scheme-ice-03 );
+}
+
+[layer="set"] [prop="nonmetal"] {
+    --pt-bg: var( --pt-special-green );
+}
+
+[layer="set"] [prop="lanthanoide"] {
+    --pt-bg: var( --pt-special-violet );
+}
+
+[layer="set"] [prop="actinoide"] {
+    --pt-bg: var( --pt-special-pink );
+}
+
+[layer="set"] [prop="metalloid"] {
+    --pt-bg: var( --pt-special-beige );
+}
+
+[layer="set"] [prop="metal"] {
+    --pt-bg: var( --pt-special-gray );
+}
+
+[prop="undefined"] {
+    --pt-bg: transparent;
+}
+
+[layer="set"] .gas {
+    --pt-accent: var( --accent-3 );
+}
+
+[layer="set"] .liquid {
+    --pt-accent: var( --accent-1 );
 }
