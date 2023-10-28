@@ -369,6 +369,8 @@
 	"prop-synthetic-description": "Synthetische Elemente kommen in der Natur nicht vor. Sie werden durch menschliche Manipulation von Elementarteilchen in einem Kernreaktor, einem Teilchenbeschleuniger oder durch die Explosion einer Atombombe erzeugt.",
 	"prop-vital": "Element in Lebensprozessen",
 	"prop-vital-description": "In lebenden Organismen vorkommende Elemente. Dazu zählen solche, die für das Leben notwendig sind (Bioelemente), neutrale Elemente und solche, die toxisch wirken.",
+	"props-description": "Liste möglicher Eigenschaften, die einem oder mehreren Elementen zugeschrieben werden. Dies kann Zustandsgrößen, besondere Eigenschaften oder Ähnliches umfassen.",
+	"props-title": "Eigenschaften",
 	"quickinfo": "Allgemeine Informationen",
 	"quiz-title": "Quiz",
 	"radien": "Atomradien",

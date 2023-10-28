@@ -1,0 +1,23 @@
+@import 'page';
+
+.pt-sitemap {
+    display: grid;
+    grid-template-columns: repeat( 2, 1fr );
+    gap: 0 48px;
+}
+
+.pt-sitemap-item h3 a {
+    color: var( --accent-1 );
+}
+
+.pt-sitemap-item h3 a:hover {
+    text-decoration: underline;
+}
+
+@media all and ( max-width: 1000px ) {
+
+    .pt-sitemap {
+        grid-template-columns: 1fr;
+    }
+
+}

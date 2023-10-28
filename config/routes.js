@@ -4,5 +4,6 @@ module.exports = [
     [ '/:locale/element/:element/?', 'element' ],
     [ '/:locale/ionization/?', 'ionization' ],
     [ '/:locale/prop/:property/?', 'prop' ],
+    [ '/:locale/props/?', 'props' ],
     [ '/:locale/spectrum/?', 'spectrum' ]
 ];
