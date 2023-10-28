@@ -60,3 +60,19 @@
     font-size: 13px;
     overflow: hidden;
 }
+
+@media all and ( max-width: 1200px ) {
+
+    .pt-element-list {
+        grid-template-columns: repeat( 2, 1fr );
+    }
+
+}
+
+@media all and ( max-width: 760px ) {
+
+    .pt-element-list {
+        grid-template-columns: 1fr;
+    }
+
+}
