@@ -1,0 +1,22 @@
+//- property page
+extends page.pug
+
+block title
+  - var title = __( 'prop-' + list.value )
+  - var description = __( 'prop-' + list.value + '-description' )
+  title= title + ' — ' + __( 'periodic-table' )
+  meta( name= 'description', content= description )/
+
+block social
+  meta( property= 'og:title', content= title )/
+  meta( property= 'og:description', content= description )/
+
+block styles
+  link( rel= 'stylesheet', href= '/css/list.css' )/
+
+block content
+  div.pt-page.pt-box.pt-property
+    h1!= title
+    p.pt-page-intro!= description
+  div.pt-page
+    include templates/microtable.pug

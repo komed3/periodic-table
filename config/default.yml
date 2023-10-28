@@ -13,6 +13,12 @@ themes:
   default: light
   list: [ light, dark ]
 
+properties: [
+  radioactive, natural, native, vital, mononuclidic,
+  stable, noble, semiconductor, light, heavy, rare,
+  platinum, refractory, artificial, synthetic, antiquity
+]
+
 abundances:
   universe:
     mass: 2.0e+49

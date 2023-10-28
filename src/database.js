@@ -148,7 +148,7 @@ module.exports = class DB {
         switch( type ) {
 
             case 'prop':
-                return +!!( this.get( p ) || [] ).includes( value || '' );
+                return +!!( this.get( key + '.properties' ) || [] ).includes( value || '' );
 
             default:
             case 'value':

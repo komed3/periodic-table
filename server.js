@@ -276,6 +276,70 @@ routes.forEach( ( route ) => {
                     break;
 
                 /**
+                 * property page
+                 */
+                case 'prop':
+
+                    let prop = ( req.params.property || '' ).toLowerCase();
+
+                    if( config.get( 'properties' ).includes( prop ) ) {
+
+                        /**
+                         * fetch elements with property set
+                         */
+
+                        let results = Object.fromEntries(
+                            Object.entries( elements.database ).filter(
+                                ( [ _k, el ] ) => ( el.properties || [] ).includes( prop )
+                            )
+                        );
+
+                        if( Object.keys( results ).length ) {
+
+                            res.locals.list = {
+                                type: 'prop',
+                                layer: 'prop',
+                                value: prop,
+                                items: results
+                            };
+
+                            /**
+                             * periodic table
+                             **/
+
+                            res.locals.table = {
+                                type: 'prop',
+                                layer: 'prop',
+                                value: prop
+                            };
+
+                        } else {
+
+                            /**
+                             * no results found
+                             * redirect to properties page
+                             */
+
+                            res.redirect( core.url( '/props' ) );
+                            return ;
+
+                        }
+
+                    } else {
+
+                        /**
+                         * wrong property name
+                         * redirect to properties page
+                         */
+
+                        res.redirect( core.url( '/props' ) );
+                        return ;
+
+                    }
+
+                    break;
+
+                /**
                  * element spectrums
                  */
                 case 'spectrum':
