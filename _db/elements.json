@@ -554,7 +554,7 @@
         }
     },
     "li": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:17:30.251Z",
         "abundance": {
             "universe": {
                 "value": 6,
@@ -777,10 +777,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 20,
-            "unit": "K"
-        },
         "set": "alkalimetal",
         "shell": [
             2,
@@ -831,6 +827,10 @@
                     "value": 67,
                     "unit": "MPa"
                 }
+            },
+            "transition": {
+                "value": 20,
+                "unit": "K"
             }
         },
         "heat": {
@@ -857,7 +857,7 @@
         }
     },
     "be": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:18:15.002Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -1091,10 +1091,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 26,
-            "unit": "K"
-        },
         "set": "alkalineearthmetal",
         "shell": [
             2,
@@ -1131,6 +1127,10 @@
             "critical": {
                 "value": 5205,
                 "*": true,
+                "unit": "K"
+            },
+            "transition": {
+                "value": 26,
                 "unit": "K"
             }
         },
@@ -1178,7 +1178,7 @@
         }
     },
     "b": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:18:47.200Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -1378,10 +1378,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 11.2,
-            "unit": "K"
-        },
         "set": "metalloid",
         "shell": [
             2,
@@ -1418,6 +1414,10 @@
             },
             "liquid": {
                 "value": 1851,
+                "unit": "K"
+            },
+            "transition": {
+                "value": 11.2,
                 "unit": "K"
             }
         },
@@ -1456,7 +1456,7 @@
         }
     },
     "c": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:19:02.818Z",
         "abundance": {
             "universe": {
                 "value": 5000000,
@@ -1661,10 +1661,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 15,
-            "unit": "K"
-        },
         "set": "nonmetal",
         "shell": [
             2,
@@ -1703,6 +1699,10 @@
                     "value": 10.8,
                     "unit": "MPa"
                 }
+            },
+            "transition": {
+                "value": 15,
+                "unit": "K"
             }
         },
         "heat": {
@@ -1994,7 +1994,7 @@
         }
     },
     "o": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:19:15.462Z",
         "abundance": {
             "universe": {
                 "value": 10000000,
@@ -2208,10 +2208,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 0.6,
-            "unit": "K"
-        },
         "set": "nonmetal",
         "shell": [
             2,
@@ -2269,6 +2265,10 @@
                     "value": 5.043,
                     "unit": "MPa"
                 }
+            },
+            "transition": {
+                "value": 0.6,
+                "unit": "K"
             }
         },
         "heat": {
@@ -3403,7 +3403,7 @@
         }
     },
     "al": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:20:22.763Z",
         "abundance": {
             "universe": {
                 "value": 50000,
@@ -3626,10 +3626,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 1.18,
-            "unit": "K"
-        },
         "set": "metal",
         "shell": [
             2,
@@ -3663,6 +3659,10 @@
             "liquid": {
                 "value": 1809.53,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 1.18,
+                "unit": "K"
             }
         },
         "heat": {
@@ -3693,7 +3693,7 @@
         }
     },
     "si": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:20:52.857Z",
         "abundance": {
             "universe": {
                 "value": 700000,
@@ -3890,10 +3890,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 8.5,
-            "unit": "K"
-        },
         "set": "metalloid",
         "shell": [
             2,
@@ -3932,6 +3928,10 @@
             "liquid": {
                 "value": 1851,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 8.5,
+                "unit": "K"
             }
         },
         "heat": {
@@ -3960,7 +3960,7 @@
         }
     },
     "p": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:20:57.520Z",
         "abundance": {
             "universe": {
                 "value": 7000,
@@ -4199,10 +4199,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 18,
-            "unit": "K"
-        },
         "set": "nonmetal",
         "shell": [
             2,
@@ -4235,6 +4231,10 @@
                     689.2,
                     863
                 ]
+            },
+            "transition": {
+                "value": 18,
+                "unit": "K"
             }
         },
         "heat": {
@@ -4292,7 +4292,7 @@
         }
     },
     "s": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:21:30.025Z",
         "abundance": {
             "universe": {
                 "value": 500000,
@@ -4493,10 +4493,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 17,
-            "unit": "K"
-        },
         "set": "nonmetal",
         "shell": [
             2,
@@ -4538,6 +4534,10 @@
                     "value": 20.7,
                     "unit": "MPa"
                 }
+            },
+            "transition": {
+                "value": 17,
+                "unit": "K"
             }
         },
         "heat": {
@@ -5377,7 +5377,7 @@
         }
     },
     "ca": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:22:26.538Z",
         "abundance": {
             "universe": {
                 "value": 70000,
@@ -5603,10 +5603,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 15,
-            "unit": "K"
-        },
         "set": "alkalineearthmetal",
         "shell": [
             2,
@@ -5647,6 +5643,10 @@
             "liquid": {
                 "value": 642,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 15,
+                "unit": "K"
             }
         },
         "heat": {
@@ -5673,7 +5673,7 @@
         }
     },
     "sc": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:22:37.603Z",
         "abundance": {
             "universe": {
                 "value": 30,
@@ -5876,10 +5876,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 0.34,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -5910,6 +5906,10 @@
             "liquid": {
                 "value": 1295,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 0.34,
+                "unit": "K"
             }
         },
         "heat": {
@@ -5932,7 +5932,7 @@
         }
     },
     "ti": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:23:03.257Z",
         "abundance": {
             "universe": {
                 "value": 3000,
@@ -6146,10 +6146,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 0.5,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -6190,6 +6186,10 @@
             "liquid": {
                 "value": 1619,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 0.5,
+                "unit": "K"
             }
         },
         "heat": {
@@ -6216,7 +6216,7 @@
         }
     },
     "v": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:23:26.043Z",
         "abundance": {
             "universe": {
                 "value": 1000,
@@ -6424,10 +6424,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 5.4,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -6463,6 +6459,10 @@
             "liquid": {
                 "value": 1497,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 5.4,
+                "unit": "K"
             }
         },
         "heat": {
@@ -6485,7 +6485,7 @@
         }
     },
     "cr": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:23:52.371Z",
         "abundance": {
             "universe": {
                 "value": 15000,
@@ -6686,10 +6686,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 3,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -6729,6 +6725,10 @@
             },
             "liquid": {
                 "value": 764,
+                "unit": "K"
+            },
+            "transition": {
+                "value": 3,
                 "unit": "K"
             }
         },
@@ -7114,7 +7114,7 @@
         }
     },
     "fe": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:24:19.218Z",
         "abundance": {
             "universe": {
                 "value": 1100000,
@@ -7305,10 +7305,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 2,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -7348,6 +7344,10 @@
             },
             "liquid": {
                 "value": 1323,
+                "unit": "K"
+            },
+            "transition": {
+                "value": 2,
                 "unit": "K"
             }
         },
@@ -8293,7 +8293,7 @@
         }
     },
     "zn": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:24:38.700Z",
         "abundance": {
             "universe": {
                 "value": 300,
@@ -8529,10 +8529,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 0.85,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -8567,6 +8563,10 @@
             "liquid": {
                 "value": 487.32,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 0.85,
+                "unit": "K"
             }
         },
         "heat": {
@@ -8589,7 +8589,7 @@
         }
     },
     "ga": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:24:44.180Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -8795,10 +8795,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 1.08,
-            "unit": "K"
-        },
         "set": "metal",
         "shell": [
             2,
@@ -8839,6 +8835,10 @@
             "liquid": {
                 "value": 2370.0854,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 1.08,
+                "unit": "K"
             }
         },
         "heat": {
@@ -8861,7 +8861,7 @@
         }
     },
     "ge": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:25:09.881Z",
         "abundance": {
             "universe": {
                 "value": 200,
@@ -9045,10 +9045,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 5.4,
-            "unit": "K"
-        },
         "set": "metalloid",
         "shell": [
             2,
@@ -9089,6 +9085,10 @@
             "liquid": {
                 "value": 1894.6,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 5.4,
+                "unit": "K"
             }
         },
         "heat": {
@@ -9115,7 +9115,7 @@
         }
     },
     "as": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:25:31.429Z",
         "abundance": {
             "universe": {
                 "value": 8,
@@ -9340,10 +9340,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 2.7,
-            "unit": "K"
-        },
         "set": "metalloid",
         "shell": [
             2,
@@ -9379,6 +9375,10 @@
                 "value": 1673,
                 "*": true,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 2.7,
+                "unit": "K"
             }
         },
         "heat": {
@@ -9408,7 +9408,7 @@
         }
     },
     "se": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:26:02.335Z",
         "abundance": {
             "universe": {
                 "value": 30,
@@ -9655,10 +9655,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 7,
-            "unit": "K"
-        },
         "set": "metalloid",
         "shell": [
             2,
@@ -9707,6 +9703,10 @@
                     "value": 27.2,
                     "unit": "MPa"
                 }
+            },
+            "transition": {
+                "value": 7,
+                "unit": "K"
             }
         },
         "heat": {
@@ -9725,7 +9725,7 @@
         }
     },
     "br": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:26:45.278Z",
         "abundance": {
             "universe": {
                 "value": 7,
@@ -9936,10 +9936,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 1.4,
-            "unit": "K"
-        },
         "set": "halogen",
         "shell": [
             2,
@@ -9990,6 +9986,10 @@
                     "value": 10.34,
                     "unit": "MPa"
                 }
+            },
+            "transition": {
+                "value": 1.4,
+                "unit": "K"
             }
         },
         "heat": {
@@ -10565,7 +10565,7 @@
         }
     },
     "sr": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:27:00.849Z",
         "abundance": {
             "universe": {
                 "value": 40,
@@ -10781,10 +10781,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 4,
-            "unit": "K"
-        },
         "set": "alkalineearthmetal",
         "shell": [
             2,
@@ -10816,6 +10812,10 @@
             "liquid": {
                 "value": 600,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 4,
+                "unit": "K"
             }
         },
         "heat": {
@@ -10838,7 +10838,7 @@
         }
     },
     "y": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:27:50.993Z",
         "abundance": {
             "universe": {
                 "value": 7,
@@ -11040,10 +11040,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 2.8,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -11085,6 +11081,10 @@
             "liquid": {
                 "value": 1404,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 2.8,
+                "unit": "K"
             }
         },
         "heat": {
@@ -11103,7 +11103,7 @@
         }
     },
     "zr": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:28:16.250Z",
         "abundance": {
             "universe": {
                 "value": 50,
@@ -11312,10 +11312,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 0.6,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -11351,6 +11347,10 @@
             "liquid": {
                 "value": 2525,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 0.6,
+                "unit": "K"
             }
         },
         "heat": {
@@ -11373,7 +11373,7 @@
         }
     },
     "nb": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:28:35.424Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -11575,10 +11575,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 9.25,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -11620,6 +11616,10 @@
             "liquid": {
                 "value": 2267,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 9.25,
+                "unit": "K"
             }
         },
         "heat": {
@@ -11638,7 +11638,7 @@
         }
     },
     "mo": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:28:59.777Z",
         "abundance": {
             "universe": {
                 "value": 5,
@@ -11845,10 +11845,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 0.92,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -11884,6 +11880,10 @@
             "liquid": {
                 "value": 2016,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 0.92,
+                "unit": "K"
             }
         },
         "heat": {
@@ -11902,7 +11902,7 @@
         }
     },
     "tc": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T17:12:29.174Z",
         "appearance": {
             "en": "shiny gray metal",
             "de": "silbrig grau metallisch"
@@ -12050,10 +12050,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 8.2,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -12081,6 +12077,10 @@
             "liquid": {
                 "value": 2108,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 8.2,
+                "unit": "K"
             }
         },
         "heat": {
@@ -12095,7 +12095,7 @@
         }
     },
     "ru": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:29:46.916Z",
         "abundance": {
             "universe": {
                 "value": 4,
@@ -12291,10 +12291,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 0.5,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -12325,6 +12321,10 @@
             "liquid": {
                 "value": 1816,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 0.5,
+                "unit": "K"
             }
         },
         "heat": {
@@ -12343,7 +12343,7 @@
         }
     },
     "rh": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:30:06.633Z",
         "abundance": {
             "universe": {
                 "value": 0.6,
@@ -12557,10 +12557,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 0.000035,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -12602,6 +12598,10 @@
             "liquid": {
                 "value": 1731,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 0.000035,
+                "unit": "K"
             }
         },
         "heat": {
@@ -12624,7 +12624,7 @@
         }
     },
     "pd": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:30:28.110Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -12845,10 +12845,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 3.2,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -12882,6 +12878,10 @@
             },
             "liquid": {
                 "value": 1407.95,
+                "unit": "K"
+            },
+            "transition": {
+                "value": 3.2,
                 "unit": "K"
             }
         },
@@ -13256,7 +13256,7 @@
         }
     },
     "cd": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:31:17.230Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -13499,10 +13499,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 0.52,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -13543,6 +13539,10 @@
             },
             "liquid": {
                 "value": 445.78,
+                "unit": "K"
+            },
+            "transition": {
+                "value": 0.52,
                 "unit": "K"
             }
         },
@@ -13629,7 +13629,7 @@
         }
     },
     "in": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:31:55.009Z",
         "abundance": {
             "universe": {
                 "value": 0.3,
@@ -13830,10 +13830,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 3.4,
-            "unit": "K"
-        },
         "set": "metal",
         "shell": [
             2,
@@ -13883,6 +13879,10 @@
                     "value": 1,
                     "unit": "kPa"
                 }
+            },
+            "transition": {
+                "value": 3.4,
+                "unit": "K"
             }
         },
         "heat": {
@@ -13905,7 +13905,7 @@
         }
     },
     "sn": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:32:20.554Z",
         "abundance": {
             "universe": {
                 "value": 4,
@@ -14124,10 +14124,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 3.7,
-            "unit": "K"
-        },
         "set": "metal",
         "shell": [
             2,
@@ -14169,6 +14165,10 @@
             "liquid": {
                 "value": 2369.92,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 3.7,
+                "unit": "K"
             }
         },
         "heat": {
@@ -14191,7 +14191,7 @@
         }
     },
     "sb": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:32:40.761Z",
         "abundance": {
             "universe": {
                 "value": 0.4,
@@ -14395,10 +14395,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 3.6,
-            "unit": "K"
-        },
         "set": "metalloid",
         "shell": [
             2,
@@ -14434,6 +14430,10 @@
             "liquid": {
                 "value": 1004.22,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 3.6,
+                "unit": "K"
             }
         },
         "heat": {
@@ -14452,7 +14452,7 @@
         }
     },
     "te": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:33:03.540Z",
         "abundance": {
             "universe": {
                 "value": 9,
@@ -14668,10 +14668,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 7.4,
-            "unit": "K"
-        },
         "set": "metalloid",
         "shell": [
             2,
@@ -14713,6 +14709,10 @@
             "liquid": {
                 "value": 538.34,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 7.4,
+                "unit": "K"
             }
         },
         "heat": {
@@ -14727,7 +14727,7 @@
         }
     },
     "i": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:33:39.111Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -14958,10 +14958,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 1.2,
-            "unit": "K"
-        },
         "set": "halogen",
         "shell": [
             2,
@@ -15009,6 +15005,10 @@
                     "value": 11.7,
                     "unit": "MPa"
                 }
+            },
+            "transition": {
+                "value": 1.2,
+                "unit": "K"
             }
         },
         "heat": {
@@ -15322,7 +15322,7 @@
         }
     },
     "cs": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:34:00.912Z",
         "abundance": {
             "universe": {
                 "value": 0.8,
@@ -15536,10 +15536,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 1.66,
-            "unit": "K"
-        },
         "set": "alkalimetal",
         "shell": [
             2,
@@ -15580,6 +15576,10 @@
                     "value": 9.4,
                     "unit": "MPa"
                 }
+            },
+            "transition": {
+                "value": 1.66,
+                "unit": "K"
             }
         },
         "heat": {
@@ -15598,7 +15598,7 @@
         }
     },
     "ba": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:34:15.498Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -15822,10 +15822,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 5,
-            "unit": "K"
-        },
         "set": "alkalineearthmetal",
         "shell": [
             2,
@@ -15862,6 +15858,10 @@
             "liquid": {
                 "value": 1118,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 5,
+                "unit": "K"
             }
         },
         "heat": {
@@ -15888,7 +15888,7 @@
         }
     },
     "la": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:34:25.442Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -16098,10 +16098,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 6,
-            "unit": "K"
-        },
         "set": "lanthanoide",
         "shell": [
             2,
@@ -16138,6 +16134,10 @@
             "liquid": {
                 "value": 2544,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 6,
+                "unit": "K"
             }
         },
         "heat": {
@@ -16156,7 +16156,7 @@
         }
     },
     "ce": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:35:18.035Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -16371,10 +16371,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 1.75,
-            "unit": "K"
-        },
         "set": "lanthanoide",
         "shell": [
             2,
@@ -16416,6 +16412,10 @@
             },
             "liquid": {
                 "value": 2648,
+                "unit": "K"
+            },
+            "transition": {
+                "value": 1.75,
                 "unit": "K"
             }
         },
@@ -19534,7 +19534,7 @@
         }
     },
     "lu": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:35:40.880Z",
         "abundance": {
             "universe": {
                 "value": 0.1,
@@ -19731,10 +19731,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 0.1,
-            "unit": "K"
-        },
         "set": "lanthanoide",
         "shell": [
             2,
@@ -19767,6 +19763,10 @@
             "liquid": {
                 "value": 1750,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 0.1,
+                "unit": "K"
             }
         },
         "heat": {
@@ -19785,7 +19785,7 @@
         }
     },
     "hf": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:35:41.129Z",
         "abundance": {
             "universe": {
                 "value": 0.7,
@@ -19991,10 +19991,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 0.38,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -20037,6 +20033,10 @@
             "liquid": {
                 "value": 2370,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 0.38,
+                "unit": "K"
             }
         },
         "heat": {
@@ -20059,7 +20059,7 @@
         }
     },
     "ta": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:36:04.008Z",
         "abundance": {
             "universe": {
                 "value": 0.08,
@@ -20272,10 +20272,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 4.4,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -20318,6 +20314,10 @@
             "liquid": {
                 "value": 2441,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 4.4,
+                "unit": "K"
             }
         },
         "heat": {
@@ -20340,7 +20340,7 @@
         }
     },
     "w": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:36:19.017Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -20563,10 +20563,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 0.01,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -20603,6 +20599,10 @@
             "liquid": {
                 "value": 2508,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 0.01,
+                "unit": "K"
             }
         },
         "heat": {
@@ -20629,7 +20629,7 @@
         }
     },
     "re": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:37:20.943Z",
         "abundance": {
             "universe": {
                 "value": 0.2,
@@ -20835,10 +20835,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 1.7,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -20881,6 +20877,10 @@
             "liquid": {
                 "value": 2444,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 1.7,
+                "unit": "K"
             }
         },
         "heat": {
@@ -20903,7 +20903,7 @@
         }
     },
     "os": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:37:40.717Z",
         "abundance": {
             "universe": {
                 "value": 3,
@@ -21093,10 +21093,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 0.7,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -21139,6 +21135,10 @@
             "liquid": {
                 "value": 1979,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 0.7,
+                "unit": "K"
             }
         },
         "heat": {
@@ -21161,7 +21161,7 @@
         }
     },
     "ir": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:37:58.263Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -21368,10 +21368,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 0.1,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -21407,6 +21403,10 @@
             },
             "liquid": {
                 "value": 1684,
+                "unit": "K"
+            },
+            "transition": {
+                "value": 0.1,
                 "unit": "K"
             }
         },
@@ -21956,7 +21956,7 @@
         }
     },
     "hg": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:38:12.201Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -22180,10 +22180,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 4.15,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -22242,6 +22238,10 @@
                     "value": 172,
                     "unit": "MPa"
                 }
+            },
+            "transition": {
+                "value": 4.15,
+                "unit": "K"
             }
         },
         "heat": {
@@ -22304,7 +22304,7 @@
         }
     },
     "tl": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:38:33.623Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -22519,10 +22519,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 2.4,
-            "unit": "K"
-        },
         "set": "metal",
         "shell": [
             2,
@@ -22569,6 +22565,10 @@
             "liquid": {
                 "value": 1169,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 2.4,
+                "unit": "K"
             }
         },
         "heat": {
@@ -22591,7 +22591,7 @@
         }
     },
     "pb": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:39:11.176Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -22827,10 +22827,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 7.2,
-            "unit": "K"
-        },
         "set": "metal",
         "shell": [
             2,
@@ -22876,6 +22872,10 @@
             },
             "liquid": {
                 "value": 1421.39,
+                "unit": "K"
+            },
+            "transition": {
+                "value": 7.2,
                 "unit": "K"
             }
         },
@@ -22929,7 +22929,7 @@
         }
     },
     "bi": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:39:25.500Z",
         "abundance": {
             "universe": {
                 "value": 0.7,
@@ -23130,10 +23130,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 8.7,
-            "unit": "K"
-        },
         "set": "metal",
         "shell": [
             2,
@@ -23175,6 +23171,10 @@
             },
             "liquid": {
                 "value": 1292.3,
+                "unit": "K"
+            },
+            "transition": {
+                "value": 8.7,
                 "unit": "K"
             }
         },
@@ -24145,7 +24145,7 @@
         }
     },
     "th": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:40:14.023Z",
         "abundance": {
             "universe": {
                 "value": 0.4,
@@ -24332,10 +24332,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 1.4,
-            "unit": "K"
-        },
         "set": "actinoide",
         "shell": [
             2,
@@ -24374,6 +24370,10 @@
             "liquid": {
                 "value": 3038,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 1.4,
+                "unit": "K"
             }
         },
         "heat": {
@@ -24392,7 +24392,7 @@
         }
     },
     "pa": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:40:36.999Z",
         "abundance": {
             "crust": {
                 "value": 0.00001,
@@ -24521,10 +24521,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 1.4,
-            "unit": "K"
-        },
         "set": "actinoide",
         "shell": [
             2,
@@ -24553,6 +24549,10 @@
             "liquid": {
                 "value": 2459,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 1.4,
+                "unit": "K"
             }
         },
         "heat": {
@@ -24567,7 +24567,7 @@
         }
     },
     "u": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:40:23.214Z",
         "abundance": {
             "universe": {
                 "value": 0.2,
@@ -24778,10 +24778,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 1.3,
-            "unit": "K"
-        },
         "set": "actinoide",
         "shell": [
             2,
@@ -24818,6 +24814,10 @@
             },
             "liquid": {
                 "value": 2998.7,
+                "unit": "K"
+            },
+            "transition": {
+                "value": 1.3,
                 "unit": "K"
             }
         },
@@ -25223,7 +25223,7 @@
         }
     },
     "am": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:41:15.370Z",
         "appearance": {
             "en": "silvery white",
             "de": "silbrig-weißes Metall"
@@ -25329,10 +25329,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 1,
-            "unit": "K"
-        },
         "set": "actinoide",
         "shell": [
             2,
@@ -25362,6 +25358,10 @@
             "liquid": {
                 "value": 1431,
                 "*": true,
+                "unit": "K"
+            },
+            "transition": {
+                "value": 1,
                 "unit": "K"
             }
         },
