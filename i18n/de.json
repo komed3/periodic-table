@@ -464,6 +464,8 @@
 	"toxicity-intravenous": "intravenös",
 	"toxicity-oral": "oral",
 	"toxicity-time": "nach %s",
+	"transition-temp": "Sprungtemperatur",
+	"transition-temp-description": "Unterhalb der Sprungtemperatur (auch als kritische Temperatur bezeichnet) wird der Stoff von quantenmechanischen Effekten dominiert und erhält supraleitende Eigenschaften.",
 	"triple-temp": "Tripelpunkt",
 	"triple-temp-description": "Am Tripelpunkt stehen Temperatur und Druck dreier Phasen (gasförmig, flüssig und Feststoff) im thermodynamischen Gleichgewicht. Je nach Stoff können am Tripelpunkt verschiedene Aggregatzustände existieren.",
 	"undefined": "—",
