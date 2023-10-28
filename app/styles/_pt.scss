@@ -1,18 +1,4 @@
-/* periodic table schemes */
-
-[theme="light"] {
-
-    --pt-radioactive: rgba( 255 255 255 / 0.5 );
-
-}
-
-[theme="dark"] {
-
-    --pt-radioactive: rgba( 0 0 0 / 0.5 );
-
-}
-
-/* global rules for periodic table */
+@import 'schemes';
 
 .pt-table {
     display: grid;
@@ -64,8 +50,6 @@
     );
     z-index: 0;
 }
-
-/* responsive adaptation */
 
 @media all and ( max-width: 800px ) {
 
