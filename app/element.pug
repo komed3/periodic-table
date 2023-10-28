@@ -224,6 +224,39 @@ block content
       //- chemic properties
       div.pt-box.pt-element-box.pt-element-chemic
         h2!= __( 'chemical-props' )
+        table.pt-prop-table.pt-element-table
+          tbody
+            tr.pt-prop-table-row
+              th.pt-prop-table-label!= __( 'basicity-label' )
+              td.pt-prop-table-value
+                if page.element.data.basicity
+                  a(
+                    href= core.url( '/list/basicity/' + page.element.data.basicity )
+                  )!= __( 'basicity-' + page.element.data.basicity )
+                else
+                  span!= __( 'undefined' )
+            tr.pt-prop-table-row
+              th.pt-prop-table-label!= __( 'oxidation-state' )
+              td.pt-prop-table-value
+                if page.element.data.oxidation_state
+                  span!= f.text( page.element.data.oxidation_state )
+                else
+                  span!= __( 'undefined' )              
+            if page.element.data.standard_potential
+              tr.pt-prop-table-row
+                th.pt-prop-table-label
+                  a( href= core.url( '/scale/standard_potential' ) )!= __( 'standard-potential' )
+                td.pt-prop-table-value!= f.number( page.element.data.standard_potential )
+        //- electronegativity
+        if page.element.data.negativity
+          h3!= __( 'electronegativity' )
+          table.pt-prop-table.pt-element-table
+            tbody
+              each prop, label in page.element.data.negativity
+                tr.pt-prop-table-row
+                  th.pt-prop-table-label
+                    a( href= core.url( '/scale/negativity_' + label ) )!= __( label + '-negativity' )
+                  td.pt-prop-table-value!= f.number( prop )
 
       //- other properties
       div.pt-box.pt-element-box.pt-element-other
@@ -231,18 +264,18 @@ block content
 
       //- natural abundances
       if page.element.data.abundance
-      - var abundances = page.element.data.abundance
-      div.pt-box.pt-element-box.pt-element-abundance
-        h2!= __( 'abundances-title' )
-        include templates/abundance.pug
+        - var abundances = page.element.data.abundance
+        div.pt-box.pt-element-box.pt-element-abundance
+          h2!= __( 'abundances-title' )
+          include templates/abundance.pug
 
       //- properties / categories
       if page.element.data.properties
-      div.pt-categories.pt-element-props
-        each prop in page.element.data.properties
-          a.pt-category-link(
-            href= core.url( '/prop/' + prop )
-          )!= __( 'prop-' + prop )
+        div.pt-categories.pt-element-props
+          each prop in page.element.data.properties
+            a.pt-category-link(
+              href= core.url( '/prop/' + prop )
+            )!= __( 'prop-' + prop )
 
     //- aside
     aside.pt-element-aside
