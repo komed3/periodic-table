@@ -1,0 +1,62 @@
+@import 'schemes';
+
+.pt-element-list {
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr );
+    gap: 12px;
+}
+
+.pt-element-list-item {
+    display: grid;
+    grid-template-columns: 64px 1fr;
+    gap: 12px;
+    height: 64px;
+}
+
+.pt-element-list-symbol {
+    position: relative;
+    font-weight: bold;
+    color: var( --pt-color, var( --color-main ) );
+    background: var( --pt-bg, var( --gray-1 ) );
+}
+
+.pt-element-list-symbol .element--number {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    font-size: 13px;
+}
+
+.pt-element-list-symbol .element--symbol {
+    position: absolute;
+    right: 8px;
+    bottom: 6px;
+    font-size: 26px;
+    color: var( --pt-accent, inherit );
+}
+
+.pt-element-list-info {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    gap: 4px;
+    min-width: 0;
+}
+
+.pt-element-list-info .element--name {
+    align-self: flex-start;
+    font-weight: bold;
+    color: var( --accent-1 );
+}
+
+.pt-element-list-info .element--name:hover {
+    text-decoration: underline;
+}
+
+.pt-element-list-info .element--desc {
+    min-width: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 13px;
+    overflow: hidden;
+}
