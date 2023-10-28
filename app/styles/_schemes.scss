@@ -117,3 +117,7 @@
 [layer="set"] .liquid {
     --pt-accent: var( --accent-1 );
 }
+
+[type="prop"] [prop="1"] {
+    --pt-bg: var( --pt-scheme-fire-05 );
+}

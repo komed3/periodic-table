@@ -20,8 +20,12 @@ div.pt-table.pt-microtable.noselect(
           ? ' radioactive'
           : ''
       ) + (
-        key == table.current || null
+        key == ( table.current || null )
           ? ' current'
+          : ''
+      ) + (
+        value == table.hl
+          ? ' highlight'
           : ''
       )
     )
