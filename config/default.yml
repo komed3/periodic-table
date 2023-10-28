@@ -25,6 +25,190 @@ properties: [
   platinum, refractory, artificial, synthetic, antiquity
 ]
 
+scales:
+  standard_atomic_weight:
+    key: standard_atomic_weight
+    label: standard-atomic-weight
+    scheme: _ice
+  atomic_mass:
+    key: atomic_mass
+    label: atomic-mass
+    scheme: _ice
+  radius_empirical:
+    key: radius.empirical
+    label: empirical-radius
+    scheme: _fire
+  radius_calculated:
+    key: radius.calculated
+    label: calculated-radius
+    scheme: _fire
+  radius_covalent:
+    key: radius.covalent
+    label: covalent-radius
+    scheme: _fire
+  radius_vdw:
+    key: radius.vdw
+    label: vdw-radius
+    scheme: _fire
+  density:
+    key: density
+    label: density
+    scheme: _fire
+  molar_volume:
+    key: molar_volume
+    label: molar_volume
+    scheme: _fire
+  sound_speed:
+    key: sound_speed
+    label: sound_speed
+    scheme: _fire
+    log: true
+  temp_melting:
+    key: temperature.melting
+    label: melting-temp
+    scheme: _ice_reverse
+  temp_boiling:
+    key: temperature.boiling
+    label: boiling-temp
+    scheme: _fire
+  temp_liquid:
+    key: temperature.liquid
+    label: liquid-temp
+    scheme: _ice
+  temp_sublimation:
+    key: temperature.sublimation
+    label: sublimation-temp
+    scheme: _fire
+  temp_triple:
+    key: temperature.triple
+    label: triple-temp
+    scheme: _fire
+  temp_critical:
+    key: temperature.critical
+    label: critical-temp
+    scheme: _fire
+  temp_transition:
+    key: temperature.transition
+    label: transition-temp
+    scheme: _fire
+  enthalpy_fusion:
+    key: enthalpy.fusion
+    label: fusion-enthalpy
+    scheme: _fire
+  enthalpy_vaporisation:
+    key: enthalpy.vaporisation
+    label: vaporisation-enthalpy
+    scheme: _fire
+  enthalpy_atomisation:
+    key: enthalpy.atomisation
+    label: atomisation-enthalpy
+    scheme: _fire
+  heat_capacity:
+    key: heat.heat_capacity
+    label: heat_capacity
+    scheme: _fire
+    min: 100
+    max: 2500
+  thermal_conductivity:
+    key: heat.thermal_conductivity
+    label: thermal_conductivity
+    scheme: _fire
+  thermal_expansion:
+    key: heat.thermal_expansion
+    label: thermal_expansion
+    scheme: _fire
+    log: true
+  work_function:
+    key: heat.work_function
+    label: work_function
+    scheme: _fire
+  hardness_mohs:
+    key: hardness.mohs
+    label: mohs-hardness
+    scheme: _ice
+    round: floor
+    step: 1
+    min: 0
+    max: 10
+  hardness_brinell:
+    key: hardness.brinell
+    label: brinell-hardness
+    scheme: _ice
+  hardness_vickers:
+    key: hardness.vickers
+    label: vickers-hardness
+    scheme: _ice
+  elastic_young:
+    key: elastic.young
+    label: young-elastic
+    scheme: _ice
+  elastic_rigidity:
+    key: elastic.rigidity
+    label: rigidity-elastic
+    scheme: _ice
+  elastic_bulk:
+    key: elastic.bulk
+    label: bulk-elastic
+    scheme: _ice
+  elastic_poisson:
+    key: elastic.poisson
+    label: poisson-elastic
+    scheme: _ice
+  electrical_conductivity:
+    key: electrical.conductivity
+    label: electrical_conductivity
+    scheme: _ice
+    min: 0.9e+6
+    max: 5.0e+7
+  electrical_resistivity:
+    key: electrical.resistivity
+    label: electrical_resistivity
+    scheme: _ice
+    log: true
+  optical_reflectivity:
+    key: optical.reflectivity
+    label: reflectivity-optical
+    scheme: _ice
+  optical_refractive_index:
+    key: optical.refractive_index
+    label: refractive_index-optical
+    scheme: _ice
+  standard_potential:
+    key: standard_potential
+    label: standard-potential
+    scheme: _fire
+    scaling: false
+  negativity_pauling:
+    key: negativity.pauling
+    label: pauling-negativity
+    scheme: _fire
+    scaling: false
+  negativity_sanderson:
+    key: negativity.sanderson
+    label: sanderson-negativity
+    scheme: _fire
+    scaling: false
+  negativity_allred:
+    key: negativity.allred
+    label: allred-negativity
+    scheme: _fire
+    scaling: false
+  negativity_mulliken:
+    key: negativity.mulliken
+    label: mulliken-negativity
+    scheme: _fire
+    scaling: false
+  negativity_allen:
+    key: negativity.allen
+    label: allen-negativity
+    scheme: _fire
+    scaling: false
+  price:
+    key: price
+    label: price
+    scheme: _ice
+    log: true
+
 abundances:
   universe:
     mass: 2.0e+49
