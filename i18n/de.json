@@ -220,6 +220,8 @@
 	"latin": "Lateinisch",
 	"liquid-temp": "Flüssigkeitsbereich",
 	"liquid-temp-description": "Der Flüssigkeitsbereich beschreibt bei Abstand zwischen Schmelz- und Siedetemperatur eines Stoffs; also den Temperaturbereich, in dem sich ein Stoff im flüssigen Aggregatzustand befindet. Dieser Wert errechnet sich aus den zuvorgenannten Phasenübergängen.",
+	"lists-description": "Auflistung chemischer Elemente nach deren Eigenschaften, unterschiedlichen Kategorien, Klassifizierung verschiedener Rubriken und Ähnlichem.",
+	"lists-title": "Elementlisten",
 	"magnetic_ordering-antiferromagnetic": "antiferromagnetisch",
 	"magnetic_ordering-antiferromagnetic-description": "Die jeweils benachbarten Elementarmagnete tragen das gleiche magnetische Moment, ihre Ausrichtung ist aber zueinander entgegengesetzt (antiparallel). Antiferromagnetisch geordnete Materialien weisen kein externes permanentes magnetisches Moment auf.",
 	"magnetic_ordering-description": "Magnetismus ist eine physikalische Erscheinung. Alle fundamentalen geladenen Elementarteilchen besitzen ein charakteristisches magnetisches Moment, die sich in einem Festkörper additiv aus den Beiträgen der einzelnen Bausteine zusammensetzen.",
