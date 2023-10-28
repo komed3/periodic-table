@@ -6,5 +6,6 @@ module.exports = [
     [ '/:locale/lists/?', 'lists' ],
     [ '/:locale/prop/:property/?', 'prop' ],
     [ '/:locale/props/?', 'props' ],
+    [ '/:locale/scales/?', 'scales' ],
     [ '/:locale/spectrum/?', 'spectrum' ]
 ];

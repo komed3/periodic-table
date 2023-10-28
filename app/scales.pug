@@ -1,0 +1,18 @@
+//- lists page
+extends page.pug
+
+block styles
+  link( rel= 'stylesheet', href= '/css/sitemap.css' )/
+
+block content
+  div.pt-page.pt-box.pt-properties
+    h1!= __( 'scales-title' )
+    p.pt-page-intro!= __( 'scales-description' )
+    div.pt-sitemap
+      each scale, key in config.get( 'scales' )
+        div.pt-sitemap-item
+          h3
+            a(
+              href= core.url( '/scale/' + key )
+            )!= __( scale.label )
+          p!= __( scale.label + '-description' )
