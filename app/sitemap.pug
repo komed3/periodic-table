@@ -1,0 +1,34 @@
+//- sitemap
+extends page.pug
+
+block styles
+  link( rel= 'stylesheet', href= '/css/sitemap.css' )/
+
+block content
+  div.pt-page.pt-box
+    h1!= __( 'sitemap-title' )
+    p.pt-page-intro!= __( 'sitemap-description' )
+
+    //- lists
+    h2
+      a( href= core.url( '/lists' ) )!= __( 'lists-title' )
+    ul.pt-sitemap-list
+      each list in config.get( 'lists' )
+        li.pt-sitemap-list-item
+          a( href= core.url( '/list/' + list ) )!= __( list + '-label' )
+
+    //- scales
+    h2
+      a( href= core.url( '/scales' ) )!= __( 'scales-title' )
+    ul.pt-sitemap-list
+      each scale, key in config.get( 'scales' )
+        li.pt-sitemap-list-item
+          a( href= core.url( '/scale/' + key ) )!= __( scale.label )
+
+    //- properties
+    h2
+      a( href= core.url( '/props' ) )!= __( 'props-title' )
+    ul.pt-sitemap-list
+      each prop in config.get( 'properties' )
+        li.pt-sitemap-list-item
+          a( href= core.url( '/prop/' + prop ) )!= __( 'prop-' + prop )

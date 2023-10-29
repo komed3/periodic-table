@@ -9,5 +9,6 @@ module.exports = [
     [ '/:locale/prop/:property/?', 'prop' ],
     [ '/:locale/props/?', 'props' ],
     [ '/:locale/scales/?', 'scales' ],
+    [ '/:locale/sitemap/?', 'sitemap' ],
     [ '/:locale/spectrum/?', 'spectrum' ]
 ];
