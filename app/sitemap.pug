@@ -10,25 +10,25 @@ block content
     p.pt-page-intro!= __( 'sitemap-description' )
 
     //- lists
-    h2
+    h2.pt-sitemap-label
       a( href= core.url( '/lists' ) )!= __( 'lists-title' )
-    ul.pt-sitemap-list
+    ul.pt-sitemap.pt-sitemap-list
       each list in config.get( 'lists' )
-        li.pt-sitemap-list-item
+        li.pt-sitemap-item
           a( href= core.url( '/list/' + list ) )!= __( list + '-label' )
 
     //- scales
-    h2
+    h2.pt-sitemap-label
       a( href= core.url( '/scales' ) )!= __( 'scales-title' )
-    ul.pt-sitemap-list
+    ul.pt-sitemap.pt-sitemap-list
       each scale, key in config.get( 'scales' )
-        li.pt-sitemap-list-item
+        li.pt-sitemap-item
           a( href= core.url( '/scale/' + key ) )!= __( scale.label )
 
     //- properties
-    h2
+    h2.pt-sitemap-label
       a( href= core.url( '/props' ) )!= __( 'props-title' )
-    ul.pt-sitemap-list
+    ul.pt-sitemap.pt-sitemap-list
       each prop in config.get( 'properties' )
-        li.pt-sitemap-list-item
+        li.pt-sitemap-item
           a( href= core.url( '/prop/' + prop ) )!= __( 'prop-' + prop )

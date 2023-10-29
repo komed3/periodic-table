@@ -1,16 +1,24 @@
 @import 'page';
 
+.pt-sitemap-label {
+    margin-top: 48px;
+}
+
 .pt-sitemap {
     display: grid;
     grid-template-columns: repeat( 2, 1fr );
     gap: 0 48px;
 }
 
-.pt-sitemap-item h3 a {
+.pt-sitemap-list {
+    gap: 8px 48px;
+}
+
+.pt-sitemap-item a {
     color: var( --accent-1 );
 }
 
-.pt-sitemap-item h3 a:hover {
+.pt-sitemap-item a:hover {
     text-decoration: underline;
 }
 
