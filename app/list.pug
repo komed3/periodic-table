@@ -1,0 +1,28 @@
+//- list page
+extends page.pug
+
+block title
+  - var title = __( page.list.name + '-label' )
+  - var description = __( page.list.name + '-description' )
+  title= title + ' — ' + __( 'periodic-table' )
+  meta( name= 'description', content= description )/
+
+block social
+  meta( property= 'og:title', content= title )/
+  meta( property= 'og:description', content= description )/
+
+block styles
+  link( rel= 'stylesheet', href= '/css/sitemap.css' )/
+
+block content
+  div.pt-page.pt-box.pt-properties
+    h1!= title
+    p.pt-page-intro!= description
+    div.pt-sitemap
+      each prop in page.list.items
+        div.pt-sitemap-item
+          h3
+            a(
+              href= core.url( '/list/' + page.list.name + '/' + prop )
+            )!= __( page.list.name + '-' + prop )
+          p!= __( page.list.name + '-' + prop + '-description' )

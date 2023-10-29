@@ -189,7 +189,11 @@ const routes = require( './config/routes' );
 
 routes.forEach( ( route ) => {
 
+    let key, results, prop, list;
+
     app.get( route[0], ( req, res ) => {
+
+        let file = route[1];
 
         try {
 
@@ -215,7 +219,7 @@ routes.forEach( ( route ) => {
                  */
                 case 'element':
 
-                    let key = ( req.params.element || '' ).toLowerCase();
+                    key = ( req.params.element || '' ).toLowerCase();
 
                     if( elements.has( key ) ) {
 
@@ -275,12 +279,112 @@ routes.forEach( ( route ) => {
 
                     break;
 
+                case 'list':
+
+                    list = ( req.params.list || '' ).toLowerCase();
+                    prop = ( req.params.prop || '' ).toLowerCase();
+
+                    if( config.get( 'lists' ).includes( list ) ) {
+
+                        res.locals.page.list = {
+                            name: list,
+                            prop: prop
+                        };
+
+                        /**
+                         * periodic table
+                         */
+
+                        res.locals.table.layer = list;
+
+                        if( prop.length ) {
+
+                            /**
+                             * single list prop page
+                             */
+
+                            file = 'list_prop';
+
+                            /**
+                             * fetch list items
+                             */
+
+                            results = Object.fromEntries(
+                                Object.entries( elements.database ).filter(
+                                    ( [ _k, el ] ) => list in el && el[ list ] == prop
+                                )
+                            );
+
+                            if( Object.keys( results ).length ) {
+
+                                res.locals.list = {
+                                    layer: list,
+                                    value: prop,
+                                    items: results
+                                };
+
+                                /**
+                                 * periodic table
+                                 */
+
+                                res.locals.table.value = prop;
+                                res.locals.table.highlight = prop;
+
+                            } else {
+
+                                /**
+                                 * list property not valid or empty
+                                 * redirect to list page
+                                 */
+
+                                res.redirect( core.url( '/list/' + list ) );
+                                return ;
+
+                            }
+
+                        } else {
+
+                            /**
+                             * list overview page
+                             */
+
+                            res.locals.page.list.items = [];
+
+                            Object.values( elements.database ).forEach( ( el ) => {
+
+                                if(
+                                    list in el && el[ list ] != null &&
+                                    !res.locals.page.list.items.includes( el[ list ] )
+                                ) {
+
+                                    res.locals.page.list.items.push( el[ list ] );
+
+                                }
+
+                            } );
+
+                        }
+
+                    } else {
+
+                        /**
+                         * list not exists
+                         * redirect to lists page
+                         */
+
+                        res.redirect( core.url( '/lists' ) );
+                        return ;
+
+                    }
+
+                    break;
+
                 /**
                  * property page
                  */
                 case 'prop':
 
-                    let prop = ( req.params.property || '' ).toLowerCase();
+                    prop = ( req.params.property || '' ).toLowerCase();
 
                     if( config.get( 'properties' ).includes( prop ) ) {
 
@@ -288,7 +392,7 @@ routes.forEach( ( route ) => {
                          * fetch elements with property set
                          */
 
-                        let results = Object.fromEntries(
+                        results = Object.fromEntries(
                             Object.entries( elements.database ).filter(
                                 ( [ _k, el ] ) => ( el.properties || [] ).includes( prop )
                             )
@@ -305,7 +409,7 @@ routes.forEach( ( route ) => {
 
                             /**
                              * periodic table
-                             **/
+                             */
 
                             res.locals.table = {
                                 type: 'prop',
@@ -356,7 +460,7 @@ routes.forEach( ( route ) => {
 
             res.status( 200 ).send(
                 pug.renderFile(
-                    __dirname + '/app/' + route[1] + '.pug',
+                    __dirname + '/app/' + file + '.pug',
                     res.locals
                 )
             );
