@@ -12,7 +12,7 @@ block social
   meta( property= 'og:description', content= description )/
 
 block styles
-  link( rel= 'stylesheet', href= '/css/sitemap.css' )/
+  link( rel= 'stylesheet', href= '/css/list.css' )/
 
 block content
   div.pt-page.pt-box.pt-properties
@@ -26,3 +26,5 @@ block content
               href= core.url( '/list/' + page.list.name + '/' + prop )
             )!= __( page.list.name + '-' + prop )
           p!= __( page.list.name + '-' + prop + '-description' )
+  div.pt-page
+    include templates/microtable.pug
