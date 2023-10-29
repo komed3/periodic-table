@@ -328,7 +328,7 @@ routes.forEach( ( route ) => {
                                  */
 
                                 res.locals.table.value = prop;
-                                res.locals.table.highlight = prop;
+                                res.locals.table.hl = prop;
 
                             } else {
 
