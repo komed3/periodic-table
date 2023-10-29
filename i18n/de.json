@@ -223,6 +223,7 @@
 	"lang-en": "Englisch",
 	"language": "Sprache",
 	"latin": "Lateinisch",
+	"legend": "Legende",
 	"liquid-temp": "Flüssigkeitsbereich",
 	"liquid-temp-description": "Der Flüssigkeitsbereich beschreibt bei Abstand zwischen Schmelz- und Siedetemperatur eines Stoffs; also den Temperaturbereich, in dem sich ein Stoff im flüssigen Aggregatzustand befindet. Dieser Wert errechnet sich aus den zuvorgenannten Phasenübergängen.",
 	"list-title": "%s: %s",

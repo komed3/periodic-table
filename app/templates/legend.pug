@@ -1,0 +1,12 @@
+//- templates/legend.pug
+if legend && legend.length
+  div.pt-legend.noselect(
+    layer= ( layer = table.layer || 'set' )
+  )
+    div.pt-legend-label= __( 'legend' )
+    div.pt-legend-inner
+      each item in legend
+        if item != 'undefined'
+          a.pt-legend-item( href= core.url( '/list/' + layer + '/' + item ) )
+            span.pt-el.pt-legend-item-box( prop= item )
+            span.pt-legend-item-label= __( layer + '-' + item )
