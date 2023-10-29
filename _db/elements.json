@@ -26766,7 +26766,7 @@
         }
     },
     "mt": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-29T17:28:32.371Z",
         "atomic_mass": {
             "value": 268,
             "*": true,
@@ -26838,7 +26838,7 @@
                 "unit": "pm"
             }
         },
-        "set": null,
+        "set": "unknown",
         "shell": [
             2,
             8,
@@ -26855,7 +26855,7 @@
         }
     },
     "ds": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-29T17:28:32.371Z",
         "atomic_mass": {
             "value": 281,
             "*": true,
@@ -26926,7 +26926,7 @@
                 "unit": "pm"
             }
         },
-        "set": null,
+        "set": "unknown",
         "shell": [
             2,
             8,
@@ -26943,7 +26943,7 @@
         }
     },
     "rg": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-29T17:28:32.371Z",
         "atomic_mass": {
             "value": 280,
             "*": true,
@@ -27014,7 +27014,7 @@
                 "unit": "pm"
             }
         },
-        "set": null,
+        "set": "unknown",
         "shell": [
             2,
             8,
@@ -27031,7 +27031,7 @@
         }
     },
     "cn": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-29T17:28:32.371Z",
         "atomic_mass": {
             "value": 277,
             "*": true,
@@ -27102,7 +27102,7 @@
                 "unit": "pm"
             }
         },
-        "set": null,
+        "set": "unknown",
         "shell": [
             2,
             8,
@@ -27147,7 +27147,7 @@
         }
     },
     "nh": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-29T17:28:32.371Z",
         "atomic_mass": {
             "value": 287,
             "*": true,
@@ -27219,7 +27219,7 @@
                 "unit": "pm"
             }
         },
-        "set": null,
+        "set": "unknown",
         "shell": [
             2,
             8,
@@ -27253,7 +27253,7 @@
         }
     },
     "fl": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-29T17:28:32.371Z",
         "atomic_mass": {
             "value": 289,
             "*": true,
@@ -27325,7 +27325,7 @@
                 "unit": "pm"
             }
         },
-        "set": null,
+        "set": "unknown",
         "shell": [
             2,
             8,
@@ -27350,7 +27350,7 @@
         }
     },
     "mc": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-29T17:28:32.371Z",
         "atomic_mass": {
             "value": 288,
             "*": true,
@@ -27421,7 +27421,7 @@
                 "unit": "pm"
             }
         },
-        "set": null,
+        "set": "unknown",
         "shell": [
             2,
             8,
@@ -27455,7 +27455,7 @@
         }
     },
     "lv": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-29T17:28:32.371Z",
         "atomic_mass": {
             "value": 293,
             "*": true,
@@ -27526,7 +27526,7 @@
                 "unit": "pm"
             }
         },
-        "set": null,
+        "set": "unknown",
         "shell": [
             2,
             8,
@@ -27572,7 +27572,7 @@
         }
     },
     "ts": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-29T17:28:32.371Z",
         "appearance": {
             "en": "semimetallic (predicted)"
         },
@@ -27645,7 +27645,7 @@
                 "unit": "pm"
             }
         },
-        "set": null,
+        "set": "unknown",
         "shell": [
             2,
             8,
@@ -27687,7 +27687,7 @@
         }
     },
     "og": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-29T17:28:32.371Z",
         "appearance": {
             "en": "metallic (predicted)"
         },
@@ -27762,7 +27762,7 @@
                 "unit": "pm"
             }
         },
-        "set": null,
+        "set": "unknown",
         "shell": [
             2,
             8,

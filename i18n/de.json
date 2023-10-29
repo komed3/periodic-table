@@ -432,6 +432,8 @@
 	"set-nonmetal-description": "Nichtmetalle zeichnen sich durch fehlende Eigenschaften wie elektrische und thermische Leitfähigkeit, Härte, ihren Glanz und gute Formbarkeit aus. Sie besitzen die allgemein höchste Elektronenaffinität.",
 	"set-transitionmetal": "Übergangsmetalle",
 	"set-transitionmetal-description": "Übergangsmetalle nennen Metalle der Nebengruppenelemente. Sie besitzen hohe Zugfestigkeiten, Dichten, Schmelzpunkte und Siedepunkte. Auszeichnend ist eine Zunahme von Elektronen in den d-Atomorbitalen entlang jeder Periode.",
+	"set-unknown": "Unbekannte",
+	"set-unknown-description": "Elemente dieser Kategorie sind keiner der bekannten Elementkategorien zugeordnet.",
 	"shell-1": "k-Schale",
 	"shell-2": "l-Schale",
 	"shell-3": "m-Schale",
