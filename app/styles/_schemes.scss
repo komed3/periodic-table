@@ -70,12 +70,17 @@
 
 /* layer */
 
+[layer="block"] [prop="d"],
+[layer="era"] [prop="classifying"],
+[layer="group"] [prop="18"],
 [layer="magnetic_ordering"] [prop="paramagnetic"],
 [layer="phase"] [prop="gas"],
 [layer="set"] [prop="halogen"] {
     --pt-bg: var( --pt-scheme-fire-01 );
 }
 
+[layer="era"] [prop="revolution"],
+[layer="period"] [prop="5"],
 [layer="set"] [prop="alkalimetal"],
 [layer="superconductivity"] [prop="special"] {
     --pt-bg: var( --pt-scheme-fire-05 );
@@ -85,36 +90,75 @@
     --pt-bg: var( --pt-scheme-fire-08 );
 }
 
+[layer="block"] [prop="f"],
+[layer="era"] [prop="enlightenment"],
+[layer="group"] [prop="3"],
+[layer="group"] [prop="4"],
+[layer="group"] [prop="5"],
+[layer="group"] [prop="6"],
+[layer="group"] [prop="7"],
+[layer="group"] [prop="8"],
+[layer="group"] [prop="9"],
+[layer="group"] [prop="10"],
+[layer="group"] [prop="11"],
+[layer="group"] [prop="12"],
+[layer="period"] [prop="6"],
 [layer="magnetic_ordering"] [prop="diamagnetic"],
+[layer="natural_occurrence"] [prop="decay"],
 [layer="set"] [prop="transitionmetal"] {
     --pt-bg: var( --pt-scheme-fire-10 );
 }
 
+[layer="era"] [prop="recent"],
+[layer="group"] [prop="1"],
 [layer="magnetic_ordering"] [prop="antiferromagnetic"],
+[layer="natural_occurrence"] [prop="synthetic"],
+[layer="period"] [prop="3"],
 [layer="phase"] [prop="liquid"],
 [layer="set"] [prop="noblegas"] {
     --pt-bg: var( --pt-scheme-ice-03 );
 }
 
+[layer="block"] [prop="s"],
+[layer="group"] [prop="2"],
+[layer="period"] [prop="2"] {
+    --pt-bg: var( --pt-scheme-ice-06 );
+}
+
+[layer="block"] [prop="p"],
+[layer="era"] [prop="quantum"],
+[layer="group"] [prop="17"],
 [layer="magnetic_ordering"] [prop="ferromagnetic"],
+[layer="period"] [prop="4"],
 [layer="set"] [prop="nonmetal"],
 [layer="superconductivity"] [prop="normal"] {
     --pt-bg: var( --pt-special-green );
 }
 
+[layer="group"] [prop="19"],
 [layer="set"] [prop="lanthanoide"] {
     --pt-bg: var( --pt-special-violet );
 }
 
+[layer="era"] [prop="synthesis"],
+[layer="group"] [prop="20"],
+[layer="period"] [prop="1"],
 [layer="set"] [prop="actinoide"] {
     --pt-bg: var( --pt-special-pink );
 }
 
+[layer="group"] [prop="15"],
+[layer="group"] [prop="16"],
 [layer="set"] [prop="metalloid"] {
     --pt-bg: var( --pt-special-beige );
 }
 
+[layer="era"] [prop="antiquity"],
+[layer="group"] [prop="13"],
+[layer="group"] [prop="14"],
 [layer="magnetic_ordering"] [prop="nonmagnetic"],
+[layer="natural_occurrence"] [prop="primordial"],
+[layer="period"] [prop="7"],
 [layer="phase"] [prop="solid"],
 [layer="set"] [prop="metal"],
 [layer="superconductivity"] [prop="none"] {
