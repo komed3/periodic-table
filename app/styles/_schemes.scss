@@ -1,3 +1,5 @@
+/* schemes */
+
 [theme="light"] {
 
     --pt-scheme-fire-01: #ffe466;
@@ -66,11 +68,16 @@
 
 }
 
+/* layer */
+
+[layer="magnetic_ordering"] [prop="paramagnetic"],
+[layer="phase"] [prop="gas"],
 [layer="set"] [prop="halogen"] {
     --pt-bg: var( --pt-scheme-fire-01 );
 }
 
-[layer="set"] [prop="alkalimetal"] {
+[layer="set"] [prop="alkalimetal"],
+[layer="superconductivity"] [prop="special"] {
     --pt-bg: var( --pt-scheme-fire-05 );
 }
 
@@ -78,15 +85,20 @@
     --pt-bg: var( --pt-scheme-fire-08 );
 }
 
+[layer="magnetic_ordering"] [prop="diamagnetic"],
 [layer="set"] [prop="transitionmetal"] {
     --pt-bg: var( --pt-scheme-fire-10 );
 }
 
+[layer="magnetic_ordering"] [prop="antiferromagnetic"],
+[layer="phase"] [prop="liquid"],
 [layer="set"] [prop="noblegas"] {
     --pt-bg: var( --pt-scheme-ice-03 );
 }
 
-[layer="set"] [prop="nonmetal"] {
+[layer="magnetic_ordering"] [prop="ferromagnetic"],
+[layer="set"] [prop="nonmetal"],
+[layer="superconductivity"] [prop="normal"] {
     --pt-bg: var( --pt-special-green );
 }
 
@@ -102,9 +114,14 @@
     --pt-bg: var( --pt-special-beige );
 }
 
-[layer="set"] [prop="metal"] {
+[layer="magnetic_ordering"] [prop="nonmagnetic"],
+[layer="phase"] [prop="solid"],
+[layer="set"] [prop="metal"],
+[layer="superconductivity"] [prop="none"] {
     --pt-bg: var( --pt-special-gray );
 }
+
+/* specials */
 
 [prop="undefined"] {
     --pt-bg: transparent;
@@ -116,6 +133,12 @@
 
 [layer="set"] .liquid {
     --pt-accent: var( --accent-1 );
+}
+
+[type="value"] [prop="undefined"] {
+    pointer-events: none;
+    opacity: 0.25;
+    filter: blur( 1px );
 }
 
 [type="prop"] [prop="1"] {
