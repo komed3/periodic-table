@@ -1,0 +1,6 @@
+//- templates/breadcrumbs.pug
+if breadcrumbs
+  div.pt-breadcrumbs
+    each link in breadcrumbs
+      span.pt-breadcrumbs-item
+        a.pt-breadcrumbs-link( href= link[0] )= link[1]

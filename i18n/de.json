@@ -214,6 +214,7 @@
 	"heat-conduction": "Wärme und Leitfähigkeit",
 	"heat_capacity": "Spezifische Wärmekapazität",
 	"heat_capacity-description": "Die spezifische Wärmekapazität bemisst die Fähigkeit eines Stoffes, thermische Energie zu speichern.",
+	"home": "Start",
 	"human-abundance": "Menschlicher Körper",
 	"human-abundance-description": "Die gemittelte natürliche Häufigkeit chemischer Elemente im menschlichen Körper nach Gewicht ihrer Atome in ppb (parts per billion; Bezugswert: eine Milliarde). Reale Werte können stark von den Angaben abweichen.",
 	"ionization-description": "Ionisierungsenergie ist die benötigte Energie, um ein in der Gasphase befindliches Atom zu ionisieren. Ionisierung führt zu einer positiv elektrischen Ladung. Alle Angaben erfolgen für einzelne Atome in Elektronenvolt (eV).",

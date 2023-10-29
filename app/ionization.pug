@@ -3,6 +3,7 @@ extends page.pug
 
 block content
   div.pt-page.pt-box.pt-ionization
+    include templates/breadcrumbs.pug
     h1!= __( 'ionization-title' )
     p.pt-page-intro!= __( 'ionization-description' )
     div.pt-prop-table-container

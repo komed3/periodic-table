@@ -205,6 +205,12 @@ routes.forEach( ( route ) => {
             res.locals.elements = elements;
             res.locals.table = { layer: 'set' };
             res.locals.search = { query: '' };
+            res.locals.breadcrumbs = [];
+
+            res.locals.breadcrumbs.push( [
+                '/',
+                res.__( 'home' )
+            ] );
 
             /**
              * page locals
@@ -213,6 +219,18 @@ routes.forEach( ( route ) => {
             res.locals.page = {};
 
             switch( route[1] ) {
+
+                /**
+                 * default page
+                 */
+                default:
+
+                    res.locals.breadcrumbs.push( [
+                        '/' + route[1],
+                        res.__( route[1] + '-title' )
+                    ] );
+
+                    break;
 
                 /**
                  * elements page
@@ -279,6 +297,9 @@ routes.forEach( ( route ) => {
 
                     break;
 
+                /**
+                 * list page (single and overview)
+                 */
                 case 'list':
 
                     list = ( req.params.list || '' ).toLowerCase();
@@ -296,6 +317,20 @@ routes.forEach( ( route ) => {
                          */
 
                         res.locals.table.layer = list;
+
+                        /**
+                         * breadcrumbs
+                         */
+
+                        res.locals.breadcrumbs.push( [
+                            '/lists',
+                            res.__( 'lists-title' )
+                        ] );
+
+                        res.locals.breadcrumbs.push( [
+                            '/list/' + list,
+                            res.__( list + '-label' )
+                        ] );
 
                         if( prop.length ) {
 
@@ -329,6 +364,15 @@ routes.forEach( ( route ) => {
 
                                 res.locals.table.value = prop;
                                 res.locals.table.hl = prop;
+
+                                /**
+                                 * breadcrumbs
+                                 */
+
+                                res.locals.breadcrumbs.push( [
+                                    '/list/' + list + '/' + prop,
+                                    res.__( list + '-' + prop )
+                                ] );
 
                             } else {
 
@@ -417,6 +461,20 @@ routes.forEach( ( route ) => {
                                 value: prop
                             };
 
+                            /**
+                             * breadcrumbs
+                             */
+
+                            res.locals.breadcrumbs.push( [
+                                '/props',
+                                res.__( 'props-title' )
+                            ] );
+
+                            res.locals.breadcrumbs.push( [
+                                '/prop/' + prop,
+                                res.__( 'prop-' + prop )
+                            ] );
+
                         } else {
 
                             /**
@@ -449,6 +507,15 @@ routes.forEach( ( route ) => {
                 case 'spectrum':
 
                     res.locals.page.spectrum = ( new DB( 'spectrum' ) ).database;
+
+                    /**
+                     * breadcrumbs
+                     */
+
+                    res.locals.breadcrumbs.push( [
+                        '/spectrum',
+                        res.__( 'spectrum-title' )
+                    ] );
 
                     break;
 
