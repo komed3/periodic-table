@@ -70,28 +70,39 @@
 
 /* layer */
 
+[layer="basicity"] [prop="slightly-acidic"],
 [layer="block"] [prop="d"],
+[layer="crystal_structure"] [prop="bcc"],
 [layer="era"] [prop="classifying"],
+[layer="goldschmidt"] [prop="chalcophile"],
 [layer="group"] [prop="18"],
 [layer="magnetic_ordering"] [prop="paramagnetic"],
 [layer="phase"] [prop="gas"],
+[layer="radioactivity"] [prop="highly-radioactive"],
 [layer="set"] [prop="halogen"] {
     --pt-bg: var( --pt-scheme-fire-01 );
 }
 
+[layer="crystal_structure"] [prop="fcc"],
 [layer="era"] [prop="revolution"],
+[layer="goldschmidt"] [prop="lithophile"],
 [layer="period"] [prop="5"],
+[layer="radioactivity"] [prop="significantly-radioactive"],
 [layer="set"] [prop="alkalimetal"],
 [layer="superconductivity"] [prop="special"] {
     --pt-bg: var( --pt-scheme-fire-05 );
 }
 
+[layer="crystal_structure"] [prop="hcp"],
 [layer="set"] [prop="alkalineearthmetal"] {
     --pt-bg: var( --pt-scheme-fire-08 );
 }
 
+[layer="basicity"] [prop="strongly-acidic"],
 [layer="block"] [prop="f"],
+[layer="crystal_structure"] [prop="dhcp"],
 [layer="era"] [prop="enlightenment"],
+[layer="goldschmidt"] [prop="siderophile"],
 [layer="group"] [prop="3"],
 [layer="group"] [prop="4"],
 [layer="group"] [prop="5"],
@@ -105,11 +116,19 @@
 [layer="period"] [prop="6"],
 [layer="magnetic_ordering"] [prop="diamagnetic"],
 [layer="natural_occurrence"] [prop="decay"],
+[layer="radioactivity"] [prop="radioactive"],
 [layer="set"] [prop="transitionmetal"] {
     --pt-bg: var( --pt-scheme-fire-10 );
 }
 
+[layer="basicity"] [prop="slightly-alkaline"],
+[layer="crystal_structure"] [prop="tetr"] {
+    --pt-bg: var( --pt-scheme-ice-01 );
+}
+
+[layer="basicity"] [prop="moderately-alkaline"],
 [layer="era"] [prop="recent"],
+[layer="goldschmidt"] [prop="atmophile"],
 [layer="group"] [prop="1"],
 [layer="magnetic_ordering"] [prop="antiferromagnetic"],
 [layer="natural_occurrence"] [prop="synthetic"],
@@ -119,41 +138,57 @@
     --pt-bg: var( --pt-scheme-ice-03 );
 }
 
+[layer="basicity"] [prop="alkaline"],
+[layer="crystal_structure"] [prop="rho"],
 [layer="block"] [prop="s"],
 [layer="group"] [prop="2"],
 [layer="period"] [prop="2"] {
     --pt-bg: var( --pt-scheme-ice-06 );
 }
 
+[layer="basicity"] [prop="strongly-alkaline"] {
+    --pt-bg: var( --pt-scheme-ice-09 );
+}
+
+[layer="basicity"] [prop="neutral"],
 [layer="block"] [prop="p"],
+[layer="crystal_structure"] [prop="orth"],
 [layer="era"] [prop="quantum"],
 [layer="group"] [prop="17"],
 [layer="magnetic_ordering"] [prop="ferromagnetic"],
 [layer="period"] [prop="4"],
+[layer="radioactivity"] [prop="slightly-radioactive"],
 [layer="set"] [prop="nonmetal"],
 [layer="superconductivity"] [prop="normal"] {
     --pt-bg: var( --pt-special-green );
 }
 
+[layer="crystal_structure"] [prop="sc"],
 [layer="group"] [prop="19"],
 [layer="set"] [prop="lanthanoide"] {
     --pt-bg: var( --pt-special-violet );
 }
 
+[layer="crystal_structure"] [prop="mon"],
 [layer="era"] [prop="synthesis"],
 [layer="group"] [prop="20"],
 [layer="period"] [prop="1"],
+[layer="radioactivity"] [prop="extremely-radioactive"],
 [layer="set"] [prop="actinoide"] {
     --pt-bg: var( --pt-special-pink );
 }
 
+[layer="basicity"] [prop="amphoterism"],
+[layer="crystal_structure"] [prop="hex"],
 [layer="group"] [prop="15"],
 [layer="group"] [prop="16"],
 [layer="set"] [prop="metalloid"] {
     --pt-bg: var( --pt-special-beige );
 }
 
+[layer="crystal_structure"] [prop="dc"],
 [layer="era"] [prop="antiquity"],
+[layer="goldschmidt"] [prop="synthetic"],
 [layer="group"] [prop="13"],
 [layer="group"] [prop="14"],
 [layer="magnetic_ordering"] [prop="nonmagnetic"],
