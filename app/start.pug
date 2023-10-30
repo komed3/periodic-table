@@ -9,7 +9,13 @@ block social
   meta( property= 'og:title', content= __( 'periodic-table' ) )/
   meta( property= 'og:description', content= __( 'intro' ) )/
 
+block styles
+  link( rel= 'stylesheet', href= '/css/start.css' )/
+
 block content
+  div.pt-page
+    include templates/pt.pug
+    include templates/legend.pug
   div.pt-page.pt-box.pt-start
     h1!= __( 'periodic-table' )
     p.pt-page-intro!= __( 'intro' )

@@ -1,0 +1,22 @@
+@import 'pt';
+@import 'legend';
+
+.pt-table {
+    line-height: 1;
+    font-weight: bold;
+}
+
+.pt-el .element--number {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    font-size: 13px;
+}
+
+.pt-el .element--symbol {
+    position: absolute;
+    right: 8px;
+    bottom: 6px;
+    font-size: 26px;
+    color: var( --pt-accent, inherit );
+}
