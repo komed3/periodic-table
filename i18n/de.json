@@ -443,8 +443,6 @@
 	"rigidity-elastic-description": "Der Schubmodul ist ein in GPa angegebener Indikator für die linear-elastische Verformung eines Bauteils infolge einer Scherkraft oder Schubspannung.",
 	"sanderson-negativity": "Sanderson-Skala",
 	"sanderson-negativity-description": "R. T. Sanderson führt die Elektronegativität wie Albert Allred und Eugene Rochow auf die effektive Kernladung zurück.",
-	"sc_temp": "Sprungtemperatur",
-	"sc_temp-description": "Unterhalb der Sprungtemperatur (auch als kritische Temperatur bezeichnet) wird der Stoff von quantenmechanischen Effekten dominiert und erhält supraleitende Eigenschaften.",
 	"scales-description": "Skalen sind anhand unterschiedlicher Eigentschaften bzw. Klassifizierungen farbcodierte Listen chemischer Elemente. Einige Skalen werden zusätzlich durch die Skalierung der Elementsymbole im Periodensystem verdeutlicht.",
 	"scales-title": "Skalen",
 	"search-empty": "Keine Suchergebnisse",
