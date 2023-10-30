@@ -10,6 +10,7 @@ module.exports = [
     [ '/:locale/lists/?', 'lists' ],
     [ '/:locale/prop/:property/?', 'prop' ],
     [ '/:locale/props/?', 'props' ],
+    [ '/:locale/search/?', 'search' ],
     [ '/:locale/scales/?', 'scales' ],
     [ '/:locale/sitemap/?', 'sitemap' ],
     [ '/:locale/spectrum/?', 'spectrum' ]

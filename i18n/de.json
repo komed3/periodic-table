@@ -522,5 +522,7 @@
 	"work_function-description": "Als Austrittsarbeit wird die Energie bezeichnet, die aufgebracht werden muss, um ein Elektron aus einem ungeladenen Festkörper zu lösen.",
 	"yellow": "gelb",
 	"young-elastic": "Youngscher Modul",
-	"young-elastic-description": "Der nach Thomas Young benannte Materialkennwert beschreibt bei linear-elastischem Verhalten den proportionalen Zusammenhang zwischen Spannung und Dehnung bei der Verformung eines festen Körpers."
+	"young-elastic-description": "Der nach Thomas Young benannte Materialkennwert beschreibt bei linear-elastischem Verhalten den proportionalen Zusammenhang zwischen Spannung und Dehnung bei der Verformung eines festen Körpers.",
+	"search-title": "search-title",
+	"search-results": "search-results"
 }

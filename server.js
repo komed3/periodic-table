@@ -203,9 +203,20 @@ routes.forEach( ( route ) => {
 
             res.locals.site = route[1];
             res.locals.elements = elements;
-            res.locals.table = { layer: 'set' };
-            res.locals.search = { query: '' };
             res.locals.breadcrumbs = [];
+
+            res.locals.search = {
+                query: req.query.q || req.query.query || ''
+            };
+
+            res.locals.table = {
+                layer: 'set'
+            };
+
+            res.locals.list = {
+                layer: 'set',
+                items: {}
+            };
 
             res.locals.breadcrumbs.push( [
                 '/',
@@ -531,6 +542,45 @@ routes.forEach( ( route ) => {
                          */
 
                         res.redirect( core.url( '/props' ) );
+                        return ;
+
+                    }
+
+                    break;
+
+                /**
+                 * search results page
+                 */
+                case 'search':
+
+                    if( res.locals.search.query.length ) {
+
+                        /**
+                         * fetch search results
+                         */
+
+                        results = {};
+
+                        ( new DB( 'search_' + res.getLocale() ) ).search(
+                            res.locals.search.query.toLocaleLowerCase( res.getLocale() )
+                        ).forEach( ( key ) => {
+
+                            results[ key ] = elements.get( key );
+
+                        } );
+
+                        res.locals.search.found = Object.keys( results ).length;
+
+                        res.locals.list.items = results;
+
+                    } else {
+
+                        /**
+                         * empty search query
+                         * redirect to home
+                         */
+
+                        res.redirect( core.url( '/' ) );
                         return ;
 
                     }

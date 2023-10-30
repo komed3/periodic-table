@@ -1,0 +1,20 @@
+//- search results page
+extends page.pug
+
+block title
+  - var title = __( 'search-title', search.query )
+  title= title + ' — ' + __( 'periodic-table' )
+
+block social
+  meta( property= 'og:title', content= title )/
+
+block styles
+  link( rel= 'stylesheet', href= '/css/search.css' )/
+
+block content
+  div.pt-page.pt-box.pt-search
+    h1!= title
+    include templates/searchform.pug
+    p.pt-search-label!= __( 'search-results', search.found, search.query )
+    div.pt-search-results
+      include templates/elementlist.pug
