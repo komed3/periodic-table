@@ -418,6 +418,8 @@
 	"sc_temp-description": "Unterhalb der Sprungtemperatur (auch als kritische Temperatur bezeichnet) wird der Stoff von quantenmechanischen Effekten dominiert und erhält supraleitende Eigenschaften.",
 	"scales-description": "Skalen sind anhand unterschiedlicher Eigentschaften bzw. Klassifizierungen farbcodierte Listen chemischer Elemente. Einige Skalen werden zusätzlich durch die Skalierung der Elementsymbole im Periodensystem verdeutlicht.",
 	"scales-title": "Skalen",
+	"search-empty": "Keine Suchergebnisse",
+	"search-empty-info": "Die Suche nach <q>%s</q> ergab keine Treffer. Möglicherweise enthält die Anfrage einen Tippfehler.",
 	"search-placeholder": "Suchen …",
 	"search-results": "<b>%s</b> Ergebnisse für <q>%s</q>",
 	"search-title": "Suche nach „%s“",
