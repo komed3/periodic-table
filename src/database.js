@@ -158,4 +158,33 @@ module.exports = class DB {
 
     };
 
+    /**
+     * search in database and returns key list
+     * @param {String} query search query
+     * @param {String} path searchable path
+     * @returns results
+     */
+    search = ( query, path = '' ) => {
+
+        let results = [];
+
+        for( const [ key, val ] of Object.entries( this.database ) ) {
+
+            if( (
+                path.length &&
+                this.#fromPath( key + '.' + path ).toString().includes( query )
+            ) || (
+                val.toString().includes( query )
+            ) ) {
+
+                results.push( key );
+
+            }
+
+        }
+
+        return results;
+
+    };
+
 };
