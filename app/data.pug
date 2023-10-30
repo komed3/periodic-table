@@ -10,4 +10,15 @@ block content
     p.pt-page-intro!= __( 'data-description' )
     p.pt-data-disclaimer!= __( 'data-disclaimer' )
     p!= __( 'data-copyright' )
+    div.pt-sitemap
+      each database in page.databases
+        div.pt-sitemap-item
+          h3
+            a(
+              href= 'https://github.com/komed3/periodic-table/raw/master/_db/' + database.name + '.json'
+              target= '_blank'
+            )!= database.name + '.json'
+          p.pt-data-desc!= __( 'database-' + database.name )
+          div.pt-data-info!= __( '@modified', f.date( database.info.mtime ) )
+          div.pt-data-info!= __( 'data-size', f.fileSize( database.info.size )[0] )
     p!= __( 'github-info' )

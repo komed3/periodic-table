@@ -189,7 +189,7 @@ const routes = require( './config/routes' );
 
 routes.forEach( ( route ) => {
 
-    let key, results, prop, list;
+    let key, results, path, prop, list;
 
     app.get( route[0], ( req, res ) => {
 
@@ -229,6 +229,33 @@ routes.forEach( ( route ) => {
                         '/' + route[1],
                         res.__( route[1] + '-title' )
                     ] );
+
+                    break;
+
+                /**
+                 * data (database) page
+                 */
+                case 'data':
+
+                    /**
+                     * fetch downloadable databases
+                     */
+
+                    results = [];
+
+                    config.get( 'maintenance.databases' ).forEach( ( database ) => {
+
+                        path = __dirname + '/_db/' + database + '.json';
+
+                        results.push( {
+                            name: database,
+                            path: path,
+                            info: fs.statSync( path )
+                        } );
+
+                    } );
+
+                    res.locals.page.databases = results;
 
                     break;
 

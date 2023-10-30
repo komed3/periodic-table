@@ -6,7 +6,7 @@ server:
   cookieAge: 1.0e+10
 
 maintenance:
-  database: [
+  databases: [
     elements, spectrum
   ]
 

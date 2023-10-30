@@ -280,6 +280,20 @@ const weight = ( weight, float = true ) => {
 };
 
 /**
+ * format file size to human readable
+ * @param {Int} size file size in bytes
+ * @param {Boolean} float use floating
+ * @returns formatted file size in [MB, kB, ...]
+ */
+const fileSize = ( size, float = true ) => {
+
+    return unitParts( {
+        MB: 1048576, kB: 1024
+    }, size, float );
+
+};
+
+/**
  * format time to human readable
  * @param {Int} time time in seconds
  * @param {Boolean} float use floating
@@ -335,5 +349,6 @@ module.exports = {
     setLocale,
     text, ordinal,
     unit, number, weight,
+    fileSize,
     time, date, dateTime
 };
