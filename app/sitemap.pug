@@ -32,3 +32,11 @@ block content
       each prop in config.get( 'properties' )
         li.pt-sitemap-item
           a( href= core.url( '/prop/' + prop ) )!= __( 'prop-' + prop )
+
+    //- abundances
+    h2.pt-sitemap-label
+      a( href= core.url( '/abundances' ) )!= __( 'abundances-title' )
+    ul.pt-sitemap.pt-sitemap-list
+      each abundance in Object.keys( config.get( 'abundances' ) )
+        li.pt-sitemap-item
+          a( href= core.url( '/abundance/' + abundance ) )!= __( abundance + '-abundance' )
