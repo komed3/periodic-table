@@ -268,15 +268,6 @@ routes.forEach( ( route ) => {
 
                     res.locals.page.databases = results;
 
-                    /**
-                     * breadcrumbs
-                     */
-
-                    res.locals.breadcrumbs.push( [
-                        '/data',
-                        res.__( 'data-title' )
-                    ] );
-
                     break;
 
                 /**

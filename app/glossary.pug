@@ -1,0 +1,10 @@
+//- glossary page
+extends page.pug
+
+block styles
+  link( rel='stylesheet', href= '/css/glossary.css' )/
+
+block content
+  div.pt-page.pt-box.pt-data
+    h1!= __( 'glossary-title' )
+    p.pt-page-intro!= __( 'glossary-description' )
