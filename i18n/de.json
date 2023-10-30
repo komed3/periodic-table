@@ -94,6 +94,9 @@
 	"crystal_structure-sc-description": "Die einfach kubische Elementarzelle (SC) ist die einfachste Form der Elementarzelle. Hier befindet sich in jeder Ecke eines gleichseitigen Würfels ein Atom.",
 	"crystal_structure-tetr": "tetragonal",
 	"crystal_structure-tetr-description": "Das tetragonale Kristallsystem (TETR) umfasst alle Punktgruppen, die in genau einer Richtung eine vierzählige Dreh- oder Drehinversionsachse besitzen.",
+	"data-copyright": "Wie diese Website können auch ihre Daten frei verwendet werden. Sie dürfen gerne genutzt werden, um ein eigenes Projekt zu starten, eine weitergehende Datenanalyse durchzuführen oder ähnliches. Ein Verweis auf <b>pse-info.de</b> und den <a href=\"https://komed3.de\" target=\"_blank\">Entwickler</a> ist nicht notwendig, aber es wäre freundlich und würde dazu beitragen, die Reichweite des Projekts zu erhöhen.",
+	"data-description": "Das PSE-Projekt ist quelloffen. Das gilt auch für die auf dieser Webseite genutzen Daten. Diese werden unter der MIT-Lizenz bereitgestellt und können nach Bedarf heruntergeladen werden.",
+	"data-disclaimer": "Die auf dieser Webseite bereitgestellten Daten erheben <u>nicht den Anspruch auf Richtigkeit, Vollständigkeit und Aktualität</u>. Sie stammen aus Tafelwerken, der Wikipedia, WebElements und anderen Webseiten. Pse-info.de übernimmt <u>keine Haftung für die Verwendung</u> dieser Daten und weist daraufhin, ggf. weitere Quellen zu nutzen.",
 	"data-title": "Datenbank",
 	"density": "Dichte",
 	"density-description": "Die Dichte beschreibt das Verhältnis der Masse eines Stoffs zu seinem Volumen. Sie ist von Form und Größe des Körpers unabhängig, nimmt aber im Allgemeinen mit steigender Temperatur ab. Sie ergibt sich aus den Massen der Atome und ihren Abständen zueinander.",
@@ -144,6 +147,7 @@
 	"ghs-08": "<b>GHS08</b> div. Gesundheitsgefahren",
 	"ghs-09": "<b>GHS09</b> Umweltgefährlich",
 	"github": "GitHub",
+	"github-info": "Der vollständige Quellcode von pse-info.de und die auf dieser Webseite genutzen Daten werden unter MIT-Lizenz quelloffen über das GitHub-Repository <a href=\"https://github.com/komed3/periodic-table\" target=\"_blank\"><b>@komed3/periodic-table</b></a> bereitgestellt. Fehler können unter <a href=\"https://github.com/komed3/periodic-table/issues\" target=\"_blank\">diesem Link</a> oder per E-Mail an <a href=\"mailto:webmaster@komed3.de\" target=\"_blank\">webmaster@komed3.de</a> gemeldet werden.",
 	"glossary-description": "Begriffsklärung verwendeter Fachtermina und Einheiten, Erklärung der Gefahrstoffkennzeichnung etc.",
 	"glossary-title": "Glossar",
 	"goldschmidt-atmophile": "atmophil",
@@ -515,9 +519,5 @@
 	"work_function-description": "Als Austrittsarbeit wird die Energie bezeichnet, die aufgebracht werden muss, um ein Elektron aus einem ungeladenen Festkörper zu lösen.",
 	"yellow": "gelb",
 	"young-elastic": "Youngscher Modul",
-	"young-elastic-description": "Der nach Thomas Young benannte Materialkennwert beschreibt bei linear-elastischem Verhalten den proportionalen Zusammenhang zwischen Spannung und Dehnung bei der Verformung eines festen Körpers.",
-	"data-description": "Das PSE-Projekt ist quelloffen. Das gilt auch für die auf dieser Webseite genutzen Daten. Diese werden unter der MIT-Lizenz bereitgestellt und können nach Bedarf heruntergeladen werden.",
-	"data-disclaimer": "data-disclaimer",
-	"data-copyright": "data-copyright",
-	"github-info": "github-info"
+	"young-elastic-description": "Der nach Thomas Young benannte Materialkennwert beschreibt bei linear-elastischem Verhalten den proportionalen Zusammenhang zwischen Spannung und Dehnung bei der Verformung eines festen Körpers."
 }
