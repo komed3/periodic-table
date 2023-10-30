@@ -2,6 +2,7 @@ module.exports = [
     [ '/:locale/?', 'start' ],
     [ '/:locale/404/?', '404' ],
     [ '/:locale/abundances/?', 'abundances' ],
+    [ '/:locale/data/?', 'data' ],
     [ '/:locale/element/:element/?', 'element' ],
     [ '/:locale/ionization/?', 'ionization' ],
     [ '/:locale/list/:list/?', 'list' ],

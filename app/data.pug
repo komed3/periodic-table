@@ -1,0 +1,13 @@
+//- data (database) page
+extends page.pug
+
+block styles
+  link( rel='stylesheet', href= '/css/data.css' )/
+
+block content
+  div.pt-page.pt-box.pt-data
+    h1!= __( 'data-title' )
+    p.pt-page-intro!= __( 'data-description' )
+    p.pt-data-disclaimer!= __( 'data-disclaimer' )
+    p!= __( 'data-copyright' )
+    p!= __( 'github-info' )
