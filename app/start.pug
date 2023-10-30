@@ -3,6 +3,14 @@ extends page.pug
 
 block title
   title= __( 'periodic-table' )
+  meta( name= 'description', content= __( 'intro' ) )/
 
 block social
   meta( property= 'og:title', content= __( 'periodic-table' ) )/
+  meta( property= 'og:description', content= __( 'intro' ) )/
+
+block content
+  div.pt-page.pt-box.pt-start
+    h1!= __( 'periodic-table' )
+    p.pt-page-intro!= __( 'intro' )
+    div!= __( 'about' )

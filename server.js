@@ -519,6 +519,12 @@ routes.forEach( ( route ) => {
 
                     break;
 
+                /**
+                 * start page
+                 */
+                case 'start':
+                    break;
+
             }
 
             /**
