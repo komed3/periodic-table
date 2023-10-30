@@ -43,6 +43,14 @@ const express = require( 'express' );
 const app = express();
 
 /**
+ * cookie parser
+ */
+
+const cookieParser = require( 'cookie-parser' );
+
+app.use( cookieParser() );
+
+/**
  * robots.txt
  */
 
@@ -52,6 +60,15 @@ app.get( '/robots.txt', ( req, res ) => {
     res.send( 'User-agent: *\nAllow: /' );
 
 } );
+
+/**
+ * static resources
+ */
+
+app.use( '/css', express.static( __dirname + '/public/styles' ) );
+app.use( '/js', express.static( __dirname + '/public/scripts' ) );
+app.use( '/res', express.static( __dirname + '/public/resources' ) );
+app.use( '/img', express.static( __dirname + '/public/images' ) );
 
 /**
  * passing settings and save them as cookie
@@ -80,23 +97,6 @@ app.use( '/set', ( req, res, next ) => {
     }
 
 } );
-
-/**
- * static resources
- */
-
-app.use( '/css', express.static( __dirname + '/public/styles' ) );
-app.use( '/js', express.static( __dirname + '/public/scripts' ) );
-app.use( '/res', express.static( __dirname + '/public/resources' ) );
-app.use( '/img', express.static( __dirname + '/public/images' ) );
-
-/**
- * cookie parser
- */
-
-const cookieParser = require( 'cookie-parser' );
-
-app.use( cookieParser() );
 
 /**
  * localization (i18n)
