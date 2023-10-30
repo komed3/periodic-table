@@ -419,6 +419,8 @@
 	"scales-description": "Skalen sind anhand unterschiedlicher Eigentschaften bzw. Klassifizierungen farbcodierte Listen chemischer Elemente. Einige Skalen werden zusätzlich durch die Skalierung der Elementsymbole im Periodensystem verdeutlicht.",
 	"scales-title": "Skalen",
 	"search-placeholder": "Suchen …",
+	"search-results": "<b>%s</b> Ergebnisse für <q>%s</q>",
+	"search-title": "Suche nach „%s“",
 	"set-actinoide": "Actinoide",
 	"set-actinoide-description": "Actinoide sind ähnliche Elemente der 7. Periode. Die Schwermetalle weisen nukleare Eigenschaften auf und sind neutroneninduziert spaltbar. Einige Actinoide sind in feinverteiltem Zustand pyrophor.",
 	"set-alkalimetal": "Alkalimetalle",
@@ -522,7 +524,5 @@
 	"work_function-description": "Als Austrittsarbeit wird die Energie bezeichnet, die aufgebracht werden muss, um ein Elektron aus einem ungeladenen Festkörper zu lösen.",
 	"yellow": "gelb",
 	"young-elastic": "Youngscher Modul",
-	"young-elastic-description": "Der nach Thomas Young benannte Materialkennwert beschreibt bei linear-elastischem Verhalten den proportionalen Zusammenhang zwischen Spannung und Dehnung bei der Verformung eines festen Körpers.",
-	"search-title": "search-title",
-	"search-results": "search-results"
+	"young-elastic-description": "Der nach Thomas Young benannte Materialkennwert beschreibt bei linear-elastischem Verhalten den proportionalen Zusammenhang zwischen Spannung und Dehnung bei der Verformung eines festen Körpers."
 }
