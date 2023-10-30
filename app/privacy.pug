@@ -4,4 +4,11 @@ extends page.pug
 block content
   div.pt-page.pt-box.pt-data
     h1!= __( 'privacy-title' )
-    p.pt-page-intro!= __( 'privacy-description' )
+    p.pt-page-intro!= __( 'privacy-intro' )
+    h2!= __( 'privacy-data-label' )
+    div!= __( 'privacy-data' )
+    h2!= __( 'privacy-cookies-label' )
+    div!= __( 'privacy-cookies' )
+    h2!= __( 'privacy-disclaimer-label' )
+    div!= __( 'privacy-disclaimer' )
+    p!= __( 'github-info' )
