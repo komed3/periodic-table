@@ -28,6 +28,13 @@ block content
               alt= __( 'pictogram' )
             )/
             span!= __( 'hazard-' + item )
+      div.pt-glossary-item
+        div.pt-box-flex.pt-glossary-pictogram
+          img.pictogram(
+            src= '/res/radioactive.png',
+            alt= __( 'pictogram' )
+          )/
+          span!= __( 'radioactivity-label' )
     h2!= __( 'adr-classes' )
     div.pt-glossary-grid
       each item in [ '1', '2.1', '2.2', '2.3', '3', '4.1', '4.2', '4.3', '5.1', '5.2', '6.1', '6.2', '7A', '7B', '7C', '7E', '8', '9', '9A', 'HOT', 'POL' ]
