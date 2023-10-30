@@ -1,7 +1,7 @@
 @import 'pt';
 @import 'legend';
 
-.pt-table {
+.pt-table-item {
     line-height: 1;
     font-weight: bold;
 }
@@ -19,4 +19,16 @@
     bottom: 6px;
     font-size: 26px;
     color: var( --pt-accent, inherit );
+}
+
+.pt-table-label {
+    grid-column: var( --g );
+    grid-row: var( --p );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pt-table-group {
+    place-self: center flex-start;
 }

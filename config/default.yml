@@ -13,6 +13,9 @@ themes:
   default: light
   list: [ light, dark ]
 
+pt:
+  offset: 3
+
 lists: [
   group, period, set, era, block, phase, natural_occurrence,
   basicity, goldschmidt, radioactivity, crystal_structure,
