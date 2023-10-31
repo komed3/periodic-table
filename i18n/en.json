@@ -340,6 +340,7 @@
 	"organism-mouse": "Mouse",
 	"organism-rats": "Rat",
 	"other-props": "Other properties",
+	"others": "Others",
 	"oxidation-state": "Oxidation state",
 	"pauling-negativity": "Pauling scale",
 	"pauling-negativity-description": "Linus Pauling’s model as a measure of the ionic portion of the bond between two atoms is based on their electronegativity differences. Knowledge of experimentally determined bond dissociation energies is a prerequisite.",
