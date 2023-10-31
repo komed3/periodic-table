@@ -3,6 +3,8 @@
 	"404-title": "Page not found",
 	"@modified": "Last edited on %s",
 	"about": "<p>In the periodic table of elements, all known chemical elements are arranged according to increasing nuclear charge (atomic number). The table is divided into rows (periods) and columns (groups). The position of an element immediately reveals its essential chemical characteristics, elements with similar properties are listed one below the other.</p><p>The periodic table was developed in 1869 by the Russian Dmitri Mendeleev and independently a few months later by the German Lothar Meyer. Many then unknown elements could be correctly predicted by their similarity to already known chemical elements.</p><p>The structure of the periodic table in seven horizontal periods and 18 vertical periods allows the ordering of chemical elements based on elementary properties, such as their increasing atomic number, similarity, reactivity or preferred bonding partners. Today, 118 elements are known – ascending from hydrogen to oganesson. 94 of these occur naturally, elements of higher atomic numbers were only produced by humans and are referred to as synthetic substances.</p>",
+	"abundance": "Abundance",
+	"abundance-mass": "Mass (%s)",
 	"abundances-description": "Natural abundance of chemical elements by weight of their atoms in ppb (parts per billion; reference value: one billion) in different environments.",
 	"abundances-title": "Natural abundances",
 	"action-download": "Save",

@@ -3,6 +3,8 @@
 	"404-title": "Seite nicht gefunden",
 	"@modified": "Zuletzt bearbeitet am %s",
 	"about": "<p>Im Periodensystem der Elemente werden alle bekannten chemischen Elemente gemäß steigender Kernladung (Ordnungszahl) geordnet. Die Tabelle ist in Zeilen (Perioden) und Spalten (Gruppen) untergliedert. Die Position eines Elements lässt dabei sofort auf die wesentlichen chemischen Charakteristiken schließen, Elemente mit ähnlichen Eigenschaften stehen untereinander.</p><p>Entwickelt wurde das Periodensystem 1869 von dem Russen Dmitri Mendelejew und unabhängig davon wenige Monate später von dem Deutschen Lothar Meyer. Viele damals noch unbekannte Elemente konnten durch die Ähnlichkeit zu bereits bekannten chemischen Elementen korrekt vorhergesagt werden.</p><p>Der Aufbau des Periodensystems in sieben waagerechte Perioden und 18 senkrechte Perioden ermöglicht die Ordnung chemischer Elemente anhand elementarer Eigenschaften, etwa ihrer steigenden Ordnungszahl, Ähnlichkeit, Reaktionsfreudigkeit oder bevorzugter Bindungspartner. Heute sind 118 Elemente – aufsteigend von Wasserstoff bis Oganesson – bekannt. 94 dieser kommen in der Natur vor, Elemente höherer Ordnungszahlen wurden erst durch den Menschen erzeugt und werden als synthetische Stoffe bezeichnet.</p>",
+	"abundance": "Häufigkeit",
+	"abundance-mass": "Masse (ca. %s)",
 	"abundances-description": "Natürliche Häufigkeit chemischer Elemente nach Gewicht ihrer Atome in ppb (parts per billion; Bezugswert: eine Milliarde) in unterschiedlichen Umgebungen.",
 	"abundances-title": "Natürliche Häufigkeiten",
 	"action-download": "Datensatz speichern",

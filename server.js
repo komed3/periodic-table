@@ -272,17 +272,10 @@ routes.forEach( ( route ) => {
                             )
                         );
 
-                        /**
-                         * generate abundance map
-                         */
-
-                        let map = {};
-
                         res.locals.page.abundance = {
                             ...abundance,
-                            name: key,
-                            items: results,
-                            map: map
+                            type: key,
+                            items: results
                         };
 
                         /**
