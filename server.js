@@ -279,6 +279,44 @@ routes.forEach( ( route ) => {
                         };
 
                         /**
+                         * generate map
+                         */
+
+                        let tiles = 1000;
+
+                        res.locals.map = [];
+
+                        for( const [ k, el ] of Object.entries( results ) ) {
+
+                            let val = Math.floor( el.abundance[ key ].value / 1e6 );
+
+                            if( val > 2 && ( tiles - val ) > 0 ) {
+
+                                res.locals.map.push( {
+                                    x: el.names[ res.getLocale() ],
+                                    y: val
+                                } );
+
+                                tiles -= val;
+
+                            } else {
+
+                                break;
+
+                            }
+
+                        }
+
+                        if( tiles > 0 ) {
+
+                            res.locals.map.push( {
+                                x: res.__( 'others' ),
+                                y: tiles
+                            } );
+
+                        }
+
+                        /**
                          * breadcrumbs
                          */
 
