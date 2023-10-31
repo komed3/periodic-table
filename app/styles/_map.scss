@@ -1,7 +1,7 @@
 @import 'schemes';
 
 .pt-map [layer="0"] {
-    --map-bg: var( --pt-scheme-fire-9 );
+    --map-bg: var( --pt-scheme-ice-9 );
 }
 
 .pt-map [layer="1"] {
@@ -9,15 +9,15 @@
 }
 
 .pt-map [layer="2"] {
-    --map-bg: var( --pt-scheme-ice-9 );
+    --map-bg: var( --pt-special-green );
 }
 
 .pt-map [layer="3"] {
-    --map-bg: var( --pt-scheme-ice-3 );
+    --map-bg: var( --pt-scheme-fire-9 );
 }
 
 .pt-map [layer="4"] {
-    --map-bg: var( --pt-special-green );
+    --map-bg: var( --pt-scheme-ice-5 );
 }
 
 .pt-map [layer="5"] {
@@ -33,7 +33,7 @@
 }
 
 .pt-map [layer="8"] {
-    --map-bg: var( --pt-scheme-ice-5 );
+    --map-bg: var( --pt-scheme-ice-3 );
 }
 
 .pt-map [layer="9"] {
@@ -47,7 +47,7 @@
 .pt-map-grid {
     display: grid;
     grid-template-columns: repeat( 50, 1fr );
-    gap: 4px;
+    gap: 3px;
 }
 
 .pt-map-tile {
