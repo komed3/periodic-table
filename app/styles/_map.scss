@@ -1,0 +1,81 @@
+@import 'schemes';
+
+.pt-map [layer="0"] {
+    --map-bg: var( --pt-scheme-fire-9 );
+}
+
+.pt-map [layer="1"] {
+    --map-bg: var( --pt-scheme-fire-3 );
+}
+
+.pt-map [layer="2"] {
+    --map-bg: var( --pt-scheme-ice-9 );
+}
+
+.pt-map [layer="3"] {
+    --map-bg: var( --pt-scheme-ice-3 );
+}
+
+.pt-map [layer="4"] {
+    --map-bg: var( --pt-special-green );
+}
+
+.pt-map [layer="5"] {
+    --map-bg: var( --pt-special-beige );
+}
+
+.pt-map [layer="6"] {
+    --map-bg: var( --pt-special-pink );
+}
+
+.pt-map [layer="7"] {
+    --map-bg: var( --pt-scheme-fire-5 );
+}
+
+.pt-map [layer="8"] {
+    --map-bg: var( --pt-scheme-ice-5 );
+}
+
+.pt-map [layer="9"] {
+    --map-bg: var( --pt-special-gray );
+}
+
+.pt-map {
+    margin: 48px 0;
+}
+
+.pt-map-grid {
+    display: grid;
+    grid-template-columns: repeat( 50, 1fr );
+    gap: 4px;
+}
+
+.pt-map-tile {
+    aspect-ratio: 1/1;
+    background: var( --map-bg, var( --gray-1 ) );
+}
+
+.pt-map-legend {
+    display: grid;
+    grid-template-columns: repeat( 4, max-content );
+    gap: 12px 48px;
+    margin-top: 24px;
+    font-size: 14px;
+}
+
+.pt-map-legend-item {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 8px;
+    width: max-content;
+}
+
+.pt-map-legend-item-box {
+    flex: 0 0 auto;
+    width: 20px;
+    height: 20px;
+    background: var( --map-bg, var( --gray-1 ) );
+    border: 1px solid var( --gray-4 );
+    border-radius: 10px;
+}

@@ -282,15 +282,15 @@ routes.forEach( ( route ) => {
                          * generate map
                          */
 
-                        let tiles = 1000;
+                        let tiles = 500;
 
                         res.locals.map = [];
 
                         for( const [ k, el ] of Object.entries( results ) ) {
 
-                            let val = Math.floor( el.abundance[ key ].value / 1e6 );
+                            let val = Math.floor( el.abundance[ key ].value / 2e6 );
 
-                            if( val > 2 && ( tiles - val ) > 0 ) {
+                            if( val > 2 && ( tiles - val ) > 0 && res.locals.map.length < 9 ) {
 
                                 res.locals.map.push( {
                                     x: el.names[ res.getLocale() ],
