@@ -189,7 +189,7 @@ const routes = require( './config/routes' );
 
 routes.forEach( ( route ) => {
 
-    let key, list, path, prop, results;
+    let key, list, path, prop, results, value;
 
     app.get( route[0], ( req, res ) => {
 
@@ -544,14 +544,151 @@ routes.forEach( ( route ) => {
                  */
                 case 'scale':
 
-                    let scales = config.get( 'scales' ),
-                        scale = ( req.params.scale || '' ).toLowerCase();
+                    let scales = config.get( 'scales' );
 
-                    if( scale in scales ) {
+                    key = ( req.params.scale || '' ).toLowerCase();
 
-                        scale = scales[ scale ];
+                    if( key in scales ) {
 
-                        res.locals.page.scale = scale;
+                        let scale = scales[ key ];
+
+                        /**
+                         * fetch scale items
+                         */
+
+                        scale.results = {};
+
+                        for( const [ k, el ] of Object.entries( elements.database ) ) {
+
+                            if( ( value = elements.get( k + '.' + scale.key ) ) ) {
+
+                                if( Array.isArray( value ) ) {
+
+                                    value = value[0];
+
+                                }
+
+                                scale.results[ k ] = {
+                                    ...el,
+                                    scale: {
+                                        value: value,
+                                        x: isNaN( value )
+                                            ? value.value || 0
+                                            : value
+                                    }
+                                };
+
+                            }
+
+                        }
+
+                        if( Object.keys( scale.results ).length ) {
+
+                            /**
+                             * calculate min and max if undefined
+                             */
+
+                            if( scale.min == undefined || scale.max == undefined ) {
+
+                                let values = Object.values( scale.results );
+
+                                scale.min = values.reduce( ( a, b ) => {
+                                    return a.scale.x < b.scale.x ? a : b;
+                                } ).scale.x;
+
+                                scale.max = values.reduce( ( a, b ) => {
+                                    return a.scale.x > b.scale.x ? a : b;
+                                } ).scale.x;
+
+                                if( scale.log ) {
+
+                                    scale.min = Math.log( scale.min );
+                                    scale.max = Math.log( scale.max );
+
+                                }
+
+                            }
+
+                            /**
+                             * calculate step if undefined
+                             */
+
+                            if( scale.step == undefined ) {
+
+                                scale.step = Math.abs( ( scale.max - scale.min ) / 10 );
+
+                            }
+
+                            /**
+                             * calculate scale values
+                             */
+
+                            for( const [ k, res ] of Object.entries( scale.results ) ) {
+
+                                let val = ( ( scale.log
+                                    ? Math.log( res.scale.x )
+                                    : res.scale.x
+                                ) - scale.min ) / scale.step;
+
+                                switch( scale.round ) {
+
+                                    case 'floor':
+                                        scale.results[ k ].scale.y = Math.max( 0, Math.floor( val ) );
+                                        break;
+
+                                    case 'ceil':
+                                        scale.results[ k ].scale.y = Math.min( 10, Math.ceil( val ) );
+                                        break;
+
+                                    default:
+                                        scale.results[ k ].scale.y = Math.max( 0, Math.min( 10, Math.round( val ) ) );
+                                        break;
+
+                                }
+
+                            }
+
+                            /**
+                             * proceed scale to output
+                             */
+
+                            res.locals.page.scale = scale;
+
+                            /**
+                             * periodic table
+                             */
+
+                            res.locals.table = {
+                                type: 'scale',
+                                value: scale.results,
+                                layer: scale.scheme
+                            };
+
+                            /**
+                             * breadcrumbs
+                             */
+
+                            res.locals.breadcrumbs.push( [
+                                '/scales',
+                                res.__( 'scales-title' )
+                            ] );
+
+                            res.locals.breadcrumbs.push( [
+                                '/scale/' + key,
+                                res.__( scale.label )
+                            ] );
+
+                        } else {
+
+                            /**
+                             * scale has no items
+                             * redirect to scales page
+                             */
+
+                            res.redirect( core.url( '/scales' ) );
+                            return ;
+
+                        }
 
                     } else {
 
