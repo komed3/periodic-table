@@ -254,12 +254,36 @@ routes.forEach( ( route ) => {
 
                     if( key in abundances ) {
 
-                        let abundance = {
-                            ...abundances[ key ],
-                            name: key
-                        };
+                        let abundance = abundances[ key ];
 
-                        res.locals.page.abundance = abundance;
+                        /**
+                         * fetch results and sort by abundance
+                         */
+
+                        results = Object.fromEntries(
+                            Object.entries( elements.database ).filter(
+                                ( [ _k, el ] ) => {
+                                    return 'abundance' in el && key in el.abundance;
+                                }
+                            ).sort(
+                                ( [ ,a ], [ ,b ] ) => {
+                                    return b.abundance[ key ].value - a.abundance[ key ].value;
+                                }
+                            )
+                        );
+
+                        /**
+                         * generate abundance map
+                         */
+
+                        let map = {};
+
+                        res.locals.page.abundance = {
+                            ...abundance,
+                            name: key,
+                            items: results,
+                            map: map
+                        };
 
                         /**
                          * breadcrumbs
