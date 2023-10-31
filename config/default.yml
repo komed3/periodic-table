@@ -50,18 +50,22 @@ scales:
     key: radius.empirical
     label: empirical-radius
     scheme: _fire
+    scaling: true
   radius_calculated:
     key: radius.calculated
     label: calculated-radius
     scheme: _fire
+    scaling: true
   radius_covalent:
     key: radius.covalent
     label: covalent-radius
     scheme: _fire
+    scaling: true
   radius_vdw:
     key: radius.vdw
     label: vdw-radius
     scheme: _fire
+    scaling: true
   density:
     key: density
     label: density
@@ -73,7 +77,7 @@ scales:
   sound_speed:
     key: sound_speed
     label: sound_speed
-    scheme: _fire
+    scheme: _ice
     log: true
   temp_melting:
     key: temperature.melting
@@ -107,14 +111,17 @@ scales:
     key: enthalpy.fusion
     label: fusion-enthalpy
     scheme: _fire
+    scaling: true
   enthalpy_vaporisation:
     key: enthalpy.vaporisation
     label: vaporisation-enthalpy
     scheme: _fire
+    scaling: true
   enthalpy_atomisation:
     key: enthalpy.atomisation
     label: atomisation-enthalpy
     scheme: _fire
+    scaling: true
   heat_capacity:
     key: heat.heat_capacity
     label: heat_capacity
@@ -130,10 +137,12 @@ scales:
     label: thermal_expansion
     scheme: _fire
     log: true
+    scaling: true
   work_function:
     key: heat.work_function
     label: work_function
     scheme: _fire
+    scaling: true
   hardness_mohs:
     key: hardness.mohs
     label: mohs-hardness
@@ -154,22 +163,26 @@ scales:
     key: elastic.young
     label: young-elastic
     scheme: _ice
+    scaling: true
   elastic_rigidity:
     key: elastic.rigidity
     label: rigidity-elastic
     scheme: _ice
+    scaling: true
   elastic_bulk:
     key: elastic.bulk
     label: bulk-elastic
     scheme: _ice
+    scaling: true
   elastic_poisson:
     key: elastic.poisson
     label: poisson-elastic
     scheme: _ice
+    scaling: true
   electrical_conductivity:
     key: electrical.conductivity
     label: electrical_conductivity
-    scheme: _ice
+    scheme: _ice_reverse
     min: 0.9e+6
     max: 5.0e+7
   electrical_resistivity:
@@ -185,41 +198,37 @@ scales:
     key: optical.refractive_index
     label: refractive_index-optical
     scheme: _ice
+    log: true
   standard_potential:
     key: standard_potential
     label: standard-potential
     scheme: _fire
-    scaling: false
   negativity_pauling:
     key: negativity.pauling
     label: pauling-negativity
     scheme: _fire
-    scaling: false
   negativity_sanderson:
     key: negativity.sanderson
     label: sanderson-negativity
     scheme: _fire
-    scaling: false
   negativity_allred:
     key: negativity.allred
     label: allred-negativity
     scheme: _fire
-    scaling: false
   negativity_mulliken:
     key: negativity.mulliken
     label: mulliken-negativity
     scheme: _fire
-    scaling: false
   negativity_allen:
     key: negativity.allen
     label: allen-negativity
     scheme: _fire
-    scaling: false
   price:
     key: price
     label: price
     scheme: _ice
     log: true
+    scaling: true
 
 abundances:
   universe:

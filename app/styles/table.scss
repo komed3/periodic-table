@@ -4,6 +4,7 @@
 .pt-table-item {
     line-height: 1;
     font-weight: bold;
+    transform: scale( var( --pt-sf, 1 ) );
 }
 
 .pt-el .element--number {

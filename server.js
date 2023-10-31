@@ -661,7 +661,8 @@ routes.forEach( ( route ) => {
                             res.locals.table = {
                                 type: 'scale',
                                 value: scale.results,
-                                layer: scale.scheme
+                                layer: scale.scheme,
+                                scale: +( scale.scaling || 0 )
                             };
 
                             /**
