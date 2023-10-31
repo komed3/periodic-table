@@ -1,0 +1,18 @@
+//- abundance page
+extends page.pug
+
+block title
+  - var title = __( page.abundance.name + '-abundance' )
+  - var description = __( page.abundance.name + '-abundance-description' )
+  title= title + ' — ' + __( 'periodic-table' )
+  meta( name= 'description', content= description )/
+
+block social
+  meta( property= 'og:title', content= title )/
+  meta( property= 'og:description', content= description )/
+
+block content
+    div.pt-page.pt-box.pt-abundance
+      include templates/breadcrumbs.pug
+      h1!= title
+      p.pt-page-intro!= description

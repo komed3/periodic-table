@@ -244,6 +244,52 @@ routes.forEach( ( route ) => {
                     break;
 
                 /**
+                 * abundance page
+                 */
+                case 'abundance':
+
+                    let abundances = config.get( 'abundances' );
+
+                    key = ( req.params.abundance || '' ).toLowerCase();
+
+                    if( key in abundances ) {
+
+                        let abundance = {
+                            ...abundances[ key ],
+                            name: key
+                        };
+
+                        res.locals.page.abundance = abundance;
+
+                        /**
+                         * breadcrumbs
+                         */
+
+                        res.locals.breadcrumbs.push( [
+                            '/abundances',
+                            res.__( 'abundances-title' )
+                        ] );
+
+                        res.locals.breadcrumbs.push( [
+                            '/abundance/' + key,
+                            res.__( key + '-abundance' )
+                        ] );
+
+                    } else {
+
+                        /**
+                         * wrong abundance key given
+                         * redirect to abundances page
+                         */
+
+                        res.redirect( core.url( '/abundances' ) );
+                        return ;
+
+                    }
+
+                    break;
+
+                /**
                  * data (database) page
                  */
                 case 'data':
