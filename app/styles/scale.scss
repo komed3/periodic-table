@@ -1,2 +1,9 @@
 @import 'page';
 @import 'table';
+
+.pt-scale-table-color {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    background: var( --pt-bg, var( --gray-0 ) ) !important;
+}
