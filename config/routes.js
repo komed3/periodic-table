@@ -13,6 +13,7 @@ module.exports = [
     [ '/:locale/prop/:property/?', 'prop' ],
     [ '/:locale/props/?', 'props' ],
     [ '/:locale/search/?', 'search' ],
+    [ '/:locale/scale/:scale/?', 'scale' ],
     [ '/:locale/scales/?', 'scales' ],
     [ '/:locale/sitemap/?', 'sitemap' ],
     [ '/:locale/spectrum/?', 'spectrum' ]

@@ -189,7 +189,7 @@ const routes = require( './config/routes' );
 
 routes.forEach( ( route ) => {
 
-    let key, results, path, prop, list;
+    let key, list, path, prop, results;
 
     app.get( route[0], ( req, res ) => {
 
@@ -533,6 +533,34 @@ routes.forEach( ( route ) => {
                          */
 
                         res.redirect( core.url( '/props' ) );
+                        return ;
+
+                    }
+
+                    break;
+
+                /**
+                 * scale page
+                 */
+                case 'scale':
+
+                    let scales = config.get( 'scales' ),
+                        scale = ( req.params.scale || '' ).toLowerCase();
+
+                    if( scale in scales ) {
+
+                        scale = scales[ scale ];
+
+                        res.locals.page.scale = scale;
+
+                    } else {
+
+                        /**
+                         * wrong scale name
+                         * redirect to scales page
+                         */
+
+                        res.redirect( core.url( '/scales' ) );
                         return ;
 
                     }
