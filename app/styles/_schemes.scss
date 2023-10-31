@@ -2,27 +2,27 @@
 
 [theme="light"] {
 
-    --pt-scheme-fire-01: #ffe466;
-    --pt-scheme-fire-02: #ffda69;
-    --pt-scheme-fire-03: #ffd16e;
-    --pt-scheme-fire-04: #ffc874;
-    --pt-scheme-fire-05: #ffbf7c;
-    --pt-scheme-fire-06: #ffb884;
-    --pt-scheme-fire-07: #ffb18c;
-    --pt-scheme-fire-08: #ffab95;
-    --pt-scheme-fire-09: #ffa79c;
-    --pt-scheme-fire-10: #ffa3a3;
+    --pt-scheme-fire-0: #ffe466;
+    --pt-scheme-fire-1: #ffda69;
+    --pt-scheme-fire-2: #ffd16e;
+    --pt-scheme-fire-3: #ffc874;
+    --pt-scheme-fire-4: #ffbf7c;
+    --pt-scheme-fire-5: #ffb884;
+    --pt-scheme-fire-6: #ffb18c;
+    --pt-scheme-fire-7: #ffab95;
+    --pt-scheme-fire-8: #ffa79c;
+    --pt-scheme-fire-9: #ffa3a3;
 
-    --pt-scheme-ice-01: #daf8f8;
-    --pt-scheme-ice-02: #c5eef3;
-    --pt-scheme-ice-03: #b0e4f0;
-    --pt-scheme-ice-04: #9ddaee;
-    --pt-scheme-ice-05: #8bcfed;
-    --pt-scheme-ice-06: #7dc3ec;
-    --pt-scheme-ice-07: #74b7eb;
-    --pt-scheme-ice-08: #6faae8;
-    --pt-scheme-ice-09: #719ce3;
-    --pt-scheme-ice-10: #778ddc;
+    --pt-scheme-ice-0: #daf8f8;
+    --pt-scheme-ice-1: #c5eef3;
+    --pt-scheme-ice-2: #b0e4f0;
+    --pt-scheme-ice-3: #9ddaee;
+    --pt-scheme-ice-4: #8bcfed;
+    --pt-scheme-ice-5: #7dc3ec;
+    --pt-scheme-ice-6: #74b7eb;
+    --pt-scheme-ice-7: #6faae8;
+    --pt-scheme-ice-8: #719ce3;
+    --pt-scheme-ice-9: #778ddc;
 
     --pt-special-green: #a7d699;
     --pt-special-violet: #e5c1e4;
@@ -36,27 +36,27 @@
 
 [theme="dark"] {
 
-    --pt-scheme-fire-01: #997e00;
-    --pt-scheme-fire-02: #9a7400;
-    --pt-scheme-fire-03: #9c6a00;
-    --pt-scheme-fire-04: #9c6000;
-    --pt-scheme-fire-05: #9d5500;
-    --pt-scheme-fire-06: #9d4a00;
-    --pt-scheme-fire-07: #9d3e00;
-    --pt-scheme-fire-08: #9c3000;
-    --pt-scheme-fire-09: #9b1f00;
-    --pt-scheme-fire-10: #990000;
+    --pt-scheme-fire-0: #997e00;
+    --pt-scheme-fire-1: #9a7400;
+    --pt-scheme-fire-2: #9c6a00;
+    --pt-scheme-fire-3: #9c6000;
+    --pt-scheme-fire-4: #9d5500;
+    --pt-scheme-fire-5: #9d4a00;
+    --pt-scheme-fire-6: #9d3e00;
+    --pt-scheme-fire-7: #9c3000;
+    --pt-scheme-fire-8: #9b1f00;
+    --pt-scheme-fire-9: #990000;
 
-    --pt-scheme-ice-01: #729090;
-    --pt-scheme-ice-02: #62898e;
-    --pt-scheme-ice-03: #52828c;
-    --pt-scheme-ice-04: #437a8c;
-    --pt-scheme-ice-05: #34738c;
-    --pt-scheme-ice-06: #286a8c;
-    --pt-scheme-ice-07: #21618b;
-    --pt-scheme-ice-08: #225889;
-    --pt-scheme-ice-09: #294e85;
-    --pt-scheme-ice-10: #33437f;
+    --pt-scheme-ice-0: #729090;
+    --pt-scheme-ice-1: #62898e;
+    --pt-scheme-ice-2: #52828c;
+    --pt-scheme-ice-3: #437a8c;
+    --pt-scheme-ice-4: #34738c;
+    --pt-scheme-ice-5: #286a8c;
+    --pt-scheme-ice-6: #21618b;
+    --pt-scheme-ice-7: #225889;
+    --pt-scheme-ice-8: #294e85;
+    --pt-scheme-ice-9: #33437f;
 
     --pt-special-green: #64805b;
     --pt-special-violet: #90638c;
@@ -65,6 +65,20 @@
     --pt-special-gray: #545454;
 
     --pt-radioactive: rgba( 0 0 0 / 0.5 );
+
+}
+
+/* scales */
+
+@for $i from 0 through 9 {
+
+    [type="scale"][layer="_fire"] [prop="#{$i}"] {
+        --pt-bg: var( --pt-scheme-fire-#{$i} );
+    }
+
+    [type="scale"][layer="_ice"] [prop="#{$i}"] {
+        --pt-bg: var( --pt-scheme-ice-#{$i} );
+    }
 
 }
 
@@ -80,7 +94,7 @@
 [layer="phase"] [prop="gas"],
 [layer="radioactivity"] [prop="highly-radioactive"],
 [layer="set"] [prop="halogen"] {
-    --pt-bg: var( --pt-scheme-fire-01 );
+    --pt-bg: var( --pt-scheme-fire-0 );
 }
 
 [layer="crystal_structure"] [prop="fcc"],
@@ -90,12 +104,12 @@
 [layer="radioactivity"] [prop="significantly-radioactive"],
 [layer="set"] [prop="alkalimetal"],
 [layer="superconductivity"] [prop="special"] {
-    --pt-bg: var( --pt-scheme-fire-04 );
+    --pt-bg: var( --pt-scheme-fire-3 );
 }
 
 [layer="crystal_structure"] [prop="hcp"],
 [layer="set"] [prop="alkalineearthmetal"] {
-    --pt-bg: var( --pt-scheme-fire-07 );
+    --pt-bg: var( --pt-scheme-fire-6 );
 }
 
 [layer="basicity"] [prop="strongly-acidic"],
@@ -118,12 +132,12 @@
 [layer="natural_occurrence"] [prop="decay"],
 [layer="radioactivity"] [prop="radioactive"],
 [layer="set"] [prop="transitionmetal"] {
-    --pt-bg: var( --pt-scheme-fire-10 );
+    --pt-bg: var( --pt-scheme-fire-9 );
 }
 
 [layer="basicity"] [prop="slightly-alkaline"],
 [layer="crystal_structure"] [prop="tetr"] {
-    --pt-bg: var( --pt-scheme-ice-01 );
+    --pt-bg: var( --pt-scheme-ice-0 );
 }
 
 [layer="basicity"] [prop="moderately-alkaline"],
@@ -135,7 +149,7 @@
 [layer="period"] [prop="3"],
 [layer="phase"] [prop="liquid"],
 [layer="set"] [prop="noblegas"] {
-    --pt-bg: var( --pt-scheme-ice-03 );
+    --pt-bg: var( --pt-scheme-ice-2 );
 }
 
 [layer="basicity"] [prop="alkaline"],
@@ -143,11 +157,11 @@
 [layer="block"] [prop="s"],
 [layer="group"] [prop="2"],
 [layer="period"] [prop="2"] {
-    --pt-bg: var( --pt-scheme-ice-06 );
+    --pt-bg: var( --pt-scheme-ice-5 );
 }
 
 [layer="basicity"] [prop="strongly-alkaline"] {
-    --pt-bg: var( --pt-scheme-ice-09 );
+    --pt-bg: var( --pt-scheme-ice-8 );
 }
 
 [layer="basicity"] [prop="neutral"],
@@ -214,6 +228,7 @@
     --pt-accent: var( --accent-1 );
 }
 
+[type="scale"] [prop="undefined"],
 [type="value"] [prop="undefined"] {
     pointer-events: none;
     opacity: 0.25;

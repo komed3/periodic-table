@@ -637,11 +637,11 @@ routes.forEach( ( route ) => {
                                         break;
 
                                     case 'ceil':
-                                        scale.results[ k ].scale.y = Math.min( 10, Math.ceil( val ) );
+                                        scale.results[ k ].scale.y = Math.min( 9, Math.ceil( val ) );
                                         break;
 
                                     default:
-                                        scale.results[ k ].scale.y = Math.max( 0, Math.min( 10, Math.round( val ) ) );
+                                        scale.results[ k ].scale.y = Math.max( 0, Math.min( 9, Math.round( val ) ) );
                                         break;
 
                                 }
