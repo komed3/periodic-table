@@ -72,12 +72,24 @@
 
 @for $i from 0 through 9 {
 
+    [type="scale"][scaling="1"] [prop="#{$i}"] {
+        --pt-sf: calc( ( #{$i} * 0.04 ) + 0.64 );
+    }
+
     [type="scale"][layer="_fire"] [prop="#{$i}"] {
         --pt-bg: var( --pt-scheme-fire-#{$i} );
     }
 
+    [type="scale"][layer="_fire_reverse"] [prop="#{$i}"] {
+        --pt-bg: var( --pt-scheme-fire-#{9 - $i} );
+    }
+
     [type="scale"][layer="_ice"] [prop="#{$i}"] {
         --pt-bg: var( --pt-scheme-ice-#{$i} );
+    }
+
+    [type="scale"][layer="_ice_reverse"] [prop="#{$i}"] {
+        --pt-bg: var( --pt-scheme-ice-#{9 - $i} );
     }
 
 }
