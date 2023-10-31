@@ -11,7 +11,13 @@ block social
   meta( property= 'og:title', content= title )/
   meta( property= 'og:description', content= description )/
 
+block styles
+  link( rel= 'stylesheet', href= '/css/scale.css' )/
+
 block content
+  div.pt-page
+    include templates/pt.pug
   div.pt-page.pt-box.pt-scale
+    include templates/breadcrumbs.pug
     h1!= title
     p.pt-page-intro!= description

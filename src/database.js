@@ -147,12 +147,17 @@ module.exports = class DB {
 
         switch( type ) {
 
-            case 'prop':
-                return +!!( this.get( key + '.properties' ) || [] ).includes( value || '' );
-
             default:
             case 'value':
                 return this.get( p ) || 'undefined';
+
+            case 'prop':
+                return +!!( this.get( key + '.properties' ) || [] ).includes( value || '' );
+
+            case 'scale':
+                return key in value && 'scale' in value[ key ]
+                    ? value[ key ].scale.y
+                    : 'undefined';
 
         }
 
