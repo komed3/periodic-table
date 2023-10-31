@@ -20,3 +20,11 @@ block content
     h1!= __( 'periodic-table' )
     p.pt-page-intro!= __( 'intro' )
     div!= __( 'about' )
+    div.pt-sitemap
+      each page in [ 'lists', 'scales', 'props' ]
+        div.pt-sitemap-item
+          h3
+            a(
+              href= core.url( '/' + page )
+            )!= __( page + '-title' )
+          p!= __( page + '-description' )

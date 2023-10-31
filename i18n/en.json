@@ -375,7 +375,7 @@
 	"price": "Price",
 	"price-description": "Average market prices per kilogram of a chemical element in US dollars. Market and daily deviations not calculated; data status before 2020.",
 	"price-kg": "Price/kg",
-	"privacy-cookies": "<p>The cookies used serve to store user settings and personalizations for the purpose of providing the services of this website. These are the following:</p><p><tt>locale</tt> display language used on this website</p><p><tt>theme</tt> website color scheme (design)</p>",
+	"privacy-cookies": "<p>Only essential cookies are used on pse-info.de for the provision of services on this website. These are the following:</p><p><tt>locale</tt> display language used on this website</p><p><tt>theme</tt> website color scheme (design)</p>",
 	"privacy-cookies-label": "Cookies",
 	"privacy-data": "<p>This site collects a number of general data and information with each call by a person concerned or an automated system. These general data and information are stored in the server’s log files. The following can be recorded: the browser types and versions used, the operating system used by the accessing system, the website from which an accessing system reaches this site (so-called referrer), the sub-pages which are accessed via an accessing system on this site, the date and time of access to the website, an Internet Protocol address (IP address), the Internet service provider of the accessing system and other similar data and information that serve to ward off dangers in case of attacks on information technology systems.</p><p>The data stored in the log files remain untouched and are not viewed for any purposes. There is no transfer to third parties or inspection of stored data.</p>",
 	"privacy-data-label": "Data storage",
