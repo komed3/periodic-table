@@ -9,13 +9,13 @@ block content
     div.pt-quiz-form.noselect
       div.pt-quiz-form-left
         div.pt-quiz-info
-          div.pt-quiz-timer
+          div.pt-quiz-timer 15:00
             span
           div.pt-quiz-progress
-            b.pt-quiz-progress-cur
+            b.pt-quiz-progress-cur 0
             span.pt-quiz-progress-divider /
-            span.pt-quiz-progress-all
-        div.pt-quiz-input
+            span.pt-quiz-progress-all!= elements.length
+        div.pt-quiz-input.hidden
           i.icon stylus
           input(
             type= 'text',
@@ -27,26 +27,26 @@ block content
           button( quiz= 'start' )
             i.icon play_circle
             span!= __( 'quiz-start' )
-          button( quiz= 'abort' )
+          button.hidden( quiz= 'abort' )
             i.icon flag
             span!= __( 'quiz-abort' )
       div.pt-quiz-form-right
         div.pt-quiz-score
           div.pt-quiz-score-hs
-            b
+            b 0
             span!= __( 'quiz-hs' )
           div.pt-quiz-score-now
-            b
+            b 0
             span!= __( 'quiz-score' )
     div.pt-table.pt-quiz-table.noselect
       - var offset = config.get( 'pt.offset' )
       div.pt-table-gap
       each el, k in elements.database
-        div.pt-table-item(
+        div.pt-el.pt-table-item(
           number= el.number,
           style= core.getPos( el, offset ).position
         )
-          span.element--number= el.number
+          span.element--number!= el.number
           span.element--symbol
   div.pt-page.pt-box.pt-quiz
     h1!= __( 'quiz-title' )

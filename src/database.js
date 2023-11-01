@@ -13,6 +13,7 @@ const fs = require( 'fs' );
 module.exports = class DB {
 
     static database;
+    static length;
 
     /**
      * constructor: load database
@@ -27,6 +28,8 @@ module.exports = class DB {
             this.database = JSON.parse(
                 fs.readFileSync( path, 'utf8' )
             );
+
+            this.length = Object.keys( this.database ).length;
 
         }
 
