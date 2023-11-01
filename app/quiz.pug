@@ -6,6 +6,61 @@ block styles
 
 block content
   div.pt-page
+    div.pt-quiz-form.noselect
+      div.pt-quiz-form-left
+        div.pt-quiz-info
+          div.pt-quiz-timer
+            span
+          div.pt-quiz-progress
+            b.pt-quiz-progress-cur
+            span.pt-quiz-progress-divider /
+            span.pt-quiz-progress-all
+        div.pt-quiz-input
+          i.icon stylus
+          input(
+            type= 'text',
+            autocomplete= 'false',
+            spellcheck= 'false',
+            quiz= 'input'
+          )/
+        div.pt-quiz-actions
+          button( quiz= 'start' )
+            i.icon play_circle
+            span!= __( 'quiz-start' )
+          button( quiz= 'abort' )
+            i.icon flag
+            span!= __( 'quiz-abort' )
+      div.pt-quiz-form-right
+        div.pt-quiz-score
+          div.pt-quiz-score-hs
+            b
+            span!= __( 'quiz-hs' )
+          div.pt-quiz-score-now
+            b
+            span!= __( 'quiz-score' )
+    div.pt-table.pt-quiz-table.noselect
+      - var offset = config.get( 'pt.offset' )
+      div.pt-table-gap
+      each el, k in elements.database
+        div.pt-table-item(
+          number= el.number,
+          style= core.getPos( el, offset ).position
+        )
+          span.element--number= el.number
+          span.element--symbol
   div.pt-page.pt-box.pt-quiz
     h1!= __( 'quiz-title' )
     p.pt-page-intro!= __( 'quiz-description' )
+    div.pt-quiz-list
+      each el, k in elements.database
+        div.pt-quiz-list-item(
+          number= el.number
+        )
+          span.element--number= el.number
+          span.element--name
+  div.pt-quiz-overlay
+    div.pt-quiz-dialog
+      i.pt-quiz-dialog-icon.icon celebration
+      h2!= __( 'game-over' )
+      p!= __( 'quiz-result' )
+      button( quiz= 'dialog' )!= __( 'close-dialog' )
