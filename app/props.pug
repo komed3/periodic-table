@@ -1,17 +1,19 @@
-//- props.pug
-extends layout.pug
+//- properties page
+extends page.pug
 
 block styles
-  link( rel="stylesheet", href="/css/lists.css" )/
+  link( rel= 'stylesheet', href= '/css/sitemap.css' )/
 
 block content
-  div.pt-page.pt-box.pt-list
+  div.pt-page.pt-box.pt-properties
     include templates/breadcrumbs.pug
     h1!= __( 'props-title' )
     p.pt-page-intro!= __( 'props-description' )
-    div.pt-lists
-      each prop in config.props
-        div.pt-lists-item
-          h3.pt-lists-item-title
-            a( href='/prop/' + prop )!= __( 'prop-' + prop )
-          p.pt-lists-item-desc!= __( 'prop-' + prop + '-description' )
+    div.pt-sitemap
+      each prop in config.get( 'properties' )
+        div.pt-sitemap-item
+          h3
+            a(
+              href= core.url( '/prop/' + prop )
+            )!= __( 'prop-' + prop )
+          p!= __( 'prop-' + prop + '-description' )

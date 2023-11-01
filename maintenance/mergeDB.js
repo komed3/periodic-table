@@ -6,7 +6,12 @@
  * 
  * @author      komed3 (Paul Köhler)
  * @version     2.0.0
+ * 
+ * @argument    {String} database name of the database to merge into
+ * @argument    {String} path path to file to merge from
  */
+
+'use strict';
 
 /**
  * load config
@@ -15,26 +20,27 @@
 const yaml = require( 'js-yaml' );
 const config = require( 'config' );
 
+require( 'log-timestamp' );
+
 const databases = config.get( 'maintenance.databases' );
 
 /**
  * load required modules
  */
 
-require( 'log-timestamp' );
-
 const fs = require( 'fs' );
 const merge = require( 'deepmerge' );
-const core = require( './../lib/core' );
+const DB = require( './../src/database' );
 
 /**
  * proceed maintenance script
+ * check necessary args
  */
 
 if( process.argv[2] == undefined ) {
 
     /**
-     * ERROR: no DB name given
+     * ERROR: no database name given
      */
 
     console.error( 'ERROR: no database name given' );
@@ -55,7 +61,7 @@ if( process.argv[2] == undefined ) {
 } else if( process.argv[3] == undefined ) {
 
     /**
-     * ERROR: no file given
+     * ERROR: no file path to merge from given
      */
 
     console.error( 'ERROR: no path or file to merge given' );
@@ -78,16 +84,16 @@ if( process.argv[2] == undefined ) {
      * define constants
      */
 
-    const DB = process.argv[2];
+    const dbname = process.argv[2];
     const file = process.argv[3];
 
     /**
      * load database
      */
 
-    console.log( 'load database "' + DB + '" ...' );
+    console.log( 'load database "' + dbname + '" ...' );
 
-    var database = core.DB( DB );
+    var database = new DB( dbname ).database;
 
     console.log( '... done' );
 
@@ -128,9 +134,9 @@ if( process.argv[2] == undefined ) {
      * sort keys in database
      */
 
-    if( [ 'elements' ].includes( DB ) ) {
+    if( [ 'elements' ].includes( dbname ) ) {
 
-        console.log( 'sort keys in database "' + DB + '" ...' );
+        console.log( 'sort keys in database "' + dbname + '" ...' );
 
         for( const [ el, data ] of Object.entries( result ) ) {
 
@@ -152,41 +158,17 @@ if( process.argv[2] == undefined ) {
      * save database changes
      */
 
-    console.log( 'save changes to "' + DB + '" database ...' );
+    console.log( 'save changes to "' + dbname + '" database ...' );
 
     fs.writeFile(
-        './_db/' + DB + '.json',
+        './_db/' + dbname + '.json',
         JSON.stringify( result, null, 4 ),
         { flag: 'w' }, ( error ) => {
 
             if( error ) {
 
                 /**
-                 * fetch error
-                 */
-
-                return console.error( error );
-
-            } else {
-
-                console.log( '... done' );
-
-            }
-
-        }
-    );
-
-    console.log( 'save changes to minified "' + DB + '" database ...' );
-
-    fs.writeFile(
-        './_db/' + DB + '.min.json',
-        JSON.stringify( result ),
-        { flag: 'w' }, ( error ) => {
-
-            if( error ) {
-
-                /**
-                 * fetch error
+                 * fetch error while saving changed database
                  */
 
                 return console.error( error );

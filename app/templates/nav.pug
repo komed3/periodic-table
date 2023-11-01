@@ -1,50 +1,31 @@
 //- templates/nav.pug
 -
   var links = [
-    [ '/', 'grid_view', __( 'title' ) ],
-    [ '/nuclides', 'grid_4x4', __( 'nuclides-title' ) ],
+    [ '/', 'grid_view', __( 'periodic-table' ) ],
+    [ '/ionization', 'move_up', __( 'ionization-title' ) ],
     [ '/spectrum', 'barcode_scanner', __( 'spectrum-title' ) ],
-    [ '/abundances', 'biotech', __( 'abundances-title' ) ],
+    [ '/abundances', 'public', __( 'abundances-title' ) ],
     [ '/quiz', 'quiz', __( 'quiz-title' ) ],
     null,
-    [ '/tools', 'function', __( 'tools-title' ) ],
-    [ '/tool/mmc', 'science', __( 'mmc-title' ) ],
-    [ '/tool/activity', 'emergency_home', __( 'activity-title' ) ],
-    [ '/tool/decay', 'account_tree', __( 'decay-title' ) ],
+    [ '/lists', 'subject', __( 'lists-title' ) ],
+    [ '/list/phase', 'total_dissolved_solids', __( 'phase-label' ) ],
+    [ '/list/set', 'category', __( 'set-label' ) ],
+    [ '/list/goldschmidt', 'hive', __( 'goldschmidt-label' ) ],
+    [ '/list/era', 'school', __( 'era-label' ) ],
+    [ '/list/superconductivity', 'electric_bolt', __( 'superconductivity-label' ) ],
     null,
-    [ '/lists/set', 'category', __( 'set-label' ) ],
-    [ '/lists/phase', 'total_dissolved_solids', __( 'phase-label' ) ],
-    [ '/lists/natural_occurrence', 'public', __( 'natural_occurrence-label' ) ],
-    [ '/lists/goldschmidt', 'family_history', __( 'goldschmidt-label' ) ],
-    [ '/lists/crystal_structure', 'hexagon', __( 'crystal_structure-label' ) ],
-    [ '/lists/superconductivity', 'view_day', __( 'superconductivity-label' ) ],
-    [ '/lists/magnetic_ordering', 'explore', __( 'magnetic_ordering-label' ) ],
-    [ '/lists/era', 'school', __( 'era-label' ) ],
-    null,
+    [ '/scales', 'earthquake', __( 'scales-title' ) ],
     [ '/scale/atomic_mass', 'scale', __( 'atomic-mass' ) ],
-    [ '/scale/radius_empirical', 'expand', __( 'empirical-radius' ) ],
-    [ '/scale/density', 'blur_linear', __( 'density' ) ],
+    [ '/scale/density', 'blur_on', __( 'density' ) ],
+    [ '/scale/molar_volume', 'experiment', __( 'molar_volume' ) ],
     [ '/scale/negativity_pauling', 'hub', __( 'pauling-negativity' ) ],
-    [ '/scale/thermal_conductivity', 'heat_pump_balance', __( 'thermal_conductivity' ) ],
-    [ '/scale/hardness_mohs', 'gavel', __( 'mohs-hardness' ) ],
-    [ '/scale/electrical_conductivity', 'power', __( 'electrical_conductivity' ) ],
-    [ '/scale/price', 'paid', __( 'price-kg' ) ],
+    [ '/scale/price', 'paid', __( 'price' ) ],
     null,
+    [ '/props', 'bookmarks', __( 'props-title' ) ],
     [ '/prop/radioactive', 'flare', __( 'prop-radioactive' ) ],
-    [ '/prop/natural', 'spa', __( 'prop-natural' ) ],
-    [ '/prop/native', 'grid_goldenratio', __( 'prop-native' ) ],
     [ '/prop/vital', 'favorite', __( 'prop-vital' ) ],
-    [ '/prop/mononuclidic', 'water_drop', __( 'prop-mononuclidic' ) ],
-    [ '/prop/stable', 'token', __( 'prop-stable' ) ],
     [ '/prop/noble', 'diamond', __( 'prop-noble' ) ],
-    [ '/prop/semiconductor', 'memory', __( 'prop-semiconductor' ) ],
-    [ '/prop/light', 'airwave', __( 'prop-light' ) ],
-    [ '/prop/heavy', 'weight', __( 'prop-heavy' ) ],
     [ '/prop/rare', 'brightness_empty', __( 'prop-rare' ) ],
-    [ '/prop/platinum', 'aspect_ratio', __( 'prop-platinum' ) ],
-    [ '/prop/refractory', 'hive', __( 'prop-refractory' ) ],
-    [ '/prop/artificial', 'lens_blur', __( 'prop-artificial' ) ],
-    [ '/prop/synthetic', 'deployed_code', __( 'prop-synthetic' ) ],
     [ '/prop/antiquity', 'landscape', __( 'prop-antiquity' ) ],
     null,
     [ '/sitemap', 'sort', __( 'sitemap-title' ) ],
@@ -52,18 +33,18 @@
     [ '/data', 'database', __( 'data-title' ) ]
   ];
 
-div.pt-nav
+div.pt-nav.noscrollbar.noselect
   each link in links
     if link == null
       div.pt-nav-divider
     else
       a(
         href= link[0],
-        class= 'pt-nav-item' + (
+        class= 'pt-nav-link' + (
           link[0] == navURL
             ? ' current'
             : ''
         )
       )
         i.icon= link[1]
-        span= link[2]
+        span!= link[2]

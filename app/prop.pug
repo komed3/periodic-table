@@ -1,25 +1,24 @@
-//- prop.pug
-extends layout.pug
+//- property page
+extends page.pug
 
 block title
   - var title = __( 'prop-' + list.value )
   - var description = __( 'prop-' + list.value + '-description' )
-  title= title + ' — ' + __( 'title' )
-  meta( name="description", content= description )/
+  title= title + ' — ' + __( 'periodic-table' )
+  meta( name= 'description', content= description )/
 
 block social
-  meta( property="og:title", content= title )/
-  meta( property="og:description", content= description )/
+  meta( property= 'og:title', content= title )/
+  meta( property= 'og:description', content= description )/
 
 block styles
-  link( rel="stylesheet", href="/css/list.css" )/
-  link( rel="stylesheet", href="/css/microtable.css" )/
+  link( rel= 'stylesheet', href= '/css/list.css' )/
 
 block content
-  div.pt-page.pt-box.pt-prop
+  div.pt-page.pt-box.pt-property
     include templates/breadcrumbs.pug
     h1!= title
     p.pt-page-intro!= description
-    include templates/list.pug
+    include templates/elementlist.pug
   div.pt-page
     include templates/microtable.pug

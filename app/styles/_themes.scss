@@ -1,24 +1,4 @@
-/**
- * periodic table
- * color palette
- */
-
-/**
- * accent colors
- */
-
-:root {
-
-    --accent-main: #010203;
-    --accent-contrast: #ffffff;
-
-}
-
-/**
- * theme colors
- */
-
-body[theme="light"] {
+[theme="light"] {
 
     --gray-0: #ffffff;
     --gray-1: #f5f6f7;
@@ -35,13 +15,18 @@ body[theme="light"] {
     --accent-2: #55c1fa;
     --accent-3: #f25949;
 
-    --box-shadow: 2px 2px 4px rgba( 230 230 230 / 0.25 );
-
     --warn: #fce0a5;
+
+    --accent-contrast: var( --gray-0 );
+
+    --color-light: var( --gray-0 );
+    --color-dark: var( --gray-6 );
+
+    --box-shadow: 2px 2px 4px rgba( 230 230 230 / 0.25 );
 
 }
 
-body[theme="dark"] {
+[theme="dark"] {
 
     --gray-0: #000000;
     --gray-1: #202121;
@@ -58,8 +43,13 @@ body[theme="dark"] {
     --accent-2: #2a80ad;
     --accent-3: #f58479;
 
-    --box-shadow: 2px 2px 4px rgba( 0 0 0 / 0.25 );
-
     --warn: #5f4000;
+
+    --accent-contrast: var( --gray-0 );
+
+    --color-light: var( --gray-6 );
+    --color-dark: var( --gray-0 );
+
+    --box-shadow: 2px 2px 4px rgba( 0 0 0 / 0.25 );
 
 }

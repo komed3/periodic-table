@@ -1,23 +1,30 @@
-//- start.pug
-extends layout.pug
+//- start page
+extends page.pug
 
 block title
-  title= __( 'title' )
-  meta( name="description", content=__( 'description' ) )/
+  title= __( 'periodic-table' )
+  meta( name= 'description', content= __( 'intro' ) )/
 
 block social
-  meta( property="og:title", content=__( 'title' ) )/
-  meta( property="og:description", content=__( 'description' ) )/
+  meta( property= 'og:title', content= __( 'periodic-table' ) )/
+  meta( property= 'og:description', content= __( 'intro' ) )/
 
 block styles
-  link( rel="stylesheet", href="/css/table.css" )/
-  link( rel="stylesheet", href="/css/legend.css" )/
+  link( rel= 'stylesheet', href= '/css/start.css' )/
 
 block content
-  //- periodic table
-  div.pt-page.pt-start
+  div.pt-page
     include templates/pt.pug
     include templates/legend.pug
-  //- welcome text
   div.pt-page.pt-box.pt-start
-    h1= __( 'title' )
+    h1!= __( 'periodic-table' )
+    p.pt-page-intro!= __( 'intro' )
+    div!= __( 'about' )
+    div.pt-sitemap
+      each page in [ 'lists', 'scales', 'props' ]
+        div.pt-sitemap-item
+          h3
+            a(
+              href= core.url( '/' + page )
+            )!= __( page + '-title' )
+          p!= __( page + '-description' )

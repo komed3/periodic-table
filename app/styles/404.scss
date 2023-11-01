@@ -1,7 +1,5 @@
-/**
- * periodic table
- * template: search page
- */
+@import 'sitemap';
+@import 'microtable';
 
 .pt-404 .pt-searchform {
     margin: 48px auto;
@@ -14,16 +12,10 @@
     font-size: 24px;
 }
 
-.pt-404 .pt-searchform-box {
+.pt-404 .pt-searchform-input {
     width: 100%;
     height: 48px;
     padding: 0 24px 0 52px;
     font-size: 18px;
     border-radius: 24px;
-}
-
-.pt-404 .pt-search-label {
-    margin: 24px 0 48px 0;
-    text-align: right;
-    font-size: 14px;
 }

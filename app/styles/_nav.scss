@@ -1,0 +1,70 @@
+.pt-nav {
+    flex: none;
+    position: fixed;
+    top: 56px;
+    left: 0;
+    bottom: 0;
+    display: none;
+    width: 380px;
+    padding: 24px 0;
+    background: var( --gray-0 );
+    box-shadow: var( --box-shadow );
+    overflow-y: auto;
+}
+
+.pt-nav.active {
+    display: block;
+}
+
+.pt-nav .pt-nav-divider {
+    margin: 12px;
+    height: 2px;
+    background: var( --gray-1 );
+}
+
+.pt-nav .pt-nav-link {
+    position: relative;
+    display: grid;
+    grid-template-columns: 56px auto;
+    align-items: center;
+    height: 48px;
+    font-size: 15px;
+}
+
+.pt-nav .pt-nav-link:hover {
+    background: var( --gray-1 );
+}
+
+.pt-nav .pt-nav-link.current {
+    color: var( --accent-1 );
+}
+
+.pt-nav .pt-nav-link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 4px;
+}
+
+.pt-nav .pt-nav-link:hover::before {
+    background: var( --gray-2 );
+}
+
+.pt-nav .pt-nav-link.current::before {
+    background: var( --accent-1 );
+}
+
+.pt-nav .pt-nav-link .icon {
+    text-align: center;
+    font-size: 20px;
+}
+
+@media all and ( max-width: 380px ) {
+
+    .pt-nav {
+        width: 100vw;
+    }
+
+}

@@ -1,0 +1,19 @@
+@import 'sitemap';
+
+.pt-data-disclaimer {
+    font-weight: bold;
+    color: var( --accent-3 );
+}
+
+.pt-data-desc {
+    margin-bottom: 6px;
+}
+
+.pt-data-info {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 13px;
+}
+
+.pt-data .pt-sitemap {
+    margin: 32px 0;
+}

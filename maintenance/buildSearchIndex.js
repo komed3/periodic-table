@@ -6,23 +6,24 @@
  * 
  * @author      komed3 (Paul Köhler)
  * @version     2.0.0
+ * 
+ * @argument    {String} locale language code
  */
 
+'use strict';
+
 /**
- * load config
+ * load config + basics
  */
 
 const yaml = require( 'js-yaml' );
 const config = require( 'config' );
 
-/**
- * load required modules
- */
-
 require( 'log-timestamp' );
 
 /**
  * proceed maintenance script
+ * check necessary args
  */
 
 if( process.argv[2] == undefined ) {
@@ -35,7 +36,7 @@ if( process.argv[2] == undefined ) {
 
     process.exit( 1 );
 
-} else if( !config.get( 'i18n.languages' ).includes( process.argv[2] ) ) {
+} else if( !config.get( 'i18n.list' ).includes( process.argv[2] ) ) {
 
     /**
      * ERROR: wrong language code
@@ -60,7 +61,7 @@ if( process.argv[2] == undefined ) {
     console.log( 'load required modules' );
 
     const fs = require( 'fs' );
-    const core = require( './../lib/core' );
+    const DB = require( './../src/database' );
 
     /**
      * load elements database
@@ -68,7 +69,7 @@ if( process.argv[2] == undefined ) {
 
     console.log( 'load elements database' );
 
-    const elements = core.DB( 'elements' );
+    const elements = new DB( 'elements' );
 
     /**
      * loop through elements
@@ -78,7 +79,7 @@ if( process.argv[2] == undefined ) {
 
     var index = {};
 
-    for( const [ key, el ] of Object.entries( elements ) ) {
+    for( const [ key, el ] of Object.entries( elements.database ) ) {
 
         console.log( 'build search index for [' + el.number + ']' + el.symbol + ' ...' );
 
@@ -86,15 +87,19 @@ if( process.argv[2] == undefined ) {
          * get element text index
          */
 
-        let text = core.DB( 'text/' + locale + '/' + key );
+        let text = new DB( 'text/' + locale + '/' + key );
 
         /**
          * check if text index is available
          */
 
-        if( 'plain' in text ) {
+        if( text.has( 'plain' ) ) {
 
-            index[ key ] = text.plain
+            /**
+             * build text index for current element
+             */
+
+            index[ key ] = text.get( 'plain' )
                 .toString().toLocaleLowerCase( locale ).trim()
                 .replaceAll( /[^a-zA-ZäöüÄÖÜß ]/g, '' )
                 .replaceAll( /[\s+]/g, ' ' );
@@ -129,7 +134,7 @@ if( process.argv[2] == undefined ) {
             if( error ) {
 
                 /**
-                 * fetch error
+                 * fetch error while creating file
                  */
 
                 return console.error( error );

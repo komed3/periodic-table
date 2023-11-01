@@ -111,7 +111,7 @@
         "era": "enlightenment",
         "goldschmidt": "atmophile",
         "group": 1,
-        "hazardous": {
+        "hazard": {
             "h": [
                 "220",
                 "280"
@@ -387,7 +387,7 @@
         "era": "classifying",
         "goldschmidt": "atmophile",
         "group": 18,
-        "hazardous": {
+        "hazard": {
             "h": [
                 "280"
             ],
@@ -554,7 +554,7 @@
         }
     },
     "li": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:17:30.251Z",
         "abundance": {
             "universe": {
                 "value": 6,
@@ -652,7 +652,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:He> 2s[1]",
+        "electron_config": "He 2s[1]",
         "enthalpy": {
             "fusion": {
                 "value": 3,
@@ -673,7 +673,7 @@
         "hardness": {
             "mohs": 0.6
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "260",
                 "314"
@@ -777,10 +777,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 20,
-            "unit": "K"
-        },
         "set": "alkalimetal",
         "shell": [
             2,
@@ -831,6 +827,10 @@
                     "value": 67,
                     "unit": "MPa"
                 }
+            },
+            "transition": {
+                "value": 20,
+                "unit": "K"
             }
         },
         "heat": {
@@ -857,7 +857,7 @@
         }
     },
     "be": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:18:15.002Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -956,7 +956,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:He> 2s[2]",
+        "electron_config": "He 2s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 7.95,
@@ -985,7 +985,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "301",
                 "315",
@@ -1091,10 +1091,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 26,
-            "unit": "K"
-        },
         "set": "alkalineearthmetal",
         "shell": [
             2,
@@ -1131,6 +1127,10 @@
             "critical": {
                 "value": 5205,
                 "*": true,
+                "unit": "K"
+            },
+            "transition": {
+                "value": 26,
                 "unit": "K"
             }
         },
@@ -1178,7 +1178,7 @@
         }
     },
     "b": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:18:47.200Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -1262,7 +1262,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:He> 2s[2] 2p[1]",
+        "electron_config": "He 2s[2] 2p[1]",
         "enthalpy": {
             "fusion": {
                 "value": 50,
@@ -1287,7 +1287,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "302",
                 "412"
@@ -1378,10 +1378,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 11.2,
-            "unit": "K"
-        },
         "set": "metalloid",
         "shell": [
             2,
@@ -1418,6 +1414,10 @@
             },
             "liquid": {
                 "value": 1851,
+                "unit": "K"
+            },
+            "transition": {
+                "value": 11.2,
                 "unit": "K"
             }
         },
@@ -1456,7 +1456,7 @@
         }
     },
     "c": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:19:02.818Z",
         "abundance": {
             "universe": {
                 "value": 5000000,
@@ -1558,7 +1558,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:He> 2s[2] 2p[2]",
+        "electron_config": "He 2s[2] 2p[2]",
         "enthalpy": {
             "fusion": {
                 "value": 117,
@@ -1579,7 +1579,7 @@
         "hardness": {
             "mohs": 0.51
         },
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Glassy_carbon_and_a_1cm3_graphite_cube_HP68-79.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Glassy_carbon_and_a_1cm3_graphite_cube_HP68-79.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
@@ -1661,10 +1661,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 15,
-            "unit": "K"
-        },
         "set": "nonmetal",
         "shell": [
             2,
@@ -1703,6 +1699,10 @@
                     "value": 10.8,
                     "unit": "MPa"
                 }
+            },
+            "transition": {
+                "value": 15,
+                "unit": "K"
             }
         },
         "heat": {
@@ -1808,7 +1808,7 @@
             "by": "Scheele",
             "value": 1771
         },
-        "electron_config": "<e:He> 2s[2] 2p[3]",
+        "electron_config": "He 2s[2] 2p[3]",
         "enthalpy": {
             "fusion": {
                 "value": 0.36,
@@ -1826,7 +1826,7 @@
         "era": "enlightenment",
         "goldschmidt": "atmophile",
         "group": 15,
-        "hazardous": {
+        "hazard": {
             "h": [
                 "280"
             ],
@@ -1994,7 +1994,7 @@
         }
     },
     "o": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:19:15.462Z",
         "abundance": {
             "universe": {
                 "value": 10000000,
@@ -2073,7 +2073,7 @@
             "by": "Priestley, Scheele",
             "value": 1774
         },
-        "electron_config": "<e:He> 2s[2] 2p[4]",
+        "electron_config": "He 2s[2] 2p[4]",
         "enthalpy": {
             "fusion": {
                 "value": 0.222,
@@ -2091,7 +2091,7 @@
         "era": "enlightenment",
         "goldschmidt": "lithophile",
         "group": 16,
-        "hazardous": {
+        "hazard": {
             "h": [
                 "270",
                 "280"
@@ -2208,10 +2208,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 0.6,
-            "unit": "K"
-        },
         "set": "nonmetal",
         "shell": [
             2,
@@ -2269,6 +2265,10 @@
                     "value": 5.043,
                     "unit": "MPa"
                 }
+            },
+            "transition": {
+                "value": 0.6,
+                "unit": "K"
             }
         },
         "heat": {
@@ -2367,7 +2367,7 @@
             "by": "Moissan",
             "value": 1886
         },
-        "electron_config": "<e:He> 2s[2] 2p[5]",
+        "electron_config": "He 2s[2] 2p[5]",
         "enthalpy": {
             "fusion": {
                 "value": 0.26,
@@ -2385,7 +2385,7 @@
         "era": "classifying",
         "goldschmidt": "lithophile",
         "group": 17,
-        "hazardous": {
+        "hazard": {
             "h": [
                 "270",
                 "280",
@@ -2624,7 +2624,7 @@
             "by": "Ramsay, Travers",
             "value": 1898
         },
-        "electron_config": "<e:He> 2s[2] 2p[6]",
+        "electron_config": "He 2s[2] 2p[6]",
         "enthalpy": {
             "fusion": {
                 "value": 0.34,
@@ -2642,7 +2642,7 @@
         "era": "classifying",
         "goldschmidt": "atmophile",
         "group": 18,
-        "hazardous": {
+        "hazard": {
             "h": [
                 "280"
             ],
@@ -2885,7 +2885,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ne> 3s[1]",
+        "electron_config": "Ne 3s[1]",
         "enthalpy": {
             "fusion": {
                 "value": 2.6,
@@ -2910,7 +2910,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "260",
                 "314"
@@ -3197,7 +3197,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ne> 3s[2]",
+        "electron_config": "Ne 3s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 8.7,
@@ -3222,7 +3222,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "260",
                 "250"
@@ -3403,7 +3403,7 @@
         }
     },
     "al": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:20:22.763Z",
         "abundance": {
             "universe": {
                 "value": 50000,
@@ -3502,7 +3502,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ne> 3s[2] 3p[1]",
+        "electron_config": "Ne 3s[2] 3p[1]",
         "enthalpy": {
             "fusion": {
                 "value": 10.7,
@@ -3531,7 +3531,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "250",
                 "261"
@@ -3626,10 +3626,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 1.18,
-            "unit": "K"
-        },
         "set": "metal",
         "shell": [
             2,
@@ -3663,6 +3659,10 @@
             "liquid": {
                 "value": 1809.53,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 1.18,
+                "unit": "K"
             }
         },
         "heat": {
@@ -3693,7 +3693,7 @@
         }
     },
     "si": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:20:52.857Z",
         "abundance": {
             "universe": {
                 "value": 700000,
@@ -3787,7 +3787,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ne> 3s[2] 3p[2]",
+        "electron_config": "Ne 3s[2] 3p[2]",
         "enthalpy": {
             "fusion": {
                 "value": 50.2,
@@ -3808,7 +3808,7 @@
         "hardness": {
             "mohs": 6.5
         },
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/SiliconCroda.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:SiliconCroda.jpg\">Enricoros at English Wikipedia</a>, Public domain, via Wikimedia Commons"
@@ -3890,10 +3890,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 8.5,
-            "unit": "K"
-        },
         "set": "metalloid",
         "shell": [
             2,
@@ -3932,6 +3928,10 @@
             "liquid": {
                 "value": 1851,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 8.5,
+                "unit": "K"
             }
         },
         "heat": {
@@ -3960,7 +3960,7 @@
         }
     },
     "p": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:20:57.520Z",
         "abundance": {
             "universe": {
                 "value": 7000,
@@ -4062,7 +4062,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ne> 3s[2] 3p[3]",
+        "electron_config": "Ne 3s[2] 3p[3]",
         "enthalpy": {
             "fusion": {
                 "value": 0.64,
@@ -4080,7 +4080,7 @@
         "era": "enlightenment",
         "goldschmidt": "lithophile",
         "group": 15,
-        "hazardous": {
+        "hazard": {
             "h": [
                 "250",
                 "300+330",
@@ -4199,10 +4199,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 18,
-            "unit": "K"
-        },
         "set": "nonmetal",
         "shell": [
             2,
@@ -4235,6 +4231,10 @@
                     689.2,
                     863
                 ]
+            },
+            "transition": {
+                "value": 18,
+                "unit": "K"
             }
         },
         "heat": {
@@ -4292,7 +4292,7 @@
         }
     },
     "s": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:21:30.025Z",
         "abundance": {
             "universe": {
                 "value": 500000,
@@ -4373,7 +4373,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ne> 3s[2] 3p[4]",
+        "electron_config": "Ne 3s[2] 3p[4]",
         "enthalpy": {
             "fusion": {
                 "value": 1.73,
@@ -4394,7 +4394,7 @@
         "hardness": {
             "mohs": 2
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "315"
             ],
@@ -4493,10 +4493,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 17,
-            "unit": "K"
-        },
         "set": "nonmetal",
         "shell": [
             2,
@@ -4538,6 +4534,10 @@
                     "value": 20.7,
                     "unit": "MPa"
                 }
+            },
+            "transition": {
+                "value": 17,
+                "unit": "K"
             }
         },
         "heat": {
@@ -4642,7 +4642,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ne> 3s[2] 3p[5]",
+        "electron_config": "Ne 3s[2] 3p[5]",
         "enthalpy": {
             "fusion": {
                 "value": 3.2,
@@ -4660,7 +4660,7 @@
         "era": "enlightenment",
         "goldschmidt": "lithophile",
         "group": 17,
-        "hazardous": {
+        "hazard": {
             "h": [
                 "270",
                 "280",
@@ -4906,7 +4906,7 @@
             "by": "Ramsay, Strutt",
             "value": 1894
         },
-        "electron_config": "<e:Ne> 3s[2] 3p[6]",
+        "electron_config": "Ne 3s[2] 3p[6]",
         "enthalpy": {
             "fusion": {
                 "value": 1.18,
@@ -4924,7 +4924,7 @@
         "era": "classifying",
         "goldschmidt": "atmophile",
         "group": 18,
-        "hazardous": {
+        "hazard": {
             "h": [
                 "280"
             ],
@@ -5175,7 +5175,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ar> 4s[1]",
+        "electron_config": "Ar 4s[1]",
         "enthalpy": {
             "fusion": {
                 "value": 2.33,
@@ -5200,7 +5200,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "260",
                 "314"
@@ -5377,7 +5377,7 @@
         }
     },
     "ca": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:22:26.538Z",
         "abundance": {
             "universe": {
                 "value": 70000,
@@ -5481,7 +5481,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ar> 4s[2]",
+        "electron_config": "Ar 4s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 8.54,
@@ -5506,7 +5506,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "261"
             ],
@@ -5603,10 +5603,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 15,
-            "unit": "K"
-        },
         "set": "alkalineearthmetal",
         "shell": [
             2,
@@ -5647,6 +5643,10 @@
             "liquid": {
                 "value": 642,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 15,
+                "unit": "K"
             }
         },
         "heat": {
@@ -5673,7 +5673,7 @@
         }
     },
     "sc": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:22:37.603Z",
         "abundance": {
             "universe": {
                 "value": 30,
@@ -5762,7 +5762,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ar> 3d[1] 4s[2]",
+        "electron_config": "Ar 3d[1] 4s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 16,
@@ -5787,7 +5787,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -5876,10 +5876,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 0.34,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -5910,6 +5906,10 @@
             "liquid": {
                 "value": 1295,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 0.34,
+                "unit": "K"
             }
         },
         "heat": {
@@ -5932,7 +5932,7 @@
         }
     },
     "ti": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:23:03.257Z",
         "abundance": {
             "universe": {
                 "value": 3000,
@@ -6027,7 +6027,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ar> 3d[2] 4s[2]",
+        "electron_config": "Ar 3d[2] 4s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 18.7,
@@ -6056,7 +6056,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "250",
                 "252"
@@ -6146,10 +6146,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 0.5,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -6190,6 +6186,10 @@
             "liquid": {
                 "value": 1619,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 0.5,
+                "unit": "K"
             }
         },
         "heat": {
@@ -6216,7 +6216,7 @@
         }
     },
     "v": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:23:26.043Z",
         "abundance": {
             "universe": {
                 "value": 1000,
@@ -6315,7 +6315,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ar> 3d[3] 4s[2]",
+        "electron_config": "Ar 3d[3] 4s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 22.8,
@@ -6344,7 +6344,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Vanadium_crystal_bar_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Vanadium_crystal_bar_and_1cm3_cube.jpg\">Alchemist-hp (pse-mendelejew.de).</a>, FAL, via Wikimedia Commons"
@@ -6424,10 +6424,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 5.4,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -6463,6 +6459,10 @@
             "liquid": {
                 "value": 1497,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 5.4,
+                "unit": "K"
             }
         },
         "heat": {
@@ -6485,7 +6485,7 @@
         }
     },
     "cr": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:23:52.371Z",
         "abundance": {
             "universe": {
                 "value": 15000,
@@ -6584,7 +6584,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ar> 3d[5] 4s[1]",
+        "electron_config": "Ar 3d[5] 4s[1]",
         "enthalpy": {
             "fusion": {
                 "value": 20.5,
@@ -6613,7 +6613,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Chromium_crystals_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Chromium_crystals_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
@@ -6686,10 +6686,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 3,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -6729,6 +6725,10 @@
             },
             "liquid": {
                 "value": 764,
+                "unit": "K"
+            },
+            "transition": {
+                "value": 3,
                 "unit": "K"
             }
         },
@@ -6904,7 +6904,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ar> 3d[5] 4s[2]",
+        "electron_config": "Ar 3d[5] 4s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 13.2,
@@ -6929,7 +6929,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -7114,7 +7114,7 @@
         }
     },
     "fe": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:24:19.218Z",
         "abundance": {
             "universe": {
                 "value": 1100000,
@@ -7203,7 +7203,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ar> 3d[6] 4s[2]",
+        "electron_config": "Ar 3d[6] 4s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 13.8,
@@ -7232,7 +7232,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Iron_electrolytic_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Iron_electrolytic_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
@@ -7305,10 +7305,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 2,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -7348,6 +7344,10 @@
             },
             "liquid": {
                 "value": 1323,
+                "unit": "K"
+            },
+            "transition": {
+                "value": 2,
                 "unit": "K"
             }
         },
@@ -7474,7 +7474,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ar> 3d[7] 4s[2]",
+        "electron_config": "Ar 3d[7] 4s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 16.2,
@@ -7503,7 +7503,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228",
                 "302",
@@ -7783,7 +7783,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ar> 3d[8] 4s[2]",
+        "electron_config": "Ar 3d[8] 4s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 17.2,
@@ -7812,7 +7812,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228",
                 "351",
@@ -8109,7 +8109,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ar> 3d[10] 4s[1]",
+        "electron_config": "Ar 3d[10] 4s[1]",
         "enthalpy": {
             "fusion": {
                 "value": 13.1,
@@ -8138,7 +8138,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228",
                 "410"
@@ -8293,7 +8293,7 @@
         }
     },
     "zn": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:24:38.700Z",
         "abundance": {
             "universe": {
                 "value": 300,
@@ -8393,7 +8393,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ar> 3d[10] 4s[2]",
+        "electron_config": "Ar 3d[10] 4s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 7.35,
@@ -8418,7 +8418,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "250",
                 "260",
@@ -8529,10 +8529,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 0.85,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -8567,6 +8563,10 @@
             "liquid": {
                 "value": 487.32,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 0.85,
+                "unit": "K"
             }
         },
         "heat": {
@@ -8589,7 +8589,7 @@
         }
     },
     "ga": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:24:44.180Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -8663,7 +8663,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[1]",
+        "electron_config": "Ar 3d[10] 4s[2] 4p[1]",
         "enthalpy": {
             "fusion": {
                 "value": 5.59,
@@ -8688,7 +8688,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "290",
                 "302",
@@ -8795,10 +8795,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 1.08,
-            "unit": "K"
-        },
         "set": "metal",
         "shell": [
             2,
@@ -8839,6 +8835,10 @@
             "liquid": {
                 "value": 2370.0854,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 1.08,
+                "unit": "K"
             }
         },
         "heat": {
@@ -8861,7 +8861,7 @@
         }
     },
     "ge": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:25:09.881Z",
         "abundance": {
             "universe": {
                 "value": 200,
@@ -8937,7 +8937,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[2]",
+        "electron_config": "Ar 3d[10] 4s[2] 4p[2]",
         "enthalpy": {
             "fusion": {
                 "value": 31.8,
@@ -8958,7 +8958,7 @@
         "hardness": {
             "mohs": 6
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -9045,10 +9045,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 5.4,
-            "unit": "K"
-        },
         "set": "metalloid",
         "shell": [
             2,
@@ -9089,6 +9085,10 @@
             "liquid": {
                 "value": 1894.6,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 5.4,
+                "unit": "K"
             }
         },
         "heat": {
@@ -9115,7 +9115,7 @@
         }
     },
     "as": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:25:31.429Z",
         "abundance": {
             "universe": {
                 "value": 8,
@@ -9216,7 +9216,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[3]",
+        "electron_config": "Ar 3d[10] 4s[2] 4p[3]",
         "enthalpy": {
             "fusion": {
                 "value": 27.7,
@@ -9241,7 +9241,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "301+331",
                 "350",
@@ -9340,10 +9340,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 2.7,
-            "unit": "K"
-        },
         "set": "metalloid",
         "shell": [
             2,
@@ -9379,6 +9375,10 @@
                 "value": 1673,
                 "*": true,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 2.7,
+                "unit": "K"
             }
         },
         "heat": {
@@ -9408,7 +9408,7 @@
         }
     },
     "se": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:26:02.335Z",
         "abundance": {
             "universe": {
                 "value": 30,
@@ -9518,7 +9518,7 @@
             },
             "poisson": 0.33
         },
-        "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[4]",
+        "electron_config": "Ar 3d[10] 4s[2] 4p[4]",
         "enthalpy": {
             "fusion": {
                 "value": 5.4,
@@ -9543,7 +9543,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "331",
                 "301",
@@ -9655,10 +9655,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 7,
-            "unit": "K"
-        },
         "set": "metalloid",
         "shell": [
             2,
@@ -9707,6 +9703,10 @@
                     "value": 27.2,
                     "unit": "MPa"
                 }
+            },
+            "transition": {
+                "value": 7,
+                "unit": "K"
             }
         },
         "heat": {
@@ -9725,7 +9725,7 @@
         }
     },
     "br": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:26:45.278Z",
         "abundance": {
             "universe": {
                 "value": 7,
@@ -9807,7 +9807,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[5]",
+        "electron_config": "Ar 3d[10] 4s[2] 4p[5]",
         "enthalpy": {
             "fusion": {
                 "value": 5.8,
@@ -9825,7 +9825,7 @@
         "era": "revolution",
         "goldschmidt": "lithophile",
         "group": 17,
-        "hazardous": {
+        "hazard": {
             "h": [
                 "330",
                 "314",
@@ -9936,10 +9936,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 1.4,
-            "unit": "K"
-        },
         "set": "halogen",
         "shell": [
             2,
@@ -9990,6 +9986,10 @@
                     "value": 10.34,
                     "unit": "MPa"
                 }
+            },
+            "transition": {
+                "value": 1.4,
+                "unit": "K"
             }
         },
         "heat": {
@@ -10105,7 +10105,7 @@
             "by": "Ramsay, Travers",
             "value": 1898
         },
-        "electron_config": "<e:Ar> 3d[10] 4s[2] 4p[6]",
+        "electron_config": "Ar 3d[10] 4s[2] 4p[6]",
         "enthalpy": {
             "fusion": {
                 "value": 1.64,
@@ -10123,7 +10123,7 @@
         "era": "classifying",
         "goldschmidt": "atmophile",
         "group": 18,
-        "hazardous": {
+        "hazard": {
             "h": [
                 "280"
             ],
@@ -10362,7 +10362,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 5s[1]",
+        "electron_config": "Kr 5s[1]",
         "enthalpy": {
             "fusion": {
                 "value": 2.19,
@@ -10387,7 +10387,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "260",
                 "314"
@@ -10565,7 +10565,7 @@
         }
     },
     "sr": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:27:00.849Z",
         "abundance": {
             "universe": {
                 "value": 40,
@@ -10656,7 +10656,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 5s[2]",
+        "electron_config": "Kr 5s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 8,
@@ -10677,7 +10677,7 @@
         "hardness": {
             "mohs": 1.5
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "260",
                 "315"
@@ -10781,10 +10781,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 4,
-            "unit": "K"
-        },
         "set": "alkalineearthmetal",
         "shell": [
             2,
@@ -10816,6 +10812,10 @@
             "liquid": {
                 "value": 600,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 4,
+                "unit": "K"
             }
         },
         "heat": {
@@ -10838,7 +10838,7 @@
         }
     },
     "y": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:27:50.993Z",
         "abundance": {
             "universe": {
                 "value": 7,
@@ -10927,7 +10927,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 4d[1] 5s[2]",
+        "electron_config": "Kr 4d[1] 5s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 11.4,
@@ -10951,7 +10951,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -11040,10 +11040,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 2.8,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -11085,6 +11081,10 @@
             "liquid": {
                 "value": 1404,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 2.8,
+                "unit": "K"
             }
         },
         "heat": {
@@ -11103,7 +11103,7 @@
         }
     },
     "zr": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:28:16.250Z",
         "abundance": {
             "universe": {
                 "value": 50,
@@ -11198,7 +11198,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 4d[2] 5s[2]",
+        "electron_config": "Kr 4d[2] 5s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 21,
@@ -11227,7 +11227,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "250",
                 "260"
@@ -11312,10 +11312,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 0.6,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -11351,6 +11347,10 @@
             "liquid": {
                 "value": 2525,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 0.6,
+                "unit": "K"
             }
         },
         "heat": {
@@ -11373,7 +11373,7 @@
         }
     },
     "nb": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:28:35.424Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -11464,7 +11464,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 4d[4] 5s[1]",
+        "electron_config": "Kr 4d[4] 5s[1]",
         "enthalpy": {
             "fusion": {
                 "value": 26.8,
@@ -11493,7 +11493,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -11575,10 +11575,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 9.25,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -11620,6 +11616,10 @@
             "liquid": {
                 "value": 2267,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 9.25,
+                "unit": "K"
             }
         },
         "heat": {
@@ -11638,7 +11638,7 @@
         }
     },
     "mo": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:28:59.777Z",
         "abundance": {
             "universe": {
                 "value": 5,
@@ -11737,7 +11737,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 4d[5] 5s[1]",
+        "electron_config": "Kr 4d[5] 5s[1]",
         "enthalpy": {
             "fusion": {
                 "value": 36,
@@ -11766,7 +11766,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Molybdenum_crystaline_fragment_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Molybdenum_crystaline_fragment_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
@@ -11845,10 +11845,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 0.92,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -11884,6 +11880,10 @@
             "liquid": {
                 "value": 2016,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 0.92,
+                "unit": "K"
             }
         },
         "heat": {
@@ -11902,7 +11902,7 @@
         }
     },
     "tc": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T17:12:29.174Z",
         "appearance": {
             "en": "shiny gray metal",
             "de": "silbrig grau metallisch"
@@ -11957,7 +11957,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 4d[5] 5s[2]",
+        "electron_config": "Kr 4d[5] 5s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 23,
@@ -11975,7 +11975,7 @@
         "era": "quantum",
         "goldschmidt": "synthetic",
         "group": 7,
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Technetium-sample-cropped.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Technetium-sample-cropped.jpg\">GFDL</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons"
@@ -12050,10 +12050,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 8.2,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -12081,6 +12077,10 @@
             "liquid": {
                 "value": 2108,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 8.2,
+                "unit": "K"
             }
         },
         "heat": {
@@ -12095,7 +12095,7 @@
         }
     },
     "ru": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:29:46.916Z",
         "abundance": {
             "universe": {
                 "value": 4,
@@ -12180,7 +12180,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 4d[7] 5s[1]",
+        "electron_config": "Kr 4d[7] 5s[1]",
         "enthalpy": {
             "fusion": {
                 "value": 25.7,
@@ -12205,7 +12205,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -12291,10 +12291,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 0.5,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -12325,6 +12321,10 @@
             "liquid": {
                 "value": 1816,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 0.5,
+                "unit": "K"
             }
         },
         "heat": {
@@ -12343,7 +12343,7 @@
         }
     },
     "rh": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:30:06.633Z",
         "abundance": {
             "universe": {
                 "value": 0.6,
@@ -12430,7 +12430,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 4d[8] 5s[1]",
+        "electron_config": "Kr 4d[8] 5s[1]",
         "enthalpy": {
             "fusion": {
                 "value": 21.7,
@@ -12459,7 +12459,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -12557,10 +12557,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 0.000035,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -12602,6 +12598,10 @@
             "liquid": {
                 "value": 1731,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 0.000035,
+                "unit": "K"
             }
         },
         "heat": {
@@ -12624,7 +12624,7 @@
         }
     },
     "pd": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:30:28.110Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -12711,7 +12711,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 4d[10]",
+        "electron_config": "Kr 4d[10]",
         "enthalpy": {
             "fusion": {
                 "value": 16.7,
@@ -12740,7 +12740,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "317"
             ],
@@ -12845,10 +12845,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 3.2,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -12882,6 +12878,10 @@
             },
             "liquid": {
                 "value": 1407.95,
+                "unit": "K"
+            },
+            "transition": {
+                "value": 3.2,
                 "unit": "K"
             }
         },
@@ -12997,7 +12997,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 4d[10] 5s[1]",
+        "electron_config": "Kr 4d[10] 5s[1]",
         "enthalpy": {
             "fusion": {
                 "value": 11.3,
@@ -13026,7 +13026,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "410"
             ],
@@ -13256,7 +13256,7 @@
         }
     },
     "cd": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:31:17.230Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -13356,7 +13356,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 4d[10] 5s[2]",
+        "electron_config": "Kr 4d[10] 5s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 6.3,
@@ -13381,7 +13381,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "250",
                 "350",
@@ -13499,10 +13499,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 0.52,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -13543,6 +13539,10 @@
             },
             "liquid": {
                 "value": 445.78,
+                "unit": "K"
+            },
+            "transition": {
+                "value": 0.52,
                 "unit": "K"
             }
         },
@@ -13629,7 +13629,7 @@
         }
     },
     "in": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:31:55.009Z",
         "abundance": {
             "universe": {
                 "value": 0.3,
@@ -13705,7 +13705,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[1]",
+        "electron_config": "Kr 4d[10] 5s[2] 5p[1]",
         "enthalpy": {
             "fusion": {
                 "value": 3.26,
@@ -13730,7 +13730,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -13830,10 +13830,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 3.4,
-            "unit": "K"
-        },
         "set": "metal",
         "shell": [
             2,
@@ -13883,6 +13879,10 @@
                     "value": 1,
                     "unit": "kPa"
                 }
+            },
+            "transition": {
+                "value": 3.4,
+                "unit": "K"
             }
         },
         "heat": {
@@ -13905,7 +13905,7 @@
         }
     },
     "sn": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:32:20.554Z",
         "abundance": {
             "universe": {
                 "value": 4,
@@ -14014,7 +14014,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[2]",
+        "electron_config": "Kr 4d[10] 5s[2] 5p[2]",
         "enthalpy": {
             "fusion": {
                 "value": 7,
@@ -14039,7 +14039,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Tin-2.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Tin-2.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -14124,10 +14124,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 3.7,
-            "unit": "K"
-        },
         "set": "metal",
         "shell": [
             2,
@@ -14169,6 +14165,10 @@
             "liquid": {
                 "value": 2369.92,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 3.7,
+                "unit": "K"
             }
         },
         "heat": {
@@ -14191,7 +14191,7 @@
         }
     },
     "sb": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:32:40.761Z",
         "abundance": {
             "universe": {
                 "value": 0.4,
@@ -14275,7 +14275,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[3]",
+        "electron_config": "Kr 4d[10] 5s[2] 5p[3]",
         "enthalpy": {
             "fusion": {
                 "value": 19.7,
@@ -14300,7 +14300,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "351"
             ],
@@ -14395,10 +14395,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 3.6,
-            "unit": "K"
-        },
         "set": "metalloid",
         "shell": [
             2,
@@ -14434,6 +14430,10 @@
             "liquid": {
                 "value": 1004.22,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 3.6,
+                "unit": "K"
             }
         },
         "heat": {
@@ -14452,7 +14452,7 @@
         }
     },
     "te": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:33:03.540Z",
         "abundance": {
             "universe": {
                 "value": 9,
@@ -14528,7 +14528,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[4]",
+        "electron_config": "Kr 4d[10] 5s[2] 5p[4]",
         "enthalpy": {
             "fusion": {
                 "value": 17.5,
@@ -14553,7 +14553,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "332",
                 "317",
@@ -14668,10 +14668,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 7.4,
-            "unit": "K"
-        },
         "set": "metalloid",
         "shell": [
             2,
@@ -14713,6 +14709,10 @@
             "liquid": {
                 "value": 538.34,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 7.4,
+                "unit": "K"
             }
         },
         "heat": {
@@ -14727,7 +14727,7 @@
         }
     },
     "i": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:33:39.111Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -14827,7 +14827,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[5]",
+        "electron_config": "Kr 4d[10] 5s[2] 5p[5]",
         "enthalpy": {
             "fusion": {
                 "value": 7.76,
@@ -14845,7 +14845,7 @@
         "era": "revolution",
         "goldschmidt": "lithophile",
         "group": 17,
-        "hazardous": {
+        "hazard": {
             "h": [
                 "312+332",
                 "315",
@@ -14958,10 +14958,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 1.2,
-            "unit": "K"
-        },
         "set": "halogen",
         "shell": [
             2,
@@ -15009,6 +15005,10 @@
                     "value": 11.7,
                     "unit": "MPa"
                 }
+            },
+            "transition": {
+                "value": 1.2,
+                "unit": "K"
             }
         },
         "heat": {
@@ -15143,7 +15143,7 @@
             "by": "Ramsay, Travers",
             "value": 1898
         },
-        "electron_config": "<e:Kr> 4d[10] 5s[2] 5p[6]",
+        "electron_config": "Kr 4d[10] 5s[2] 5p[6]",
         "enthalpy": {
             "fusion": {
                 "value": 2.3,
@@ -15161,7 +15161,7 @@
         "era": "classifying",
         "goldschmidt": "atmophile",
         "group": 18,
-        "hazardous": {
+        "hazard": {
             "h": [
                 "280"
             ],
@@ -15322,7 +15322,7 @@
         }
     },
     "cs": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:34:00.912Z",
         "abundance": {
             "universe": {
                 "value": 0.8,
@@ -15416,7 +15416,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 6s[1]",
+        "electron_config": "Xe 6s[1]",
         "enthalpy": {
             "fusion": {
                 "value": 2.09,
@@ -15441,7 +15441,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "260",
                 "314"
@@ -15536,10 +15536,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 1.66,
-            "unit": "K"
-        },
         "set": "alkalimetal",
         "shell": [
             2,
@@ -15580,6 +15576,10 @@
                     "value": 9.4,
                     "unit": "MPa"
                 }
+            },
+            "transition": {
+                "value": 1.66,
+                "unit": "K"
             }
         },
         "heat": {
@@ -15598,7 +15598,7 @@
         }
     },
     "ba": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:34:15.498Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -15696,7 +15696,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 6s[2]",
+        "electron_config": "Xe 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 8,
@@ -15717,7 +15717,7 @@
         "hardness": {
             "mohs": 1.25
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228",
                 "260",
@@ -15822,10 +15822,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 5,
-            "unit": "K"
-        },
         "set": "alkalineearthmetal",
         "shell": [
             2,
@@ -15862,6 +15858,10 @@
             "liquid": {
                 "value": 1118,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 5,
+                "unit": "K"
             }
         },
         "heat": {
@@ -15888,7 +15888,7 @@
         }
     },
     "la": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:34:25.442Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -15983,7 +15983,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 5d[1] 6s[2]",
+        "electron_config": "Xe 5d[1] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 6.2,
@@ -16012,7 +16012,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -16098,10 +16098,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 6,
-            "unit": "K"
-        },
         "set": "lanthanoide",
         "shell": [
             2,
@@ -16138,6 +16134,10 @@
             "liquid": {
                 "value": 2544,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 6,
+                "unit": "K"
             }
         },
         "heat": {
@@ -16156,7 +16156,7 @@
         }
     },
     "ce": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:35:18.035Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -16251,7 +16251,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[1] 5d[1] 6s[2]",
+        "electron_config": "Xe 4f[1] 5d[1] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 5.5,
@@ -16280,7 +16280,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -16371,10 +16371,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 1.75,
-            "unit": "K"
-        },
         "set": "lanthanoide",
         "shell": [
             2,
@@ -16416,6 +16412,10 @@
             },
             "liquid": {
                 "value": 2648,
+                "unit": "K"
+            },
+            "transition": {
+                "value": 1.75,
                 "unit": "K"
             }
         },
@@ -16530,7 +16530,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[3] 6s[2]",
+        "electron_config": "Xe 4f[3] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 6.9,
@@ -16558,7 +16558,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "250"
             ],
@@ -16805,7 +16805,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[4] 6s[2]",
+        "electron_config": "Xe 4f[4] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 7.1,
@@ -16833,7 +16833,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "315",
                 "319",
@@ -17060,7 +17060,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[5] 6s[2]",
+        "electron_config": "Xe 4f[5] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 7.7,
@@ -17078,7 +17078,7 @@
         "era": "quantum",
         "goldschmidt": "synthetic",
         "group": 19,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 5.58187,
@@ -17275,7 +17275,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[6] 6s[2]",
+        "electron_config": "Xe 4f[6] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 8.6,
@@ -17303,7 +17303,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "261"
             ],
@@ -17545,7 +17545,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[7] 6s[2]",
+        "electron_config": "Xe 4f[7] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 9.2,
@@ -17569,7 +17569,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "250"
             ],
@@ -17798,7 +17798,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[7] 5d[1] 6s[2]",
+        "electron_config": "Xe 4f[7] 5d[1] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 10,
@@ -17822,7 +17822,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "261"
             ],
@@ -18062,7 +18062,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[9] 6s[2]",
+        "electron_config": "Xe 4f[9] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 10.8,
@@ -18090,7 +18090,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Terbium-2.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Terbium-2.jpg\">http://images-of-elements.com/</a>, <a href=\"https://creativecommons.org/licenses/by/1.0\">CC BY 1.0</a>, via Wikimedia Commons"
@@ -18310,7 +18310,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[10] 6s[2]",
+        "electron_config": "Xe 4f[10] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 11.1,
@@ -18338,7 +18338,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -18575,7 +18575,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[11] 6s[2]",
+        "electron_config": "Xe 4f[11] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 17,
@@ -18603,7 +18603,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -18829,7 +18829,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[12] 6s[2]",
+        "electron_config": "Xe 4f[12] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 19.9,
@@ -18857,7 +18857,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -19086,7 +19086,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[13] 6s[2]",
+        "electron_config": "Xe 4f[13] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 16.8,
@@ -19114,7 +19114,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228",
                 "319",
@@ -19351,7 +19351,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[14] 6s[2]",
+        "electron_config": "Xe 4f[14] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 7.7,
@@ -19379,7 +19379,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228",
                 "302",
@@ -19534,7 +19534,7 @@
         }
     },
     "lu": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:35:40.880Z",
         "abundance": {
             "universe": {
                 "value": 0.1,
@@ -19629,7 +19629,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[14] 5d[1] 6s[2]",
+        "electron_config": "Xe 4f[14] 5d[1] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 22,
@@ -19658,7 +19658,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -19731,10 +19731,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 0.1,
-            "unit": "K"
-        },
         "set": "lanthanoide",
         "shell": [
             2,
@@ -19767,6 +19763,10 @@
             "liquid": {
                 "value": 1750,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 0.1,
+                "unit": "K"
             }
         },
         "heat": {
@@ -19785,7 +19785,7 @@
         }
     },
     "hf": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:35:41.129Z",
         "abundance": {
             "universe": {
                 "value": 0.7,
@@ -19876,7 +19876,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[14] 5d[2] 6s[2]",
+        "electron_config": "Xe 4f[14] 5d[2] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 25.5,
@@ -19905,7 +19905,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "250"
             ],
@@ -19991,10 +19991,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 0.38,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -20037,6 +20033,10 @@
             "liquid": {
                 "value": 2370,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 0.38,
+                "unit": "K"
             }
         },
         "heat": {
@@ -20059,7 +20059,7 @@
         }
     },
     "ta": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:36:04.008Z",
         "abundance": {
             "universe": {
                 "value": 0.08,
@@ -20146,7 +20146,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[14] 5d[3] 6s[2]",
+        "electron_config": "Xe 4f[14] 5d[3] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 36,
@@ -20175,7 +20175,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -20272,10 +20272,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 4.4,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -20318,6 +20314,10 @@
             "liquid": {
                 "value": 2441,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 4.4,
+                "unit": "K"
             }
         },
         "heat": {
@@ -20340,7 +20340,7 @@
         }
     },
     "w": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:36:19.017Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -20435,7 +20435,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[14] 5d[4] 6s[2]",
+        "electron_config": "Xe 4f[14] 5d[4] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 35,
@@ -20464,7 +20464,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -20563,10 +20563,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 0.01,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -20603,6 +20599,10 @@
             "liquid": {
                 "value": 2508,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 0.01,
+                "unit": "K"
             }
         },
         "heat": {
@@ -20629,7 +20629,7 @@
         }
     },
     "re": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:37:20.943Z",
         "abundance": {
             "universe": {
                 "value": 0.2,
@@ -20720,7 +20720,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[14] 5d[5] 6s[2]",
+        "electron_config": "Xe 4f[14] 5d[5] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 33,
@@ -20749,7 +20749,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -20835,10 +20835,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 1.7,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -20881,6 +20877,10 @@
             "liquid": {
                 "value": 2444,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 1.7,
+                "unit": "K"
             }
         },
         "heat": {
@@ -20903,7 +20903,7 @@
         }
     },
     "os": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:37:40.717Z",
         "abundance": {
             "universe": {
                 "value": 3,
@@ -20976,7 +20976,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[14] 5d[6] 6s[2]",
+        "electron_config": "Xe 4f[14] 5d[6] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 31,
@@ -21001,7 +21001,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228",
                 "315",
@@ -21093,10 +21093,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 0.7,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -21139,6 +21135,10 @@
             "liquid": {
                 "value": 1979,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 0.7,
+                "unit": "K"
             }
         },
         "heat": {
@@ -21161,7 +21161,7 @@
         }
     },
     "ir": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:37:58.263Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -21242,7 +21242,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[14] 5d[7] 6s[2]",
+        "electron_config": "Xe 4f[14] 5d[7] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 26,
@@ -21271,7 +21271,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228",
                 "319"
@@ -21368,10 +21368,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 0.1,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -21407,6 +21403,10 @@
             },
             "liquid": {
                 "value": 1684,
+                "unit": "K"
+            },
+            "transition": {
+                "value": 0.1,
                 "unit": "K"
             }
         },
@@ -21513,7 +21513,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[14] 5d[9] 6s[1]",
+        "electron_config": "Xe 4f[14] 5d[9] 6s[1]",
         "enthalpy": {
             "fusion": {
                 "value": 20,
@@ -21542,7 +21542,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Platinum_crystals.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Platinum_crystals.jpg\">Periodictableru</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -21781,7 +21781,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[1]",
+        "electron_config": "Xe 4f[14] 5d[10] 6s[1]",
         "enthalpy": {
             "fusion": {
                 "value": 12.5,
@@ -21810,7 +21810,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Or_natif1.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Or_natif1.jpg\">Urban</a>, Public domain, via Wikimedia Commons"
@@ -21956,7 +21956,7 @@
         }
     },
     "hg": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:38:12.201Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -22043,7 +22043,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2]",
+        "electron_config": "Xe 4f[14] 5d[10] 6s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 2.29,
@@ -22064,7 +22064,7 @@
         "hardness": {
             "mohs": 1.5
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "330",
                 "360D",
@@ -22180,10 +22180,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 4.15,
-            "unit": "K"
-        },
         "set": "transitionmetal",
         "shell": [
             2,
@@ -22242,6 +22238,10 @@
                     "value": 172,
                     "unit": "MPa"
                 }
+            },
+            "transition": {
+                "value": 4.15,
+                "unit": "K"
             }
         },
         "heat": {
@@ -22304,7 +22304,7 @@
         }
     },
     "tl": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:38:33.623Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -22389,7 +22389,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[1]",
+        "electron_config": "Xe 4f[14] 5d[10] 6s[2] 6p[1]",
         "enthalpy": {
             "fusion": {
                 "value": 4.2,
@@ -22414,7 +22414,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "300",
                 "330",
@@ -22519,10 +22519,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 2.4,
-            "unit": "K"
-        },
         "set": "metal",
         "shell": [
             2,
@@ -22569,6 +22565,10 @@
             "liquid": {
                 "value": 1169,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 2.4,
+                "unit": "K"
             }
         },
         "heat": {
@@ -22591,7 +22591,7 @@
         }
     },
     "pb": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:39:11.176Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -22686,7 +22686,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[2]",
+        "electron_config": "Xe 4f[14] 5d[10] 6s[2] 6p[2]",
         "enthalpy": {
             "fusion": {
                 "value": 4.77,
@@ -22711,7 +22711,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "302",
                 "332",
@@ -22827,10 +22827,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 7.2,
-            "unit": "K"
-        },
         "set": "metal",
         "shell": [
             2,
@@ -22876,6 +22872,10 @@
             },
             "liquid": {
                 "value": 1421.39,
+                "unit": "K"
+            },
+            "transition": {
+                "value": 7.2,
                 "unit": "K"
             }
         },
@@ -22929,7 +22929,7 @@
         }
     },
     "bi": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:39:25.500Z",
         "abundance": {
             "universe": {
                 "value": 0.7,
@@ -23014,7 +23014,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[3]",
+        "electron_config": "Xe 4f[14] 5d[10] 6s[2] 6p[3]",
         "enthalpy": {
             "fusion": {
                 "value": 10.9,
@@ -23039,7 +23039,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "228"
             ],
@@ -23130,10 +23130,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 8.7,
-            "unit": "K"
-        },
         "set": "metal",
         "shell": [
             2,
@@ -23175,6 +23171,10 @@
             },
             "liquid": {
                 "value": 1292.3,
+                "unit": "K"
+            },
+            "transition": {
+                "value": 8.7,
                 "unit": "K"
             }
         },
@@ -23261,7 +23261,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[4]",
+        "electron_config": "Xe 4f[14] 5d[10] 6s[2] 6p[4]",
         "enthalpy": {
             "fusion": {
                 "value": 13,
@@ -23281,7 +23281,7 @@
         "era": "classifying",
         "goldschmidt": "synthetic",
         "group": 16,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 8.41807,
@@ -23414,7 +23414,7 @@
             "by": "Segrè",
             "value": 1940
         },
-        "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[5]",
+        "electron_config": "Xe 4f[14] 5d[10] 6s[2] 6p[5]",
         "enthalpy": {
             "fusion": {
                 "value": 6,
@@ -23430,7 +23430,7 @@
         "era": "quantum",
         "goldschmidt": "synthetic",
         "group": 17,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 9.31751,
@@ -23549,7 +23549,7 @@
             "by": "Dorn",
             "value": 1900
         },
-        "electron_config": "<e:Xe> 4f[14] 5d[10] 6s[2] 6p[6]",
+        "electron_config": "Xe 4f[14] 5d[10] 6s[2] 6p[6]",
         "enthalpy": {
             "fusion": {
                 "value": 3,
@@ -23567,7 +23567,7 @@
         "era": "quantum",
         "goldschmidt": "synthetic",
         "group": 18,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 10.7485,
@@ -23690,7 +23690,7 @@
             "by": "Perey",
             "value": 1939
         },
-        "electron_config": "<e:Rn> 7s[1]",
+        "electron_config": "Rn 7s[1]",
         "enthalpy": {
             "fusion": {
                 "value": 2,
@@ -23711,7 +23711,7 @@
         "era": "quantum",
         "goldschmidt": "synthetic",
         "group": 1,
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Pichblende.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Pichblende.jpg\">Template:Farhan</a>, <a href=\"https://creativecommons.org/licenses/by-sa/2.5\">CC BY-SA 2.5</a>, via Wikimedia Commons"
@@ -23885,7 +23885,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Rn> 7s[2]",
+        "electron_config": "Rn 7s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 8,
@@ -23905,7 +23905,7 @@
         "era": "classifying",
         "goldschmidt": "synthetic",
         "group": 2,
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Radium226.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Radium226.jpg\">grenadier</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -24035,7 +24035,7 @@
             "by": "Debierne",
             "value": 1899
         },
-        "electron_config": "<e:Rn> 6d[1] 7s[2]",
+        "electron_config": "Rn 6d[1] 7s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 14,
@@ -24053,7 +24053,7 @@
         "era": "classifying",
         "goldschmidt": "synthetic",
         "group": 20,
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Actinium_sample_%2831481701837%29.png",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Actinium_sample_(31481701837).png\">Oak Ridge National Laboratory</a>, <a href=\"https://creativecommons.org/licenses/by/2.0\">CC BY 2.0</a>, via Wikimedia Commons"
@@ -24145,7 +24145,7 @@
         }
     },
     "th": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:40:14.023Z",
         "abundance": {
             "universe": {
                 "value": 0.4,
@@ -24234,7 +24234,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Rn> 6d[2] 7s[2]",
+        "electron_config": "Rn 6d[2] 7s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 16,
@@ -24263,7 +24263,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Thorium_sample_0.1g.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Thorium_sample_0.1g.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
@@ -24332,10 +24332,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 1.4,
-            "unit": "K"
-        },
         "set": "actinoide",
         "shell": [
             2,
@@ -24374,6 +24370,10 @@
             "liquid": {
                 "value": 3038,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 1.4,
+                "unit": "K"
             }
         },
         "heat": {
@@ -24392,7 +24392,7 @@
         }
     },
     "pa": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:40:36.999Z",
         "abundance": {
             "crust": {
                 "value": 0.00001,
@@ -24450,7 +24450,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Rn> 5f[2] 6d[1] 7s[2]",
+        "electron_config": "Rn 5f[2] 6d[1] 7s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 15,
@@ -24468,7 +24468,7 @@
         "era": "quantum",
         "goldschmidt": "synthetic",
         "group": 20,
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Protactinium-233.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Protactinium-233.jpg\">ENERGY.GOV</a>, Public domain, via Wikimedia Commons"
@@ -24521,10 +24521,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 1.4,
-            "unit": "K"
-        },
         "set": "actinoide",
         "shell": [
             2,
@@ -24553,6 +24549,10 @@
             "liquid": {
                 "value": 2459,
                 "unit": "K"
+            },
+            "transition": {
+                "value": 1.4,
+                "unit": "K"
             }
         },
         "heat": {
@@ -24567,7 +24567,7 @@
         }
     },
     "u": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:40:23.214Z",
         "abundance": {
             "universe": {
                 "value": 0.2,
@@ -24659,7 +24659,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Rn> 5f[3] 6d[1] 7s[2]",
+        "electron_config": "Rn 5f[3] 6d[1] 7s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 14,
@@ -24688,7 +24688,7 @@
                 "unit": "NM·m[-2]"
             }
         },
-        "hazardous": {
+        "hazard": {
             "h": [
                 "330",
                 "300",
@@ -24778,10 +24778,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 1.3,
-            "unit": "K"
-        },
         "set": "actinoide",
         "shell": [
             2,
@@ -24818,6 +24814,10 @@
             },
             "liquid": {
                 "value": 2998.7,
+                "unit": "K"
+            },
+            "transition": {
+                "value": 1.3,
                 "unit": "K"
             }
         },
@@ -24889,7 +24889,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Rn> 5f[4] 6d[1] 7s[2]",
+        "electron_config": "Rn 5f[4] 6d[1] 7s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 10,
@@ -24903,7 +24903,7 @@
         "era": "quantum",
         "goldschmidt": "synthetic",
         "group": 20,
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Np_sphere.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Np_sphere.jpg\">Los Alamos National Lab.</a>, Public domain, via Wikimedia Commons"
@@ -25072,7 +25072,7 @@
                 "unit": "Ωm"
             }
         },
-        "electron_config": "<e:Rn> 5f[6] 7s[2]",
+        "electron_config": "Rn 5f[6] 7s[2]",
         "enthalpy": {
             "fusion": {
                 "value": 2.8,
@@ -25086,7 +25086,7 @@
         "era": "quantum",
         "goldschmidt": "synthetic",
         "group": 20,
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Plutonium_ring.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Plutonium_ring.jpg\">Los Alamos National Laboratory</a>, Attribution, via Wikimedia Commons"
@@ -25223,7 +25223,7 @@
         }
     },
     "am": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-28T12:41:15.370Z",
         "appearance": {
             "en": "silvery white",
             "de": "silbrig-weißes Metall"
@@ -25267,11 +25267,11 @@
                 "unit": "S·m[-1]"
             }
         },
-        "electron_config": "<e:Rn> 5f[7] 7s[2]",
+        "electron_config": "Rn 5f[7] 7s[2]",
         "era": "quantum",
         "goldschmidt": "synthetic",
         "group": 20,
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Americium_microscope.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Americium_microscope.jpg\">Bionerd</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -25329,10 +25329,6 @@
                 "unit": "pm"
             }
         },
-        "sc_temp": {
-            "value": 1,
-            "unit": "K"
-        },
         "set": "actinoide",
         "shell": [
             2,
@@ -25362,6 +25358,10 @@
             "liquid": {
                 "value": 1431,
                 "*": true,
+                "unit": "K"
+            },
+            "transition": {
+                "value": 1,
                 "unit": "K"
             }
         },
@@ -25417,7 +25417,7 @@
             "by": "Seaborg",
             "value": 1944
         },
-        "electron_config": "<e:Rn> 5f[7] 6d[1] 7s[2]",
+        "electron_config": "Rn 5f[7] 6d[1] 7s[2]",
         "enthalpy": {
             "vaporisation": {
                 "value": 320,
@@ -25428,7 +25428,7 @@
         "era": "quantum",
         "goldschmidt": "synthetic",
         "group": 20,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 5.99141,
@@ -25557,11 +25557,11 @@
             "by": "Seaborg",
             "value": 1949
         },
-        "electron_config": "<e:Rn> 5f[9] 7s[2]",
+        "electron_config": "Rn 5f[9] 7s[2]",
         "era": "quantum",
         "goldschmidt": "synthetic",
         "group": 20,
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Berkelium_metal.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Berkelium_metal.jpg\">Oak Ridge National Laboratory, US Department of Energy</a>, Public domain, via Wikimedia Commons"
@@ -25683,11 +25683,11 @@
             "by": "Seaborg",
             "value": 1950
         },
-        "electron_config": "<e:Rn> 5f[10] 7s[2]",
+        "electron_config": "Rn 5f[10] 7s[2]",
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 20,
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Californium.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Californium.jpg\">United States Department of Energy (see File:Einsteinium.jpg)</a>, Public domain, via Wikimedia Commons"
@@ -25804,11 +25804,11 @@
             "by": "Seaborg",
             "value": 1952
         },
-        "electron_config": "<e:Rn> 5f[11] 7s[2]",
+        "electron_config": "Rn 5f[11] 7s[2]",
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 20,
-        "hazardous": null,
+        "hazard": null,
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Einsteinium.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Einsteinium.jpg\">Haire, R. G., US Department of Energy.Touched up by Materialscientist at en.wikipedia.</a>, Public domain, via Wikimedia Commons"
@@ -25914,11 +25914,11 @@
             "by": "Seaborg",
             "value": 1952
         },
-        "electron_config": "<e:Rn> 5f[12] 7s[2]",
+        "electron_config": "Rn 5f[12] 7s[2]",
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 20,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 6.5,
@@ -26010,11 +26010,11 @@
             "by": "Seaborg",
             "value": 1955
         },
-        "electron_config": "<e:Rn> 5f[13] 7s[2]",
+        "electron_config": "Rn 5f[13] 7s[2]",
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 20,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 6.58,
@@ -26101,11 +26101,11 @@
             "by": "Seaborg",
             "value": 1958
         },
-        "electron_config": "<e:Rn> 5f[14] 7s[2]",
+        "electron_config": "Rn 5f[14] 7s[2]",
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 20,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 6.62621,
@@ -26193,11 +26193,11 @@
             "by": "Ghiorso",
             "value": 1961
         },
-        "electron_config": "<e:Rn> 5f[14] 7s[2] 7p[1]",
+        "electron_config": "Rn 5f[14] 7s[2] 7p[1]",
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 20,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 4.96,
@@ -26291,11 +26291,11 @@
             "by": "Ghiorso",
             "value": 1964
         },
-        "electron_config": "<e:Rn> 5f[14] 6d[2] 7s[2]",
+        "electron_config": "Rn 5f[14] 6d[2] 7s[2]",
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 4,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 6.02,
@@ -26411,11 +26411,11 @@
             "by": "Ghiorso",
             "value": 1967
         },
-        "electron_config": "<e:Rn> 5f[14] 6d[3] 7s[2]",
+        "electron_config": "Rn 5f[14] 6d[3] 7s[2]",
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 5,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 6.8,
@@ -26510,11 +26510,11 @@
             "by": "Oganessian",
             "value": 1974
         },
-        "electron_config": "<e:Rn> 5f[14] 6d[4] 7s[2]",
+        "electron_config": "Rn 5f[14] 6d[4] 7s[2]",
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 6,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 7.8,
@@ -26609,11 +26609,11 @@
             "by": "Oganessian",
             "value": 1976
         },
-        "electron_config": "<e:Rn> 5f[14] 6d[5] 7s[2]",
+        "electron_config": "Rn 5f[14] 6d[5] 7s[2]",
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 7,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 7.7,
@@ -26701,11 +26701,11 @@
             "by": "GSI",
             "value": 1984
         },
-        "electron_config": "<e:Rn> 5f[14] 6d[6] 7s[2]",
+        "electron_config": "Rn 5f[14] 6d[6] 7s[2]",
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 8,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 7.6,
@@ -26766,7 +26766,7 @@
         }
     },
     "mt": {
-        "@modified": "2023-10-18T09:29:41.556Z",
+        "@modified": "2023-10-29T17:28:32.371Z",
         "atomic_mass": {
             "value": 268,
             "*": true,
@@ -26793,11 +26793,11 @@
             "by": "GSI",
             "value": 1982
         },
-        "electron_config": "<e:Rn> 5f[14] 6d[7] 7s[2]",
+        "electron_config": "Rn 5f[14] 6d[7] 7s[2]",
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 9,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 8.3
@@ -26838,7 +26838,7 @@
                 "unit": "pm"
             }
         },
-        "set": null,
+        "set": "unknown",
         "shell": [
             2,
             8,
@@ -26855,7 +26855,7 @@
         }
     },
     "ds": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-29T17:28:32.371Z",
         "atomic_mass": {
             "value": 281,
             "*": true,
@@ -26882,11 +26882,11 @@
             "by": "GSI",
             "value": 1994
         },
-        "electron_config": "<e:Rn> 5f[14] 6d[8] 7s[2]",
+        "electron_config": "Rn 5f[14] 6d[8] 7s[2]",
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 10,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 9.9
@@ -26926,7 +26926,7 @@
                 "unit": "pm"
             }
         },
-        "set": null,
+        "set": "unknown",
         "shell": [
             2,
             8,
@@ -26943,7 +26943,7 @@
         }
     },
     "rg": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-29T17:28:32.371Z",
         "atomic_mass": {
             "value": 280,
             "*": true,
@@ -26970,11 +26970,11 @@
             "by": "GSI",
             "value": 1994
         },
-        "electron_config": "<e:Rn> 5f[14] 6d[9] 7s[2]",
+        "electron_config": "Rn 5f[14] 6d[9] 7s[2]",
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 11,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 10.6
@@ -27014,7 +27014,7 @@
                 "unit": "pm"
             }
         },
-        "set": null,
+        "set": "unknown",
         "shell": [
             2,
             8,
@@ -27031,7 +27031,7 @@
         }
     },
     "cn": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-29T17:28:32.371Z",
         "atomic_mass": {
             "value": 277,
             "*": true,
@@ -27058,11 +27058,11 @@
             "by": "GSI",
             "value": 1996
         },
-        "electron_config": "<e:Rn> 5f[14] 6d[10] 7s[2]",
+        "electron_config": "Rn 5f[14] 6d[10] 7s[2]",
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 12,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 12
@@ -27102,7 +27102,7 @@
                 "unit": "pm"
             }
         },
-        "set": null,
+        "set": "unknown",
         "shell": [
             2,
             8,
@@ -27147,7 +27147,7 @@
         }
     },
     "nh": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-29T17:28:32.371Z",
         "atomic_mass": {
             "value": 287,
             "*": true,
@@ -27174,11 +27174,11 @@
             "by": "JINR",
             "value": 2006
         },
-        "electron_config": "<e:Rn> 5f[14] 6d[10] 7s[2] 7p[1]",
+        "electron_config": "Rn 5f[14] 6d[10] 7s[2] 7p[1]",
         "era": "recent",
         "goldschmidt": "synthetic",
         "group": 13,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 7.31
@@ -27219,7 +27219,7 @@
                 "unit": "pm"
             }
         },
-        "set": null,
+        "set": "unknown",
         "shell": [
             2,
             8,
@@ -27253,7 +27253,7 @@
         }
     },
     "fl": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-29T17:28:32.371Z",
         "atomic_mass": {
             "value": 289,
             "*": true,
@@ -27280,11 +27280,11 @@
             "by": "JINR",
             "value": 1999
         },
-        "electron_config": "<e:Rn> 5f[14] 6d[10] 7s[2] 7p[2]",
+        "electron_config": "Rn 5f[14] 6d[10] 7s[2] 7p[2]",
         "era": "synthesis",
         "goldschmidt": "synthetic",
         "group": 14,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 8.54
@@ -27325,7 +27325,7 @@
                 "unit": "pm"
             }
         },
-        "set": null,
+        "set": "unknown",
         "shell": [
             2,
             8,
@@ -27350,7 +27350,7 @@
         }
     },
     "mc": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-29T17:28:32.371Z",
         "atomic_mass": {
             "value": 288,
             "*": true,
@@ -27376,11 +27376,11 @@
             "by": "JINR",
             "value": 2006
         },
-        "electron_config": "<e:Rn> 5f[14] 6d[10] 7s[2] 7p[3]",
+        "electron_config": "Rn 5f[14] 6d[10] 7s[2] 7p[3]",
         "era": "recent",
         "goldschmidt": "synthetic",
         "group": 15,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 5.57
@@ -27421,7 +27421,7 @@
                 "unit": "pm"
             }
         },
-        "set": null,
+        "set": "unknown",
         "shell": [
             2,
             8,
@@ -27455,7 +27455,7 @@
         }
     },
     "lv": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-29T17:28:32.371Z",
         "atomic_mass": {
             "value": 293,
             "*": true,
@@ -27481,11 +27481,11 @@
             "by": "JINR",
             "value": 2000
         },
-        "electron_config": "<e:Rn> 5f[14] 6d[10] 7s[2] 7p[4]",
+        "electron_config": "Rn 5f[14] 6d[10] 7s[2] 7p[4]",
         "era": "recent",
         "goldschmidt": "synthetic",
         "group": 16,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 7.5
@@ -27526,7 +27526,7 @@
                 "unit": "pm"
             }
         },
-        "set": null,
+        "set": "unknown",
         "shell": [
             2,
             8,
@@ -27572,7 +27572,7 @@
         }
     },
     "ts": {
-        "@modified": "2023-10-17T15:25:28.382Z",
+        "@modified": "2023-10-29T17:28:32.371Z",
         "appearance": {
             "en": "semimetallic (predicted)"
         },
@@ -27601,11 +27601,11 @@
             "by": "JINR",
             "value": 2010
         },
-        "electron_config": "<e:Rn> 5f[14] 6d[10] 7s[2] 7p[5]",
+        "electron_config": "Rn 5f[14] 6d[10] 7s[2] 7p[5]",
         "era": "recent",
         "goldschmidt": "synthetic",
         "group": 17,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 7.7
@@ -27645,7 +27645,7 @@
                 "unit": "pm"
             }
         },
-        "set": null,
+        "set": "unknown",
         "shell": [
             2,
             8,
@@ -27687,7 +27687,7 @@
         }
     },
     "og": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-10-29T17:28:32.371Z",
         "appearance": {
             "en": "metallic (predicted)"
         },
@@ -27717,11 +27717,11 @@
             "by": "JINR",
             "value": 2006
         },
-        "electron_config": "<e:Rn> 5f[14] 6d[10] 7s[2] 7p[6]",
+        "electron_config": "Rn 5f[14] 6d[10] 7s[2] 7p[6]",
         "era": "recent",
         "goldschmidt": "synthetic",
         "group": 18,
-        "hazardous": null,
+        "hazard": null,
         "ionization": {
             "values": [
                 8.7
@@ -27762,7 +27762,7 @@
                 "unit": "pm"
             }
         },
-        "set": null,
+        "set": "unknown",
         "shell": [
             2,
             8,

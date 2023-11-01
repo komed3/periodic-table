@@ -1,0 +1,44 @@
+@import 'page';
+
+.pt-sitemap-label {
+    margin-top: 48px;
+}
+
+.pt-sitemap {
+    display: grid;
+    grid-template-columns: repeat( 2, 1fr );
+    gap: 0 48px;
+}
+
+.pt-sitemap-list {
+    grid-template-columns: repeat( 3, 1fr );
+    gap: 8px 48px;
+}
+
+.pt-sitemap-item a {
+    color: var( --accent-1 );
+}
+
+.pt-sitemap-item a:hover {
+    text-decoration: underline;
+}
+
+@media all and ( max-width: 1000px ) {
+
+    .pt-sitemap {
+        grid-template-columns: 1fr;
+    }
+
+    .pt-sitemap-list {
+        grid-template-columns: repeat( 2, 1fr );
+    }
+
+}
+
+@media all and ( max-width: 700px ) {
+
+    .pt-sitemap-list {
+        grid-template-columns: repeat( 1fr );
+    }
+
+}

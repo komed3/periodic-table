@@ -6,7 +6,12 @@
  * 
  * @author      komed3 (Paul Köhler)
  * @version     2.0.0
+ * 
+ * @argument    {String} locale language code
+ * @argument    {String} rebuild force rebuilding text index
  */
+
+'use strict';
 
 /**
  * load config
@@ -15,14 +20,11 @@
 const yaml = require( 'js-yaml' );
 const config = require( 'config' );
 
-/**
- * load required modules
- */
-
 require( 'log-timestamp' );
 
 /**
  * proceed maintenance script
+ * check necessary args
  */
 
 if( process.argv[2] == undefined ) {
@@ -35,7 +37,7 @@ if( process.argv[2] == undefined ) {
 
     process.exit( 1 );
 
-} else if( !config.get( 'i18n.languages' ).includes( process.argv[2] ) ) {
+} else if( !config.get( 'i18n.list' ).includes( process.argv[2] ) ) {
 
     /**
      * ERROR: wrong language code
@@ -48,18 +50,18 @@ if( process.argv[2] == undefined ) {
 } else {
 
     /**
-     * force rebuilding text index
-     */
-
-    const rebuild = ( process.argv[3] || '' ) == 'rebuild';
-
-    /**
      * define constants
      */
 
     const locale = process.argv[2];
     const url = 'https://' + locale + '.wikipedia.org/w/api.php';
     const dir = __dirname + '/../_db/text/' + locale;
+
+    /**
+     * force rebuilding text index
+     */
+
+    const rebuild = ( process.argv[3] || '' ).toString().toLowerCase() == 'rebuild';
 
     /**
      * load required modules
@@ -69,7 +71,7 @@ if( process.argv[2] == undefined ) {
 
     const fs = require( 'fs' );
     const wiki = require( 'wikijs' ).default;
-    const core = require( './../lib/core' );
+    const DB = require( './../src/database' );
 
     /**
      * check if language directory exists
@@ -91,7 +93,7 @@ if( process.argv[2] == undefined ) {
 
     console.log( 'load elements database' );
 
-    const elements = core.DB( 'elements' );
+    const elements = new DB( 'elements' );
 
     /**
      * loop through elements
@@ -101,7 +103,7 @@ if( process.argv[2] == undefined ) {
 
     let skipped = 0;
 
-    for( const [ key, el ] of Object.entries( elements ) ) {
+    for( const [ key, el ] of Object.entries( elements.database ) ) {
 
         /**
          * fetch wiki page title from database
@@ -152,7 +154,7 @@ if( process.argv[2] == undefined ) {
                             if( error ) {
 
                                 /**
-                                 * fetch error
+                                 * fetch error while creating file
                                  */
 
                                 return console.error( error );

@@ -1,21 +1,21 @@
-//- 404.pug
-extends layout.pug
+//- 404 page
+extends page.pug
 
 block styles
-  link( rel="stylesheet", href="/css/404.css" )/
-  link( rel="stylesheet", href="/css/lists.css" )/
-  link( rel="stylesheet", href="/css/microtable.css" )/
+  link( rel= 'stylesheet', href= '/css/404.css' )/
 
 block content
   div.pt-page.pt-box.pt-404
     h1!= __( '404-title' )
     p.pt-page-intro!= __( '404-description' )
     include templates/searchform.pug
-    div.pt-lists
-      each page in [ 'sitemap', 'nuclides', 'tools', 'glossary' ]
-        div.pt-lists-item
-          h3.pt-lists-item-title
-            a( href='/' + page )!= __( page + '-title' )
-          p.pt-lists-item-desc!= __( page + '-description' )
+    div.pt-sitemap
+      each page in [ 'sitemap', 'glossary' ]
+        div.pt-sitemap-item
+          h3
+            a(
+              href= core.url( '/' + page )
+            )!= __( page + '-title' )
+          p!= __( page + '-description' )
   div.pt-page
     include templates/microtable.pug

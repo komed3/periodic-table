@@ -8,6 +8,8 @@
  * @version     2.0.0
  */
 
+'use strict';
+
 /**
  * load config
  */
@@ -15,30 +17,30 @@
 const yaml = require( 'js-yaml' );
 const config = require( 'config' );
 
+require( 'log-timestamp' );
+
 /**
  * load required modules
  */
 
-require( 'log-timestamp' );
-
 const axios = require( 'axios' );
 const im = require( 'imagemagick' );
 const fs = require( 'fs' );
-const core = require( './../lib/core' );
+const DB = require( './../src/database' );
 
 /**
  * define contants
  */
 
 const path = './public/images/';
-const elements = core.DB( 'elements' );
+const elements = new DB( 'elements' );
 
 /**
  * proceed maintenance script
  */
 
 /**
- * get image from url
+ * [async] get image from url
  * @param {String} el element name
  * @param {String} url image url
  */
@@ -55,7 +57,7 @@ async function getImage( el, url ) {
         if( err ) {
 
             /**
-             * fetch error
+             * fetch error while creating image
              */
 
             throw err;
@@ -65,7 +67,7 @@ async function getImage( el, url ) {
             console.log( '... image for "' + el + '" downloaded successfully' );
 
             /**
-             * generate thumbnail
+             * generate thumbnail image
              */
 
             im.crop( {
@@ -80,7 +82,7 @@ async function getImage( el, url ) {
                 if( err ) {
 
                     /**
-                     * fetch error
+                     * fetch error while creating thumbnail
                      */
 
                     throw err;
@@ -96,7 +98,7 @@ async function getImage( el, url ) {
             } );
 
             /**
-             * resize image
+             * resize original image
              */
 
             im.resize( {
@@ -110,7 +112,7 @@ async function getImage( el, url ) {
                 if( err ) {
 
                     /**
-                     * fetch error
+                     * fetch error while resizing original image
                      */
 
                     throw err;
@@ -135,7 +137,7 @@ async function getImage( el, url ) {
                             if( err ) {
 
                                 /**
-                                 * fetch error
+                                 * fetch error while deleting image
                                  */
 
                                 throw err;
@@ -178,11 +180,11 @@ if( !fs.existsSync( path ) ) {
  * loop through elements database
  */
 
-for( const [ el, data ] of Object.entries( elements ) ) {
+for( const [ k, el ] of Object.entries( elements.database ) ) {
 
-    if( 'image' in data ) {
+    if( 'image' in el && 'url' in el.image ) {
 
-        getImage( el, data.image.url );
+        getImage( k, el.image.url );
 
     }
 

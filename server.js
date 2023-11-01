@@ -1,13 +1,17 @@
 /**
  * periodic table
- * Node.js app entry point
+ * interactive periodic table with nuclides,
+ * tools, lists and more
  * 
- * @author      komed3 (Paul Köhler)
- * @version     2.0.0
+ * @author komed3 (Paul Köhler)
+ * @version 2.0.0
+ * @license MIT
  */
 
+'use strict';
+
 /**
- * load config
+ * load config file
  */
 
 process.env.ALLOW_CONFIG_MUTATIONS = true;
@@ -16,43 +20,61 @@ const yaml = require( 'js-yaml' );
 const config = require( 'config' );
 
 /**
- * load required modules/files
+ * load required modules
  */
 
 const fs = require( 'fs' );
-const core = require( './lib/core' );
-const elements = core.DB( 'elements' );
-const element_list = Object.keys( elements );
-const nuclides = core.DB( 'nuclides' );
+const core = require( './src/core' );
+const formatter = require( './src/formatter' );
+const DB = require( './src/database' );
 
 /**
- * load "express" web framework
+ * load globally used databases
+ */
+
+const elements = new DB( 'elements' );
+
+/**
+ * express framework
  */
 
 const express = require( 'express' );
-const cookieParser = require( 'cookie-parser' );
-
-/**
- * start express
- */
 
 const app = express();
 
 /**
- * define static folders/files
+ * cookie parser
  */
 
-app.use( '/db', express.static( __dirname + '/_db' ) );
+const cookieParser = require( 'cookie-parser' );
+
+app.use( cookieParser() );
+
+/**
+ * robots.txt and sitemap.xml
+ */
+
+app.get( '/robots.txt', ( req, res ) => {
+
+    res.type( 'text/plain' );
+    res.send( 'User-agent: *\nAllow: /' );
+
+} );
+
+app.get( '/sitemap.xml', ( req, res ) => {
+
+    res.sendFile( __dirname + '/sitemap.xml' );
+
+} );
+
+/**
+ * static resources
+ */
+
 app.use( '/css', express.static( __dirname + '/public/styles' ) );
 app.use( '/js', express.static( __dirname + '/public/scripts' ) );
 app.use( '/res', express.static( __dirname + '/public/resources' ) );
 app.use( '/img', express.static( __dirname + '/public/images' ) );
-
-/**
-* parse/use cookies
-*/
-
-app.use( cookieParser() );
 
 /**
  * passing settings and save them as cookie
@@ -63,11 +85,14 @@ app.use( '/set', ( req, res, next ) => {
 
     for( const [ key, val ] of Object.entries( req.query ) ) {
 
-        res.cookie( key, val, { maxAge: 10e9, httpOnly: true } );
+        res.cookie( key, val, {
+            maxAge: config.get( 'server.cookieAge' ),
+            httpOnly: true
+        } );
 
     }
 
-    if( req.get( 'referrer' ).includes( req.get( 'host' ) ) ) {
+    if( ( req.get( 'referrer' ) || '' ).includes( req.get( 'host' ) ) ) {
 
         res.redirect( req.get( 'referrer' ) );
 
@@ -80,308 +105,599 @@ app.use( '/set', ( req, res, next ) => {
 } );
 
 /**
- * load template engine
- */
-
-const pug = require( 'pug' );
-
-/**
- * i18n (multiple language support)
+ * localization (i18n)
  */
 
 const { I18n } = require( 'i18n' );
 
 const i18n = new I18n( {
-    locales: config.get( 'i18n.languages' ),
+    locales: config.get( 'i18n.list' ),
     defaultLocale: config.get( 'i18n.default' ),
     cookie: 'locale',
     directory: __dirname + '/i18n'
 } );
 
+app.use( ( req, res, next ) => {
+
+    let url = core.parseURL( req.originalUrl ),
+        locale = url.normalized[0] || '';
+
+    if( config.get( 'i18n.list' ).includes( locale ) ) {
+
+        /**
+         * localizazion
+         */
+
+        res.locals.navURL = '/' + url.normalized.slice( 1 ).join( '/' );
+        res.locals.canonical = req.protocol + '://' + req.hostname +
+            core.getCanonical( url.string );
+
+        res.locals.locale = locale;
+        req.cookies.locale = locale;
+
+        res.locals.availableLanguages = config.get( 'i18n.list' );
+
+        core.setLocale( i18n, locale );
+        formatter.setLocale( i18n, locale );
+
+        res.cookie( 'locale', locale, {
+            maxAge: config.get( 'server.cookieAge' ),
+            httpOnly: true
+        } );
+
+        next();
+
+    } else {
+
+        /**
+         * i18n redirect
+         */
+
+        res.redirect( core.getCanonical( '/' + (
+            req.cookies.locale || config.get( 'i18n.default' )
+        ) + url.string ) );
+
+    }
+
+} );
+
 app.use( i18n.init );
+
+/**
+ * use modules + basic locals
+ */
 
 app.use( ( req, res, next ) => {
 
-    core.setLocale( res.getLocale() );
+    res.locals.config = config;
+    res.locals.core = core;
+    res.locals.f = formatter;
 
-    res.locals.__ = res.__ = function () {
-
-        return i18n.__.apply( req, arguments );
-
-    }
+    res.locals.theme = (
+        req.cookies.theme || config.get( 'themes.default' )
+    );
 
     next();
 
 } );
 
 /**
- * server routing
+ * pug template engine
+ */
+
+const pug = require( 'pug' );
+
+/**
+ * routing
  */
 
 const routes = require( './config/routes' );
 
-routes.routes.forEach( ( route ) => {
+routes.forEach( ( route ) => {
+
+    let key, list, path, prop, results, value;
 
     app.get( route[0], ( req, res ) => {
 
+        let file = route[1];
+
         try {
 
-            /* parse URL */
+            /**
+             * locals
+             */
 
-            let url = core.parseURL( req.originalUrl );
-            let _url = url.map( p => {
-                return p.toString().toLocaleLowerCase( req.getLocale() );
-            } );
-
-            /* canonical URL */
-
-            let canonical = ( '/' + ( route[2] || _url[0] || '' ) + '/' +
-                url.slice( 1 ).filter( p => !p.includes( '?' ) ).join( '/' ) + '/'
-            ).replaceAll( '//', '/' ).slice( 0, -1 );
-
-            res.locals.canonical = req.protocol + '://' + req.hostname + canonical;
-
-            /* globally locals */
-
-            res.locals.config = config.get( 'site' );
-            res.locals.core = core;
             res.locals.site = route[1];
-            res.locals.availableLanguages = config.get( 'i18n.languages' );
-            res.locals.locale = req.getLocale();
-            res.locals.theme = req.cookies.theme || config.get( 'site.theme' );
             res.locals.elements = elements;
-            res.locals.search = { query: '' };
-            res.locals.navURL = canonical;
-            res.locals.table = { layer: 'set' };
-            res.locals.list = { layer: 'set' };
+            res.locals.breadcrumbs = [];
 
-            /* breadcrumbs */
+            res.locals.search = {
+                query: req.query.q || req.query.query || ''
+            };
 
-            res.locals.breadcrumbs = [ [
-                '/', req.__( 'start-title' )
-            ] ];
+            res.locals.table = {
+                layer: 'set'
+            };
 
-            /* templates */
+            res.locals.list = {
+                layer: 'set',
+                items: {}
+            };
+
+            res.locals.breadcrumbs.push( [
+                '/',
+                res.__( 'home' )
+            ] );
+
+            /**
+             * page locals
+             */
+
+            res.locals.page = {};
 
             switch( route[1] ) {
 
-                case 'tools':
-
-                    /* breadcrumbs */
-
-                    res.locals.breadcrumbs.push( [
-                        '/sitemap',
-                        req.__( 'sitemap' )
-                    ] );
+                /**
+                 * default page
+                 */
+                default:
 
                     res.locals.breadcrumbs.push( [
-                        '/tools',
-                        req.__( 'tools-title' )
+                        '/' + route[1],
+                        res.__( route[1] + '-title' )
                     ] );
 
                     break;
 
-                case 'spectrum':
+                /**
+                 * abundance page
+                 */
+                case 'abundance':
 
-                    res.locals.spectrum = core.DB( 'spectrum' );
+                    let abundances = config.get( 'abundances' );
 
-                    break;
+                    key = ( req.params.abundance || '' ).toLowerCase();
 
-                case 'element':
+                    if( key in abundances ) {
 
-                    /* check if given element exists in DB */
+                        let abundance = abundances[ key ];
 
-                    let element = _url[1] || '';
+                        /**
+                         * fetch results and sort by abundance
+                         */
 
-                    if( element in elements ) {
-
-                        res.locals.element = elements[ element ];
-                        res.locals.text = core.DB( 'text/' + req.getLocale() + '/' + element );
-                        res.locals.isotopes = nuclides[ element ] || [];
-
-                        /* fetch image */
-
-                        if( fs.existsSync( './public/images/' + element + '.jpg' ) ) {
-
-                            res.locals.image = {
-                                url: req.protocol + '://' + req.hostname + '/img/' + element + '.jpg',
-                                fullres: '/img/' + element + '.jpg',
-                                thumb: '/img/' + element + '-thumb.jpg'
-                            };
-
-                        }
-
-                        /* spectral lines */
-
-                        if( element in ( spectrum = core.DB( 'spectrum' ) ) ) {
-
-                            res.locals.spectrum = spectrum[ element ];
-
-                        }
-
-                        /* element navigation */
-
-                        let k = element_list.indexOf( element );
-
-                        res.locals.nav = {
-                            prev: element_list[ k - 1 ] || null,
-                            next: element_list[ k + 1 ] || null
-                        };
-
-                        /* periodic table */
-
-                        res.locals.table.current = element;
-
-                    } else {
-
-                        res.redirect( '/' );
-                        return ;
-
-                    }
-
-                    break;
-
-                case 'lists':
-
-                    /* check if given list exists */
-
-                    if( _url.length == 2 && config.get( 'site.lists' ).includes( _url[1] ) ) {
-
-                        /* fetch list items */
-
-                        let lists = [];
-
-                        Object.values( elements ).forEach( ( el ) => {
-
-                            if(
-                                _url[1] in el &&
-                                el[ _url[1] ] != null &&
-                                !lists.includes( el[ _url[1] ] )
-                            ) {
-
-                                lists.push( el[ _url[1] ] );
-
-                            }
-
-                        } );
-
-                        res.locals.lists = {
-                            prop: _url[1],
-                            items: lists
-                        };
-
-                        /* periodic table */
-
-                        res.locals.table = {
-                            layer: _url[1]
-                        };
-
-                        /* breadcrumbs */
-
-                        res.locals.breadcrumbs.push( [
-                            '/sitemap',
-                            req.__( 'sitemap' )
-                        ] );
-
-                        res.locals.breadcrumbs.push( [
-                            '/lists/' + _url[1],
-                            req.__( _url[1] + '-label' )
-                        ] );
-
-                    } else {
-
-                        res.redirect( '/' );
-                        return ;
-
-                    }
-
-                    break;
-
-                case 'list':
-
-                    /* check if given list exists */
-
-                    if( _url.length == 3 && config.get( 'site.lists' ).includes( _url[1] ) ) {
-
-                        /* fetch list items */
-
-                        let results = Object.fromEntries(
-                            Object.entries( elements ).filter(
-                                ( [ _k, el ] ) => _url[1] in el && el[ _url[1] ] == _url[2]
+                        results = Object.fromEntries(
+                            Object.entries( elements.database ).filter(
+                                ( [ _k, el ] ) => {
+                                    return 'abundance' in el && key in el.abundance;
+                                }
+                            ).sort(
+                                ( [ ,a ], [ ,b ] ) => {
+                                    return b.abundance[ key ].value - a.abundance[ key ].value;
+                                }
                             )
                         );
 
-                        /* if list has items */
+                        res.locals.page.abundance = {
+                            ...abundance,
+                            type: key,
+                            items: results
+                        };
+
+                        /**
+                         * generate map
+                         */
+
+                        let tiles = 500;
+
+                        res.locals.map = [];
+
+                        for( const [ k, el ] of Object.entries( results ) ) {
+
+                            let val = Math.floor( el.abundance[ key ].value / 2e6 );
+
+                            if( val > 2 && ( tiles - val ) > 0 && res.locals.map.length < 9 ) {
+
+                                res.locals.map.push( {
+                                    x: el.names[ res.getLocale() ],
+                                    y: val
+                                } );
+
+                                tiles -= val;
+
+                            } else {
+
+                                break;
+
+                            }
+
+                        }
+
+                        if( tiles > 0 ) {
+
+                            res.locals.map.push( {
+                                x: res.__( 'others' ),
+                                y: tiles
+                            } );
+
+                        }
+
+                        /**
+                         * breadcrumbs
+                         */
+
+                        res.locals.breadcrumbs.push( [
+                            '/abundances',
+                            res.__( 'abundances-title' )
+                        ] );
+
+                        res.locals.breadcrumbs.push( [
+                            '/abundance/' + key,
+                            res.__( key + '-abundance' )
+                        ] );
+
+                    } else {
+
+                        /**
+                         * wrong abundance key given
+                         * redirect to abundances page
+                         */
+
+                        res.redirect( core.url( '/abundances' ) );
+                        return ;
+
+                    }
+
+                    break;
+
+                /**
+                 * data (database) page
+                 */
+                case 'data':
+
+                    /**
+                     * fetch downloadable databases
+                     */
+
+                    results = [];
+
+                    config.get( 'maintenance.databases' ).forEach( ( database ) => {
+
+                        path = __dirname + '/_db/' + database + '.json';
+
+                        results.push( {
+                            name: database,
+                            path: path,
+                            info: fs.statSync( path )
+                        } );
+
+                    } );
+
+                    res.locals.page.databases = results;
+
+                    break;
+
+                /**
+                 * elements page
+                 */
+                case 'element':
+
+                    key = ( req.params.element || '' ).toLowerCase();
+
+                    if( elements.has( key ) ) {
+
+                        let element = elements.get( key );
+
+                        /**
+                         * element data
+                         */
+
+                        res.locals.page.element = {
+                            name: element.names[ res.getLocale() ] || element.names[ config.get( 'i18n.default' ) ],
+                            data: element,
+                            text: ( new DB( 'text/' + res.getLocale() + '/' + key ) ).database,
+                            spectrum: ( new DB( 'spectrum' ) ).get( key )
+                        };
+
+                        /**
+                         * element image
+                         */
+
+                        if( fs.existsSync( __dirname + '/public/images/' + key + '.jpg' ) ) {
+
+                            res.locals.page.image = {
+                                url: './img/' + key + '.jpg',
+                                fullres: '/img/' + key + '.jpg',
+                                thumb: '/img/' + key + '-thumb.jpg'
+                            }
+
+                        }
+
+                        /**
+                         * element navigation
+                         */
+
+                        res.locals.page.nav = {
+                            prev: elements.prev( key ),
+                            next: elements.next( key )
+                        };
+
+                        /**
+                         * periodic table
+                         */
+
+                        res.locals.table.current = key;
+
+                    } else {
+
+                        /**
+                         * element not given or found
+                         * redirect to home
+                         */
+
+                        res.redirect( core.url( '/' ) );
+                        return ;
+
+                    }
+
+                    break;
+
+                /**
+                 * list page (single and overview)
+                 */
+                case 'list':
+
+                    list = ( req.params.list || '' ).toLowerCase();
+                    prop = ( req.params.prop || '' ).toLowerCase();
+
+                    if( config.get( 'lists' ).includes( list ) ) {
+
+                        res.locals.page.list = {
+                            name: list,
+                            prop: prop
+                        };
+
+                        /**
+                         * periodic table
+                         */
+
+                        res.locals.table.layer = list;
+
+                        /**
+                         * breadcrumbs
+                         */
+
+                        res.locals.breadcrumbs.push( [
+                            '/lists',
+                            res.__( 'lists-title' )
+                        ] );
+
+                        res.locals.breadcrumbs.push( [
+                            '/list/' + list,
+                            res.__( list + '-label' )
+                        ] );
+
+                        if( prop.length ) {
+
+                            /**
+                             * single list prop page
+                             */
+
+                            file = 'list_prop';
+
+                            /**
+                             * fetch list items
+                             */
+
+                            results = Object.fromEntries(
+                                Object.entries( elements.database ).filter(
+                                    ( [ _k, el ] ) => list in el && el[ list ] == prop
+                                )
+                            );
+
+                            if( Object.keys( results ).length ) {
+
+                                res.locals.list = {
+                                    layer: list,
+                                    value: prop,
+                                    items: results
+                                };
+
+                                /**
+                                 * periodic table
+                                 */
+
+                                res.locals.table.value = prop;
+                                res.locals.table.hl = prop;
+
+                                /**
+                                 * breadcrumbs
+                                 */
+
+                                res.locals.breadcrumbs.push( [
+                                    '/list/' + list + '/' + prop,
+                                    res.__( list + '-' + prop )
+                                ] );
+
+                            } else {
+
+                                /**
+                                 * list property not valid or empty
+                                 * redirect to list page
+                                 */
+
+                                res.redirect( core.url( '/list/' + list ) );
+                                return ;
+
+                            }
+
+                        } else {
+
+                            /**
+                             * list overview page
+                             */
+
+                            res.locals.page.list.items = [];
+
+                            Object.values( elements.database ).forEach( ( el ) => {
+
+                                if(
+                                    list in el && el[ list ] != null &&
+                                    !res.locals.page.list.items.includes( el[ list ] )
+                                ) {
+
+                                    res.locals.page.list.items.push( el[ list ] );
+
+                                }
+
+                            } );
+
+                        }
+
+                    } else {
+
+                        /**
+                         * list not exists
+                         * redirect to lists page
+                         */
+
+                        res.redirect( core.url( '/lists' ) );
+                        return ;
+
+                    }
+
+                    break;
+
+                /**
+                 * property page
+                 */
+                case 'prop':
+
+                    prop = ( req.params.property || '' ).toLowerCase();
+
+                    if( config.get( 'properties' ).includes( prop ) ) {
+
+                        /**
+                         * fetch elements with property set
+                         */
+
+                        results = Object.fromEntries(
+                            Object.entries( elements.database ).filter(
+                                ( [ _k, el ] ) => ( el.properties || [] ).includes( prop )
+                            )
+                        );
 
                         if( Object.keys( results ).length ) {
 
                             res.locals.list = {
-                                layer: _url[1],
-                                value: _url[2],
+                                type: 'prop',
+                                layer: 'prop',
+                                value: prop,
                                 items: results
                             };
 
-                            /* periodic table */
+                            /**
+                             * periodic table
+                             */
 
                             res.locals.table = {
-                                layer: _url[1],
-                                value: _url[2],
-                                hl: _url[2]
+                                type: 'prop',
+                                layer: 'prop',
+                                value: prop
                             };
 
-                            /* nav URL */
-
-                            res.locals.navURL = '/lists/' + _url[1];
-
-                            /* breadcrumbs */
+                            /**
+                             * breadcrumbs
+                             */
 
                             res.locals.breadcrumbs.push( [
-                                '/sitemap',
-                                req.__( 'sitemap' )
+                                '/props',
+                                res.__( 'props-title' )
                             ] );
 
                             res.locals.breadcrumbs.push( [
-                                '/lists/' + _url[1],
-                                req.__( _url[1] + '-label' )
-                            ] );
-
-                            res.locals.breadcrumbs.push( [
-                                '/lists/' + _url[1] + '/' + _url[2],
-                                req.__( _url[1] + '-' + _url[2] )
+                                '/prop/' + prop,
+                                res.__( 'prop-' + prop )
                             ] );
 
                         } else {
 
-                            res.redirect( '/' );
+                            /**
+                             * no results found
+                             * redirect to properties page
+                             */
+
+                            res.redirect( core.url( '/props' ) );
                             return ;
 
                         }
 
                     } else {
 
-                        res.redirect( '/' );
+                        /**
+                         * wrong property name
+                         * redirect to properties page
+                         */
+
+                        res.redirect( core.url( '/props' ) );
                         return ;
 
                     }
 
                     break;
 
+                /**
+                 * quiz page
+                 */
+                case 'quiz':
+
+                    let quiz = [];
+
+                    for( const [ _k, el ] of Object.entries( elements.database ) ) {
+
+                        quiz.push( {
+                            number: el.number,
+                            symbol: el.symbol,
+                            names: el.names,
+                            score: el.number + ( el.period * 2 ) + (
+                                el.group > 18
+                                    ? 200
+                                    : el.group > 2 && el.group < 13
+                                        ? 100
+                                        : 50
+                            )
+                        } );
+
+                    }
+
+                    res.locals.page.quiz = Buffer.from(
+                        JSON.stringify( quiz )
+                    ).toString( 'base64' );
+
+                    break;
+
+                /**
+                 * scale page
+                 */
                 case 'scale':
 
-                    /* check if given scale exsits */
+                    let scales = config.get( 'scales' );
 
-                    if( _url.length == 2 && _url[1] in config.get( 'site.scales' ) ) {
+                    key = ( req.params.scale || '' ).toLowerCase();
 
-                        let scale = config.get( 'site.scales' )[ _url[1] ];
-                            scale.layer = _url[1];
+                    if( key in scales ) {
 
-                        /* fetch scale items */
+                        let scale = scales[ key ];
+
+                        /**
+                         * fetch scale items
+                         */
 
                         scale.results = {};
 
-                        for( const [ _k, el ] of Object.entries( elements ) ) {
+                        for( const [ k, el ] of Object.entries( elements.database ) ) {
 
-                            if( ( value = core.fromPath( el, scale.key ) ) ) {
+                            if( ( value = elements.get( k + '.' + scale.key ) ) ) {
 
                                 if( Array.isArray( value ) ) {
 
@@ -389,7 +705,7 @@ routes.routes.forEach( ( route ) => {
 
                                 }
 
-                                scale.results[ _k ] = {
+                                scale.results[ k ] = {
                                     ...el,
                                     scale: {
                                         value: value,
@@ -403,15 +719,15 @@ routes.routes.forEach( ( route ) => {
 
                         }
 
-                        /* if scale has items */
-
                         if( Object.keys( scale.results ).length ) {
 
-                            /* calculate min, max, step if undefined */
-
-                            let values = Object.values( scale.results );
+                            /**
+                             * calculate min and max if undefined
+                             */
 
                             if( scale.min == undefined || scale.max == undefined ) {
+
+                                let values = Object.values( scale.results );
 
                                 scale.min = values.reduce( ( a, b ) => {
                                     return a.scale.x < b.scale.x ? a : b;
@@ -430,15 +746,21 @@ routes.routes.forEach( ( route ) => {
 
                             }
 
+                            /**
+                             * calculate step if undefined
+                             */
+
                             if( scale.step == undefined ) {
 
                                 scale.step = Math.abs( ( scale.max - scale.min ) / 10 );
 
                             }
 
-                            /* calculate scale steps */
+                            /**
+                             * calculate scale values
+                             */
 
-                            for( const [ _k, res ] of Object.entries( scale.results ) ) {
+                            for( const [ k, res ] of Object.entries( scale.results ) ) {
 
                                 let val = ( ( scale.log
                                     ? Math.log( res.scale.x )
@@ -448,275 +770,177 @@ routes.routes.forEach( ( route ) => {
                                 switch( scale.round ) {
 
                                     case 'floor':
-                                        scale.results[ _k ].scale.y = Math.max( 0, Math.floor( val ) );
+                                        scale.results[ k ].scale.y = Math.max( 0, Math.floor( val ) );
                                         break;
 
                                     case 'ceil':
-                                        scale.results[ _k ].scale.y = Math.min( 10, Math.ceil( val ) );
+                                        scale.results[ k ].scale.y = Math.min( 9, Math.ceil( val ) );
                                         break;
 
                                     default:
-                                        scale.results[ _k ].scale.y = Math.max( 0, Math.min( 10, Math.round( val ) ) );
+                                        scale.results[ k ].scale.y = Math.max( 0, Math.min( 9, Math.round( val ) ) );
                                         break;
 
                                 }
 
                             }
 
-                            res.locals.scale = scale;
+                            /**
+                             * proceed scale to output
+                             */
 
-                            /* periodic table */
+                            res.locals.page.scale = scale;
+
+                            /**
+                             * periodic table
+                             */
 
                             res.locals.table = {
                                 type: 'scale',
                                 value: scale.results,
-                                layer: scale.scheme
+                                layer: scale.scheme,
+                                scale: +( scale.scaling || 0 )
                             };
 
-                            /* breadcrumbs */
+                            /**
+                             * breadcrumbs
+                             */
 
                             res.locals.breadcrumbs.push( [
-                                '/sitemap',
-                                req.__( 'sitemap' )
+                                '/scales',
+                                res.__( 'scales-title' )
                             ] );
 
                             res.locals.breadcrumbs.push( [
-                                '/scale/' + _url[1],
-                                req.__( scale.label )
+                                '/scale/' + key,
+                                res.__( scale.label )
                             ] );
 
                         } else {
 
-                            res.redirect( '/' );
+                            /**
+                             * scale has no items
+                             * redirect to scales page
+                             */
+
+                            res.redirect( core.url( '/scales' ) );
                             return ;
 
                         }
 
                     } else {
 
-                        res.redirect( '/' );
+                        /**
+                         * wrong scale name
+                         * redirect to scales page
+                         */
+
+                        res.redirect( core.url( '/scales' ) );
                         return ;
 
                     }
 
                     break;
 
-                case 'props':
-
-                    /* breadcrumbs */
-
-                    res.locals.breadcrumbs.push( [
-                        '/sitemap',
-                        req.__( 'sitemap' )
-                    ] );
-
-                    res.locals.breadcrumbs.push( [
-                        '/props',
-                        req.__( 'props-title' )
-                    ] );
-
-                    break;
-
-                case 'prop':
-
-                    /* check if given property exists */
-
-                    if( _url.length == 2 && config.get( 'site.props' ).includes( _url[1] ) ) {
-
-                        /* fetch list items */
-
-                        let results = Object.fromEntries(
-                            Object.entries( elements ).filter(
-                                ( [ _k, el ] ) => ( el.properties || [] ).includes( _url[1] )
-                            )
-                        );
-
-                        /* if list has items */
-
-                        if( Object.keys( results ).length ) {
-
-                            res.locals.list = {
-                                type: 'prop',
-                                layer: 'prop',
-                                value: _url[1],
-                                items: results
-                            };
-
-                            /* periodic table */
-
-                            res.locals.table = {
-                                type: 'prop',
-                                layer: 'prop',
-                                value: _url[1]
-                            };
-
-                            /* breadcrumbs */
-
-                            res.locals.breadcrumbs.push( [
-                                '/sitemap',
-                                req.__( 'sitemap' )
-                            ] );
-
-                            res.locals.breadcrumbs.push( [
-                                '/props',
-                                req.__( 'props-title' )
-                            ] );
-
-                            res.locals.breadcrumbs.push( [
-                                '/prop/' + _url[1],
-                                req.__( 'prop-' + _url[1] )
-                            ] );
-
-                        }
-
-                    } else {
-
-                        res.redirect( '/' );
-                        return ;
-
-                    }
-
-                    break;
-
-                case 'abundances':
-
-                    /* breadcrumbs */
-
-                    res.locals.breadcrumbs.push( [
-                        '/sitemap',
-                        req.__( 'sitemap' )
-                    ] );
-
-                    res.locals.breadcrumbs.push( [
-                        '/abundances',
-                        req.__( 'abundances-title' )
-                    ] );
-
-                    break;
-
-                case 'abundance':
-
-                    /* check if given abundance exists */
-
-                    if( _url.length == 2 && _url[1] in config.get( 'site.abundances' ) ) {
-
-                        /* fetch abundance results */
-
-                        let results = {};
-
-                        for( const [ _k, el ] of Object.entries( elements ) ) {
-
-                            if( 'abundance' in el && _url[1] in el.abundance ) {
-
-                                results[ _k ] = el.abundance[ _url[1] ].value;
-
-                            }
-
-                        }
-
-                        /* if abundance has items */
-
-                        if( Object.keys( results ).length ) {
-
-                            res.locals.abundance = {
-                                type: _url[1],
-                                mass: config.get( 'site.abundances' )[ _url[1] ].mass,
-                                results: Object.entries( results )
-                                    .sort( ( [ ,a ], [ ,b ] ) => b - a )
-                                    .reduce( ( r, [ k, v ] ) => ( { ...r, [k]: v } ), {} )
-                            };
-
-                            /* nav URL */
-
-                            res.locals.navURL = '/abundances';
-
-                            /* breadcrumbs */
-
-                            res.locals.breadcrumbs.push( [
-                                '/sitemap',
-                                req.__( 'sitemap' )
-                            ] );
-
-                            res.locals.breadcrumbs.push( [
-                                '/abundances',
-                                req.__( 'abundances-title' )
-                            ] );
-
-                            res.locals.breadcrumbs.push( [
-                                '/abundance/' + _url[1],
-                                req.__( _url[1] + '-abundance' )
-                            ] );
-
-                        }
-
-                        //
-
-                    } else {
-
-                        res.redirect( '/abundances' );
-                        return ;
-
-                    }
-
-                    break;
-
+                /**
+                 * search results page
+                 */
                 case 'search':
 
-                    /* get search query */
+                    if( res.locals.search.query.length ) {
 
-                    let query = req.query.q || req.query.query || '',
-                        _query = query.toLocaleLowerCase( req.getLocale() );
+                        /**
+                         * fetch search results
+                         */
 
-                    if( _query.length ) {
+                        results = {};
 
-                        /* fetch search results */
+                        ( new DB( 'search_' + res.getLocale() ) ).search(
+                            res.locals.search.query.toLocaleLowerCase( res.getLocale() )
+                        ).forEach( ( key ) => {
 
-                        let results = [];
+                            results[ key ] = elements.get( key );
 
-                        for( const [ el, index ] of Object.entries( core.DB( 'search_' + req.getLocale() ) ) ) {
+                        } );
 
-                            if( index.includes( _query ) ) {
-
-                                results.push( elements[ el ] );
-
-                            }
-
-                        }
+                        res.locals.search.found = Object.keys( results ).length;
 
                         res.locals.list.items = results;
 
-                        res.locals.search = {
-                            query: query,
-                            found: results.length
-                        };
-
                     } else {
 
-                        res.redirect( '/' );
+                        /**
+                         * empty search query
+                         * redirect to home
+                         */
+
+                        res.redirect( core.url( '/' ) );
                         return ;
 
                     }
 
+                    break;
+
+                /**
+                 * element spectrums
+                 */
+                case 'spectrum':
+
+                    res.locals.page.spectrum = ( new DB( 'spectrum' ) ).database;
+
+                    /**
+                     * breadcrumbs
+                     */
+
+                    res.locals.breadcrumbs.push( [
+                        '/spectrum',
+                        res.__( 'spectrum-title' )
+                    ] );
+
+                    break;
+
+                /**
+                 * start page
+                 */
+                case 'start':
                     break;
 
             }
 
-            res.status( route[3] || 200 ).send(
+            /**
+             * render output + send to client
+             */
+
+            res.status( 200 ).send(
                 pug.renderFile(
-                    __dirname + '/app/' + route[1] + '.pug',
+                    __dirname + '/app/' + file + '.pug',
                     res.locals
                 )
             );
 
-        } catch( err ) {
+        } catch ( err ) {
+
+            /**
+             * catch server error
+             */
 
             res.status( 500 ).send(
                 'ERROR: ' + err
             );
 
-        }
+        };
 
     } );
+
+} );
+
+/**
+ * 404 redirect
+ */
+
+app.all( '*', ( req, res ) => {
+
+    res.redirect( core.url( '/404' ) );
 
 } );
 
@@ -724,4 +948,6 @@ routes.routes.forEach( ( route ) => {
  * start web server
  */
 
-const server = app.listen( config.get( 'server.port' ) );
+const server = app.listen(
+    config.get( 'server.port' )
+);

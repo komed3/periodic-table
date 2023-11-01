@@ -1,21 +1,26 @@
-//- search.pug
-extends layout.pug
+//- search results page
+extends page.pug
 
 block title
   - var title = __( 'search-title', search.query )
-  title= title + ' — ' + __( 'title' )
+  title= title + ' — ' + __( 'periodic-table' )
 
 block social
-  meta( property="og:title", content=title )/
+  meta( property= 'og:title', content= title )/
 
 block styles
-  link( rel="stylesheet", href="/css/search.css" )/
-  link( rel="stylesheet", href="/css/list.css" )/
+  link( rel= 'stylesheet', href= '/css/search.css' )/
 
 block content
   div.pt-page.pt-box.pt-search
     h1!= title
     include templates/searchform.pug
     p.pt-search-label!= __( 'search-results', search.found, search.query )
-    div.pt-search-results
-      include templates/list.pug
+    if Object.keys( list.items ).length
+      div.pt-search-results
+        include templates/elementlist.pug
+    else
+      div.pt-search-empty
+        i.icon dangerous
+        h2!= __( 'search-empty' )
+        p!= __( 'search-empty-info', search.query )

@@ -1,13 +1,10 @@
-/**
- * periodic table
- * template: microtable
- */
-
-@import 'pt';
+@import 'page';
+@import 'table';
+@import 'sort';
 
 .pt-scale-table-color {
     width: 32px;
     height: 32px;
     padding: 0;
-    background: var( --bg, var( --gray-0 ) ) !important;
+    background: var( --pt-bg, var( --gray-0 ) ) !important;
 }

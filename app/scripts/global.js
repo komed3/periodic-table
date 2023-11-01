@@ -1,38 +1,10 @@
 /**
- * load database
- * @param {String} DB database name
- * @returns database object
- */
-var ptLoadDB = ( DB ) => {
-
-    let req = new XMLHttpRequest();
-
-    req.open( 'GET', '/db/' + DB + '.min.json', false );
-    req.send( null );
-
-    if( req.status == 200 ) {
-
-        try {
-
-            return JSON.parse( req.responseText );
-
-        } catch( e ) {
-
-            return {};
-
-        }
-
-    }
-
-    return {};
-
-};
-
-/**
  * DOM content loaded
  */
 
 window.addEventListener( 'load', function () {
+
+    const locale = document.querySelector( 'html' ).getAttribute( 'lang' ) || 'en';
 
     /**
      * external links "_blank" + "noopener, noreferrer"
@@ -51,17 +23,17 @@ window.addEventListener( 'load', function () {
      * header menu toggle (open / close )
      */
 
-    var ptHeaderNavOpener = document.querySelector( '.pt-header-menu' ),
-        ptHeaderNav = document.querySelector( '.pt-header-nav' );
+    var ptNavOpener = document.querySelector( '.pt-header-menu' ),
+        ptNav = document.querySelector( '.pt-nav' );
 
-    ptHeaderNavOpener.addEventListener( 'click', ( e ) => {
+    ptNavOpener.addEventListener( 'click', ( e ) => {
 
         e.preventDefault();
 
-        ptHeaderNavOpener.classList.toggle( 'active' );
-        ptHeaderNav.classList.toggle( 'active' );
+        ptNavOpener.classList.toggle( 'active' );
+        ptNav.classList.toggle( 'active' );
 
-    }, false );
+    } );
 
     /**
      * language selector
@@ -71,8 +43,8 @@ window.addEventListener( 'load', function () {
 
     ptLanguageSelector.addEventListener( 'change', ( e ) => {
 
-        location.href = '/set?locale=' + e.target.value;
+        location.href = location.href.replace( '/' + locale, '/' + e.target.value );
 
-    }, false );
+    } );
 
-}, false );
+} );

@@ -1,7 +1,10 @@
-/**
- * periodic table
- * single element page
- */
+@import 'page';
+@import 'shell';
+@import 'abundances';
+@import 'hazard';
+@import 'toxicity';
+@import 'classification';
+@import 'microtable';
 
 .pt-element {
     display: grid;
@@ -11,18 +14,20 @@
     max-width: var( --content );
 }
 
-.pt-element .pt-prop-table-label {
+.pt-element .pt-element-table .pt-prop-table-label {
     width: 35%;
 }
 
-.pt-element-intro .element--title {
+/* general */
+
+.pt-element-title {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
     gap: 16px;
 }
 
-.pt-element-intro .element--title .element--symbol {
+.pt-element-title .element--symbol {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -33,58 +38,27 @@
     height: 36px;
     padding: 0 8px;
     font-size: 20px;
-    color: var( --accent-contrast );
+    color: var( --color-light );
     background: var( --accent-1 );
 }
 
-.pt-element-intro .element--title .element--symbol .symbol--number {
+.pt-element-title .symbol--number {
     padding-top: 6px;
     font-size: 12px;
 }
 
-.pt-element-intro .element--title .element--actions {
+.pt-element-title .element--actions {
     flex: 1;
     justify-content: flex-end;
 }
 
-.pt-element-summary-credits {
+.pt-element-text-credits {
     font-size: 12px;
 }
 
-.pt-element-abundance-grid {
-    display: grid;
-    grid-template-columns: repeat( 2, 1fr );
-    gap: 18px 32px;
-}
+/* aside */
 
-.pt-element-abundance-item {
-    display: grid;
-    grid-template-columns: 32px auto;
-    align-items: center;
-    gap: 6px;
-}
-
-.pt-element-abundance-icon {
-    font-size: 26px;
-}
-
-.pt-element-abundance-info {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 14px;
-}
-
-.pt-element-abundance-info a {
-    font-weight: bold;
-    color: var( --accent-1 );
-}
-
-.pt-element-abundance-info a:hover {
-    text-decoration: underline;
-}
-
-/**
- * aside
- */
+/* images */
 
 .pt-element-image {
     padding: 0;
@@ -114,9 +88,11 @@
     height: 48px;
 }
 
+/* radioactive */
+
 .pt-element-radioactive {
     align-items: center;
-    padding: 18px;
+    padding: 12px 16px;
     background: repeating-linear-gradient(
         -45deg,
         var( --gray-0 ),
@@ -126,55 +102,12 @@
     );
 }
 
-.pt-element-hazard h3 {
-    margin-top: 24px;
-}
+/* responsive adaptation */
 
-.pt-element-hazard-item {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    gap: 12px;
-}
+@media all and ( max-width: 1200px ) {
 
-.pt-element-hazard-statements .hazard--line b {
-    padding-right: 8px;
-}
+    .pt-element {
+        grid-template-columns: 1fr;
+    }
 
-.pt-element-hazard-pictograms {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    gap: 12px;
-}
-
-.pt-element-hazard i {
-    color: var( --gray-3 );
-}
-
-.pt-element-classification-item,
-.pt-element-weblinks .weblink {
-    font-size: 14px;
-}
-
-.pt-element-classification-item {
-    flex: 1;
-    display: flex;
-    flex-flow: column nowrap;
-    gap: 3px;
-}
-
-.pt-element-modified {
-    margin: 0;
-    text-align: right;
-    font-size: 12px;
-    color: var( --gray-3 );
-}
-
-/**
- * footer
- */
-
-.pt-element-footer {
-    grid-column: span 2;
 }

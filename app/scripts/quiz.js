@@ -1,11 +1,13 @@
+'use strict';
+
+import cmpstr from 'https://cdn.jsdelivr.net/npm/cmpstr@1.0.2/+esm';
+
 window.addEventListener( 'load', function () {
 
-    const elements = ptLoadDB( 'elements' );
-
-    const ptQuizLocale = document.querySelector( '.pt-quiz' ).getAttribute( 'locale' );
+    const elements = JSON.parse( window.atob( data ) );
 
     const ptQuizMaxTime = 900;
-    const ptQuizMax = Object.keys( elements ).length;
+    const ptQuizMax = elements.length;
 
     var ptQuizRevealed = new Set();
 
@@ -28,7 +30,7 @@ window.addEventListener( 'load', function () {
 
         /* reset table items */
 
-        document.querySelectorAll( '.pt-quiz-table-item' ).forEach( ( el ) => {
+        document.querySelectorAll( '.pt-table-item' ).forEach( ( el ) => {
 
             el.classList.remove( 'revealed' );
             el.querySelector( '.element--symbol' ).innerHTML = '';
@@ -242,43 +244,37 @@ window.addEventListener( 'load', function () {
      */
     var ptQuizSearch = ( search ) => {
 
-        search = ( search || '' ).toString().trim().toLowerCase();
+        search = ( search || '' ).toString().trim().toLocaleLowerCase( locale );
 
-        for( const [ k, el ] of Object.entries( elements ) ) {
+        elements.forEach( ( el ) => {
 
-            if( !ptQuizRevealed.has( k ) ) {
+            if( !ptQuizRevealed.has( el.number ) ) {
 
-                Object.values( el.names ).forEach( ( n ) => {
+                if( cmpstr.diceMatch( search, Object.values( el.names ), 'si' )[0].match > 0.9 ) {
 
-                    if( n.toLowerCase() == search ) {
+                    ptQuizReveal( el );
 
-                        ptQuizReveal( k );
+                    return ;
 
-                        return ;
-
-                    }
-
-                } );
+                }
 
             }
 
-        }
+        } );
 
     };
 
     /**
      * reveal element
-     * @param {String} k element key
+     * @param {String} el element
      */
-    var ptQuizReveal = ( k ) => {
+    var ptQuizReveal = ( el ) => {
 
-        let el = elements[ k ];
-
-        ptQuizRevealed.add( k );
+        ptQuizRevealed.add( el.number );
 
         /* reveal table item */
 
-        let tableItem = document.querySelector( '.pt-quiz-table-item[number="' + el.number + '"]' );
+        let tableItem = document.querySelector( '.pt-table-item[number="' + el.number + '"]' );
 
         tableItem.classList.add( 'revealed' );
         tableItem.querySelector( '.element--symbol' ).innerHTML = el.symbol;
@@ -288,20 +284,11 @@ window.addEventListener( 'load', function () {
         let listItem = document.querySelector( '.pt-quiz-list-item[number="' + el.number + '"]' );
 
         listItem.classList.add( 'revealed' );
-        listItem.querySelector( '.element--name' ).innerHTML = el.names[ ptQuizLocale ];
+        listItem.querySelector( '.element--name' ).innerHTML = el.names[ locale ];
 
         /* add score */
 
-        ptQuizAddScore(
-            el.number + (
-            el.period * 2
-        ) + (
-            el.group > 18
-                ? 200
-                : el.group > 2 && el.group < 13
-                    ? 100
-                    : 50
-        ) );
+        ptQuizAddScore( el.score );
 
         /* update progress */
 

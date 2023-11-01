@@ -2,31 +2,30 @@
     "name": "periodic-table",
     "version": "2.0.0",
     "description": "Periodic table and elements lists",
-    "homepage": "https://github.com/komed3/periodic-table#periodic-table",
-    "author": "komed3 (Paul Köhler)",
+    "author": {
+        "name": "komed3 (Paul Köhler)",
+        "email": "webmaster@komed3.de",
+        "url": "https://komed3.de"
+    },
+    "homepage": "https://github.com/komed3/periodic-table",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/komed3/periodic-table.git"
+    },
+    "bugs": {
+        "url": "https://github.com/komed3/periodic-table/issues"
+    },
     "main": "server.js",
     "scripts": {
         "start": "nodemon server.js",
         "compileSCSS": "node-sass app/styles/ -o public/styles/ --output-style compressed",
         "compileJS": "uglifyjs-folder app/scripts/ -o public/scripts/ --each",
-        "buildDB": "node maintenance/buildDB.js",
+        "buildTextIndex": "node maintenance/buildTextIndex.js",
         "buildSearchIndex": "node maintenance/buildSearchIndex.js",
         "buildSitemap": "node maintenance/buildSitemap.js",
-        "buildTextIndex": "node maintenance/buildTextIndex.js",
         "getImages": "node maintenance/getImages.js",
         "mergeDB": "node maintenance/mergeDB.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/komed3/periodic-table.git"
-    },
-    "keywords": [
-        "periodic-table",
-        "chemistry"
-    ],
-    "bugs": {
-        "url": "https://github.com/komed3/periodic-table/issues"
     },
     "dependencies": {
         "axios": "^1.6.0",
@@ -42,5 +41,10 @@
         "log-timestamp": "^0.3.0",
         "pug": "^3.0.2",
         "wikijs": "^6.4.1"
-    }
+    },
+    "keywords": [
+        "periodic-table",
+        "chemistry",
+        "nuclides-table"
+    ]
 }

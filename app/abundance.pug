@@ -1,86 +1,75 @@
-//- abundance.pug
-extends layout.pug
+//- abundance page
+extends page.pug
 
 block title
-  - var title = __( 'abundance-of', __( abundance.type + '-abundance' ) )
-  - var description = __( abundance.type + '-abundance-description' )
-  title= title + ' — ' + __( 'title' )
-  meta( name="description", content= description )/
+  - var title = __( page.abundance.type + '-abundance' )
+  - var description = __( page.abundance.type + '-abundance-description' )
+  title= title + ' — ' + __( 'periodic-table' )
+  meta( name= 'description', content= description )/
 
 block social
-  meta( property="og:title", content= title )/
-  meta( property="og:description", content= description )/
+  meta( property= 'og:title', content= title )/
+  meta( property= 'og:description', content= description )/
 
 block scripts
-  script( src="/js/tablesort.min.js" )
+  script( src= '/js/tablesort.min.js' )
 
 block styles
-  link( rel="stylesheet", href="/css/abundance.css" )/
+  link( rel= 'stylesheet', href= '/css/abundance.css' )/
 
 block content
   div.pt-page.pt-box.pt-abundance
     include templates/breadcrumbs.pug
     h1!= title
     p.pt-page-intro!= description
-    //- abundance chart
-    div.pt-abundance-chart
-      - let i = 0
-      each value, el in abundance.results
-        if ++i > 32
-          - break
-        a.pt-abundance-chart-item(
-          href= '/e/' + elements[ el ].symbol,
-          title= elements[ el ].names[ locale ]
-        )
-          div.pt-abundance-chart-column
-            div.pt-abundance-chart-column-inner(
-              style='--pct:' + Math.max( 4, ( Math.log10( value ) / 9 * 100 ) ) + '%'
-            )
-          div.pt-abundance-chart-label= elements[ el ].symbol
-    //- abundance table
+    include templates/map.pug
     table.pt-prop-table.zebra.sortable.pt-abundance-table
       thead
         tr.pt-prop-table-row
           th.pt-prop-table-label(
-            colspan="2",
-            sort-key="number"
+            colspan= '2',
+            sort-key= 'number'
           )!= __( 'element' )
           th.pt-prop-table-label.sort(
-            colspan="2",
-            sort-key="x"
-            sort-dir="asc"
-          )!= __( 'abundance-title' )
+            colspan= '2',
+            sort-key= 'x',
+            sort-dir= 'asc'
+          )!= __( 'abundance' )
           th.pt-prop-table-label.right(
-            sort-key="mass"
-          )!= __( 'abundance-mass', core.fWeight( abundance.mass )[0] )
+            sort-key= 'mass'
+          )!= __( 'abundance-mass', f.weight( page.abundance.mass )[0] )
           th.pt-prop-table-label.right(
-            sort-key="price"
+            sort-key= 'price'
           )!= __( 'price' )
       tbody
-        each value, el in abundance.results
+        each el, k in page.abundance.items
           tr.pt-prop-table-row(
-            sort-value--number= elements[ el ].number,
-            sort-value--x= value,
+            sort-value--number= el.number,
+            sort-value--x= (
+              value = el.abundance[ page.abundance.type ].value
+            ),
             sort-value--mass= (
-              mass = value / 1e9 * abundance.mass
+              mass = value / 1e9 * page.abundance.mass
             ),
             sort-value--price= (
-              price = 'price' in elements[ el ]
-                ? elements[ el ].price.value * mass
+              price = 'price' in el
+                ? el.price.value * mass
                 : null
             )
-          )
-            td.pt-prop-table-value.mini!= '<sub>' + elements[ el ].number + '</sub>' + elements[ el ].symbol
+           )
+            td.pt-prop-table-value.mini
+              sub!= el.number
+              span!= el.symbol
             td.pt-prop-table-value
-              a( href='/e/' + elements[ el ].symbol )!= elements[ el ].names[ locale ]
+              a( href= core.url( '/element/' + el.symbol ) )!= el.names[ locale ]
             td.pt-prop-table-value.right
-              span!= core.fNumber( elements[ el ].abundance[ abundance.type ] )
+              span!= f.number( { value: value, unit: 'ppb' } )
             td.pt-prop-table-value.right
-              span!= core.fNumber( { value: value / 1e7, unit: '%' } )
+              span!= f.number( { value: value / 1e7, unit: '%' } )
             td.pt-prop-table-value.right
-              span!= core.fWeight( mass )[0]
+              span!= f.weight( mass )[0]
             td.pt-prop-table-value.right
               if price == null
                 span!= __( 'undefined' )
               else
-                span!= core.fNumber( { value: price, unit: 'USD' }, 2 )
+                span!= f.number( { value: price, unit: 'USD' }, 2 )

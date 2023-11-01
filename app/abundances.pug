@@ -1,17 +1,19 @@
-//- abundance.pug
-extends layout.pug
+//- abundances page
+extends page.pug
 
 block styles
-  link( rel="stylesheet", href="/css/lists.css" )/
+  link( rel= 'stylesheet', href= '/css/sitemap.css' )/
 
 block content
-  div.pt-page.pt-box
+  div.pt-page.pt-box.pt-abundances
     include templates/breadcrumbs.pug
     h1!= __( 'abundances-title' )
     p.pt-page-intro!= __( 'abundances-description' )
-    div.pt-lists
-      each abundance in Object.keys( config.abundances )
-        div.pt-lists-item
-          h3.pt-lists-item-title
-            a( href='/abundance/' + abundance )!= __( abundance + '-abundance' )
-          p.pt-lists-item-desc!= __( abundance + '-abundance-description' )
+    div.pt-sitemap
+      each abundance in Object.keys( config.get( 'abundances' ) )
+        div.pt-sitemap-item
+          h3
+            a(
+              href= core.url( '/abundance/' + abundance )
+            )!= __( abundance + '-abundance' )
+          p!= __( abundance + '-abundance-description' )

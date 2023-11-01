@@ -20,15 +20,15 @@ div.pt-box-flex.pt-box-columns.pt-toxicity
       i.pt-toxicity-icon.icon!= icons[ t.application ]
       div.pt-toxicity-info
         if t.value
-          b!= core.fNumber( t.value )
+          b!= f.number( t.value )
         else
           span!= '(' + __( 'undefined' ) + ')'
         div.pt-toxicity-meta
           if t.type
-            span!= core.fUnit( t.type )
+            span!= f.unit( t.type )
           if t.organism
             span!= __( 'organism-' + t.organism )
           if t.application != '#'
             span!= __( 'toxicity-' + t.application )
           if t.time
-            span!= __( 'toxicity-time', core.fTime( t.time || 0 )[0] )
+            span!= __( 'toxicity-time', f.time( t.time || 0 )[0] )

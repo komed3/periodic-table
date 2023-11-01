@@ -1,7 +1,5 @@
-/**
- * periodic table
- * template: search page
- */
+@import 'page';
+@import 'elementlist';
 
 .pt-search .pt-searchform-icon {
     top: 12px;
@@ -9,7 +7,7 @@
     font-size: 24px;
 }
 
-.pt-search .pt-searchform-box {
+.pt-search .pt-searchform-input {
     width: 100%;
     height: 48px;
     padding: 0 24px 0 52px;
@@ -21,4 +19,24 @@
     margin: 24px 0 48px 0;
     text-align: right;
     font-size: 14px;
+}
+
+.pt-search .pt-search-empty {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 48px 0;
+    text-align: center;
+}
+
+.pt-search .pt-search-empty .icon {
+    font-size: 48px;
+}
+
+.pt-search .pt-search-empty h2 {
+    margin: 12px 0;
+}
+
+.pt-search .pt-search-empty p {
+    margin: 0;
 }

@@ -1,26 +1,22 @@
-/**
- * periodic table
- * routing
- */
-
-module.exports.routes = [
-    [ '/', 'start' ],
-    [ '/sitemap/?', 'sitemap' ],
-    [ '/nuclides/?', 'nuclides' ],
-    [ '/spectrum/?', 'spectrum' ],
-    [ '/ionization/?', 'ionization' ],
-    [ '/glossary/?', 'glossary' ],
-    [ '/quiz/?', 'quiz' ],
-    [ '/tools/?', 'tools' ],
-    [ '/abundances/?', 'abundances' ],
-    [ '/abundance/*', 'abundance' ],
-    [ '/element/*', 'element', 'e' ],
-    [ '/e/*', 'element' ],
-    [ '/lists/*', 'lists' ],
-    [ '/list/*', 'list' ],
-    [ '/props/?', 'props' ],
-    [ '/prop/*', 'prop' ],
-    [ '/scale/*', 'scale' ],
-    [ '/search/?*', 'search' ],
-    [ '*', '404' ]
+module.exports = [
+    [ '/:locale/?', 'start' ],
+    [ '/:locale/404/?', '404' ],
+    [ '/:locale/abundance/:abundance/?', 'abundance' ],
+    [ '/:locale/abundances/?', 'abundances' ],
+    [ '/:locale/data/?', 'data' ],
+    [ '/:locale/element/:element/?', 'element' ],
+    [ '/:locale/glossary/?', 'glossary' ],
+    [ '/:locale/ionization/?', 'ionization' ],
+    [ '/:locale/list/:list/?', 'list' ],
+    [ '/:locale/list/:list/:prop/?', 'list' ],
+    [ '/:locale/lists/?', 'lists' ],
+    [ '/:locale/privacy/?', 'privacy' ],
+    [ '/:locale/prop/:property/?', 'prop' ],
+    [ '/:locale/props/?', 'props' ],
+    [ '/:locale/quiz/?', 'quiz' ],
+    [ '/:locale/search/?', 'search' ],
+    [ '/:locale/scale/:scale/?', 'scale' ],
+    [ '/:locale/scales/?', 'scales' ],
+    [ '/:locale/sitemap/?', 'sitemap' ],
+    [ '/:locale/spectrum/?', 'spectrum' ]
 ];

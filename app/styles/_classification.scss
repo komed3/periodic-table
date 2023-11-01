@@ -1,0 +1,10 @@
+.pt-classification-item {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 3px;
+    font-size: 14px;
+}
+
+.pt-classification-item:not(:last-child) {
+    margin-bottom: 12px;
+}

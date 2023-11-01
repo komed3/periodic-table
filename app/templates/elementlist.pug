@@ -1,0 +1,29 @@
+//- templates/elementlist.pug
+div.pt-element-list(
+  layer= ( layer = list.layer || 'set' ),
+  type= ( type = list.type || 'value' )
+)
+  each el, key in list.items
+    - value = elements.prop( key, layer, type, list.value || 'undefined' )
+    div.pt-element-list-item
+      a(
+        href= core.url( '/element/' + el.symbol ),
+        prop= value,
+        class= 'pt-el pt-element-list-symbol' + (
+          el.phase
+            ? ' ' + el.phase
+            : ''
+        ) + (
+          el.radioactive
+            ? ' radioactive'
+            : ''
+        )
+      )
+        span.element--number!= el.number
+        span.element--symbol!= el.symbol
+      div.pt-element-list-info
+        a.element--name(
+          href= core.url( '/element/' + el.symbol )
+        )= el.names[ locale ]
+        if el.appearance && locale in el.appearance
+          span.element--desc!= f.text( el.appearance[ locale ] )

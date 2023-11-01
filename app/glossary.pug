@@ -1,24 +1,47 @@
-//- glossary.pug
-extends layout.pug
+//- glossary page
+extends page.pug
 
 block styles
-  link( rel="stylesheet", href="/css/glossary.css" )/
+  link( rel='stylesheet', href= '/css/glossary.css' )/
 
 block content
   div.pt-page.pt-box.pt-glossary
-    h1= __( 'glossary-title' )
+    h1!= __( 'glossary-title' )
     p.pt-page-intro!= __( 'glossary-description' )
-    h2= __( 'ghs-title' )
-    div.pt-box-flex.pt-box-columns
-      - for( let i = 1; i <= 9; i++ ) {
-        - var ghs = i.toString().padStart( 2, '0' );
-        div.pt-glossary-flex-item
-          img( src='/res/GHS' + ghs + '.png', class="pictogram" )/
-          span!= __( 'ghs-' + ghs )
-      - }
-    h2= __( 'pictogram-title' )
-    div.pt-box-flex.pt-box-columns
-      each hazard in [ 'E', 'F', 'O', 'C', 'T', 'X', 'N' ]
-        div.pt-glossary-flex-item
-          img( src='/res/hazard-' + hazard + '.png', class="pictogram" )/
-          span!= __( 'hazard-' + hazard )
+    h2!= __( 'hazard-classification' )
+    div.pt-glossary-grid
+      each item in [ '01', '02', '03', '04', '05', '06', '07', '08', '09' ]
+        div.pt-glossary-item
+          div.pt-box-flex.pt-glossary-pictogram
+            img.pictogram(
+              src= '/res/GHS' + item + '.png',
+              alt= __( 'pictogram' )
+            )/
+            span!= __( 'ghs-' + item )
+    h2!= __( 'pictograms' )
+    div.pt-glossary-grid
+      each item in [ 'E', 'F', 'O', 'T', 'X', 'C', 'N' ]
+        div.pt-glossary-item
+          div.pt-box-flex.pt-glossary-pictogram
+            img.pictogram(
+              src= '/res/hazard-' + item + '.png',
+              alt= __( 'pictogram' )
+            )/
+            span!= __( 'hazard-' + item )
+      div.pt-glossary-item
+        div.pt-box-flex.pt-glossary-pictogram
+          img.pictogram(
+            src= '/res/radioactive.png',
+            alt= __( 'pictogram' )
+          )/
+          span!= __( 'radioactivity-label' )
+    h2!= __( 'adr-classes' )
+    div.pt-glossary-grid
+      each item in [ '1', '2.1', '2.2', '2.3', '3', '4.1', '4.2', '4.3', '5.1', '5.2', '6.1', '6.2', '7A', '7B', '7C', '7E', '8', '9', '9A', 'HOT', 'POL' ]
+        div.pt-glossary-item
+          div.pt-box-flex.pt-glossary-pictogram
+            img.pictogram(
+              src= '/res/ADR-' + item + '.png',
+              alt= __( 'pictogram' )
+            )/
+            span!= __( 'adr-' + item )

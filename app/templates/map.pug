@@ -1,0 +1,16 @@
+//- templates/map.pug
+div.pt-map.noselect
+  div.pt-map-grid
+    each item, l in map
+      - for( let i = 0; i < item.y; i++ ) {
+        div.pt-map-tile(
+          layer= l
+        )
+      - }
+  div.pt-map-legend
+    each item, l in map
+      div.pt-map-legend-item(
+        layer= l
+      )
+        span.pt-map-legend-item-box
+        span.pt-map-legend-item-label!= item.x

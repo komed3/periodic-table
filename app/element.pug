@@ -1,204 +1,198 @@
-//- element.pug
-extends layout.pug
+//- element page
+extends page.pug
 
 block title
-  - var name = element.names[ locale ]
-  title= __( 'element-title', name ) + ' — ' + __( 'title' )
-  if text.description
-    meta( name="description", content=text.description )/
+  - var title = __( 'element-title', page.element.name )
+  title= title + ' — ' + __( 'periodic-table' )
+  if page.element.text
+    meta( name= 'description', content= page.element.text.description )/
 
 block social
-  meta( property="og:title", content= name )/
-  if text.description
-    meta( property="og:description", content= text.description )/
-  if image
-    meta( property="og:image", content= image.url )/
+  meta( property= 'og:title', content= title )/
+  if page.element.text
+    meta( property= 'og:description', content= page.element.text.description )/
 
 block styles
-  link( rel="stylesheet", href="/css/element.css" )/
-  link( rel="stylesheet", href="/css/shell.css" )/
-  link( rel="stylesheet", href="/css/isotable.css" )/
-  link( rel="stylesheet", href="/css/toxicity.css" )/
-  link( rel="stylesheet", href="/css/microtable.css" )/
+  link( rel= 'stylesheet', href= '/css/element.css' )/
 
 block content
-  div.pt-element
+  div.pt-page.pt-element
 
     //- main
-    div.pt-element-container
+    div.pt-element-main
 
-      //- element intro
-      div.pt-box.pt-element-intro
-        //- element title
-        h1.element--title
+      //- general informations
+      div.pt-box.pt-element-box.pt-element-general
+        h1.pt-element-title
           span.element--symbol
-            span.symbol--number= element.number
-            span.symbol--label= element.symbol
-          span.element--name= name
-          //- actions
+            span.symbol--number= page.element.data.number
+            span.symbol--label= page.element.data.symbol
+          span.element--name= page.element.name
           div.pt-actions.element--actions
-            if nav.prev
-              a(
-                href= '/e/' + elements[ nav.prev ].symbol,
+            if page.nav && page.nav.prev
+              a.pt-icon-button(
+                href= core.url( '/element/' + page.nav.prev.symbol ),
                 title!= __( 'navigation-prev' )
               )
                 i.icon arrow_back
-            a(
-              href="/",
-              title!= __( 'title' )
+            a.pt-icon-button(
+              href= core.url( '/' ),
+              title!= __( 'periodic-table' )
             )
               i.icon grid_view
-            if nav.next
-              a(
-                href= '/e/' + elements[ nav.next ].symbol,
+            if page.nav && page.nav.next
+              a.pt-icon-button(
+                href= core.url( '/element/' + page.nav.next.symbol ),
                 title!= __( 'navigation-next' )
               )
                 i.icon arrow_forward
-            a(
+            a.pt-icon-button(
               href= 'data:text/json;charset=utf-8,' + encodeURIComponent(
-                JSON.stringify( element )
+                JSON.stringify( page.element.data )
               ),
-              download="data.json", title!= __( 'download' )
+              download= 'data.json',
+              title!= __( 'action-download' )
             )
               i.icon download
-            a(
-              href="javascript:window.print();",
-              title!= __( 'print' )
+            a.pt-icon-button(
+              href= 'javascript:window.print();',
+              title!= __( 'action-print' )
             )
               i.icon print
-        //- element (summary) text
-        if text.text
-          div.pt-element-summary
-            div.pt-element-summary-text!= text.text
-            div.pt-element-summary-credits!= __( 'wiki-credits', 'https://wikipedia.org/wiki/' + locale + ':' + element.wiki[ locale ] )
+        if page.element.text
+          div.pt-element-text
+            div.pt-element-text-content!= page.element.text.text
+            div.pt-element-text-credits!= __( 'wiki-credits', 'https://wikipedia.org/wiki/' + locale + ':' + page.element.data.wiki[ locale ] )
 
       //- atomic properties
-      div.pt-box.pt-element-properties
-        h2!= __( 'prop-atomic' )
+      div.pt-box.pt-element-box.pt-element-atomic
+        h2!= __( 'atomic-props' )
         table.pt-prop-table.pt-element-table
           tbody
-            if element.standard_atomic_weight
+            if page.element.data.standard_atomic_weight
               tr.pt-prop-table-row
                 th.pt-prop-table-label
-                  a( href="/scale/standard_atomic_weight" )!= __( 'standard-atomic-weight' )
-                td.pt-prop-table-value!= core.fNumber( element.standard_atomic_weight )
-            if element.atomic_mass
+                  a( href= core.url( '/scale/standard_atomic_weight' ) )!= __( 'standard-atomic-weight' )
+                td.pt-prop-table-value!= f.number( page.element.data.standard_atomic_weight )
+            if page.element.data.atomic_mass
               tr.pt-prop-table-row
                 th.pt-prop-table-label
-                  a( href="/scale/atomic_mass" )!= __( 'atomic-mass' )
-                td.pt-prop-table-value!= core.fNumber( element.atomic_mass )
+                  a( href= core.url( '/scale/atomic_mass' ) )!= __( 'atomic-mass' )
+                td.pt-prop-table-value!= f.number( page.element.data.atomic_mass )
         //- radien
-        if element.radius
+        if page.element.data.radius
           h3!= __( 'radien' )
           table.pt-prop-table.pt-element-table
             tbody
-              each prop, label in element.radius
+              each prop, label in page.element.data.radius
                 tr.pt-prop-table-row
                   th.pt-prop-table-label
-                    a( href= '/scale/radius_' + label )!= __( label + '-radius' )
-                  td.pt-prop-table-value!= core.fNumber( prop )
+                    a( href= core.url( '/scale/radius_' + label ) )!= __( label + '-radius' )
+                  td.pt-prop-table-value!= f.number( prop )
         //- electron shell data
         h3!= __( 'electron-shell' )
         table.pt-prop-table.pt-element-table
           tbody
-            if element.electron_config
+            if page.element.data.electron_config
               tr.pt-prop-table-row
                 th.pt-prop-table-label!= __( 'electron-config' )
-                td.pt-prop-table-value!= core.fText( element.electron_config )
-            if element.ionization
+                td.pt-prop-table-value!= f.text( page.element.data.electron_config )
+            if page.element.data.ionization
               tr.pt-prop-table-row
                 th.pt-prop-table-label
-                  a( href="/ionization" )!= __( 'ionization-energy' )
-                td.pt-prop-table-value!= core.fNumber( element.ionization )
-            if element.shell
+                  a( href= core.url( '/ionization' ) )!= __( 'ionization-title' )
+                td.pt-prop-table-value!= f.number( page.element.data.ionization )
+            if page.element.data.shell
               tr.pt-prop-table-row
-                th.pt-prop-table-label!= __( 'shell' )
+                th.pt-prop-table-label!= __( 'shell-model' )
                 td.pt-prop-table-value
                   include templates/shell.pug
 
-      //- physical properties
-      div.pt-box.pt-element-properties
-        h2!= __( 'prop-physical' )
+      //- physic properties
+      div.pt-box.pt-element-box.pt-element-physic
+        h2!= __( 'physical-props' )
         table.pt-prop-table.pt-element-table
           tbody
             tr.pt-prop-table-row
               th.pt-prop-table-label!= __( 'phase-label' )
               td.pt-prop-table-value
-                if element.phase
-                  a( href= '/list/phase/' + element.phase )!= __( 'phase-' + element.phase )
+                if page.element.data.phase
+                  a(
+                    href= core.url( '/list/phase/' + page.element.data.phase )
+                  )!= __( 'phase-' + page.element.data.phase )
                 else
                   span!= __( 'undefined' )
-            if element.density
+            if page.element.data.density
               tr.pt-prop-table-row
                 th.pt-prop-table-label
-                  a( href="/scale/density" )!= __( 'density' )
-                td.pt-prop-table-value!= core.fNumber( element.density )
+                  a( href= core.url( '/scale/density' ) )!= __( 'density' )
+                td.pt-prop-table-value!= f.number( page.element.data.density )
             each prop in [ 'molar_volume', 'sound_speed', 'heat_capacity', 'thermal_conductivity' ]
-              if element[ prop ]
+              if page.element.data[ prop ]
                 tr.pt-prop-table-row
                   th.pt-prop-table-label
-                    a( href= '/scale/' + prop )!= __( prop )
-                  td.pt-prop-table-value!= core.fNumber( element[ prop ] )
+                    a( href= core.url( '/scale/' + prop ) )!= __( prop )
+                  td.pt-prop-table-value!= f.number( page.element.data[ prop ] )
         //- temperatures
-        if element.temperature
+        if page.element.data.temperature
           h3!= __( 'temperatures' )
           table.pt-prop-table.pt-element-table
             tbody
-              each prop, label in element.temperature
+              each prop, label in page.element.data.temperature
                 tr.pt-prop-table-row
                   th.pt-prop-table-label
-                    a( href= '/scale/temp_' + label )!= __( label + '-temp' )
-                  td.pt-prop-table-value!= core.fNumber( prop )
+                    a( href= core.url( '/scale/temp_' + label ) )!= __( label + '-temp' )
+                  td.pt-prop-table-value!= f.number( prop )
         //- enthalpies
-        if element.enthalpy
+        if page.element.data.enthalpy
           h3!= __( 'enthalpies' )
           table.pt-prop-table.pt-element-table
             tbody
-              each prop, label in element.enthalpy
+              each prop, label in page.element.data.enthalpy
                 tr.pt-prop-table-row
                   th.pt-prop-table-label
-                    a( href= '/scale/enthalpy_' + label )!= __( label + '-enthalpy' )
-                  td.pt-prop-table-value!= core.fNumber( prop )
+                    a( href= core.url( '/scale/enthalpy_' + label ) )!= __( label + '-enthalpy' )
+                  td.pt-prop-table-value!= f.number( prop )
         //- thermal
-        if element.heat
+        if page.element.data.heat
           h3!= __( 'heat-conduction' )
           table.pt-prop-table.pt-element-table
             tbody
-              each prop, label in element.heat
+              each prop, label in page.element.data.heat
                 tr.pt-prop-table-row
                   th.pt-prop-table-label
-                    a( href= '/scale/' + label )!= __( label )
-                  td.pt-prop-table-value!= core.fNumber( prop )
+                    a( href= core.url( '/scale/' + label ) )!= __( label )
+                  td.pt-prop-table-value!= f.number( prop )
         //- hardness props
-        if element.hardness
+        if page.element.data.hardness
           h3!= __( 'hardnesses' )
           table.pt-prop-table.pt-element-table
             tbody
-              each prop, label in element.hardness
+              each prop, label in page.element.data.hardness
                 tr.pt-prop-table-row
                   th.pt-prop-table-label
-                    a( href= '/scale/hardness_' + label )!= __( label + '-hardness' )
-                  td.pt-prop-table-value!= core.fNumber( prop )
+                    a( href= core.url( '/scale/hardness_' + label ) )!= __( label + '-hardness' )
+                  td.pt-prop-table-value!= f.number( prop )
         //- elastic props
-        if element.elastic
+        if page.element.data.elastic
           h3!= __( 'elastics' )
           table.pt-prop-table.pt-element-table
             tbody
-              each prop, label in element.elastic
+              each prop, label in page.element.data.elastic
                 tr.pt-prop-table-row
                   th.pt-prop-table-label
-                    a( href= '/scale/elastic_' + label )!= __( label + '-elastic' )
-                  td.pt-prop-table-value!= core.fNumber( prop )
+                    a( href= core.url( '/scale/elastic_' + label ) )!= __( label + '-elastic' )
+                  td.pt-prop-table-value!= f.number( prop )
         //- electrical
-        if element.electrical
+        if page.element.data.electrical
           h3!= __( 'electrical' )
           table.pt-prop-table.pt-element-table
             tbody
-              each prop, label in element.electrical
+              each prop, label in page.element.data.electrical
                 tr.pt-prop-table-row
                   th.pt-prop-table-label
-                    a( href= '/scale/electrical_' + label )!= __( 'electrical_' + label )
-                  td.pt-prop-table-value!= core.fNumber( prop )
+                    a( href= core.url( '/scale/electrical_' + label ) )!= __( 'electrical_' + label )
+                  td.pt-prop-table-value!= f.number( prop )
         //- magnetism
         h3!= __( 'magnetism' )
         table.pt-prop-table.pt-element-table
@@ -206,263 +200,199 @@ block content
             tr.pt-prop-table-row
               th.pt-prop-table-label!= __( 'magnetic_ordering-label' )
               td.pt-prop-table-value
-                if element.magnetic_ordering
-                  a( href= '/list/magnetic_ordering/' + element.magnetic_ordering )!= __( 'magnetic_ordering-' + element.magnetic_ordering )
+                if page.element.data.magnetic_ordering
+                  a(
+                    href= core.url( '/list/magnetic_ordering/' + page.element.data.magnetic_ordering )
+                  )!= __( 'magnetic_ordering-' + page.element.data.magnetic_ordering )
                 else
                   span!= __( 'undefined' )
-            if element.magnetic_susceptibility
+            if page.element.data.magnetic_susceptibility
               tr.pt-prop-table-row
                 th.pt-prop-table-label!= __( 'magnetic_susceptibility' )
-                td.pt-prop-table-value!= core.fNumber( element.magnetic_susceptibility )
+                td.pt-prop-table-value!= f.number( page.element.data.magnetic_susceptibility )
         //- optical props
-        if element.optical
+        if page.element.data.optical
           h3!= __( 'optical' )
           table.pt-prop-table.pt-element-table
             tbody
-              each prop, label in element.optical
+              each prop, label in page.element.data.optical
                 tr.pt-prop-table-row
                   th.pt-prop-table-label
-                    a( href= '/scale/optical_' + label )!= __( label + '-optical' )
-                  td.pt-prop-table-value!= core.fNumber( prop )
+                    a( href= core.url( '/scale/optical_' + label ) )!= __( label + '-optical' )
+                  td.pt-prop-table-value!= f.number( prop )
 
-      //- chemical properties
-      div.pt-box.pt-element-properties
-        h2!= __( 'prop-chemical' )
+      //- chemic properties
+      div.pt-box.pt-element-box.pt-element-chemic
+        h2!= __( 'chemical-props' )
         table.pt-prop-table.pt-element-table
           tbody
-            if element.basicity
-              tr.pt-prop-table-row
-                th.pt-prop-table-label!= __( 'basicity-label' )
-                td.pt-prop-table-value
-                  a( href= '/list/basicity/' + element.basicity )!= __( 'basicity-' + element.basicity )
-            if element.oxidation_state
-              tr.pt-prop-table-row
-                th.pt-prop-table-label!= __( 'oxidation-state' )
-                td.pt-prop-table-value!= core.fText( element.oxidation_state )
-            if element.standard_potential
+            tr.pt-prop-table-row
+              th.pt-prop-table-label!= __( 'basicity-label' )
+              td.pt-prop-table-value
+                if page.element.data.basicity
+                  a(
+                    href= core.url( '/list/basicity/' + page.element.data.basicity )
+                  )!= __( 'basicity-' + page.element.data.basicity )
+                else
+                  span!= __( 'undefined' )
+            tr.pt-prop-table-row
+              th.pt-prop-table-label!= __( 'oxidation-state' )
+              td.pt-prop-table-value
+                if page.element.data.oxidation_state
+                  span!= f.text( page.element.data.oxidation_state )
+                else
+                  span!= __( 'undefined' )              
+            if page.element.data.standard_potential
               tr.pt-prop-table-row
                 th.pt-prop-table-label
-                  a( href="/scale/standard_potential" )!= __( 'standard-potential' )
-                td.pt-prop-table-value!= core.fNumber( element.standard_potential )
+                  a( href= core.url( '/scale/standard_potential' ) )!= __( 'standard-potential' )
+                td.pt-prop-table-value!= f.number( page.element.data.standard_potential )
         //- electronegativity
-        if element.negativity
+        if page.element.data.negativity
           h3!= __( 'electronegativity' )
           table.pt-prop-table.pt-element-table
             tbody
-              each prop, label in element.negativity
+              each prop, label in page.element.data.negativity
                 tr.pt-prop-table-row
                   th.pt-prop-table-label
-                    a( href= '/scale/negativity_' + label )!= __( label + '-negativity' )
-                  td.pt-prop-table-value!= core.fNumber( prop )
+                    a( href= core.url( '/scale/negativity_' + label ) )!= __( label + '-negativity' )
+                  td.pt-prop-table-value!= f.number( prop )
 
       //- other properties
-      div.pt-box.pt-element-properties
-        h2!= __( 'prop-other' )
+      div.pt-box.pt-element-box.pt-element-other
+        h2!= __( 'other-props' )
         table.pt-prop-table.pt-element-table
           tbody
-            each prop in [ 'natural_occurrence', 'radioactivity', 'goldschmidt', 'crystal_structure' ]
-              if element[ prop ]
+            each prop in [ 'natural_occurrence', 'crystal_structure', 'goldschmidt', 'superconductivity', 'radioactivity' ]
+              if page.element.data[ prop ]
                 tr.pt-prop-table-row
                   th.pt-prop-table-label!= __( prop + '-label' )
                   td.pt-prop-table-value
-                    a( href= '/list/' + prop + '/' + element[ prop ] )!= __( prop + '-' + element[ prop ] )
-            if element.superconductivity
-              tr.pt-prop-table-row
-                th.pt-prop-table-label!= __( 'superconductivity-label' )
-                td.pt-prop-table-value
-                  a( href= '/list/superconductivity/' + element.superconductivity )!= __( 'superconductivity-' + element.superconductivity )
-            if element.sc_temp
+                    a(
+                      href= core.url( '/list/' + prop + '/' + page.element.data[ prop ] )
+                    )!= __( prop + '-' + page.element.data[ prop ] )
+            if page.element.data.price
               tr.pt-prop-table-row
                 th.pt-prop-table-label
-                  a( href="/scale/sc_temp" )!= __( 'sc_temp' )
-                td.pt-prop-table-value!= core.fNumber( element.sc_temp )
-            if element.price
-              tr.pt-prop-table-row
-                th.pt-prop-table-label
-                  a( href="/scale/price" )!= __( 'price-kg' )
-                td.pt-prop-table-value!= core.fNumber( element.price )
-            tr.pt-prop-table-row
-              th.pt-prop-table-label!= __( 'properties' )
-              td.pt-prop-table-value.pt-prop-table-list
-                each prop in element.properties
-                  span.pt-prop-table-list-item
-                    a( href= '/prop/' + prop )!= __( 'prop-' + prop )
+                  a( href= core.url( '/scale/price' ) )!= __( 'price-kg' )
+                td.pt-prop-table-value!= f.number( page.element.data.price )
 
-      //- element isotopes (nuclides)
-      if Object.keys( isotopes ).length > 0
-        div.pt-box.pt-element-properties
-          h2!= __( 'prop-isotopes' )
-          include templates/isotable.pug
-
-      //- abundance
-      if element.abundance
-        div.pt-box.pt-element-abundance
+      //- natural abundances
+      if page.element.data.abundance
+        - var abundances = page.element.data.abundance
+        div.pt-box.pt-element-box.pt-element-abundance
           h2!= __( 'abundances-title' )
-          div.pt-element-abundance-grid
-            each abundance, k in config.abundances
-              div.pt-element-abundance-item
-                i.icon.pt-element-abundance-icon!= abundance.icon
-                div.pt-element-abundance-info
-                  a( href="/abundance/" + k )!= __( k + '-abundance' )
-                  if k in element.abundance
-                    - var mass = element.abundance[ k ].value / 1e9 * abundance.mass
-                    div!= core.fNumber( element.abundance[ k ] ) + ' ≈&nbsp;' + core.fWeight( mass )[0]
-                  else
-                    div!= __( 'undefined' )
+          include templates/abundance.pug
+
+      //- properties / categories
+      if page.element.data.properties
+        div.pt-categories.pt-element-props
+          each prop in page.element.data.properties
+            a.pt-category-link(
+              href= core.url( '/prop/' + prop )
+            )!= __( 'prop-' + prop )
 
     //- aside
     aside.pt-element-aside
 
       //- element image
-      if image
-        div.pt-box.pt-element-image
-          a( href=image.fullres, target="_blank" )
-            img( src=image.thumb, alt= element.names[ locale ] )/
-          figcaption!= element.image.caption
+      if page.image
+        div.pt-box.pt-element-box.pt-element-image
+          a( href= page.image.fullres, target= '_blank' )
+            img(
+              src= page.image.thumb,
+              alt= page.element.name
+            )/
+          figcaption!= page.element.data.image.caption
+
+      //- radioactive warning
+      if page.element.data.radioactive
+        a( href= core.url( '/prop/radioactive' ) ).pt-box.pt-element-box.pt-box-flex.pt-element-radioactive
+            img.pictogram-small(
+              src= '/res/radioactive.png',
+              alt= __( 'radioactive' )
+            )/
+            b!= __( 'element-radioactive' )
 
       //- element info
-      div.pt-box.pt-element-quickinfo
+      div.pt-box.pt-element-box.pt-element-quickinfo
         h2!= __( 'quickinfo' )
         table.pt-prop-table.pt-element-table
           tbody
             tr.pt-prop-table-row
               th.pt-prop-table-label!= __( 'name' )
-              td.pt-prop-table-value= element.names[ locale ]
+              td.pt-prop-table-value= page.element.name
             tr.pt-prop-table-row
               th.pt-prop-table-label!= __( 'latin' )
-              td.pt-prop-table-value= element.names.la
-            if element.appearance && element.appearance[ locale ]
+              td.pt-prop-table-value= page.element.data.names.la
+            if page.element.data.appearance && page.element.data.appearance[ locale ]
               tr.pt-prop-table-row
                 th.pt-prop-table-label!= __( 'appearance' )
-                td.pt-prop-table-value!= core.fText( element.appearance[ locale ] )
-            if element.era
+                td.pt-prop-table-value!= f.text( page.element.data.appearance[ locale ] )
+            if page.element.data.era
               tr.pt-prop-table-row
                 th.pt-prop-table-label
-                  a( href= '/list/era/' + element.era )!= __( 'discovery' )
+                  a( href= core.url( '/list/era/' + page.element.data.era ) )!= __( 'discovery' )
                 td.pt-prop-table-value
-                  if element.discovery
-                    span!= element.discovery.by + ' (' + element.discovery.value + ')'
+                  if page.element.data.discovery
+                    span!= page.element.data.discovery.by + ' (' + page.element.data.discovery.value + ')'
                   else
-                    span!= __( 'era-' + element.era )
+                    span!= __( 'era-' + page.element.data.era )
             each prop in [ 'group', 'period', 'set', 'block' ]
-              if element[ prop ]
+              if page.element.data[ prop ]
                 tr.pt-prop-table-row
                   th.pt-prop-table-label!= __( prop + '-label' )
                   td.pt-prop-table-value
-                    a( href= '/list/' + prop + '/' + element[ prop ] )!= __( prop + '-' + element[ prop ] )
+                    a( href= core.url( '/list/' + prop + '/' + page.element.data[ prop ] ) )
+                      span!= __( prop + '-' + page.element.data[ prop ] )
 
       //- spectral lines
-      if spectrum && spectrum.length
-        div.pt-box.pt-element-spectrum
+      if page.element.spectrum
+        div.pt-box.pt-element-box.pt-element-spectrum
           h2
-            a( href="/spectrum" )!= __( 'spectrum-title' )
-          img( src= spectrum, alt= __( 'spectrum-title' ) )
-
-      //- radioactive warning
-      if element.radioactive
-        a( href="/prop/radioactive" ).pt-box.pt-box-flex.pt-element-radioactive
-            img.pictogram-small( src="/res/radioactive.png", alt= __( 'radioactive' ) )/
-            b!= __( 'element-radioactive' )
+            a( href= core.url( '/spectrum' ) )!= __( 'spectrum-title' )
+          img(
+            src= page.element.spectrum,
+            alt= __( 'spectrum-title' )
+          )/
 
       //- hazard classification
-      if element.hazardous
-        div.pt-box.pt-element-hazard
-          h2!= __( 'ghs-title' )
-          if element.hazardous.ghs
-            div.pt-box-flex.pt-box-columns.pt-element-hazard-box
-              each ghs in element.hazardous.ghs
-                div.pt-element-hazard-item
-                  img.pictogram( src= '/res/GHS' + ghs + '.png', alt= __( 'pictogram' ) )/
-                  span!= __( 'ghs-' + ghs )
-          else
-            i!= __( 'ghs-undefined' )
-          div.pt-element-hazard-statements
-            h3!= __( 'hazard-precautionary' )
-            div.hazard--statements
-              div.hazard--line
-                b H
-                if element.hazardous.h
-                  span!= element.hazardous.h.join( ', ' )
-                else
-                  i!= __( 'hazard-precautionary-undefined' )
-              div.hazard--line
-                b P
-                if element.hazardous.p
-                  span!= element.hazardous.p.join( ', ' )
-                else
-                  i!= __( 'hazard-precautionary-undefined' )
-          if element.hazardous.nfpa
-            h3!= __( 'nfpa-title' )
-            div.pt-box-flex.pt-nfpa
-              div.pt-nfpa-diamond
-                each key in [ 'h', 'f', 'i', 's' ]
-                  div( class=key, style= '--code:' + key )
-                    each code in ( element.hazardous.nfpa[ key ] || '—' ).split( '|' )
-                      b( code=code )= code
-              div.pt-nfpa-info
-                each key in [ 'h', 'f', 'i', 's' ]
-                  div.pt-nfpa-info-line
-                    b!= __( 'nfpa-' + key )
-                    each code in ( element.hazardous.nfpa[ key ] || 'undefined' ).split( '|' )
-                      span!= __( 'nfpa-' + key + '-' + code )
-          if element.hazardous.hazard
-            h3!= __( 'pictogram-title' )
-            div.pt-element-hazard-pictograms
-              each hazard in element.hazardous.hazard
-                img.pictogram-small( src= '/res/hazard-' + hazard + '.png', alt= __( 'pictogram' ) )/
-          if element.hazardous.adr
-            h3!= __( 'adr-title' )
-            div.pt-element-hazard-pictograms
-              each adr in element.hazardous.adr
-                img.pictogram( src= '/res/ADR-' + adr + '.png', alt= __( 'pictogram' ) )/
+      if page.element.data.hazard
+        - var hazard = page.element.data.hazard
+        div.pt-box.pt-element-box.pt-element-hazard
+          h2!= __( 'hazard-classification' )
+          include templates/hazard.pug
 
       //- toxicity
-      if element.toxicity
-        - var toxicity = element.toxicity
-        div.pt-box.pt-element-toxicity
+      if page.element.data.toxicity
+        - var toxicity = page.element.data.toxicity
+        div.pt-box.pt-element-box.pt-element-toxicity
           h2!= __( 'toxicity' )
           include templates/toxicity.pug
 
       //- element classification
-      if element.classification
-        div.pt-box.pt-element-classification
+      if page.element.data.classification
+        - var classification = page.element.data.classification
+        div.pt-box.pt-element-box.pt-element-classification
           h2!= __( 'classification' )
-          div.pt-box-flex.pt-box-columns
-            each classif in [ 'cas', 'eg', 'echa', 'atc' ]
-              if element.classification[ classif ]
-                div.pt-element-classification-item
-                  b!= __( 'classification-' + classif )
-                  each c in element.classification[ classif ]
-                    span.pt-element-classification-line
-                      if classif == 'eg'
-                        span= c.value
-                      else
-                        a.external(
-                          href!= core.classifLink( classif, c.value ),
-                          target="_blank"
-                        )= c.value
-                      if c.label && c.label.length
-                        span!= '&nbsp;(' + core.fText( c.label ) + ')'
+          include templates/classification.pug
 
       //- weblinks
-      div.pt-box.pt-element-weblinks
+      div.pt-box.pt-element-box.pt-element-weblinks
         h2!= __( 'weblinks' )
-        if element.wiki && element.wiki[ locale ]
-          a( href= 'https://wikipedia.org/wiki/' + locale + ':' + element.wiki[ locale ] ).weblink
+        if page.element.data.wiki && page.element.data.wiki[ locale ]
+          a.weblink( href= 'https://wikipedia.org/wiki/' + locale + ':' + page.element.data.wiki[ locale ] )
             i.icon link
-            span!= __( 'weblink-wiki', element.names[ locale ], locale )
-        if element.weblinks
-          each link in element.weblinks
-            a( href=link.url ).weblink
+            span!= __( 'weblink-wiki', page.element.name, locale )
+        if page.element.data.weblinks
+          each link in page.element.data.weblinks
+            a.weblink( href= link.url )
               i.icon link
               span= link.text
 
       //- @modified
-      if element[ '@modified' ]
-        p.pt-element-modified!= __( '@modified', core.fDate( element[ '@modified' ] ) )
+      if page.element.data[ '@modified' ]
+        p.pt-modified!= __( '@modified', f.date( page.element.data[ '@modified' ] ) )
 
-    //- footer
-    div.pt-element-footer
-
-      //- tpl:microtable
-      include templates/microtable.pug
+  div.pt-page.pt-element-footer
+    include templates/microtable.pug

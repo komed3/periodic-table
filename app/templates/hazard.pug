@@ -1,0 +1,59 @@
+//- templates/hazard.pug
+div.pt-hazard
+  if hazard.ghs
+    div.pt-box-flex.pt-box-columns.pt-hazard-box.pt-hazard-ghs
+      each ghs in hazard.ghs
+        div.pt-box-flex.pt-hazard-item.pt-hazard-ghs-item
+          img.pictogram(
+            src= '/res/GHS' + ghs + '.png',
+            alt= __( 'pictogram' )
+          )/
+          span!= __( 'ghs-' + ghs )
+  else
+    i!= __( 'ghs-undefined' )
+  div.pt-hazard-statements
+    h3!= __( 'hazard-precautionary' )
+    div.pt-hazard-statements-line
+      b H
+      if hazard.h
+        span!= hazard.h.join( ', ' )
+      else
+        i!= __( 'hazard-precautionary-undefined' )
+    div.pt-hazard-statements-line
+      b P
+      if hazard.p
+        span!= hazard.p.join( ', ' )
+      else
+        i!= __( 'hazard-precautionary-undefined' )
+  if hazard.nfpa
+    h3!= __( 'nfpa' )
+    div.pt-box-flex.pt-hazard-nfpa
+      div.pt-hazard-nfpa-diamond
+        each key in [ 'h', 'f', 'i', 's' ]
+          div( class= key, style= '--code:' + key )
+            each code in ( hazard.nfpa[ key ] || '—' ).split( '|' )
+              b( code= code )= code
+      div.pt-hazard-nfpa-info
+        each key in [ 'h', 'f', 'i', 's' ]
+          div.pt-hazard-nfpa-info-line
+            b!= __( 'nfpa-' + key )
+            each code in ( hazard.nfpa[ key ] || 'undefined' ).split( '|' )
+              span!= __( 'nfpa-' + key + '-' + code )
+  if hazard.hazard
+    h3!= __( 'pictograms' )
+    div.pt-box-flex.pt-box-center.pt-hazard-pictograms
+      each h in hazard.hazard
+        img.pictogram-small(
+          src= '/res/hazard-' + h + '.png',
+          title= __( 'hazard-' + h ),
+          alt= __( 'hazard-' + h )
+        )/
+  if hazard.adr
+    h3!= __( 'adr-classes' )
+    div.pt-box-flex.pt-box-center.pt-hazard-pictograms
+      each adr in hazard.adr
+        img.pictogram(
+          src= '/res/ADR-' + adr + '.png',
+          title= __( 'adr-' + adr ),
+          alt= __( 'adr-' + adr )
+        )/

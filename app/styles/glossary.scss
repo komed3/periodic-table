@@ -1,11 +1,15 @@
-/**
- * periodic table
- * glossary page
- */
+@import 'page';
 
-.pt-glossary-flex-item {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    gap: 12px;
+.pt-glossary h2 {
+    margin-top: 48px;
+}
+
+.pt-glossary-grid {
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr );
+    gap: 24px 48px;
+}
+
+.pt-glossary-pictogram span {
+    place-self: center;
 }
