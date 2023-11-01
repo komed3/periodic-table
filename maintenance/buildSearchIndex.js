@@ -10,6 +10,8 @@
  * @argument    {String} locale language code
  */
 
+'use strict';
+
 /**
  * load config + basics
  */

@@ -21,6 +21,7 @@
         "start": "nodemon server.js",
         "compileSCSS": "node-sass app/styles/ -o public/styles/ --output-style compressed",
         "compileJS": "uglifyjs-folder app/scripts/ -o public/scripts/ --each",
+        "buildTextIndex": "node maintenance/buildTextIndex.js",
         "buildSearchIndex": "node maintenance/buildSearchIndex.js"
     },
     "dependencies": {
@@ -31,7 +32,8 @@
         "i18n": "^0.15.1",
         "js-yaml": "^4.1.0",
         "log-timestamp": "^0.3.0",
-        "pug": "^3.0.2"
+        "pug": "^3.0.2",
+        "wikijs": "^6.4.1"
     },
     "keywords": [
         "periodic-table",
