@@ -5,3 +5,4 @@ _db/*.min.json
 public/images/*
 public/scripts/*
 public/styles/*
+sitemap*
