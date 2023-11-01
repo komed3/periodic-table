@@ -647,6 +647,36 @@ routes.forEach( ( route ) => {
                     break;
 
                 /**
+                 * quiz page
+                 */
+                case 'quiz':
+
+                    let quiz = [];
+
+                    for( const [ _k, el ] of Object.entries( elements.database ) ) {
+
+                        quiz.push( {
+                            number: el.number,
+                            symbol: el.symbol,
+                            names: el.names,
+                            score: el.number + ( el.period * 2 ) + (
+                                el.group > 18
+                                    ? 200
+                                    : el.group > 2 && el.group < 13
+                                        ? 100
+                                        : 50
+                            )
+                        } );
+
+                    }
+
+                    res.locals.page.quiz = Buffer.from(
+                        JSON.stringify( quiz )
+                    ).toString( 'base64' );
+
+                    break;
+
+                /**
                  * scale page
                  */
                 case 'scale':

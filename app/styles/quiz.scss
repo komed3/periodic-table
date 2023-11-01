@@ -158,10 +158,12 @@
     font-size: 14px;
 }
 
-.pt-quiz-table-item.revealed,
+/* revealed items */
+
+.pt-table-item.revealed,
 .pt-quiz-list-item.revealed {
-    color: var( --accent-contrast );
-    background: var( --accent-1 );
+    color: var( --accent-contrast ) !important;
+    background: var( --accent-1 ) !important;
 }
 
 /* overlay + dialog */
