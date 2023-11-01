@@ -23,12 +23,14 @@
         "compileJS": "uglifyjs-folder app/scripts/ -o public/scripts/ --each",
         "buildTextIndex": "node maintenance/buildTextIndex.js",
         "buildSearchIndex": "node maintenance/buildSearchIndex.js",
-        "getImages": "node maintenance/getImages.js"
+        "getImages": "node maintenance/getImages.js",
+        "mergeDB": "node maintenance/mergeDB.js"
     },
     "dependencies": {
         "axios": "^1.6.0",
         "config": "^3.3.9",
         "cookie-parser": "^1.4.6",
+        "deepmerge": "^4.3.1",
         "express": "^4.18.2",
         "fs": "^0.0.1-security",
         "i18n": "^0.15.1",
