@@ -13,6 +13,7 @@ module.exports = [
     [ '/:locale/privacy/?', 'privacy' ],
     [ '/:locale/prop/:property/?', 'prop' ],
     [ '/:locale/props/?', 'props' ],
+    [ '/:locale/quiz/?', 'quiz' ],
     [ '/:locale/search/?', 'search' ],
     [ '/:locale/scale/:scale/?', 'scale' ],
     [ '/:locale/scales/?', 'scales' ],
