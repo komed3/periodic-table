@@ -6,15 +6,15 @@ __[Interactive periodic table](https://pse-info.de)__ with atomic, chemical and 
 
 The project consists of several phases, which will gradually add more functions to [pse-info.de](https://pse-info.de). These will include the nuclide map, calculation tools and much more. It is also planned to implement an interactive periodic table.
 
-### <span style="color:green">Code rework of pse-info.de</span> (``vers. 2.0``)
+### ✅ Code rework of pse-info.de (``v 2.0``)
 
 Whole rework of data and source code for the pse-info.de project. New features, extended content, support for multiple languages, light and dark theme and much more.
 
-### Nuclides table (``vers. 2.1``)
+### 🔲 Nuclides table (``v 2.1``)
 
 Integration of the more than 3,000 known nuclides incl. interactive nuclide table, important information, decay chains, etc.
 
-### Tools and calculators (``vers. 2.2``)
+### 🔲 Tools and calculators (``v 2.2``)
 
 Phase three provides the periodic table with a variety of important tools for calculations based on existing data, such as the molar mass of certain formulas, the radioactivity of nuclides, and many other things.
 
