@@ -307,6 +307,7 @@ select {
     line-height: 1.5;
     font-family: 'Roboto Mono', monospace;
     font-size: 14px;
+    background: var( --gray-0 );
 }
 
 .pt-prop-table-label {
@@ -324,6 +325,12 @@ select {
 
 .pt-prop-table .mini {
     width: 1px;
+}
+
+.pt-prop-table .sticky {
+    position: sticky;
+    left: 0;
+    z-index: 1;
 }
 
 .pt-prop-table.zebra tbody tr:nth-child( even ) .pt-prop-table-value {
