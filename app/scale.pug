@@ -24,33 +24,34 @@ block content
     include templates/breadcrumbs.pug
     h1!= title
     p.pt-page-intro!= description
-    table.pt-prop-table.zebra.sortable.pt-scale-table(
-      type= 'scale'
-      layer= page.scale.scheme
-    )
-      thead
-        tr.pt-prop-table-row
-          th.pt-prop-table-label.pt-scale-table-color
-          th.pt-prop-table-label(
-            colspan= '2',
-            sort-key= 'number'
-          )!= __( 'element' )
-          th.pt-prop-table-label.sort.right(
-            sort-key= 'x'
-          )!= __( page.scale.label )
-      tbody
-        each el, k in page.scale.results
-          tr.pt-prop-table-row(
-            sort-value--number= el.number,
-            sort-value--x= el.scale.x
-          )
-            td.pt-prop-table-value.pt-el.pt-scale-table-color(
-              prop= el.scale.y
+    div.pt-prop-table-container
+      table.pt-prop-table.zebra.sortable.pt-scale-table(
+        type= 'scale'
+        layer= page.scale.scheme
+      )
+        thead
+          tr.pt-prop-table-row
+            th.pt-prop-table-label.pt-scale-table-color
+            th.pt-prop-table-label(
+              colspan= '2',
+              sort-key= 'number'
+            )!= __( 'element' )
+            th.pt-prop-table-label.sort.right(
+              sort-key= 'x'
+            )!= __( page.scale.label )
+        tbody
+          each el, k in page.scale.results
+            tr.pt-prop-table-row(
+              sort-value--number= el.number,
+              sort-value--x= el.scale.x
             )
-            td.pt-prop-table-value.mini
-              sub!= el.number
-              span!= el.symbol
-            td.pt-prop-table-value
-              a( href= core.url( '/element/' + el.symbol ) )!= el.names[ locale ]
-            td.pt-prop-table-value.right
-              span!= f.number( el.scale.value )
+              td.pt-prop-table-value.pt-el.pt-scale-table-color(
+                prop= el.scale.y
+              )
+              td.pt-prop-table-value.mini.sticky
+                sub!= el.number
+                span!= el.symbol
+              td.pt-prop-table-value
+                a( href= core.url( '/element/' + el.symbol ) )!= el.names[ locale ]
+              td.pt-prop-table-value.right
+                span!= f.number( el.scale.value )

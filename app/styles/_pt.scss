@@ -54,11 +54,11 @@
 @media all and ( max-width: 800px ) {
 
     .pt-table {
-        gap: 2px;
+        gap: 1px;
     }
 
     .pt-el.highlight {
-        outline: 2px solid var( --gray-4 );
+        outline: 1px solid var( --gray-4 );
     }
 
 }

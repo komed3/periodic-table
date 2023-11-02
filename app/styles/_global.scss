@@ -359,6 +359,15 @@ select {
 
     :root {
         --content: calc( 100vw - 20px );
+        --padding: 32px;
+    }
+
+}
+
+@media all and ( max-width: 500px ) {
+
+    .pt-box {
+        padding: 12px;
     }
 
 }
