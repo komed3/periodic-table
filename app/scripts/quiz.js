@@ -6,6 +6,7 @@ window.addEventListener( 'load', function () {
 
     const elements = JSON.parse( window.atob( data ) );
 
+    const ptQuizSuccess = new Audio( '/res/success.wav' );
     const ptQuizMaxTime = 900;
     const ptQuizMax = elements.length;
 
@@ -289,6 +290,10 @@ window.addEventListener( 'load', function () {
         /* add score */
 
         ptQuizAddScore( el.score );
+
+        /* play "success" sound */
+
+        ptQuizSuccess.play();
 
         /* update progress */
 
