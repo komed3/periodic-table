@@ -57,8 +57,9 @@
 
 .pt-map-legend {
     display: grid;
-    grid-template-columns: repeat( 4, max-content );
+    grid-template-columns: repeat( auto-fill, minmax( 100px, 1fr ) );
     gap: 12px 48px;
+    max-width: 600px;
     margin-top: 24px;
     font-size: 13px;
 }
@@ -68,7 +69,6 @@
     flex-flow: row nowrap;
     align-items: center;
     gap: 8px;
-    width: max-content;
 }
 
 .pt-map-legend-item-box {
@@ -78,4 +78,20 @@
     background: var( --map-bg, var( --gray-1 ) );
     border: 1px solid var( --gray-4 );
     border-radius: 10px;
+}
+
+@media all and ( max-width: 800px ) {
+
+    .pt-map-grid {
+        grid-template-columns: repeat( 25, 1fr );
+    }
+
+}
+
+@media all and ( max-width: 500px ) {
+
+    .pt-map-grid {
+        gap: 1px;
+    }
+
 }

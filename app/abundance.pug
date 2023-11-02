@@ -23,53 +23,54 @@ block content
     h1!= title
     p.pt-page-intro!= description
     include templates/map.pug
-    table.pt-prop-table.zebra.sortable.pt-abundance-table
-      thead
-        tr.pt-prop-table-row
-          th.pt-prop-table-label(
-            colspan= '2',
-            sort-key= 'number'
-          )!= __( 'element' )
-          th.pt-prop-table-label.sort(
-            colspan= '2',
-            sort-key= 'x',
-            sort-dir= 'asc'
-          )!= __( 'abundance' )
-          th.pt-prop-table-label.right(
-            sort-key= 'mass'
-          )!= __( 'abundance-mass', f.weight( page.abundance.mass )[0] )
-          th.pt-prop-table-label.right(
-            sort-key= 'price'
-          )!= __( 'price' )
-      tbody
-        each el, k in page.abundance.items
-          tr.pt-prop-table-row(
-            sort-value--number= el.number,
-            sort-value--x= (
-              value = el.abundance[ page.abundance.type ].value
-            ),
-            sort-value--mass= (
-              mass = value / 1e9 * page.abundance.mass
-            ),
-            sort-value--price= (
-              price = 'price' in el
-                ? el.price.value * mass
-                : null
+    div.pt-prop-table-container
+      table.pt-prop-table.zebra.sortable.pt-abundance-table
+        thead
+          tr.pt-prop-table-row
+            th.pt-prop-table-label(
+              colspan= '2',
+              sort-key= 'number'
+            )!= __( 'element' )
+            th.pt-prop-table-label.sort(
+              colspan= '2',
+              sort-key= 'x',
+              sort-dir= 'asc'
+            )!= __( 'abundance' )
+            th.pt-prop-table-label.right(
+              sort-key= 'mass'
+            )!= __( 'abundance-mass', f.weight( page.abundance.mass )[0] )
+            th.pt-prop-table-label.right(
+              sort-key= 'price'
+            )!= __( 'price' )
+        tbody
+          each el, k in page.abundance.items
+            tr.pt-prop-table-row(
+              sort-value--number= el.number,
+              sort-value--x= (
+                value = el.abundance[ page.abundance.type ].value
+              ),
+              sort-value--mass= (
+                mass = value / 1e9 * page.abundance.mass
+              ),
+              sort-value--price= (
+                price = 'price' in el
+                  ? el.price.value * mass
+                  : null
+              )
             )
-           )
-            td.pt-prop-table-value.mini
-              sub!= el.number
-              span!= el.symbol
-            td.pt-prop-table-value
-              a( href= core.url( '/element/' + el.symbol ) )!= el.names[ locale ]
-            td.pt-prop-table-value.right
-              span!= f.number( { value: value, unit: 'ppb' } )
-            td.pt-prop-table-value.right
-              span!= f.number( { value: value / 1e7, unit: '%' } )
-            td.pt-prop-table-value.right
-              span!= f.weight( mass )[0]
-            td.pt-prop-table-value.right
-              if price == null
-                span!= __( 'undefined' )
-              else
-                span!= f.number( { value: price, unit: 'USD' }, 2 )
+              td.pt-prop-table-value.mini.sticky
+                sub!= el.number
+                span!= el.symbol
+              td.pt-prop-table-value
+                a( href= core.url( '/element/' + el.symbol ) )!= el.names[ locale ]
+              td.pt-prop-table-value.right
+                span!= f.number( { value: value, unit: 'ppb' } )
+              td.pt-prop-table-value.right
+                span!= f.number( { value: value / 1e7, unit: '%' } )
+              td.pt-prop-table-value.right
+                span!= f.weight( mass )[0]
+              td.pt-prop-table-value.right
+                if price == null
+                  span!= __( 'undefined' )
+                else
+                  span!= f.number( { value: price, unit: 'USD' }, 2 )
