@@ -1,6 +1,14 @@
 @import 'pt';
 @import 'legend';
 
+.pt-table-container {
+    overflow-x: auto;
+}
+
+.pt-table {
+    min-width: 980px;
+}
+
 .pt-table-item {
     line-height: 1;
     font-weight: bold;
@@ -32,4 +40,12 @@
 
 .pt-table-group {
     place-self: center flex-start;
+}
+
+@media all and ( max-width: 1200px ) {
+
+    .pt-el .element--symbol {
+        font-size: 22px;
+    }
+
 }

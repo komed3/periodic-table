@@ -1,46 +1,47 @@
 //- templates/pt.pug
 - var offset = config.get( 'pt.offset' )
 - var legend = []
-div.pt-table.noselect(
-  type= ( type = table.type || 'value' ),
-  layer= ( layer = table.layer || 'set' ),
-  scaling= +( table.scale || 0 )
-)
-  div.pt-table-gap
-  each el, key in elements.database
-    - value = elements.prop( key, layer, type, table.value || 'undefined' )
-    - if( !legend.includes( value ) ) {
-    -   legend.push( value )
-    - }
-    if el.group > 18 && el.column == 3
-      span.pt-table-label(
-        style= '--g:' + el.column + ';--p:' + el.period
-      )!= el.symbol + '*'
-      span.pt-table-label.pt-table-group(
-        style= '--g:1 / span ' + el.column + ';--p:' + ( el.period + offset )
-      )!= __( 'group-' + el.group )
-    a(
-      href= core.url( '/element/' + el.symbol ),
-      style= core.getPos( el, offset ).position,
-      prop= value,
-      title= el.names[ locale ],
-      class= 'pt-el pt-table-item' + (
-        el.phase
-          ? ' ' + el.phase
-          : ''
-      ) + (
-        el.radioactive
-          ? ' radioactive'
-          : ''
-      ) + (
-        key == ( table.current || null )
-          ? ' current'
-          : ''
-      ) + (
-        value == table.hl
-          ? ' highlight'
-          : ''
+div.pt-table-container.noselect
+  div.pt-table(
+    type= ( type = table.type || 'value' ),
+    layer= ( layer = table.layer || 'set' ),
+    scaling= +( table.scale || 0 )
+  )
+    div.pt-table-gap
+    each el, key in elements.database
+      - value = elements.prop( key, layer, type, table.value || 'undefined' )
+      - if( !legend.includes( value ) ) {
+      -   legend.push( value )
+      - }
+      if el.group > 18 && el.column == 3
+        span.pt-table-label(
+          style= '--g:' + el.column + ';--p:' + el.period
+        )!= el.symbol + '*'
+        span.pt-table-label.pt-table-group(
+          style= '--g:1 / span ' + el.column + ';--p:' + ( el.period + offset )
+        )!= __( 'group-' + el.group )
+      a(
+        href= core.url( '/element/' + el.symbol ),
+        style= core.getPos( el, offset ).position,
+        prop= value,
+        title= el.names[ locale ],
+        class= 'pt-el pt-table-item' + (
+          el.phase
+            ? ' ' + el.phase
+            : ''
+        ) + (
+          el.radioactive
+            ? ' radioactive'
+            : ''
+        ) + (
+          key == ( table.current || null )
+            ? ' current'
+            : ''
+        ) + (
+          value == table.hl
+            ? ' highlight'
+            : ''
+        )
       )
-    )
-      span.element--number!= el.number
-      span.element--symbol!= el.symbol
+        span.element--number!= el.number
+        span.element--symbol!= el.symbol
