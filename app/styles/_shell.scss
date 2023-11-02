@@ -35,3 +35,11 @@
     flex-flow: row nowrap;
     gap: 6px;
 }
+
+@media all and ( max-width: 800px ) {
+
+    .pt-shell {
+        grid-template-columns: 1fr;
+    }
+
+}

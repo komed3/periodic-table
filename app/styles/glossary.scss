@@ -13,3 +13,19 @@
 .pt-glossary-pictogram span {
     place-self: center;
 }
+
+@media all and ( max-width: 1200px ) {
+
+    .pt-glossary-grid {
+        grid-template-columns: repeat( 2, 1fr );
+    }
+
+}
+
+@media all and ( max-width: 800px ) {
+
+    .pt-glossary-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
