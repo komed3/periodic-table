@@ -10,8 +10,9 @@
 
 .pt-legend-inner {
     display: grid;
-    grid-template-columns: repeat( 4, max-content );
+    grid-template-columns: repeat( auto-fill, minmax( 140px, 1fr ) );
     gap: 12px 48px;
+    max-width: 600px;
 }
 
 .pt-legend-item {
@@ -19,7 +20,6 @@
     flex-flow: row nowrap;
     align-items: center;
     gap: 8px;
-    width: max-content;
 }
 
 .pt-legend-item-box {
@@ -33,28 +33,4 @@
 
 .pt-legend-item:hover .pt-legend-item-label {
     text-decoration: underline;
-}
-
-@media all and ( max-width: 1000px ) {
-
-    .pt-legend-inner {
-        grid-template-columns: repeat( 3, 1fr );
-    }
-
-}
-
-@media all and ( max-width: 800px ) {
-
-    .pt-legend-inner {
-        grid-template-columns: repeat( 2, 1fr );
-    }
-
-}
-
-@media all and ( max-width: 500px ) {
-
-    .pt-legend-inner {
-        grid-template-columns: 1fr;
-    }
-
 }
