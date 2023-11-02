@@ -14,7 +14,7 @@
     max-width: var( --content );
 }
 
-.pt-element .pt-element-table .pt-prop-table-label {
+.pt-element-table .pt-prop-table-label {
     width: 35%;
 }
 
@@ -108,6 +108,19 @@
 
     .pt-element {
         grid-template-columns: 1fr;
+    }
+
+}
+
+@media all and ( max-width: 600px ) {
+
+    .pt-element-table .pt-prop-table-row {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    .pt-element-table .pt-prop-table-label {
+        width: 100%;
     }
 
 }

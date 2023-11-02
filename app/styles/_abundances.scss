@@ -28,3 +28,11 @@
 .pt-abundance-info a:hover {
     text-decoration: underline;
 }
+
+@media all and ( max-width: 700px ) {
+
+    .pt-abundance-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
