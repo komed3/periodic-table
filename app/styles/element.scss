@@ -123,4 +123,12 @@
         width: 100%;
     }
 
+    .pt-element-title .element--actions .pt-icon-button:nth-last-child( -n + 2 ) {
+        display: none;
+    }
+
+    .pt-element-image {
+        display: none;
+    }
+
 }
