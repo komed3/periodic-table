@@ -224,6 +224,22 @@ scales:
     key: negativity.allen
     label: allen-negativity
     scheme: _fire
+  negativity_ghosh_gupta:
+    key: negativity.ghosh_gupta
+    label: ghosh_gupta-negativity
+    scheme: _fire
+  negativity_boyd:
+    key: negativity.boyd
+    label: boyd-negativity
+    scheme: _fire
+  negativity_nagle:
+    key: negativity.nagle
+    label: nagle-negativity
+    scheme: _fire
+  negativity_pearson:
+    key: negativity.pearson
+    label: pearson-negativity
+    scheme: _fire
   price:
     key: price
     label: price
