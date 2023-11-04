@@ -49,8 +49,8 @@ const app = express();
 const rateLimit = require( 'express-rate-limit' );
 
 app.use( rateLimit( {
-    windowMs: 60000,
-    limit: 250,
+    windowMs: config.get( 'server.rateLimit.waiting' ),
+    limit: config.get( 'server.rateLimit.requests' ),
     standardHeaders: 'draft-7',
     legacyHeaders: false
 } ) );
@@ -142,8 +142,7 @@ app.use( ( req, res, next ) => {
          */
 
         res.locals.navURL = '/' + url.normalized.slice( 1 ).join( '/' );
-        res.locals.canonical = req.protocol + '://' + req.hostname +
-            core.getCanonical( url.string );
+        res.locals.canonical = config.get( 'server.baseURL' ) + core.getCanonical( url.string );
 
         res.locals.locale = locale;
         req.cookies.locale = locale;

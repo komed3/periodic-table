@@ -5,6 +5,9 @@ server:
   baseURL: https://pse-info.de
   port: 3000
   cookieAge: 1.0e+10
+  rateLimit:
+    requests: 250
+    waiting: 60000
 
 maintenance:
   databases: [
