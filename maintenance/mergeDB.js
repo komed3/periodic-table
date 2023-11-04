@@ -4,9 +4,6 @@
  * 
  * merge database with a given json file
  * 
- * @author      komed3 (Paul Köhler)
- * @version     2.0.0
- * 
  * @argument    {String} database name of the database to merge into
  * @argument    {String} path path to file to merge from
  */

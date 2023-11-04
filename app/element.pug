@@ -73,12 +73,12 @@ block content
               tr.pt-prop-table-row
                 th.pt-prop-table-label
                   a( href= core.url( '/scale/standard_atomic_weight' ) )!= __( 'standard-atomic-weight' )
-                td.pt-prop-table-value!= f.number( page.element.data.standard_atomic_weight )
+                td.pt-prop-table-value!= f.number( page.element.data.standard_atomic_weight, 6 )
             if page.element.data.atomic_mass
               tr.pt-prop-table-row
                 th.pt-prop-table-label
                   a( href= core.url( '/scale/atomic_mass' ) )!= __( 'atomic-mass' )
-                td.pt-prop-table-value!= f.number( page.element.data.atomic_mass )
+                td.pt-prop-table-value!= f.number( page.element.data.atomic_mass, 6 )
         //- radien
         if page.element.data.radius
           h3!= __( 'radien' )
@@ -101,7 +101,7 @@ block content
               tr.pt-prop-table-row
                 th.pt-prop-table-label
                   a( href= core.url( '/ionization' ) )!= __( 'ionization-title' )
-                td.pt-prop-table-value!= f.number( page.element.data.ionization )
+                td.pt-prop-table-value!= f.number( page.element.data.ionization, 8 )
             if page.element.data.shell
               tr.pt-prop-table-row
                 th.pt-prop-table-label!= __( 'shell-model' )

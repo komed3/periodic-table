@@ -4,9 +4,6 @@
  * 
  * build search index for all elements
  * 
- * @author      komed3 (Paul Köhler)
- * @version     2.0.0
- * 
  * @argument    {String} locale language code
  */
 

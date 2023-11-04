@@ -4,9 +4,6 @@
  * 
  * (re)build text index for all elements from wikipedia
  * 
- * @author      komed3 (Paul Köhler)
- * @version     2.0.0
- * 
  * @argument    {String} locale language code
  * @argument    {String} rebuild force rebuilding text index
  */

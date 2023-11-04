@@ -116,7 +116,7 @@ const unit = ( u ) => {
  * @param {Int} digits maximum significant digits
  * @returns formatted number
  */
-const number = ( n, digits = 12 ) => {
+const number = ( n, digits = 4 ) => {
 
     try {
 

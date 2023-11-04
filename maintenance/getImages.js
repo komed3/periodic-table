@@ -3,9 +3,6 @@
  * maintenance script: getImages
  * 
  * get images from wikimedia
- * 
- * @author      komed3 (Paul Köhler)
- * @version     2.0.0
  */
 
 'use strict';
