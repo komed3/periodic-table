@@ -1,6 +1,6 @@
 {
     "h": {
-        "@modified": "2023-10-19T17:18:47.602Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 750000000,
@@ -142,6 +142,16 @@
                 "s": ""
             }
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 14304,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 0.1805,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Hydrogen_discharge_tube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Hydrogen_discharge_tube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
@@ -179,7 +189,16 @@
             "sanderson": 2.59,
             "allred": 2.2,
             "mulliken": 2.25,
-            "allen": 2.3
+            "allen": 2.3,
+            "ghosh_gupta": {
+                "value": 7.1862,
+                "unit": "eV"
+            },
+            "nagle": 2.27,
+            "pearson": {
+                "value": 7.18,
+                "unit": "eV"
+            }
         },
         "number": 1,
         "optical": {
@@ -283,16 +302,6 @@
                 }
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 14304,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 0.1805,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "weblinks": [
             {
                 "url": "https://www.webelements.com/hydrogen/",
@@ -309,7 +318,7 @@
         }
     },
     "he": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 230000000,
@@ -407,6 +416,16 @@
                 "s": ""
             }
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 5193,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 0.1513,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Helium_discharge_tube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Helium_discharge_tube.jpg\">Alchemist-hp (Diskussion) (www.pse-mendelejew.de)</a>, <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>, via Wikimedia Commons"
@@ -444,7 +463,12 @@
         "natural_occurrence": "primordial",
         "negativity": {
             "allred": 5.5,
-            "mulliken": 3.49
+            "mulliken": 3.49,
+            "ghosh_gupta": {
+                "value": 12.0568,
+                "unit": "eV"
+            },
+            "nagle": 3.92
         },
         "number": 2,
         "optical": {
@@ -538,23 +562,13 @@
                 }
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 5193,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 0.1513,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "wiki": {
             "en": "Helium",
             "de": "Helium"
         }
     },
     "li": {
-        "@modified": "2023-10-28T12:17:30.251Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 6,
@@ -704,6 +718,24 @@
                 "s": "W"
             }
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 3482,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 85,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.000046,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 2.9,
+                "unit": "eV"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Limetal.JPG",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Limetal.JPG\">Dnn87</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -742,7 +774,17 @@
             "sanderson": 0.98,
             "allred": 0.97,
             "mulliken": 0.97,
-            "allen": 0.912
+            "allen": 0.912,
+            "ghosh_gupta": {
+                "value": 2.4435,
+                "unit": "eV"
+            },
+            "boyd": 1,
+            "nagle": 0.94,
+            "pearson": {
+                "value": 3.01,
+                "unit": "eV"
+            }
         },
         "number": 3,
         "oxidation_state": "1",
@@ -833,31 +875,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 3482,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 85,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.000046,
-                "unit": "K[-1]"
-            },
-            "work_function": {
-                "value": 2.9,
-                "unit": "eV"
-            }
-        },
         "wiki": {
             "en": "Lithium",
             "de": "Lithium"
         }
     },
     "be": {
-        "@modified": "2023-10-28T12:18:15.002Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -1022,6 +1046,24 @@
                 "s": ""
             }
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 1825,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 190,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000113,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 4.98,
+                "unit": "eV"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Be-140g.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Be-140g.jpg\">Alchemist-hp = Alchemist-hp (pse-mendelejew.de)</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
@@ -1055,7 +1097,17 @@
             "sanderson": 1.81,
             "allred": 1.47,
             "mulliken": 1.54,
-            "allen": 1.576
+            "allen": 1.576,
+            "ghosh_gupta": {
+                "value": 3.706,
+                "unit": "eV"
+            },
+            "boyd": 1.44,
+            "nagle": 1.55,
+            "pearson": {
+                "value": 4.9,
+                "unit": "eV"
+            }
         },
         "number": 4,
         "oxidation_state": "2",
@@ -1134,24 +1186,6 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 1825,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 190,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000113,
-                "unit": "K[-1]"
-            },
-            "work_function": {
-                "value": 4.98,
-                "unit": "eV"
-            }
-        },
         "toxicity": [
             {
                 "type": "LD{50}",
@@ -1178,7 +1212,7 @@
         }
     },
     "b": {
-        "@modified": "2023-10-28T12:18:47.200Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -1309,6 +1343,24 @@
                 "s": ""
             }
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 1260,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 27,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.000006,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 4.45,
+                "unit": "eV"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Boron_R105.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Boron_R105.jpg\">James L Marshall</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
@@ -1343,7 +1395,17 @@
             "sanderson": 2.28,
             "allred": 2.01,
             "mulliken": 2.04,
-            "allen": 2.051
+            "allen": 2.051,
+            "ghosh_gupta": {
+                "value": 4.9686,
+                "unit": "eV"
+            },
+            "boyd": 1.9,
+            "nagle": 2.02,
+            "pearson": {
+                "value": 4.29,
+                "unit": "eV"
+            }
         },
         "number": 5,
         "oxidation_state": "'''+3''', +2, +1",
@@ -1421,24 +1483,6 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 1260,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 27,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.000006,
-                "unit": "K[-1]"
-            },
-            "work_function": {
-                "value": 4.45,
-                "unit": "eV"
-            }
-        },
         "toxicity": [
             {
                 "type": "LD{50}",
@@ -1456,7 +1500,7 @@
         }
     },
     "c": {
-        "@modified": "2023-10-28T12:19:02.818Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 5000000,
@@ -1580,6 +1624,32 @@
             "mohs": 0.51
         },
         "hazard": null,
+        "heat": {
+            "heat_capacity": [
+                {
+                    "label": "graphite",
+                    "value": 427,
+                    "unit": "J·kg[−1]·K[−1]"
+                },
+                {
+                    "label": "diamond",
+                    "value": 709,
+                    "unit": "J·kg[−1]·K[−1]"
+                }
+            ],
+            "thermal_conductivity": {
+                "value": 140,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000071,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 4.81,
+                "unit": "eV"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Glassy_carbon_and_a_1cm3_graphite_cube_HP68-79.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Glassy_carbon_and_a_1cm3_graphite_cube_HP68-79.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
@@ -1614,7 +1684,17 @@
             "sanderson": 2.75,
             "allred": 2.5,
             "mulliken": 2.48,
-            "allen": 2.544
+            "allen": 2.544,
+            "ghosh_gupta": {
+                "value": 6.2338,
+                "unit": "eV"
+            },
+            "boyd": 2.6,
+            "nagle": 2.55,
+            "pearson": {
+                "value": 6.27,
+                "unit": "eV"
+            }
         },
         "number": 6,
         "optical": {
@@ -1705,36 +1785,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": [ {
-                "label": "graphite",
-                "value": 427,
-                "unit": "J·kg[−1]·K[−1]"
-            }, {
-                "label": "diamond",
-                "value": 709,
-                "unit": "J·kg[−1]·K[−1]"
-            } ],
-            "thermal_conductivity": {
-                "value": 140,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000071,
-                "unit": "K[-1]"
-            },
-            "work_function": {
-                "value": 4.81,
-                "unit": "eV"
-            }
-        },
         "wiki": {
             "en": "Carbon",
             "de": "Kohlenstoff"
         }
     },
     "n": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 1000000,
@@ -1840,6 +1897,22 @@
                 "2.2"
             ]
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 1040,
+                "unit": "J·kg[−1]·K[−1]",
+                "condition": [
+                    {
+                        "value": 298,
+                        "unit": "K"
+                    }
+                ]
+            },
+            "thermal_conductivity": {
+                "value": 0.02583,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Nitrogen_discharge_tube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Nitrogen_discharge_tube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
@@ -1870,7 +1943,17 @@
             "sanderson": 3.19,
             "allred": 3.07,
             "mulliken": 2.9,
-            "allen": 3.066
+            "allen": 3.066,
+            "ghosh_gupta": {
+                "value": 7.4964,
+                "unit": "eV"
+            },
+            "boyd": 3.08,
+            "nagle": 3.12,
+            "pearson": {
+                "value": 7.3,
+                "unit": "eV"
+            }
         },
         "number": 7,
         "optical": {
@@ -1972,29 +2055,13 @@
                 }
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 1040,
-                "unit": "J·kg[−1]·K[−1]",
-                "condition": [
-                    {
-                        "value": 298,
-                        "unit": "K"
-                    }
-                ]
-            },
-            "thermal_conductivity": {
-                "value": 0.02583,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "wiki": {
             "en": "Nitrogen",
             "de": "Stickstoff"
         }
     },
     "o": {
-        "@modified": "2023-10-28T12:19:15.462Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 10000000,
@@ -2120,6 +2187,22 @@
                 "s": "OX"
             }
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 920,
+                "unit": "J·kg[−1]·K[−1]",
+                "condition": [
+                    {
+                        "value": 298,
+                        "unit": "K"
+                    }
+                ]
+            },
+            "thermal_conductivity": {
+                "value": 0.02658,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Oxygen_discharge_tube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Oxygen_discharge_tube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
@@ -2161,7 +2244,17 @@
             "sanderson": 3.65,
             "allred": 3.5,
             "mulliken": 3.41,
-            "allen": 3.61
+            "allen": 3.61,
+            "ghosh_gupta": {
+                "value": 8.7861,
+                "unit": "eV"
+            },
+            "boyd": 3.62,
+            "nagle": 3.62,
+            "pearson": {
+                "value": 7.54,
+                "unit": "eV"
+            }
         },
         "number": 8,
         "optical": {
@@ -2271,29 +2364,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 920,
-                "unit": "J·kg[−1]·K[−1]",
-                "condition": [
-                    {
-                        "value": 298,
-                        "unit": "K"
-                    }
-                ]
-            },
-            "thermal_conductivity": {
-                "value": 0.02658,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "wiki": {
             "en": "Oxygen",
             "de": "Sauerstoff"
         }
     },
     "f": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 400,
@@ -2429,6 +2506,12 @@
                 "s": "W|OX"
             }
         },
+        "heat": {
+            "thermal_conductivity": {
+                "value": 0.0279,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Fluoro_liquido_a_-196%C2%B0C_1.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Fluoro_liquido_a_-196%C2%B0C_1.jpg\">Fulvio314</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
@@ -2466,7 +2549,17 @@
             "sanderson": 4,
             "allred": 4.1,
             "mulliken": 3.91,
-            "allen": 4.193
+            "allen": 4.193,
+            "ghosh_gupta": {
+                "value": 10.0378,
+                "unit": "eV"
+            },
+            "boyd": 4,
+            "nagle": 4.23,
+            "pearson": {
+                "value": 10.41,
+                "unit": "eV"
+            }
         },
         "number": 9,
         "optical": {
@@ -2551,19 +2644,13 @@
                 }
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 0.0279,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "wiki": {
             "en": "Fluorine",
             "de": "Fluor"
         }
     },
     "ne": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 1300000,
@@ -2656,6 +2743,16 @@
                 "2.2"
             ]
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 1030.4,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 0.0491,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Neon_discharge_tube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Neon_discharge_tube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>, via Wikimedia Commons"
@@ -2696,7 +2793,12 @@
             "sanderson": 4.5,
             "allred": 4.84,
             "mulliken": 3.98,
-            "allen": 4.787
+            "allen": 4.787,
+            "ghosh_gupta": {
+                "value": 11.3003,
+                "unit": "eV"
+            },
+            "nagle": 4.89
         },
         "number": 10,
         "optical": {
@@ -2771,23 +2873,13 @@
                 }
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 1030.4,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 0.0491,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "wiki": {
             "en": "Neon",
             "de": "Neon"
         }
     },
     "na": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 20000,
@@ -2941,6 +3033,24 @@
                 "s": "W"
             }
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 1230,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 140,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.000071,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 2.75,
+                "unit": "eV"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Na_%28Sodium%29.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Na_(Sodium).jpg\">The original uploader was Dnn87 at English Wikipedia.</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
@@ -2981,7 +3091,17 @@
             "sanderson": 0.56,
             "allred": 1.01,
             "mulliken": 0.91,
-            "allen": 0.869
+            "allen": 0.869,
+            "ghosh_gupta": {
+                "value": 2.438,
+                "unit": "eV"
+            },
+            "boyd": 1,
+            "nagle": 0.95,
+            "pearson": {
+                "value": 2.85,
+                "unit": "eV"
+            }
         },
         "number": 11,
         "oxidation_state": "1",
@@ -3069,31 +3189,13 @@
                 }
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 1230,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 140,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.000071,
-                "unit": "K[-1]"
-            },
-            "work_function": {
-                "value": 2.75,
-                "unit": "eV"
-            }
-        },
         "wiki": {
             "en": "Sodium",
             "de": "Natrium"
         }
     },
     "mg": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 600000,
@@ -3251,6 +3353,24 @@
                 "s": ""
             }
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 1023,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 160,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000082,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 3.66,
+                "unit": "eV"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/CSIRO_ScienceImage_2893_Crystalised_magnesium.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_2893_Crystalised_magnesium.jpg\">CSIRO</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -3291,7 +3411,17 @@
             "sanderson": 1.32,
             "allred": 1.23,
             "mulliken": 1.37,
-            "allen": 1.293
+            "allen": 1.293,
+            "ghosh_gupta": {
+                "value": 3.6108,
+                "unit": "eV"
+            },
+            "boyd": 1.32,
+            "nagle": 1.32,
+            "pearson": {
+                "value": 3.75,
+                "unit": "eV"
+            }
         },
         "number": 12,
         "optical": {
@@ -3379,31 +3509,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 1023,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 160,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000082,
-                "unit": "K[-1]"
-            },
-            "work_function": {
-                "value": 3.66,
-                "unit": "eV"
-            }
-        },
         "wiki": {
             "en": "Magnesium",
             "de": "Magnesium"
         }
     },
     "al": {
-        "@modified": "2023-10-28T12:20:22.763Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 50000,
@@ -3550,6 +3662,28 @@
                 "4.1"
             ]
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 897,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 235,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000231,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 4.16,
+                "range": [
+                    4.06,
+                    4.26
+                ],
+                "unit": "eV"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Aluminium-4.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Aluminium-4.jpg\">http://images-of-elements.com/aluminium.php</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -3584,7 +3718,17 @@
             "sanderson": 1.71,
             "allred": 1.47,
             "mulliken": 1.83,
-            "allen": 1.613
+            "allen": 1.613,
+            "ghosh_gupta": {
+                "value": 4.6393,
+                "unit": "eV"
+            },
+            "boyd": 1.58,
+            "nagle": 1.55,
+            "pearson": {
+                "value": 3.23,
+                "unit": "eV"
+            }
         },
         "number": 13,
         "optical": {
@@ -3665,35 +3809,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 897,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 235,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000231,
-                "unit": "K[-1]"
-            },
-            "work_function": {
-                "value": 4.16,
-                "range": [
-                    4.06,
-                    4.26
-                ],
-                "unit": "eV"
-            }
-        },
         "wiki": {
             "en": "Aluminum",
             "de": "Aluminium"
         }
     },
     "si": {
-        "@modified": "2023-10-28T12:20:52.857Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 700000,
@@ -3809,6 +3931,26 @@
             "mohs": 6.5
         },
         "hazard": null,
+        "heat": {
+            "heat_capacity": {
+                "value": 703,
+                "unit": "J·kg[−1]·K[−1]",
+                "condition": [
+                    {
+                        "value": 298,
+                        "unit": "K"
+                    }
+                ]
+            },
+            "thermal_conductivity": {
+                "value": 150,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000026,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/SiliconCroda.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:SiliconCroda.jpg\">Enricoros at English Wikipedia</a>, Public domain, via Wikimedia Commons"
@@ -3849,7 +3991,17 @@
             "sanderson": 2.14,
             "allred": 1.74,
             "mulliken": 2.28,
-            "allen": 1.916
+            "allen": 1.916,
+            "ghosh_gupta": {
+                "value": 5.5236,
+                "unit": "eV"
+            },
+            "boyd": 1.87,
+            "nagle": 1.87,
+            "pearson": {
+                "value": 4.77,
+                "unit": "eV"
+            }
         },
         "number": 14,
         "optical": {
@@ -3934,33 +4086,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 703,
-                "unit": "J·kg[−1]·K[−1]",
-                "condition": [
-                    {
-                        "value": 298,
-                        "unit": "K"
-                    }
-                ]
-            },
-            "thermal_conductivity": {
-                "value": 150,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000026,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Silicon",
             "de": "Silicium"
         }
     },
     "p": {
-        "@modified": "2023-10-28T12:20:57.520Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 7000,
@@ -4120,6 +4252,22 @@
                 "s": ""
             }
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 685.6,
+                "unit": "J·kg[−1]·K[−1]",
+                "condition": [
+                    {
+                        "value": 298,
+                        "unit": "K"
+                    }
+                ]
+            },
+            "thermal_conductivity": {
+                "value": 0.236,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/%C4%8Cerven%C3%BD_fosfor.png",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:%C4%8Cerven%C3%BD_fosfor.png\">Ondřej Mangl</a>, Public domain, via Wikimedia Commons"
@@ -4160,7 +4308,17 @@
             "sanderson": 2.52,
             "allred": 2.06,
             "mulliken": 2.3,
-            "allen": 2.253
+            "allen": 2.253,
+            "ghosh_gupta": {
+                "value": 6.3405,
+                "unit": "eV"
+            },
+            "boyd": 2.17,
+            "nagle": 2.22,
+            "pearson": {
+                "value": 5.62,
+                "unit": "eV"
+            }
         },
         "number": 15,
         "optical": {
@@ -4237,22 +4395,6 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 685.6,
-                "unit": "J·kg[−1]·K[−1]",
-                "condition": [
-                    {
-                        "value": 298,
-                        "unit": "K"
-                    }
-                ]
-            },
-            "thermal_conductivity": {
-                "value": 0.236,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "toxicity": [
             {
                 "type": "LD{50}",
@@ -4292,7 +4434,7 @@
         }
     },
     "s": {
-        "@modified": "2023-10-28T12:21:30.025Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 500000,
@@ -4412,6 +4554,16 @@
                 "s": ""
             }
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 736,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 0.205,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Sulfur_-_El_Desierto_mine%2C_San_Pablo_de_Napa%2C_Daniel_Campos_Province%2C_Potos%C3%AD%2C_Bolivia.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Sulfur_-_El_Desierto_mine,_San_Pablo_de_Napa,_Daniel_Campos_Province,_Potos%C3%AD,_Bolivia.jpg\">Ivar Leidus</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons"
@@ -4453,7 +4605,17 @@
             "sanderson": 2.96,
             "allred": 2.44,
             "mulliken": 2.69,
-            "allen": 2.589
+            "allen": 2.589,
+            "ghosh_gupta": {
+                "value": 6.8379,
+                "unit": "eV"
+            },
+            "boyd": 2.64,
+            "nagle": 2.49,
+            "pearson": {
+                "value": 6.22,
+                "unit": "eV"
+            }
         },
         "number": 16,
         "optical": {
@@ -4540,23 +4702,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 736,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 0.205,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "wiki": {
             "en": "Sulfur",
             "de": "Schwefel"
         }
     },
     "cl": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 1000,
@@ -4707,6 +4859,16 @@
                 "s": "OX"
             }
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 480,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 0.0089,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Die_chemischen_elemente_cl.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Die_chemischen_elemente_cl.jpg\">Alexander C. Wimmer</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0/at/deed.en\">CC BY-SA 3.0 AT</a>, via Wikimedia Commons"
@@ -4744,7 +4906,17 @@
             "sanderson": 3.48,
             "allred": 2.83,
             "mulliken": 3.1,
-            "allen": 2.869
+            "allen": 2.869,
+            "ghosh_gupta": {
+                "value": 7.2923,
+                "unit": "eV"
+            },
+            "boyd": 3.05,
+            "nagle": 2.82,
+            "pearson": {
+                "value": 8.3,
+                "unit": "eV"
+            }
         },
         "number": 17,
         "optical": {
@@ -4829,23 +5001,13 @@
                 }
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 480,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 0.0089,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "wiki": {
             "en": "Chlorine",
             "de": "Chlor"
         }
     },
     "ar": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 200000,
@@ -4938,6 +5100,22 @@
                 "2.2"
             ]
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 319,
+                "unit": "J·kg[−1]·K[−1]",
+                "condition": [
+                    {
+                        "value": 293.15,
+                        "unit": "K"
+                    }
+                ]
+            },
+            "thermal_conductivity": {
+                "value": 0.01772,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Argon_discharge_tube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Argon_discharge_tube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>, via Wikimedia Commons"
@@ -4972,7 +5150,12 @@
             "sanderson": 3.31,
             "allred": 3.2,
             "mulliken": 3.19,
-            "allen": 3.242
+            "allen": 3.242,
+            "ghosh_gupta": {
+                "value": 7.6515,
+                "unit": "eV"
+            },
+            "nagle": 3.18
         },
         "number": 18,
         "optical": {
@@ -5059,29 +5242,13 @@
                 }
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 319,
-                "unit": "J·kg[−1]·K[−1]",
-                "condition": [
-                    {
-                        "value": 293.15,
-                        "unit": "K"
-                    }
-                ]
-            },
-            "thermal_conductivity": {
-                "value": 0.01772,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "wiki": {
             "en": "Argon",
             "de": "Argon"
         }
     },
     "k": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 3000,
@@ -5230,6 +5397,20 @@
                 "s": "W"
             }
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 757.8,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 100,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "work_function": {
+                "value": 2.3,
+                "unit": "eV"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/KaliumunterTetrahydrofuran.JPG",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:KaliumunterTetrahydrofuran.JPG\">Schmid &amp; Rauch</a>, Public domain, via Wikimedia Commons"
@@ -5270,7 +5451,17 @@
             "sanderson": 0.45,
             "allred": 0.91,
             "mulliken": 0.73,
-            "allen": 0.734
+            "allen": 0.734,
+            "ghosh_gupta": {
+                "value": 2.0027,
+                "unit": "eV"
+            },
+            "boyd": 0.99,
+            "nagle": 0.84,
+            "pearson": {
+                "value": 2.42,
+                "unit": "eV"
+            }
         },
         "number": 19,
         "oxidation_state": "-1, '''+1'''",
@@ -5357,27 +5548,13 @@
                 }
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 757.8,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 100,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "work_function": {
-                "value": 2.3,
-                "unit": "eV"
-            }
-        },
         "wiki": {
             "en": "Potassium",
             "de": "Kalium"
         }
     },
     "ca": {
-        "@modified": "2023-10-28T12:22:26.538Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 70000,
@@ -5532,6 +5709,24 @@
                 "s": "W"
             }
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 647.3,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 200,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000223,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 2.87,
+                "unit": "eV"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Calcium_unter_Argon_Schutzgasatmosph%C3%A4re.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Calcium_unter_Argon_Schutzgasatmosph%C3%A4re.jpg\">Matthias Zepper</a>, Public domain, via Wikimedia Commons"
@@ -5566,7 +5761,17 @@
             "sanderson": 0.95,
             "allred": 1.04,
             "mulliken": 1.08,
-            "allen": 1.034
+            "allen": 1.034,
+            "ghosh_gupta": {
+                "value": 2.6965,
+                "unit": "eV"
+            },
+            "boyd": 1.34,
+            "nagle": 1.11,
+            "pearson": {
+                "value": 2.2,
+                "unit": "eV"
+            }
         },
         "number": 20,
         "oxidation_state": "(+1) '''+2'''",
@@ -5649,31 +5854,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 647.3,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 200,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000223,
-                "unit": "K[-1]"
-            },
-            "work_function": {
-                "value": 2.87,
-                "unit": "eV"
-            }
-        },
         "wiki": {
             "en": "Calcium",
             "de": "Calcium"
         }
     },
     "sc": {
-        "@modified": "2023-10-28T12:22:37.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 30,
@@ -5801,6 +5988,20 @@
                 "02"
             ]
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 586,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 16,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000102,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Scandium_sublimed_dendritic_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Scandium_sublimed_dendritic_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
@@ -5839,7 +6040,16 @@
         "negativity": {
             "pauling": 1.36,
             "sanderson": 1.02,
-            "allred": 1.2
+            "allred": 1.2,
+            "ghosh_gupta": {
+                "value": 2.8571,
+                "unit": "eV"
+            },
+            "nagle": 1.17,
+            "pearson": {
+                "value": 3.34,
+                "unit": "eV"
+            }
         },
         "number": 21,
         "oxidation_state": "3",
@@ -5912,27 +6122,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 586,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 16,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000102,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Scandium",
             "de": "Scandium"
         }
     },
     "ti": {
-        "@modified": "2023-10-28T12:23:03.257Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 3000,
@@ -6074,6 +6270,24 @@
                 "02"
             ]
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 523,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 22,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000086,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 4.33,
+                "unit": "eV"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Titan-crystal_bar.JPG",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Titan-crystal_bar.JPG\">Alchemist-hp (pse-mendelejew.de)</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
@@ -6112,7 +6326,16 @@
         "negativity": {
             "pauling": 1.54,
             "sanderson": 1.09,
-            "allred": 1.32
+            "allred": 1.32,
+            "ghosh_gupta": {
+                "value": 3.004,
+                "unit": "eV"
+            },
+            "nagle": 1.23,
+            "pearson": {
+                "value": 3.45,
+                "unit": "eV"
+            }
         },
         "number": 22,
         "oxidation_state": "+2, +3, '''+4'''",
@@ -6192,31 +6415,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 523,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 22,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000086,
-                "unit": "K[-1]"
-            },
-            "work_function": {
-                "value": 4.33,
-                "unit": "eV"
-            }
-        },
         "wiki": {
             "en": "Titanium",
             "de": "Titan (Element)"
         }
     },
     "v": {
-        "@modified": "2023-10-28T12:23:26.043Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 1000,
@@ -6345,6 +6550,20 @@
             }
         },
         "hazard": null,
+        "heat": {
+            "heat_capacity": {
+                "value": 489,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 31,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000084,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Vanadium_crystal_bar_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Vanadium_crystal_bar_and_1cm3_cube.jpg\">Alchemist-hp (pse-mendelejew.de).</a>, FAL, via Wikimedia Commons"
@@ -6383,7 +6602,16 @@
         "negativity": {
             "pauling": 1.63,
             "sanderson": 1.39,
-            "allred": 1.45
+            "allred": 1.45,
+            "ghosh_gupta": {
+                "value": 3.1482,
+                "unit": "eV"
+            },
+            "nagle": 1.27,
+            "pearson": {
+                "value": 3.6,
+                "unit": "eV"
+            }
         },
         "number": 23,
         "optical": {
@@ -6465,27 +6693,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 489,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 31,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000084,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Vanadium",
             "de": "Vanadium"
         }
     },
     "cr": {
-        "@modified": "2023-10-28T12:23:52.371Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 15000,
@@ -6614,6 +6828,24 @@
             }
         },
         "hazard": null,
+        "heat": {
+            "heat_capacity": {
+                "value": 449,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 94,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000049,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 4.5,
+                "unit": "eV"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Chromium_crystals_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Chromium_crystals_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
@@ -6652,7 +6884,16 @@
         "negativity": {
             "pauling": 1.66,
             "sanderson": 1.66,
-            "allred": 1.56
+            "allred": 1.56,
+            "ghosh_gupta": {
+                "value": 3.2951,
+                "unit": "eV"
+            },
+            "nagle": 1.29,
+            "pearson": {
+                "value": 3.72,
+                "unit": "eV"
+            }
         },
         "number": 24,
         "oxidation_state": "6, 3, 2, 1",
@@ -6732,24 +6973,6 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 449,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 94,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000049,
-                "unit": "K[-1]"
-            },
-            "work_function": {
-                "value": 4.5,
-                "unit": "eV"
-            }
-        },
         "toxicity": [
             {
                 "type": "LC{50}",
@@ -6810,7 +7033,7 @@
         }
     },
     "mn": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 8000,
@@ -6956,6 +7179,24 @@
                 "s": ""
             }
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 479.5,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 7.8,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000217,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 4.1,
+                "unit": "eV"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Manganese_electrolytic_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Manganese_electrolytic_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
@@ -6994,7 +7235,16 @@
         "negativity": {
             "pauling": 1.55,
             "sanderson": 2.2,
-            "allred": 1.6
+            "allred": 1.6,
+            "ghosh_gupta": {
+                "value": 3.4349,
+                "unit": "eV"
+            },
+            "nagle": 1.36,
+            "pearson": {
+                "value": 3.72,
+                "unit": "eV"
+            }
         },
         "number": 25,
         "oxidation_state": "1, '''2''', 3, 4, (5), 6, 7",
@@ -7069,24 +7319,6 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 479.5,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 7.8,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000217,
-                "unit": "K[-1]"
-            },
-            "work_function": {
-                "value": 4.1,
-                "unit": "eV"
-            }
-        },
         "toxicity": [
             {
                 "type": "LD{50}",
@@ -7114,7 +7346,7 @@
         }
     },
     "fe": {
-        "@modified": "2023-10-28T12:24:19.218Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 1100000,
@@ -7233,6 +7465,24 @@
             }
         },
         "hazard": null,
+        "heat": {
+            "heat_capacity": {
+                "value": 449,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 80,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000118,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 4.5,
+                "unit": "eV"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Iron_electrolytic_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Iron_electrolytic_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
@@ -7261,7 +7511,16 @@
         "negativity": {
             "pauling": 1.83,
             "sanderson": 2.2,
-            "allred": 1.64
+            "allred": 1.64,
+            "ghosh_gupta": {
+                "value": 3.5836,
+                "unit": "eV"
+            },
+            "nagle": 1.4,
+            "pearson": {
+                "value": 4.06,
+                "unit": "eV"
+            }
         },
         "number": 26,
         "optical": {
@@ -7351,31 +7610,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 449,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 80,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000118,
-                "unit": "K[-1]"
-            },
-            "work_function": {
-                "value": 4.5,
-                "unit": "eV"
-            }
-        },
         "wiki": {
             "en": "Iron",
             "de": "Eisen"
         }
     },
     "co": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 3000,
@@ -7546,6 +7787,24 @@
                 "s": ""
             }
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 421,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 100,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.000013,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 5,
+                "unit": "eV"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Kobalt_electrolytic_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Kobalt_electrolytic_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
@@ -7574,7 +7833,16 @@
         "negativity": {
             "pauling": 1.88,
             "sanderson": 2.56,
-            "allred": 1.7
+            "allred": 1.7,
+            "ghosh_gupta": {
+                "value": 3.7305,
+                "unit": "eV"
+            },
+            "nagle": 1.44,
+            "pearson": {
+                "value": 4.3,
+                "unit": "eV"
+            }
         },
         "number": 27,
         "optical": {
@@ -7649,24 +7917,6 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 421,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 100,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.000013,
-                "unit": "K[-1]"
-            },
-            "work_function": {
-                "value": 5,
-                "unit": "eV"
-            }
-        },
         "toxicity": [
             {
                 "type": "LD{50}",
@@ -7684,7 +7934,7 @@
         }
     },
     "ni": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 60000,
@@ -7843,6 +8093,24 @@
                 "s": ""
             }
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 444,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 91,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000134,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 5.15,
+                "unit": "eV"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Nickel_chunk.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Nickel_chunk.jpg\">Materialscientist at English Wikipedia</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
@@ -7871,7 +8139,16 @@
         "negativity": {
             "pauling": 1.91,
             "sanderson": 1.94,
-            "allred": 1.75
+            "allred": 1.75,
+            "ghosh_gupta": {
+                "value": 3.8584,
+                "unit": "eV"
+            },
+            "nagle": 1.47,
+            "pearson": {
+                "value": 4.4,
+                "unit": "eV"
+            }
         },
         "number": 28,
         "optical": {
@@ -7950,24 +8227,6 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 444,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 91,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000134,
-                "unit": "K[-1]"
-            },
-            "work_function": {
-                "value": 5.15,
-                "unit": "eV"
-            }
-        },
         "toxicity": [
             {
                 "type": "LC{50}",
@@ -8014,7 +8273,7 @@
         }
     },
     "cu": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 60,
@@ -8156,6 +8415,24 @@
                 "09"
             ]
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 385,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 400,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000165,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 4.65,
+                "unit": "eV"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/NatCopper.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:NatCopper.jpg\">Native_Copper_Macro_Digon3.jpg: “Jonathan Zander (Digon3)&quot;derivative work: Materialscientist</a>, <a href=\"https://creativecommons.org/licenses/by-sa/2.5\">CC BY-SA 2.5</a>, via Wikimedia Commons"
@@ -8189,7 +8466,16 @@
             "pauling": 1.9,
             "sanderson": 1.98,
             "allred": 1.75,
-            "mulliken": 1.49
+            "mulliken": 1.49,
+            "ghosh_gupta": {
+                "value": 4.0026,
+                "unit": "eV"
+            },
+            "nagle": 1.51,
+            "pearson": {
+                "value": 4.48,
+                "unit": "eV"
+            }
         },
         "number": 29,
         "optical": {
@@ -8269,31 +8555,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 385,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 400,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000165,
-                "unit": "K[-1]"
-            },
-            "work_function": {
-                "value": 4.65,
-                "unit": "eV"
-            }
-        },
         "wiki": {
             "en": "Copper",
             "de": "Kupfer"
         }
     },
     "zn": {
-        "@modified": "2023-10-28T12:24:38.700Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 300,
@@ -8445,6 +8713,20 @@
                 "4.3"
             ]
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 388,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 120,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000302,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Zinc_fragment_sublimed_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Zinc_fragment_sublimed_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
@@ -8484,7 +8766,16 @@
             "pauling": 1.65,
             "sanderson": 2.23,
             "allred": 1.66,
-            "mulliken": 1.65
+            "mulliken": 1.65,
+            "ghosh_gupta": {
+                "value": 4.1332,
+                "unit": "eV"
+            },
+            "nagle": 1.46,
+            "pearson": {
+                "value": 4.45,
+                "unit": "eV"
+            }
         },
         "number": 30,
         "optical": {
@@ -8569,27 +8860,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 388,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 120,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000302,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Zinc",
             "de": "Zink"
         }
     },
     "ga": {
-        "@modified": "2023-10-28T12:24:44.180Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -8720,6 +8997,20 @@
                 "s": ""
             }
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 371,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 29,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.00012,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Gallium_crystals.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Gallium_crystals.jpg\">en:user:foobar</a>, <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\">CC BY-SA 3.0</a>, via Wikimedia Commons"
@@ -8760,7 +9051,17 @@
             "sanderson": 2.42,
             "allred": 1.82,
             "mulliken": 2.01,
-            "allen": 1.756
+            "allen": 1.756,
+            "ghosh_gupta": {
+                "value": 4.6638,
+                "unit": "eV"
+            },
+            "boyd": 1.75,
+            "nagle": 1.56,
+            "pearson": {
+                "value": 3.2,
+                "unit": "eV"
+            }
         },
         "number": 31,
         "oxidation_state": "3",
@@ -8841,27 +9142,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 371,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 29,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.00012,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Gallium",
             "de": "Gallium"
         }
     },
     "ge": {
-        "@modified": "2023-10-28T12:25:09.881Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 200,
@@ -8975,6 +9262,24 @@
                 "4.1"
             ]
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 308.3,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 60,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.000006,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 5,
+                "unit": "eV"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Polycrystalline-germanium.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Polycrystalline-germanium.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -9009,7 +9314,17 @@
             "sanderson": 2.62,
             "allred": 2.02,
             "mulliken": 2.33,
-            "allen": 1.994
+            "allen": 1.994,
+            "ghosh_gupta": {
+                "value": 5.1318,
+                "unit": "eV"
+            },
+            "boyd": 1.99,
+            "nagle": 1.81,
+            "pearson": {
+                "value": 4.6,
+                "unit": "eV"
+            }
         },
         "number": 32,
         "oxidation_state": "-4, 2, '''4'''",
@@ -9091,31 +9406,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 308.3,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 60,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.000006,
-                "unit": "K[-1]"
-            },
-            "work_function": {
-                "value": 5,
-                "unit": "eV"
-            }
-        },
         "wiki": {
             "en": "Germanium",
             "de": "Germanium"
         }
     },
     "as": {
-        "@modified": "2023-10-28T12:25:31.429Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 8,
@@ -9265,6 +9562,16 @@
                 "6.1"
             ]
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 328.5,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 50,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Native_arsenic.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Native_arsenic.jpg\">Aram Dulyan (User:Aramgutang)</a>, Public domain, via Wikimedia Commons"
@@ -9299,7 +9606,17 @@
             "sanderson": 2.82,
             "allred": 2.2,
             "mulliken": 2.26,
-            "allen": 2.211
+            "allen": 2.211,
+            "ghosh_gupta": {
+                "value": 5.5372,
+                "unit": "eV"
+            },
+            "boyd": 2.21,
+            "nagle": 2.11,
+            "pearson": {
+                "value": 5.3,
+                "unit": "eV"
+            }
         },
         "number": 33,
         "optical": {
@@ -9381,16 +9698,6 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 328.5,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 50,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "toxicity": [
             {
                 "type": "LD{50}",
@@ -9408,7 +9715,7 @@
         }
     },
     "se": {
-        "@modified": "2023-10-28T12:26:02.335Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 30,
@@ -9574,6 +9881,16 @@
                 "s": ""
             }
         },
+        "heat": {
+            "thermal_conductivity": {
+                "value": 0.52,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "work_function": {
+                "value": 5.9,
+                "unit": "eV"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Selenium_in_sandstone_Westwater_Canyon_Section_23_Mine_Grants%2C_New_Mexico.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Selenium_in_sandstone_Westwater_Canyon_Section_23_Mine_Grants,_New_Mexico.jpg\">James St. John</a>, <a href=\"https://creativecommons.org/licenses/by/2.0\">CC BY 2.0</a>, via Wikimedia Commons"
@@ -9615,7 +9932,17 @@
             "sanderson": 3.01,
             "allred": 2.48,
             "mulliken": 2.6,
-            "allen": 2.424
+            "allen": 2.424,
+            "ghosh_gupta": {
+                "value": 5.8746,
+                "unit": "eV"
+            },
+            "boyd": 2.46,
+            "nagle": 2.31,
+            "pearson": {
+                "value": 5.89,
+                "unit": "eV"
+            }
         },
         "number": 34,
         "optical": {
@@ -9709,23 +10036,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 0.52,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "work_function": {
-                "value": 5.9,
-                "unit": "eV"
-            }
-        },
         "wiki": {
             "en": "Selenium",
             "de": "Selen"
         }
     },
     "br": {
-        "@modified": "2023-10-28T12:26:45.278Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 7,
@@ -9861,6 +10178,12 @@
                 "s": ""
             }
         },
+        "heat": {
+            "thermal_conductivity": {
+                "value": 0.12,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Bromine-ampoule.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Bromine-ampoule.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -9898,7 +10221,17 @@
             "sanderson": 3.22,
             "allred": 2.74,
             "mulliken": 2.95,
-            "allen": 2.685
+            "allen": 2.685,
+            "ghosh_gupta": {
+                "value": 6.1658,
+                "unit": "eV"
+            },
+            "boyd": 2.75,
+            "nagle": 2.56,
+            "pearson": {
+                "value": 7.59,
+                "unit": "eV"
+            }
         },
         "number": 35,
         "optical": {
@@ -9992,12 +10325,6 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 0.12,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "toxicity": [
             {
                 "type": "LD{50}",
@@ -10042,7 +10369,7 @@
         }
     },
     "kr": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 40,
@@ -10137,6 +10464,12 @@
                 "2.2"
             ]
         },
+        "heat": {
+            "thermal_conductivity": {
+                "value": 0.00949,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Krypton_discharge_tube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Krypton_discharge_tube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>, via Wikimedia Commons"
@@ -10178,7 +10511,12 @@
             "sanderson": 2.91,
             "allred": 2.94,
             "mulliken": 3,
-            "allen": 2.966
+            "allen": 2.966,
+            "ghosh_gupta": {
+                "value": 6.3916,
+                "unit": "eV"
+            },
+            "nagle": 2.82
         },
         "number": 36,
         "optical": {
@@ -10256,19 +10594,13 @@
                 }
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 0.00949,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "wiki": {
             "en": "Krypton",
             "de": "Krypton"
         }
     },
     "rb": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -10417,6 +10749,16 @@
                 "s": "W"
             }
         },
+        "heat": {
+            "thermal_conductivity": {
+                "value": 58,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "work_function": {
+                "value": 2.16,
+                "unit": "eV"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Rb5.JPG",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Rb5.JPG\">Dnn87</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -10457,7 +10799,16 @@
             "sanderson": 0.31,
             "allred": 0.89,
             "mulliken": 0.69,
-            "allen": 0.706
+            "allen": 0.706,
+            "ghosh_gupta": {
+                "value": 2.0135,
+                "unit": "eV"
+            },
+            "nagle": 0.83,
+            "pearson": {
+                "value": 2.34,
+                "unit": "eV"
+            }
         },
         "number": 37,
         "oxidation_state": "-1, '''+1'''",
@@ -10549,23 +10900,13 @@
                 }
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 58,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "work_function": {
-                "value": 2.16,
-                "unit": "eV"
-            }
-        },
         "wiki": {
             "en": "Rubidium",
             "de": "Rubidium"
         }
     },
     "sr": {
-        "@modified": "2023-10-28T12:27:00.849Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 40,
@@ -10705,6 +11046,20 @@
                 "s": "W"
             }
         },
+        "heat": {
+            "thermal_conductivity": {
+                "value": 35,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000225,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 2.59,
+                "unit": "eV"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Strontium_destilled_crystals.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Strontium_destilled_crystals.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
@@ -10745,7 +11100,16 @@
             "sanderson": 0.72,
             "allred": 0.99,
             "mulliken": 1,
-            "allen": 0.963
+            "allen": 0.963,
+            "ghosh_gupta": {
+                "value": 2.5849,
+                "unit": "eV"
+            },
+            "nagle": 1.06,
+            "pearson": {
+                "value": 2,
+                "unit": "eV"
+            }
         },
         "number": 38,
         "oxidation_state": "+2",
@@ -10818,27 +11182,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 35,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000225,
-                "unit": "K[-1]"
-            },
-            "work_function": {
-                "value": 2.59,
-                "unit": "eV"
-            }
-        },
         "wiki": {
             "en": "Strontium",
             "de": "Strontium"
         }
     },
     "y": {
-        "@modified": "2023-10-28T12:27:50.993Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 7,
@@ -10969,6 +11319,16 @@
                 "02"
             ]
         },
+        "heat": {
+            "thermal_conductivity": {
+                "value": 17,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000106,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Yttrium_sublimed_dendritic_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Yttrium_sublimed_dendritic_and_1cm3_cube.jpg\">Alchemist-hp (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
@@ -11007,7 +11367,16 @@
         "negativity": {
             "pauling": 1.22,
             "sanderson": 0.65,
-            "allred": 1.11
+            "allred": 1.11,
+            "ghosh_gupta": {
+                "value": 2.7237,
+                "unit": "eV"
+            },
+            "nagle": 1.11,
+            "pearson": {
+                "value": 3.19,
+                "unit": "eV"
+            }
         },
         "number": 39,
         "oxidation_state": "+3",
@@ -11087,23 +11456,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 17,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000106,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Yttrium",
             "de": "Yttrium"
         }
     },
     "zr": {
-        "@modified": "2023-10-28T12:28:16.250Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 50,
@@ -11251,6 +11610,20 @@
                 "s": ""
             }
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 270,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 22.7,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000057,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Zirconium_crystal_bar_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Zirconium_crystal_bar_and_1cm3_cube.jpg\">Alchemist-hp (pse-mendelejew.de).</a>, FAL, via Wikimedia Commons"
@@ -11279,7 +11652,16 @@
         "negativity": {
             "pauling": 1.33,
             "sanderson": 0.9,
-            "allred": 1.22
+            "allred": 1.22,
+            "ghosh_gupta": {
+                "value": 2.8489,
+                "unit": "eV"
+            },
+            "nagle": 1.17,
+            "pearson": {
+                "value": 3.64,
+                "unit": "eV"
+            }
         },
         "number": 40,
         "oxidation_state": "4, 2",
@@ -11353,27 +11735,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 270,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 22.7,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000057,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Zirconium",
             "de": "Zirconium"
         }
     },
     "nb": {
-        "@modified": "2023-10-28T12:28:35.424Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -11513,6 +11881,16 @@
                 "s": ""
             }
         },
+        "heat": {
+            "thermal_conductivity": {
+                "value": 54,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000073,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Niobium_crystals_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Niobium_crystals_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
@@ -11541,7 +11919,16 @@
         "negativity": {
             "pauling": 1.6,
             "sanderson": 1.42,
-            "allred": 1.23
+            "allred": 1.23,
+            "ghosh_gupta": {
+                "value": 2.974,
+                "unit": "eV"
+            },
+            "nagle": 1.21,
+            "pearson": {
+                "value": 4,
+                "unit": "eV"
+            }
         },
         "number": 41,
         "oxidation_state": "2, 4, '''5'''",
@@ -11622,23 +12009,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 54,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000073,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Niobium",
             "de": "Niob"
         }
     },
     "mo": {
-        "@modified": "2023-10-28T12:28:59.777Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 5,
@@ -11767,6 +12144,16 @@
             }
         },
         "hazard": null,
+        "heat": {
+            "thermal_conductivity": {
+                "value": 139,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000048,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Molybdenum_crystaline_fragment_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Molybdenum_crystaline_fragment_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
@@ -11805,7 +12192,16 @@
         "negativity": {
             "pauling": 2.16,
             "sanderson": 1.15,
-            "allred": 1.3
+            "allred": 1.3,
+            "ghosh_gupta": {
+                "value": 3.0992,
+                "unit": "eV"
+            },
+            "nagle": 1.26,
+            "pearson": {
+                "value": 3.9,
+                "unit": "eV"
+            }
         },
         "number": 42,
         "optical": {
@@ -11886,23 +12282,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 139,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000048,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Molybdenum",
             "de": "Molybdän"
         }
     },
     "tc": {
-        "@modified": "2023-10-28T17:12:29.174Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "appearance": {
             "en": "shiny gray metal",
             "de": "silbrig grau metallisch"
@@ -11976,6 +12362,12 @@
         "goldschmidt": "synthetic",
         "group": 7,
         "hazard": null,
+        "heat": {
+            "thermal_conductivity": {
+                "value": 51,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Technetium-sample-cropped.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Technetium-sample-cropped.jpg\">GFDL</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons"
@@ -12013,7 +12405,12 @@
         "natural_occurrence": "decay",
         "negativity": {
             "pauling": 1.9,
-            "allred": 1.36
+            "allred": 1.36,
+            "ghosh_gupta": {
+                "value": 3.2244,
+                "unit": "eV"
+            },
+            "nagle": 1.3
         },
         "number": 43,
         "oxidation_state": "-3 … 7",
@@ -12083,19 +12480,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 51,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "wiki": {
             "en": "Technetium",
             "de": "Technetium"
         }
     },
     "ru": {
-        "@modified": "2023-10-28T12:29:46.916Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 4,
@@ -12219,6 +12610,16 @@
                 "02"
             ]
         },
+        "heat": {
+            "thermal_conductivity": {
+                "value": 120,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000064,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Ruthenium_a_half_bar.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Ruthenium_a_half_bar.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
@@ -12256,7 +12657,16 @@
         "natural_occurrence": "primordial",
         "negativity": {
             "pauling": 2.2,
-            "allred": 1.42
+            "allred": 1.42,
+            "ghosh_gupta": {
+                "value": 3.336,
+                "unit": "eV"
+            },
+            "nagle": 1.35,
+            "pearson": {
+                "value": 4.5,
+                "unit": "eV"
+            }
         },
         "number": 44,
         "oxidation_state": "2, 3, '''4''', 6, 8",
@@ -12327,23 +12737,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 120,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000064,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Ruthenium",
             "de": "Ruthenium"
         }
     },
     "rh": {
-        "@modified": "2023-10-28T12:30:06.633Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 0.6,
@@ -12479,6 +12879,20 @@
                 "s": ""
             }
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 243,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 150,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000082,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Rhodium_powder_pressed_melted.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Rhodium_powder_pressed_melted.jpg\">Alchemist-hp (talk) www.pse-mendelejew.dederivative work: Purpy Pupple</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0/de/deed.en\">CC BY-SA 3.0 DE</a>, via Wikimedia Commons"
@@ -12516,7 +12930,16 @@
         "natural_occurrence": "primordial",
         "negativity": {
             "pauling": 2.28,
-            "allred": 1.45
+            "allred": 1.45,
+            "ghosh_gupta": {
+                "value": 3.4611,
+                "unit": "eV"
+            },
+            "nagle": 1.39,
+            "pearson": {
+                "value": 4.3,
+                "unit": "eV"
+            }
         },
         "number": 45,
         "optical": {
@@ -12604,27 +13027,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 243,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 150,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000082,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Rhodium",
             "de": "Rhodium"
         }
     },
     "pd": {
-        "@modified": "2023-10-28T12:30:28.110Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -12764,6 +13173,16 @@
                 "s": ""
             }
         },
+        "heat": {
+            "thermal_conductivity": {
+                "value": 72,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000118,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Palladium_crystals.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Palladium_crystals.jpg\">Hi-Res Images ofChemical Elements</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -12801,7 +13220,16 @@
         "natural_occurrence": "primordial",
         "negativity": {
             "pauling": 2.2,
-            "allred": 1.35
+            "allred": 1.35,
+            "ghosh_gupta": {
+                "value": 3.5727,
+                "unit": "eV"
+            },
+            "nagle": 1.61,
+            "pearson": {
+                "value": 4.45,
+                "unit": "eV"
+            }
         },
         "number": 46,
         "optical": {
@@ -12885,23 +13313,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 72,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000118,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Palladium",
             "de": "Palladium"
         }
     },
     "ag": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 0.6,
@@ -13048,6 +13466,30 @@
                 "s": ""
             }
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 235,
+                "unit": "J·kg[−1]·K[−1]",
+                "condition": [
+                    {
+                        "value": 298.15,
+                        "unit": "K"
+                    }
+                ]
+            },
+            "thermal_conductivity": {
+                "value": 430,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000189,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 4.26,
+                "unit": "eV"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Silver_crystal.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Silver_crystal.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0/de/deed.en\">CC BY-SA 3.0 DE</a>, via Wikimedia Commons"
@@ -13087,7 +13529,16 @@
             "pauling": 1.93,
             "sanderson": 1.83,
             "allred": 1.42,
-            "mulliken": 1.47
+            "mulliken": 1.47,
+            "ghosh_gupta": {
+                "value": 3.6842,
+                "unit": "eV"
+            },
+            "nagle": 1.45,
+            "pearson": {
+                "value": 4.44,
+                "unit": "eV"
+            }
         },
         "number": 47,
         "optical": {
@@ -13168,30 +13619,6 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 235,
-                "unit": "J·kg[−1]·K[−1]",
-                "condition": [
-                    {
-                        "value": 298.15,
-                        "unit": "K"
-                    }
-                ]
-            },
-            "thermal_conductivity": {
-                "value": 430,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000189,
-                "unit": "K[-1]"
-            },
-            "work_function": {
-                "value": 4.26,
-                "unit": "eV"
-            }
-        },
         "toxicity": [
             {
                 "type": "LC{50}",
@@ -13256,7 +13683,7 @@
         }
     },
     "cd": {
-        "@modified": "2023-10-28T12:31:17.230Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -13424,6 +13851,20 @@
                 "s": ""
             }
         },
+        "heat": {
+            "thermal_conductivity": {
+                "value": 97,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000308,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 4.2,
+                "unit": "eV"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Cadmium-crystal_bar.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Cadmium-crystal_bar.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
@@ -13457,7 +13898,16 @@
             "pauling": 1.69,
             "sanderson": 1.98,
             "allred": 1.46,
-            "mulliken": 1.53
+            "mulliken": 1.53,
+            "ghosh_gupta": {
+                "value": 3.7958,
+                "unit": "eV"
+            },
+            "nagle": 1.45,
+            "pearson": {
+                "value": 4.33,
+                "unit": "eV"
+            }
         },
         "number": 48,
         "optical": {
@@ -13546,20 +13996,6 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 97,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000308,
-                "unit": "K[-1]"
-            },
-            "work_function": {
-                "value": 4.2,
-                "unit": "eV"
-            }
-        },
         "toxicity": [
             {
                 "type": "LD{50}",
@@ -13629,7 +14065,7 @@
         }
     },
     "in": {
-        "@modified": "2023-10-28T12:31:55.009Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 0.3,
@@ -13754,6 +14190,20 @@
                 "s": ""
             }
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 233,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 81.6,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000321,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Indium_wetting_glass.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Indium_wetting_glass.jpg\">Schtone</a>, Public domain, via Wikimedia Commons"
@@ -13794,7 +14244,16 @@
             "sanderson": 2.14,
             "allred": 1.49,
             "mulliken": 1.76,
-            "allen": 1.656
+            "allen": 1.656,
+            "ghosh_gupta": {
+                "value": 4.253,
+                "unit": "eV"
+            },
+            "nagle": 1.52,
+            "pearson": {
+                "value": 3.1,
+                "unit": "eV"
+            }
         },
         "number": 49,
         "oxidation_state": "'''3''', 1",
@@ -13885,27 +14344,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 233,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 81.6,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000321,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Indium",
             "de": "Indium"
         }
     },
     "sn": {
-        "@modified": "2023-10-28T12:32:20.554Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 4,
@@ -14040,6 +14485,20 @@
             }
         },
         "hazard": null,
+        "heat": {
+            "thermal_conductivity": {
+                "value": 67,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.000022,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 4.42,
+                "unit": "eV"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Tin-2.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Tin-2.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -14080,7 +14539,16 @@
             "sanderson": 1.49,
             "allred": 1.72,
             "mulliken": 2.21,
-            "allen": 1.824
+            "allen": 1.824,
+            "ghosh_gupta": {
+                "value": 4.672,
+                "unit": "eV"
+            },
+            "nagle": 1.7,
+            "pearson": {
+                "value": 4.3,
+                "unit": "eV"
+            }
         },
         "number": 50,
         "optical": {
@@ -14171,27 +14639,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 67,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.000022,
-                "unit": "K[-1]"
-            },
-            "work_function": {
-                "value": 4.42,
-                "unit": "eV"
-            }
-        },
         "wiki": {
             "en": "Tin",
             "de": "Zinn"
         }
     },
     "sb": {
-        "@modified": "2023-10-28T12:32:40.761Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 0.4,
@@ -14319,6 +14773,16 @@
                 "6.1"
             ]
         },
+        "heat": {
+            "thermal_conductivity": {
+                "value": 24,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.000011,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Antimony-4.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Antimony-4.jpg\">http://images-of-elements.com/</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -14353,7 +14817,16 @@
             "sanderson": 2.46,
             "allred": 1.82,
             "mulliken": 2.12,
-            "allen": 1.984
+            "allen": 1.984,
+            "ghosh_gupta": {
+                "value": 5.0203,
+                "unit": "eV"
+            },
+            "nagle": 1.88,
+            "pearson": {
+                "value": 4.85,
+                "unit": "eV"
+            }
         },
         "number": 51,
         "optical": {
@@ -14436,23 +14909,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 24,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.000011,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Antimony",
             "de": "Antimon"
         }
     },
     "te": {
-        "@modified": "2023-10-28T12:33:03.540Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 9,
@@ -14583,6 +15046,12 @@
                 "s": ""
             }
         },
+        "heat": {
+            "thermal_conductivity": {
+                "value": 3,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Tellurium2.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Tellurium2.jpg\">http://images-of-elements.com/tellurium.php</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -14624,7 +15093,16 @@
             "sanderson": 2.62,
             "allred": 2.01,
             "mulliken": 2.41,
-            "allen": 2.158
+            "allen": 2.158,
+            "ghosh_gupta": {
+                "value": 5.325,
+                "unit": "eV"
+            },
+            "nagle": 2.08,
+            "pearson": {
+                "value": 5.49,
+                "unit": "eV"
+            }
         },
         "number": 52,
         "optical": {
@@ -14715,19 +15193,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 3,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "wiki": {
             "en": "Tellurium",
             "de": "Tellur"
         }
     },
     "i": {
-        "@modified": "2023-10-28T12:33:39.111Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -14880,6 +15352,12 @@
                 "s": ""
             }
         },
+        "heat": {
+            "thermal_conductivity": {
+                "value": 0.449,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Sample_of_iodine.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Sample_of_iodine.jpg\">LHcheM</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
@@ -14922,7 +15400,16 @@
             "sanderson": 2.78,
             "allred": 2.21,
             "mulliken": 2.74,
-            "allen": 2.359
+            "allen": 2.359,
+            "ghosh_gupta": {
+                "value": 5.5916,
+                "unit": "eV"
+            },
+            "nagle": 2.27,
+            "pearson": {
+                "value": 6.76,
+                "unit": "eV"
+            }
         },
         "number": 53,
         "oxidation_state": "±1, 3, 5, 7",
@@ -15011,12 +15498,6 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 0.449,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "toxicity": [
             {
                 "type": "LD{50}",
@@ -15072,7 +15553,7 @@
         }
     },
     "xe": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -15181,6 +15662,12 @@
                 "s": "SA"
             }
         },
+        "heat": {
+            "thermal_conductivity": {
+                "value": 0.00569,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Xenon_discharge_tube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Xenon_discharge_tube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
@@ -15222,7 +15709,12 @@
             "sanderson": 2.34,
             "allred": 2.4,
             "mulliken": 2.73,
-            "allen": 2.582
+            "allen": 2.582,
+            "ghosh_gupta": {
+                "value": 5.8121,
+                "unit": "eV"
+            },
+            "nagle": 2.45
         },
         "number": 54,
         "optical": {
@@ -15310,19 +15802,13 @@
                 }
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 0.00569,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "wiki": {
             "en": "Xenon",
             "de": "Xenon"
         }
     },
     "cs": {
-        "@modified": "2023-10-28T12:34:00.912Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 0.8,
@@ -15471,6 +15957,16 @@
                 "s": "W"
             }
         },
+        "heat": {
+            "thermal_conductivity": {
+                "value": 36,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "work_function": {
+                "value": 2.14,
+                "unit": "eV"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Cesium.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Cesium.jpg\">Dnn87 Contact email: Dnn87yahoo.dk</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
@@ -15500,7 +15996,12 @@
             "pauling": 0.79,
             "sanderson": 0.22,
             "allred": 0.86,
-            "mulliken": 0.62
+            "mulliken": 0.62,
+            "nagle": 0.79,
+            "pearson": {
+                "value": 2.18,
+                "unit": "eV"
+            }
         },
         "number": 55,
         "oxidation_state": "+1",
@@ -15582,23 +16083,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 36,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "work_function": {
-                "value": 2.14,
-                "unit": "eV"
-            }
-        },
         "wiki": {
             "en": "Caesium",
             "de": "Caesium"
         }
     },
     "ba": {
-        "@modified": "2023-10-28T12:34:15.498Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -15753,6 +16244,24 @@
                 "s": "W"
             }
         },
+        "heat": {
+            "thermal_conductivity": {
+                "value": 18,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000206,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 2.7,
+                "range": [
+                    1.8,
+                    2.52
+                ],
+                "unit": "eV"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Barium_dendritic.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Barium_dendritic.jpg\">La2O3</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons"
@@ -15786,7 +16295,12 @@
             "pauling": 0.89,
             "sanderson": 0.68,
             "allred": 0.97,
-            "mulliken": 0.88
+            "mulliken": 0.88,
+            "nagle": 0.98,
+            "pearson": {
+                "value": 2.4,
+                "unit": "eV"
+            }
         },
         "number": 56,
         "oxidation_state": "+2",
@@ -15864,31 +16378,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 18,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000206,
-                "unit": "K[-1]"
-            },
-            "work_function": {
-                "value": 2.7,
-                "range": [
-                    1.8,
-                    2.52
-                ],
-                "unit": "eV"
-            }
-        },
         "wiki": {
             "en": "Barium",
             "de": "Barium"
         }
     },
     "la": {
-        "@modified": "2023-10-28T12:34:25.442Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -16032,6 +16528,16 @@
                 "s": "W"
             }
         },
+        "heat": {
+            "thermal_conductivity": {
+                "value": 13,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000121,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Lanthanum-2.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Lanthanum-2.jpg\">Jurii (Lanthanum-138 at en.wikipedia</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -16069,7 +16575,12 @@
         "natural_occurrence": "primordial",
         "negativity": {
             "pauling": 1.1,
-            "allred": 1.08
+            "allred": 1.08,
+            "nagle": 1.04,
+            "pearson": {
+                "value": 3.1,
+                "unit": "eV"
+            }
         },
         "number": 57,
         "oxidation_state": "3",
@@ -16140,23 +16651,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 13,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000121,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Lanthanum",
             "de": "Lanthan"
         }
     },
     "ce": {
-        "@modified": "2023-10-28T12:35:18.035Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -16305,6 +16806,16 @@
                 "s": ""
             }
         },
+        "heat": {
+            "thermal_conductivity": {
+                "value": 11,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000063,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Cerium2.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Cerium2.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/1.0\">CC BY 1.0</a>, via Wikimedia Commons"
@@ -16342,7 +16853,8 @@
         "natural_occurrence": "primordial",
         "negativity": {
             "pauling": 1.12,
-            "allred": 1.08
+            "allred": 1.08,
+            "nagle": 1.05
         },
         "number": 58,
         "oxidation_state": "'''3''', 4",
@@ -16419,23 +16931,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 11,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000063,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Cerium",
             "de": "Cer"
         }
     },
     "pr": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -16580,6 +17082,16 @@
                 "s": ""
             }
         },
+        "heat": {
+            "thermal_conductivity": {
+                "value": 13,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000067,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Praseodymium.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Praseodymium.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -16617,7 +17129,8 @@
         "natural_occurrence": "primordial",
         "negativity": {
             "pauling": 1.13,
-            "allred": 1.07
+            "allred": 1.07,
+            "nagle": 1.06
         },
         "number": 59,
         "oxidation_state": "'''3''', 4, 2",
@@ -16694,23 +17207,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 13,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000067,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Praseodymium",
             "de": "Praseodym"
         }
     },
     "nd": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -16856,6 +17359,16 @@
                 "s": ""
             }
         },
+        "heat": {
+            "thermal_conductivity": {
+                "value": 17,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000096,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Neodymium2.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Neodymium2.jpg\">http://images-of-elements.com/</a>, <a href=\"https://creativecommons.org/licenses/by/1.0\">CC BY 1.0</a>, via Wikimedia Commons"
@@ -16893,7 +17406,8 @@
         "natural_occurrence": "primordial",
         "negativity": {
             "pauling": 1.14,
-            "allred": 1.07
+            "allred": 1.07,
+            "nagle": 1.03
         },
         "number": 60,
         "oxidation_state": "2, '''3''' , 4",
@@ -16969,23 +17483,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 17,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000096,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Neodymium",
             "de": "Neodym"
         }
     },
     "pm": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "sun": {
                 "value": 0.005,
@@ -17079,6 +17583,16 @@
         "goldschmidt": "synthetic",
         "group": 19,
         "hazard": null,
+        "heat": {
+            "thermal_conductivity": {
+                "value": 15,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.000011,
+                "unit": "K[-1]"
+            }
+        },
         "ionization": {
             "values": [
                 5.58187,
@@ -17101,7 +17615,8 @@
         },
         "natural_occurrence": "decay",
         "negativity": {
-            "allred": 1.07
+            "allred": 1.07,
+            "nagle": 1.04
         },
         "number": 61,
         "oxidation_state": "3",
@@ -17164,23 +17679,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 15,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.000011,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Promethium",
             "de": "Promethium"
         }
     },
     "sm": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 5,
@@ -17326,6 +17831,16 @@
                 "s": "W"
             }
         },
+        "heat": {
+            "thermal_conductivity": {
+                "value": 13,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000127,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Samarium-2.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Samarium-2.jpg\">http://images-of-elements.com/</a>, <a href=\"https://creativecommons.org/licenses/by/1.0\">CC BY 1.0</a>, via Wikimedia Commons"
@@ -17363,7 +17878,8 @@
         "natural_occurrence": "primordial",
         "negativity": {
             "pauling": 1.17,
-            "allred": 1.07
+            "allred": 1.07,
+            "nagle": 1.05
         },
         "number": 62,
         "oxidation_state": "2, '''3''",
@@ -17434,23 +17950,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 13,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000127,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Samarium",
             "de": "Samarium"
         }
     },
     "eu": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -17591,6 +18097,16 @@
                 "s": "W"
             }
         },
+        "heat": {
+            "thermal_conductivity": {
+                "value": 14,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.000035,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Europium.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Europium.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -17621,7 +18137,8 @@
         },
         "natural_occurrence": "primordial",
         "negativity": {
-            "allred": 1.01
+            "allred": 1.01,
+            "nagle": 1.06
         },
         "number": 63,
         "oxidation_state": "2, '''3'''",
@@ -17687,23 +18204,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 14,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.000035,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Europium",
             "de": "Europium"
         }
     },
     "gd": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -17843,6 +18350,16 @@
                 "s": "W"
             }
         },
+        "heat": {
+            "thermal_conductivity": {
+                "value": 11,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000094,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Gadolinium-4.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Gadolinium-4.jpg\">http://images-of-elements.com/gadolinium.php</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -17880,7 +18397,8 @@
         "natural_occurrence": "primordial",
         "negativity": {
             "pauling": 1.2,
-            "allred": 1.11
+            "allred": 1.11,
+            "nagle": 1.1
         },
         "number": 64,
         "oxidation_state": "2, '''3'''",
@@ -17951,23 +18469,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 11,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000094,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Gadolinium",
             "de": "Gadolinium"
         }
     },
     "tb": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -18091,6 +18599,16 @@
             }
         },
         "hazard": null,
+        "heat": {
+            "thermal_conductivity": {
+                "value": 11,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000103,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Terbium-2.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Terbium-2.jpg\">http://images-of-elements.com/</a>, <a href=\"https://creativecommons.org/licenses/by/1.0\">CC BY 1.0</a>, via Wikimedia Commons"
@@ -18127,7 +18645,8 @@
         },
         "natural_occurrence": "primordial",
         "negativity": {
-            "allred": 1.1
+            "allred": 1.1,
+            "nagle": 1.08
         },
         "number": 65,
         "oxidation_state": "4, '''3'''",
@@ -18199,23 +18718,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 11,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000103,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Terbium",
             "de": "Terbium"
         }
     },
     "dy": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -18355,6 +18864,16 @@
                 "4.1"
             ]
         },
+        "heat": {
+            "thermal_conductivity": {
+                "value": 11,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000099,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Dy_chips.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Dy_chips.jpg\">Materialscientist at en.wikipedia</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
@@ -18392,7 +18911,8 @@
         "natural_occurrence": "primordial",
         "negativity": {
             "pauling": 1.22,
-            "allred": 1.1
+            "allred": 1.1,
+            "nagle": 1.09
         },
         "number": 66,
         "oxidation_state": "3",
@@ -18468,23 +18988,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 11,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000099,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Dysprosium",
             "de": "Dysprosium"
         }
     },
     "ho": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -18620,6 +19130,16 @@
                 "4.1"
             ]
         },
+        "heat": {
+            "thermal_conductivity": {
+                "value": 16,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000112,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Holmium2.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Holmium2.jpg\">http://images-of-elements.com/</a>, <a href=\"https://creativecommons.org/licenses/by/1.0\">CC BY 1.0</a>, via Wikimedia Commons"
@@ -18647,7 +19167,8 @@
         "natural_occurrence": "primordial",
         "negativity": {
             "pauling": 1.23,
-            "allred": 1.1
+            "allred": 1.1,
+            "nagle": 1.1
         },
         "number": 67,
         "oxidation_state": "3",
@@ -18718,23 +19239,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 16,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000112,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Holmium",
             "de": "Holmium"
         }
     },
     "er": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -18874,6 +19385,16 @@
                 "4.1"
             ]
         },
+        "heat": {
+            "thermal_conductivity": {
+                "value": 15,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000122,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Erbium_%2868_Er%29.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Erbium_(68_Er).jpg\">Hi-Res Images of Chemical Elements</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -18905,7 +19426,8 @@
         "natural_occurrence": "primordial",
         "negativity": {
             "pauling": 1.24,
-            "allred": 1.11
+            "allred": 1.11,
+            "nagle": 1.11
         },
         "number": 68,
         "oxidation_state": "3",
@@ -18975,23 +19497,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 15,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000122,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Erbium",
             "de": "Erbium"
         }
     },
     "tm": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 0.1,
@@ -19136,6 +19648,16 @@
                 "4.1"
             ]
         },
+        "heat": {
+            "thermal_conductivity": {
+                "value": 16.8,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000133,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Thulium_sublimed_dendritic_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Thulium_sublimed_dendritic_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
@@ -19173,7 +19695,8 @@
         "natural_occurrence": "primordial",
         "negativity": {
             "pauling": 1.25,
-            "allred": 1.11
+            "allred": 1.11,
+            "nagle": 1.12
         },
         "number": 69,
         "oxidation_state": "2, '''3''', 4",
@@ -19240,23 +19763,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 16.8,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000133,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Thulium",
             "de": "Thulium"
         }
     },
     "yb": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -19406,6 +19919,16 @@
                 "4.1"
             ]
         },
+        "heat": {
+            "thermal_conductivity": {
+                "value": 39,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000263,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Ytterbium-3.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Ytterbium-3.jpg\">Jurii</a>, <a href=\"https://creativecommons.org/licenses/by/1.0\">CC BY 1.0</a>, via Wikimedia Commons"
@@ -19442,7 +19965,8 @@
         },
         "natural_occurrence": "primordial",
         "negativity": {
-            "allred": 1.06
+            "allred": 1.06,
+            "nagle": 1.13
         },
         "number": 70,
         "oxidation_state": "2, '''3'''",
@@ -19518,23 +20042,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 39,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000263,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Ytterbium",
             "de": "Ytterbium"
         }
     },
     "lu": {
-        "@modified": "2023-10-28T12:35:40.880Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 0.1,
@@ -19672,6 +20186,16 @@
                 "02"
             ]
         },
+        "heat": {
+            "thermal_conductivity": {
+                "value": 16,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000099,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Lutetium_sublimed_dendritic_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Lutetium_sublimed_dendritic_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
@@ -19699,7 +20223,8 @@
         "natural_occurrence": "primordial",
         "negativity": {
             "pauling": 1.27,
-            "allred": 1.14
+            "allred": 1.14,
+            "nagle": 1.12
         },
         "number": 71,
         "oxidation_state": "3",
@@ -19769,23 +20294,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 16,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000099,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Lutetium",
             "de": "Lutetium"
         }
     },
     "hf": {
-        "@modified": "2023-10-28T12:35:41.129Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 0.7,
@@ -19922,6 +20437,20 @@
                 "4.2"
             ]
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 140,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 23,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000059,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Hafnium_bits.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Hafnium_bits.jpg\">Deglr6328 at the English-language Wikipedia</a>, <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\">CC BY-SA 3.0</a>, via Wikimedia Commons"
@@ -19959,7 +20488,12 @@
         "natural_occurrence": "primordial",
         "negativity": {
             "pauling": 1.3,
-            "allred": 1.23
+            "allred": 1.23,
+            "nagle": 1.2,
+            "pearson": {
+                "value": 3.8,
+                "unit": "eV"
+            }
         },
         "number": 72,
         "oxidation_state": "2, 4",
@@ -20039,27 +20573,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 140,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 23,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000059,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Hafnium",
             "de": "Hafnium"
         }
     },
     "ta": {
-        "@modified": "2023-10-28T12:36:04.008Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 0.08,
@@ -20196,6 +20716,20 @@
                 "4.1"
             ]
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 140,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 57,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000063,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Tantalum_single_crystal_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Tantalum_single_crystal_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
@@ -20233,7 +20767,12 @@
         "natural_occurrence": "primordial",
         "negativity": {
             "pauling": 1.5,
-            "allred": 1.33
+            "allred": 1.33,
+            "nagle": 1.26,
+            "pearson": {
+                "value": 4.11,
+                "unit": "eV"
+            }
         },
         "number": 73,
         "optical": {
@@ -20320,27 +20859,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 140,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 57,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000063,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Tantalum",
             "de": "Tantal"
         }
     },
     "w": {
-        "@modified": "2023-10-28T12:36:19.017Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -20485,6 +21010,24 @@
                 "4.1"
             ]
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 138,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 170,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000045,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 4.55,
+                "unit": "eV"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Wolfram_evaporated_crystals_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Wolfram_evaporated_crystals_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
@@ -20523,7 +21066,12 @@
         "negativity": {
             "pauling": 2.36,
             "sanderson": 0.98,
-            "allred": 1.4
+            "allred": 1.4,
+            "nagle": 1.31,
+            "pearson": {
+                "value": 4.4,
+                "unit": "eV"
+            }
         },
         "number": 74,
         "optical": {
@@ -20605,31 +21153,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 138,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 170,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000045,
-                "unit": "K[-1]"
-            },
-            "work_function": {
-                "value": 4.55,
-                "unit": "eV"
-            }
-        },
         "wiki": {
             "en": "Tungsten",
             "de": "Wolfram"
         }
     },
     "re": {
-        "@modified": "2023-10-28T12:37:20.943Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 0.2,
@@ -20766,6 +21296,20 @@
                 "4.1"
             ]
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 137,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 48,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000062,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Rhenium_single_crystal_bar_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Rhenium_single_crystal_bar_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
@@ -20803,7 +21347,12 @@
         "natural_occurrence": "primordial",
         "negativity": {
             "pauling": 1.9,
-            "allred": 1.46
+            "allred": 1.46,
+            "nagle": 1.35,
+            "pearson": {
+                "value": 4.02,
+                "unit": "eV"
+            }
         },
         "number": 75,
         "oxidation_state": "-3 … 7",
@@ -20883,27 +21432,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 137,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 48,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000062,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Rhenium",
             "de": "Rhenium"
         }
     },
     "os": {
-        "@modified": "2023-10-28T12:37:40.717Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 3,
@@ -21028,6 +21563,20 @@
                 "4.1"
             ]
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 130,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 88,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000051,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Osmium_crystals.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Osmium_crystals.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a> (FAL or <a href=\"http://www.gnu.org/licenses/old-licenses/fdl-1.2.html\">GFDL 1.2</a>), via Wikimedia Commons"
@@ -21059,7 +21608,12 @@
         "natural_occurrence": "primordial",
         "negativity": {
             "pauling": 2.2,
-            "allred": 1.52
+            "allred": 1.52,
+            "nagle": 1.39,
+            "pearson": {
+                "value": 4.9,
+                "unit": "eV"
+            }
         },
         "number": 76,
         "oxidation_state": "-2, 0, 2, 3, '''4''', 6, 8",
@@ -21141,27 +21695,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 130,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 88,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000051,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Osmium",
             "de": "Osmium"
         }
     },
     "ir": {
-        "@modified": "2023-10-28T12:37:58.263Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 2,
@@ -21290,6 +21830,16 @@
                 "4.1"
             ]
         },
+        "heat": {
+            "thermal_conductivity": {
+                "value": 150,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000064,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Iridium_foil.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Iridium_foil.jpg\">Dschwen</a>, <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\">CC BY-SA 3.0</a>, via Wikimedia Commons"
@@ -21327,7 +21877,12 @@
         "natural_occurrence": "primordial",
         "negativity": {
             "pauling": 2.2,
-            "allred": 1.55
+            "allred": 1.55,
+            "nagle": 1.43,
+            "pearson": {
+                "value": 5.4,
+                "unit": "eV"
+            }
         },
         "number": 77,
         "optical": {
@@ -21410,23 +21965,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 150,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000064,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Iridium",
             "de": "Iridium"
         }
     },
     "pt": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 5,
@@ -21543,6 +22088,24 @@
             }
         },
         "hazard": null,
+        "heat": {
+            "heat_capacity": {
+                "value": 130,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 72,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000088,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 5.65,
+                "unit": "eV"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Platinum_crystals.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Platinum_crystals.jpg\">Periodictableru</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -21580,7 +22143,12 @@
         "natural_occurrence": "primordial",
         "negativity": {
             "pauling": 2.28,
-            "allred": 1.44
+            "allred": 1.44,
+            "nagle": 1.49,
+            "pearson": {
+                "value": 5.6,
+                "unit": "eV"
+            }
         },
         "number": 78,
         "optical": {
@@ -21662,31 +22230,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 130,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 72,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000088,
-                "unit": "K[-1]"
-            },
-            "work_function": {
-                "value": 5.65,
-                "unit": "eV"
-            }
-        },
         "wiki": {
             "en": "Platinum",
             "de": "Platin"
         }
     },
     "au": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 0.6,
@@ -21811,6 +22361,24 @@
             }
         },
         "hazard": null,
+        "heat": {
+            "heat_capacity": {
+                "value": 128,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 320,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000142,
+                "unit": "K[-1]"
+            },
+            "work_function": {
+                "value": 5.1,
+                "unit": "eV"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Or_natif1.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Or_natif1.jpg\">Urban</a>, Public domain, via Wikimedia Commons"
@@ -21849,7 +22417,12 @@
         "negativity": {
             "pauling": 2.54,
             "allred": 1.42,
-            "mulliken": 1.87
+            "mulliken": 1.87,
+            "nagle": 1.53,
+            "pearson": {
+                "value": 5.77,
+                "unit": "eV"
+            }
         },
         "number": 79,
         "optical": {
@@ -21932,31 +22505,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 128,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 320,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000142,
-                "unit": "K[-1]"
-            },
-            "work_function": {
-                "value": 5.1,
-                "unit": "eV"
-            }
-        },
         "wiki": {
             "en": "Gold",
             "de": "Gold"
         }
     },
     "hg": {
-        "@modified": "2023-10-28T12:38:12.201Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 1,
@@ -22106,6 +22661,20 @@
                 "s": ""
             }
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 140,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 8.3,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "work_function": {
+                "value": 4.49,
+                "unit": "eV"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/HgKviks%C3%B8lv.JPG",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:HgKviks%C3%B8lv.JPG\">Dnn87</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -22135,7 +22704,12 @@
             "pauling": 2,
             "sanderson": 2.2,
             "allred": 1.44,
-            "mulliken": 1.81
+            "mulliken": 1.81,
+            "nagle": 1.54,
+            "pearson": {
+                "value": 4.91,
+                "unit": "eV"
+            }
         },
         "number": 80,
         "optical": {
@@ -22244,20 +22818,6 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 140,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 8.3,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "work_function": {
-                "value": 4.49,
-                "unit": "eV"
-            }
-        },
         "toxicity": [
             {
                 "type": "LC{50}",
@@ -22304,7 +22864,7 @@
         }
     },
     "tl": {
-        "@modified": "2023-10-28T12:38:33.623Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 0.5,
@@ -22445,6 +23005,20 @@
                 "s": ""
             }
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 129,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 46,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000299,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Thallium_pieces_in_ampoule.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Thallium_pieces_in_ampoule.jpg\">W. Oelen</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
@@ -22484,7 +23058,12 @@
             "pauling": 1.62,
             "sanderson": 2.25,
             "allred": 1.44,
-            "mulliken": 1.96
+            "mulliken": 1.96,
+            "nagle": 1.59,
+            "pearson": {
+                "value": 3.2,
+                "unit": "eV"
+            }
         },
         "number": 81,
         "oxidation_state": "'''1''', 3",
@@ -22571,27 +23150,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 129,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 46,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000299,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Thallium",
             "de": "Thallium"
         }
     },
     "pb": {
-        "@modified": "2023-10-28T12:39:11.176Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 10,
@@ -22751,6 +23316,20 @@
                 "s": ""
             }
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 131,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 35,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000289,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Lead-2.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Lead-2.jpg\">Chemical Elements</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -22790,7 +23369,12 @@
             "pauling": 2.33,
             "sanderson": 2.29,
             "allred": 1.55,
-            "mulliken": 2.41
+            "mulliken": 2.41,
+            "nagle": 1.76,
+            "pearson": {
+                "value": 3.9,
+                "unit": "eV"
+            }
         },
         "number": 82,
         "oxidation_state": "'''2''', 4",
@@ -22879,20 +23463,6 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 131,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 35,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000289,
-                "unit": "K[-1]"
-            }
-        },
         "toxicity": [
             {
                 "type": "LC{50}",
@@ -22929,7 +23499,7 @@
         }
     },
     "bi": {
-        "@modified": "2023-10-28T12:39:25.500Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 0.7,
@@ -23057,6 +23627,16 @@
                 "4.1"
             ]
         },
+        "heat": {
+            "thermal_conductivity": {
+                "value": 8,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000134,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Bismuth_crystals_and_1cm3_cube.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Bismuth_crystals_and_1cm3_cube.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
@@ -23090,7 +23670,12 @@
             "pauling": 2.02,
             "sanderson": 2.34,
             "allred": 1.67,
-            "mulliken": 2.15
+            "mulliken": 2.15,
+            "nagle": 1.83,
+            "pearson": {
+                "value": 4.69,
+                "unit": "eV"
+            }
         },
         "number": 83,
         "oxidation_state": "(-3), 1, '''3''', 5",
@@ -23178,16 +23763,6 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 8,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000134,
-                "unit": "K[-1]"
-            }
-        },
         "toxicity": [
             {
                 "type": "LD{50}",
@@ -23205,7 +23780,7 @@
         }
     },
     "po": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "water": {
                 "value": 2e-11,
@@ -23282,6 +23857,12 @@
         "goldschmidt": "synthetic",
         "group": 16,
         "hazard": null,
+        "heat": {
+            "thermal_conductivity": {
+                "value": 20,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "ionization": {
             "values": [
                 8.41807,
@@ -23307,7 +23888,8 @@
         "negativity": {
             "pauling": 2,
             "allred": 1.76,
-            "mulliken": 2.48
+            "mulliken": 2.48,
+            "nagle": 1.96
         },
         "number": 84,
         "oxidation_state": "(-2), 2, '''4''', 6",
@@ -23371,19 +23953,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 20,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "wiki": {
             "en": "Polonium",
             "de": "Polonium"
         }
     },
     "at": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "appearance": {
             "en": "unknown, probably metallic",
             "de": "metallisch"
@@ -23431,6 +24007,12 @@
         "goldschmidt": "synthetic",
         "group": 17,
         "hazard": null,
+        "heat": {
+            "thermal_conductivity": {
+                "value": 2,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "ionization": {
             "values": [
                 9.31751,
@@ -23457,7 +24039,8 @@
         "negativity": {
             "pauling": 2.2,
             "allred": 1.9,
-            "mulliken": 2.85
+            "mulliken": 2.85,
+            "nagle": 2.12
         },
         "number": 85,
         "oxidation_state": "±1, 3, 5, 7",
@@ -23489,19 +24072,13 @@
         ],
         "superconductivity": "none",
         "symbol": "At",
-        "heat": {
-            "thermal_conductivity": {
-                "value": 2,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "wiki": {
             "en": "Astatine",
             "de": "Astat"
         }
     },
     "rn": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "water": {
                 "value": 6e-13,
@@ -23568,6 +24145,12 @@
         "goldschmidt": "synthetic",
         "group": 18,
         "hazard": null,
+        "heat": {
+            "thermal_conductivity": {
+                "value": 0.00364,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "ionization": {
             "values": [
                 10.7485,
@@ -23591,7 +24174,8 @@
         },
         "natural_occurrence": "decay",
         "negativity": {
-            "mulliken": 2.59
+            "mulliken": 2.59,
+            "nagle": 2.27
         },
         "number": 86,
         "oxide_character": "acidic",
@@ -23651,19 +24235,13 @@
                 }
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 0.00364,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "wiki": {
             "en": "Radon",
             "de": "Radon"
         }
     },
     "fr": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "atomic_mass": {
             "value": 223.0197,
             "*": true,
@@ -23712,6 +24290,13 @@
         "goldschmidt": "synthetic",
         "group": 1,
         "hazard": null,
+        "heat": {
+            "thermal_conductivity": {
+                "value": 15,
+                "*": true,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Pichblende.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Pichblende.jpg\">Template:Farhan</a>, <a href=\"https://creativecommons.org/licenses/by-sa/2.5\">CC BY-SA 2.5</a>, via Wikimedia Commons"
@@ -23741,7 +24326,8 @@
         "negativity": {
             "pauling": 0.7,
             "allred": 0.86,
-            "mulliken": 0.68
+            "mulliken": 0.68,
+            "nagle": 0.82
         },
         "number": 87,
         "oxidation_state": "+1",
@@ -23800,20 +24386,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 15,
-                "*": true,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "wiki": {
             "en": "Francium",
             "de": "Francium"
         }
     },
     "ra": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "crust": {
                 "value": 0.0001,
@@ -23906,6 +24485,12 @@
         "goldschmidt": "synthetic",
         "group": 2,
         "hazard": null,
+        "heat": {
+            "thermal_conductivity": {
+                "value": 19,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Radium226.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Radium226.jpg\">grenadier</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -23934,7 +24519,8 @@
         "negativity": {
             "pauling": 0.9,
             "allred": 0.97,
-            "mulliken": 0.92
+            "mulliken": 0.92,
+            "nagle": 0.99
         },
         "number": 88,
         "oxidation_state": "2",
@@ -23992,19 +24578,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 19,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "wiki": {
             "en": "Radium",
             "de": "Radium"
         }
     },
     "ac": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "appearance": {
             "en": "silvery-white, glowing with an eerie blue light; sometimes with a golden cast",
             "de": "silbrig"
@@ -24054,6 +24634,12 @@
         "goldschmidt": "synthetic",
         "group": 20,
         "hazard": null,
+        "heat": {
+            "thermal_conductivity": {
+                "value": 12,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Actinium_sample_%2831481701837%29.png",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Actinium_sample_(31481701837).png\">Oak Ridge National Laboratory</a>, <a href=\"https://creativecommons.org/licenses/by/2.0\">CC BY 2.0</a>, via Wikimedia Commons"
@@ -24080,7 +24666,8 @@
         "natural_occurrence": "decay",
         "negativity": {
             "pauling": 1.1,
-            "allred": 1
+            "allred": 1,
+            "nagle": 1.03
         },
         "number": 89,
         "oxidation_state": "3",
@@ -24133,19 +24720,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 12,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "wiki": {
             "en": "Actinium",
             "de": "Actinium"
         }
     },
     "th": {
-        "@modified": "2023-10-28T12:40:14.023Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 0.4,
@@ -24264,6 +24845,16 @@
             }
         },
         "hazard": null,
+        "heat": {
+            "thermal_conductivity": {
+                "value": 54,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.000011,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Thorium_sample_0.1g.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Thorium_sample_0.1g.jpg\">Alchemist-hp (talk) (www.pse-mendelejew.de)</a>, FAL, via Wikimedia Commons"
@@ -24301,7 +24892,8 @@
         "natural_occurrence": "decay",
         "negativity": {
             "pauling": 1.3,
-            "allred": 1.11
+            "allred": 1.11,
+            "nagle": 1.03
         },
         "number": 90,
         "oxidation_state": "4, 3, 2",
@@ -24376,23 +24968,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 54,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.000011,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Thorium",
             "de": "Thorium"
         }
     },
     "pa": {
-        "@modified": "2023-10-28T12:40:36.999Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "crust": {
                 "value": 0.00001,
@@ -24469,6 +25051,12 @@
         "goldschmidt": "synthetic",
         "group": 20,
         "hazard": null,
+        "heat": {
+            "thermal_conductivity": {
+                "value": 47,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Protactinium-233.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Protactinium-233.jpg\">ENERGY.GOV</a>, Public domain, via Wikimedia Commons"
@@ -24496,7 +25084,8 @@
         "natural_occurrence": "decay",
         "negativity": {
             "pauling": 1.5,
-            "allred": 1.14
+            "allred": 1.14,
+            "nagle": 1.08
         },
         "number": 91,
         "oxidation_state": "5",
@@ -24555,19 +25144,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 47,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "wiki": {
             "en": "Protactinium",
             "de": "Protactinium"
         }
     },
     "u": {
-        "@modified": "2023-10-28T12:40:23.214Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "abundance": {
             "universe": {
                 "value": 0.2,
@@ -24717,6 +25300,20 @@
                 "s": "RAD"
             }
         },
+        "heat": {
+            "heat_capacity": {
+                "value": 116,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 27.6,
+                "unit": "W·m[-1]·K[-1]"
+            },
+            "thermal_expansion": {
+                "value": 0.0000139,
+                "unit": "K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Vacuum_capacitor_with_uranium_glass.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Vacuum_capacitor_with_uranium_glass.jpg\">Warut Roonguthai</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons"
@@ -24744,7 +25341,8 @@
         "natural_occurrence": "primordial",
         "negativity": {
             "pauling": 1.38,
-            "allred": 1.22
+            "allred": 1.22,
+            "nagle": 1.06
         },
         "number": 92,
         "oxidation_state": "+3, +4, +5, '''+6'''",
@@ -24821,27 +25419,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 116,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 27.6,
-                "unit": "W·m[-1]·K[-1]"
-            },
-            "thermal_expansion": {
-                "value": 0.0000139,
-                "unit": "K[-1]"
-            }
-        },
         "wiki": {
             "en": "Uranium",
             "de": "Uran"
         }
     },
     "np": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "appearance": {
             "en": "silvery metallic",
             "de": "silbrig"
@@ -24904,6 +25488,18 @@
         "goldschmidt": "synthetic",
         "group": 20,
         "hazard": null,
+        "heat": {
+            "thermal_conductivity": {
+                "value": 6.3,
+                "unit": "W·m[-1]·K[-1]",
+                "condition": [
+                    {
+                        "value": 300,
+                        "unit": "K"
+                    }
+                ]
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Np_sphere.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Np_sphere.jpg\">Los Alamos National Lab.</a>, Public domain, via Wikimedia Commons"
@@ -24931,7 +25527,8 @@
         "natural_occurrence": "decay",
         "negativity": {
             "pauling": 1.36,
-            "allred": 1.22
+            "allred": 1.22,
+            "nagle": 1.09
         },
         "number": 93,
         "oxidation_state": "+3, +4, '''+5''', +6, +7",
@@ -24994,25 +25591,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 6.3,
-                "unit": "W·m[-1]·K[-1]",
-                "condition": [
-                    {
-                        "value": 300,
-                        "unit": "K"
-                    }
-                ]
-            }
-        },
         "wiki": {
             "en": "Neptunium",
             "de": "Neptunium"
         }
     },
     "pu": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "appearance": {
             "en": "silvery white, tarnishing to dark gray in air",
             "de": "silbriges Metall"
@@ -25087,6 +25672,16 @@
         "goldschmidt": "synthetic",
         "group": 20,
         "hazard": null,
+        "heat": {
+            "heat_capacity": {
+                "value": 130,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 6.74,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Plutonium_ring.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Plutonium_ring.jpg\">Los Alamos National Laboratory</a>, Attribution, via Wikimedia Commons"
@@ -25114,7 +25709,8 @@
         "natural_occurrence": "decay",
         "negativity": {
             "pauling": 1.28,
-            "allred": 1.22
+            "allred": 1.22,
+            "nagle": 1.09
         },
         "number": 94,
         "oxidation_state": "+3, '''+4''', +5, +6, (+7)",
@@ -25182,16 +25778,6 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 130,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 6.74,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "toxicity": [
             {
                 "type": "LD{50}",
@@ -25223,7 +25809,7 @@
         }
     },
     "am": {
-        "@modified": "2023-10-28T12:41:15.370Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "appearance": {
             "en": "silvery white",
             "de": "silbrig-weißes Metall"
@@ -25272,6 +25858,22 @@
         "goldschmidt": "synthetic",
         "group": 20,
         "hazard": null,
+        "heat": {
+            "heat_capacity": {
+                "value": 0.11,
+                "unit": "J·kg[−1]·K[−1]"
+            },
+            "thermal_conductivity": {
+                "value": 10,
+                "unit": "W·m[-1]·K[-1]",
+                "condition": [
+                    {
+                        "value": 300,
+                        "unit": "K"
+                    }
+                ]
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Americium_microscope.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Americium_microscope.jpg\">Bionerd</a>, <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>, via Wikimedia Commons"
@@ -25303,7 +25905,8 @@
         "natural_occurrence": "synthetic",
         "negativity": {
             "pauling": 1.3,
-            "allred": 1.2
+            "allred": 1.2,
+            "nagle": 1.1
         },
         "number": 95,
         "oxidation_state": "+2, '''+3''', +4, +5, +6, (+7)",
@@ -25365,29 +25968,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "heat_capacity": {
-                "value": 0.11,
-                "unit": "J·kg[−1]·K[−1]"
-            },
-            "thermal_conductivity": {
-                "value": 10,
-                "unit": "W·m[-1]·K[-1]",
-                "condition": [
-                    {
-                        "value": 300,
-                        "unit": "K"
-                    }
-                ]
-            }
-        },
         "wiki": {
             "en": "Americium",
             "de": "Americium"
         }
     },
     "cm": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "appearance": {
             "en": "silvery metallic, glows purple in the dark",
             "de": "silbrig-weißes Metall"
@@ -25429,6 +26016,18 @@
         "goldschmidt": "synthetic",
         "group": 20,
         "hazard": null,
+        "heat": {
+            "thermal_conductivity": {
+                "value": 10,
+                "unit": "W·m[-1]·K[-1]",
+                "condition": [
+                    {
+                        "value": 300,
+                        "unit": "K"
+                    }
+                ]
+            }
+        },
         "ionization": {
             "values": [
                 5.99141,
@@ -25452,7 +26051,8 @@
         "natural_occurrence": "synthetic",
         "negativity": {
             "pauling": 1.3,
-            "allred": 1.2
+            "allred": 1.2,
+            "nagle": 1.11
         },
         "number": 96,
         "oxidation_state": "(+2), '''+3''', +4",
@@ -25509,25 +26109,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 10,
-                "unit": "W·m[-1]·K[-1]",
-                "condition": [
-                    {
-                        "value": 300,
-                        "unit": "K"
-                    }
-                ]
-            }
-        },
         "wiki": {
             "en": "Curium",
             "de": "Curium"
         }
     },
     "bk": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "appearance": {
             "en": "silvery",
             "de": "silberweiß"
@@ -25562,6 +26150,13 @@
         "goldschmidt": "synthetic",
         "group": 20,
         "hazard": null,
+        "heat": {
+            "thermal_conductivity": {
+                "value": 10,
+                "*": true,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Berkelium_metal.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Berkelium_metal.jpg\">Oak Ridge National Laboratory, US Department of Energy</a>, Public domain, via Wikimedia Commons"
@@ -25589,7 +26184,8 @@
         "natural_occurrence": "synthetic",
         "negativity": {
             "pauling": 1.3,
-            "allred": 1.2
+            "allred": 1.2,
+            "nagle": 1.11
         },
         "number": 97,
         "oxidation_state": "'''+3''', +4",
@@ -25640,20 +26236,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 10,
-                "*": true,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "wiki": {
             "en": "Berkelium",
             "de": "Berkelium"
         }
     },
     "cf": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "appearance": {
             "en": "silvery",
             "de": "silbriges Metall"
@@ -25688,6 +26277,13 @@
         "goldschmidt": "synthetic",
         "group": 20,
         "hazard": null,
+        "heat": {
+            "thermal_conductivity": {
+                "value": 10,
+                "*": true,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Californium.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Californium.jpg\">United States Department of Energy (see File:Einsteinium.jpg)</a>, Public domain, via Wikimedia Commons"
@@ -25714,7 +26310,8 @@
         "natural_occurrence": "synthetic",
         "negativity": {
             "pauling": 1.3,
-            "allred": 1.2
+            "allred": 1.2,
+            "nagle": 1.13
         },
         "number": 98,
         "oxidation_state": "(+2), '''+3''', (+4)",
@@ -25761,20 +26358,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 10,
-                "*": true,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "wiki": {
             "en": "Californium",
             "de": "Californium"
         }
     },
     "es": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "appearance": {
             "en": "silvery; glows blue in the dark"
         },
@@ -25809,6 +26399,13 @@
         "goldschmidt": "synthetic",
         "group": 20,
         "hazard": null,
+        "heat": {
+            "thermal_conductivity": {
+                "value": 10,
+                "*": true,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "image": {
             "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Einsteinium.jpg",
             "caption": "<a href=\"https://commons.wikimedia.org/wiki/File:Einsteinium.jpg\">Haire, R. G., US Department of Energy.Touched up by Materialscientist at en.wikipedia.</a>, Public domain, via Wikimedia Commons"
@@ -25837,7 +26434,8 @@
         "natural_occurrence": "synthetic",
         "negativity": {
             "pauling": 1.3,
-            "allred": 1.2
+            "allred": 1.2,
+            "nagle": 1.14
         },
         "number": 99,
         "oxidation_state": "+2, '''+3''', (+4)",
@@ -25879,20 +26477,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 10,
-                "*": true,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "wiki": {
             "en": "Einsteinium",
             "de": "Einsteinium"
         }
     },
     "fm": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "atomic_mass": {
             "value": 257.0951,
             "*": true,
@@ -25919,6 +26510,13 @@
         "goldschmidt": "synthetic",
         "group": 20,
         "hazard": null,
+        "heat": {
+            "thermal_conductivity": {
+                "value": 10,
+                "*": true,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "ionization": {
             "values": [
                 6.5,
@@ -25938,7 +26536,8 @@
         "natural_occurrence": "synthetic",
         "negativity": {
             "pauling": 1.3,
-            "allred": 1.2
+            "allred": 1.2,
+            "nagle": 1.1
         },
         "number": 100,
         "oxidation_state": "+2 +3",
@@ -25975,20 +26574,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 10,
-                "*": true,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "wiki": {
             "en": "Fermium",
             "de": "Fermium"
         }
     },
     "md": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "atomic_mass": {
             "value": 258,
             "*": true,
@@ -26015,6 +26607,13 @@
         "goldschmidt": "synthetic",
         "group": 20,
         "hazard": null,
+        "heat": {
+            "thermal_conductivity": {
+                "value": 10,
+                "*": true,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "ionization": {
             "values": [
                 6.58,
@@ -26034,7 +26633,8 @@
         "natural_occurrence": "synthetic",
         "negativity": {
             "pauling": 1.3,
-            "allred": 1.2
+            "allred": 1.2,
+            "nagle": 1.17
         },
         "number": 101,
         "oxidation_state": "+2 +3",
@@ -26066,20 +26666,13 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 10,
-                "*": true,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "wiki": {
             "en": "Mendelevium",
             "de": "Mendelevium"
         }
     },
     "no": {
-        "@modified": "2023-10-19T17:18:47.603Z",
+        "@modified": "2023-11-04T10:30:10.482Z",
         "atomic_mass": {
             "value": 259,
             "*": true,
@@ -26106,6 +26699,13 @@
         "goldschmidt": "synthetic",
         "group": 20,
         "hazard": null,
+        "heat": {
+            "thermal_conductivity": {
+                "value": 10,
+                "*": true,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "ionization": {
             "values": [
                 6.62621,
@@ -26125,7 +26725,8 @@
         "natural_occurrence": "synthetic",
         "negativity": {
             "pauling": 1.3,
-            "allred": 1.2
+            "allred": 1.2,
+            "nagle": 1.18
         },
         "number": 102,
         "oxidation_state": "+2 +3",
@@ -26155,13 +26756,6 @@
                 "value": 1100,
                 "*": true,
                 "unit": "K"
-            }
-        },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 10,
-                "*": true,
-                "unit": "W·m[-1]·K[-1]"
             }
         },
         "wiki": {
@@ -26198,6 +26792,13 @@
         "goldschmidt": "synthetic",
         "group": 20,
         "hazard": null,
+        "heat": {
+            "thermal_conductivity": {
+                "value": 10,
+                "*": true,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "ionization": {
             "values": [
                 4.96,
@@ -26248,13 +26849,6 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 10,
-                "*": true,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "wiki": {
             "en": "Lawrencium",
             "de": "Lawrencium"
@@ -26296,6 +26890,13 @@
         "goldschmidt": "synthetic",
         "group": 4,
         "hazard": null,
+        "heat": {
+            "thermal_conductivity": {
+                "value": 23,
+                "*": true,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "ionization": {
             "values": [
                 6.02,
@@ -26363,13 +26964,6 @@
                 "unit": "K"
             }
         },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 23,
-                "*": true,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "wiki": {
             "en": "Rutherfordium",
             "de": "Rutherfordium"
@@ -26416,6 +27010,13 @@
         "goldschmidt": "synthetic",
         "group": 5,
         "hazard": null,
+        "heat": {
+            "thermal_conductivity": {
+                "value": 58,
+                "*": true,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "ionization": {
             "values": [
                 6.8,
@@ -26470,13 +27071,6 @@
             2
         ],
         "symbol": "Db",
-        "heat": {
-            "thermal_conductivity": {
-                "value": 58,
-                "*": true,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "wiki": {
             "en": "Dubnium",
             "de": "Dubnium"
@@ -26515,6 +27109,13 @@
         "goldschmidt": "synthetic",
         "group": 6,
         "hazard": null,
+        "heat": {
+            "thermal_conductivity": {
+                "value": 19,
+                "*": true,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "ionization": {
             "values": [
                 7.8,
@@ -26569,13 +27170,6 @@
             2
         ],
         "symbol": "Sg",
-        "heat": {
-            "thermal_conductivity": {
-                "value": 19,
-                "*": true,
-                "unit": "W·m[-1]·K[-1]"
-            }
-        },
         "wiki": {
             "en": "Seaborgium",
             "de": "Seaborgium"
@@ -27722,6 +28316,13 @@
         "goldschmidt": "synthetic",
         "group": 18,
         "hazard": null,
+        "heat": {
+            "thermal_conductivity": {
+                "value": 0.0023,
+                "*": true,
+                "unit": "W·m[-1]·K[-1]"
+            }
+        },
         "ionization": {
             "values": [
                 8.7
@@ -27790,13 +28391,6 @@
                 "value": 125,
                 "*": true,
                 "unit": "K"
-            }
-        },
-        "heat": {
-            "thermal_conductivity": {
-                "value": 0.0023,
-                "*": true,
-                "unit": "W·m[-1]·K[-1]"
             }
         },
         "wiki": {
