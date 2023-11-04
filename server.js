@@ -43,6 +43,19 @@ const express = require( 'express' );
 const app = express();
 
 /**
+ * request limiting
+ */
+
+const rateLimit = require( 'express-rate-limit' );
+
+app.use( rateLimit( {
+    windowMs: 60000,
+    limit: 250,
+    standardHeaders: 'draft-7',
+    legacyHeaders: false
+} ) );
+
+/**
  * cookie parser
  */
 
