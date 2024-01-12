@@ -1,6 +1,6 @@
 'use strict';
 
-import cmpstr from 'https://cdn.jsdelivr.net/npm/cmpstr@1.0.2/+esm';
+import cmpstr from 'https://cdn.jsdelivr.net/npm/cmpstr@1.0.3/+esm';
 
 window.addEventListener( 'load', function () {
 
