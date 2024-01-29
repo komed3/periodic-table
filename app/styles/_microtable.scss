@@ -57,7 +57,15 @@
 @media all and ( max-width: 600px ) {
 
     .pt-microtable-item {
-        font-size: 0;
+        font-size: 11px;
+    }
+
+}
+
+@media all and ( max-width: 400px ) {
+
+    .pt-microtable-item {
+        font-size: 10px;
     }
 
 }
