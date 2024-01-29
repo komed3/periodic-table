@@ -98,7 +98,7 @@ const ordinal = ( n ) => {
  */
 const unit = ( u ) => {
 
-    let key = 'unit-' + u.replace( /[^a-zA-Z0-9]/g, '' );
+    let key = 'unit-' + u.replace( /[^a-zA-Z0-9]/g, '_' );
 
     if( catalog.includes( key ) ) {
 
