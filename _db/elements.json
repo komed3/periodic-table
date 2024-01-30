@@ -17685,7 +17685,7 @@
         }
     },
     "sm": {
-        "@modified": "2023-11-04T10:30:10.482Z",
+        "@modified": "2024-01-30T08:19:24.156Z",
         "abundance": {
             "universe": {
                 "value": 5,
@@ -17882,7 +17882,7 @@
             "nagle": 1.05
         },
         "number": 62,
-        "oxidation_state": "2, '''3''",
+        "oxidation_state": "2, '''3'''",
         "oxide_character": "basic",
         "period": 6,
         "phase": "solid",
