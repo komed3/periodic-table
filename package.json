@@ -40,7 +40,7 @@
         "imagemagick": "^0.1.3",
         "js-yaml": "^4.1.0",
         "log-timestamp": "^0.3.0",
-        "pug": "^3.0.2",
+        "pug": "^3.0.3",
         "wikijs": "^6.4.1"
     },
     "keywords": [
