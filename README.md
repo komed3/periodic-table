@@ -10,11 +10,15 @@ The project consists of several phases, which will gradually add more functions 
 
 Whole rework of data and source code for the pse-info.de project. New features, extended content, support for multiple languages, light and dark theme and much more.
 
-### 🔲 Nuclides table (``v 2.1``)
+### 🔲 Chemical compounds (``v 2.1``)
+
+Database upgrade to include (well-known) chemical compounds from organic and inorganic chemistry including properties, images and more.
+
+### 🔲 Nuclides table (``v 2.2``)
 
 Integration of the more than 3,000 known nuclides incl. interactive nuclide table, important information, decay chains, etc.
 
-### 🔲 Tools and calculators (``v 2.2``)
+### 🔲 Tools and calculators (``v 2.3``)
 
 Phase three provides the periodic table with a variety of important tools for calculations based on existing data, such as the molar mass of certain formulas, the radioactivity of nuclides, and many other things.
 
