@@ -50,9 +50,7 @@ const rateLimit = require( 'express-rate-limit' );
 
 app.use( rateLimit( {
     windowMs: config.get( 'server.rateLimit.waiting' ),
-    limit: config.get( 'server.rateLimit.requests' ),
-    standardHeaders: 'draft-7',
-    legacyHeaders: false
+    limit: config.get( 'server.rateLimit.requests' )
 } ) );
 
 /**

@@ -6,7 +6,7 @@ server:
   port: 3000
   cookieAge: 1.0e+10
   rateLimit:
-    requests: 2500
+    requests: 500
     waiting: 60000
 
 maintenance:
