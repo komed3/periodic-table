@@ -31,7 +31,7 @@
         "axios": "^1.7.7",
         "cmpstr": "^1.0.3",
         "config": "^3.3.12",
-        "cookie-parser": "^1.4.6",
+        "cookie-parser": "^1.4.7",
         "deepmerge": "^4.3.1",
         "express": "^4.21.1",
         "express-rate-limit": "^7.4.1",
