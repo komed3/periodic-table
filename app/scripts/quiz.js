@@ -4,7 +4,7 @@ import cmpstr from 'https://cdn.jsdelivr.net/npm/cmpstr@1.0.3/+esm';
 
 window.addEventListener( 'load', function () {
 
-    const elements = JSON.parse( window.atob( data ) );
+    const elements = data;
 
     const ptQuizSuccess = new Audio( '/res/success.wav' );
     const ptQuizMaxTime = 900;

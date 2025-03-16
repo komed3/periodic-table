@@ -4,7 +4,7 @@ extends page.pug
 block scripts
   script.
     const locale = "#{locale}";
-    const data = "#{page.quiz}";
+    const data = !{page.quiz};
   script( type= 'module', src= '/js/quiz.min.js' )
 
 block styles

@@ -680,9 +680,7 @@ routes.forEach( ( route ) => {
 
                     }
 
-                    res.locals.page.quiz = Buffer.from(
-                        JSON.stringify( quiz )
-                    ).toString( 'base64' );
+                    res.locals.page.quiz = JSON.stringify( quiz );
 
                     break;
 
