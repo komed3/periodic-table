@@ -1,6 +1,6 @@
 # Periodic table
 
-__[Interactive periodic table](https://pse-info.de)__ with atomic, chemical and physical properties of all known elements. Element lists, scales and much more free, free and __open source__.
+__[Interactive periodic table](https://pse-info.de)__ with atomic, chemical and physical properties of all known elements. Element lists, scales and much more, free and __open source__.
 
 ## Roadmap
 
