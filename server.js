@@ -946,7 +946,7 @@ routes.forEach( ( route ) => {
  * 404 redirect
  */
 
-app.all( '*', ( req, res ) => {
+app.all( '/{*splat}', ( _, res ) => {
 
     res.redirect( core.url( '/404' ) );
 
