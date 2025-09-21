@@ -11,7 +11,7 @@ server:
 
 maintenance:
   databases: [
-    elements, isotopes, spectrum
+    elements, nuclides, spectrum
   ]
 
 i18n:
