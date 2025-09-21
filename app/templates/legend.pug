@@ -7,11 +7,11 @@ if legend && legend.length
     div.pt-legend-inner
       each item in legend
         if item != 'undefined'
-          if legend_link
-            a.pt-legend-item( href= core.url( '/list/' + layer + '/' + item ) )
+          if legend_unlink === true
+            div.pt-legend-item
               span.pt-el.pt-legend-item-box( prop= item )
               span.pt-legend-item-label= __( layer + '-' + item )
           else
-            div.pt-legend-item
+            a.pt-legend-item( href= core.url( '/list/' + layer + '/' + item ) )
               span.pt-el.pt-legend-item-box( prop= item )
               span.pt-legend-item-label= __( layer + '-' + item )
