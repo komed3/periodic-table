@@ -911,11 +911,13 @@ routes.forEach( ( route ) => {
                  */
                 case 'nuclides':
 
-                    const index = ( new DB( 'nuclides_index' ) ).database;
+                    const nuclideIndex = ( new DB( 'nuclides_index' ) ).database;
 
                     /**
                      * get query parameters and calculate range
                      */
+
+                    res.locals.grid = {};
 
                     res.locals.grid.z = parseInt( req.query.z ) || 0;
                     res.locals.grid.n = parseInt( req.query.n ) || 1;
