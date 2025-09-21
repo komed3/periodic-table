@@ -1,6 +1,7 @@
 node_modules/
 _db/search*
 _db/text/*
+_db/nuclides_index.json
 _db/*.min.json
 public/images/*
 public/scripts/*

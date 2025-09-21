@@ -23,6 +23,7 @@
         "compileJS": "uglifyjs-folder app/scripts/ -o public/scripts/ --each",
         "buildTextIndex": "node maintenance/buildTextIndex.js",
         "buildSearchIndex": "node maintenance/buildSearchIndex.js",
+        "buildNuclideIndex": "node maintenance/buildNuclideIndex.js",
         "buildSitemap": "node maintenance/buildSitemap.js",
         "getImages": "node maintenance/getImages.js",
         "mergeDB": "node maintenance/mergeDB.js"
