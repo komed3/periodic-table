@@ -16,7 +16,6 @@
 
 process.env.ALLOW_CONFIG_MUTATIONS = true;
 
-const yaml = require( 'js-yaml' );
 const config = require( 'config' );
 
 /**

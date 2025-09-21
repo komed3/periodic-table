@@ -54,7 +54,4 @@ Header set Cache-Control "public, max-age=31536000, no-transform"
 <FilesMatch "\.(js|css|json)$">
 Header set Cache-Control "public, max-age=2592000, must-revalidate"
 </FilesMatch>
-<FilesMatch "\.(html|htm|xml|txt|xsl)$">
-Header set Cache-Control "public, max-age=7200, must-revalidate"
-</FilesMatch>
 </IfModule>
