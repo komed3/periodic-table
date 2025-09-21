@@ -76,8 +76,7 @@
         --pt-sf: calc( ( #{$i} * 0.04 ) + 0.64 );
     }
 
-    [type="scale"][layer="_fire"] [prop="#{$i}"],
-    [layer="mass"] [prop="#{$i}"] {
+    [type="scale"][layer="_fire"] [prop="#{$i}"] {
         --pt-bg: var( --pt-scheme-fire-#{$i} );
     }
 
@@ -85,9 +84,7 @@
         --pt-bg: var( --pt-scheme-fire-#{9 - $i} );
     }
 
-    [type="scale"][layer="_ice"] [prop="#{$i}"],
-    [layer="abundance"] [prop="#{$i}"],
-    [layer="hl"] [prop="#{$i}"] {
+    [type="scale"][layer="_ice"] [prop="#{$i}"] {
         --pt-bg: var( --pt-scheme-ice-#{$i} );
     }
 
@@ -204,8 +201,7 @@
 [layer="set"] [prop="nonmetal"],
 [layer="superconductivity"] [prop="normal"],
 [layer="decay"] [prop="B+"],
-[layer="decay"] [prop="2B+"],
-[layer="stable"] [prop="1"] {
+[layer="decay"] [prop="2B+"] {
     --pt-bg: var( --pt-special-green );
 }
 
@@ -222,9 +218,7 @@
 [layer="period"] [prop="1"],
 [layer="radioactivity"] [prop="extremely-radioactive"],
 [layer="set"] [prop="actinoide"],
-[layer="decay"] [prop="SF"],
-[layer="abundance"] [prop="-1"],
-[layer="stable"] [prop="0"] {
+[layer="decay"] [prop="SF"] {
     --pt-bg: var( --pt-special-pink );
 }
 
@@ -247,7 +241,8 @@
 [layer="period"] [prop="7"],
 [layer="phase"] [prop="solid"],
 [layer="set"] [prop="metal"],
-[layer="superconductivity"] [prop="none"] {
+[layer="superconductivity"] [prop="none"],
+[layer="decay"] [prop="stable"] {
     --pt-bg: var( --pt-special-gray );
 }
 

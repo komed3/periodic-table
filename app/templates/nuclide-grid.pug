@@ -29,7 +29,7 @@ div.pt-nuclide-grid-container.noselect
           -
             var x = nuclide.n - grid.minN + 2;
             var y = grid.y - ( nuclide.z - grid.minZ - 1 );
-            var prop = nuclide[ schema ] || '';
+            var prop = nuclide.layer[ schema ] || '';
             if( prop && ! legend.includes( prop ) ) legend.push( prop )
           a(
             class= 'pt-nuclide pt-nuclide-grid-item' + (

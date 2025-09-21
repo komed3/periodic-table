@@ -39,13 +39,16 @@ function getMainDecay ( decayArr ) {
  */
 function extractNuclideInfo ( nuclide, symbol ) {
 
+    const stable = !! nuclide.stable;
+
     return {
         z: nuclide.z,
         n: nuclide.n,
         m: nuclide.z + nuclide.n,
         symbol: symbol === '*' ? 'n' : symbol[0].toUpperCase() + symbol.slice( 1 ),
-        decay: getMainDecay( nuclide.decay ) ?? 'unknown',
-        stable: !! nuclide.stable ? 'stable' : 'unstable'
+        layer: {
+            decay: stable ? 'stable' : getMainDecay( nuclide.decay ) ?? 'unknown'
+        }
     };
 
 }
