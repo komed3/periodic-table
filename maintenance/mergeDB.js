@@ -159,7 +159,7 @@ if( process.argv[2] == undefined ) {
 
     fs.writeFile(
         './_db/' + dbname + '.json',
-        JSON.stringify( result, null, 4 ),
+        JSON.stringify( result, null, 2 ),
         { flag: 'w' }, ( error ) => {
 
             if( error ) {

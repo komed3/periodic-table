@@ -146,7 +146,7 @@ if( process.argv[2] == undefined ) {
                             plain: text.join( ' ' ),
                             text: '<p>' + text.join( '</p><p>' ) + '</p>',
                             description: text[0]
-                        }, null, 4 ), { flag: 'w' }, ( error ) => {
+                        }, null, 2 ), { flag: 'w' }, ( error ) => {
 
                             if( error ) {
 

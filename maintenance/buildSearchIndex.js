@@ -125,7 +125,7 @@ if( process.argv[2] == undefined ) {
 
     fs.writeFile(
         __dirname + '/../_db/search_' + locale + '.json',
-        JSON.stringify( index, null, 4 ),
+        JSON.stringify( index, null, 2 ),
         { flag: 'w' }, ( error ) => {
 
             if( error ) {
