@@ -19,7 +19,7 @@
     "main": "server.js",
     "scripts": {
         "start": "nodemon server.js",
-        "compileSCSS": "node-sass app/styles/ -o public/styles/ --output-style compressed",
+        "compileSCSS": "npx sass app/styles:public/styles --style=compressed",
         "compileJS": "uglifyjs-folder app/scripts/ -o public/scripts/ --each",
         "buildTextIndex": "node maintenance/buildTextIndex.js",
         "buildSearchIndex": "node maintenance/buildSearchIndex.js",
