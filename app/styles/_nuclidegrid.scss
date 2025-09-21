@@ -8,8 +8,8 @@
 
 .pt-nuclide-grid {
     display: grid;
-    grid-template-columns: repeat( 19, 1fr );
-    grid-template-rows: repeat( 19, 1fr );
+    grid-template-columns: repeat( var( --cols ), 1fr );
+    grid-template-rows: repeat( var( --rows ), 1fr );
     gap: 4px;
     height: 100%;
     min-width: 980px;
@@ -37,7 +37,7 @@
         position: absolute;
         right: 4px;
         top: 50%;
-        font-size: 22px;
+        font-size: 26px;
         color: var( --pt-accent, inherit );
         transform: translateY( -50% );
     }
@@ -45,7 +45,7 @@
     .mass, .z {
         position: absolute;
         left: 4px;
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .mass {
@@ -71,7 +71,7 @@
     }
 
     &.zUp, &.zDn {
-        grid-column: 2 / 19;
+        grid-column: 2 / var( --cols );
 
         a {
             width: 140px;
@@ -86,12 +86,12 @@
     }
 
     &.zDn {
-        grid-row: 19;
+        grid-row: var( --rows );
         place-self: end center;
     }
 
     &.nUp, &.nDn {
-        grid-row: 2 / 19;
+        grid-row: 2 / var( --rows );
 
         a {
             width: 32px;
@@ -101,13 +101,29 @@
     }
 
     &.nUp {
-        grid-column: 19;
+        grid-column: var( --cols );
         place-self: center end;
     }
 
     &.nDn {
         grid-column: 1;
         place-self: center start;
+    }
+
+}
+
+@media ( max-width: 1200px ) {
+
+    .pt-nuclide {
+
+        .symbol {
+            font-size: 22px;
+        }
+
+        .mass, .z {
+            font-size: 13px;
+        }
+
     }
 
 }

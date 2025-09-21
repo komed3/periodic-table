@@ -1,6 +1,10 @@
 //- templates/nuclide-grid.pug
 div.pt-nuclide-grid-container.noselect
-  div.pt-nuclide-grid( layer= schema = grid.schema || 'decay' )
+  div.pt-nuclide-grid(
+    layer= schema = grid.schema || 'decay',
+    x= grid.x, y= grid.y,
+    style= '--cols:' + ( grid.x + 2 ) + ';--rows:' + ( grid.y + 2 )
+  )
     div.pt-nuclide-grid-nav.zUp
       a( href= core.url(
         '/nuclides?z=' + grid.maxZ + '&n=' + grid.n + '&schema=' + schema
@@ -22,7 +26,7 @@ div.pt-nuclide-grid-container.noselect
         if nuclide
           - var mass = Math.round( nuclide.z + nuclide.n );
           - var x = nuclide.n - grid.minN + 2;
-          - var y = 19 - ( nuclide.z - grid.minZ + 1 );
+          - var y = grid.y - ( nuclide.z - grid.minZ - 1 );
           - var prop = nuclide[ schema ] || '';
           a(
             class= 'pt-nuclide pt-nuclide-grid-item' + (

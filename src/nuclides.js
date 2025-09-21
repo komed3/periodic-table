@@ -5,11 +5,9 @@ const DB = require( './database' );
 const nuclides = ( new DB( 'nuclides' ) ).database;
 const index = ( new DB( 'nuclides_index' ) ).database;
 
-const extractGrid = ( z, n ) => {
+const extractGrid = ( z, n, zEl = 10, nEl = 14 ) => {
 
     z = parseInt( z ) || 0, n = parseInt( n ) || 1;
-
-    const zEl = 16, nEl = 16;
 
     const minZ = Math.max( 0, z - ( zEl / 2 ) );
     const maxZ = z + ( zEl - ( z - minZ ) );
@@ -34,7 +32,11 @@ const extractGrid = ( z, n ) => {
 
     }
 
-    return { z, n, minZ, maxZ, minN, maxN, items };
+    return {
+        z, n, x: nEl + 1, y: zEl + 1,
+        minZ, maxZ, minN, maxN,
+        items
+    };
 
 }
 
