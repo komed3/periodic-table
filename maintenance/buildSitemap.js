@@ -53,6 +53,7 @@ const add2Sitemap = ( link ) => {
 var sitemap = [];
 
 add2Sitemap( '' );
+add2Sitemap( 'nuclides' );
 add2Sitemap( 'ionization' );
 add2Sitemap( 'spectrum' );
 add2Sitemap( 'quiz' );
