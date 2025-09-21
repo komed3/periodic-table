@@ -15,7 +15,9 @@
     grid-column: var( --g );
     grid-row: var( --p );
     position: relative;
-    aspect-ratio: 1/1;
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    height: 100%;
     color: var( --pt-color, var( --color-main ) );
     background: var( --pt-bg, var( --gray-0 ) );
 }
