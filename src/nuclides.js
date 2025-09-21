@@ -8,7 +8,7 @@ const index = ( new DB( 'nuclides_index' ) ).database;
 const MAX_Z = 118;
 const MAX_N = 178;
 
-const extractGrid = ( z, n, zEl = 10, nEl = 14 ) => {
+const extractGrid = ( z, n, zEl = 10, nEl = 16 ) => {
 
     z = parseInt( z ) || 0, n = parseInt( n ) || 1;
 
