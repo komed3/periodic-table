@@ -907,6 +907,15 @@ routes.forEach( ( route ) => {
                     break;
 
                 /**
+                 * nuclide page
+                 */
+                case 'nuclides':
+
+                    //
+
+                    break;
+
+                /**
                  * start page
                  */
                 case 'start':
