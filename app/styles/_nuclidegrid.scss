@@ -1,10 +1,18 @@
 @import 'schemes';
 
+.pt-nuclide-grid-container {
+    height: fit-content;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
 .pt-nuclide-grid {
     display: grid;
     grid-template-columns: repeat( 19, 1fr );
     grid-template-rows: repeat( 19, 1fr );
     gap: 4px;
+    height: 100%;
+    min-width: 980px;
 }
 
 .pt-nuclide {
@@ -51,39 +59,55 @@
 }
 
 .pt-nuclide-grid-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 32px;
-    background: var( --gray-0 );
-    border-radius: 16px;
+
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 32px;
+        color: var( --accent-contrast );
+        background: var( --accent-1 );
+        border-radius: 16px;
+    }
+
+    &.zUp, &.zDn {
+        grid-column: 2 / 19;
+
+        a {
+            width: 140px;
+            height: 32px;
+        }
+
+    }
 
     &.zUp {
-        grid-column: 2 / 19;
         grid-row: 1;
-        place-self: start stretch;
-        height: 32px;
+        place-self: start center;
     }
 
     &.zDn {
-        grid-column: 2 / 19;
         grid-row: 19;
-        place-self: end stretch;
-        height: 32px;
+        place-self: end center;
+    }
+
+    &.nUp, &.nDn {
+        grid-row: 2 / 19;
+
+        a {
+            width: 32px;
+            height: 140px;
+        }
+
     }
 
     &.nUp {
         grid-column: 19;
-        grid-row: 2 / 19;
-        place-self: stretch end;
-        width: 32px;
+        place-self: center end;
     }
 
     &.nDn {
         grid-column: 1;
-        grid-row: 2 / 19;
-        place-self: stretch start;
-        width: 32px;
+        place-self: center start;
     }
 
 }
