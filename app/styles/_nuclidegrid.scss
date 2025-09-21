@@ -39,6 +39,7 @@
         right: 6px;
         top: 50%;
         font-size: 24px;
+        font-weight: bold;
         color: var( --pt-accent, inherit );
         transform: translateY( -50% );
     }
@@ -47,6 +48,7 @@
         position: absolute;
         left: 6px;
         font-size: 13px;
+        font-weight: bold;
     }
 
     .mass {
