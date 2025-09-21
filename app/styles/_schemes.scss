@@ -105,7 +105,9 @@
 [layer="magnetic_ordering"] [prop="paramagnetic"],
 [layer="phase"] [prop="gas"],
 [layer="radioactivity"] [prop="highly-radioactive"],
-[layer="set"] [prop="halogen"] {
+[layer="set"] [prop="halogen"],
+[layer="decay"] [prop="B-N"],
+[layer="decay"] [prop="B-2N"] {
     --pt-bg: var( --pt-scheme-fire-0 );
 }
 
@@ -115,12 +117,15 @@
 [layer="period"] [prop="5"],
 [layer="radioactivity"] [prop="significantly-radioactive"],
 [layer="set"] [prop="alkalimetal"],
-[layer="superconductivity"] [prop="special"] {
+[layer="superconductivity"] [prop="special"],
+[layer="decay"] [prop="B-A"] {
     --pt-bg: var( --pt-scheme-fire-3 );
 }
 
 [layer="crystal_structure"] [prop="hcp"],
-[layer="set"] [prop="alkalineearthmetal"] {
+[layer="set"] [prop="alkalineearthmetal"],
+[layer="decay"] [prop="N"],
+[layer="decay"] [prop="2N"] {
     --pt-bg: var( --pt-scheme-fire-6 );
 }
 
@@ -143,7 +148,9 @@
 [layer="magnetic_ordering"] [prop="diamagnetic"],
 [layer="natural_occurrence"] [prop="decay"],
 [layer="radioactivity"] [prop="radioactive"],
-[layer="set"] [prop="transitionmetal"] {
+[layer="set"] [prop="transitionmetal"],
+[layer="decay"] [prop="B-"],
+[layer="decay"] [prop="2B-"] {
     --pt-bg: var( --pt-scheme-fire-9 );
 }
 
@@ -160,7 +167,8 @@
 [layer="natural_occurrence"] [prop="synthetic"],
 [layer="period"] [prop="3"],
 [layer="phase"] [prop="liquid"],
-[layer="set"] [prop="noblegas"] {
+[layer="set"] [prop="noblegas"],
+[layer="decay"] [prop="EC+B+"] {
     --pt-bg: var( --pt-scheme-ice-2 );
 }
 
@@ -168,11 +176,17 @@
 [layer="crystal_structure"] [prop="rho"],
 [layer="block"] [prop="s"],
 [layer="group"] [prop="2"],
-[layer="period"] [prop="2"] {
+[layer="period"] [prop="2"],
+[layer="decay"] [prop="B+P"],
+[layer="decay"] [prop="EC"],
+[layer="decay"] [prop="2EC"],
+[layer="decay"] [prop="ECP"] {
     --pt-bg: var( --pt-scheme-ice-5 );
 }
 
-[layer="basicity"] [prop="strongly-alkaline"] {
+[layer="basicity"] [prop="strongly-alkaline"],
+[layer="decay"] [prop="P"],
+[layer="decay"] [prop="2P"] {
     --pt-bg: var( --pt-scheme-ice-8 );
 }
 
@@ -185,13 +199,16 @@
 [layer="period"] [prop="4"],
 [layer="radioactivity"] [prop="slightly-radioactive"],
 [layer="set"] [prop="nonmetal"],
-[layer="superconductivity"] [prop="normal"] {
+[layer="superconductivity"] [prop="normal"],
+[layer="decay"] [prop="B+"],
+[layer="decay"] [prop="2B+"] {
     --pt-bg: var( --pt-special-green );
 }
 
 [layer="crystal_structure"] [prop="sc"],
 [layer="group"] [prop="19"],
-[layer="set"] [prop="lanthanoide"] {
+[layer="set"] [prop="lanthanoide"],
+[layer="decay"] [prop="A"] {
     --pt-bg: var( --pt-special-violet );
 }
 
@@ -200,7 +217,8 @@
 [layer="group"] [prop="20"],
 [layer="period"] [prop="1"],
 [layer="radioactivity"] [prop="extremely-radioactive"],
-[layer="set"] [prop="actinoide"] {
+[layer="set"] [prop="actinoide"],
+[layer="decay"] [prop="SF"] {
     --pt-bg: var( --pt-special-pink );
 }
 
@@ -208,7 +226,8 @@
 [layer="crystal_structure"] [prop="hex"],
 [layer="group"] [prop="15"],
 [layer="group"] [prop="16"],
-[layer="set"] [prop="metalloid"] {
+[layer="set"] [prop="metalloid"],
+[layer="decay"] [prop="IT"] {
     --pt-bg: var( --pt-special-beige );
 }
 
