@@ -19,5 +19,8 @@ block content
       div.pt-input-container
         i.icon tune
         select.pt-nuclides-selector-select
-          option( value= 'decay', selected= ( grid.schema === 'decay' ) )= __( 'nuclides-selector-decay' )
+          each v in [ 'decay', 'half_life' ]
+            option(
+              value= v, selected= ( grid.schema === v )
+            )= __( 'nuclides-selector-' + v )
     include templates/legend.pug
