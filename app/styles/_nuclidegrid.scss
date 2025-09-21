@@ -1,3 +1,5 @@
+@import 'schemes';
+
 .pt-nuclide-grid {
     display: grid;
     grid-template-columns: repeat( 19, 1fr );
@@ -13,6 +15,39 @@
     color: var( --pt-color, var( --color-main ) );
     background: var( --pt-bg, var( --gray-0 ) );
     overflow: hidden;
+
+    &.current {
+        outline: 2px dashed var( --gray-4 );
+    }
+
+    * {
+        position: relative;
+        z-index: 1;
+    }
+
+    .symbol {
+        position: absolute;
+        right: 4px;
+        top: 50%;
+        font-size: 22px;
+        color: var( --pt-accent, inherit );
+        transform: translateY( -50% );
+    }
+
+    .mass, .z {
+        position: absolute;
+        left: 4px;
+        font-size: 13px;
+    }
+
+    .mass {
+        top: 4px;
+    }
+
+    .z {
+        bottom: 4px;
+    }
+
 }
 
 .pt-nuclide-grid-nav {
