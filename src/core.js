@@ -23,7 +23,7 @@ const setLocale = ( m, l ) => {
  */
 const parseURL = ( url ) => {
 
-    let parts = url.split( '/' ).filter( p => p );
+    let parts = url.split( '?' )[0].split( '/' ).filter( p => p );
 
     return {
         parts: parts,
