@@ -19,12 +19,12 @@ const setLocale = ( m, l ) => {
 };
 
 /**
-* format value to human readable units
-* @param {Object} units units and its SI unit factors
-* @param {Float|Int} value value in SI unit
-* @param {Boolean} float use floating
-* @returns formatted unit parts
-*/
+ * format value to human readable units
+ * @param {Object} units units and its SI unit factors
+ * @param {Float|Int} value value in SI unit
+ * @param {Boolean} float use floating
+ * @returns formatted unit parts
+ */
 const unitParts = ( units, value, float = true ) => {
 
    let parts = [];

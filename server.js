@@ -26,6 +26,7 @@ const fs = require( 'fs' );
 const core = require( './src/core' );
 const formatter = require( './src/formatter' );
 const DB = require( './src/database' );
+const nuclides = require( './src/nuclides' );
 
 /**
  * load globally used databases
@@ -911,45 +912,15 @@ routes.forEach( ( route ) => {
                  */
                 case 'nuclides':
 
-                    const nuclideIndex = ( new DB( 'nuclides_index' ) ).database;
-
                     /**
                      * get query parameters and calculate range
                      */
 
-                    res.locals.grid = {};
-
-                    res.locals.grid.z = parseInt( req.query.z ) || 0;
-                    res.locals.grid.n = parseInt( req.query.n ) || 1;
-                    res.locals.grid.range = Math.max( 1, Math.min( 10, parseInt( req.query.range ) || 7 ) );
-                    res.locals.grid.scheme = req.query.scheme || 'decay';
-
-                    res.locals.grid.minZ = Math.max( 0, res.locals.grid.z - res.locals.grid.range );
-                    res.locals.grid.maxZ = res.locals.grid.z + res.locals.grid.range;
-                    res.locals.grid.minN = Math.max( 0, res.locals.grid.n - res.locals.grid.range );
-                    res.locals.grid.maxN = res.locals.grid.n + res.locals.grid.range;
-
-                    /**
-                     * extract nuclides in range
-                     */
-
-                    res.locals.grid.items = [];
-
-                    for ( let zi = res.locals.grid.minZ; zi <= res.locals.grid.maxZ; zi++ ) {
-
-                        const row = [];
-
-                        for ( let ni = res.locals.grid.minN; ni <= res.locals.grid.maxN; ni++ ) {
-
-                            const key = `${zi},${ni}`;
-
-                            row.push( nuclideIndex[ key ] || null );
-
-                        }
-
-                        res.locals.grid.items.push( row );
-
-                    }
+                    res.locals.grid = nuclides.extractGrid(
+                        req.query.z,
+                        req.query.n,
+                        req.query.range
+                    );
 
                     /**
                      * breadcrumbs
