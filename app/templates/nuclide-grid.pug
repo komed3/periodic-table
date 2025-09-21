@@ -1,4 +1,5 @@
 //- templates/nuclide-grid.pug
+- var legend = []
 div.pt-nuclide-grid-container.noselect
   div.pt-nuclide-grid(
     layer= schema = grid.schema || 'decay',
@@ -24,9 +25,11 @@ div.pt-nuclide-grid-container.noselect
     each row in grid.items
       each nuclide in row
         if nuclide
-          - var x = nuclide.n - grid.minN + 2;
-          - var y = grid.y - ( nuclide.z - grid.minZ - 1 );
-          - var prop = nuclide[ schema ] || '';
+          -
+            var x = nuclide.n - grid.minN + 2;
+            var y = grid.y - ( nuclide.z - grid.minZ - 1 );
+            var prop = nuclide[ schema ] || '';
+            if( prop && ! legend.includes( prop ) ) legend.push( prop )
           a(
             class= 'pt-nuclide pt-nuclide-grid-item' + (
               ( nuclide.z === grid.z && nuclide.n === grid.n ) ? ' current' : ''
