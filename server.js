@@ -922,6 +922,8 @@ routes.forEach( ( route ) => {
                         req.query.range
                     );
 
+                    res.locals.grid.schema = req.query.schema || 'decay';
+
                     /**
                      * breadcrumbs
                      */
