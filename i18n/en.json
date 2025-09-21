@@ -126,6 +126,7 @@
   "data-size": "File size: %s",
   "data-title": "Database",
   "database-elements": "Atomic, physical, etc. properties of all chemical elements.",
+  "database-nuclides": "Extensive database with over 3000 nuclides",
   "database-spectrum": "Spectral lines of all chemical elements in base64 format.",
   "decay-2N": "two-neutron emission",
   "decay-2P": "two-proton emission",
