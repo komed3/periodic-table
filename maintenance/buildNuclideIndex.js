@@ -34,6 +34,25 @@ function getMainDecay ( decayArr ) {
 
 }
 
+function getHalfLife ( hl ) {
+
+    if ( ! hl || !( 'value' in hl ) || isNaN( hl.value ) ) return null;
+
+    for ( const [ k, v ] of Object.entries( {
+        '10e-10': 'less10ps', '60': 'less1min', '3600': '1minTo1h', '86400': '1hTo1d',
+        '5184000': '1dTo60d', '315576000': '60dTo10y', '31557600000': '10yTo1ky',
+        '3155760000000': '1kyTo100ky', '315576000000000': '100kyTo10My',
+        '1577880000000000': '10MyTo50My',
+    } ) ) {
+
+        if ( hl.value < parseFloat( k ) ) return v;
+
+    }
+
+    return 'more50My';
+
+}
+
 /**
  * extract nuclide info from entry
  */
@@ -47,7 +66,8 @@ function extractNuclideInfo ( nuclide, symbol ) {
         m: nuclide.z + nuclide.n,
         symbol: symbol === '*' ? 'n' : symbol[0].toUpperCase() + symbol.slice( 1 ),
         layer: {
-            decay: stable ? 'stable' : getMainDecay( nuclide.decay ) ?? 'unknown'
+            decay: stable ? 'stable' : getMainDecay( nuclide.decay ) ?? 'unknown',
+            half_life: stable ? 'stable' : getHalfLife( nuclide.half_life_sec ) ?? 'unknown'
         }
     };
 
