@@ -1,0 +1,54 @@
+.pt-nuclide-grid {
+    display: grid;
+    grid-template-columns: repeat( 19, 1fr );
+    grid-template-rows: repeat( 19, 1fr );
+    gap: 4px;
+}
+
+.pt-nuclide {
+    grid-column: var( --x );
+    grid-row: var( --y );
+    position: relative;
+    aspect-ratio: 1 / 1;
+    color: var( --pt-color, var( --color-main ) );
+    background: var( --pt-bg, var( --gray-0 ) );
+    overflow: hidden;
+}
+
+.pt-nuclide-grid-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    background: var( --gray-0 );
+    border-radius: 16px;
+
+    &.zUp {
+        grid-column: 2 / 19;
+        grid-row: 1;
+        place-self: start stretch;
+        height: 32px;
+    }
+
+    &.zDn {
+        grid-column: 2 / 19;
+        grid-row: 19;
+        place-self: end stretch;
+        height: 32px;
+    }
+
+    &.nUp {
+        grid-column: 19;
+        grid-row: 2 / 19;
+        place-self: stretch end;
+        width: 32px;
+    }
+
+    &.nDn {
+        grid-column: 1;
+        grid-row: 2 / 19;
+        place-self: stretch start;
+        width: 32px;
+    }
+
+}

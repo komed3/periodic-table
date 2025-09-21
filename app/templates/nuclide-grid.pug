@@ -1,14 +1,30 @@
 //- templates/nuclide-grid.pug
-div.pt-nuclide-grid
-  each row, y in grid.items
-    each nuclide, x in row
+div.pt-nuclide-grid( layer= schema = grid.schema || 'decay' )
+  a.pt-nuclide-grid-nav.zUp( href= core.url(
+    '/nuclides?z=' + grid.maxZ + '&n=' + grid.n + '&schema=' + schema
+  ) ): i.icon keyboard_arrow_up
+  a.pt-nuclide-grid-nav.zDn( href= core.url(
+    '/nuclides?z=' + grid.minZ + '&n=' + grid.n + '&schema=' + schema
+  ) ): i.icon keyboard_arrow_down
+  a.pt-nuclide-grid-nav.nUp( href= core.url(
+    '/nuclides?z=' + grid.z + '&n=' + grid.maxN + '&schema=' + schema
+  ) ): i.icon keyboard_arrow_right
+  a.pt-nuclide-grid-nav.nDn( href= core.url(
+    '/nuclides?z=' + grid.z + '&n=' + grid.minN + '&schema=' + schema
+  ) ): i.icon keyboard_arrow_left
+  each row in grid.items
+    each nuclide in row
       if nuclide
-        - const mass = Math.round( nuclide.z + nuclide.n );
-        - const isCenter = ( nuclide.z === grid.z && nuclide.n === grid.n );
-        a.pt-nuclide(
-          href= '/nuclide/' + nuclide.symbol + '/' + mass,
+        - var mass = Math.round( nuclide.z + nuclide.n );
+        - var x = nuclide.n - grid.minN + 2;
+        - var y = 19 - ( nuclide.z - grid.minZ + 1 );
+        a(
+          class= 'pt-nuclide pt-nuclide-grid-item' + (
+            ( nuclide.z === grid.z && nuclide.n === grid.n ) ? ' current' : ''
+          ),
+          href= core.url( '/nuclide/' + nuclide.symbol + '/' + mass ),
           title= nuclide.symbol + '-' + mass,
-          data-z= nuclide.z, data-n= nuclide.n,
+          z= nuclide.z, n= nuclide.n,
           style= '--x:' + x + ';--y:' + y
         )
           span.mass= mass
