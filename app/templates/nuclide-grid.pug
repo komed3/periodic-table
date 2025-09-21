@@ -24,7 +24,6 @@ div.pt-nuclide-grid-container.noselect
     each row in grid.items
       each nuclide in row
         if nuclide
-          - var mass = Math.round( nuclide.z + nuclide.n );
           - var x = nuclide.n - grid.minN + 2;
           - var y = grid.y - ( nuclide.z - grid.minZ - 1 );
           - var prop = nuclide[ schema ] || '';
@@ -32,11 +31,11 @@ div.pt-nuclide-grid-container.noselect
             class= 'pt-nuclide pt-nuclide-grid-item' + (
               ( nuclide.z === grid.z && nuclide.n === grid.n ) ? ' current' : ''
             ),
-            href= core.url( '/nuclide/' + nuclide.symbol + '/' + mass ),
-            title= nuclide.symbol + '-' + mass,
+            href= core.url( '/nuclide/' + nuclide.symbol + '_' + nuclide.mass ),
+            title= nuclide.symbol + '-' + nuclide.mass,
             z= nuclide.z, n= nuclide.n, prop= prop
             style= '--x:' + x + ';--y:' + y
           )
-            span.mass= mass
+            span.mass= nuclide.mass
             span.symbol= nuclide.symbol
             span.z= nuclide.z
