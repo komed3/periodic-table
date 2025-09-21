@@ -1,0 +1,16 @@
+//- templates/nuclide-grid.pug
+div.pt-nuclide-grid
+  each row, y in grid.items
+    each nuclide, x in row
+      if nuclide
+        - const mass = Math.round( nuclide.z + nuclide.n );
+        - const isCenter = ( nuclide.z === grid.z && nuclide.n === grid.n );
+        a.pt-nuclide(
+          href= '/nuclide/' + nuclide.symbol + '/' + mass,
+          title= nuclide.symbol + '-' + mass,
+          data-z= nuclide.z, data-n= nuclide.n,
+          style= '--x:' + x + ';--y:' + y
+        )
+          span.mass= mass
+          span.symbol= nuclide.symbol
+          span.z= nuclide.z

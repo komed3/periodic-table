@@ -91,7 +91,7 @@
   "close-dialog": "Close",
   "covalent-radius": "Covalent radius",
   "covalent-radius-description": "The covalent radius is defined as half the distance between two atoms of the same element that are covalently bonded. It depends on the type of bond (single, double, ...) and the electronegativity of the bonding partners.",
-  "credits": "Copyright © %s <a href=\"https://komed3.de\" target=\"_blank\">Paul Köhler (komed3)</a>",
+  "credits": "Copyright © 2020–%s <a href=\"https://komed3.de\" target=\"_blank\">Paul Köhler (komed3)</a>",
   "critical-temp": "Critical point",
   "critical-temp-description": "The critical point describes the extreme value of a phase boundary line (binodal), at which a substance undergoes a minimum or maximum of pressure and temperature. At this point, existing phases are fluids (individual particles can move freely in space).",
   "crust-abundance": "Earth’s crust",

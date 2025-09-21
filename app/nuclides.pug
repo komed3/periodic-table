@@ -2,9 +2,11 @@
 extends page.pug
 
 block styles
-  link( rel= 'stylesheet', href= '/css/page.css' )/
+  link( rel= 'stylesheet', href= '/css/nuclides.css' )/
 
 block content
+  div.pt-page
+    include templates/nuclide-grid.pug
   div.pt-page.pt-box.pt-nuclides
     include templates/breadcrumbs.pug
     h1= __( 'nuclides-title' )

@@ -91,7 +91,7 @@
   "close-dialog": "Schließen",
   "covalent-radius": "Kovalenter Radius",
   "covalent-radius-description": "Als Kovalenter Radius wird der halbe Abstand zweier Atome desselben Elements bezeichnet, die kovalent gebunden sind. Er ist von der Art der Bindung (einfach, doppelt, …) und der Elektronegativität der Bindungspartner abhängig.",
-  "credits": "Copyright © %s <a href=\"https://komed3.de\" target=\"_blank\">Paul Köhler (komed3)</a>",
+  "credits": "Copyright © 2020–%s <a href=\"https://komed3.de\" target=\"_blank\">Paul Köhler (komed3)</a>",
   "critical-temp": "Kritischer Punkt",
   "critical-temp-description": "Der kritische Punkt beschreibt den Extremwert einer Phasengrenzlinie (Binodale), an dem ein Stoff ein Minimum oder ein Maximum des Drucks und der Temperatur durchläuft. An diesem Punkt existierende Phasen sind Fluide (einzelnen Teilchen können sich frei im Raum bewegen).",
   "crust-abundance": "Erdkruste",
