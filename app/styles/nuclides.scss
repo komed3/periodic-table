@@ -1,2 +1,9 @@
 @import 'page';
 @import 'nuclidegrid';
+
+.pt-nuclides-selector {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 16px 32px;
+}

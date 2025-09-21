@@ -1,6 +1,9 @@
 //- nuclides map
 extends page.pug
 
+block scripts
+  script( src= '/js/nuclides.min.js' )
+
 block styles
   link( rel= 'stylesheet', href= '/css/nuclides.css' )/
 
@@ -11,4 +14,10 @@ block content
     include templates/breadcrumbs.pug
     h1= __( 'nuclides-title' )
     p.pt-page-intro= __( 'nuclides-description' )
+    div.pt-nuclides-selector
+      span.pt-nuclides-selector-label= __( 'nuclides-selector-label' )
+      div.pt-input-container
+        i.icon tune
+        select.pt-nuclides-selector-select
+          option( value= 'decay', selected= ( grid.schema === 'decay' ) )= __( 'nuclides-selector-decay' )
     include templates/legend.pug

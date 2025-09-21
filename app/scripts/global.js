@@ -10,7 +10,7 @@ window.addEventListener( 'load', function () {
      * external links "_blank" + "noopener, noreferrer"
      */
 
-    var ptExternalLinks = document.querySelectorAll( 'a[target="_blank"], .external, .weblink' );
+    const ptExternalLinks = document.querySelectorAll( 'a[target="_blank"], .external, .weblink' );
 
     [].forEach.call( ptExternalLinks, ( el ) => {
 
@@ -23,8 +23,8 @@ window.addEventListener( 'load', function () {
      * header menu toggle (open / close )
      */
 
-    var ptNavOpener = document.querySelector( '.pt-header-menu' ),
-        ptNav = document.querySelector( '.pt-nav' );
+    const ptNavOpener = document.querySelector( '.pt-header-menu' ),
+          ptNav = document.querySelector( '.pt-nav' );
 
     ptNavOpener.addEventListener( 'click', ( e ) => {
 
@@ -39,7 +39,7 @@ window.addEventListener( 'load', function () {
      * language selector
      */
 
-    var ptLanguageSelector = document.querySelector( '.pt-language-selector-select' );
+    const ptLanguageSelector = document.querySelector( '.pt-language-selector-select' );
 
     ptLanguageSelector.addEventListener( 'change', ( e ) => {
 
