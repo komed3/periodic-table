@@ -42,13 +42,23 @@ function extractNuclideInfo ( nuclide, symbol ) {
     return {
         z: nuclide.z,
         n: nuclide.n,
+        m: nuclide.z + nuclide.n,
         symbol: symbol === '*' ? 'n' : symbol[0].toUpperCase() + symbol.slice( 1 ),
-        mass: nuclide.atomic_mass?.value || null,
-        half_life: nuclide.half_life_sec?.value || null,
         decay: getMainDecay( nuclide.decay ),
-        stable: !! nuclide.stable,
-        jp: nuclide.jp || null,
-        abundance: nuclide.abundance?.value || null
+        stable: !! nuclide.stable ? '1' : '0',
+        abundance: nuclide.abundance?.value
+            ? '' + Math.floor( nuclide.abundance.value / 10 )
+            : !! nuclide.stable ? null : '-1',
+        mass: nuclide.atomic_mass?.value
+            ? '' + Math.max( 0, Math.min( 10,
+                Math.floor( Math.log10( nuclide.atomic_mass.value ) ) - 6
+            ) )
+            : null,
+        hl: nuclide.half_life_sec?.value
+            ? '' + Math.max( 0, Math.min( 10,
+                Math.floor( Math.log10( nuclide.half_life_sec.value ) )
+            ) )
+            : null
     };
 
 }

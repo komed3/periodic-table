@@ -31,11 +31,11 @@ div.pt-nuclide-grid-container.noselect
             class= 'pt-nuclide pt-nuclide-grid-item' + (
               ( nuclide.z === grid.z && nuclide.n === grid.n ) ? ' current' : ''
             ),
-            href= core.url( '/nuclide/' + nuclide.symbol + '_' + nuclide.mass ),
-            title= nuclide.symbol + '-' + nuclide.mass,
+            href= core.url( '/nuclide/' + nuclide.symbol + '_' + nuclide.m ),
+            title= nuclide.symbol + '-' + nuclide.m,
             z= nuclide.z, n= nuclide.n, prop= prop
             style= '--x:' + x + ';--y:' + y
           )
-            span.mass= nuclide.mass
+            span.mass= nuclide.m
             span.symbol= nuclide.symbol
             span.z= nuclide.z
