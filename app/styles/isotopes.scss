@@ -1,13 +1,13 @@
 @import 'page';
 
-.pt-isotope-title {
+.pt-isotopes-title {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     gap: 16px;
 }
 
-.pt-isotope-title .isotope--symbol {
+.pt-isotopes-title .isotope--symbol {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -22,12 +22,25 @@
     background: var( --accent-1 );
 }
 
-.pt-isotope-title .isotope--mass {
+.pt-isotopes-title .isotope--mass {
     margin-top: -6px;
     font-size: 12px;
 }
 
-.pt-isotope-title .isotope--actions {
+.pt-isotopes-title .isotope--actions {
     flex: 1;
     justify-content: flex-end;
+}
+
+.pt-isotopes-split-table {
+    column-count: 2;
+    column-gap: 48px;
+}
+
+@media ( max-width: 1000px ) {
+
+    .pt-isotopes-split-table {
+        column-count: 1;
+    }
+
 }

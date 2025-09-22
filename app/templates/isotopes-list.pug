@@ -3,14 +3,14 @@ table.pt-prop-table.separators
   thead
     tr.pt-prop-table-header
       th.pt-prop-table-label.mini.sticky= __( 'isotope' )
-      th.pt-prop-table-label!= __( 'half-life--short' )
-      th.pt-prop-table-label!= __( 'abundance--short' )
+      th.pt-prop-table-label!= __( 'isotope-half_life--short' )
+      th.pt-prop-table-label!= __( 'isotope-abundance--short' )
       if isotopes_mini
         //- nothing
       else
-        th.pt-prop-table-label!= __( 'isotope-spin' )
+        th.pt-prop-table-label!= __( 'isotope-jp' )
         th.pt-prop-table-label!= __( 'isotope-radius' )
-        th.pt-prop-table-label!= __( 'isotope-mass' )
+        th.pt-prop-table-label!= __( 'isotope-atomic_mass' )
   tbody
     each n in isotopes.nuclides.slice( 0, isotopes_mini ? 8 : 999 )
       tr.pt-prop-table-row
