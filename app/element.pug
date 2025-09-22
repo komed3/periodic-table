@@ -349,12 +349,14 @@ block content
       //- spectral lines
       if page.element.spectrum
         div.pt-box.pt-element-box.pt-element-spectrum
-          h2
-            a( href= core.url( '/spectrum' ) )!= __( 'spectrum-title' )
+          h2!= __( 'spectrum-title' )
           img(
             src= page.element.spectrum,
             alt= __( 'spectrum-title' )
           )/
+          a.pt-icon-link( href= core.url( '/spectrum' ) )
+            i.icon clear_all
+            span= __( 'all-spectra' )
 
       //- hazard classification
       if page.element.data.hazard
@@ -380,9 +382,13 @@ block content
       //- nuclides
       if page.element.nuclides && page.element.nuclides.nuclides
         - var nuclides = page.element.nuclides
+        - var nuclides_mini = true
         div.pt-box.pt-element-box.pt-element-classification
           h2!= __( 'nuclides' )
           include templates/nuclides-table.pug
+          a.pt-icon-link( href= core.url( '/nuclide/' + nuclides.symbol ) )
+            i.icon clear_all
+            span= __( 'all-nuclides' )
 
       //- weblinks
       div.pt-box.pt-element-box.pt-element-weblinks

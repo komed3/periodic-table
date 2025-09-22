@@ -35,7 +35,7 @@ div.pt-nuclide-grid-container.noselect
             class= 'pt-nuclide pt-nuclide-grid-item' + (
               ( nuclide.z === grid.z && nuclide.n === grid.n ) ? ' current' : ''
             ),
-            href= core.url( '/nuclide/' + nuclide.symbol + '_' + nuclide.m ),
+            href= core.url( '/nuclide/' + nuclide.symbol + '/' + nuclide.m ),
             title= nuclide.symbol + '-' + nuclide.m,
             z= nuclide.z, n= nuclide.n, prop= prop
             style= '--x:' + x + ';--y:' + y

@@ -138,6 +138,22 @@ a.weblink span {
     font-size: 14px;
 }
 
+a.pt-icon-link {
+    display: inline-flex;
+    margin: 12px 0 0;
+    align-items: center;
+    gap: 6px;
+
+    span {
+        color: var( --accent-1 );
+    }
+
+    &:hover span {
+        text-decoration: underline;
+    }
+
+}
+
 a.pt-icon-button {
     display: flex;
     justify-content: center;
