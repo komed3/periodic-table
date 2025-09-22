@@ -114,9 +114,10 @@ const unit = ( u ) => {
  * format number object
  * @param {Mixed} n number object or value
  * @param {Int} digits maximum significant digits
+ * @param {Boolean} numOnly return only number and unit
  * @returns formatted number
  */
-const number = ( n, digits = 4 ) => {
+const number = ( n, digits = 4, numOnly = false ) => {
 
     try {
 
@@ -156,7 +157,7 @@ const number = ( n, digits = 4 ) => {
              * format single value
              */
 
-            let res = [
+            let parts = [
 
                 // label
                 ( n.label
@@ -206,7 +207,11 @@ const number = ( n, digits = 4 ) => {
                     } ).join( ', ' ) + ')'
                     : '' )
 
-            ].filter( r => r ).join( ' ' );
+            ];
+
+            let res = numOnly
+                ? parts[1] + ' ' + parts[4]
+                : parts.filter( Boolean ).join( ' ' );
 
             /**
              * theoretical value (predicted, estimated etc.)
