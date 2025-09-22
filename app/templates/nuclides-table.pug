@@ -9,9 +9,6 @@ table.pt-prop-table.pt-element-table
     each n in nuclides.nuclides.slice( 0, nuclides_mini ? 8 : -1 )
       tr.pt-prop-table-row
         td.pt-prop-table-value
-          a( href= core.url( '/nuclide/' + nuclides.symbol + '/' + n.m ) )
-            span.pt-nuclide-symbol
-              sup.mass= n.m
-              span.symbol= nuclides.symbol
+          a( href= core.url( '/nuclide/' + nuclides.symbol + '/' + n.m ) )= ( nuclides.symbol + '-' + n.m )
         td.pt-prop-table-value!= ( n.abundance ? f.number( n.abundance ) : __( 'synthetic--short' ) )
         td.pt-prop-table-value!= ( n.half_life ? f.number( n.half_life ) : __( 'stable--short' ) )
