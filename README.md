@@ -10,13 +10,13 @@ The project consists of several phases, which will gradually add more functions 
 
 Whole rework of data and source code for the pse-info.de project. New features, extended content, support for multiple languages, light and dark theme and much more.
 
-### 🔲 Chemical compounds (``v 2.1``)
-
-Database upgrade to include (well-known) chemical compounds from organic and inorganic chemistry including properties, images and more.
-
-### 🔲 Nuclides table (``v 2.2``)
+### 🚧 Table of Nuclides (``v 2.1``)
 
 Integration of the more than 3,000 known nuclides incl. interactive nuclide table, important information, decay chains, etc.
+
+### 🔲 Chemical compounds (``v 2.2``)
+
+Database upgrade to include (well-known) chemical compounds from organic and inorganic chemistry including properties, images and more.
 
 ### 🔲 Tools and calculators (``v 2.3``)
 
@@ -28,11 +28,15 @@ The PSE project is __open source__. This also applies to the data used on this w
 
 The data provided on this website do not claim to be correct, complete and up-to-date. They come from reference books, Wikipedia, WebElements and other websites. Pse-info.de assumes no liability for the use of this data and points out to use further sources if necessary.
 
-Like this website, its data can also be used freely. Feel free to use it to start your own project, perform further data analysis or similar. A reference to [pse-info.de](https://pse-info.de) and the [developer](https://komed3.de) is not necessary, but it would be friendly and would help to increase the reach of the project.
+Like this website, its data can also be used freely. Feel free to use it to start your own project, perform further data analysis or similar. A reference to [pse-info.de](https://pse-info.de) and the [developer](https://komed3.de) is not necessary, but would be friendly and help to increase the reach of the project.
 
 __[elements.json](https://github.com/komed3/periodic-table/raw/master/_db/elements.json)__
 
 Atomic, physical, etc. properties of all chemical elements.
+
+__[nuclides.json](https://github.com/komed3/periodic-table/raw/master/_db/nuclides.json)__
+
+Extensive database with over 3,000 nuclides.
 
 __[spectrum.json](https://github.com/komed3/periodic-table/raw/master/_db/spectrum.json)__
 
