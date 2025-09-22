@@ -114,44 +114,40 @@ a.red {
 
 .pt-page p a,
 a.external,
-a.weblink span {
+a.weblink span,
+a.pt-icon-link span {
     color: var( --accent-1 );
 }
 
 .pt-page p a:hover,
 a.external:hover,
-a.weblink:hover span {
+a.weblink:hover span,
+a.pt-icon-link:hover span {
     text-decoration: underline;
 }
 
-a.weblink {
-    display: flex;
+a.weblink,
+a.pt-icon-link {
+    display: inline-flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
     align-items: center;
     gap: 8px;
-    margin-top: 8px;
     width: max-content;
 }
 
-a.weblink span {
-    font-size: 14px;
+a.weblink {
+    display: flex;
+    margin-top: 8px;
+
+    span {
+        font-size: 14px;
+    }
+
 }
 
 a.pt-icon-link {
-    display: inline-flex;
-    margin: 12px 0 0;
-    align-items: center;
-    gap: 6px;
-
-    span {
-        color: var( --accent-1 );
-    }
-
-    &:hover span {
-        text-decoration: underline;
-    }
-
+    margin: 12px 24px 0 0;
 }
 
 a.pt-icon-button {
