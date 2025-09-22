@@ -82,12 +82,12 @@ ul {
 
 sub {
     vertical-align: bottom;
-    font-size: 65%;
+    font-size: 75%;
 }
 
 sup {
     vertical-align: top;
-    font-size: 65%;
+    font-size: 75%;
 }
 
 abbr {
@@ -352,8 +352,8 @@ select {
     background: var( --gray-1 );
 }
 
-.pt-element-table.breakable .pt-prop-table-label {
-    width: 35%;
+.pt-prop-table.separators tr:not( :last-child ) .pt-prop-table-value {
+    border-bottom: 1px dashed var( --gray-2 );
 }
 
 /* responsive adaptations */
@@ -379,19 +379,6 @@ select {
     :root {
         --content: calc( 100vw - 20px );
         --padding: 32px;
-    }
-
-}
-
-@media all and ( max-width: 600px ) {
-
-    .pt-element-table.breakable .pt-prop-table-row {
-        display: flex;
-        flex-flow: column nowrap;
-    }
-
-    .pt-element-table.breakable .pt-prop-table-label {
-        width: 100%;
     }
 
 }
