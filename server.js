@@ -951,6 +951,8 @@ routes.forEach( ( route ) => {
                             name: element.names[ res.getLocale() ] || element.names[ config.get( 'i18n.default' ) ]
                         };
 
+                        res.locals.nuclides = nuclides.nuclides[ key ];
+
                         /**
                          * breadcrumbs
                          */

@@ -2,13 +2,13 @@
 table.pt-prop-table.separators
   thead
     tr.pt-prop-table-header
-      th.pt-prop-table-label= __( 'nuclide' )
+      th.pt-prop-table-label.mini.sticky= __( 'nuclide' )
       th.pt-prop-table-label!= __( 'abundance--short' )
       th.pt-prop-table-label!= __( 'half-life--short' )
   tbody
     each n in nuclides.nuclides.slice( 0, nuclides_mini ? 8 : -1 )
       tr.pt-prop-table-row
-        td.pt-prop-table-value
+        td.pt-prop-table-value.mini.sticky
           a( href= core.url( '/nuclide/' + nuclides.symbol + '#' + nuclides.symbol + '_' + n.m ) )
             span.pt-nuclide-symbol
               sup.mass= n.m
