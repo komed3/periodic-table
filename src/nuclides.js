@@ -43,4 +43,4 @@ const extractGrid = ( z, n, zEl = 10, nEl = 16 ) => {
 
 }
 
-module.exports = { extractGrid };
+module.exports = { nuclides, index, MAX_Z, MAX_N, extractGrid };
