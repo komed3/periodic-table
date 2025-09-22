@@ -12,7 +12,7 @@ table.pt-prop-table.separators
         th.pt-prop-table-label!= __( 'nuclid-radius' )
         th.pt-prop-table-label!= __( 'nuclid-mass' )
   tbody
-    each n in nuclides.nuclides.slice( 0, nuclides_mini ? 8 : -1 )
+    each n in nuclides.nuclides.slice( 0, nuclides_mini ? 8 : 999 )
       tr.pt-prop-table-row
         td.pt-prop-table-value.mini.sticky
           a( href= core.url( '/nuclide/' + nuclides.symbol + '#' + nuclides.symbol + '_' + n.m ) )
