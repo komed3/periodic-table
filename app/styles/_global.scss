@@ -336,6 +336,10 @@ select {
     background: var( --gray-1 );
 }
 
+.pt-element-table.breakable .pt-prop-table-label {
+    width: 35%;
+}
+
 /* responsive adaptations */
 
 @media all and ( max-width: 1240px ) {
@@ -359,6 +363,19 @@ select {
     :root {
         --content: calc( 100vw - 20px );
         --padding: 32px;
+    }
+
+}
+
+@media all and ( max-width: 600px ) {
+
+    .pt-element-table.breakable .pt-prop-table-row {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    .pt-element-table.breakable .pt-prop-table-label {
+        width: 100%;
     }
 
 }

@@ -14,10 +14,6 @@
     max-width: var( --content );
 }
 
-.pt-element-table .pt-prop-table-label {
-    width: 35%;
-}
-
 /* general */
 
 .pt-element-title {
@@ -113,15 +109,6 @@
 }
 
 @media all and ( max-width: 600px ) {
-
-    .pt-element-table .pt-prop-table-row {
-        display: flex;
-        flex-flow: column nowrap;
-    }
-
-    .pt-element-table .pt-prop-table-label {
-        width: 100%;
-    }
 
     .pt-element-title .element--actions .pt-icon-button:nth-last-child( -n + 2 ) {
         display: none;
