@@ -19,5 +19,6 @@ module.exports = [
     [ '/:locale/scales{/}', 'scales' ],
     [ '/:locale/sitemap{/}', 'sitemap' ],
     [ '/:locale/spectrum{/}', 'spectrum' ],
-    [ '/:locale/nuclides{/}', 'nuclides' ]
+    [ '/:locale/nuclides{/}', 'nuclides' ],
+    [ '/:locale/nuclide/:element{/}', 'nuclide' ]
 ];

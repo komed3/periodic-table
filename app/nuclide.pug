@@ -1,0 +1,21 @@
+//- nuclide page
+extends page.pug
+
+block title
+  - var title = __( 'nuclides-of', page.element.name )
+  - var desc = __( 'nuclides-of-description', page.element.name )
+  title= title + ' — ' + __( 'periodic-table' )
+  meta( name= 'description', content= desc )/
+
+block social
+  meta( property= 'og:title', content= title )/
+  meta( property= 'og:description', content= desc )/
+
+block styles
+  link( rel= 'stylesheet', href= '/css/nuclide.css' )/
+
+block content
+  div.pt-page.pt-box.pt-nuclides
+    include templates/breadcrumbs.pug
+    h1= title
+    p.pt-page-intro= desc

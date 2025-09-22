@@ -381,6 +381,8 @@
   "nuclide": "Nuclide",
   "nuclides": "Nuclides",
   "nuclides-description": "Nuclides are atoms characterized by two numbers that indicate the number of protons and neutrons in their atomic nuclei. Occasionally, highly long-lived, excited states of atomic nuclei (nuclear isomers) are counted as separate nuclides. Nuclides that have the same number of protons but a different number of neutrons belong to the same chemical element and are referred to as its isotopes.",
+  "nuclides-of": "Nuclides of %s",
+  "nuclides-of-description": "List of all known nuclides of the element %s.",
   "nuclides-selector-decay": "Decay mode",
   "nuclides-selector-half_life": "Half-life",
   "nuclides-selector-label": "Select layer:",
