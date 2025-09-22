@@ -941,7 +941,7 @@ routes.forEach( ( route ) => {
                  */
                 case 'nuclide':
 
-                    key = ( req.params.element || '' ).toLowerCase();
+                    key = req.params.element === 'n' ? '*' : ( req.params.element || '' ).toLowerCase();
 
                     if( key in nuclides.nuclides ) {
 
@@ -962,7 +962,7 @@ routes.forEach( ( route ) => {
                             res.__( 'nuclides-title' )
                         ] );
 
-                        res.locals.breadcrumbs.push( [
+                        if ( key != '*' ) res.locals.breadcrumbs.push( [
                             '/element/' + req.params.element,
                             res.locals.page.element.name
                         ] );

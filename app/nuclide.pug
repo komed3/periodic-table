@@ -21,3 +21,23 @@ block content
     p.pt-page-intro= desc
     div.pt-prop-table-container
       include templates/nuclides-table.pug
+
+  each n in nuclides.nuclides
+    div.pt-page.pt-box.pt-nuclides
+      h2.pt-nuclide-title( id= ( nuclides.symbol + '_' + n.m ) )
+        span.nuclide--symbol
+          span.nuclide--mass= n.m
+          span.nuclide--label= nuclides.symbol
+        span.nuclide--name= page.element.name + '-' + n.m
+        div.pt-actions.nuclide--actions
+          a.pt-icon-button(
+            href= core.url( '/nuclides?z=' + n.z + '&n=' + n.n ),
+            title= __( 'nuclides-title' )
+          ): i.icon grid_view
+          a.pt-icon-button(
+            href= 'data:text/json;charset=utf-8,' + encodeURIComponent(
+              JSON.stringify( n )
+            ),
+            download= 'data.json',
+            title= __( 'action-download' )
+          ): i.icon download
