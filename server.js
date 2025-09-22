@@ -406,7 +406,8 @@ routes.forEach( ( route ) => {
                             name: element.names[ res.getLocale() ] || element.names[ config.get( 'i18n.default' ) ],
                             data: element,
                             text: ( new DB( 'text/' + res.getLocale() + '/' + key ) ).database,
-                            spectrum: ( new DB( 'spectrum' ) ).get( key )
+                            spectrum: ( new DB( 'spectrum' ) ).get( key ),
+                            nuclides: nuclides.nuclides[ key ]
                         };
 
                         /**
