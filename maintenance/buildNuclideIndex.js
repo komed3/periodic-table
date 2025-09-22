@@ -58,18 +58,13 @@ function getHalfLife ( hl ) {
  */
 function extractNuclideInfo ( nuclide, symbol ) {
 
+    const { z, n, m } = nuclide;
     const stable = !! nuclide.stable;
 
-    return {
-        z: nuclide.z,
-        n: nuclide.n,
-        m: nuclide.z + nuclide.n,
-        symbol: symbol === '*' ? 'n' : symbol[0].toUpperCase() + symbol.slice( 1 ),
-        layer: {
-            decay: stable ? 'stable' : getMainDecay( nuclide.decay ) ?? 'unknown',
-            half_life: stable ? 'stable' : getHalfLife( nuclide.half_life_sec ) ?? 'unknown'
-        }
-    };
+    return { z, n, m, symbol, layer: {
+        decay: stable ? 'stable' : getMainDecay( nuclide.decay ) ?? 'unknown',
+        half_life: stable ? 'stable' : getHalfLife( nuclide.half_life_sec ) ?? 'unknown'
+    } };
 
 }
 
@@ -81,7 +76,7 @@ function buildNuclideIndex () {
     const data = JSON.parse( fs.readFileSync( NUCLIDES_DB, 'utf8' ) );
     const nuclides = {};
 
-    for ( const [ symbol, entry ] of Object.entries( data ) ) {
+    for ( const entry of Object.values( data ) ) {
 
         if ( ! Array.isArray( entry.nuclides ) ) continue;
 
@@ -89,8 +84,7 @@ function buildNuclideIndex () {
 
             if ( typeof nucl.z !== 'number' || typeof nucl.n !== 'number' ) continue;
 
-            const key = `${nucl.z},${nucl.n}`;
-            nuclides[ key ] = extractNuclideInfo( nucl, symbol );
+            nuclides[ `${nucl.z},${nucl.n}` ] = extractNuclideInfo( nucl, entry.symbol );
 
         }
 
