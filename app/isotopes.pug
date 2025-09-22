@@ -57,6 +57,14 @@ block content
               tr.pt-prop-table-row
                 th.pt-prop-table-label= __( 'isotope-jp' )
                 td.pt-prop-table-value!= f.text( n.jp )
+            if n.stable == false && n.decay.length > 0
+              tr.pt-prop-table-row
+                th.pt-prop-table-label= __( 'decay-modes' )
+                td.pt-prop-table-value!= n.decay.map( d => __( 'decay-' + d.mode ) ).join( '; ' )
+            if n.discovery
+            tr.pt-prop-table-row
+              th.pt-prop-table-label= __( 'discovery' )
+              td.pt-prop-table-value= n.discovery.value || '—'
             -
               var props = [
                 'radius, atomic_mass', 'massexcess', 'binding',

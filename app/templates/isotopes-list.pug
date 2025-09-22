@@ -11,6 +11,7 @@ table.pt-prop-table.separators
         th.pt-prop-table-label!= __( 'isotope-jp' )
         th.pt-prop-table-label!= __( 'isotope-radius' )
         th.pt-prop-table-label!= __( 'isotope-atomic_mass' )
+        th.pt-prop-table-label!= __( 'discovery' )
   tbody
     each n in isotopes.nuclides.slice( 0, isotopes_mini ? 8 : 999 )
       tr.pt-prop-table-row
@@ -27,3 +28,4 @@ table.pt-prop-table.separators
           td.pt-prop-table-value!= f.text( n.jp ) || '—'
           td.pt-prop-table-value!= ( n.radius ? f.number( n.radius ) : '—' )
           td.pt-prop-table-value!= ( n.atomic_mass ? f.number( n.atomic_mass ) : '—' )
+          td.pt-prop-table-value= n.discovery && n.discovery.value || '—'

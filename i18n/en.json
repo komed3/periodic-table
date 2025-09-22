@@ -150,6 +150,8 @@
   "decay-N": "neutron emission",
   "decay-P": "proton emission",
   "decay-SF": "spontaneous fission",
+  "decay-chain": "Decay chain",
+  "decay-modes": "Decay modes",
   "decay-stable": "stable isotope",
   "decay-unknown": "unknown decay",
   "density": "Density",

@@ -149,6 +149,8 @@
   "decay-N": "Neutronen-Emission",
   "decay-P": "Protonen-Emission",
   "decay-SF": "Spontane Spaltung",
+  "decay-chain": "Zerfallsreihe",
+  "decay-modes": "Zerfallsarten",
   "decay-stable": "stabiles Isotop",
   "decay-unknown": "unbekannter Zerfall",
   "density": "Dichte",
