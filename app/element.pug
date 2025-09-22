@@ -67,7 +67,7 @@ block content
       //- atomic properties
       div.pt-box.pt-element-box.pt-element-atomic
         h2!= __( 'atomic-props' )
-        table.pt-prop-table.pt-element-table
+        table.pt-prop-table.pt-element-table.breakable
           tbody
             if page.element.data.standard_atomic_weight
               tr.pt-prop-table-row
@@ -82,7 +82,7 @@ block content
         //- radien
         if page.element.data.radius
           h3!= __( 'radien' )
-          table.pt-prop-table.pt-element-table
+          table.pt-prop-table.pt-element-table.breakable
             tbody
               each prop, label in page.element.data.radius
                 tr.pt-prop-table-row
@@ -91,7 +91,7 @@ block content
                   td.pt-prop-table-value!= f.number( prop )
         //- electron shell data
         h3!= __( 'electron-shell' )
-        table.pt-prop-table.pt-element-table
+        table.pt-prop-table.pt-element-table.breakable
           tbody
             if page.element.data.electron_config
               tr.pt-prop-table-row
@@ -111,7 +111,7 @@ block content
       //- physic properties
       div.pt-box.pt-element-box.pt-element-physic
         h2!= __( 'physical-props' )
-        table.pt-prop-table.pt-element-table
+        table.pt-prop-table.pt-element-table.breakable
           tbody
             tr.pt-prop-table-row
               th.pt-prop-table-label!= __( 'phase-label' )
@@ -136,7 +136,7 @@ block content
         //- temperatures
         if page.element.data.temperature
           h3!= __( 'temperatures' )
-          table.pt-prop-table.pt-element-table
+          table.pt-prop-table.pt-element-table.breakable
             tbody
               each prop, label in page.element.data.temperature
                 tr.pt-prop-table-row
@@ -146,7 +146,7 @@ block content
         //- enthalpies
         if page.element.data.enthalpy
           h3!= __( 'enthalpies' )
-          table.pt-prop-table.pt-element-table
+          table.pt-prop-table.pt-element-table.breakable
             tbody
               each prop, label in page.element.data.enthalpy
                 tr.pt-prop-table-row
@@ -156,7 +156,7 @@ block content
         //- thermal
         if page.element.data.heat
           h3!= __( 'heat-conduction' )
-          table.pt-prop-table.pt-element-table
+          table.pt-prop-table.pt-element-table.breakable
             tbody
               each prop, label in page.element.data.heat
                 tr.pt-prop-table-row
@@ -166,7 +166,7 @@ block content
         //- hardness props
         if page.element.data.hardness
           h3!= __( 'hardnesses' )
-          table.pt-prop-table.pt-element-table
+          table.pt-prop-table.pt-element-table.breakable
             tbody
               each prop, label in page.element.data.hardness
                 tr.pt-prop-table-row
@@ -176,7 +176,7 @@ block content
         //- elastic props
         if page.element.data.elastic
           h3!= __( 'elastics' )
-          table.pt-prop-table.pt-element-table
+          table.pt-prop-table.pt-element-table.breakable
             tbody
               each prop, label in page.element.data.elastic
                 tr.pt-prop-table-row
@@ -186,7 +186,7 @@ block content
         //- electrical
         if page.element.data.electrical
           h3!= __( 'electrical' )
-          table.pt-prop-table.pt-element-table
+          table.pt-prop-table.pt-element-table.breakable
             tbody
               each prop, label in page.element.data.electrical
                 tr.pt-prop-table-row
@@ -195,7 +195,7 @@ block content
                   td.pt-prop-table-value!= f.number( prop )
         //- magnetism
         h3!= __( 'magnetism' )
-        table.pt-prop-table.pt-element-table
+        table.pt-prop-table.pt-element-table.breakable
           tbody
             tr.pt-prop-table-row
               th.pt-prop-table-label!= __( 'magnetic_ordering-label' )
@@ -213,7 +213,7 @@ block content
         //- optical props
         if page.element.data.optical
           h3!= __( 'optical' )
-          table.pt-prop-table.pt-element-table
+          table.pt-prop-table.pt-element-table.breakable
             tbody
               each prop, label in page.element.data.optical
                 tr.pt-prop-table-row
@@ -224,7 +224,7 @@ block content
       //- chemic properties
       div.pt-box.pt-element-box.pt-element-chemic
         h2!= __( 'chemical-props' )
-        table.pt-prop-table.pt-element-table
+        table.pt-prop-table.pt-element-table.breakable
           tbody
             tr.pt-prop-table-row
               th.pt-prop-table-label!= __( 'basicity-label' )
@@ -250,7 +250,7 @@ block content
         //- electronegativity
         if page.element.data.negativity
           h3!= __( 'electronegativity' )
-          table.pt-prop-table.pt-element-table
+          table.pt-prop-table.pt-element-table.breakable
             tbody
               each prop, label in page.element.data.negativity
                 tr.pt-prop-table-row
@@ -261,7 +261,7 @@ block content
       //- other properties
       div.pt-box.pt-element-box.pt-element-other
         h2!= __( 'other-props' )
-        table.pt-prop-table.pt-element-table
+        table.pt-prop-table.pt-element-table.breakable
           tbody
             each prop in [ 'natural_occurrence', 'crystal_structure', 'goldschmidt', 'superconductivity', 'radioactivity' ]
               if page.element.data[ prop ]
@@ -317,7 +317,7 @@ block content
       //- element info
       div.pt-box.pt-element-box.pt-element-quickinfo
         h2!= __( 'quickinfo' )
-        table.pt-prop-table.pt-element-table
+        table.pt-prop-table.pt-element-table.breakable
           tbody
             tr.pt-prop-table-row
               th.pt-prop-table-label!= __( 'name' )
@@ -376,6 +376,13 @@ block content
         div.pt-box.pt-element-box.pt-element-classification
           h2!= __( 'classification' )
           include templates/classification.pug
+
+      //- nuclides
+      if page.element.nuclides && page.element.nuclides.nuclides
+        - var nuclides = page.element.nuclides
+        div.pt-box.pt-element-box.pt-element-classification
+          h2!= __( 'nuclides' )
+          include templates/nuclides-table.pug
 
       //- weblinks
       div.pt-box.pt-element-box.pt-element-weblinks

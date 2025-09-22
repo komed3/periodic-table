@@ -1,0 +1,18 @@
+//- templates/nuclides-table.pug
+table.pt-prop-table.pt-element-table
+  thead
+    tr.pt-prop-table-header
+      th.pt-prop-table-label= __( 'nuclide' )
+      th.pt-prop-table-label= __( 'half-life--short' )
+      th.pt-prop-table-label= __( 'abundance--short' )
+  tbody
+    each n in nuclides.nuclides
+      tr.pt-prop-table-row
+        td.pt-prop-table-value
+          a( href= core.url( '/nuclide/' + nuclides.symbol + '_' + n.m ) )
+            span.pt-nuclide-symbol
+              span.mass= n.m
+              span.symbol= nuclides.symbol
+              span.z= n.z
+        td.pt-prop-table-value= ( n.half_life ? f.number( n.half_life ) : __( 'stable' ) )
+        td.pt-prop-table-value= ( n.abundance ? f.number( n.abundance ) : '—' )
