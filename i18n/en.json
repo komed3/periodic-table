@@ -434,6 +434,7 @@
   "physical-props": "Physical properties",
   "pictogram": "Pictogram",
   "pictograms": "Pictograms",
+  "point-at-nuclide": "Point at nuclide",
   "poisson-elastic": "Poisson’s ratio",
   "poisson-elastic-description": "Material characteristic named after Siméon Denis Poisson, which serves to calculate the deformation behavior of components under mechanical stress. It is also a measure of the compressibility of materials and one of the elastic constants of a material.",
   "price": "Price",
