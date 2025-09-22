@@ -44,23 +44,27 @@ block content
       div.pt-isotopes-split-table
         table.pt-prop-table.pt-isotopes-table.breakable
           tbody
-            if n.half_life
-              tr.pt-prop-table-row
-                th.pt-prop-table-label= __( 'isotope-half_life' )
-                td.pt-prop-table-value!= f.number( n.half_life )
-            if n.abundance
-              tr.pt-prop-table-row
-                th.pt-prop-table-label= __( 'isotope-abundance' )
-                td.pt-prop-table-value!= f.number( n.abundance )
-            if n.radius
-              tr.pt-prop-table-row
-                th.pt-prop-table-label= __( 'isotope-radius' )
-                td.pt-prop-table-value!= f.number( n.radius )
+            tr.pt-prop-table-row
+              th.pt-prop-table-label= __( 'isotope-classification' )
+              td.pt-prop-table-value= 'z: ' + n.z + '; n: ' + n.n + '; m: ' + n.m
+            tr.pt-prop-table-row
+              th.pt-prop-table-label= __( 'isotope-half_life' )
+              td.pt-prop-table-value!= n.half_life ? f.number( n.half_life ) : __( 'stable' )
+            tr.pt-prop-table-row
+              th.pt-prop-table-label= __( 'isotope-abundance' )
+              td.pt-prop-table-value!= n.abundance ? f.number( n.abundance ) : __( 'synthetic' )
             if n.jp
               tr.pt-prop-table-row
                 th.pt-prop-table-label= __( 'isotope-jp' )
                 td.pt-prop-table-value!= f.text( n.jp )
-            if n.atomic_mass
-              tr.pt-prop-table-row
-                th.pt-prop-table-label= __( 'isotope-atomic_mass' )
-                td.pt-prop-table-value!= f.number( n.atomic_mass )
+            -
+              var props = [
+                'radius, atomic_mass', 'massexcess', 'binding',
+                'sp', 'sn', 'qec', 'qbm', 'qbm_n',
+                'magnetic_dipole', 'electric_quadrupole'
+              ]
+            each prop in props
+              if n[ prop ]
+                tr.pt-prop-table-row
+                  th.pt-prop-table-label= __( 'isotope-' + prop )
+                  td.pt-prop-table-value!= f.number( n[ prop ] )
