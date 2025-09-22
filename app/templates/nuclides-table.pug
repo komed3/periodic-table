@@ -3,8 +3,11 @@ table.pt-prop-table.separators
   thead
     tr.pt-prop-table-header
       th.pt-prop-table-label.mini.sticky= __( 'nuclide' )
-      th.pt-prop-table-label!= __( 'abundance--short' )
       th.pt-prop-table-label!= __( 'half-life--short' )
+      th.pt-prop-table-label!= __( 'abundance--short' )
+      th.pt-prop-table-label!= __( 'nuclid-spin' )
+      th.pt-prop-table-label!= __( 'nuclid-radius' )
+      th.pt-prop-table-label!= __( 'nuclid-mass' )
   tbody
     each n in nuclides.nuclides.slice( 0, nuclides_mini ? 8 : -1 )
       tr.pt-prop-table-row
@@ -13,5 +16,11 @@ table.pt-prop-table.separators
             span.pt-nuclide-symbol
               sup.mass= n.m
               span.symbol= nuclides.symbol
-        td.pt-prop-table-value!= ( n.abundance ? f.number( n.abundance, 4, nuclides_mini ) : __( 'synthetic--short' ) )
         td.pt-prop-table-value!= ( n.half_life ? f.number( n.half_life, 4, nuclides_mini ) : __( 'stable--short' ) )
+        td.pt-prop-table-value!= ( n.abundance ? f.number( n.abundance, 4, nuclides_mini ) : __( 'synthetic--short' ) )
+        if nuclides_mini
+          //- nothing
+        else
+          td.pt-prop-table-value!= f.text( n.jp ) || '—'
+          td.pt-prop-table-value!= ( n.radius ? f.number( n.radius ) : '—' )
+          td.pt-prop-table-value!= ( n.atomic_mass ? f.number( n.atomic_mass ) : '—' )
