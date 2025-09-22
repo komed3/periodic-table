@@ -20,6 +20,11 @@
     height: 100%;
     color: var( --pt-color, var( --color-main ) );
     background: var( --pt-bg, var( --gray-0 ) );
+
+    .element--symbol {
+        text-shadow: var( --pt-shadow, unset );
+    }
+
 }
 
 .pt-el * {

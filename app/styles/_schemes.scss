@@ -32,6 +32,8 @@
 
     --pt-radioactive: rgba( 255 255 255 / 0.5 );
 
+    --pt-text-shadow: unset;
+
 }
 
 [theme="dark"] {
@@ -65,6 +67,12 @@
     --pt-special-gray: #545454;
 
     --pt-radioactive: rgba( 0 0 0 / 0.5 );
+
+    --pt-text-shadow:
+        1px  1px 0 #000,
+       -1px  1px 0 #000,
+        1px -1px 0 #000,
+       -1px -1px 0 #000;
 
 }
 
@@ -266,10 +274,12 @@
 
 [layer="set"] .gas {
     --pt-accent: var( --accent-3 );
+    --pt-shadow: var( --pt-text-shadow );
 }
 
 [layer="set"] .liquid {
     --pt-accent: var( --accent-1 );
+    --pt-shadow: var( --pt-text-shadow );
 }
 
 [type="scale"] [prop="undefined"],

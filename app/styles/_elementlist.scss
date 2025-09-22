@@ -19,6 +19,11 @@
     font-weight: bold;
     color: var( --pt-color, var( --color-main ) );
     background: var( --pt-bg, var( --gray-1 ) );
+
+    .element--symbol {
+        text-shadow: var( --pt-shadow, unset );
+    }
+
 }
 
 .pt-element-list-symbol .element--number {
