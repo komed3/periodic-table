@@ -407,7 +407,7 @@ routes.forEach( ( route ) => {
                             data: element,
                             text: ( new DB( 'text/' + res.getLocale() + '/' + key ) ).database,
                             spectrum: ( new DB( 'spectrum' ) ).get( key ),
-                            nuclides: nuclides.nuclides[ key ]
+                            isotopes: nuclides.nuclides[ key ]
                         };
 
                         /**
@@ -447,6 +447,56 @@ routes.forEach( ( route ) => {
                          */
 
                         res.redirect( core.url( '/' ) );
+                        return ;
+
+                    }
+
+                    break;
+
+                /**
+                 * isotopes page
+                 */
+                case 'isotopes':
+
+                    key = req.params.element === 'n' ? '*' : ( req.params.element || '' ).toLowerCase();
+
+                    if( key in nuclides.nuclides || nuclides.nuclides.length === 0 ) {
+
+                        let element = elements.get( key ) ?? { names: { en: 'Neutron', de: 'Neutron' } };
+
+                        res.locals.page.element = {
+                            name: element.names[ res.getLocale() ] || element.names[ config.get( 'i18n.default' ) ]
+                        };
+
+                        res.locals.isotopes = nuclides.nuclides[ key ];
+
+                        /**
+                         * breadcrumbs
+                         */
+
+                        res.locals.breadcrumbs.push( [
+                            '/nuclides',
+                            res.__( 'nuclides-title' )
+                        ] );
+
+                        if ( key != '*' ) res.locals.breadcrumbs.push( [
+                            '/element/' + req.params.element,
+                            res.locals.page.element.name
+                        ] );
+
+                        res.locals.breadcrumbs.push( [
+                            '/isotopes/' + req.params.element,
+                            res.__( 'isotopes' )
+                        ] );
+
+                    } else {
+
+                        /**
+                         * element not given or found
+                         * redirect to table of nuclides
+                         */
+
+                        res.redirect( core.url( '/nuclides' ) );
                         return ;
 
                     }
@@ -576,6 +626,34 @@ routes.forEach( ( route ) => {
                         return ;
 
                     }
+
+                    break;
+
+                /**
+                 * table of nuclides
+                 */
+                case 'nuclides':
+
+                    /**
+                     * get query parameters and calculate range
+                     */
+
+                    res.locals.grid = nuclides.extractGrid(
+                        req.query.z,
+                        req.query.n,
+                        req.query.range
+                    );
+
+                    res.locals.grid.schema = req.query.schema || 'decay';
+
+                    /**
+                     * breadcrumbs
+                     */
+
+                    res.locals.breadcrumbs.push( [
+                        '/nuclides',
+                        res.__( 'nuclides-title' )
+                    ] );
 
                     break;
 
@@ -905,84 +983,6 @@ routes.forEach( ( route ) => {
                         '/spectrum',
                         res.__( 'spectrum-title' )
                     ] );
-
-                    break;
-
-                /**
-                 * table of nuclides
-                 */
-                case 'nuclides':
-
-                    /**
-                     * get query parameters and calculate range
-                     */
-
-                    res.locals.grid = nuclides.extractGrid(
-                        req.query.z,
-                        req.query.n,
-                        req.query.range
-                    );
-
-                    res.locals.grid.schema = req.query.schema || 'decay';
-
-                    /**
-                     * breadcrumbs
-                     */
-
-                    res.locals.breadcrumbs.push( [
-                        '/nuclides',
-                        res.__( 'nuclides-title' )
-                    ] );
-
-                    break;
-
-                /**
-                 * nuclide page
-                 */
-                case 'nuclide':
-
-                    key = req.params.element === 'n' ? '*' : ( req.params.element || '' ).toLowerCase();
-
-                    if( key in nuclides.nuclides ) {
-
-                        let element = elements.get( key ) ?? { names: { en: 'Neutron', de: 'Neutron' } };
-
-                        res.locals.page.element = {
-                            name: element.names[ res.getLocale() ] || element.names[ config.get( 'i18n.default' ) ]
-                        };
-
-                        res.locals.nuclides = nuclides.nuclides[ key ];
-
-                        /**
-                         * breadcrumbs
-                         */
-
-                        res.locals.breadcrumbs.push( [
-                            '/nuclides',
-                            res.__( 'nuclides-title' )
-                        ] );
-
-                        if ( key != '*' ) res.locals.breadcrumbs.push( [
-                            '/element/' + req.params.element,
-                            res.locals.page.element.name
-                        ] );
-
-                        res.locals.breadcrumbs.push( [
-                            '/nuclide/' + req.params.element,
-                            res.__( 'nuclides' )
-                        ] );
-
-                    } else {
-
-                        /**
-                         * element not given or found
-                         * redirect to table of nuclides
-                         */
-
-                        res.redirect( core.url( '/nuclides' ) );
-                        return ;
-
-                    }
 
                     break;
 

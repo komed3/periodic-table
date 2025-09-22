@@ -1,0 +1,29 @@
+//- templates/isotopes-list.pug
+table.pt-prop-table.separators
+  thead
+    tr.pt-prop-table-header
+      th.pt-prop-table-label.mini.sticky= __( 'isotope' )
+      th.pt-prop-table-label!= __( 'half-life--short' )
+      th.pt-prop-table-label!= __( 'abundance--short' )
+      if isotopes_mini
+        //- nothing
+      else
+        th.pt-prop-table-label!= __( 'isotope-spin' )
+        th.pt-prop-table-label!= __( 'isotope-radius' )
+        th.pt-prop-table-label!= __( 'isotope-mass' )
+  tbody
+    each n in isotopes.nuclides.slice( 0, isotopes_mini ? 8 : 999 )
+      tr.pt-prop-table-row
+        td.pt-prop-table-value.mini.sticky
+          a( href= core.url( '/isotopes/' + isotopes.symbol + '#' + isotopes.symbol + '_' + n.m ) )
+            span.pt-isotope-symbol
+              sup.mass= n.m
+              span.symbol= isotopes.symbol
+        td.pt-prop-table-value!= ( n.half_life ? f.number( n.half_life, 4, isotopes_mini ) : __( 'stable--short' ) )
+        td.pt-prop-table-value!= ( n.abundance ? f.number( n.abundance, 4, isotopes_mini ) : __( 'synthetic--short' ) )
+        if isotopes_mini
+          //- nothing
+        else
+          td.pt-prop-table-value!= f.text( n.jp ) || '—'
+          td.pt-prop-table-value!= ( n.radius ? f.number( n.radius ) : '—' )
+          td.pt-prop-table-value!= ( n.atomic_mass ? f.number( n.atomic_mass ) : '—' )

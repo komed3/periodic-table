@@ -2,8 +2,8 @@
 extends page.pug
 
 block title
-  - var title = __( 'nuclides-of', page.element.name )
-  - var desc = __( 'nuclides-of-description', page.element.name )
+  - var title = __( 'isotopes-of', page.element.name )
+  - var desc = __( 'isotopes-of-description', page.element.name )
   title= title + ' — ' + __( 'periodic-table' )
   meta( name= 'description', content= desc )/
 
@@ -12,24 +12,24 @@ block social
   meta( property= 'og:description', content= desc )/
 
 block styles
-  link( rel= 'stylesheet', href= '/css/nuclide.css' )/
+  link( rel= 'stylesheet', href= '/css/isotopes.css' )/
 
 block content
-  div.pt-page.pt-box.pt-nuclides
+  div.pt-page.pt-box.pt-isotopes
     include templates/breadcrumbs.pug
     h1= title
     p.pt-page-intro= desc
     div.pt-prop-table-container
-      include templates/nuclides-table.pug
+      include templates/isotopes-list.pug
 
-  each n in nuclides.nuclides
-    div.pt-page.pt-box.pt-nuclides
-      h2.pt-nuclide-title( id= ( nuclides.symbol + '_' + n.m ) )
-        span.nuclide--symbol
-          span.nuclide--mass= n.m
-          span.nuclide--label= nuclides.symbol
-        span.nuclide--name= page.element.name + '-' + n.m
-        div.pt-actions.nuclide--actions
+  each n in isotopes.nuclides
+    div.pt-page.pt-box.pt-isotopes
+      h2.pt-isotope-title( id= ( isotopes.symbol + '_' + n.m ) )
+        span.isotope--symbol
+          span.isotope--mass= n.m
+          span.isotope--label= isotopes.symbol
+        span.isotope--name= page.element.name + '-' + n.m
+        div.pt-actions.isotope--actions
           a.pt-icon-button(
             href= core.url( '/nuclides?z=' + n.z + '&n=' + n.n ),
             title= __( 'point-at-nuclide' )

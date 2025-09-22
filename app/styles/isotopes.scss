@@ -1,13 +1,13 @@
 @import 'page';
 
-.pt-nuclide-title {
+.pt-isotope-title {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     gap: 16px;
 }
 
-.pt-nuclide-title .nuclide--symbol {
+.pt-isotope-title .isotope--symbol {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -22,12 +22,12 @@
     background: var( --accent-1 );
 }
 
-.pt-nuclide-title .nuclide--mass {
+.pt-isotope-title .isotope--mass {
     margin-top: -6px;
     font-size: 12px;
 }
 
-.pt-nuclide-title .nuclide--actions {
+.pt-isotope-title .isotope--actions {
     flex: 1;
     justify-content: flex-end;
 }

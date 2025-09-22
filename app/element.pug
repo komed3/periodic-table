@@ -379,16 +379,16 @@ block content
           h2!= __( 'classification' )
           include templates/classification.pug
 
-      //- nuclides
-      if page.element.nuclides && page.element.nuclides.nuclides
-        - var nuclides = page.element.nuclides
-        - var nuclides_mini = true
+      //- isotopes
+      if page.element.isotopes && page.element.isotopes.nuclides
+        - var isotopes = page.element.isotopes
+        - var isotopes_mini = true
         div.pt-box.pt-element-box.pt-element-classification
-          h2!= __( 'nuclides' )
-          include templates/nuclides-table.pug
-          a.pt-icon-link( href= core.url( '/nuclide/' + nuclides.symbol ) )
+          h2!= __( 'isotopes-of', page.element.name )
+          include templates/isotopes-list.pug
+          a.pt-icon-link( href= core.url( '/isotopes/' + isotopes.symbol ) )
             i.icon clear_all
-            span= __( 'all-nuclides' )
+            span= __( 'all-isotopes' )
           a.pt-icon-link( href= core.url( '/nuclides' ) )
             i.icon grid_4x4
             span= __( 'nuclides-title' )

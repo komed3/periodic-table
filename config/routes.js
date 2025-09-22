@@ -7,9 +7,11 @@ module.exports = [
     [ '/:locale/element/:element{/}', 'element' ],
     [ '/:locale/glossary{/}', 'glossary' ],
     [ '/:locale/ionization{/}', 'ionization' ],
+    [ '/:locale/isotopes/:element{/}', 'isotopes' ],
     [ '/:locale/list/:list{/}', 'list' ],
     [ '/:locale/list/:list/:prop{/}', 'list' ],
     [ '/:locale/lists{/}', 'lists' ],
+    [ '/:locale/nuclides{/}', 'nuclides' ],
     [ '/:locale/privacy{/}', 'privacy' ],
     [ '/:locale/prop/:property{/}', 'prop' ],
     [ '/:locale/props{/}', 'props' ],
@@ -18,7 +20,5 @@ module.exports = [
     [ '/:locale/scale/:scale{/}', 'scale' ],
     [ '/:locale/scales{/}', 'scales' ],
     [ '/:locale/sitemap{/}', 'sitemap' ],
-    [ '/:locale/spectrum{/}', 'spectrum' ],
-    [ '/:locale/nuclides{/}', 'nuclides' ],
-    [ '/:locale/nuclide/:element{/}', 'nuclide' ]
+    [ '/:locale/spectrum{/}', 'spectrum' ]
 ];
