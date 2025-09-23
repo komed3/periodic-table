@@ -1,0 +1,24 @@
+//- decay chain page
+extends page.pug
+
+block title
+  - var title = __( 'decay-chain-of', page.isotope.name )
+  - var desc = __( 'decay-chain-description', page.isotope.name )
+  title= title + ' — ' + __( 'periodic-table' )
+  meta( name= 'description', content= desc )/
+
+block social
+  meta( property= 'og:title', content= title )/
+  meta( property= 'og:description', content= desc )/
+
+block styles
+  link( rel= 'stylesheet', href= '/css/decay.css' )/
+
+block scripts
+  script( src= 'https://unpkg.com/vis-network/standalone/umd/vis-network.min.js' )
+
+block content
+  div.pt-page.pt-box.pt-decay
+    include templates/breadcrumbs.pug
+    h1= title
+    p.pt-page-intro= desc

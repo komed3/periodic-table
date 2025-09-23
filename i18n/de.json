@@ -164,6 +164,7 @@
   "decay-SF+EC+B+": "Spontane Spaltung + Elektroneneinfang + β⁺-Zerfall",
   "decay-X": "andere Zerfallsart",
   "decay-chain": "Zerfallsreihe",
+  "decay-chain-description": "Grafische Darstellung der Zerfallsreihe des Isotops %s.",
   "decay-chain-of": "Zerfallsreihe von %s",
   "decay-modes": "Zerfallsarten",
   "decay-stable": "stabiles Isotop",

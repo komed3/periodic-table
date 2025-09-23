@@ -4,6 +4,7 @@ module.exports = [
     [ '/:locale/abundance/:abundance{/}', 'abundance' ],
     [ '/:locale/abundances{/}', 'abundances' ],
     [ '/:locale/data{/}', 'data' ],
+    [ '/:locale/decay/:isotope{/}', 'decay' ],
     [ '/:locale/element/:element{/}', 'element' ],
     [ '/:locale/glossary{/}', 'glossary' ],
     [ '/:locale/ionization{/}', 'ionization' ],

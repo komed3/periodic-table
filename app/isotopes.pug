@@ -37,7 +37,7 @@ block content
           ): i.icon ads_click
           if hasDecay
             a.pt-icon-button(
-              href= core.url( '/decay?id=' + isotopes.symbol + '_' + n.m  ),
+              href= core.url( '/decay/' + isotopes.symbol + '_' + n.m  ),
               title= __( 'decay-chain-of', page.element.name + '-' + n.m )
             ): i.icon call_split
           a.pt-icon-button(
@@ -87,6 +87,6 @@ block content
         i.icon ads_click
         span= __( 'point-at-nuclide' )
       if hasDecay
-        a.pt-icon-link( href= core.url( '/decay?id=' + isotopes.symbol + '_' + n.m  ) )
+        a.pt-icon-link( href= core.url( '/decay/' + isotopes.symbol + '_' + n.m  ) )
           i.icon call_split
           span= __( 'decay-chain-of', page.element.name + '-' + n.m )

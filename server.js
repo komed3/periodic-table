@@ -388,6 +388,67 @@ routes.forEach( ( route ) => {
                     break;
 
                 /**
+                 * decay (chain) page
+                 */
+                case 'decay':
+
+                    key = ( req.params.isotope || '' );
+                    const [ symbol, m ] = key.split( '_' );
+                    const n = symbol === 'n' ? '*' : symbol.toLowerCase();
+                    const isotope = nuclides.nuclides[ n ];
+
+                    if ( isotope && key in nuclides.chains.chains ) {
+
+                        const element = elements.get( n ) ?? { names: { en: 'Neutron', de: 'Neutron' } };
+
+                        res.locals.page.element = {
+                            name: element.names[ res.getLocale() ] || element.names[ config.get( 'i18n.default' ) ]
+                        };
+
+                        res.locals.page.isotope = {
+                            data: isotope,
+                            name: symbol + ' ' + m
+                        };
+
+                        /**
+                         * breadcrumbs
+                         */
+
+                        res.locals.breadcrumbs.push( [
+                            '/element/' + symbol,
+                            res.locals.page.element.name
+                        ] );
+
+                        res.locals.breadcrumbs.push( [
+                            '/isotopes/' + symbol,
+                            res.__( 'isotopes-of', res.locals.page.element.name )
+                        ] );
+
+                        res.locals.breadcrumbs.push( [
+                            '/isotopes/' + symbol + '#' + key,
+                            res.locals.page.isotope.name
+                        ] );
+
+                        res.locals.breadcrumbs.push( [
+                            '/decay/' + key,
+                            res.__( 'decay-chain' )
+                        ] );
+
+                    } else {
+
+                        /**
+                         * wrong or missing isotope key
+                         * redirect to 404 page
+                         */
+
+                        res.redirect( core.url( '/404' ) );
+                        return ;
+
+                    }
+
+                    break;
+
+                /**
                  * elements page
                  */
                 case 'element':
