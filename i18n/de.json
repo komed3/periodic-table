@@ -122,6 +122,8 @@
   "crystal_structure-sc-description": "Die einfach kubische Elementarzelle (SC) ist die einfachste Form der Elementarzelle. Hier befindet sich in jeder Ecke eines gleichseitigen Würfels ein Atom.",
   "crystal_structure-tetr": "tetragonal",
   "crystal_structure-tetr-description": "Das tetragonale Kristallsystem (TETR) umfasst alle Punktgruppen, die in genau einer Richtung eine vierzählige Dreh- oder Drehinversionsachse besitzen.",
+  "curie_point": "Curie-Temperatur",
+  "curie_point-description": "Die Curie-Temperatur bezeichnet die Temperatur, bei deren Erreichen ferromagnetische bzw. ferroelektrische Eigenschaften eines Materials vollständig verschwunden sind, so dass sie oberhalb nur noch paramagnetisch bzw. paraelektrisch sind.",
   "data-copyright": "Wie diese Website können auch ihre Daten frei verwendet werden. Sie dürfen gerne genutzt werden, um ein eigenes Projekt zu starten, eine weitergehende Datenanalyse durchzuführen oder ähnliches. Ein Verweis auf <b>pse-info.de</b> und den <a href=\"https://komed3.de\" target=\"_blank\">Entwickler</a> ist nicht notwendig, aber es wäre freundlich und würde dazu beitragen, die Reichweite des Projekts zu erhöhen.",
   "data-description": "Das PSE-Projekt ist quelloffen. Das gilt auch für die auf dieser Webseite genutzten Daten. Diese werden unter der MIT-Lizenz bereitgestellt und können nach Bedarf heruntergeladen werden.",
   "data-disclaimer": "Die auf dieser Webseite bereitgestellten Daten erheben <u>nicht den Anspruch auf Richtigkeit, Vollständigkeit und Aktualität</u>. Sie stammen aus Tafelwerken, der Wikipedia, WebElements und anderen Webseiten. Pse-info.de übernimmt <u>keine Haftung für die Verwendung</u> dieser Daten und weist daraufhin ggf. weitere Quellen zu nutzen.",

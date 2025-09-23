@@ -123,6 +123,8 @@
   "crystal_structure-sc-description": "The simple cubic unit cell (SC) is the simplest form of the unit cell. Here, there is one atom at each corner of an equilateral cube.",
   "crystal_structure-tetr": "Tetragonal",
   "crystal_structure-tetr-description": "The tetragonal crystal system (TETR) includes all point groups that have a fourfold rotation or rotation inversion axis in exactly one direction.",
+  "curie_point": "Curie point",
+  "curie_point-description": "The Curie point is the temperature above which certain materials lose their permanent magnetic properties, which can (in most cases) be replaced by induced magnetism.",
   "data-copyright": "Like this website, its data can also be used freely. Feel free to use it to start your own project, perform further data analysis or similar. A reference to <b>pse-info.de</b> and the <a href=\"https://komed3.de\" target=\"_blank\">developer</a> is not necessary, but it would be friendly and would help to increase the reach of the project.",
   "data-description": "The PSE project is open source. This also applies to the data used on this website. These are provided under the MIT license and can be downloaded as needed.",
   "data-disclaimer": "The data provided on this website do <u>not claim to be correct, complete and up-to-date</u>. They come from reference books, Wikipedia, WebElements and other websites. Pse-info.de assumes <u>no liability for the use</u> of this data and points out to use further sources if necessary.",

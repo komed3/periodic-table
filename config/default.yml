@@ -194,6 +194,10 @@ scales:
     label: electrical_resistivity
     scheme: _ice
     log: true
+  curie_point:
+    key: curie_point
+    label: curie_point
+    scheme: _ice
   optical_reflectivity:
     key: optical.reflectivity
     label: reflectivity-optical
