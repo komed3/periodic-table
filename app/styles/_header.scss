@@ -1,6 +1,8 @@
 .pt-header {
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -56,6 +58,10 @@
 .pt-language-selector-select {
     background: var( --gray-1 );
     border: 0;
+}
+
+.pt-wrapper {
+    padding-top: 56px;
 }
 
 @media all and ( max-width: 1200px ) {
