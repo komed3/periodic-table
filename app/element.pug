@@ -211,6 +211,11 @@ block content
                 th.pt-prop-table-label
                   a( href= core.url( '/scale/curie_point' ) )!= __( 'curie_point' )
                 td.pt-prop-table-value!= f.number( page.element.data.curie_point )
+            if page.element.data.neel_point
+              tr.pt-prop-table-row
+                th.pt-prop-table-label
+                  a( href= core.url( '/scale/neel_point' ) )!= __( 'neel_point' )
+                td.pt-prop-table-value!= f.number( page.element.data.neel_point )
             if page.element.data.magnetic_susceptibility
               tr.pt-prop-table-row
                 th.pt-prop-table-label!= __( 'magnetic_susceptibility' )

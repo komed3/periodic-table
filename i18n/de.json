@@ -384,6 +384,8 @@
   "nav": "Menü",
   "navigation-next": "Nächster Eintrag",
   "navigation-prev": "Vorheriger Eintrag",
+  "neel_point": "Néel-Temperatur",
+  "neel_point-description": "Oberhalb der Néel-Temperatur wird ein antiferromagnetischer Stoff paramagnetisch, d.h. die thermische Energie wird hier groß genug, um die magnetische Ordnung innerhalb des Stoffes zu zerstören.",
   "nfpa": "Gefahrendiamant",
   "nfpa-f": "Brandgefahr",
   "nfpa-f-0": "keine Entzündungsgefahr unter üblichen Bedingungen",

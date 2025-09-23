@@ -385,6 +385,8 @@
   "nav": "Menu",
   "navigation-next": "Next item",
   "navigation-prev": "Previous item",
+  "neel_point": "Neel temperature",
+  "neel_point-description": "The Néel temperature is the temperature above which an antiferromagnetic material becomes paramagnetic.",
   "nfpa": "Hazard diamond",
   "nfpa-f": "Fire hazard",
   "nfpa-f-0": "no ignition hazard under usual conditions",

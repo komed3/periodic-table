@@ -197,7 +197,13 @@ scales:
   curie_point:
     key: curie_point
     label: curie_point
-    scheme: _ice
+    scheme: _ice_reverse
+    scaling: true
+  neel_point:
+    key: neel_point
+    label: neel_point
+    scheme: _ice_reverse
+    scaling: true
   optical_reflectivity:
     key: optical.reflectivity
     label: reflectivity-optical
