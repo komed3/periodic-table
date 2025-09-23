@@ -4,6 +4,7 @@ const DB = require( './database' );
 
 const nuclides = ( new DB( 'nuclides' ) ).database;
 const index = ( new DB( 'nuclides_index' ) ).database;
+const chains = ( new DB( 'decay_chains' ) ).database;
 
 const MAX_Z = 118;
 const MAX_N = 178;
@@ -41,6 +42,31 @@ const extractGrid = ( z, n, zEl = 10, nEl = 16 ) => {
         items
     };
 
-}
+};
 
-module.exports = { nuclides, index, MAX_Z, MAX_N, extractGrid };
+const getDecayChain = ( nuclideID ) => {
+
+    const entries = new Map();
+
+    const fetchEntry = ( id ) => {
+
+        if ( id in chains.chains ) entries.set( id, chains.chains[ id ] );
+
+        for ( const daughter of chains.chains[ id ].daughter_chains ) {
+
+            if ( ! entries.has( daughter.nuclide ) ) fetchEntry( daughter.nuclide );
+
+        }
+
+    };
+
+    fetchEntry( nuclideID );
+
+    return entries;
+
+};
+
+module.exports = {
+    nuclides, index, chains, MAX_Z, MAX_N,
+    extractGrid, getDecayChain
+};

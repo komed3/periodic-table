@@ -23,6 +23,7 @@ block content
       include templates/isotopes-list.pug
 
   each n in isotopes.nuclides
+    - var hasDecay = n.stable == false && n.decay.length > 0;
     div.pt-page.pt-box.pt-isotopes
       h2.pt-isotopes-title( id= ( isotopes.symbol + '_' + n.m ) )
         span.isotope--symbol
@@ -34,6 +35,11 @@ block content
             href= core.url( '/nuclides?z=' + n.z + '&n=' + n.n ),
             title= __( 'point-at-nuclide' )
           ): i.icon ads_click
+          if hasDecay
+            a.pt-icon-button(
+              href= core.url( '/decay/' + isotopes.symbol + '_' + n.m  ),
+              title= __( 'decay-chain-of', page.element.name + '-' + n.m )
+            ): i.icon call_split
           a.pt-icon-button(
             href= 'data:text/json;charset=utf-8,' + encodeURIComponent(
               JSON.stringify( n )
@@ -57,7 +63,7 @@ block content
               tr.pt-prop-table-row
                 th.pt-prop-table-label= __( 'isotope-jp' )
                 td.pt-prop-table-value!= f.text( n.jp )
-            if n.stable == false && n.decay.length > 0
+            if hasDecay
               tr.pt-prop-table-row
                 th.pt-prop-table-label= __( 'decay-modes' )
                 td.pt-prop-table-value!= n.decay.map( d => __( 'decay-' + d.mode ) ).join( '; ' )
@@ -76,3 +82,11 @@ block content
                 tr.pt-prop-table-row
                   th.pt-prop-table-label= __( 'isotope-' + prop )
                   td.pt-prop-table-value!= f.number( n[ prop ] )
+
+      a.pt-icon-link( href= core.url( '/nuclides?z=' + n.z + '&n=' + n.n ) )
+        i.icon ads_click
+        span= __( 'point-at-nuclide' )
+      if hasDecay
+        a.pt-icon-link( href= core.url( '/decay/' + isotopes.symbol + '_' + n.m  ) )
+          i.icon call_split
+          span= __( 'decay-chain-of', page.element.name + '-' + n.m )
