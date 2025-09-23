@@ -20,7 +20,7 @@ window.addEventListener( 'load', function () {
     } );
 
     /**
-     * header menu toggle (open / close )
+     * header menu toggle (open / close)
      */
 
     const ptNavOpener = document.querySelector( '.pt-header-menu' ),
@@ -32,6 +32,25 @@ window.addEventListener( 'load', function () {
 
         ptNavOpener.classList.toggle( 'active' );
         ptNav.classList.toggle( 'active' );
+
+    } );
+
+    /**
+     * header search toggle (open / close)
+     */
+
+    const ptSearchOpener = document.querySelector( '.pt-toggle-search' ),
+          ptHeader = document.querySelector( '.pt-header' );
+
+    ptSearchOpener.addEventListener( 'click', ( e ) => {
+
+        e.preventDefault();
+
+        ptNavOpener.classList.remove( 'active' );
+        ptNav.classList.remove( 'active' );
+
+        ptHeader.classList.toggle( 'search' );
+        ptSearchOpener.classList.toggle( 'active' );
 
     } );
 

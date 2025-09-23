@@ -44,6 +44,9 @@ html( lang= locale )
         div.pt-header-search
           include templates/searchform.pug
         div.pt-header-settings
+          a.pt-icon-button.pt-toggle-search( href= '#', tabindex= 0, title= __( 'search-placeholder' ) )
+            i.icon.open search
+            i.icon.close close
           include templates/language-selector.pug
           include templates/theme-selector.pug
       include templates/nav.pug
