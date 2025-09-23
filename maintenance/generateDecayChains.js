@@ -26,6 +26,8 @@ class NuclideProcessor {
     nuclideMap = new Map();
     decayChains = new Map();
 
+    MAX_DEPTH = 99;
+
     constructor ( nuclides ) { this.nuclides = nuclides }
 
     initialize () {
@@ -51,6 +53,8 @@ class NuclideProcessor {
             }
 
         }
+
+        console.log( `Loaded ${ this.nuclideMap.size } nuclides` );
 
     }
 
@@ -301,6 +305,82 @@ class NuclideProcessor {
         }
 
         return chainEntry;
+
+    }
+
+    buildParentRelationships () {
+
+        console.log( 'Building parent relationships ...' );
+
+        for ( const [ nuclideId, chain ] of this.decayChains ) {
+
+            for ( const daughter of chain.daughter_chains ) {
+
+                const daughterChain = this.decayChains.get( daughter.nuclide );
+
+                if ( daughterChain ) {
+
+                    daughterChain.parent_chains.push( {
+                        nuclide: nuclideId,
+                        mode: daughter.mode,
+                        probability: daughter.probability
+                    } );
+
+                }
+
+            }
+
+        }
+
+    }
+
+    calculateChainDepths () {
+
+        console.log( 'Calculating chain depths ...' );
+
+        const terminalNodes = [];
+
+        for ( const [ nuclideId, chain ] of this.decayChains ) {
+
+            if ( chain.is_terminal ) {
+
+                terminalNodes.push( nuclideId );
+                chain.chain_depth = 0;
+
+            }
+
+        }
+
+        let currentDepth = 0;
+        let currentNodes = [ ...terminalNodes ];
+        const visited = new Set( currentNodes );
+
+        while ( currentNodes.length > 0 && currentDepth < this.MAX_DEPTH ) {
+
+            currentDepth++;
+            const nextNodes = [];
+
+            for ( const nodeId of currentNodes ) {
+
+                for ( const parent of this.decayChains.get( nodeId ).parent_chains ) {
+
+                    if ( ! visited.has( parent.nuclide ) ) {
+
+                        const parentChain = this.decayChains.get( parent.nuclide );
+                        parentChain.chain_depth = currentDepth;
+
+                        visited.add( parent.nuclide );
+                        nextNodes.push( parent.nuclide );
+
+                    }
+
+                }
+
+            }
+
+            currentNodes = nextNodes;
+
+        }
 
     }
 
