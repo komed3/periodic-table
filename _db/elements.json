@@ -6699,7 +6699,7 @@
     }
   },
   "cr": {
-    "@modified": "2023-11-04T10:30:10.482Z",
+    "@modified": "2025-09-23T12:01:24.780Z",
     "abundance": {
       "universe": {
         "value": 15000,
@@ -6881,6 +6881,10 @@
       "la": "Chromium"
     },
     "natural_occurrence": "primordial",
+    "neel_point": {
+      "value": 393,
+      "unit": "K"
+    },
     "negativity": {
       "pauling": 1.66,
       "sanderson": 1.66,
@@ -7033,7 +7037,7 @@
     }
   },
   "mn": {
-    "@modified": "2023-11-04T10:30:10.482Z",
+    "@modified": "2025-09-23T12:01:24.780Z",
     "abundance": {
       "universe": {
         "value": 8000,
@@ -7232,6 +7236,10 @@
       "la": "Manganum"
     },
     "natural_occurrence": "primordial",
+    "neel_point": {
+      "value": 100,
+      "unit": "K"
+    },
     "negativity": {
       "pauling": 1.55,
       "sanderson": 2.2,
@@ -7346,7 +7354,7 @@
     }
   },
   "fe": {
-    "@modified": "2023-11-04T10:30:10.482Z",
+    "@modified": "2025-09-23T12:01:24.780Z",
     "abundance": {
       "universe": {
         "value": 1100000,
@@ -7406,6 +7414,10 @@
     },
     "column": 22,
     "crystal_structure": "bcc",
+    "curie_point": {
+      "value": 1043,
+      "unit": "K"
+    },
     "density": {
       "value": 7.874,
       "unit": "g·cm[−3]"
@@ -7616,7 +7628,7 @@
     }
   },
   "co": {
-    "@modified": "2023-11-04T10:30:10.482Z",
+    "@modified": "2025-09-23T12:01:24.780Z",
     "abundance": {
       "universe": {
         "value": 3000,
@@ -7676,6 +7688,10 @@
     },
     "column": 23,
     "crystal_structure": "hcp",
+    "curie_point": {
+      "value": 1394,
+      "unit": "K"
+    },
     "density": {
       "value": 8.9,
       "unit": "g·cm[−3]",
@@ -7934,7 +7950,7 @@
     }
   },
   "ni": {
-    "@modified": "2023-11-04T10:30:10.482Z",
+    "@modified": "2025-09-23T12:01:24.780Z",
     "abundance": {
       "universe": {
         "value": 60000,
@@ -7994,6 +8010,10 @@
     },
     "column": 24,
     "crystal_structure": "fcc",
+    "curie_point": {
+      "value": 631,
+      "unit": "K"
+    },
     "density": {
       "value": 8.908,
       "unit": "g·cm[−3]",
@@ -16657,7 +16677,7 @@
     }
   },
   "ce": {
-    "@modified": "2023-11-04T10:30:10.482Z",
+    "@modified": "2025-09-23T12:01:24.780Z",
     "abundance": {
       "universe": {
         "value": 10,
@@ -16851,6 +16871,10 @@
       "la": "Cerium"
     },
     "natural_occurrence": "primordial",
+    "neel_point": {
+      "value": 12.5,
+      "unit": "K"
+    },
     "negativity": {
       "pauling": 1.12,
       "allred": 1.08,
@@ -17213,7 +17237,7 @@
     }
   },
   "nd": {
-    "@modified": "2023-11-04T10:30:10.482Z",
+    "@modified": "2025-09-23T12:01:24.780Z",
     "abundance": {
       "universe": {
         "value": 10,
@@ -17404,6 +17428,10 @@
       "la": "Neodymium"
     },
     "natural_occurrence": "primordial",
+    "neel_point": {
+      "value": 19.2,
+      "unit": "K"
+    },
     "negativity": {
       "pauling": 1.14,
       "allred": 1.07,
@@ -17685,7 +17713,7 @@
     }
   },
   "sm": {
-    "@modified": "2024-01-30T08:19:24.156Z",
+    "@modified": "2025-09-23T12:01:24.780Z",
     "abundance": {
       "universe": {
         "value": 5,
@@ -17876,6 +17904,10 @@
       "la": "Samarium"
     },
     "natural_occurrence": "primordial",
+    "neel_point": {
+      "value": 106,
+      "unit": "K"
+    },
     "negativity": {
       "pauling": 1.17,
       "allred": 1.07,
@@ -17956,7 +17988,7 @@
     }
   },
   "eu": {
-    "@modified": "2023-11-04T10:30:10.482Z",
+    "@modified": "2025-09-23T12:01:24.780Z",
     "abundance": {
       "universe": {
         "value": 0.5,
@@ -18136,6 +18168,10 @@
       "la": "Europium"
     },
     "natural_occurrence": "primordial",
+    "neel_point": {
+      "value": 90.5,
+      "unit": "K"
+    },
     "negativity": {
       "allred": 1.01,
       "nagle": 1.06
@@ -18210,7 +18246,7 @@
     }
   },
   "gd": {
-    "@modified": "2023-11-04T10:30:10.482Z",
+    "@modified": "2025-09-23T12:01:24.780Z",
     "abundance": {
       "universe": {
         "value": 2,
@@ -18266,6 +18302,10 @@
     },
     "column": 10,
     "crystal_structure": "hcp",
+    "curie_point": {
+      "value": 292,
+      "unit": "K"
+    },
     "density": {
       "value": 7.886,
       "unit": "g·cm[−3]",
@@ -18475,7 +18515,7 @@
     }
   },
   "tb": {
-    "@modified": "2023-11-04T10:30:10.482Z",
+    "@modified": "2025-09-23T12:01:24.780Z",
     "abundance": {
       "universe": {
         "value": 0.5,
@@ -18531,6 +18571,10 @@
     },
     "column": 11,
     "crystal_structure": "hcp",
+    "curie_point": {
+      "value": 222,
+      "unit": "K"
+    },
     "density": {
       "value": 8.253,
       "unit": "g·cm[−3]",
@@ -18644,6 +18688,10 @@
       "la": "Terbium"
     },
     "natural_occurrence": "primordial",
+    "neel_point": {
+      "value": 230,
+      "unit": "K"
+    },
     "negativity": {
       "allred": 1.1,
       "nagle": 1.08
@@ -18724,7 +18772,7 @@
     }
   },
   "dy": {
-    "@modified": "2023-11-04T10:30:10.482Z",
+    "@modified": "2025-09-23T12:01:24.780Z",
     "abundance": {
       "universe": {
         "value": 2,
@@ -18780,6 +18828,10 @@
     },
     "column": 12,
     "crystal_structure": "hcp",
+    "curie_point": {
+      "value": 87,
+      "unit": "K"
+    },
     "density": {
       "value": 8.559,
       "unit": "g·cm[−3]",
@@ -18909,6 +18961,10 @@
       "la": "Dysprosium"
     },
     "natural_occurrence": "primordial",
+    "neel_point": {
+      "value": 178,
+      "unit": "K"
+    },
     "negativity": {
       "pauling": 1.22,
       "allred": 1.1,
@@ -18994,7 +19050,7 @@
     }
   },
   "ho": {
-    "@modified": "2023-11-04T10:30:10.482Z",
+    "@modified": "2025-09-23T12:01:24.780Z",
     "abundance": {
       "universe": {
         "value": 0.5,
@@ -19046,6 +19102,10 @@
     },
     "column": 13,
     "crystal_structure": "hcp",
+    "curie_point": {
+      "value": 20,
+      "unit": "K"
+    },
     "density": {
       "value": 8.78,
       "unit": "g·cm[−3]",
@@ -19165,6 +19225,10 @@
       "la": "Holmium"
     },
     "natural_occurrence": "primordial",
+    "neel_point": {
+      "value": 132,
+      "unit": "K"
+    },
     "negativity": {
       "pauling": 1.23,
       "allred": 1.1,
@@ -19245,7 +19309,7 @@
     }
   },
   "er": {
-    "@modified": "2023-11-04T10:30:10.482Z",
+    "@modified": "2025-09-23T12:01:24.780Z",
     "abundance": {
       "universe": {
         "value": 2,
@@ -19301,6 +19365,10 @@
     },
     "column": 14,
     "crystal_structure": "hcp",
+    "curie_point": {
+      "value": 32,
+      "unit": "K"
+    },
     "density": {
       "value": 9.045,
       "unit": "g·cm[−3]",
@@ -19424,6 +19492,10 @@
       "la": "Erbium"
     },
     "natural_occurrence": "primordial",
+    "neel_point": {
+      "value": 82,
+      "unit": "K"
+    },
     "negativity": {
       "pauling": 1.24,
       "allred": 1.11,
@@ -19503,7 +19575,7 @@
     }
   },
   "tm": {
-    "@modified": "2023-11-04T10:30:10.482Z",
+    "@modified": "2025-09-23T12:01:24.780Z",
     "abundance": {
       "universe": {
         "value": 0.1,
@@ -19559,6 +19631,10 @@
     },
     "column": 15,
     "crystal_structure": "hcp",
+    "curie_point": {
+      "value": 25,
+      "unit": "K"
+    },
     "density": {
       "value": 9.318,
       "unit": "g·cm[−3]",
@@ -19693,6 +19769,10 @@
       "la": "Thulium"
     },
     "natural_occurrence": "primordial",
+    "neel_point": {
+      "value": 56,
+      "unit": "K"
+    },
     "negativity": {
       "pauling": 1.25,
       "allred": 1.11,
