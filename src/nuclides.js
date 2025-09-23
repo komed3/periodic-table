@@ -4,6 +4,7 @@ const DB = require( './database' );
 
 const nuclides = ( new DB( 'nuclides' ) ).database;
 const index = ( new DB( 'nuclides_index' ) ).database;
+const chains = ( new DB( 'decay_chains' ) ).database;
 
 const MAX_Z = 118;
 const MAX_N = 178;

@@ -165,6 +165,7 @@
   "decay-SF+EC+B+": "spontaneous fission + electron capture + β⁺ decay",
   "decay-X": "other decay",
   "decay-chain": "Decay chain",
+  "decay-chain-of": "Decay chain of %s",
   "decay-modes": "Decay modes",
   "decay-stable": "stable isotope",
   "decay-unknown": "unknown decay",
