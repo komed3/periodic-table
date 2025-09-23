@@ -282,3 +282,8 @@ abundances:
   human:
     mass: 70.0
     icon: accessibility_new
+
+tools: [
+  molar_mass, nuclear_decay, concentration,
+  gas_law, ph, stoichiometry
+]

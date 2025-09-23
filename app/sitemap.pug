@@ -9,6 +9,14 @@ block content
     h1!= __( 'sitemap-title' )
     p.pt-page-intro!= __( 'sitemap-description' )
 
+    //- tools
+    h2.pt-sitemap-label
+      a( href= core.url( '/tools' ) )!= __( 'tools-title' )
+    ul.pt-sitemap.pt-sitemap-list
+      each tool in config.get( 'tools' )
+        li.pt-sitemap-item
+          a( href= core.url( '/tool/' + tool ) )!= __( 'tool-' + tool + '-title' )
+
     //- lists
     h2.pt-sitemap-label
       a( href= core.url( '/lists' ) )!= __( 'lists-title' )
