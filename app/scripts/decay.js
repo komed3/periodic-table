@@ -118,7 +118,7 @@ window.addEventListener( 'load', function () {
             layout: {
                 hierarchical: {
                     enabled: true,
-                    direction: 'LR',
+                    direction: container.offsetWidth > 800 ? 'LR' : 'UD',
                     sortMethod: 'directed',
                     levelSeparation: 200,
                     nodeSpacing: 150,
