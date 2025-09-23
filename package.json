@@ -1,5 +1,6 @@
 {
     "name": "periodic-table",
+    "private": true,
     "version": "2.0.1",
     "description": "Periodic table and elements lists",
     "author": {
@@ -19,7 +20,8 @@
     "main": "server.js",
     "scripts": {
         "start": "nodemon server.js",
-        "compileSCSS": "npx sass app/styles:public/styles --style=compressed",
+        "clearAssets": "rm -rf public/scripts && rm -rf public/styles",
+        "compileSCSS": "npx sass app/styles:public/styles --style=compressed --no-source-map",
         "compileJS": "uglifyjs-folder app/scripts/ -o public/scripts/ --each",
         "buildTextIndex": "node maintenance/buildTextIndex.js",
         "buildSearchIndex": "node maintenance/buildSearchIndex.js",
