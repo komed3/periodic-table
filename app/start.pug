@@ -21,13 +21,7 @@ block content
     p.pt-page-intro!= __( 'intro' )
     div!= __( 'about' )
     div.pt-sitemap
-      div.pt-sitemap-item
-        h3
-          a(
-            href= core.url( '/nuclides' )
-          )!= __( 'nuclides-title' )
-        p!= __( 'nuclides-description' )
-      each page in [ 'lists', 'scales', 'props' ]
+      each page in [ 'nuclides', 'tools', 'lists', 'scales', 'props' ]
         div.pt-sitemap-item
           h3
             a(
