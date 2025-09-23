@@ -15,7 +15,10 @@ block styles
   link( rel= 'stylesheet', href= '/css/decay.css' )/
 
 block scripts
+  script.
+    const data = !{page.isotope.data}
   script( src= 'https://unpkg.com/vis-network/standalone/umd/vis-network.min.js' )
+  script( src= '/js/decay.min.js' )
 
 block content
   div.pt-page.pt-box.pt-decay
