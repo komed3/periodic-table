@@ -63,6 +63,20 @@ add2Sitemap( 'data' );
 add2Sitemap( 'privacy' );
 
 /**
+ * add tools to sitemap
+ */
+
+console.log( 'add tools to sitemap' );
+
+add2Sitemap( 'tools' );
+
+config.get( 'tools' ).forEach( ( tool ) => {
+
+    add2Sitemap( 'tool/' + tool );
+
+} );
+
+/**
  * add lists to sitemap
  */
 
