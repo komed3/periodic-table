@@ -22,5 +22,6 @@ module.exports = [
     [ '/:locale/scales{/}', 'scales' ],
     [ '/:locale/sitemap{/}', 'sitemap' ],
     [ '/:locale/spectrum{/}', 'spectrum' ],
+    [ '/:locale/tool/molar_mass{/}', 'tool-molar_mass' ],
     [ '/:locale/tools{/}', 'tools' ]
 ];

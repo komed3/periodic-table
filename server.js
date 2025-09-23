@@ -1053,6 +1053,23 @@ routes.forEach( ( route ) => {
                 case 'start':
                     break;
 
+                /**
+                 * molar mass
+                 */
+                case 'tool-molar_mass':
+
+                    res.locals.breadcrumbs.push( [
+                        '/tools',
+                        res.__( 'tools-title' )
+                    ] );
+
+                    res.locals.breadcrumbs.push( [
+                        '/tool/molar_mass',
+                        res.__( 'tool-molar_mass-title' )
+                    ] );
+
+                    break;
+
             }
 
             /**
