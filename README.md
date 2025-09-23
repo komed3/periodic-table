@@ -10,7 +10,7 @@ The project consists of several phases, which will gradually add more functions 
 
 Whole rework of data and source code for the pse-info.de project. New features, extended content, support for multiple languages, light and dark theme and much more.
 
-### 🚧 Table of Nuclides (``v 2.1``)
+### ✅ Table of Nuclides (``v 2.1``)
 
 Integration of the more than 3,000 known nuclides incl. interactive nuclide table, important information, decay chains, etc.
 
