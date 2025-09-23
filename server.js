@@ -406,7 +406,7 @@ routes.forEach( ( route ) => {
                         };
 
                         res.locals.page.isotope = {
-                            name: symbol + ' ' + m,
+                            name: symbol + '-' + m,
                             data: JSON.stringify( [ ...nuclides.getDecayChain( key ) ] )
                         };
 
