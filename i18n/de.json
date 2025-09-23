@@ -420,7 +420,7 @@
   "nfpa-s-W": "kein Wasser zum Löschen verwenden",
   "nfpa-s-undefined": "Wasser als Löschmittel zulässig",
   "nuclides": "Nuklide",
-  "nuclides-description": "Nuklide sind Atome, die durch zwei Zahlen gekennzeichnet sind, welche die Anzahl der Protonen und Neutronen in ihren Atomkernen angeben. Gelegentlich werden hochgradig langlebige, angeregte Zustände von Atomkernen (Kernisomere) als separate Nuklide gezählt. Nuklide, die dieselbe Protonenzahl, aber eine unterschiedliche Neutronenzahl aufweisen, gehören zum selben chemischen Element und werden als dessen Isotope bezeichnet.",
+  "nuclides-description": "Nuklide sind Atome, die durch zwei Zahlen gekennzeichnet sind, welche die Anzahl der Protonen und Neutronen in ihren Atomkernen angeben. Nuklide, die dieselbe Protonenzahl, aber eine unterschiedliche Neutronenzahl aufweisen, gehören zum selben chemischen Element und werden als dessen Isotope bezeichnet.",
   "nuclides-selector-decay": "Zerfallsart",
   "nuclides-selector-half_life": "Halbwertszeit",
   "nuclides-selector-label": "Farbschema auswählen:",
