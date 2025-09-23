@@ -24,6 +24,7 @@
         "buildTextIndex": "node maintenance/buildTextIndex.js",
         "buildSearchIndex": "node maintenance/buildSearchIndex.js",
         "buildNuclideIndex": "node maintenance/buildNuclideIndex.js",
+        "generateDecayChains": "node maintenance/generateDecayChains.js",
         "i18nSort": "node maintenance/i18nSort.js",
         "buildSitemap": "node maintenance/buildSitemap.js",
         "getImages": "node maintenance/getImages.js",
