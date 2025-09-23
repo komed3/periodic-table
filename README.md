@@ -14,13 +14,17 @@ Whole rework of data and source code for the pse-info.de project. New features, 
 
 Integration of the more than 3,000 known nuclides incl. interactive nuclide table, important information, decay chains, etc.
 
-### 🔲 Chemical compounds (``v 2.2``)
+### 🚧 Tools and calculators (``v 2.2``)
+
+Phase three provides the periodic table with a variety of important tools for calculations based on existing data, such as the molar mass of certain formulas, the radioactivity of nuclides, and many other things.
+
+### 🔲 Chemical compounds (``v 2.3``)
 
 Database upgrade to include (well-known) chemical compounds from organic and inorganic chemistry including properties, images and more.
 
-### 🔲 Tools and calculators (``v 2.3``)
+### 🔲 3D data visualization (``v 2.4``)
 
-Phase three provides the periodic table with a variety of important tools for calculations based on existing data, such as the molar mass of certain formulas, the radioactivity of nuclides, and many other things.
+Implementation of a 3D visualization of the periodic table based on different properties, which can be rotated and zoomed interactively.
 
 ## Database
 
