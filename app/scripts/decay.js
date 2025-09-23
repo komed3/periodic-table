@@ -93,7 +93,7 @@ window.addEventListener( 'load', function () {
 
         for ( const [ id, nuclide ] of data ) {
 
-            const label = `${nuclide.symbol} ${nuclide.m}`;
+            const label = `${nuclide.symbol}-${nuclide.m}`;
 
             nodes.add( {
                 id, label, title: `${label} / t½ ${ formatHalfLife( nuclide.hl ) }`,
@@ -137,7 +137,7 @@ window.addEventListener( 'load', function () {
                 borderWidth: 2,
                 font: {
                     color: 'white',
-                    size: 14
+                    size: 16
                 },
                 shape: 'box',
                 widthConstraint: { minimum: 80, maximum: 120 },
@@ -148,7 +148,7 @@ window.addEventListener( 'load', function () {
                     to: { enabled: true, scaleFactor: 1 }
                 },
                 font: {
-                    size: 24
+                    size: 20
                 },
                 smooth: {
                     type: 'curvedCW',
