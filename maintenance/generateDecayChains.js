@@ -26,6 +26,7 @@ class NuclideProcessor {
     nuclideMap = new Map();
     decayChains = new Map();
 
+    OUTPUT_DB = path.join( __dirname, '../_db/decay_chains.json' );
     MAX_DEPTH = 99;
 
     constructor ( nuclides ) { this.nuclides = nuclides }
@@ -308,6 +309,22 @@ class NuclideProcessor {
 
     }
 
+    generateDecayChains () {
+
+        console.log( 'Starting decay chain generation ...' );
+
+        for ( const [ nuclideId, _ ] of this.nuclideMap ) {
+
+            const chain = this.buildDecayChain( nuclideId );
+
+            if ( chain ) this.decayChains.set( nuclideId, chain );
+
+        }
+
+        console.log( `Built ${ this.decayChains.size } decay chains` );
+
+    }
+
     buildParentRelationships () {
 
         console.log( 'Building parent relationships ...' );
@@ -384,7 +401,25 @@ class NuclideProcessor {
 
     }
 
-    generate () {}
+    generate () {
+
+        this.generateDecayChains();
+        this.buildParentRelationships();
+        this.calculateChainDepths();
+
+        console.log( `Write decay chains to ${ this.OUTPUT_DB } ...` );
+
+        fs.writeFileSync( this.OUTPUT_DB, JSON.stringify( {
+            chains: Object.fromEntries( this.decayChains ),
+            metadata: {
+                total_chains: this.decayChains.size,
+                last_updated: new Date().toISOString()
+            }
+        }, null, 2 ), 'utf8' );
+
+        console.log( '... done' );
+
+    }
 
 }
 
