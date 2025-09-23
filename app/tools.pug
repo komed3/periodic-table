@@ -1,0 +1,19 @@
+//- tools
+extends page.pug
+
+block styles
+  link( rel= 'stylesheet', href= '/css/sitemap.css' )/
+
+block content
+  div.pt-page.pt-box.pt-tools
+    include templates/breadcrumbs.pug
+    h1= __( 'tools-title' )
+    p.pt-page-intro!= __( 'tools-description' )
+    div.pt-sitemap
+      each tool in config.get( 'tools' )
+        div.pt-sitemap-item
+          h3
+            a(
+              href= core.url( '/tool/' + tool )
+            )= __( 'tool-' + tool + '-title' )
+          p!= __( 'tool-' + tool + '-description' )

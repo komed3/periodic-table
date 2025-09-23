@@ -21,5 +21,6 @@ module.exports = [
     [ '/:locale/scale/:scale{/}', 'scale' ],
     [ '/:locale/scales{/}', 'scales' ],
     [ '/:locale/sitemap{/}', 'sitemap' ],
-    [ '/:locale/spectrum{/}', 'spectrum' ]
+    [ '/:locale/spectrum{/}', 'spectrum' ],
+    [ '/:locale/tools{/}', 'tools' ]
 ];
