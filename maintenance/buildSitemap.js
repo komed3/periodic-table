@@ -131,6 +131,18 @@ Object.values( ( new DB( 'elements' ) ).database ).forEach( ( el ) => {
 } );
 
 /**
+ * add isotope pages to sitemap
+ */
+
+console.log( 'add isotope pages to sitemap' );
+
+Object.values( ( new DB( 'nuclides' ) ).database ).forEach( ( entry ) => {
+
+    add2Sitemap( 'isotope/' + entry.symbol );
+
+} );
+
+/**
  * create sitemap
  */
 
