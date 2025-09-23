@@ -251,6 +251,59 @@ class NuclideProcessor {
 
     }
 
+    buildDecayChain ( nuclideId ) {
+
+        const nuclide = this.nuclideMap.get( nuclideId );
+
+        if ( ! nuclide ) return null;
+
+        const { z, n, m, symbol } = nuclide;
+        const halfLifeSec = nuclide.half_life_sec?.value || null;
+        const isStable = !! nuclide.stable;
+
+        const chainEntry = {
+            nuclide: nuclideId,
+            z, n, m, symbol,
+            hl: halfLifeSec,
+            stable: isStable,
+            decay_mode: null,
+            decay_probability: null,
+            daughter_chains: [],
+            parent_chains: [],
+            chain_depth: 0,
+            is_terminal: isStable
+        };
+
+        if ( nuclide.decay ) {
+
+            for ( const decay of nuclide.decay ) {
+
+                const products = this.calculateDecayProducts( z, n, decay.mode );
+
+                if ( products ) {
+
+                    const daughterId = this.findNuclideByZN( products.z, products.n );
+
+                    if ( daughterId ) {
+
+                        chainEntry.daughter_chains.push( {
+                            nuclide: daughterId,
+                            mode: decay.mode,
+                            probability: decay.percent || 100
+                        } );
+
+                    }
+
+                }
+
+            }
+
+        }
+
+        return chainEntry;
+
+    }
+
     generate () {}
 
 }
