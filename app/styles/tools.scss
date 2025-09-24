@@ -88,6 +88,38 @@
 
 }
 
+.pt-tool-error {
+    margin: 24px 0;
+    padding: 24px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: var( --color-light );
+    background: var( --accent-3 );
+    border-radius: 12px;
+
+    &.hidden {
+        display: none;
+    }
+
+}
+
+.pt-tool-results {
+    margin: 24px 0;
+    padding: 24px;
+    border: 2px solid var( --accent-1 );
+    border-radius: 12px;
+
+    &.hidden {
+        display: none;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+}
+
 .pt-tool-examples {
     display: flex;
     flex-flow: row nowrap;
