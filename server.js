@@ -1058,6 +1058,19 @@ routes.forEach( ( route ) => {
                  */
                 case 'tool-molar_mass':
 
+                    var data = {};
+
+                    for( const [ _k, el ] of Object.entries( elements.database ) ) {
+
+                        data[ el.symbol ] = {
+                            number: el.number, symbol: el.symbol, names: el.names,
+                            atomic_mass: el.atomic_mass?.value || 0
+                        };
+
+                    }
+
+                    res.locals.page.data = JSON.stringify( data );
+
                     res.locals.breadcrumbs.push( [
                         '/tools',
                         res.__( 'tools-title' )
