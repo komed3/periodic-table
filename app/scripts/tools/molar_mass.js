@@ -5,12 +5,14 @@ window.addEventListener( 'load', function () {
     const formula = document.getElementById( 'formula' );
     const volume = document.getElementById( 'volume' );
     const volumeUnit = document.getElementById( 'volume-unit' );
+    const error = document.getElementById( 'error' );
     const results = document.getElementById( 'results' );
+    const resTable = document.getElementById( 'results-table' );
 
     if ( ! (
         ChemParse && data && locale &&
         formula && volume && volumeUnit &&
-        results
+        results && resTable
     ) ) return;
 
     const unitFactors = {
@@ -27,11 +29,67 @@ window.addEventListener( 'load', function () {
 
     function showError ( msg ) {
 
+        error.innerHTML = msg;
+
+        error.classList.remove( 'hidden' );
         results.classList.add( 'hidden' );
 
     }
 
-    function calculate () {}
+    function calculate () {
+
+        error.classList.add( 'hidden' );
+
+        let parsed;
+
+        try {
+
+            parsed = ChemParse.parse( formula.value );
+
+        } catch ( err ) {
+
+            showError( err.message );
+            return;
+
+        }
+
+        let molarMass = 0;
+        const res = [];
+
+        for ( const [ symbol, count ] of Object.entries( parsed ) ) {
+
+            const m = parseFloat( data[ symbol ].atomic_mass * count );
+            molarMass += m;
+
+            res.push( {
+                symbol, count, m, data: data[ symbol ],
+                mass: data[ symbol ].atomic_mass
+            } );
+
+        }
+
+        let resRows = '';
+
+        for ( const { symbol, count, m, data, mass } of res ) {
+
+            resRows += `<tr>
+                <td class="pt-prop-table-value">
+                    <a href="${ window.location.origin }/${ locale }/element/${ symbol }">
+                        ${ data.names[ locale ] }
+                    </a>
+                </td>
+                <td class="pt-prop-table-value">${ count }</td>
+                <td class="pt-prop-table-value">${ formatNum( mass ) } u</td>
+                <td class="pt-prop-table-value">${ formatNum( m ) } u</td>
+                <td class="pt-prop-table-value">${ formatNum( m / molarMass * 100, 2 ) } %</td>
+            </tr>`;
+
+        }
+
+        resTable.querySelector( 'tbody' ).innerHTML = resRows;
+        results.classList.remove( 'hidden' );
+
+    }
 
     function clearResults () {
 
@@ -39,6 +97,7 @@ window.addEventListener( 'load', function () {
         volume.value = 1;
         volumeUnit.value = 'mol';
 
+        error.classList.add( 'hidden' );
         results.classList.add( 'hidden' );
 
     }

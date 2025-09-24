@@ -442,6 +442,7 @@
   "pauling-negativity-description": "Linus Paulings Modell als Maß für den ionischen Anteil der Bindung zweier Atome beruht auf deren Elektronegativitätsdifferenzen. Die Kenntnis experimentell ermittelter Bindungsdissoziationsenergien ist Voraussetzung.",
   "pearson-negativity": "Pearson-Skale",
   "pearson-negativity-description": "Die von Ralph G. Pearson entwickelte Skale berücksichtigt sowohl die Ionisierungsenergie als auch die Elektronenaffinität eines Atoms.",
+  "percent": "Anteil",
   "period-1": "1. (k-Schale)",
   "period-1-description": "Das einzige Orbital der s-Unterschale kann maximal zwei Elektronen aufnehmen; die erste Periode (k-Schale) wird durch Wasserstoff (1 Elektron) und Helium (2 Elektronen) erschöpft.",
   "period-2": "2. (l-Schale)",

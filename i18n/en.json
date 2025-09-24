@@ -443,6 +443,7 @@
   "pauling-negativity-description": "Linus Pauling’s model as a measure of the ionic portion of the bond between two atoms is based on their electronegativity differences. Knowledge of experimentally determined bond dissociation energies is a prerequisite.",
   "pearson-negativity": "Pearson absolute negativity",
   "pearson-negativity-description": "The scale developed by Ralph G. Pearson takes into account both the ionization energy and the electron affinity of an atom.",
+  "percent": "Percent",
   "period-1": "1st (k-shell)",
   "period-1-description": "The only orbital of the s-subshell can accommodate a maximum of two electrons; the first period (k-shell) is exhausted by hydrogen (1 electron) and helium (2 electrons).",
   "period-2": "2nd (l-shell)",
