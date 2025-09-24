@@ -1054,6 +1054,23 @@ routes.forEach( ( route ) => {
                     break;
 
                 /**
+                 * concentration calculator
+                 */
+                case 'tool-concentration':
+
+                    res.locals.breadcrumbs.push( [
+                        '/tools',
+                        res.__( 'tools-title' )
+                    ] );
+
+                    res.locals.breadcrumbs.push( [
+                        '/tool/concentration',
+                        res.__( 'tool-concentration-title' )
+                    ] );
+
+                    break;
+
+                /**
                  * molar mass
                  */
                 case 'tool-molar_mass':
