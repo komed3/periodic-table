@@ -9,3 +9,17 @@ block content
     include templates/breadcrumbs.pug
     h1= __( 'tool-molar_mass-title' )
     p.pt-page-intro!= __( 'tool-molar_mass-description' )
+
+    div.pt-tool-container
+      div.pt-tool-form
+        div.pt-tool-form-group
+          label( for= 'formula' )= __( 'tool-molar_mass-label' )
+          input#formula( type= 'text', placeholder= __( 'tool-molar_mass-placeholder' ), maxlength='100' )/
+        p.pt-tool-form-help= __( 'tool-molar_mass-help' )
+        div.pt-tool-form-group.right
+          button.pt-tool-button.primary( type= 'button', data-action= 'calculate' )
+            i.icon functions
+            span= __( 'tool-calculate' )
+          button.pt-tool-button.secondary( type= 'button', data-action= 'clear' )
+            i.icon not_interested
+            span= __( 'tool-clear' )
