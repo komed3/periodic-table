@@ -641,7 +641,7 @@
   "tool-molar_mass-formula-label": "Chemische Formel",
   "tool-molar_mass-formula-placeholder": "H2O, KMnO4, Ca(OH)2 …",
   "tool-molar_mass-help": "Unterstützt Klammerung, Dezimal- und wissenschaftliche Notation, durch Punkte getrennte Hydratteile.",
-  "tool-molar_mass-result": "Dis Masse von <b data-res=\"mol\"></b> des Stoffs mit der Summenformel <b data-res=\"formula\"></b> beträgt <b data-res=\"mass\"></b>.",
+  "tool-molar_mass-result": "Die Masse von <b data-res=\"mol\"></b> des Stoffs mit der Summenformel <b data-res=\"formula\"></b> beträgt <b data-res=\"mass\"></b>.",
   "tool-molar_mass-title": "Molmassenrechner",
   "tool-molar_mass-volume-label": "Menge / Volumen",
   "tool-nuclear_decay-description": "Berechnet Halbwertszeit, Zerfallskonstanten, Restmengen und führt Altersdatierungsberechnungen durch.",
