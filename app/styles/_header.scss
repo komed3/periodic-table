@@ -108,3 +108,11 @@ a.pt-toggle-search {
     }
 
 }
+
+@media all and ( max-width: 400px ) {
+
+    .pt-header-logo {
+        display: none;
+    }
+
+}
