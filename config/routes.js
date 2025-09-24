@@ -23,6 +23,10 @@ module.exports = [
     [ '/:locale/sitemap{/}', 'sitemap' ],
     [ '/:locale/spectrum{/}', 'spectrum' ],
     [ '/:locale/tool/concentration{/}', 'tool-concentration' ],
+    [ '/:locale/tool/gas_law{/}', 'tool-gas_law' ],
+    [ '/:locale/tool/nuclear_decay{/}', 'tool-nuclear_decay' ],
     [ '/:locale/tool/molar_mass{/}', 'tool-molar_mass' ],
+    [ '/:locale/tool/ph{/}', 'tool-ph' ],
+    [ '/:locale/tool/stoichiometry{/}', 'tool-stoichiometry' ],
     [ '/:locale/tools{/}', 'tools' ]
 ];
