@@ -645,7 +645,7 @@
   "tool-nuclear_decay-title": "Nuclear Decay",
   "tool-ph-description": "Calculates pH values for strong/weak acids and bases, buffer solutions, and salt hydrolysis.",
   "tool-ph-title": "pH Calculator",
-  "tool-results": "Results",
+  "tool-results": "Results:",
   "tool-stoichiometry-description": "Calculates limiting reactants, theoretical yields, and percent yields for chemical reactions.",
   "tool-stoichiometry-title": "Stoichiometry",
   "tools-description": "Comprehensive set of chemistry calculators including molar mass, stoichiometry, concentration, gas laws, pH, and nuclear decay calculations.",
