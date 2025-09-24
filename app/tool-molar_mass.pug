@@ -1,6 +1,12 @@
 //- molar mass calculator
 extends page.pug
 
+block scripts
+  script.
+    const locale = "#{locale}";
+    const data = !{page.data};
+  script( type= 'module', src= '/js/tools/molar_mass.min.js' ) 
+
 block styles
   link( rel= 'stylesheet', href= '/css/tools.css' )/
 
@@ -13,9 +19,20 @@ block content
     div.pt-tool-container
       div.pt-tool-form
         div.pt-tool-form-group
-          label( for= 'formula' )= __( 'tool-molar_mass-label' )
-          input#formula( type= 'text', placeholder= __( 'tool-molar_mass-placeholder' ), maxlength='100' )/
+          label( for= 'formula' )= __( 'tool-molar_mass-formula-label' )
+          input#formula.main( type= 'text', placeholder= __( 'tool-molar_mass-formula-placeholder' ), maxlength= '100' )/
         p.pt-tool-form-help= __( 'tool-molar_mass-help' )
+        div.pt-tool-form-group
+          label( for= 'volume' )= __( 'tool-molar_mass-volume-label' )
+          div.pt-tool-form-sep
+          input#volume.right( type= 'number', value= 1, min= 0, step= 0.01 )/
+          div.pt-input-container
+            i.icon straighten
+            select#volume-unit
+              option( value= 'mol' ) mol
+              option( value= 'mg' ) mg
+              option( value= 'g' ) g
+              option( value= 'kg' ) kg
         div.pt-tool-form-group.right
           button.pt-tool-button.primary( type= 'button', data-action= 'calculate' )
             i.icon functions
@@ -23,6 +40,20 @@ block content
           button.pt-tool-button.secondary( type= 'button', data-action= 'clear' )
             i.icon not_interested
             span= __( 'tool-clear' )
+
+      div#results.pt-tool-results.hidden
+        h3= __( 'tool-results' )
+        div#results-total.pt-tool-results-total
+        div.pt-prop-table-container
+          table#results-table.pt-prop-table.pt-tool-results-table
+            thead
+              tr
+                th.pt-prop-table-label= __( 'element' )
+                th.pt-prop-table-label= __( 'amount' )
+                th.pt-prop-table-label= __( 'atomic-mass' )
+                th.pt-prop-table-label= __( 'mass' )
+            tbody
+
       div.pt-tool-examples
         h3= __( 'tool-examples' )
         button.pt-tool-button.example( data-action= 'example', data-formula= 'H2O' ) H₂O
