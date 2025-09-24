@@ -1,0 +1,11 @@
+//- gas law calculator
+extends page.pug
+
+block styles
+  link( rel= 'stylesheet', href= '/css/tools.css' )/
+
+block content
+  div.pt-page.pt-box.pt-tool.pt-tool--gas-law
+    include templates/breadcrumbs.pug
+    h1= __( 'tool-gas_law-title' )
+    p.pt-page-intro!= __( 'tool-gas_law-description' )

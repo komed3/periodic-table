@@ -1,0 +1,11 @@
+//- pH calculator
+extends page.pug
+
+block styles
+  link( rel= 'stylesheet', href= '/css/tools.css' )/
+
+block content
+  div.pt-page.pt-box.pt-tool.pt-tool--ph
+    include templates/breadcrumbs.pug
+    h1= __( 'tool-ph-title' )
+    p.pt-page-intro!= __( 'tool-ph-description' )
