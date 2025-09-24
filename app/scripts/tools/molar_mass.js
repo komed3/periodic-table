@@ -8,6 +8,7 @@ window.addEventListener( 'load', function () {
     const error = document.getElementById( 'error' );
     const results = document.getElementById( 'results' );
     const resTable = document.getElementById( 'results-table' );
+    const resTotal = document.getElementById( 'result-total' );
 
     if ( ! (
         ChemParse && data && locale &&
@@ -15,15 +16,43 @@ window.addEventListener( 'load', function () {
         results && resTable
     ) ) return;
 
-    const unitFactors = {
-        mol: 1, mg: 0.001, g: 1, kg: 1000
-    };
-
     function formatNum ( val, digits = 4 ) {
 
         return Number( val ).toLocaleString( locale, {
             maximumFractionDigits: digits
         } );
+
+    }
+
+    function convertVolume ( molarMass ) {
+
+        let mol, g;
+
+        switch ( volumeUnit.value ) {
+
+            case 'mol':
+                mol = volume.value;
+                g = mol * molarMass;
+                break;
+
+            case 'g':
+                g = volume.value;
+                mol = g / molarMass;
+                break;
+
+            case 'mg':
+                g = volume.value / 1000;
+                mol = g / molarMass;
+                break;
+
+            case 'kg':
+                g = volume.value * 1000;
+                mol = g / molarMass;
+                break;
+
+        }
+
+        return { mol, g };
 
     }
 
@@ -53,24 +82,22 @@ window.addEventListener( 'load', function () {
 
         }
 
-        let molarMass = 0;
+        let molarMass = 0, atomCount = 0;
         const res = [];
 
         for ( const [ symbol, count ] of Object.entries( parsed ) ) {
 
             const m = parseFloat( data[ symbol ].atomic_mass * count );
             molarMass += m;
+            atomCount += count;
 
-            res.push( {
-                symbol, count, m, data: data[ symbol ],
-                mass: data[ symbol ].atomic_mass
-            } );
+            res.push( { symbol, count, m, data: data[ symbol ] } );
 
         }
 
         let resRows = '';
 
-        for ( const { symbol, count, m, data, mass } of res ) {
+        for ( const { symbol, count, m, data } of res ) {
 
             resRows += `<tr>
                 <td class="pt-prop-table-value">
@@ -79,12 +106,18 @@ window.addEventListener( 'load', function () {
                     </a>
                 </td>
                 <td class="pt-prop-table-value">${ count }</td>
-                <td class="pt-prop-table-value">${ formatNum( mass ) } u</td>
+                <td class="pt-prop-table-value">${ formatNum( count / atomCount * 100, 2 ) } %</td>
                 <td class="pt-prop-table-value">${ formatNum( m ) } u</td>
                 <td class="pt-prop-table-value">${ formatNum( m / molarMass * 100, 2 ) } %</td>
             </tr>`;
 
         }
+
+        const { mol, g } = convertVolume( molarMass );
+
+        resTotal.querySelector( '[data-res="mol"]' ).innerHTML = formatNum( mol ) + ' mol';
+        resTotal.querySelector( '[data-res="formula"]' ).innerHTML = formula.value;
+        resTotal.querySelector( '[data-res="mass"]' ).innerHTML = formatNum( g ) + ' g';
 
         resTable.querySelector( 'tbody' ).innerHTML = resRows;
         results.classList.remove( 'hidden' );

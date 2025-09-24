@@ -45,17 +45,17 @@ block content
 
       div#results.pt-tool-results.hidden
         h3= __( 'tool-result' )
-        div#results-total.pt-tool-results-total
+        p#result-total.pt-tool-results-total!= __( 'tool-molar_mass-result' )
         h4= __( 'compositional-analysis' )
         div.pt-prop-table-container
           table#results-table.pt-tool-results-table.pt-prop-table.separators
             thead
               tr
                 th.pt-prop-table-label= __( 'element' )
-                th.pt-prop-table-label= __( 'amount' )
+                th.pt-prop-table-label= __( 'atoms' )
+                th.pt-prop-table-label= __( 'fraction' )
                 th.pt-prop-table-label= __( 'atomic-mass' )
-                th.pt-prop-table-label= __( 'mass' )
-                th.pt-prop-table-label= __( 'percent' )
+                th.pt-prop-table-label= __( 'mass-fraction' )
             tbody
 
       div.pt-tool-examples
