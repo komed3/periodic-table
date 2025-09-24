@@ -33,7 +33,8 @@
     },
     "appearance": {
       "en": "colorless gas (H{2})",
-      "de": "farbloses Gas (H{2})"
+      "de": "farbloses Gas (H{2})",
+      "fr": "gaz incolore (H{2})"
     },
     "atomic_mass": {
       "value": 1.0081,
@@ -181,7 +182,8 @@
     "names": {
       "en": "Hydrogen",
       "de": "Wasserstoff",
-      "la": "Hydrogenium"
+      "la": "Hydrogenium",
+      "fr": "Hydrogène"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -314,7 +316,8 @@
     ],
     "wiki": {
       "en": "Hydrogen",
-      "de": "Wasserstoff"
+      "de": "Wasserstoff",
+      "fr": "Hydrogène"
     }
   },
   "he": {
@@ -339,7 +342,8 @@
     },
     "appearance": {
       "en": "colorless gas, exhibiting a gray, cloudy glow",
-      "de": "farbloses Gas"
+      "de": "farbloses Gas",
+      "fr": "gaz incolore, présentant une lueur grise et nuageuse"
     },
     "atomic_mass": {
       "value": 4.0026022,
@@ -458,7 +462,8 @@
     "names": {
       "en": "Helium",
       "de": "Helium",
-      "la": "Helium"
+      "la": "Helium",
+      "fr": "Hélium"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -564,7 +569,8 @@
     },
     "wiki": {
       "en": "Helium",
-      "de": "Helium"
+      "de": "Helium",
+      "fr": "Hélium"
     }
   },
   "li": {
@@ -601,7 +607,8 @@
     },
     "appearance": {
       "en": "silvery-white",
-      "de": "silbrig weiß/grau"
+      "de": "silbrig weiß/grau",
+      "fr": "blanc argenté"
     },
     "atomic_mass": {
       "value": 6.946,
@@ -766,7 +773,8 @@
     "names": {
       "en": "Lithium",
       "de": "Lithium",
-      "la": "Lithium"
+      "la": "Lithium",
+      "fr": "Lithium"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -877,7 +885,8 @@
     },
     "wiki": {
       "en": "Lithium",
-      "de": "Lithium"
+      "de": "Lithium",
+      "fr": "Lithium"
     }
   },
   "be": {
@@ -914,7 +923,8 @@
     },
     "appearance": {
       "en": "white-gray metallic",
-      "de": "weiß-grau metallisch"
+      "de": "weiß-grau metallisch",
+      "fr": "gris-blanc métallique"
     },
     "atomic_mass": {
       "value": 9.01218315,
@@ -1089,7 +1099,8 @@
     "names": {
       "en": "Beryllium",
       "de": "Beryllium",
-      "la": "Beryllium"
+      "la": "Beryllium",
+      "fr": "Béryllium"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -1208,7 +1219,8 @@
     ],
     "wiki": {
       "en": "Beryllium",
-      "de": "Beryllium"
+      "de": "Beryllium",
+      "fr": "Beryllium"
     }
   },
   "b": {
@@ -1245,7 +1257,8 @@
     },
     "appearance": {
       "en": "black-brown",
-      "de": "schwarz"
+      "de": "schwarz",
+      "fr": "noir"
     },
     "atomic_mass": {
       "value": 10.811,
@@ -1387,7 +1400,8 @@
     "names": {
       "en": "Boron",
       "de": "Bor",
-      "la": "Boron"
+      "la": "Boron",
+      "fr": "Bore"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -1496,7 +1510,8 @@
     ],
     "wiki": {
       "en": "Boron",
-      "de": "Bor"
+      "de": "Bor",
+      "fr": "Bore"
     }
   },
   "c": {
@@ -1533,7 +1548,8 @@
     },
     "appearance": {
       "en": "black, metallic-looking (graphite); clear (diamond)",
-      "de": "schwarz (Graphit); farblos (Diamant)"
+      "de": "schwarz (Graphit); farblos (Diamant)",
+      "fr": "noir (graphite), clair (diamand)"
     },
     "atomic_mass": {
       "value": 12.01112,
@@ -1676,7 +1692,8 @@
     "names": {
       "en": "Carbon",
       "de": "Kohlenstoff",
-      "la": "Carbo"
+      "la": "Carbo",
+      "fr": "Carbone"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -1787,7 +1804,8 @@
     },
     "wiki": {
       "en": "Carbon",
-      "de": "Kohlenstoff"
+      "de": "Kohlenstoff",
+      "fr": "Carbone"
     }
   },
   "n": {
@@ -1824,7 +1842,8 @@
     },
     "appearance": {
       "en": "colorless gas, liquid or solid",
-      "de": "farbloses Gas"
+      "de": "farbloses Gas",
+      "fr": "Incolore"
     },
     "atomic_mass": {
       "value": 14.006714,
@@ -1935,7 +1954,8 @@
     "names": {
       "en": "Nitrogen",
       "de": "Stickstoff",
-      "la": "Nitrogenium"
+      "la": "Nitrogenium",
+      "fr": "Azote"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -2057,7 +2077,8 @@
     },
     "wiki": {
       "en": "Nitrogen",
-      "de": "Stickstoff"
+      "de": "Stickstoff",
+      "fr": "Azote"
     }
   },
   "o": {
@@ -2094,7 +2115,8 @@
     },
     "appearance": {
       "en": "colorless (gas); pale blue (liquid and solid)",
-      "de": "farbloses Gas"
+      "de": "farbloses Gas",
+      "fr": "Incolore, bleu pâle"
     },
     "atomic_mass": {
       "value": 15.99915,
@@ -2236,7 +2258,8 @@
     "names": {
       "en": "Oxygen",
       "de": "Sauerstoff",
-      "la": "Oxygenium"
+      "la": "Oxygenium",
+      "fr": "Oxygène"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -2366,7 +2389,8 @@
     },
     "wiki": {
       "en": "Oxygen",
-      "de": "Sauerstoff"
+      "de": "Sauerstoff",
+      "fr": "Oxygène"
     }
   },
   "f": {
@@ -2403,7 +2427,8 @@
     },
     "appearance": {
       "en": "very pale yellow (gas); bright yellow (liquid); alpha is opaque, beta is transparent (solid)",
-      "de": "blasses, gelbliches Gas"
+      "de": "blasses, gelbliches Gas",
+      "fr": "Jaune verdâtre clair"
     },
     "atomic_mass": {
       "value": 18.9984031636,
@@ -2541,7 +2566,8 @@
     "names": {
       "en": "Fluorine",
       "de": "Fluor",
-      "la": "Fluor"
+      "la": "Fluor",
+      "fr": "Fluor"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -2646,7 +2672,8 @@
     },
     "wiki": {
       "en": "Fluorine",
-      "de": "Fluor"
+      "de": "Fluor",
+      "fr": "Fluor"
     }
   },
   "ne": {
@@ -2671,7 +2698,8 @@
     },
     "appearance": {
       "en": "colorless gas exhibiting an orange-red glow when placed in an electric field",
-      "de": "farbloses Gas"
+      "de": "farbloses Gas",
+      "fr": "Incolore"
     },
     "atomic_mass": {
       "value": 20.17976,
@@ -2786,7 +2814,8 @@
     "names": {
       "en": "Neon",
       "de": "Neon",
-      "la": "Neon"
+      "la": "Neon",
+      "fr": "Néon"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -2875,7 +2904,8 @@
     },
     "wiki": {
       "en": "Neon",
-      "de": "Neon"
+      "de": "Neon",
+      "fr": "Néon"
     }
   },
   "na": {
@@ -2912,7 +2942,8 @@
     },
     "appearance": {
       "en": "silvery white metallic",
-      "de": "silbrig weiß"
+      "de": "silbrig weiß",
+      "fr": "blanc argenté"
     },
     "atomic_mass": {
       "value": 22.989769282,
@@ -3083,7 +3114,8 @@
     "names": {
       "en": "Sodium",
       "de": "Natrium",
-      "la": "Natrium"
+      "la": "Natrium",
+      "fr": "Sodium"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -3191,7 +3223,8 @@
     },
     "wiki": {
       "en": "Sodium",
-      "de": "Natrium"
+      "de": "Natrium",
+      "fr": "Sodium"
     }
   },
   "mg": {
@@ -3228,7 +3261,8 @@
     },
     "appearance": {
       "en": "shiny grey solid",
-      "de": "silbrig weiß"
+      "de": "silbrig weiß",
+      "fr": "blanc-gris métallique"
     },
     "atomic_mass": {
       "value": 24.30524,
@@ -3403,7 +3437,8 @@
     "names": {
       "en": "Magnesium",
       "de": "Magnesium",
-      "la": "Magnesium"
+      "la": "Magnesium",
+      "fr": "Magnésium"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -3511,7 +3546,8 @@
     },
     "wiki": {
       "en": "Magnesium",
-      "de": "Magnesium"
+      "de": "Magnesium",
+      "fr": "Magnésium"
     }
   },
   "al": {
@@ -3548,7 +3584,8 @@
     },
     "appearance": {
       "en": "silvery gray metallic",
-      "de": "silbrig"
+      "de": "silbrig",
+      "fr": "gris métallique argenté"
     },
     "atomic_mass": {
       "value": 26.98153857,
@@ -3710,7 +3747,8 @@
     "names": {
       "en": "Aluminum",
       "de": "Aluminium",
-      "la": "Aluminium"
+      "la": "Aluminium",
+      "fr": "Aluminium"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -3811,7 +3849,8 @@
     },
     "wiki": {
       "en": "Aluminum",
-      "de": "Aluminium"
+      "de": "Aluminium",
+      "fr": "Aluminium"
     }
   },
   "si": {
@@ -3848,7 +3887,8 @@
     },
     "appearance": {
       "en": "crystalline, reflective with bluish-tinged faces",
-      "de": "dunkelgrau, bläulicher Farbton"
+      "de": "dunkelgrau, bläulicher Farbton",
+      "fr": "cristallin, réfléchissant avec des visages teintés de bleuâtre"
     },
     "atomic_mass": {
       "value": 28.08528,
@@ -3983,7 +4023,8 @@
     "names": {
       "en": "Silicon",
       "de": "Silicium",
-      "la": "Silicium"
+      "la": "Silicium",
+      "fr": "Silicone"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -4088,7 +4129,8 @@
     },
     "wiki": {
       "en": "Silicon",
-      "de": "Silicium"
+      "de": "Silicium",
+      "fr": "Silicone"
     }
   },
   "p": {
@@ -4125,7 +4167,8 @@
     },
     "appearance": {
       "en": "white, red and violet are waxy, black is metallic-looking",
-      "de": "weiß-beige (W); dunkelrot (R); schwarz (S)"
+      "de": "weiß-beige (W); dunkelrot (R); schwarz (S)",
+      "fr": "blanc, rouge et violet sont cireux, le noir a un aspect métallique"
     },
     "atomic_mass": {
       "value": 30.9737619985,
@@ -4300,7 +4343,8 @@
     "names": {
       "en": "Phosphorus",
       "de": "Phosphor",
-      "la": "Phosphor"
+      "la": "Phosphor",
+      "fr": "Phosphore"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -4430,7 +4474,8 @@
     ],
     "wiki": {
       "en": "Phosphorus",
-      "de": "Phosphor"
+      "de": "Phosphor",
+      "fr": "Phosphore"
     }
   },
   "s": {
@@ -4467,7 +4512,8 @@
     },
     "appearance": {
       "en": "yellow sintered microcrystals",
-      "de": "gelb"
+      "de": "gelb",
+      "fr": "Jaune"
     },
     "atomic_mass": {
       "value": 32.0632,
@@ -4597,7 +4643,8 @@
     "names": {
       "en": "Sulfur",
       "de": "Schwefel",
-      "la": "Sulfur"
+      "la": "Sulfur",
+      "fr": "Souffre"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -4704,7 +4751,8 @@
     },
     "wiki": {
       "en": "Sulfur",
-      "de": "Schwefel"
+      "de": "Schwefel",
+      "fr": "Souffre"
     }
   },
   "cl": {
@@ -4741,7 +4789,8 @@
     },
     "appearance": {
       "en": "pale yellow-green gas",
-      "de": "gelblich-grün"
+      "de": "gelblich-grün",
+      "fr": "gaz vert-jaune pâle"
     },
     "atomic_mass": {
       "value": 35.4535,
@@ -4898,7 +4947,8 @@
     "names": {
       "en": "Chlorine",
       "de": "Chlor",
-      "la": "Chlorum"
+      "la": "Chlorum",
+      "fr": "Chlore"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -5003,7 +5053,8 @@
     },
     "wiki": {
       "en": "Chlorine",
-      "de": "Chlor"
+      "de": "Chlor",
+      "fr": "Chlore"
     }
   },
   "ar": {
@@ -5028,7 +5079,8 @@
     },
     "appearance": {
       "en": "colorless gas exhibiting a lilac/violet glow when placed in an electric field",
-      "de": "farbloses Gas"
+      "de": "farbloses Gas",
+      "fr": "gaz incolore présentant une lueur lilas/violette lorsqu'il est placé dans un champ électrique"
     },
     "atomic_mass": {
       "value": 39.9481,
@@ -5143,7 +5195,8 @@
     "names": {
       "en": "Argon",
       "de": "Argon",
-      "la": "Argon"
+      "la": "Argon",
+      "fr": "Argon"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -5244,7 +5297,8 @@
     },
     "wiki": {
       "en": "Argon",
-      "de": "Argon"
+      "de": "Argon",
+      "fr": "Argon"
     }
   },
   "k": {
@@ -5281,7 +5335,8 @@
     },
     "appearance": {
       "en": "silvery white, faint bluish-purple hue when exposed to air",
-      "de": "silbrig weiß"
+      "de": "silbrig weiß",
+      "fr": "blanc argenté, légère teinte bleu-violet lorsqu'il est exposé à l'air"
     },
     "atomic_mass": {
       "value": 39.09831,
@@ -5443,7 +5498,8 @@
     "names": {
       "en": "Potassium",
       "de": "Kalium",
-      "la": "Kalium"
+      "la": "Kalium",
+      "fr": "Potassium"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -5550,7 +5606,8 @@
     },
     "wiki": {
       "en": "Potassium",
-      "de": "Kalium"
+      "de": "Kalium",
+      "fr": "Potassium"
     }
   },
   "ca": {
@@ -5587,7 +5644,8 @@
     },
     "appearance": {
       "en": "dull gray, silver; with a pale yellow tint",
-      "de": "silbrig weiß"
+      "de": "silbrig weiß",
+      "fr": "gris terne, argenté ; avec une teinte jaune pâle"
     },
     "atomic_mass": {
       "value": 40.0784,
@@ -5753,7 +5811,8 @@
     "names": {
       "en": "Calcium",
       "de": "Calcium",
-      "la": "Calcium"
+      "la": "Calcium",
+      "fr": "Calcium"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -5856,7 +5915,8 @@
     },
     "wiki": {
       "en": "Calcium",
-      "de": "Calcium"
+      "de": "Calcium",
+      "fr": "Calcium"
     }
   },
   "sc": {
@@ -5889,7 +5949,8 @@
     },
     "appearance": {
       "en": "silvery white",
-      "de": "silbrig weiß"
+      "de": "silbrig weiß",
+      "fr": "blanc argenté"
     },
     "atomic_mass": {
       "value": 44.9559085,
@@ -6034,7 +6095,8 @@
     "names": {
       "en": "Scandium",
       "de": "Scandium",
-      "la": "Scandium"
+      "la": "Scandium",
+      "fr": "Scandium"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -6124,7 +6186,8 @@
     },
     "wiki": {
       "en": "Scandium",
-      "de": "Scandium"
+      "de": "Scandium",
+      "fr": "Scandium"
     }
   },
   "ti": {
@@ -6157,7 +6220,8 @@
     },
     "appearance": {
       "en": "silvery grey-white metallic",
-      "de": "silbrig metallisch"
+      "de": "silbrig metallisch",
+      "fr": "gris-blanc métallique argenté"
     },
     "atomic_mass": {
       "value": 47.8671,
@@ -6320,7 +6384,8 @@
     "names": {
       "en": "Titanium",
       "de": "Titan",
-      "la": "Titanum"
+      "la": "Titanum",
+      "fr": "Titane"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -6417,7 +6482,8 @@
     },
     "wiki": {
       "en": "Titanium",
-      "de": "Titan (Element)"
+      "de": "Titan (Element)",
+      "fr": "Titane"
     }
   },
   "v": {
@@ -6454,7 +6520,8 @@
     },
     "appearance": {
       "en": "blue-silver-grey metal",
-      "de": "stahlgrau metallisch, bläulich schimmernd"
+      "de": "stahlgrau metallisch, bläulich schimmernd",
+      "fr": "métal gris-bleu-argenté"
     },
     "atomic_mass": {
       "value": 50.94151,
@@ -6596,7 +6663,8 @@
     "names": {
       "en": "Vanadium",
       "de": "Vanadium",
-      "la": "Vanadium"
+      "la": "Vanadium",
+      "fr": "Vanadium"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -6695,7 +6763,8 @@
     },
     "wiki": {
       "en": "Vanadium",
-      "de": "Vanadium"
+      "de": "Vanadium",
+      "fr": "Vanadium"
     }
   },
   "cr": {
@@ -6732,7 +6801,8 @@
     },
     "appearance": {
       "en": "silvery metallic",
-      "de": "silbrig metallisch"
+      "de": "silbrig metallisch",
+      "fr": "métallique argenté"
     },
     "atomic_mass": {
       "value": 51.99616,
@@ -6878,7 +6948,8 @@
     "names": {
       "en": "Chromium",
       "de": "Chrom",
-      "la": "Chromium"
+      "la": "Chromium",
+      "fr": "Chrome"
     },
     "natural_occurrence": "primordial",
     "neel_point": {
@@ -7033,7 +7104,8 @@
     ],
     "wiki": {
       "en": "Chromium",
-      "de": "Chrom"
+      "de": "Chrom",
+      "fr": "Chrome"
     }
   },
   "mn": {
@@ -7070,7 +7142,8 @@
     },
     "appearance": {
       "en": "silvery metallic",
-      "de": "silbrig metallisch (Stahlweiß)"
+      "de": "silbrig metallisch (Stahlweiß)",
+      "fr": "métallique argenté"
     },
     "atomic_mass": {
       "value": 54.9380443,
@@ -7233,7 +7306,8 @@
     "names": {
       "en": "Manganese",
       "de": "Mangan",
-      "la": "Manganum"
+      "la": "Manganum",
+      "fr": "Manganèse"
     },
     "natural_occurrence": "primordial",
     "neel_point": {
@@ -7350,7 +7424,8 @@
     ],
     "wiki": {
       "en": "Manganese",
-      "de": "Mangan"
+      "de": "Mangan",
+      "fr": "Manganèse"
     }
   },
   "fe": {
@@ -7387,7 +7462,8 @@
     },
     "appearance": {
       "en": "lustrous metallic with a grayish tinge",
-      "de": "metallisch glänzend mit einem gräulichen Farbton"
+      "de": "metallisch glänzend mit einem gräulichen Farbton",
+      "fr": "métallisé lustré avec une teinte grisâtre"
     },
     "atomic_mass": {
       "value": 55.8452,
@@ -7517,7 +7593,8 @@
     "names": {
       "en": "Iron",
       "de": "Eisen",
-      "la": "Ferrum"
+      "la": "Ferrum",
+      "fr": "Fer"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -7624,7 +7701,8 @@
     },
     "wiki": {
       "en": "Iron",
-      "de": "Eisen"
+      "de": "Eisen",
+      "fr": "Fer"
     }
   },
   "co": {
@@ -7661,7 +7739,8 @@
     },
     "appearance": {
       "en": "hard lustrous bluish gray metal",
-      "de": "stahlgrauer metallisch glänzender Feststoff"
+      "de": "stahlgrauer metallisch glänzender Feststoff",
+      "fr": "métal gris bleuté dur et brillant"
     },
     "atomic_mass": {
       "value": 58.9331944,
@@ -7843,7 +7922,8 @@
     "names": {
       "en": "Cobalt",
       "de": "Cobalt",
-      "la": "Cobaltum"
+      "la": "Cobaltum",
+      "fr": "Cobalt"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -7946,7 +8026,8 @@
     ],
     "wiki": {
       "en": "Cobalt",
-      "de": "Cobalt"
+      "de": "Cobalt",
+      "fr": "Cobalt"
     }
   },
   "ni": {
@@ -7982,8 +8063,9 @@
       }
     },
     "appearance": {
-      "en": "glänzend, metallisch, silbrig",
-      "de": "lustrous, metallic, and silver with a gold tinge"
+      "en": "lustrous, metallic, and silver with a gold tinge",
+      "de": "glänzend, metallisch, silbrig",
+      "fr": "brillant, métallisé et argenté avec une teinte dorée"
     },
     "atomic_mass": {
       "value": 58.69344,
@@ -8153,7 +8235,8 @@
     "names": {
       "en": "Nickel",
       "de": "Nickel",
-      "la": "Niccolum"
+      "la": "Niccolum",
+      "fr": "Nickel"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -8289,7 +8372,8 @@
     ],
     "wiki": {
       "en": "Nickel",
-      "de": "Nickel"
+      "de": "Nickel",
+      "fr": "Nickel"
     }
   },
   "cu": {
@@ -8326,7 +8410,8 @@
     },
     "appearance": {
       "en": "red-orange metallic luster",
-      "de": "rotbraun, metallisch"
+      "de": "rotbraun, metallisch",
+      "fr": "lustre métallisé rouge-orangé"
     },
     "atomic_mass": {
       "value": 63.5463,
@@ -8479,7 +8564,8 @@
     "names": {
       "en": "Copper",
       "de": "Kupfer",
-      "la": "Cuprum"
+      "la": "Cuprum",
+      "fr": "Cuivre"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -8577,7 +8663,8 @@
     },
     "wiki": {
       "en": "Copper",
-      "de": "Kupfer"
+      "de": "Kupfer",
+      "fr": "Cuivre"
     }
   },
   "zn": {
@@ -8614,7 +8701,8 @@
     },
     "appearance": {
       "en": "silver-gray",
-      "de": "bläulich blassgrau"
+      "de": "bläulich blassgrau",
+      "fr": "gris-argenté"
     },
     "atomic_mass": {
       "value": 65.382,
@@ -8779,7 +8867,8 @@
     "names": {
       "en": "Zinc",
       "de": "Zink",
-      "la": "Zincum"
+      "la": "Zincum",
+      "fr": "Zinc"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -8882,7 +8971,8 @@
     },
     "wiki": {
       "en": "Zinc",
-      "de": "Zink"
+      "de": "Zink",
+      "fr": "Zinc"
     }
   },
   "ga": {
@@ -8915,7 +9005,8 @@
     },
     "appearance": {
       "en": "silvery blue",
-      "de": "silbrig weiß"
+      "de": "silbrig weiß",
+      "fr": "bleu argenté"
     },
     "atomic_mass": {
       "value": 69.7231,
@@ -9063,7 +9154,8 @@
     "names": {
       "en": "Gallium",
       "de": "Gallium",
-      "la": "Gallium"
+      "la": "Gallium",
+      "fr": "Gallium"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -9164,7 +9256,8 @@
     },
     "wiki": {
       "en": "Gallium",
-      "de": "Gallium"
+      "de": "Gallium",
+      "fr": "Gallium"
     }
   },
   "ge": {
@@ -9193,7 +9286,8 @@
     },
     "appearance": {
       "en": "grayish-white",
-      "de": "gräulich weiß"
+      "de": "gräulich weiß",
+      "fr": "blanc grisâtre"
     },
     "atomic_mass": {
       "value": 72.6308,
@@ -9326,7 +9420,8 @@
     "names": {
       "en": "Germanium",
       "de": "Germanium",
-      "la": "Germanium"
+      "la": "Germanium",
+      "fr": "Germanium"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -9428,7 +9523,8 @@
     },
     "wiki": {
       "en": "Germanium",
-      "de": "Germanium"
+      "de": "Germanium",
+      "fr": "Germanium"
     }
   },
   "as": {
@@ -9461,7 +9557,8 @@
     },
     "appearance": {
       "en": "metallic grey",
-      "de": "metallisch grau, gelb oder schwarz"
+      "de": "metallisch grau, gelb oder schwarz",
+      "fr": "gris métallique"
     },
     "atomic_mass": {
       "value": 74.9215956,
@@ -9618,7 +9715,8 @@
     "names": {
       "en": "Arsenic",
       "de": "Arsen",
-      "la": "Arsenicum"
+      "la": "Arsenicum",
+      "fr": "Arsenic"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -9731,7 +9829,8 @@
     ],
     "wiki": {
       "en": "Arsenic",
-      "de": "Arsen"
+      "de": "Arsen",
+      "fr": "Arsenic"
     }
   },
   "se": {
@@ -9764,7 +9863,8 @@
     },
     "appearance": {
       "en": "grey metallic-looking, red, and vitreous black allotropes",
-      "de": "grau, glänzend"
+      "de": "grau, glänzend",
+      "fr": "allotropes gris métallisé, rouge et noir vitreux"
     },
     "atomic_mass": {
       "value": 78.9718,
@@ -9944,7 +10044,8 @@
     "names": {
       "en": "Selenium",
       "de": "Selen",
-      "la": "Selenum"
+      "la": "Selenum",
+      "fr": "Sélénium"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -10058,7 +10159,8 @@
     },
     "wiki": {
       "en": "Selenium",
-      "de": "Selen"
+      "de": "Selen",
+      "fr": "Sélénium"
     }
   },
   "br": {
@@ -10091,7 +10193,8 @@
     },
     "appearance": {
       "en": "reddish-brown",
-      "de": "rotbraun (gasförmig); rotbraun (flüssig); metallisch glänzend (fest)"
+      "de": "rotbraun (gasförmig); rotbraun (flüssig); metallisch glänzend (fest)",
+      "fr": "marron-rougeâtre"
     },
     "atomic_mass": {
       "value": 79.90479,
@@ -10233,7 +10336,8 @@
     "names": {
       "en": "Bromine",
       "de": "Brom",
-      "la": "Bromum"
+      "la": "Bromum",
+      "fr": "Brome"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -10385,7 +10489,8 @@
     ],
     "wiki": {
       "en": "Bromine",
-      "de": "Brom"
+      "de": "Brom",
+      "fr": "Brome"
     }
   },
   "kr": {
@@ -10406,7 +10511,8 @@
     },
     "appearance": {
       "en": "colorless gas, exhibiting a whitish glow in an electric field",
-      "de": "farbloses Gas"
+      "de": "farbloses Gas",
+      "fr": "gaz incolore présentant une lueur blanchâtre lorsqu'il est placé dans un champ électrique"
     },
     "atomic_mass": {
       "value": 83.7982,
@@ -10523,7 +10629,8 @@
     "names": {
       "en": "Krypton",
       "de": "Krypton",
-      "la": "Krypton"
+      "la": "Krypton",
+      "fr": "Krypton"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -10616,7 +10723,8 @@
     },
     "wiki": {
       "en": "Krypton",
-      "de": "Krypton"
+      "de": "Krypton",
+      "fr": "Krypton"
     }
   },
   "rb": {
@@ -10653,7 +10761,8 @@
     },
     "appearance": {
       "en": "grey white",
-      "de": "silbrig weiß"
+      "de": "silbrig weiß",
+      "fr": "blanc gris"
     },
     "atomic_mass": {
       "value": 85.46783,
@@ -10811,7 +10920,8 @@
     "names": {
       "en": "Rubidium",
       "de": "Rubidium",
-      "la": "Rubidium"
+      "la": "Rubidium",
+      "fr": "Rubidium"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -10922,7 +11032,8 @@
     },
     "wiki": {
       "en": "Rubidium",
-      "de": "Rubidium"
+      "de": "Rubidium",
+      "fr": "Rubidium"
     }
   },
   "sr": {
@@ -10959,7 +11070,8 @@
     },
     "appearance": {
       "en": "silvery white metallic; with a pale yellow tint",
-      "de": "silbrig weiß metallisch"
+      "de": "silbrig weiß metallisch",
+      "fr": "blanc argenté métallisé ; avec une teinte jaune pâle"
     },
     "atomic_mass": {
       "value": 87.621,
@@ -11112,7 +11224,8 @@
     "names": {
       "en": "Strontium",
       "de": "Strontium",
-      "la": "Strontium"
+      "la": "Strontium",
+      "fr": "Strontium"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -11204,7 +11317,8 @@
     },
     "wiki": {
       "en": "Strontium",
-      "de": "Strontium"
+      "de": "Strontium",
+      "fr": "Strontium"
     }
   },
   "y": {
@@ -11237,7 +11351,8 @@
     },
     "appearance": {
       "en": "silvery white",
-      "de": "silbrig weiß"
+      "de": "silbrig weiß",
+      "fr": "blanc argenté"
     },
     "atomic_mass": {
       "value": 88.905842,
@@ -11381,7 +11496,8 @@
     "names": {
       "en": "Yttrium",
       "de": "Yttrium",
-      "la": "Yttrium"
+      "la": "Yttrium",
+      "fr": "Yttrium"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -11478,7 +11594,8 @@
     },
     "wiki": {
       "en": "Yttrium",
-      "de": "Yttrium"
+      "de": "Yttrium",
+      "fr": "Yttrium"
     }
   },
   "zr": {
@@ -11515,7 +11632,8 @@
     },
     "appearance": {
       "en": "silvery white",
-      "de": "silbrig weiß"
+      "de": "silbrig weiß",
+      "fr": "blanc argenté"
     },
     "atomic_mass": {
       "value": 91.2242,
@@ -11666,7 +11784,8 @@
     "names": {
       "en": "Zirconium",
       "de": "Zirconium",
-      "la": "Zirconium"
+      "la": "Zirconium",
+      "fr": "Zirconium"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -11757,7 +11876,8 @@
     },
     "wiki": {
       "en": "Zirconium",
-      "de": "Zirconium"
+      "de": "Zirconium",
+      "fr": "Zirconium"
     }
   },
   "nb": {
@@ -11786,7 +11906,8 @@
     },
     "appearance": {
       "en": "gray metallic, bluish when oxidized",
-      "de": "grau metallisch glänzend"
+      "de": "grau metallisch glänzend",
+      "fr": "gris méttallique, bleuâtre quand oxydé"
     },
     "atomic_mass": {
       "value": 92.906372,
@@ -11933,7 +12054,8 @@
     "names": {
       "en": "Niobium",
       "de": "Niob",
-      "la": "Niobium"
+      "la": "Niobium",
+      "fr": "Niobium"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -12031,7 +12153,8 @@
     },
     "wiki": {
       "en": "Niobium",
-      "de": "Niob"
+      "de": "Niob",
+      "fr": "Niobium"
     }
   },
   "mo": {
@@ -12068,7 +12191,8 @@
     },
     "appearance": {
       "en": "gray metallic",
-      "de": "grau metallisch"
+      "de": "grau metallisch",
+      "fr": "gris métallique"
     },
     "atomic_mass": {
       "value": 95.951,
@@ -12206,7 +12330,8 @@
     "names": {
       "en": "Molybdenum",
       "de": "Molybdän",
-      "la": "Molybdenum"
+      "la": "Molybdenum",
+      "fr": "Molybdène"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -12304,14 +12429,16 @@
     },
     "wiki": {
       "en": "Molybdenum",
-      "de": "Molybdän"
+      "de": "Molybdän",
+      "fr": "Molybdène"
     }
   },
   "tc": {
     "@modified": "2023-11-04T10:30:10.482Z",
     "appearance": {
       "en": "shiny gray metal",
-      "de": "silbrig grau metallisch"
+      "de": "silbrig grau metallisch",
+      "fr": "métal gris brillant"
     },
     "atomic_mass": {
       "value": 98.9063,
@@ -12420,7 +12547,8 @@
     "names": {
       "en": "Technetium",
       "de": "Technetium",
-      "la": "Technetium"
+      "la": "Technetium",
+      "fr": "Technétium"
     },
     "natural_occurrence": "decay",
     "negativity": {
@@ -12502,7 +12630,8 @@
     },
     "wiki": {
       "en": "Technetium",
-      "de": "Technetium"
+      "de": "Technetium",
+      "fr": "Technétium"
     }
   },
   "ru": {
@@ -12531,7 +12660,8 @@
     },
     "appearance": {
       "en": "silvery white metallic",
-      "de": "silbrig weiß metallisch"
+      "de": "silbrig weiß metallisch",
+      "fr": "métallique blanc argenté"
     },
     "atomic_mass": {
       "value": 101.072,
@@ -12672,7 +12802,8 @@
     "names": {
       "en": "Ruthenium",
       "de": "Ruthenium",
-      "la": "Ruthenium"
+      "la": "Ruthenium",
+      "fr": "Ruthénium"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -12759,7 +12890,8 @@
     },
     "wiki": {
       "en": "Ruthenium",
-      "de": "Ruthenium"
+      "de": "Ruthenium",
+      "fr": "Ruthénium"
     }
   },
   "rh": {
@@ -12784,7 +12916,8 @@
     },
     "appearance": {
       "en": "silvery white metallic",
-      "de": "silbrig weiß metallisch"
+      "de": "silbrig weiß metallisch",
+      "fr": "métallique blanc argenté"
     },
     "atomic_mass": {
       "value": 102.905502,
@@ -12945,7 +13078,8 @@
     "names": {
       "en": "Rhodium",
       "de": "Rhodium",
-      "la": "Rhodium"
+      "la": "Rhodium",
+      "fr": "Rhodium"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -13049,7 +13183,8 @@
     },
     "wiki": {
       "en": "Rhodium",
-      "de": "Rhodium"
+      "de": "Rhodium",
+      "fr": "Rhodium"
     }
   },
   "pd": {
@@ -13074,7 +13209,8 @@
     },
     "appearance": {
       "en": "silvery white",
-      "de": "silbrig, weiß, metallisch"
+      "de": "silbrig, weiß, metallisch",
+      "fr": "blanc argenté"
     },
     "atomic_mass": {
       "value": 106.421,
@@ -13235,7 +13371,8 @@
     "names": {
       "en": "Palladium",
       "de": "Palladium",
-      "la": "Palladium"
+      "la": "Palladium",
+      "fr": "Palladium"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -13335,7 +13472,8 @@
     },
     "wiki": {
       "en": "Palladium",
-      "de": "Palladium"
+      "de": "Palladium",
+      "fr": "Palladium"
     }
   },
   "ag": {
@@ -13368,7 +13506,8 @@
     },
     "appearance": {
       "en": "lustrous white metal",
-      "de": "weißglänzend, metallisch"
+      "de": "weißglänzend, metallisch",
+      "fr": "métal blanc lustré"
     },
     "atomic_mass": {
       "value": 107.86822,
@@ -13542,7 +13681,8 @@
     "names": {
       "en": "Silver",
       "de": "Silber",
-      "la": "Argentum"
+      "la": "Argentum",
+      "fr": "Argent"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -13699,7 +13839,8 @@
     ],
     "wiki": {
       "en": "Silver",
-      "de": "Silber"
+      "de": "Silber",
+      "fr": "Argent"
     }
   },
   "cd": {
@@ -13732,7 +13873,8 @@
     },
     "appearance": {
       "en": "silvery bluish-gray metallic",
-      "de": "silbrig grau metallisch"
+      "de": "silbrig grau metallisch",
+      "fr": "métallique bleuâtre-gris argenté"
     },
     "atomic_mass": {
       "value": 112.4144,
@@ -13911,7 +14053,8 @@
     "names": {
       "en": "Cadmium",
       "de": "Cadmium",
-      "la": "Cadmium"
+      "la": "Cadmium",
+      "fr": "Cadmium"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -14081,7 +14224,8 @@
     ],
     "wiki": {
       "en": "Cadmium",
-      "de": "Cadmium"
+      "de": "Cadmium",
+      "fr": "Cadmium"
     }
   },
   "in": {
@@ -14110,7 +14254,8 @@
     },
     "appearance": {
       "en": "silvery lustrous gray",
-      "de": "silbrig glänzend grau"
+      "de": "silbrig glänzend grau",
+      "fr": "gris lustré argenté"
     },
     "atomic_mass": {
       "value": 114.8181,
@@ -14256,7 +14401,8 @@
     "names": {
       "en": "Indium",
       "de": "Indium",
-      "la": "Indium"
+      "la": "Indium",
+      "fr": "Indium"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -14366,7 +14512,8 @@
     },
     "wiki": {
       "en": "Indium",
-      "de": "Indium"
+      "de": "Indium",
+      "fr": "Indium"
     }
   },
   "sn": {
@@ -14403,7 +14550,8 @@
     },
     "appearance": {
       "en": "silvery-white (beta); gray (alpha)",
-      "de": "silbrig glänzend (β-Zinn), grau (α-Zinn)"
+      "de": "silbrig glänzend (β-Zinn), grau (α-Zinn)",
+      "fr": "blanc-argenté (béta); gris (alpha)"
     },
     "atomic_mass": {
       "value": 118.7107,
@@ -14551,7 +14699,8 @@
     "names": {
       "en": "Tin",
       "de": "Zinn",
-      "la": "Stannum"
+      "la": "Stannum",
+      "fr": "Tin"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -14661,7 +14810,8 @@
     },
     "wiki": {
       "en": "Tin",
-      "de": "Zinn"
+      "de": "Zinn",
+      "fr": "Tin"
     }
   },
   "sb": {
@@ -14694,7 +14844,8 @@
     },
     "appearance": {
       "en": "silvery lustrous gray",
-      "de": "silbrig glänzend grau"
+      "de": "silbrig glänzend grau",
+      "fr": "gris lustré argenté"
     },
     "atomic_mass": {
       "value": 121.7601,
@@ -14829,7 +14980,8 @@
     "names": {
       "en": "Antimony",
       "de": "Antimon",
-      "la": "Stibium"
+      "la": "Stibium",
+      "fr": "Antimoine"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -14931,7 +15083,8 @@
     },
     "wiki": {
       "en": "Antimony",
-      "de": "Antimon"
+      "de": "Antimon",
+      "fr": "Antimoine"
     }
   },
   "te": {
@@ -14952,7 +15105,8 @@
     },
     "appearance": {
       "en": "silvery lustrous gray (crystalline); brown-black powder (amorphous)",
-      "de": "silberweiß, metallisch glänzend"
+      "de": "silberweiß, metallisch glänzend",
+      "fr": "gris lustré argenté (crystallin); poudre noir-marron (amorphe)"
     },
     "atomic_mass": {
       "value": 127.603,
@@ -15105,7 +15259,8 @@
     "names": {
       "en": "Tellurium",
       "de": "Tellur",
-      "la": "Tellurium"
+      "la": "Tellurium",
+      "fr": "Tellure"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -15215,7 +15370,8 @@
     },
     "wiki": {
       "en": "Tellurium",
-      "de": "Tellur"
+      "de": "Tellur",
+      "fr": "Tellure"
     }
   },
   "i": {
@@ -15248,7 +15404,8 @@
     },
     "appearance": {
       "en": "lustrous metallic gray (solid); black/violet (liquid); violet (gas)",
-      "de": "dunkel-violett (gasförmig); grauschwarz, glänzend (fest)"
+      "de": "dunkel-violett (gasförmig); grauschwarz, glänzend (fest)",
+      "fr": "gris métallique lustré (solide); violet/noir (liquide); violet (gaz)"
     },
     "atomic_mass": {
       "value": 126.904473,
@@ -15412,7 +15569,8 @@
     "names": {
       "en": "Iodine",
       "de": "Iod",
-      "la": "Iodum"
+      "la": "Iodum",
+      "fr": "Iode"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -15569,7 +15727,8 @@
     ],
     "wiki": {
       "en": "Iodine",
-      "de": "Iod"
+      "de": "Iod",
+      "fr": "Iode"
     }
   },
   "xe": {
@@ -15590,7 +15749,8 @@
     },
     "appearance": {
       "en": "colorless gas, exhibiting a blue glow when placed in an electric field",
-      "de": "farbloses Gas"
+      "de": "farbloses Gas",
+      "fr": "gaz incolore présentant une lueur bleu lorsqu'il est placé dans un champ électrique"
     },
     "atomic_mass": {
       "value": 131.2936,
@@ -15721,7 +15881,8 @@
     "names": {
       "en": "Xenon",
       "de": "Xenon",
-      "la": "Xenon"
+      "la": "Xenon",
+      "fr": "Xenon"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -15824,7 +15985,8 @@
     },
     "wiki": {
       "en": "Xenon",
-      "de": "Xenon"
+      "de": "Xenon",
+      "fr": "Xenon"
     }
   },
   "cs": {
@@ -15861,7 +16023,8 @@
     },
     "appearance": {
       "en": "pale gold",
-      "de": "goldgelb glänzend"
+      "de": "goldgelb glänzend",
+      "fr": "or pâle"
     },
     "atomic_mass": {
       "value": 132.905451966,
@@ -16009,7 +16172,8 @@
     "names": {
       "en": "Caesium",
       "de": "Caesium",
-      "la": "Caesium"
+      "la": "Caesium",
+      "fr": "Césium"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -16105,7 +16269,8 @@
     },
     "wiki": {
       "en": "Caesium",
-      "de": "Caesium"
+      "de": "Caesium",
+      "fr": "Césium"
     }
   },
   "ba": {
@@ -16142,7 +16307,8 @@
     },
     "appearance": {
       "en": "silvery gray; with a pale yellow tint",
-      "de": "weiß-grau metallisch"
+      "de": "weiß-grau metallisch",
+      "fr": "gris argenté; avec une lueur jaune pâle"
     },
     "atomic_mass": {
       "value": 137.3277,
@@ -16308,7 +16474,8 @@
     "names": {
       "en": "Barium",
       "de": "Barium",
-      "la": "Barium"
+      "la": "Barium",
+      "fr": "Baryum"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -16400,7 +16567,8 @@
     },
     "wiki": {
       "en": "Barium",
-      "de": "Barium"
+      "de": "Barium",
+      "fr": "Baryum"
     }
   },
   "la": {
@@ -16433,7 +16601,8 @@
     },
     "appearance": {
       "en": "silvery white",
-      "de": "silbrig weiß"
+      "de": "silbrig weiß",
+      "fr": "blanc argenté"
     },
     "atomic_mass": {
       "value": 138.905477,
@@ -16590,7 +16759,8 @@
     "names": {
       "en": "Lanthanum",
       "de": "Lanthan",
-      "la": "Lanthanum"
+      "la": "Lanthanum",
+      "fr": "Lanthane"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -16673,7 +16843,8 @@
     },
     "wiki": {
       "en": "Lanthanum",
-      "de": "Lanthan"
+      "de": "Lanthan",
+      "fr": "Lanthane"
     }
   },
   "ce": {
@@ -16706,7 +16877,8 @@
     },
     "appearance": {
       "en": "silvery white",
-      "de": "silbrig weiß"
+      "de": "silbrig weiß",
+      "fr": "blanc argenté"
     },
     "atomic_mass": {
       "value": 140.1161,
@@ -16868,7 +17040,8 @@
     "names": {
       "en": "Cerium",
       "de": "Cer",
-      "la": "Cerium"
+      "la": "Cerium",
+      "fr": "Cérium"
     },
     "natural_occurrence": "primordial",
     "neel_point": {
@@ -16957,7 +17130,8 @@
     },
     "wiki": {
       "en": "Cerium",
-      "de": "Cer"
+      "de": "Cer",
+      "fr": "Cérium"
     }
   },
   "pr": {
@@ -16990,7 +17164,8 @@
     },
     "appearance": {
       "en": "grayish white",
-      "de": "silbrig weiß, gelblicher Farbton"
+      "de": "silbrig weiß, gelblicher Farbton",
+      "fr": "blanc grisâtre"
     },
     "atomic_mass": {
       "value": 140.907662,
@@ -17148,7 +17323,8 @@
     "names": {
       "en": "Praseodymium",
       "de": "Praseodym",
-      "la": "Praseodymium"
+      "la": "Praseodymium",
+      "fr": "Praséodyme"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -17233,7 +17409,8 @@
     },
     "wiki": {
       "en": "Praseodymium",
-      "de": "Praseodym"
+      "de": "Praseodym",
+      "fr": "Praséodyme"
     }
   },
   "nd": {
@@ -17266,7 +17443,8 @@
     },
     "appearance": {
       "en": "silvery white",
-      "de": "silbrigweiß, gelblicher Farbton"
+      "de": "silbrigweiß, gelblicher Farbton",
+      "fr": "blanc argenté"
     },
     "atomic_mass": {
       "value": 144.2423,
@@ -17425,7 +17603,8 @@
     "names": {
       "en": "Neodymium",
       "de": "Neodym",
-      "la": "Neodymium"
+      "la": "Neodymium",
+      "fr": "Néodyme"
     },
     "natural_occurrence": "primordial",
     "neel_point": {
@@ -17513,7 +17692,8 @@
     },
     "wiki": {
       "en": "Neodymium",
-      "de": "Neodym"
+      "de": "Neodym",
+      "fr": "Néodyme"
     }
   },
   "pm": {
@@ -17526,7 +17706,8 @@
     },
     "appearance": {
       "en": "metallic",
-      "de": "metallisch"
+      "de": "metallisch",
+      "fr": "métallique"
     },
     "atomic_mass": {
       "value": 146.9151,
@@ -17639,7 +17820,8 @@
     "names": {
       "en": "Promethium",
       "de": "Promethium",
-      "la": "Promethium"
+      "la": "Promethium",
+      "fr": "Prométhium"
     },
     "natural_occurrence": "decay",
     "negativity": {
@@ -17709,7 +17891,8 @@
     },
     "wiki": {
       "en": "Promethium",
-      "de": "Promethium"
+      "de": "Promethium",
+      "fr": "Prométhium"
     }
   },
   "sm": {
@@ -17742,7 +17925,8 @@
     },
     "appearance": {
       "en": "silvery white",
-      "de": "silbrig weiß"
+      "de": "silbrig weiß",
+      "fr": "blanc argenté"
     },
     "atomic_mass": {
       "value": 150.362,
@@ -17901,7 +18085,8 @@
     "names": {
       "en": "Samarium",
       "de": "Samarium",
-      "la": "Samarium"
+      "la": "Samarium",
+      "fr": "Samarium"
     },
     "natural_occurrence": "primordial",
     "neel_point": {
@@ -17984,7 +18169,8 @@
     },
     "wiki": {
       "en": "Samarium",
-      "de": "Samarium"
+      "de": "Samarium",
+      "fr": "Samarium"
     }
   },
   "eu": {
@@ -18017,7 +18203,8 @@
     },
     "appearance": {
       "en": "silvery white, with a pale yellow tint; but rarely seen without oxide discoloration",
-      "de": "silbrig weiß"
+      "de": "silbrig weiß",
+      "fr": "blanc argenté, avec une lueur jaune pâle; mais rarement vu sans décoloration d'oxide"
     },
     "atomic_mass": {
       "value": 151.9641,
@@ -18165,7 +18352,8 @@
     "names": {
       "en": "Europium",
       "de": "Europium",
-      "la": "Europium"
+      "la": "Europium",
+      "fr": "Europium"
     },
     "natural_occurrence": "primordial",
     "neel_point": {
@@ -18242,7 +18430,8 @@
     },
     "wiki": {
       "en": "Europium",
-      "de": "Europium"
+      "de": "Europium",
+      "fr": "Europium"
     }
   },
   "gd": {
@@ -18275,7 +18464,8 @@
     },
     "appearance": {
       "en": "silvery white",
-      "de": "silbrig weiß"
+      "de": "silbrig weiß",
+      "fr": "blanc argenté"
     },
     "atomic_mass": {
       "value": 157.253,
@@ -18432,7 +18622,8 @@
     "names": {
       "en": "Gadolinium",
       "de": "Gadolinium",
-      "la": "Gadolinium"
+      "la": "Gadolinium",
+      "fr": "Gadolinium"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -18511,7 +18702,8 @@
     },
     "wiki": {
       "en": "Gadolinium",
-      "de": "Gadolinium"
+      "de": "Gadolinium",
+      "fr": "Gadolinium"
     }
   },
   "tb": {
@@ -18544,7 +18736,8 @@
     },
     "appearance": {
       "en": "silvery white",
-      "de": "silbrig weiß"
+      "de": "silbrig weiß",
+      "fr": "blanc argenté"
     },
     "atomic_mass": {
       "value": 158.925352,
@@ -18685,7 +18878,8 @@
     "names": {
       "en": "Terbium",
       "de": "Terbium",
-      "la": "Terbium"
+      "la": "Terbium",
+      "fr": "Terbium"
     },
     "natural_occurrence": "primordial",
     "neel_point": {
@@ -18768,7 +18962,8 @@
     },
     "wiki": {
       "en": "Terbium",
-      "de": "Terbium"
+      "de": "Terbium",
+      "fr": "Terbium"
     }
   },
   "dy": {
@@ -18800,8 +18995,9 @@
       }
     },
     "appearance": {
-      "en": "silbrig weiß",
-      "de": "silvery white"
+      "en": "silvery white",
+      "de": "silbrig weiß",
+      "fr": "blanc argenté"
     },
     "atomic_mass": {
       "value": 162.5001,
@@ -18958,7 +19154,8 @@
     "names": {
       "en": "Dysprosium",
       "de": "Dysprosium",
-      "la": "Dysprosium"
+      "la": "Dysprosium",
+      "fr": "Dysprosium"
     },
     "natural_occurrence": "primordial",
     "neel_point": {
@@ -19046,7 +19243,8 @@
     },
     "wiki": {
       "en": "Dysprosium",
-      "de": "Dysprosium"
+      "de": "Dysprosium",
+      "fr": "Dysprosium"
     }
   },
   "ho": {
@@ -19075,7 +19273,8 @@
     },
     "appearance": {
       "en": "silvery white",
-      "de": "silbrig weiß"
+      "de": "silbrig weiß",
+      "fr": "blanc argenté"
     },
     "atomic_mass": {
       "value": 164.930332,
@@ -19222,7 +19421,8 @@
     "names": {
       "en": "Holmium",
       "de": "Holmium",
-      "la": "Holmium"
+      "la": "Holmium",
+      "fr": "Holmium"
     },
     "natural_occurrence": "primordial",
     "neel_point": {
@@ -19305,7 +19505,8 @@
     },
     "wiki": {
       "en": "Holmium",
-      "de": "Holmium"
+      "de": "Holmium",
+      "fr": "Holmium"
     }
   },
   "er": {
@@ -19338,7 +19539,8 @@
     },
     "appearance": {
       "en": "silvery white",
-      "de": "silbrig weiß"
+      "de": "silbrig weiß",
+      "fr": "blanc argenté"
     },
     "atomic_mass": {
       "value": 167.2593,
@@ -19489,7 +19691,8 @@
     "names": {
       "en": "Erbium",
       "de": "Erbium",
-      "la": "Erbium"
+      "la": "Erbium",
+      "fr": "Erbium"
     },
     "natural_occurrence": "primordial",
     "neel_point": {
@@ -19571,7 +19774,8 @@
     },
     "wiki": {
       "en": "Erbium",
-      "de": "Erbium"
+      "de": "Erbium",
+      "fr": "Erbium"
     }
   },
   "tm": {
@@ -19604,7 +19808,8 @@
     },
     "appearance": {
       "en": "silvery gray",
-      "de": "silbrig grau"
+      "de": "silbrig grau",
+      "fr": "gris argenté"
     },
     "atomic_mass": {
       "value": 168.934222,
@@ -19766,7 +19971,8 @@
     "names": {
       "en": "Thulium",
       "de": "Thulium",
-      "la": "Thulium"
+      "la": "Thulium",
+      "fr": "Thulium"
     },
     "natural_occurrence": "primordial",
     "neel_point": {
@@ -19845,7 +20051,8 @@
     },
     "wiki": {
       "en": "Thulium",
-      "de": "Thulium"
+      "de": "Thulium",
+      "fr": "Thulium"
     }
   },
   "yb": {
@@ -19878,7 +20085,8 @@
     },
     "appearance": {
       "en": "silvery white; with a pale yellow tint",
-      "de": "silbrig weiß"
+      "de": "silbrig weiß",
+      "fr": "blanc argenté; avec une tinte jaune pâle"
     },
     "atomic_mass": {
       "value": 173.0451,
@@ -20041,7 +20249,8 @@
     "names": {
       "en": "Ytterbium",
       "de": "Ytterbium",
-      "la": "Ytterbium"
+      "la": "Ytterbium",
+      "fr": "Ytterbium"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -20124,7 +20333,8 @@
     },
     "wiki": {
       "en": "Ytterbium",
-      "de": "Ytterbium"
+      "de": "Ytterbium",
+      "fr": "Ytterbium"
     }
   },
   "lu": {
@@ -20157,7 +20367,8 @@
     },
     "appearance": {
       "en": "silvery white",
-      "de": "silbrig weiß"
+      "de": "silbrig weiß",
+      "fr": "blanc argenté"
     },
     "atomic_mass": {
       "value": 174.96681,
@@ -20298,7 +20509,8 @@
     "names": {
       "en": "Lutetium",
       "de": "Lutetium",
-      "la": "Lutetium"
+      "la": "Lutetium",
+      "fr": "Lutécium"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -20376,7 +20588,8 @@
     },
     "wiki": {
       "en": "Lutetium",
-      "de": "Lutetium"
+      "de": "Lutetium",
+      "fr": "Lutécium"
     }
   },
   "hf": {
@@ -20405,7 +20618,8 @@
     },
     "appearance": {
       "en": "steel gray",
-      "de": "stahlgrau"
+      "de": "stahlgrau",
+      "fr": "gris acier"
     },
     "atomic_mass": {
       "value": 178.492,
@@ -20563,7 +20777,8 @@
     "names": {
       "en": "Hafnium",
       "de": "Hafnium",
-      "la": "Hafnium"
+      "la": "Hafnium",
+      "fr": "Hafnium"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -20655,7 +20870,8 @@
     },
     "wiki": {
       "en": "Hafnium",
-      "de": "Hafnium"
+      "de": "Hafnium",
+      "fr": "Hafnium"
     }
   },
   "ta": {
@@ -20680,7 +20896,8 @@
     },
     "appearance": {
       "en": "gray blue",
-      "de": "grau"
+      "de": "grau",
+      "fr": "bleu gris"
     },
     "atomic_mass": {
       "value": 180.947882,
@@ -20842,7 +21059,8 @@
     "names": {
       "en": "Tantalum",
       "de": "Tantal",
-      "la": "Tantalum"
+      "la": "Tantalum",
+      "fr": "Tantale"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -20941,7 +21159,8 @@
     },
     "wiki": {
       "en": "Tantalum",
-      "de": "Tantal"
+      "de": "Tantal",
+      "fr": "Tantale"
     }
   },
   "w": {
@@ -20974,7 +21193,8 @@
     },
     "appearance": {
       "en": "grayish white, lustrous",
-      "de": "gräulich weiß, glänzend"
+      "de": "gräulich weiß, glänzend",
+      "fr": "blanc grisâtre, lustré"
     },
     "atomic_mass": {
       "value": 183.841,
@@ -21140,7 +21360,8 @@
     "names": {
       "en": "Tungsten",
       "de": "Wolfram",
-      "la": "Wolframium"
+      "la": "Wolframium",
+      "fr": "Tungstène"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -21235,7 +21456,8 @@
     },
     "wiki": {
       "en": "Tungsten",
-      "de": "Wolfram"
+      "de": "Wolfram",
+      "fr": "Tungstène"
     }
   },
   "re": {
@@ -21264,7 +21486,8 @@
     },
     "appearance": {
       "en": "silvery-grayish",
-      "de": "gräulich weiß"
+      "de": "gräulich weiß",
+      "fr": "grisâtre-argenté"
     },
     "atomic_mass": {
       "value": 186.2071,
@@ -21422,7 +21645,8 @@
     "names": {
       "en": "Rhenium",
       "de": "Rhenium",
-      "la": "Rhenium"
+      "la": "Rhenium",
+      "fr": "Rhénium"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -21514,7 +21738,8 @@
     },
     "wiki": {
       "en": "Rhenium",
-      "de": "Rhenium"
+      "de": "Rhenium",
+      "fr": "Rhénium"
     }
   },
   "os": {
@@ -21539,7 +21764,8 @@
     },
     "appearance": {
       "en": "silvery, blue cast",
-      "de": "bläulich grau"
+      "de": "bläulich grau",
+      "fr": "bleu, argenté"
     },
     "atomic_mass": {
       "value": 190.233,
@@ -21683,7 +21909,8 @@
     "names": {
       "en": "Osmium",
       "de": "Osmium",
-      "la": "Osmium"
+      "la": "Osmium",
+      "fr": "Osmium"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -21777,7 +22004,8 @@
     },
     "wiki": {
       "en": "Osmium",
-      "de": "Osmium"
+      "de": "Osmium",
+      "fr": "Osmium"
     }
   },
   "ir": {
@@ -21802,7 +22030,8 @@
     },
     "appearance": {
       "en": "silvery white",
-      "de": "silbrig weiß"
+      "de": "silbrig weiß",
+      "fr": "blanc argenté"
     },
     "atomic_mass": {
       "value": 192.2173,
@@ -21952,7 +22181,8 @@
     "names": {
       "en": "Iridium",
       "de": "Iridium",
-      "la": "Iridium"
+      "la": "Iridium",
+      "fr": "Iridium"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -22047,7 +22277,8 @@
     },
     "wiki": {
       "en": "Iridium",
-      "de": "Iridium"
+      "de": "Iridium",
+      "fr": "Iridium"
     }
   },
   "pt": {
@@ -22072,7 +22303,8 @@
     },
     "appearance": {
       "en": "silvery white",
-      "de": "grau-weiß"
+      "de": "grau-weiß",
+      "fr": "blanc argenté"
     },
     "atomic_mass": {
       "value": 195.0849,
@@ -22218,7 +22450,8 @@
     "names": {
       "en": "Platinum",
       "de": "Platin",
-      "la": "Platinum"
+      "la": "Platinum",
+      "fr": "Platine"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -22312,7 +22545,8 @@
     },
     "wiki": {
       "en": "Platinum",
-      "de": "Platin"
+      "de": "Platin",
+      "fr": "Platine"
     }
   },
   "au": {
@@ -22349,7 +22583,8 @@
     },
     "appearance": {
       "en": "metallic yellow",
-      "de": "metallisch gelb"
+      "de": "metallisch gelb",
+      "fr": "jaune métallique"
     },
     "atomic_mass": {
       "value": 196.9665695,
@@ -22491,7 +22726,8 @@
     "names": {
       "en": "Gold",
       "de": "Gold",
-      "la": "Aurum"
+      "la": "Aurum",
+      "fr": "Or"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -22587,7 +22823,8 @@
     },
     "wiki": {
       "en": "Gold",
-      "de": "Gold"
+      "de": "Gold",
+      "fr": "Or"
     }
   },
   "hg": {
@@ -22620,7 +22857,8 @@
     },
     "appearance": {
       "en": "shiny, silvery liquid",
-      "de": "silbrig weiß"
+      "de": "silbrig weiß",
+      "fr": "brillant, liquid argenté"
     },
     "atomic_mass": {
       "value": 200.5923,
@@ -22777,7 +23015,8 @@
     "names": {
       "en": "Mercury",
       "de": "Quecksilber",
-      "la": "Hydrargyrion"
+      "la": "Hydrargyrion",
+      "fr": "Mercure"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -22940,7 +23179,8 @@
     ],
     "wiki": {
       "en": "Mercury (element)",
-      "de": "Quecksilber"
+      "de": "Quecksilber",
+      "fr": "Mercure_(chimie)"
     }
   },
   "tl": {
@@ -22969,7 +23209,8 @@
     },
     "appearance": {
       "en": "silvery white",
-      "de": "silbrig weiß"
+      "de": "silbrig weiß",
+      "fr": "blanc argenté"
     },
     "atomic_mass": {
       "value": 204.38204,
@@ -23131,7 +23372,8 @@
     "names": {
       "en": "Thallium",
       "de": "Thallium",
-      "la": "Thallium"
+      "la": "Thallium",
+      "fr": "Thallium"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -23232,7 +23474,8 @@
     },
     "wiki": {
       "en": "Thallium",
-      "de": "Thallium"
+      "de": "Thallium",
+      "fr": "Thallium"
     }
   },
   "pb": {
@@ -23269,7 +23512,8 @@
     },
     "appearance": {
       "en": "metallic gray",
-      "de": "bläulich weiß"
+      "de": "bläulich weiß",
+      "fr": "gris métallique"
     },
     "atomic_mass": {
       "value": 207.21,
@@ -23442,7 +23686,8 @@
     "names": {
       "en": "Lead",
       "de": "Blei",
-      "la": "Plumbum"
+      "la": "Plumbum",
+      "fr": "Plomb"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -23575,7 +23820,8 @@
     ],
     "wiki": {
       "en": "Lead",
-      "de": "Blei"
+      "de": "Blei",
+      "fr": "Plomb"
     }
   },
   "bi": {
@@ -23604,7 +23850,8 @@
     },
     "appearance": {
       "en": "lustrous brownish silver",
-      "de": "glänzend silberweiß"
+      "de": "glänzend silberweiß",
+      "fr": "argent marron lustré"
     },
     "atomic_mass": {
       "value": 208.980401,
@@ -23743,7 +23990,8 @@
     "names": {
       "en": "Bismuth",
       "de": "Bismut",
-      "la": "Bismutum"
+      "la": "Bismutum",
+      "fr": "Bismuth"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -23856,7 +24104,8 @@
     ],
     "wiki": {
       "en": "Bismuth",
-      "de": "Bismut"
+      "de": "Bismut",
+      "fr": "Bismuth"
     }
   },
   "po": {
@@ -23869,7 +24118,8 @@
     },
     "appearance": {
       "en": "silvery",
-      "de": "silbrig"
+      "de": "silbrig",
+      "fr": "argenté"
     },
     "atomic_mass": {
       "value": 209.98,
@@ -23962,7 +24212,8 @@
     "names": {
       "en": "Polonium",
       "de": "Polonium",
-      "la": "Polonium"
+      "la": "Polonium",
+      "fr": "Polonium"
     },
     "natural_occurrence": "decay",
     "negativity": {
@@ -24035,14 +24286,16 @@
     },
     "wiki": {
       "en": "Polonium",
-      "de": "Polonium"
+      "de": "Polonium",
+      "fr": "Polonium"
     }
   },
   "at": {
     "@modified": "2023-11-04T10:30:10.482Z",
     "appearance": {
       "en": "unknown, probably metallic",
-      "de": "metallisch"
+      "de": "metallisch",
+      "fr": "inconnu, probablement métallique"
     },
     "atomic_mass": {
       "value": 209.9871,
@@ -24113,7 +24366,8 @@
     "names": {
       "en": "Astatine",
       "de": "Astat",
-      "la": "Astaton"
+      "la": "Astaton",
+      "fr": "Astate"
     },
     "natural_occurrence": "decay",
     "negativity": {
@@ -24154,7 +24408,8 @@
     "symbol": "At",
     "wiki": {
       "en": "Astatine",
-      "de": "Astat"
+      "de": "Astat",
+      "fr": "Astate"
     }
   },
   "rn": {
@@ -24171,7 +24426,8 @@
     },
     "appearance": {
       "en": "colorless gas",
-      "de": "farbloses Gas"
+      "de": "farbloses Gas",
+      "fr": "gaz incolore"
     },
     "atomic_mass": {
       "value": 222,
@@ -24250,7 +24506,8 @@
     "names": {
       "en": "Radon",
       "de": "Radon",
-      "la": "Radon"
+      "la": "Radon",
+      "fr": "Radon"
     },
     "natural_occurrence": "decay",
     "negativity": {
@@ -24317,7 +24574,8 @@
     },
     "wiki": {
       "en": "Radon",
-      "de": "Radon"
+      "de": "Radon",
+      "fr": "Radon"
     }
   },
   "fr": {
@@ -24400,7 +24658,8 @@
     "names": {
       "en": "Francium",
       "de": "Francium",
-      "la": "Francium"
+      "la": "Francium",
+      "fr": "Francium"
     },
     "natural_occurrence": "decay",
     "negativity": {
@@ -24468,7 +24727,8 @@
     },
     "wiki": {
       "en": "Francium",
-      "de": "Francium"
+      "de": "Francium",
+      "fr": "Francium"
     }
   },
   "ra": {
@@ -24493,7 +24753,8 @@
     },
     "appearance": {
       "en": "silvery white metallic",
-      "de": "silbrig-weiß-metallisch"
+      "de": "silbrig-weiß-metallisch",
+      "fr": "métal blanc lustré"
     },
     "atomic_mass": {
       "value": 226.0254,
@@ -24593,7 +24854,8 @@
     "names": {
       "en": "Radium",
       "de": "Radium",
-      "la": "Radium"
+      "la": "Radium",
+      "fr": "Radium"
     },
     "natural_occurrence": "decay",
     "negativity": {
@@ -24660,14 +24922,16 @@
     },
     "wiki": {
       "en": "Radium",
-      "de": "Radium"
+      "de": "Radium",
+      "fr": "Radium"
     }
   },
   "ac": {
     "@modified": "2023-11-04T10:30:10.482Z",
     "appearance": {
       "en": "silvery-white, glowing with an eerie blue light; sometimes with a golden cast",
-      "de": "silbrig"
+      "de": "silbrig",
+      "fr": "blanc argenté, brillant d'une étrange lumière bleue"
     },
     "atomic_mass": {
       "value": 227.0278,
@@ -24741,7 +25005,8 @@
     "names": {
       "en": "Actinium",
       "de": "Actinium",
-      "la": "Actinium"
+      "la": "Actinium",
+      "fr": "Actinium"
     },
     "natural_occurrence": "decay",
     "negativity": {
@@ -24802,7 +25067,8 @@
     },
     "wiki": {
       "en": "Actinium",
-      "de": "Actinium"
+      "de": "Actinium",
+      "fr": "Actinium"
     }
   },
   "th": {
@@ -24835,7 +25101,8 @@
     },
     "appearance": {
       "en": "silvery",
-      "de": "silbrig weiß"
+      "de": "silbrig weiß",
+      "fr": "argenté"
     },
     "atomic_mass": {
       "value": 232.03774,
@@ -24967,7 +25234,8 @@
     "names": {
       "en": "Thorium",
       "de": "Thorium",
-      "la": "Thorium"
+      "la": "Thorium",
+      "fr": "Thorium"
     },
     "natural_occurrence": "decay",
     "negativity": {
@@ -25050,7 +25318,8 @@
     },
     "wiki": {
       "en": "Thorium",
-      "de": "Thorium"
+      "de": "Thorium",
+      "fr": "Thorium"
     }
   },
   "pa": {
@@ -25067,7 +25336,8 @@
     },
     "appearance": {
       "en": "bright, silvery metallic luster",
-      "de": "hell, silbrig, metallisch glänzend"
+      "de": "hell, silbrig, metallisch glänzend",
+      "fr": "lumineux, lustré, métallique argenté"
     },
     "atomic_mass": {
       "value": 231.035882,
@@ -25159,7 +25429,8 @@
     "names": {
       "en": "Protactinium",
       "de": "Protactinium",
-      "la": "Protactinium"
+      "la": "Protactinium",
+      "fr": "Protactinium"
     },
     "natural_occurrence": "decay",
     "negativity": {
@@ -25226,7 +25497,8 @@
     },
     "wiki": {
       "en": "Protactinium",
-      "de": "Protactinium"
+      "de": "Protactinium",
+      "fr": "Protactinium"
     }
   },
   "u": {
@@ -25263,7 +25535,8 @@
     },
     "appearance": {
       "en": "silvery gray metallic; corrodes to a spalling black oxide coat in air",
-      "de": "silberweiß"
+      "de": "silberweiß",
+      "fr": "gris argenté métallisé ; se corrode en une couche d'oxyde noir écaillée à l'air"
     },
     "atomic_mass": {
       "value": 238.028913,
@@ -25416,7 +25689,8 @@
     "names": {
       "en": "Uranium",
       "de": "Uran",
-      "la": "Uranium"
+      "la": "Uranium",
+      "fr": "Uranium"
     },
     "natural_occurrence": "primordial",
     "negativity": {
@@ -25501,14 +25775,16 @@
     },
     "wiki": {
       "en": "Uranium",
-      "de": "Uran"
+      "de": "Uran",
+      "fr": "Uranium"
     }
   },
   "np": {
     "@modified": "2023-11-04T10:30:10.482Z",
     "appearance": {
       "en": "silvery metallic",
-      "de": "silbrig"
+      "de": "silbrig",
+      "fr": "métallique argenté"
     },
     "atomic_mass": {
       "value": 237.0482,
@@ -25602,7 +25878,8 @@
     "names": {
       "en": "Neptunium",
       "de": "Neptunium",
-      "la": "Neptunium"
+      "la": "Neptunium",
+      "fr": "Neptunium"
     },
     "natural_occurrence": "decay",
     "negativity": {
@@ -25673,14 +25950,16 @@
     },
     "wiki": {
       "en": "Neptunium",
-      "de": "Neptunium"
+      "de": "Neptunium",
+      "fr": "Neptunium"
     }
   },
   "pu": {
     "@modified": "2023-11-04T10:30:10.482Z",
     "appearance": {
       "en": "silvery white, tarnishing to dark gray in air",
-      "de": "silbriges Metall"
+      "de": "silbriges Metall",
+      "fr": "blanc argenté, ternissant à gris foncé à l'air"
     },
     "atomic_mass": {
       "value": 244.0642,
@@ -25784,7 +26063,8 @@
     "names": {
       "en": "Plutonium",
       "de": "Plutonium",
-      "la": "Plutonium"
+      "la": "Plutonium",
+      "fr": "Plutonium"
     },
     "natural_occurrence": "decay",
     "negativity": {
@@ -25885,14 +26165,16 @@
     ],
     "wiki": {
       "en": "Plutonium",
-      "de": "Plutonium"
+      "de": "Plutonium",
+      "fr": "Plutonium"
     }
   },
   "am": {
     "@modified": "2023-11-04T10:30:10.482Z",
     "appearance": {
       "en": "silvery white",
-      "de": "silbrig-weißes Metall"
+      "de": "silbrig-weißes Metall",
+      "fr": "blanc argenté"
     },
     "atomic_mass": {
       "value": 243.061375,
@@ -25980,7 +26262,8 @@
     "names": {
       "en": "Americium",
       "de": "Americium",
-      "la": "Americium"
+      "la": "Americium",
+      "fr": "Américium"
     },
     "natural_occurrence": "synthetic",
     "negativity": {
@@ -26050,14 +26333,16 @@
     },
     "wiki": {
       "en": "Americium",
-      "de": "Americium"
+      "de": "Americium",
+      "fr": "Américium"
     }
   },
   "cm": {
     "@modified": "2023-11-04T10:30:10.482Z",
     "appearance": {
       "en": "silvery metallic, glows purple in the dark",
-      "de": "silbrig-weißes Metall"
+      "de": "silbrig-weißes Metall",
+      "fr": "métallique argenté, brille violet dans le noir"
     },
     "atomic_mass": {
       "value": 247.0703,
@@ -26126,7 +26411,8 @@
     "names": {
       "en": "Curium",
       "de": "Curium",
-      "la": "Curium"
+      "la": "Curium",
+      "fr": "Curium"
     },
     "natural_occurrence": "synthetic",
     "negativity": {
@@ -26191,14 +26477,16 @@
     },
     "wiki": {
       "en": "Curium",
-      "de": "Curium"
+      "de": "Curium",
+      "fr": "Curium"
     }
   },
   "bk": {
     "@modified": "2023-11-04T10:30:10.482Z",
     "appearance": {
       "en": "silvery",
-      "de": "silberweiß"
+      "de": "silberweiß",
+      "fr": "argenté"
     },
     "atomic_mass": {
       "value": 247,
@@ -26259,7 +26547,8 @@
     "names": {
       "en": "Berkelium",
       "de": "Berkelium",
-      "la": "Berkelium"
+      "la": "Berkelium",
+      "fr": "Berkélium"
     },
     "natural_occurrence": "synthetic",
     "negativity": {
@@ -26318,14 +26607,16 @@
     },
     "wiki": {
       "en": "Berkelium",
-      "de": "Berkelium"
+      "de": "Berkelium",
+      "fr": "Berkélium"
     }
   },
   "cf": {
     "@modified": "2023-11-04T10:30:10.482Z",
     "appearance": {
       "en": "silvery",
-      "de": "silbriges Metall"
+      "de": "silbriges Metall",
+      "fr": "argenté"
     },
     "atomic_mass": {
       "value": 251,
@@ -26385,7 +26676,8 @@
     "names": {
       "en": "Californium",
       "de": "Californium",
-      "la": "Californium"
+      "la": "Californium",
+      "fr": "Californium"
     },
     "natural_occurrence": "synthetic",
     "negativity": {
@@ -26440,13 +26732,15 @@
     },
     "wiki": {
       "en": "Californium",
-      "de": "Californium"
+      "de": "Californium",
+      "fr": "Californium"
     }
   },
   "es": {
     "@modified": "2023-11-04T10:30:10.482Z",
     "appearance": {
-      "en": "silvery; glows blue in the dark"
+      "en": "silvery; glows blue in the dark",
+      "fr": "argenté; brille en bleu dans l'obscurité"
     },
     "atomic_mass": {
       "value": 252,
@@ -26509,7 +26803,8 @@
     "names": {
       "en": "Einsteinium",
       "de": "Einsteinium",
-      "la": "Einsteinium"
+      "la": "Einsteinium",
+      "fr": "Einsteinium"
     },
     "natural_occurrence": "synthetic",
     "negativity": {
@@ -26559,7 +26854,8 @@
     },
     "wiki": {
       "en": "Einsteinium",
-      "de": "Einsteinium"
+      "de": "Einsteinium",
+      "fr": "Einsteinium"
     }
   },
   "fm": {
@@ -26611,7 +26907,8 @@
     "names": {
       "en": "Fermium",
       "de": "Fermium",
-      "la": "Fermium"
+      "la": "Fermium",
+      "fr": "Fermium"
     },
     "natural_occurrence": "synthetic",
     "negativity": {
@@ -26656,7 +26953,8 @@
     },
     "wiki": {
       "en": "Fermium",
-      "de": "Fermium"
+      "de": "Fermium",
+      "fr": "Fermium"
     }
   },
   "md": {
@@ -26708,7 +27006,8 @@
     "names": {
       "en": "Mendelevium",
       "de": "Mendelevium",
-      "la": "Mendelevium"
+      "la": "Mendelevium",
+      "fr": "Mendélévium"
     },
     "natural_occurrence": "synthetic",
     "negativity": {
@@ -26748,7 +27047,8 @@
     },
     "wiki": {
       "en": "Mendelevium",
-      "de": "Mendelevium"
+      "de": "Mendelevium",
+      "fr": "Mendélévium"
     }
   },
   "no": {
@@ -26800,7 +27100,8 @@
     "names": {
       "en": "Nobelium",
       "de": "Nobelium",
-      "la": "Nobelium"
+      "la": "Nobelium",
+      "fr": "Nobélium"
     },
     "natural_occurrence": "synthetic",
     "negativity": {
@@ -26840,7 +27141,8 @@
     },
     "wiki": {
       "en": "Nobelium",
-      "de": "Nobelium"
+      "de": "Nobelium",
+      "fr": "Nobélium"
     }
   },
   "lr": {
@@ -26893,7 +27195,8 @@
     "names": {
       "en": "Lawrencium",
       "de": "Lawrencium",
-      "la": "Lawrencium"
+      "la": "Lawrencium",
+      "fr": "Lawrencium"
     },
     "natural_occurrence": "synthetic",
     "negativity": {
@@ -26931,7 +27234,8 @@
     },
     "wiki": {
       "en": "Lawrencium",
-      "de": "Lawrencium"
+      "de": "Lawrencium",
+      "fr": "Lawrencium"
     }
   },
   "rf": {
@@ -26996,7 +27300,8 @@
     "names": {
       "en": "Rutherfordium",
       "de": "Rutherfordium",
-      "la": "Rutherfordium"
+      "la": "Rutherfordium",
+      "fr": "Rutherfordium"
     },
     "natural_occurrence": "synthetic",
     "number": 104,
@@ -27046,7 +27351,8 @@
     },
     "wiki": {
       "en": "Rutherfordium",
-      "de": "Rutherfordium"
+      "de": "Rutherfordium",
+      "fr": "Rutherfordium"
     }
   },
   "db": {
@@ -27116,7 +27422,8 @@
     "names": {
       "en": "Dubnium",
       "de": "Dubnium",
-      "la": "Dubnium"
+      "la": "Dubnium",
+      "fr": "Dubnium"
     },
     "natural_occurrence": "synthetic",
     "number": 105,
@@ -27153,7 +27460,8 @@
     "symbol": "Db",
     "wiki": {
       "en": "Dubnium",
-      "de": "Dubnium"
+      "de": "Dubnium",
+      "fr": "Dubnium"
     }
   },
   "sg": {
@@ -27215,7 +27523,8 @@
     "names": {
       "en": "Seaborgium",
       "de": "Seaborgium",
-      "la": "Seaborgium"
+      "la": "Seaborgium",
+      "fr": "Seaborgium"
     },
     "natural_occurrence": "synthetic",
     "number": 106,
@@ -27252,7 +27561,8 @@
     "symbol": "Sg",
     "wiki": {
       "en": "Seaborgium",
-      "de": "Seaborgium"
+      "de": "Seaborgium",
+      "fr": "Seaborgium"
     }
   },
   "bh": {
@@ -27307,7 +27617,8 @@
     "names": {
       "en": "Bohrium",
       "de": "Bohrium",
-      "la": "Bohrium"
+      "la": "Bohrium",
+      "fr": "Bohrium"
     },
     "natural_occurrence": "synthetic",
     "number": 107,
@@ -27344,7 +27655,8 @@
     "symbol": "Bh",
     "wiki": {
       "en": "Bohrium",
-      "de": "Bohrium"
+      "de": "Bohrium",
+      "fr": "Bohrium"
     }
   },
   "hs": {
@@ -27399,7 +27711,8 @@
     "names": {
       "en": "Hassium",
       "de": "Hassium",
-      "la": "Hassium"
+      "la": "Hassium",
+      "fr": "Hassium"
     },
     "natural_occurrence": "synthetic",
     "number": 108,
@@ -27436,7 +27749,8 @@
     "symbol": "Hs",
     "wiki": {
       "en": "Hassium",
-      "de": "Hassium"
+      "de": "Hassium",
+      "fr": "Hassium"
     }
   },
   "mt": {
@@ -27488,7 +27802,8 @@
     "names": {
       "en": "Meitnerium",
       "de": "Meitnerium",
-      "la": "Meitnerium"
+      "la": "Meitnerium",
+      "fr": "Meitnerium"
     },
     "natural_occurrence": "synthetic",
     "number": 109,
@@ -27525,7 +27840,8 @@
     "symbol": "Mt",
     "wiki": {
       "en": "Meitnerium",
-      "de": "Meitnerium"
+      "de": "Meitnerium",
+      "fr": "Meitnerium"
     }
   },
   "ds": {
@@ -27576,7 +27892,8 @@
     "names": {
       "en": "Darmstadtium",
       "de": "Darmstadtium",
-      "la": "Darmstadtium"
+      "la": "Darmstadtium",
+      "fr": "Darmstadtium"
     },
     "natural_occurrence": "synthetic",
     "number": 110,
@@ -27613,7 +27930,8 @@
     "symbol": "Ds",
     "wiki": {
       "en": "Darmstadtium",
-      "de": "Darmstadtium"
+      "de": "Darmstadtium",
+      "fr": "Darmstadtium"
     }
   },
   "rg": {
@@ -27664,7 +27982,8 @@
     "names": {
       "en": "Roentgenium",
       "de": "Roentgenium",
-      "la": "Roentgenium"
+      "la": "Roentgenium",
+      "fr": "Roentgenium"
     },
     "natural_occurrence": "synthetic",
     "number": 111,
@@ -27701,7 +28020,8 @@
     "symbol": "Rg",
     "wiki": {
       "en": "Roentgenium",
-      "de": "Roentgenium"
+      "de": "Roentgenium",
+      "fr": "Roentgenium"
     }
   },
   "cn": {
@@ -27752,7 +28072,8 @@
     "names": {
       "en": "Copernicium",
       "de": "Copernicium",
-      "la": "Copernicium"
+      "la": "Copernicium",
+      "fr": "Copernicium"
     },
     "natural_occurrence": "synthetic",
     "number": 112,
@@ -27817,7 +28138,8 @@
     },
     "wiki": {
       "en": "Copernicium",
-      "de": "Copernicium"
+      "de": "Copernicium",
+      "fr": "Copernicium"
     }
   },
   "nh": {
@@ -27868,7 +28190,8 @@
     "names": {
       "en": "Nihonium",
       "de": "Nihonium",
-      "la": "Nihonium"
+      "la": "Nihonium",
+      "fr": "Nihonium"
     },
     "natural_occurrence": "synthetic",
     "number": 113,
@@ -27923,7 +28246,8 @@
     },
     "wiki": {
       "en": "Nihonium",
-      "de": "Nihonium"
+      "de": "Nihonium",
+      "fr": "Nihonium"
     }
   },
   "fl": {
@@ -27974,7 +28298,8 @@
     "names": {
       "en": "Flerovium",
       "de": "Flerovium",
-      "la": "Flerovium"
+      "la": "Flerovium",
+      "fr": "Flérovium"
     },
     "natural_occurrence": "synthetic",
     "number": 114,
@@ -28020,7 +28345,8 @@
     },
     "wiki": {
       "en": "Flerovium",
-      "de": "Flerovium"
+      "de": "Flerovium",
+      "fr": "Flérovium"
     }
   },
   "mc": {
@@ -28070,7 +28396,8 @@
     "names": {
       "en": "Moscovium",
       "de": "Moscovium",
-      "la": "Moscovium"
+      "la": "Moscovium",
+      "fr": "Moscovium"
     },
     "natural_occurrence": "synthetic",
     "number": 115,
@@ -28125,7 +28452,8 @@
     },
     "wiki": {
       "en": "Moscovium",
-      "de": "Moscovium"
+      "de": "Moscovium",
+      "fr": "Moscovium"
     }
   },
   "lv": {
@@ -28175,7 +28503,8 @@
     "names": {
       "en": "Livermorium",
       "de": "Livermorium",
-      "la": "Livermorium"
+      "la": "Livermorium",
+      "fr": "Livermorium"
     },
     "natural_occurrence": "synthetic",
     "number": 116,
@@ -28242,13 +28571,15 @@
     },
     "wiki": {
       "en": "Livermorium",
-      "de": "Livermorium"
+      "de": "Livermorium",
+      "fr": "Livermorium"
     }
   },
   "ts": {
     "@modified": "2023-10-29T17:28:32.371Z",
     "appearance": {
-      "en": "semimetallic (predicted)"
+      "en": "semimetallic (predicted)",
+      "de": "semi-métallique (prédiction)"
     },
     "atomic_mass": {
       "value": 292,
@@ -28295,7 +28626,8 @@
     "names": {
       "en": "Tennessine",
       "de": "Tenness",
-      "la": "Tennessum"
+      "la": "Tennessum",
+      "fr": "Tennesse"
     },
     "natural_occurrence": "synthetic",
     "number": 117,
@@ -28357,13 +28689,15 @@
     },
     "wiki": {
       "en": "Tennessine",
-      "de": "Tenness"
+      "de": "Tenness",
+      "fr": "Tennesse"
     }
   },
   "og": {
     "@modified": "2023-10-29T17:28:32.371Z",
     "appearance": {
-      "en": "metallic (predicted)"
+      "en": "metallic (predicted)",
+      "fr": "métallique (prédiction)"
     },
     "atomic_mass": {
       "value": 294,
@@ -28418,7 +28752,8 @@
     "names": {
       "en": "Oganesson",
       "de": "Oganesson",
-      "la": "Oganesson"
+      "la": "Oganesson",
+      "fr": "Oganesson"
     },
     "natural_occurrence": "synthetic",
     "number": 118,
@@ -28475,7 +28810,8 @@
     },
     "wiki": {
       "en": "Oganesson",
-      "de": "Oganesson"
+      "de": "Oganesson",
+      "fr": "Oganesson"
     }
   }
 }
