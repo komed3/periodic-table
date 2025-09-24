@@ -1071,7 +1071,24 @@ routes.forEach( ( route ) => {
                     break;
 
                 /**
-                 * molar mass
+                 * gas law calculator
+                 */
+                case 'tool-gas_law':
+
+                    res.locals.breadcrumbs.push( [
+                        '/tools',
+                        res.__( 'tools-title' )
+                    ] );
+
+                    res.locals.breadcrumbs.push( [
+                        '/tool/gas_law',
+                        res.__( 'tool-gas_law-title' )
+                    ] );
+
+                    break;
+
+                /**
+                 * molar mass calculator
                  */
                 case 'tool-molar_mass':
 
@@ -1096,6 +1113,57 @@ routes.forEach( ( route ) => {
                     res.locals.breadcrumbs.push( [
                         '/tool/molar_mass',
                         res.__( 'tool-molar_mass-title' )
+                    ] );
+
+                    break;
+
+                /**
+                 * nuclear decay calculator
+                 */
+                case 'tool-nuclear_decay':
+
+                    res.locals.breadcrumbs.push( [
+                        '/tools',
+                        res.__( 'tools-title' )
+                    ] );
+
+                    res.locals.breadcrumbs.push( [
+                        '/tool/nuclear_decay',
+                        res.__( 'tool-nuclear_decay-title' )
+                    ] );
+
+                    break;
+
+                /**
+                 * ph calculator
+                 */
+                case 'tool-ph':
+
+                    res.locals.breadcrumbs.push( [
+                        '/tools',
+                        res.__( 'tools-title' )
+                    ] );
+
+                    res.locals.breadcrumbs.push( [
+                        '/tool/ph',
+                        res.__( 'tool-ph-title' )
+                    ] );
+
+                    break;
+
+                /**
+                 * stoichiometry calculator
+                 */
+                case 'tool-stoichiometry':
+
+                    res.locals.breadcrumbs.push( [
+                        '/tools',
+                        res.__( 'tools-title' )
+                    ] );
+
+                    res.locals.breadcrumbs.push( [
+                        '/tool/stoichiometry',
+                        res.__( 'tool-stoichiometry-title' )
                     ] );
 
                     break;
