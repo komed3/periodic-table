@@ -629,6 +629,7 @@
   "tool-clear": "Löschen",
   "tool-concentration-description": "Berechnung der Molarität, des Massenanteils und Durchführung von Verdünnungsberechnungen.",
   "tool-concentration-title": "Konzentrationsrechner",
+  "tool-examples": "Beispiele:",
   "tool-gas_law-description": "Berechnet Gas-Eigenschaften unter Verwendung des idealen Gasgesetzes, des kombinierten Gasgesetzes und anderer Gasgesetze.",
   "tool-gas_law-title": "Gasgesetze",
   "tool-molar_mass-description": "Berechnet die Molmasse chemischer Verbindungen und zeigt eine detaillierte Zusammensetzungsanalyse an.",

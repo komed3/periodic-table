@@ -8,17 +8,27 @@
     padding: 20px;
     font-family: "Roboto", sans-serif;
     font-size: 18px;
-    color: var( --color-light );
+    color: var( --color-main );
+    background: var( --color-bg );
     border: 0;
     border-radius: 24px;
     cursor: pointer;
 
     &.primary {
+        color: var( --color-light );
         background: var( --accent-1 );
     }
 
     &.secondary {
+        color: var( --color-light );
         background: var( --accent-3 );
+    }
+
+    &.example {
+        height: 40px;
+        padding: 18px;
+        font-size: 16px;
+        border-radius: 20px;
     }
 
     .icon {
@@ -65,6 +75,23 @@
         text-align: right;
         font-size: 14px;
         opacity: 0.7;
+    }
+
+}
+
+.pt-tool-examples {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 12px;
+    padding: 24px;
+    border: 2px dashed var( --gray-2 );
+    border-radius: 12px;
+
+    h3 {
+        flex: 1;
+        margin: 0;
+        font-weight: 500;
     }
 
 }

@@ -630,6 +630,7 @@
   "tool-clear": "Clear",
   "tool-concentration-description": "Calculates molarity, mass percent, and perform dilution calculations.",
   "tool-concentration-title": "Concentration Calculator",
+  "tool-examples": "Examples:",
   "tool-gas_law-description": "Calculates gas properties using ideal gas law, combined gas law, and other gas laws.",
   "tool-gas_law-title": "Gas Laws",
   "tool-molar_mass-description": "Calculates the molar mass of chemical compounds and view detailed composition analysis.",
