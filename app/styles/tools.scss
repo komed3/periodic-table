@@ -1,1 +1,70 @@
 @import 'page';
+
+.pt-tool-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    height: 48px;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: var( --color-light );
+    border: 0;
+    border-radius: 24px;
+    cursor: pointer;
+
+    &.primary {
+        background: var( --accent-1 );
+    }
+
+    &.secondary {
+        background: var( --accent-3 );
+    }
+
+    .icon {
+        font-size: 24px;
+    }
+
+}
+
+.pt-tool-form {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 24px;
+    margin-bottom: 24px;
+    padding: 24px;
+    background: var( --color-bg );
+    border-radius: 12px;
+
+    &-group {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        gap: 24px;
+
+        &.right {
+            justify-content: flex-end;
+        }
+
+        label {
+            font-weight: 500;
+        }
+
+        input {
+            flex: 1;
+            height: 48px;
+            padding: 0 24px;
+            font-size: 18px;
+            border-radius: 24px;
+        }
+
+    }
+
+    &-help {
+        margin: -16px 0 0;
+        text-align: right;
+        font-size: 14px;
+        opacity: 0.7;
+    }
+
+}
