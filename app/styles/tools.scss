@@ -48,9 +48,9 @@
 
     &-group {
         display: flex;
-        flex-flow: row nowrap;
+        flex-flow: row wrap;
         align-items: center;
-        gap: 24px;
+        gap: 12px 24px;
 
         &.right {
             justify-content: flex-end;
@@ -132,7 +132,7 @@
 
 .pt-tool-examples {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     align-items: center;
     gap: 12px;
     padding: 24px;
@@ -143,6 +143,29 @@
         flex: 1;
         margin: 0;
         font-weight: 500;
+    }
+
+}
+
+@media ( max-width: 500px ) {
+
+    .pt-tool-form-group {
+        flex-flow: column nowrap;
+        justify-content: center;
+
+        * {
+            text-align: center !important;
+        }
+
+        input.main {
+            flex: unset;
+            width: 100%;
+        }
+
+    }
+
+    .pt-tool-form-help {
+        text-align: center;
     }
 
 }
