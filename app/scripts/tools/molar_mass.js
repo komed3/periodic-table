@@ -67,6 +67,13 @@ window.addEventListener( 'load', function () {
 
     function calculate () {
 
+        if ( ! formula.value ) {
+
+            clearResults();
+            return;
+
+        }
+
         error.classList.add( 'hidden' );
 
         let parsed;
