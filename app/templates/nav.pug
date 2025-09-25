@@ -48,7 +48,7 @@ div.pt-nav.noscrollbar.noselect
       div.pt-nav-divider
     else
       a(
-        href= link[0],
+        href= core.url( link[0] ),
         class= 'pt-nav-link' + (
           link[0] == navURL
             ? ' current'
