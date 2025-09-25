@@ -1,6 +1,6 @@
 {
   "h": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 750000000,
@@ -316,12 +316,16 @@
     },
     "weblinks": [
       {
-        "url": "https://www.webelements.com/hydrogen/",
+        "url": "https://webelements.com/hydrogen",
         "text": "WebElements"
       },
       {
-        "url": "http://www.periodicvideos.com/videos/001.htm",
+        "url": "http://periodicvideos.com/videos/001.htm",
         "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/001",
+        "text": "PeriodicTable.com"
       }
     ],
     "wiki": {
@@ -331,7 +335,7 @@
     }
   },
   "he": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 230000000,
@@ -587,6 +591,20 @@
         }
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/helium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/002.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/002",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Helium",
       "de": "Helium",
@@ -594,7 +612,7 @@
     }
   },
   "li": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 6,
@@ -913,6 +931,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/lithium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/003.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/003",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Lithium",
       "de": "Lithium",
@@ -920,7 +952,7 @@
     }
   },
   "be": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 1,
@@ -1257,6 +1289,20 @@
         }
       }
     ],
+    "weblinks": [
+      {
+        "url": "https://webelements.com/beryllium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/004.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/004",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Beryllium",
       "de": "Beryllium",
@@ -1264,7 +1310,7 @@
     }
   },
   "b": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 1,
@@ -1558,6 +1604,20 @@
         }
       }
     ],
+    "weblinks": [
+      {
+        "url": "https://webelements.com/boron",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/005.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/005",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Boron",
       "de": "Bor",
@@ -1565,7 +1625,7 @@
     }
   },
   "c": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 5000000,
@@ -1862,6 +1922,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/carbon",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/006.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/006",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Carbon",
       "de": "Kohlenstoff",
@@ -1869,7 +1943,7 @@
     }
   },
   "n": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 1000000,
@@ -2145,6 +2219,20 @@
         }
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/nitrogen",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/007.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/007",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Nitrogen",
       "de": "Stickstoff",
@@ -2152,7 +2240,7 @@
     }
   },
   "o": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 10000000,
@@ -2467,6 +2555,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/oxygen",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/008.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/008",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Oxygen",
       "de": "Sauerstoff",
@@ -2474,7 +2576,7 @@
     }
   },
   "f": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 400,
@@ -2760,6 +2862,20 @@
         }
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/fluorine",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/009.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/009",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Fluorine",
       "de": "Fluor",
@@ -2767,7 +2883,7 @@
     }
   },
   "ne": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 1300000,
@@ -3002,6 +3118,20 @@
         }
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/neon",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/010.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/010",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Neon",
       "de": "Neon",
@@ -3009,7 +3139,7 @@
     }
   },
   "na": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 20000,
@@ -3331,6 +3461,20 @@
         }
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/sodium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/011.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/011",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Sodium",
       "de": "Natrium",
@@ -3338,7 +3482,7 @@
     }
   },
   "mg": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 600000,
@@ -3659,6 +3803,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/magnesium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/012.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/012",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Magnesium",
       "de": "Magnesium",
@@ -3666,7 +3824,7 @@
     }
   },
   "al": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 50000,
@@ -3972,6 +4130,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/aluminum",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/013.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/013",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Aluminum",
       "de": "Aluminium",
@@ -3979,7 +4151,7 @@
     }
   },
   "si": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 700000,
@@ -4262,6 +4434,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/silicon",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/014.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/014",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Silicon",
       "de": "Silicium",
@@ -4269,7 +4455,7 @@
     }
   },
   "p": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 7000,
@@ -4617,6 +4803,20 @@
         }
       }
     ],
+    "weblinks": [
+      {
+        "url": "https://webelements.com/phosphorus",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/015.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/015",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Phosphorus",
       "de": "Phosphor",
@@ -4624,7 +4824,7 @@
     }
   },
   "s": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 500000,
@@ -4904,6 +5104,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/sulfur",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/016.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/016",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Sulfur",
       "de": "Schwefel",
@@ -4911,7 +5125,7 @@
     }
   },
   "cl": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 1000,
@@ -5216,6 +5430,20 @@
         }
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/chlorine",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/017.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/017",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Chlorine",
       "de": "Chlor",
@@ -5223,7 +5451,7 @@
     }
   },
   "ar": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 200000,
@@ -5470,6 +5698,20 @@
         }
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/argon",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/018.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/018",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Argon",
       "de": "Argon",
@@ -5477,7 +5719,7 @@
     }
   },
   "k": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 3000,
@@ -5789,6 +6031,20 @@
         }
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/potassium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/019.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/019",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Potassium",
       "de": "Kalium",
@@ -5796,7 +6052,7 @@
     }
   },
   "ca": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 70000,
@@ -6103,6 +6359,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/calcium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/020.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/020",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Calcium",
       "de": "Calcium",
@@ -6110,7 +6380,7 @@
     }
   },
   "sc": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 30,
@@ -6379,6 +6649,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/scandium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/021.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/021",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Scandium",
       "de": "Scandium",
@@ -6386,7 +6670,7 @@
     }
   },
   "ti": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 3000,
@@ -6680,6 +6964,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/titanium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/022.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/022",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Titanium",
       "de": "Titan (Element)",
@@ -6687,7 +6985,7 @@
     }
   },
   "v": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 1000,
@@ -6966,6 +7264,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/vanadium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/023.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/023",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Vanadium",
       "de": "Vanadium",
@@ -6973,7 +7285,7 @@
     }
   },
   "cr": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 15000,
@@ -7317,6 +7629,20 @@
         }
       }
     ],
+    "weblinks": [
+      {
+        "url": "https://webelements.com/chromium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/024.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/024",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Chromium",
       "de": "Chrom",
@@ -7324,7 +7650,7 @@
     }
   },
   "mn": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 8000,
@@ -7642,6 +7968,20 @@
         }
       }
     ],
+    "weblinks": [
+      {
+        "url": "https://webelements.com/manganese",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/025.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/025",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Manganese",
       "de": "Mangan",
@@ -7649,7 +7989,7 @@
     }
   },
   "fe": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 1100000,
@@ -7929,6 +8269,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/iron",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/026.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/026",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Iron",
       "de": "Eisen",
@@ -7936,7 +8290,7 @@
     }
   },
   "co": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 3000,
@@ -8264,6 +8618,20 @@
         }
       }
     ],
+    "weblinks": [
+      {
+        "url": "https://webelements.com/cobalt",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/027.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/027",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Cobalt",
       "de": "Cobalt",
@@ -8271,7 +8639,7 @@
     }
   },
   "ni": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 60000,
@@ -8620,6 +8988,20 @@
         }
       }
     ],
+    "weblinks": [
+      {
+        "url": "https://webelements.com/nickel",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/028.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/028",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Nickel",
       "de": "Nickel",
@@ -8627,7 +9009,7 @@
     }
   },
   "cu": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 60,
@@ -8921,6 +9303,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/copper",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/029.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/029",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Copper",
       "de": "Kupfer",
@@ -8928,7 +9324,7 @@
     }
   },
   "zn": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 300,
@@ -9239,6 +9635,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/zinc",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/030.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/030",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Zinc",
       "de": "Zink",
@@ -9246,7 +9656,7 @@
     }
   },
   "ga": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 10,
@@ -9534,6 +9944,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/gallium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/031.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/031",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Gallium",
       "de": "Gallium",
@@ -9541,7 +9965,7 @@
     }
   },
   "ge": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 200,
@@ -9811,6 +10235,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/germanium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/032.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/032",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Germanium",
       "de": "Germanium",
@@ -9818,7 +10256,7 @@
     }
   },
   "as": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 8,
@@ -10127,6 +10565,20 @@
         }
       }
     ],
+    "weblinks": [
+      {
+        "url": "https://webelements.com/arsenic",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/033.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/033",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Arsenic",
       "de": "Arsen",
@@ -10134,7 +10586,7 @@
     }
   },
   "se": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 30,
@@ -10467,6 +10919,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/selenium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/034.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/034",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Selenium",
       "de": "Selen",
@@ -10474,7 +10940,7 @@
     }
   },
   "br": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 7,
@@ -10807,6 +11273,20 @@
         }
       }
     ],
+    "weblinks": [
+      {
+        "url": "https://webelements.com/bromine",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/035.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/035",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Bromine",
       "de": "Brom",
@@ -10814,7 +11294,7 @@
     }
   },
   "kr": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 40,
@@ -11051,6 +11531,20 @@
         }
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/krypton",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/036.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/036",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Krypton",
       "de": "Krypton",
@@ -11058,7 +11552,7 @@
     }
   },
   "rb": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 10,
@@ -11370,6 +11864,20 @@
         }
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/rubidium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/037.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/037",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Rubidium",
       "de": "Rubidium",
@@ -11377,7 +11885,7 @@
     }
   },
   "sr": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 40,
@@ -11660,6 +12168,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/strontium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/038.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/038",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Strontium",
       "de": "Strontium",
@@ -11667,7 +12189,7 @@
     }
   },
   "y": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 7,
@@ -11947,6 +12469,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/yttrium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/039.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/039",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Yttrium",
       "de": "Yttrium",
@@ -11954,7 +12490,7 @@
     }
   },
   "zr": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 50,
@@ -12234,6 +12770,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/zirconium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/040.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/040",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Zirconium",
       "de": "Zirconium",
@@ -12241,7 +12791,7 @@
     }
   },
   "nb": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 2,
@@ -12521,6 +13071,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/niobium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/041.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/041",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Niobium",
       "de": "Niob",
@@ -12528,7 +13092,7 @@
     }
   },
   "mo": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 5,
@@ -12807,6 +13371,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/molybdenum",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/042.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/042",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Molybdenum",
       "de": "Molybdän",
@@ -12814,7 +13392,7 @@
     }
   },
   "tc": {
-    "@modified": "2023-11-04T10:30:10.482Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "appearance": {
       "en": "shiny gray metal",
       "de": "silbrig grau metallisch",
@@ -13008,6 +13586,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/technetium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/043.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/043",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Technetium",
       "de": "Technetium",
@@ -13015,7 +13607,7 @@
     }
   },
   "ru": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 4,
@@ -13273,6 +13865,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/ruthenium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/044.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/044",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Ruthenium",
       "de": "Ruthenium",
@@ -13280,7 +13886,7 @@
     }
   },
   "rh": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 0.6,
@@ -13576,6 +14182,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/rhodium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/045.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/045",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Rhodium",
       "de": "Rhodium",
@@ -13583,7 +14203,7 @@
     }
   },
   "pd": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 2,
@@ -13875,6 +14495,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/palladium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/046.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/046",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Palladium",
       "de": "Palladium",
@@ -13882,7 +14516,7 @@
     }
   },
   "ag": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 0.6,
@@ -14252,6 +14886,20 @@
         }
       }
     ],
+    "weblinks": [
+      {
+        "url": "https://webelements.com/silver",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/047.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/047",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Silver",
       "de": "Silber",
@@ -14259,7 +14907,7 @@
     }
   },
   "cd": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 2,
@@ -14647,6 +15295,20 @@
         }
       }
     ],
+    "weblinks": [
+      {
+        "url": "https://webelements.com/cadmium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/048.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/048",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Cadmium",
       "de": "Cadmium",
@@ -14654,7 +15316,7 @@
     }
   },
   "in": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 0.3,
@@ -14945,6 +15607,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/indium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/049.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/049",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Indium",
       "de": "Indium",
@@ -14952,7 +15628,7 @@
     }
   },
   "sn": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 4,
@@ -15253,6 +15929,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/tin",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/050.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/050",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Tin",
       "de": "Zinn",
@@ -15260,7 +15950,7 @@
     }
   },
   "sb": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 0.4,
@@ -15536,6 +16226,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/antimony",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/051.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/051",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Antimony",
       "de": "Antimon",
@@ -15543,7 +16247,7 @@
     }
   },
   "te": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 9,
@@ -15833,6 +16537,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/tellurium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/052.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/052",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Tellurium",
       "de": "Tellur",
@@ -15840,7 +16558,7 @@
     }
   },
   "i": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 1,
@@ -16200,6 +16918,20 @@
         }
       }
     ],
+    "weblinks": [
+      {
+        "url": "https://webelements.com/iodine",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/053.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/053",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Iodine",
       "de": "Iod",
@@ -16207,7 +16939,7 @@
     }
   },
   "xe": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 10,
@@ -16468,6 +17200,20 @@
         }
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/xenon",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/054.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/054",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Xenon",
       "de": "Xenon",
@@ -16475,7 +17221,7 @@
     }
   },
   "cs": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 0.8,
@@ -16762,6 +17508,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/cesium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/055.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/055",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Caesium",
       "de": "Caesium",
@@ -16769,7 +17529,7 @@
     }
   },
   "ba": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 10,
@@ -17070,6 +17830,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/barium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/056.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/056",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Barium",
       "de": "Barium",
@@ -17077,7 +17851,7 @@
     }
   },
   "la": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 2,
@@ -17351,6 +18125,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/lanthanum",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/057.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/057",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Lanthanum",
       "de": "Lanthan",
@@ -17358,7 +18146,7 @@
     }
   },
   "ce": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 10,
@@ -17643,6 +18431,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/cerium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/058.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/058",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Cerium",
       "de": "Cer",
@@ -17650,7 +18452,7 @@
     }
   },
   "pr": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 2,
@@ -17927,6 +18729,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/praseodymium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/059.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/059",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Praseodymium",
       "de": "Praseodym",
@@ -17934,7 +18750,7 @@
     }
   },
   "nd": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 10,
@@ -18220,6 +19036,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/neodymium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/060.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/060",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Neodymium",
       "de": "Neodym",
@@ -18227,7 +19057,7 @@
     }
   },
   "pm": {
-    "@modified": "2023-11-04T10:30:10.482Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "sun": {
         "value": 0.005,
@@ -18419,6 +19249,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/promethium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/061.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/061",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Promethium",
       "de": "Promethium",
@@ -18426,7 +19270,7 @@
     }
   },
   "sm": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 5,
@@ -18702,6 +19546,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/samarium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/062.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/062",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Samarium",
       "de": "Samarium",
@@ -18709,7 +19567,7 @@
     }
   },
   "eu": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 0.5,
@@ -18968,6 +19826,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/europium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/063.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/063",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Europium",
       "de": "Europium",
@@ -18975,7 +19847,7 @@
     }
   },
   "gd": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 2,
@@ -19250,6 +20122,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/gadolinium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/064.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/064",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Gadolinium",
       "de": "Gadolinium",
@@ -19257,7 +20143,7 @@
     }
   },
   "tb": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 0.5,
@@ -19515,6 +20401,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/terbium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/065.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/065",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Terbium",
       "de": "Terbium",
@@ -19522,7 +20422,7 @@
     }
   },
   "dy": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 2,
@@ -19801,6 +20701,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/dysprosium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/066.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/066",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Dysprosium",
       "de": "Dysprosium",
@@ -19808,7 +20722,7 @@
     }
   },
   "ho": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 0.5,
@@ -20068,6 +20982,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/holmium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/067.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/067",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Holmium",
       "de": "Holmium",
@@ -20075,7 +21003,7 @@
     }
   },
   "er": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 2,
@@ -20342,6 +21270,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/erbium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/068.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/068",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Erbium",
       "de": "Erbium",
@@ -20349,7 +21291,7 @@
     }
   },
   "tm": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 0.1,
@@ -20624,6 +21566,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/thulium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/069.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/069",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Thulium",
       "de": "Thulium",
@@ -20631,7 +21587,7 @@
     }
   },
   "yb": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 2,
@@ -20916,6 +21872,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/ytterbium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/070.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/070",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Ytterbium",
       "de": "Ytterbium",
@@ -20923,7 +21893,7 @@
     }
   },
   "lu": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 0.1,
@@ -21176,6 +22146,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/lutetium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/071.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/071",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Lutetium",
       "de": "Lutetium",
@@ -21183,7 +22167,7 @@
     }
   },
   "hf": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 0.7,
@@ -21468,6 +22452,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/hafnium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/072.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/072",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Hafnium",
       "de": "Hafnium",
@@ -21475,7 +22473,7 @@
     }
   },
   "ta": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 0.08,
@@ -21767,6 +22765,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/tantalum",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/073.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/073",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Tantalum",
       "de": "Tantal",
@@ -21774,7 +22786,7 @@
     }
   },
   "w": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 0.5,
@@ -22074,6 +23086,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/tungsten",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/074.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/074",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Tungsten",
       "de": "Wolfram",
@@ -22081,7 +23107,7 @@
     }
   },
   "re": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 0.2,
@@ -22366,6 +23392,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/rhenium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/075.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/075",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Rhenium",
       "de": "Rhenium",
@@ -22373,7 +23413,7 @@
     }
   },
   "os": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 3,
@@ -22642,6 +23682,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/osmium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/076.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/076",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Osmium",
       "de": "Osmium",
@@ -22649,7 +23703,7 @@
     }
   },
   "ir": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 2,
@@ -22920,6 +23974,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/iridium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/077.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/077",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Iridium",
       "de": "Iridium",
@@ -22927,7 +23995,7 @@
     }
   },
   "pt": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 5,
@@ -23198,6 +24266,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/platinum",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/078.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/078",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Platinum",
       "de": "Platin",
@@ -23205,7 +24287,7 @@
     }
   },
   "au": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 0.6,
@@ -23486,6 +24568,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/gold",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/079.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/079",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Gold",
       "de": "Gold",
@@ -23493,7 +24589,7 @@
     }
   },
   "hg": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 1,
@@ -23852,6 +24948,20 @@
         }
       }
     ],
+    "weblinks": [
+      {
+        "url": "https://webelements.com/mercury",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/080.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/080",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Mercury (element)",
       "de": "Quecksilber",
@@ -23859,7 +24969,7 @@
     }
   },
   "tl": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 0.5,
@@ -24157,6 +25267,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/thallium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/081.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/081",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Thallium",
       "de": "Thallium",
@@ -24164,7 +25288,7 @@
     }
   },
   "pb": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 10,
@@ -24513,6 +25637,20 @@
         }
       }
     ],
+    "weblinks": [
+      {
+        "url": "https://webelements.com/lead",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/082.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/082",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Lead",
       "de": "Blei",
@@ -24520,7 +25658,7 @@
     }
   },
   "bi": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 0.7,
@@ -24807,6 +25945,20 @@
         }
       }
     ],
+    "weblinks": [
+      {
+        "url": "https://webelements.com/bismuth",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/083.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/083",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Bismuth",
       "de": "Bismut",
@@ -24814,7 +25966,7 @@
     }
   },
   "po": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "water": {
         "value": 2e-11,
@@ -24994,6 +26146,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/polonium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/084.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/084",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Polonium",
       "de": "Polonium",
@@ -25001,7 +26167,7 @@
     }
   },
   "at": {
-    "@modified": "2023-11-04T10:30:10.482Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "appearance": {
       "en": "unknown, probably metallic",
       "de": "metallisch",
@@ -25116,6 +26282,20 @@
     ],
     "superconductivity": "none",
     "symbol": "At",
+    "weblinks": [
+      {
+        "url": "https://webelements.com/astatine",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/085.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/085",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Astatine",
       "de": "Astat",
@@ -25123,7 +26303,7 @@
     }
   },
   "rn": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "water": {
         "value": 6e-13,
@@ -25292,6 +26472,20 @@
         }
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/radon",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/086.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/086",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Radon",
       "de": "Radon",
@@ -25299,7 +26493,7 @@
     }
   },
   "fr": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "atomic_mass": {
       "value": 223.0197,
       "*": true,
@@ -25450,6 +26644,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/francium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/087.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/087",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Francium",
       "de": "Francium",
@@ -25457,7 +26665,7 @@
     }
   },
   "ra": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "crust": {
         "value": 0.0001,
@@ -25650,6 +26858,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/radium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/088.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/088",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Radium",
       "de": "Radium",
@@ -25657,7 +26879,7 @@
     }
   },
   "ac": {
-    "@modified": "2023-11-04T10:30:10.482Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "appearance": {
       "en": "silvery-white, glowing with an eerie blue light; sometimes with a golden cast",
       "de": "silbrig",
@@ -25795,6 +27017,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/actinium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/089.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/089",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Actinium",
       "de": "Actinium",
@@ -25802,7 +27038,7 @@
     }
   },
   "th": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 0.4,
@@ -26056,6 +27292,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/thorium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/090.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/090",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Thorium",
       "de": "Thorium",
@@ -26063,7 +27313,7 @@
     }
   },
   "pa": {
-    "@modified": "2023-11-04T10:30:10.482Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "crust": {
         "value": 0.00001,
@@ -26235,6 +27485,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/protactinium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/091.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/091",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Protactinium",
       "de": "Protactinium",
@@ -26242,7 +27506,7 @@
     }
   },
   "u": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "abundance": {
       "universe": {
         "value": 0.2,
@@ -26523,6 +27787,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/uranium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/092.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/092",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Uranium",
       "de": "Uran",
@@ -26530,7 +27808,7 @@
     }
   },
   "np": {
-    "@modified": "2023-11-04T10:30:10.482Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "appearance": {
       "en": "silvery metallic",
       "de": "silbrig",
@@ -26698,6 +27976,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/neptunium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/093.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/093",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Neptunium",
       "de": "Neptunium",
@@ -26705,7 +27997,7 @@
     }
   },
   "pu": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "appearance": {
       "en": "silvery white, tarnishing to dark gray in air",
       "de": "silbriges Metall",
@@ -26918,6 +28210,20 @@
         }
       }
     ],
+    "weblinks": [
+      {
+        "url": "https://webelements.com/plutonium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/094.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/094",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Plutonium",
       "de": "Plutonium",
@@ -26925,7 +28231,7 @@
     }
   },
   "am": {
-    "@modified": "2023-11-04T10:30:10.482Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "appearance": {
       "en": "silvery white",
       "de": "silbrig-weißes Metall",
@@ -27086,6 +28392,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/americium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/095.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/095",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Americium",
       "de": "Americium",
@@ -27093,7 +28413,7 @@
     }
   },
   "cm": {
-    "@modified": "2023-11-04T10:30:10.482Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "appearance": {
       "en": "silvery metallic, glows purple in the dark",
       "de": "silbrig-weißes Metall",
@@ -27230,6 +28550,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/curium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/096.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/096",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Curium",
       "de": "Curium",
@@ -27237,7 +28571,7 @@
     }
   },
   "bk": {
-    "@modified": "2025-09-25T08:40:31.959Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "appearance": {
       "en": "silvery",
       "de": "silberweiß",
@@ -27365,6 +28699,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/berkelium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/097.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/097",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Berkelium",
       "de": "Berkelium",
@@ -27372,7 +28720,7 @@
     }
   },
   "cf": {
-    "@modified": "2023-11-04T10:30:10.482Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "appearance": {
       "en": "silvery",
       "de": "silbriges Metall",
@@ -27490,6 +28838,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/californium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/098.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/098",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Californium",
       "de": "Californium",
@@ -27497,7 +28859,7 @@
     }
   },
   "es": {
-    "@modified": "2023-11-04T10:30:10.482Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "appearance": {
       "en": "silvery; glows blue in the dark",
       "fr": "argenté; brille en bleu dans l'obscurité"
@@ -27612,6 +28974,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/einsteinium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/099.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/099",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Einsteinium",
       "de": "Einsteinium",
@@ -27619,7 +28995,7 @@
     }
   },
   "fm": {
-    "@modified": "2023-11-04T10:30:10.482Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "atomic_mass": {
       "value": 257.0951,
       "*": true,
@@ -27711,6 +29087,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/fermium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/100.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/100",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Fermium",
       "de": "Fermium",
@@ -27718,7 +29108,7 @@
     }
   },
   "md": {
-    "@modified": "2023-11-04T10:30:10.482Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "atomic_mass": {
       "value": 258,
       "*": true,
@@ -27805,6 +29195,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/mendelevium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/101.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/101",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Mendelevium",
       "de": "Mendelevium",
@@ -27812,7 +29216,7 @@
     }
   },
   "no": {
-    "@modified": "2023-11-04T10:30:10.482Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "atomic_mass": {
       "value": 259,
       "*": true,
@@ -27899,6 +29303,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/nobelium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/102.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/102",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Nobelium",
       "de": "Nobelium",
@@ -27906,7 +29324,7 @@
     }
   },
   "lr": {
-    "@modified": "2023-10-19T17:18:47.603Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "atomic_mass": {
       "value": 266,
       "*": true,
@@ -27992,6 +29410,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/lawrencium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/103.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/103",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Lawrencium",
       "de": "Lawrencium",
@@ -27999,7 +29431,7 @@
     }
   },
   "rf": {
-    "@modified": "2023-10-19T17:18:47.603Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "appearance": {
       "de": "unbekannt, vermutlich silber-weiß oder grau metallisch"
     },
@@ -28109,6 +29541,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/rutherfordium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/104.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/104",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Rutherfordium",
       "de": "Rutherfordium",
@@ -28116,7 +29562,7 @@
     }
   },
   "db": {
-    "@modified": "2023-10-19T17:18:47.603Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "atomic_mass": {
       "value": 262.1138,
       "*": true,
@@ -28218,6 +29664,20 @@
       2
     ],
     "symbol": "Db",
+    "weblinks": [
+      {
+        "url": "https://webelements.com/dubnium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/105.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/105",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Dubnium",
       "de": "Dubnium",
@@ -28225,7 +29685,7 @@
     }
   },
   "sg": {
-    "@modified": "2023-10-19T17:18:47.603Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "atomic_mass": {
       "value": 263.1182,
       "*": true,
@@ -28319,6 +29779,20 @@
       2
     ],
     "symbol": "Sg",
+    "weblinks": [
+      {
+        "url": "https://webelements.com/seaborgium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/106.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/106",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Seaborgium",
       "de": "Seaborgium",
@@ -28326,7 +29800,7 @@
     }
   },
   "bh": {
-    "@modified": "2023-10-17T15:25:28.382Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "atomic_mass": {
       "value": 262.1229,
       "*": true,
@@ -28413,6 +29887,20 @@
       2
     ],
     "symbol": "Bh",
+    "weblinks": [
+      {
+        "url": "https://webelements.com/bohrium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/107.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/107",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Bohrium",
       "de": "Bohrium",
@@ -28420,7 +29908,7 @@
     }
   },
   "hs": {
-    "@modified": "2023-10-17T15:25:28.382Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "atomic_mass": {
       "value": 265.269,
       "*": true,
@@ -28507,6 +29995,20 @@
       2
     ],
     "symbol": "Hs",
+    "weblinks": [
+      {
+        "url": "https://webelements.com/hassium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/108.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/108",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Hassium",
       "de": "Hassium",
@@ -28514,7 +30016,7 @@
     }
   },
   "mt": {
-    "@modified": "2023-10-29T17:28:32.371Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "atomic_mass": {
       "value": 268,
       "*": true,
@@ -28598,6 +30100,20 @@
       2
     ],
     "symbol": "Mt",
+    "weblinks": [
+      {
+        "url": "https://webelements.com/meitnerium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/109.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/109",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Meitnerium",
       "de": "Meitnerium",
@@ -28605,7 +30121,7 @@
     }
   },
   "ds": {
-    "@modified": "2023-10-29T17:28:32.371Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "atomic_mass": {
       "value": 281,
       "*": true,
@@ -28688,6 +30204,20 @@
       2
     ],
     "symbol": "Ds",
+    "weblinks": [
+      {
+        "url": "https://webelements.com/darmstadtium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/110.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/110",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Darmstadtium",
       "de": "Darmstadtium",
@@ -28695,7 +30225,7 @@
     }
   },
   "rg": {
-    "@modified": "2023-10-29T17:28:32.371Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "atomic_mass": {
       "value": 280,
       "*": true,
@@ -28778,6 +30308,20 @@
       2
     ],
     "symbol": "Rg",
+    "weblinks": [
+      {
+        "url": "https://webelements.com/roentgenium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/111.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/111",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Roentgenium",
       "de": "Roentgenium",
@@ -28785,7 +30329,7 @@
     }
   },
   "cn": {
-    "@modified": "2023-10-29T17:28:32.371Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "atomic_mass": {
       "value": 277,
       "*": true,
@@ -28896,6 +30440,20 @@
         }
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/copernicium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/112.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/112",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Copernicium",
       "de": "Copernicium",
@@ -28903,7 +30461,7 @@
     }
   },
   "nh": {
-    "@modified": "2023-10-29T17:28:32.371Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "atomic_mass": {
       "value": 287,
       "*": true,
@@ -29004,6 +30562,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/nihonium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/113.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/113",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Nihonium",
       "de": "Nihonium",
@@ -29011,7 +30583,7 @@
     }
   },
   "fl": {
-    "@modified": "2023-10-29T17:28:32.371Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "atomic_mass": {
       "value": 289,
       "*": true,
@@ -29103,6 +30675,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/flerovium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/114.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/114",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Flerovium",
       "de": "Flerovium",
@@ -29110,7 +30696,7 @@
     }
   },
   "mc": {
-    "@modified": "2023-10-29T17:28:32.371Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "atomic_mass": {
       "value": 288,
       "*": true,
@@ -29210,6 +30796,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/moscovium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/115.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/115",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Moscovium",
       "de": "Moscovium",
@@ -29217,7 +30817,7 @@
     }
   },
   "lv": {
-    "@modified": "2023-10-29T17:28:32.371Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "atomic_mass": {
       "value": 293,
       "*": true,
@@ -29329,6 +30929,20 @@
         ]
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/livermorium",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/116.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/116",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Livermorium",
       "de": "Livermorium",
@@ -29336,7 +30950,7 @@
     }
   },
   "ts": {
-    "@modified": "2023-10-29T17:28:32.371Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "appearance": {
       "en": "semimetallic (predicted)",
       "de": "semi-métallique (prédiction)"
@@ -29447,6 +31061,20 @@
         ]
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/tennessine",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/117.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/117",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Tennessine",
       "de": "Tenness",
@@ -29454,7 +31082,7 @@
     }
   },
   "og": {
-    "@modified": "2023-10-29T17:28:32.371Z",
+    "@modified": "2025-09-25T09:10:43.005Z",
     "appearance": {
       "en": "metallic (predicted)",
       "fr": "métallique (prédiction)"
@@ -29568,6 +31196,20 @@
         "unit": "K"
       }
     },
+    "weblinks": [
+      {
+        "url": "https://webelements.com/oganesson",
+        "text": "WebElements"
+      },
+      {
+        "url": "http://periodicvideos.com/videos/118.htm",
+        "text": "The Periodic Table of Videos"
+      },
+      {
+        "url": "https://periodictable.com/Elements/118",
+        "text": "PeriodicTable.com"
+      }
+    ],
     "wiki": {
       "en": "Oganesson",
       "de": "Oganesson",
