@@ -124,6 +124,7 @@ const { I18n } = require( 'i18n' );
 const i18n = new I18n( {
     locales: config.get( 'i18n.list' ),
     defaultLocale: config.get( 'i18n.default' ),
+    fallbacks: config.get( 'i18n.fallbacks' ),
     cookie: 'locale',
     directory: __dirname + '/i18n'
 } );

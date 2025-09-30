@@ -74,22 +74,21 @@ const ordinal = ( n ) => {
 
     switch( locale ) {
 
-        case 'en':
-            return n + '<sup>' + (
-                n % 100 >= 11 &&
-                n % 100 <= 13
-                    ? 'th' : [
-                        'th', 'st', 'nd', 'rd', 'th',
-                        'th', 'th', 'th', 'th', 'th'
-                    ][ n % 10 ]
-            ) + '</sup>';
-
+        default:
         case 'de':
             return n + '.';
 
+        case 'en':
+            return n + '<sup>' + (
+                n % 100 >= 11 && n % 100 <= 13 ? 'th' : [
+                    'th', 'st', 'nd', 'rd', 'th',
+                    'th', 'th', 'th', 'th', 'th'
+                ][ n % 10 ]
+            ) + '</sup>';
+
         case 'fr':
-            return n + '<sup>' (
-                n == 1 ? "er" : "ème"
+            return n + '<sup>' + (
+                n == 1 ? 'er' : 'ème'
             ) + '</sup>';
 
     }

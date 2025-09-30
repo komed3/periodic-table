@@ -19,6 +19,9 @@ i18n:
   list: [
     en, de, fr
   ]
+  fallbacks:
+    en: de
+    fr: de
 
 themes:
   default: light
