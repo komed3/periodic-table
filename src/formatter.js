@@ -87,6 +87,11 @@ const ordinal = ( n ) => {
         case 'de':
             return n + '.';
 
+        case 'fr':
+            return n + '<sup>' (
+                n == 1 ? "er" : "ème"
+            ) + '</sup>';
+
     }
 
 };
