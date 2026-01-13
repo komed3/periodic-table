@@ -6245,9 +6245,9 @@
       ],
       "unit": "eV"
     },
-    "magnetic_ordering": "diamagnetic",
+    "magnetic_ordering": "paramagnetic",
     "magnetic_susceptibility": {
-      "value": 0.00004,
+      "value": 0.000019,
       "unit": "cm[3]·mol[−1]"
     },
     "molar_volume": {
