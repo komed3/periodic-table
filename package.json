@@ -33,7 +33,7 @@
         "mergeDB": "node maintenance/mergeDB.js"
     },
     "dependencies": {
-        "axios": "^1.13.2",
+        "axios": "^1.13.3",
         "cmpstr": "^3.2.0",
         "config": "^4.2.0",
         "cookie-parser": "^1.4.7",
