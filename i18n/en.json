@@ -692,7 +692,7 @@
   "weblink-wiki": "%s in Wikipedia (%s)",
   "weblinks": "Further links",
   "white": "white",
-  "wiki-credits": "© Wikipedia | CC-by-SA-3.0 | <a href=\"%s\" class=\"external\" target=\"_blank\">Read more …</a>",
+  "wiki-credits": "© Wikipedia | CC-by-SA-4.0 | <a href=\"%s\" class=\"external\" target=\"_blank\">Read more …</a>",
   "work_function": "Work function",
   "work_function-description": "Work function is the energy that must be applied to release an electron from an uncharged solid.",
   "yellow": "yellow",
