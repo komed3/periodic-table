@@ -600,7 +600,7 @@
   "sitemap-title": "Plan du site",
   "sound_speed": "Vitesse du son",
   "sound_speed-description": "La vitesse du son indique la vitesse à laquelle les ondes sonores se propagent dans un milieu. Cela dépend de la densité de la substance, de la pression et de la température.",
-  "spectrum-description": "Les raies spectrales affichées sont caractéristiques des ondes électromagnétiques émises par chaque élément chimique. Ils sont générés par les transitions électroniques dans des atomes ou des molécules excités par la lumière.",
+  "spectrum-description": "Les raies spectrales affichées sont caractéristiques des ondes électromagnétiques émises par chaque élément chimique. Elles sont générées par les transitions électroniques dans des atomes ou des molécules excités par la lumière. La représentation couvre la partie du spectre électromagnétique visible à l’œil humain, allant d’environ 380 à 750 nm.",
   "spectrum-title": "Analyse spectrale",
   "stable": "nucléide stable",
   "stable--short": "<abbr title=\"Nucléide stable sans produits de désintégration\">stab.</abbr>",

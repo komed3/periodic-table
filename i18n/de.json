@@ -600,7 +600,7 @@
   "sitemap-title": "Sitemap",
   "sound_speed": "Schallgeschwindigkeit",
   "sound_speed-description": "Die Schallgeschwindigkeit gibt an, mit welcher Geschwindigkeit sich Schallwellen in einem Medium ausbreiten. Sie ist von der Dichte des Stoffs, dem Druck und der Temperatur abhängig.",
-  "spectrum-description": "Die abgebildeten Spektrallinien sind charakteristisch für die emittierten elektromagnetischen Wellen jedes chemischen Elements. Sie werden durch die mit Licht angeregten elektronischen Übergänge in Atomen oder Molekülen erzeugt.",
+  "spectrum-description": "Die abgebildeten Spektrallinien sind charakteristisch für die emittierten elektromagnetischen Wellen jedes chemischen Elements. Sie werden durch die mit Licht angeregten elektronischen Übergänge in Atomen oder Molekülen erzeugt. Die Darstellung umfasst dabei den für das menschliche Auge sichtbaren Bereich des elektromagnetischen Spektrums von etwa 380 bis 750 nm.",
   "spectrum-title": "Spektralanalyse",
   "stable": "stabiles Nuklid",
   "stable--short": "<abbr title=\"stabiles Nuklid ohne Zerfallsprodukte\">stab.</abbr>",
