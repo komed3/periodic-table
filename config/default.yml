@@ -2,7 +2,7 @@
 # default config file
 
 server:
-  baseURL: https://pse-info.de
+  baseURL: "https://pse-info.de"
   port: 3000
   cookieAge: 1.0e+10
   rateLimit:
@@ -69,245 +69,245 @@ properties:
 
 scales:
   standard_atomic_weight:
-    key: standard_atomic_weight
-    label: standard-atomic-weight
-    scheme: _ice
+    key: "standard_atomic_weight"
+    label: "standard-atomic-weight"
+    scheme: "_ice"
   atomic_mass:
-    key: atomic_mass
-    label: atomic-mass
-    scheme: _ice
+    key: "atomic_mass"
+    label: "atomic-mass"
+    scheme: "_ice"
   radius_empirical:
-    key: radius.empirical
-    label: empirical-radius
-    scheme: _fire
+    key: "radius.empirical"
+    label: "empirical-radius"
+    scheme: "_fire"
     scaling: true
   radius_calculated:
-    key: radius.calculated
-    label: calculated-radius
-    scheme: _fire
+    key: "radius.calculated"
+    label: "calculated-radius"
+    scheme: "_fire"
     scaling: true
   radius_covalent:
-    key: radius.covalent
-    label: covalent-radius
-    scheme: _fire
+    key: "radius.covalent"
+    label: "covalent-radius"
+    scheme: "_fire"
     scaling: true
   radius_vdw:
-    key: radius.vdw
-    label: vdw-radius
-    scheme: _fire
+    key: "radius.vdw"
+    label: "vdw-radius"
+    scheme: "_fire"
     scaling: true
   density:
-    key: density
-    label: density
-    scheme: _fire
+    key: "density"
+    label: "density"
+    scheme: "_fire"
   molar_volume:
-    key: molar_volume
-    label: molar_volume
-    scheme: _fire
+    key: "molar_volume"
+    label: "molar_volume"
+    scheme: "_fire"
   sound_speed:
-    key: sound_speed
-    label: sound_speed
-    scheme: _ice
+    key: "sound_speed"
+    label: "sound_speed"
+    scheme: "_ice"
     log: true
   temp_melting:
-    key: temperature.melting
-    label: melting-temp
-    scheme: _ice_reverse
+    key: "temperature.melting"
+    label: "melting-temp"
+    scheme: "_ice_reverse"
   temp_boiling:
-    key: temperature.boiling
-    label: boiling-temp
-    scheme: _fire
+    key: "temperature.boiling"
+    label: "boiling-temp"
+    scheme: "_fire"
   temp_liquid:
-    key: temperature.liquid
-    label: liquid-temp
-    scheme: _ice
+    key: "temperature.liquid"
+    label: "liquid-temp"
+    scheme: "_ice"
   temp_sublimation:
-    key: temperature.sublimation
-    label: sublimation-temp
-    scheme: _fire
+    key: "temperature.sublimation"
+    label: "sublimation-temp"
+    scheme: "_fire"
   temp_triple:
-    key: temperature.triple
-    label: triple-temp
-    scheme: _fire
+    key: "temperature.triple"
+    label: "triple-temp"
+    scheme: "_fire"
   temp_critical:
-    key: temperature.critical
-    label: critical-temp
-    scheme: _fire
+    key: "temperature.critical"
+    label: "critical-temp"
+    scheme: "_fire"
   temp_transition:
-    key: temperature.transition
-    label: transition-temp
-    scheme: _fire
+    key: "temperature.transition"
+    label: "transition-temp"
+    scheme: "_fire"
   enthalpy_fusion:
-    key: enthalpy.fusion
-    label: fusion-enthalpy
-    scheme: _fire
+    key: "enthalpy.fusion"
+    label: "fusion-enthalpy"
+    scheme: "_fire"
     scaling: true
   enthalpy_vaporisation:
-    key: enthalpy.vaporisation
-    label: vaporisation-enthalpy
-    scheme: _fire
+    key: "enthalpy.vaporisation"
+    label: "vaporisation-enthalpy"
+    scheme: "_fire"
     scaling: true
   enthalpy_atomisation:
-    key: enthalpy.atomisation
-    label: atomisation-enthalpy
-    scheme: _fire
+    key: "enthalpy.atomisation"
+    label: "atomisation-enthalpy"
+    scheme: "_fire"
     scaling: true
   heat_capacity:
-    key: heat.heat_capacity
-    label: heat_capacity
-    scheme: _fire
+    key: "heat.heat_capacity"
+    label: "heat_capacity"
+    scheme: "_fire"
     min: 100
     max: 2500
   thermal_conductivity:
-    key: heat.thermal_conductivity
-    label: thermal_conductivity
-    scheme: _fire
+    key: "heat.thermal_conductivity"
+    label: "thermal_conductivity"
+    scheme: "_fire"
   thermal_expansion:
-    key: heat.thermal_expansion
-    label: thermal_expansion
-    scheme: _fire
+    key: "heat.thermal_expansion"
+    label: "thermal_expansion"
+    scheme: "_fire"
     log: true
     scaling: true
   work_function:
-    key: heat.work_function
-    label: work_function
-    scheme: _fire
+    key: "heat.work_function"
+    label: "work_function"
+    scheme: "_fire"
     scaling: true
   hardness_mohs:
-    key: hardness.mohs
-    label: mohs-hardness
-    scheme: _ice
-    round: floor
+    key: "hardness.mohs"
+    label: "mohs-hardness"
+    scheme: "_ice"
+    round: "floor"
     step: 1
     min: 0
     max: 10
   hardness_brinell:
-    key: hardness.brinell
-    label: brinell-hardness
-    scheme: _ice
+    key: "hardness.brinell"
+    label: "brinell-hardness"
+    scheme: "_ice"
   hardness_vickers:
-    key: hardness.vickers
-    label: vickers-hardness
-    scheme: _ice
+    key: "hardness.vickers"
+    label: "vickers-hardness"
+    scheme: "_ice"
   elastic_young:
-    key: elastic.young
-    label: young-elastic
-    scheme: _ice
+    key: "elastic.young"
+    label: "young-elastic"
+    scheme: "_ice"
     scaling: true
   elastic_rigidity:
-    key: elastic.rigidity
-    label: rigidity-elastic
-    scheme: _ice
+    key: "elastic.rigidity"
+    label: "rigidity-elastic"
+    scheme: "_ice"
     scaling: true
   elastic_bulk:
-    key: elastic.bulk
-    label: bulk-elastic
-    scheme: _ice
+    key: "elastic.bulk"
+    label: "bulk-elastic"
+    scheme: "_ice"
     scaling: true
   elastic_poisson:
-    key: elastic.poisson
-    label: poisson-elastic
-    scheme: _ice
+    key: "elastic.poisson"
+    label: "poisson-elastic"
+    scheme: "_ice"
     scaling: true
   electrical_conductivity:
-    key: electrical.conductivity
-    label: electrical_conductivity
-    scheme: _ice_reverse
+    key: "electrical.conductivity"
+    label: "electrical_conductivity"
+    scheme: "_ice_reverse"
     min: 0.9e+6
     max: 5.0e+7
   electrical_resistivity:
-    key: electrical.resistivity
-    label: electrical_resistivity
-    scheme: _ice
+    key: "electrical.resistivity"
+    label: "electrical_resistivity"
+    scheme: "_ice"
     log: true
   curie_point:
-    key: curie_point
-    label: curie_point
-    scheme: _ice_reverse
+    key: "curie_point"
+    label: "curie_point"
+    scheme: "_ice_reverse"
     scaling: true
   neel_point:
-    key: neel_point
-    label: neel_point
-    scheme: _ice_reverse
+    key: "neel_point"
+    label: "neel_point"
+    scheme: "_ice_reverse"
     scaling: true
   optical_reflectivity:
-    key: optical.reflectivity
-    label: reflectivity-optical
-    scheme: _ice
+    key: "optical.reflectivity"
+    label: "reflectivity-optical"
+    scheme: "_ice"
   optical_refractive_index:
-    key: optical.refractive_index
-    label: refractive_index-optical
-    scheme: _ice
+    key: "optical.refractive_index"
+    label: "refractive_index-optical"
+    scheme: "_ice"
     log: true
   standard_potential:
-    key: standard_potential
-    label: standard-potential
-    scheme: _fire
+    key: "standard_potential"
+    label: "standard-potential"
+    scheme: "_fire"
   negativity_pauling:
-    key: negativity.pauling
-    label: pauling-negativity
-    scheme: _fire
+    key: "negativity.pauling"
+    label: "pauling-negativity"
+    scheme: "_fire"
   negativity_sanderson:
-    key: negativity.sanderson
-    label: sanderson-negativity
-    scheme: _fire
+    key: "negativity.sanderson"
+    label: "sanderson-negativity"
+    scheme: "_fire"
   negativity_allred:
-    key: negativity.allred
-    label: allred-negativity
-    scheme: _fire
+    key: "negativity.allred"
+    label: "allred-negativity"
+    scheme: "_fire"
   negativity_mulliken:
-    key: negativity.mulliken
-    label: mulliken-negativity
-    scheme: _fire
+    key: "negativity.mulliken"
+    label: "mulliken-negativity"
+    scheme: "_fire"
   negativity_allen:
-    key: negativity.allen
-    label: allen-negativity
-    scheme: _fire
+    key: "negativity.allen"
+    label: "allen-negativity"
+    scheme: "_fire"
   negativity_ghosh_gupta:
-    key: negativity.ghosh_gupta
-    label: ghosh_gupta-negativity
-    scheme: _fire
+    key: "negativity.ghosh_gupta"
+    label: "ghosh_gupta-negativity"
+    scheme: "_fire"
   negativity_boyd:
-    key: negativity.boyd
-    label: boyd-negativity
-    scheme: _fire
+    key: "negativity.boyd"
+    label: "boyd-negativity"
+    scheme: "_fire"
   negativity_nagle:
-    key: negativity.nagle
-    label: nagle-negativity
-    scheme: _fire
+    key: "negativity.nagle"
+    label: "nagle-negativity"
+    scheme: "_fire"
   negativity_pearson:
-    key: negativity.pearson
-    label: pearson-negativity
-    scheme: _fire
+    key: "negativity.pearson"
+    label: "pearson-negativity"
+    scheme: "_fire"
   price:
-    key: price
-    label: price
-    scheme: _ice
+    key: "price"
+    label: "price"
+    scheme: "_ice"
     log: true
     scaling: true
 
 abundances:
   universe:
     mass: 2.0e+49
-    icon: satellite_alt
+    icon: "satellite_alt"
   sun:
     mass: 1.989e+30
-    icon: sunny
+    icon: "sunny"
   meteorite:
     mass: 1.0e+3
-    icon: destruction
+    icon: "destruction"
   crust:
     mass: 2.77e+22
-    icon: public
+    icon: "public"
   water:
     mass: 1.37e+18
-    icon: water_drop
+    icon: "water_drop"
   stream:
     mass: 1.6e+16
-    icon: waves
+    icon: "waves"
   human:
     mass: 70.0
-    icon: accessibility_new
+    icon: "accessibility_new"
 
 tools:
   - "molar_mass"
