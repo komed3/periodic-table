@@ -10,9 +10,10 @@ server:
     waiting: 60000
 
 maintenance:
-  databases: [
-    elements, nuclides, spectrum
-  ]
+  databases:
+    - "elements"
+    - "nuclides"
+    - "spectrum"
 
 i18n:
   default: "en"
@@ -25,25 +26,46 @@ i18n:
     fr: "en"
 
 themes:
-  default: light
-  list: [
-    light, dark
-  ]
+  default: "light"
+  list:
+    - "light"
+    - "dark"
 
 pt:
   offset: 3
 
-lists: [
-  group, period, set, era, block, phase, natural_occurrence,
-  basicity, goldschmidt, radioactivity, crystal_structure,
-  magnetic_ordering, superconductivity
-]
+lists:
+  - "group"
+  - "period"
+  - "set"
+  - "era"
+  - "block"
+  - "phase"
+  - "natural_occurrence"
+  - "basicity"
+  - "goldschmidt"
+  - "radioactivity"
+  - "crystal_structure"
+  - "magnetic_ordering"
+  - "superconductivity"
 
-properties: [
-  radioactive, natural, native, vital, mononuclidic,
-  stable, noble, semiconductor, light, heavy, rare,
-  platinum, refractory, artificial, synthetic, antiquity
-]
+properties:
+  - "radioactive"
+  - "natural"
+  - "native"
+  - "vital"
+  - "mononuclidic"
+  - "stable"
+  - "noble"
+  - "semiconductor"
+  - "light"
+  - "heavy"
+  - "rare"
+  - "platinum"
+  - "refractory"
+  - "artificial"
+  - "synthetic"
+  - "antiquity"
 
 scales:
   standard_atomic_weight:
@@ -287,7 +309,10 @@ abundances:
     mass: 70.0
     icon: accessibility_new
 
-tools: [
-  molar_mass, nuclear_decay, concentration,
-  gas_law, ph, stoichiometry
-]
+tools:
+  - "molar_mass"
+  - "nuclear_decay"
+  - "concentration"
+  - "gas_law"
+  - "ph"
+  - "stoichiometry"
