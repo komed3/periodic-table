@@ -15,13 +15,14 @@ maintenance:
   ]
 
 i18n:
-  default: en
-  list: [
-    en, de, fr
-  ]
+  default: "en"
+  list:
+    - "en"
+    - "de"
+    - "fr"
   fallbacks:
-    en: de
-    fr: de
+    de: "en"
+    fr: "en"
 
 themes:
   default: light
