@@ -45,6 +45,15 @@ async function getImage( el, url ) {
 
     console.log( 'proceed image for "' + el + '" ...' );
 
+    const allowedHost = 'upload.wikimedia.org';
+    const parsed = new URL( url );
+
+    if( parsed.protocol !== 'https:' || parsed.hostname !== allowedHost ) {
+
+        throw new Error( 'refused to fetch image for "' + el + '" from untrusted host "' + parsed.hostname + '"' );
+
+    }
+
     const response = await axios.get( url, { responseType: 'arraybuffer' } );
     const filetype = url.split( '.' ).reverse()[0].toString().toLowerCase();
     const filepath = path + el + '.' + filetype;
