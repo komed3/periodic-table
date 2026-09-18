@@ -86,10 +86,31 @@ const getPos = ( el, offset = 3 ) => {
 };
 
 /**
+ * escape html
+ * @param {String} str string to escape
+ * @returns escaped string
+ */
+const escape = ( str ) => {
+
+    return str.replace( /[&<>"']/g, ( m ) => {
+
+        switch ( m ) {
+            case '&': return '&amp;';
+            case '<': return '&lt;';
+            case '>': return '&gt;';
+            case '"': return '&quot;';
+            case '\'': return '&#39;';
+        }
+
+    } );
+
+};
+
+/**
  * export public methods
  */
 module.exports = {
     setLocale, parseURL,
     getCanonical, url,
-    getPos
+    getPos, escape
 };
