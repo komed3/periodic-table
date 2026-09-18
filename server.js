@@ -1188,8 +1188,10 @@ routes.forEach( ( route ) => {
              * catch server error
              */
 
+            console.error( err );
+
             res.status( 500 ).send(
-                'ERROR: ' + err
+                'ERROR: Internal Server Error'
             );
 
         };
