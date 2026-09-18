@@ -123,7 +123,7 @@ window.addEventListener( 'load', function () {
         const { mol, g } = convertVolume( molarMass );
 
         resTotal.querySelector( '[data-res="mol"]' ).innerHTML = formatNum( mol ) + ' mol';
-        resTotal.querySelector( '[data-res="formula"]' ).innerHTML = formula.value;
+        resTotal.querySelector( '[data-res="formula"]' ).textContent = formula.value;
         resTotal.querySelector( '[data-res="mass"]' ).innerHTML = formatNum( g ) + ' g';
 
         resTable.querySelector( 'tbody' ).innerHTML = resRows;
