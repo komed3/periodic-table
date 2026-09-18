@@ -10,10 +10,11 @@ window.addEventListener( 'load', function () {
         const z = params.get( 'z' ) ?? 0;
         const n = params.get( 'n' ) ?? 0;
 
-        window.location.href = (
-            url.origin + url.pathname + '?z=' + z + '&n=' +
-            n + '&schema=' + e.target.value
-        );
+        params.set( 'z', z );
+        params.set( 'n', n );
+        params.set( 'schema', e.target.value );
+        url.search = params.toString();
+        window.location.href = url.toString();
 
     } );
 
