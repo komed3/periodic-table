@@ -223,7 +223,7 @@ routes.forEach( ( route ) => {
             res.locals.breadcrumbs = [];
 
             res.locals.search = {
-                query: req.query.q || req.query.query || ''
+                query: core.escape( req.query.q || req.query.query || '' )
             };
 
             res.locals.table = {
