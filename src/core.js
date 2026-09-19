@@ -92,17 +92,12 @@ const getPos = ( el, offset = 3 ) => {
  */
 const escape = ( str ) => {
 
-    return str.replace( /[&<>"']/g, ( m ) => {
-
-        switch ( m ) {
-            case '&': return '&amp;';
-            case '<': return '&lt;';
-            case '>': return '&gt;';
-            case '"': return '&quot;';
-            case '\'': return '&#39;';
-        }
-
-    } );
+    return str
+        .replace( /&/g, '&amp;' )
+        .replace( /</g, '&lt;' )
+        .replace( />/g, '&gt;' )
+        .replace( /"/g, '&quot;' )
+        .replace( /'/g, '&#039;' );
 
 };
 
