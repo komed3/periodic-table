@@ -2,7 +2,7 @@
 extends page.pug
 
 block title
-  - var title = __( 'search-title', search.query )
+  - var title = __( 'search-title', core.escape( search.query ) )
   title= title + ' — ' + __( 'periodic-table' )
 
 block social
@@ -15,7 +15,7 @@ block content
   div.pt-page.pt-box.pt-search
     h1!= title
     include templates/searchform.pug
-    p.pt-search-label!= __( 'search-results', search.found, search.query )
+    p.pt-search-label!= __( 'search-results', search.found, core.escape( search.query ) )
     if Object.keys( list.items ).length
       div.pt-search-results
         include templates/elementlist.pug
@@ -23,4 +23,4 @@ block content
       div.pt-search-empty
         i.icon dangerous
         h2!= __( 'search-empty' )
-        p!= __( 'search-empty-info', search.query )
+        p!= __( 'search-empty-info', core.escape( search.query ) )

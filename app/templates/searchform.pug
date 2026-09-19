@@ -8,7 +8,7 @@ div.pt-searchform
     i.icon.pt-searchform-icon search
     input.pt-searchform-input(
       type= 'text', name= 'q',
-      value= search.query,
+      value!= core.escape( search.query ),
       placeholder= __( 'search-placeholder' ),
       spellcheck= 'false'
     )
